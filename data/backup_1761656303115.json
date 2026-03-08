@@ -1,0 +1,106 @@
+{
+  "id": "d8cdaf46-0cb1-4fe1-a588-ad6f2869a681",
+  "timestamp": "2025-10-28T12:58:23.115Z",
+  "traveler": {
+    "name": "harshita",
+    "nickname": null,
+    "departure": "Dubai",
+    "destination": "miami",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "4450",
+    "currency": "EUR",
+    "travelStyle": "Luxury Escapes ✨, Beach Retreats 🏖️",
+    "preferences": [
+      "Luxury Escapes ✨",
+      "Beach Retreats 🏖️"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in Miami\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from Dubai city center to Dubai Airport — 30 min, €30\",\n      \"flight\": \"Emirates EK 213, 02:15 – 09:00, €800\",\n      \"arrival_transfer\": \"Luxury SUV transfer from Miami Airport to hotel — 20 min, €65\",\n      \"activities\": [\n        \"Check-in and freshen up at the hotel\",\n        \"Explore South Beach and enjoy the iconic Art Deco architecture\",\n        \"Dinner at the elegant Juvia with a rooftop view\"\n      ],\n      \"cost_range\": \"€895 – €925\",\n      \"duration_estimate\": \"12–14 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Beach Day & Exploration\",\n    \"details\": {\n      \"from_hotel_to_beach\": \"Walk to Miami Beach — 5 min\",\n      \"activities\": [\n        \"Breakfast at the hotel buffet\",\n        \"Relax at Miami Beach, sunbathing and swimming\",\n        \"Lunch at The Beach Bar next to the shore\",\n        \"Visit the Lincoln Road Mall for shopping and leisure\",\n        \"Dinner at the exquisite Stubborn Seed\"\n      ],\n      \"local_commute_cost\": \"N/A (walk)\",\n      \"cost_range\": \"€200 – €250\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Cultural Day\",\n    \"details\": {\n      \"from_hotel_to_art_basel\": \"Taxi to Wynwood Art District — 15 min, €20\",\n      \"activities\": [\n        \"Breakfast at The Front Porch Cafe\",\n        \"Explore Wynwood Walls and local galleries\",\n        \"Lunch at Wynwood Kitchen & Bar\",\n        \"Take a guided tour of the Vizcaya Museum and Gardens\",\n        \"Dinner at the modern and upscale Makoto\"\n      ],\n      \"local_commute_cost\": \"€20 (round trip)\",\n      \"cost_range\": \"€250 – €300\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Water Activities & Relaxation\",\n    \"details\": {\n      \"from_hotel_to_dock\": \"Uber to the marina — 10 min, €15\",\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Go on a private yacht charter for a half-day cruise around Biscayne Bay\",\n        \"Lunch onboard with catered gourmet meals\",\n        \"Return to hotel and enjoy the pool\",\n        \"Dinner at the exclusive Prime 112\"\n      ],\n      \"local_commute_cost\": \"€15 (Uber)\",\n      \"cost_range\": \"€450 – €500\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Leisure & Farewell Miami\",\n    \"details\": {\n      \"from_hotel_to_airport\": \"Private transfer to Miami Airport — 20 min, €65\",\n      \"flight\": \"Emirates EK 214, 17:20 – 23:30, €800\",\n      \"activities\": [\n        \"Breakfast at a local café\",\n        \"Relax and enjoy hotel amenities until checkout\",\n        \"Light lunch at the hotel\",\n        \"Final shopping for souvenirs at Bayside Marketplace\"\n      ],\n      \"cost_range\": \"€865 – €895\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  }\n]",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in Miami",
+      "details": {
+        "from_city_to_airport": "Taxi from Dubai city center to Dubai Airport — 30 min, €30",
+        "flight": "Emirates EK 213, 02:15 – 09:00, €800",
+        "arrival_transfer": "Luxury SUV transfer from Miami Airport to hotel — 20 min, €65",
+        "activities": [
+          "Check-in and freshen up at the hotel",
+          "Explore South Beach and enjoy the iconic Art Deco architecture",
+          "Dinner at the elegant Juvia with a rooftop view"
+        ],
+        "cost_range": "€895 – €925",
+        "duration_estimate": "12–14 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Beach Day & Exploration",
+      "details": {
+        "from_hotel_to_beach": "Walk to Miami Beach — 5 min",
+        "activities": [
+          "Breakfast at the hotel buffet",
+          "Relax at Miami Beach, sunbathing and swimming",
+          "Lunch at The Beach Bar next to the shore",
+          "Visit the Lincoln Road Mall for shopping and leisure",
+          "Dinner at the exquisite Stubborn Seed"
+        ],
+        "local_commute_cost": "N/A (walk)",
+        "cost_range": "€200 – €250"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Cultural Day",
+      "details": {
+        "from_hotel_to_art_basel": "Taxi to Wynwood Art District — 15 min, €20",
+        "activities": [
+          "Breakfast at The Front Porch Cafe",
+          "Explore Wynwood Walls and local galleries",
+          "Lunch at Wynwood Kitchen & Bar",
+          "Take a guided tour of the Vizcaya Museum and Gardens",
+          "Dinner at the modern and upscale Makoto"
+        ],
+        "local_commute_cost": "€20 (round trip)",
+        "cost_range": "€250 – €300"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Water Activities & Relaxation",
+      "details": {
+        "from_hotel_to_dock": "Uber to the marina — 10 min, €15",
+        "activities": [
+          "Breakfast at the hotel",
+          "Go on a private yacht charter for a half-day cruise around Biscayne Bay",
+          "Lunch onboard with catered gourmet meals",
+          "Return to hotel and enjoy the pool",
+          "Dinner at the exclusive Prime 112"
+        ],
+        "local_commute_cost": "€15 (Uber)",
+        "cost_range": "€450 – €500"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Leisure & Farewell Miami",
+      "details": {
+        "from_hotel_to_airport": "Private transfer to Miami Airport — 20 min, €65",
+        "flight": "Emirates EK 214, 17:20 – 23:30, €800",
+        "activities": [
+          "Breakfast at a local café",
+          "Relax and enjoy hotel amenities until checkout",
+          "Light lunch at the hotel",
+          "Final shopping for souvenirs at Bayside Marketplace"
+        ],
+        "cost_range": "€865 – €895",
+        "duration_estimate": "8–10 hours total"
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "74a6c9cd-6c92-4f3d-9eb2-1e9d8c61ab99",
+  "timestamp": "2025-10-28T13:00:00.998Z",
+  "traveler": {
+    "name": "harshita",
+    "nickname": null,
+    "departure": "Dubai",
+    "destination": "miami",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "4450",
+    "currency": "EUR",
+    "travelStyle": "Luxury Escapes ✨, Beach Retreats 🏖️",
+    "preferences": [
+      "Luxury Escapes ✨",
+      "Beach Retreats 🏖️"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in Miami\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from Dubai city center to Dubai Airport — 45 min, €30\",\n      \"flight\": \"Emirates EK-213, 10:30 – 15:00, €700\",\n      \"arrival_transfer\": \"Private car from Miami Airport to hotel — 25 min, €40\",\n      \"activities\": [\n        \"Check-in at the luxurious Fontainebleau Miami Beach\",\n        \"Relax by the pool with a cocktail\",\n        \"Dinner at Scarpetta, known for its stunning ocean views\"\n      ],\n      \"cost_range\": \"€770 – €810\",\n      \"duration_estimate\": \"12 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Relaxing Beach Day\",\n    \"details\": {\n      \"breakfast\": \"Breakfast at the hotel — included\",\n      \"activities\": [\n        \"Spend the morning relaxing on the private beach\",\n        \"Lunch at Lure Fishbar for delightful seafood — €50\",\n        \"Afternoon: Spa session at the hotel — €200\",\n        \"Evening stroll along Ocean Drive\"\n      ],\n      \"dinner\": \"Dinner at Joe's Stone Crab — €80\",\n      \"shopping_stop\": \"7-Eleven for snacks — €10\",\n      \"cost_range\": \"€340 – €360\",\n      \"duration_estimate\": \"8 hours\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Exploring the Vibrant Culture\",\n    \"details\": {\n      \"breakfast\": \"Breakfast at the hotel — included\",\n      \"activities\": [\n        \"Visit the Pérez Art Museum Miami (PAMM) — €15\",\n        \"Lunch at the museum cafe — €35\",\n        \"Explore Wynwood Walls — free entry\",\n        \"Dinner at Yardbird Southern Table & Bar — €70\"\n      ],\n      \"shopping_stop\": \"Local supermarket — €10\",\n      \"cost_range\": \"€130 – €150\",\n      \"duration_estimate\": \"8 hours\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Adventure in the Everglades\",\n    \"details\": {\n      \"breakfast\": \"Early breakfast at the hotel — included\",\n      \"activities\": [\n        \"Full-day guided tour to Everglades National Park — €120\",\n        \"Lunch included in tour\",\n        \"Return to hotel in the evening\",\n        \"Dinner at a beachside restaurant — €90\"\n      ],\n      \"shopping_stop\": \"Local convenience store — €10\",\n      \"cost_range\": \"€220 – €250\",\n      \"duration_estimate\": \"10 hours\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Leisure and Glamour\",\n    \"details\": {\n      \"breakfast\": \"Breakfast at the hotel — included\",\n      \"activities\": [\n        \"Spend the day at the hotel pool or beach\",\n        \"Lunch at the hotel poolside bar — €50\",\n        \"Afternoon: Shopping at Bal Harbour Shops — €250\",\n        \"Farewell dinner at Nobu Miami — €150\"\n      ],\n      \"shopping_stop\": \"Gift shop at the hotel — €40\",\n      \"cost_range\": \"€490 – €520\",\n      \"duration_estimate\": \"8 hours\"\n    }\n  },\n  {\n    \"day\": 6,\n    \"title\": \"Departure from Miami\",\n    \"details\": {\n      \"from_hotel_to_airport\": \"Private car from hotel to Miami Airport — 25 min, €40\",\n      \"flight\": \"Emirates EK-214, 17:00 – 10:30 (next day), €700\",\n      \"cost_range\": \"€740 – €780\",\n      \"duration_estimate\": \"10 hours total\"\n    }\n  },\n  {\n    \"summary\": {\n      \"total_estimated_budget_range\": \"€2,690 – €2,910\",\n      \"cost_breakdown\": {\n        \"transport\": \"€340\",\n        \"flights\": \"€1,400\",\n        \"accommodation\": \"€1,200\",\n        \"meals\": \"€450\",\n        \"activities\": \"€300\"\n      }\n    }\n  }\n]",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in Miami",
+      "details": {
+        "from_city_to_airport": "Taxi from Dubai city center to Dubai Airport — 45 min, €30",
+        "flight": "Emirates EK-213, 10:30 – 15:00, €700",
+        "arrival_transfer": "Private car from Miami Airport to hotel — 25 min, €40",
+        "activities": [
+          "Check-in at the luxurious Fontainebleau Miami Beach",
+          "Relax by the pool with a cocktail",
+          "Dinner at Scarpetta, known for its stunning ocean views"
+        ],
+        "cost_range": "€770 – €810",
+        "duration_estimate": "12 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Relaxing Beach Day",
+      "details": {
+        "breakfast": "Breakfast at the hotel — included",
+        "activities": [
+          "Spend the morning relaxing on the private beach",
+          "Lunch at Lure Fishbar for delightful seafood — €50",
+          "Afternoon: Spa session at the hotel — €200",
+          "Evening stroll along Ocean Drive"
+        ],
+        "dinner": "Dinner at Joe's Stone Crab — €80",
+        "shopping_stop": "7-Eleven for snacks — €10",
+        "cost_range": "€340 – €360",
+        "duration_estimate": "8 hours"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Exploring the Vibrant Culture",
+      "details": {
+        "breakfast": "Breakfast at the hotel — included",
+        "activities": [
+          "Visit the Pérez Art Museum Miami (PAMM) — €15",
+          "Lunch at the museum cafe — €35",
+          "Explore Wynwood Walls — free entry",
+          "Dinner at Yardbird Southern Table & Bar — €70"
+        ],
+        "shopping_stop": "Local supermarket — €10",
+        "cost_range": "€130 – €150",
+        "duration_estimate": "8 hours"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Adventure in the Everglades",
+      "details": {
+        "breakfast": "Early breakfast at the hotel — included",
+        "activities": [
+          "Full-day guided tour to Everglades National Park — €120",
+          "Lunch included in tour",
+          "Return to hotel in the evening",
+          "Dinner at a beachside restaurant — €90"
+        ],
+        "shopping_stop": "Local convenience store — €10",
+        "cost_range": "€220 – €250",
+        "duration_estimate": "10 hours"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Leisure and Glamour",
+      "details": {
+        "breakfast": "Breakfast at the hotel — included",
+        "activities": [
+          "Spend the day at the hotel pool or beach",
+          "Lunch at the hotel poolside bar — €50",
+          "Afternoon: Shopping at Bal Harbour Shops — €250",
+          "Farewell dinner at Nobu Miami — €150"
+        ],
+        "shopping_stop": "Gift shop at the hotel — €40",
+        "cost_range": "€490 – €520",
+        "duration_estimate": "8 hours"
+      }
+    },
+    {
+      "day": 6,
+      "title": "Departure from Miami",
+      "details": {
+        "from_hotel_to_airport": "Private car from hotel to Miami Airport — 25 min, €40",
+        "flight": "Emirates EK-214, 17:00 – 10:30 (next day), €700",
+        "cost_range": "€740 – €780",
+        "duration_estimate": "10 hours total"
+      }
+    },
+    {
+      "summary": {
+        "total_estimated_budget_range": "€2,690 – €2,910",
+        "cost_breakdown": {
+          "transport": "€340",
+          "flights": "€1,400",
+          "accommodation": "€1,200",
+          "meals": "€450",
+          "activities": "€300"
+        }
+      }
+    }
+  ]
+}

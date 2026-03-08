@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SKYmora — Plan Your Trip</title>
+
+  <!-- Playfair Display: Premium Serif for Brand -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <main class="panel" role="main">
+    <section class="hero-intro">
+      <div class="logo-wrapper">
+        <h1 class="main-heading">
+  <span class="sky">SKY</span><span class="mora">mora</span>
+</h1>
+
+
+        <p class="intro-text">
+          At SKYmora Travels, every journey begins with understanding you.<br>
+          An expert listens, learns, and designs personalized itineraries<br>
+          crafted exclusively for you.
+        </p>
+      </div>
+    </section>
+
+
+
+  
+
+</section>
+
+    <form id="tripForm" autocomplete="off">
+      <div class="row">
+        <div class="col">
+          <label>Full Name</label>
+          <input id="name" name="fullname" type="text" placeholder="Full name" required>
+
+        </div>
+        <div class="col">
+          <label>Nickname (optional)</label>
+<input id="nickname" name="nickname" type="text" placeholder="Nickname (optional)">
+
+        </div>
+      </div>
+
+      <label>Departure</label>
+      <input id="departure" type="text" placeholder="City, state, or airport from where you want to travel" required>
+
+      <div class="suggestions" id="departure-list" role="listbox"></div>
+
+      <label>Destination (optional)</label>
+     <input id="destination" type="text" placeholder="If you have a destination, type it here — or our expert will help you decide" />
+
+      <div class="suggestions" id="destination-list" role="listbox"></div>
+
+      <label>Trip Type</label>
+      <div class="inline-toggle" role="radiogroup" aria-label="Trip Type">
+        <button type="button" class="toggle active" data-value="oneway">One way</button>
+        <button type="button" class="toggle" data-value="return">Round Trip </button>
+      </div>
+
+      <div class="row small">
+        <div class="col">
+          <label>Adults</label>
+          <div class="stepper"><button type="button" class="dec">–</button><span class="value">1</span><button type="button" class="inc">+</button></div>
+        </div>
+        <div class="col">
+          <label>Children</label>
+          <div class="stepper"><button type="button" class="dec">–</button><span class="value">0</span><button type="button" class="inc">+</button></div>
+        </div>
+        <div class="col">
+          <label>Infants</label>
+          <div class="stepper"><button type="button" class="dec">–</button><span class="value">0</span><button type="button" class="inc">+</button></div>
+        </div>
+      </div>
+
+      <label>How many days are you thinking?</label>
+      <input name="duration" type="number" min="1" value="7">
+
+      <label>Dates</label>
+<div class="date-section">
+  <!-- Departure Date -->
+  <div class="date-field">
+    <label for="departureDate">Departure Date</label>
+    <div class="date-picker">
+      <input 
+        name="departureDate" 
+        id="departureDate" 
+        type="date" 
+        required>
+      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="42" height="42">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+      </span>
+    </div>
+  </div>
+
+  <!-- Return Date (Now handled dynamically by JS) -->
+  <div class="date-field return-date">
+    <label for="returnDate">Return Date</label>
+    <div class="date-picker">
+      <input 
+        name="returnDate" 
+        id="returnDate" 
+        type="date">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="42" height="42">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+<small class="date-format-hint">Select your travel dates</small>
+
+      <!-- 🕓 Timing Preferences -->
+<!-- 🕓 Preferred Timings -->
+<div id="timings">
+  <label>Preferred Timings <span class="optional-text">(optional)</span></label>
+
+  <input 
+    name="depTime" 
+    type="text" 
+    placeholder="Departure timing (e.g., Morning)"
+  >
+
+  <div id="returnTiming" class="hidden">
+    <input 
+      name="retTime" 
+      type="text" 
+      placeholder="Return timing (e.g., Evening)"
+    >
+  </div>
+</div>
+
+
+
+      <div class="experience-selector">
+  <label for="travelStyle">Choose the travel experiences you love:</label>
+  <div class="selector-box" id="selectorBox">Select experiences...</div>
+
+  <div class="experience-dropdown hidden" id="experienceDropdown">
+    <div class="experience-option"><input type="checkbox" value="Luxury Escapes ✨"> Luxury Escapes ✨</div>
+    <div class="experience-option"><input type="checkbox" value="Beach Retreats 🏖️"> Beach Retreats 🏖️</div>
+    <div class="experience-option"><input type="checkbox" value="Adventure Trails 🧭"> Adventure Trails 🧭</div>
+    <div class="experience-option"><input type="checkbox" value="Mountain Getaways 🏔️"> Mountain Getaways 🏔️</div>
+    <div class="experience-option"><input type="checkbox" value="Romantic Journeys 💞"> Romantic Journeys 💞</div>
+    <div class="experience-option"><input type="checkbox" value="Family Escapes 👨‍👩‍👧‍👦"> Family Escapes 👨‍👩‍👧‍👦</div>
+    <div class="experience-option"><input type="checkbox" value="Cultural Discoveries 🏛️"> Cultural Discoveries 🏛️</div>
+    <div class="experience-option"><input type="checkbox" value="City Life & Nightlife 🌆"> City Life & Nightlife 🌆</div>
+    <div class="experience-option"><input type="checkbox" value="Wildlife & Safaris 🐘"> Wildlife & Safaris 🐘</div>
+    <div class="experience-option"><input type="checkbox" value="Food & Wine Journeys 🍷"> Food & Wine Journeys 🍷</div>
+    <div class="experience-option"><input type="checkbox" value="Festivals & Local Events 🎭"> Festivals & Local Events 🎭</div>
+    <div class="experience-option"><input type="checkbox" value="Wellness & Spa Retreats 💆‍♀️"> Wellness & Spa Retreats 💆‍♀️</div>
+    <div class="experience-option"><input type="checkbox" value="Historical Wonders 🏰"> Historical Wonders 🏰</div>
+    <div class="experience-option"><input type="checkbox" value="Cruise Holidays 🚢"> Cruise Holidays 🚢</div>
+    <div class="experience-option"><input type="checkbox" value="Shopping Escapades 🛍️"> Shopping Escapades 🛍️</div>
+    <div class="experience-option"><input type="checkbox" value="Desert Adventures 🏜️"> Desert Adventures 🏜️</div>
+    <div class="experience-option"><input type="checkbox" value="Countryside Charm 🌾"> Countryside Charm 🌾</div>
+    <div class="experience-option"><input type="checkbox" value="Photography Tours 📸"> Photography Tours 📸</div>
+    <div class="experience-option"><input type="checkbox" value="Festival & Music Escapes 🎶"> Festival & Music Escapes 🎶</div>
+    <div class="experience-option"><input type="checkbox" value="Offbeat Hidden Gems 🗺️"> Offbeat Hidden Gems 🗺️</div>
+ <div class="close-experiences-footer">
+  <button type="button" id="closeExperienceList">Close List</button>
+</div>
+
+</div> <!-- ✅ closes #experienceDropdown -->
+
+<input type="hidden" id="travelStyle" name="travelStyle" />
+</div>
+
+
+<!-- 💰 Budget Selector -->
+<div class="budget-section">
+  <label for="budgetRange">Your Travel Budget</label>
+
+  <!-- Preset Range Dropdown -->
+  <div class="manual-entry">
+    <select id="manualBudget" aria-label="Budget Range">
+      <option value="500">$100 – $500</option>
+      <option value="1000" selected>$500 – $1,000</option>
+      <option value="1500">$1,000 – $1,500</option>
+      <option value="2500">$1,500 – $2,500</option>
+      <option value="4000">$2,500 – $4,000</option>
+      <option value="5000">$4,000 – $5,000</option>
+      <option value="6000">$5,000+</option>
+      <option value="manual">Set My Own Amount</option>
+
+    </select>
+
+    <!-- Custom input field (hidden until 'Custom Amount' selected) -->
+    <input 
+      type="number" 
+      id="manualInputBox" 
+      class="hidden" 
+      placeholder="Enter your custom budget..." 
+    />
+
+    <!-- Back link (appears only when custom mode is active) -->
+    <span id="backToPreset" class="hidden back-to-preset">↩ Back to preset options</span>
+  </div>
+
+  <!-- Currency & Slider Controls -->
+  <div class="budget-controls">
+    <select id="currencySelect">
+      <option value="USD" data-symbol="$" selected>USD ($)</option>
+      <option value="EUR" data-symbol="€">EUR (€)</option>
+      <option value="GBP" data-symbol="£">GBP (£)</option>
+      <option value="INR" data-symbol="₹">INR (₹)</option>
+      <option value="CAD" data-symbol="C$">CAD (C$)</option>
+      <option value="AUD" data-symbol="A$">AUD (A$)</option>
+      <option value="SGD" data-symbol="S$">SGD (S$)</option>
+      <option value="AED" data-symbol="د.إ">AED (د.إ)</option>
+      <option value="JPY" data-symbol="¥">JPY (¥)</option>
+      <option value="CHF" data-symbol="CHF">CHF (CHF)</option>
+    </select>
+
+    <input type="range" id="budgetRange" min="100" max="10000" value="1000" step="50">
+  </div>
+
+  <div class="budget-display">
+    <span id="budgetValue">$1,000</span>
+  </div>
+</div>
+
+
+
+      <label>*Any special requests or experience you want?</label>
+<textarea id="specialRequest" name="specialRequest" placeholder="e.g., restaurants, museums, hiking, vegetarian meals, honeymoon surprises..."></textarea>
+
+      <button class="cta" type="button">Start My Journey</button>
+
+<p id="confirmation" class="confirmation" role="status" aria-live="polite"></p>
+
+    </form>
+  </main>
+
+<script src="script-v3.js"></script>
+</body>
+</html>

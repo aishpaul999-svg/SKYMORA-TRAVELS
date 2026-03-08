@@ -1,0 +1,2051 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+  .main-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+
+
+
+:root{
+  --accent: #f4b41a;
+  --panel-bg: rgba(255,255,255,0.12);
+  --input-bg: rgba(255,255,255,0.95);
+}
+/* === ✨ SKYmora travels — Premium Text Palette === */
+:root {
+  --text-primary: #111827;
+  --text-secondary: #2d3748;
+  --text-muted: #4a5568;
+}
+
+h1, h2, h3, label {
+  color: var(--text-primary);
+}
+
+p, .lead, .date-format-hint {
+  color: var(--text-secondary);
+}
+
+input, select, textarea {
+  color: var(--text-primary);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:'Poppins',system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;}
+/* === 🌌 SKYmora — Flicker-Free Luxury Background === */
+/* === 🌌 SKYmora — Fixed Aurora Background Visibility === */
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a1425;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  opacity: 1; /* ✅ make sure it’s visible */
+  transition: background-image 2s ease-in-out, opacity 1.5s ease-in-out;
+}
+
+
+@keyframes drift {
+  from { background-position: center top; }
+  to { background-position: center bottom; }
+}
+
+
+@keyframes drift{
+ to   { background-position: center right; }
+}
+
+.panel{
+  position:relative;z-index:2;max-width:760px;margin:4vh auto;padding:28px;border-radius:16px;
+  background:var(--panel-bg);backdrop-filter: blur(8px);box-shadow:0 8px 30px rgba(0,0,0,0.35);
+  color:#fff;
+}
+h1{font-size:2.6rem;margin:0 0 6px;font-weight:600;letter-spacing:0.2px}
+.lead{margin:0 0 18px;opacity:0.95}
+
+.row{display:flex;gap:12px}
+.col{flex:1}
+
+label{display:block;margin-bottom:6px;font-weight:500}
+input[type=text], input[type=number], input[type=date], select, textarea{
+  width:100%;padding:11px;border-radius:10px;border:0;background:var(--input-bg);color:#222;font-size:1rem;margin-bottom:14px;
+}
+input[placeholder]{color:#444}
+.inline-toggle{display:flex;gap:8px;margin-bottom:14px}
+.toggle{padding:8px 18px;border-radius:999px;border:0;background:rgba(255,255,255,0.12);color:#fff;cursor:pointer}
+.toggle.active{background:var(--accent);color:#000;font-weight:600}
+
+.stepper{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.05);padding:6px;border-radius:8px}
+.stepper button{background:none;border:0;color:#fff;font-size:1.1rem;padding:6px;cursor:pointer}
+.stepper .value{min-width:26px;text-align:center;display:inline-block}
+
+.cta{width:100%;padding:14px;border-radius:10px;border:0;font-weight:700;background:linear-gradient(90deg,var(--accent),#ffcf6a);cursor:pointer;margin-top:6px}
+.cta:hover{filter:brightness(1.04);box-shadow:0 6px 20px rgba(244,180,26,0.18)}
+
+.suggestions{position:relative}
+.suggestions div{background:rgba(255,255,255,0.95);color:#111;padding:8px 10px;margin-top:-10px;border-radius:8px;cursor:pointer;border:1px solid rgba(0,0,0,0.06)}
+.suggestions div + div{margin-top:6px}
+
+.hidden{display:none}
+.confirmation{margin-top:12px;color:#fff8dc;font-style:italic}
+@media (max-width:720px){ .row{flex-direction:column} h1{font-size:2rem} .panel{margin:3vh 18px} }
+.experience-selector {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.selector-box {
+  background: var(--input-bg);
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color: #222;
+  font-size: 1rem;
+}
+
+.experience-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 6px;
+  z-index: 5;
+}
+
+
+.experience-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #111;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.experience-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.experience-option {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: color 0.2s ease;
+}
+.experience-option:hover {
+  color: var(--accent);
+}
+.selector-box {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+.date-picker {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 320px;
+  background: var(--input-bg);
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  transition: box-shadow 0.25s ease;
+}
+
+.date-picker:focus-within {
+  box-shadow: 0 0 10px rgba(0, 120, 212, 0.3); /* soft glow on focus */
+}
+
+.date-picker input[type="text"] {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #222;
+  font-size: 1rem;
+  outline: none;
+  cursor: text;
+}
+
+/* Calendar Icon beside input */
+.calendar-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2cm;
+  height: 2cm;
+  color: var(--accent, #0078d4);
+  border-radius: 10px;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+.calendar-icon:hover {
+  transform: scale(1.07);
+  color: var(--accent-hover, #005fa3);
+  background: rgba(0, 120, 212, 0.1);
+  box-shadow: 0 0 8px rgba(0, 120, 212, 0.2);
+}
+
+/* Hint text under input */
+.date-format-hint {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(0,0,0,0.6);
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+/* 💰 SKYmora travels Budget Section */
+.budget-section {
+  display: block; /* Hidden by default, shows on click */
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin-top: 20px;
+  color: #f8f8f8;
+    margin-bottom: 48px;  /* adds nice space below budget section */
+
+}
+
+
+/* when active (user clicks "Budget") */
+.budget-section.active {
+  display: block;
+}
+
+/* Controls (dropdown + slider row) */
+.budget-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+/* Currency Dropdown */
+/* Currency Dropdown — smaller, compact */
+#currencySelect {
+  width: 180px;
+  height: 44px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #0b3d36;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 8px rgba(144, 242, 210, 0.4);
+  transition: background 0.2s ease;
+}
+
+#currencySelect:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#currencySelect option {
+  background: rgba(230, 255, 247, 0.98);
+  color: #084b3d;
+  font-weight: 500;
+}
+
+/* Slider — larger, dominant visual */
+#budgetRange {
+  width: 100%;
+  max-width: 480px;
+  height: 10px;
+  border-radius: 10px;
+  appearance: none;
+  background: linear-gradient(90deg, #90f2d2, #42c9a8);
+  outline: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+
+
+#budgetRange::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #dffcf3;
+  border: 2px solid #42c9a8;
+  transition: 0.2s;
+}
+
+#budgetRange::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  background: #baf5e3;
+}
+
+/* Selected Value Display */
+.budget-display {
+  margin-top: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c8fff2;
+  text-align: right;
+}
+
+/* Manual Input */
+.manual-entry {
+  margin-top: 8px;
+  position: relative; /* for symbol inside box */
+}
+
+.manual-entry label {
+  font-size: 0.9rem;
+  color: #dffcf3;
+}
+
+
+#manualBudget {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+#manualBudget:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+/* === 💰 SKYmora travels — Manual Budget Input Enhancement === */
+.manual-entry {
+  position: relative; /* enables absolute positioning inside */
+}
+
+.manual-entry .currency-symbol {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #dffcf3;        /* mint tone to match your theme */
+  font-weight: 600;      /* semi-bold for balance */
+  font-size: 1rem;
+  pointer-events: none;  /* ensures user can still click input */
+}
+
+#manualBudget {
+  padding-left: 38px;    /* space for symbol */
+  font-weight: 700;      /* bold numbers */
+  color: #ffffff;        /* crisp white */
+  letter-spacing: 0.4px; /* premium look */
+}
+
+
+/* Soft transition when showing the section */
+.budget-section.active {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* === ✈️ SKYmora travels – Date Fields Layout Fix === */
+.date-section {
+  display: flex;
+  gap: 20px;              /* spacing between Departure and Return boxes */
+  flex-wrap: wrap;        /* allows stacking on small screens */
+  align-items: flex-start;
+}
+
+.date-field {
+  flex: 1;                /* make both boxes same width */
+  min-width: 240px;
+}
+
+/* When the return date appears */
+.return-date {
+  display: none;          /* hidden by default */
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.return-date.active {
+  display: flex;          /* show beside departure */
+}
+/* === 🌍 SKYmora travels — Intro Paragraph Enhancement === */
+.intro-text {
+  color: #ffffff;           /* pure white for clarity */
+  font-weight: 600;
+  opacity: 0.96;            /* slightly softened for elegance */
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); /* subtle depth for legibility */
+  line-height: 1.6;
+}
+
+.main-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #ffffff; /* changed from black to white */
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35); /* subtle glow for contrast */
+}
+
+/* === 🗓 SKYmora travels – Align Departure & Return Date Fields === */
+.date-section {
+  display: flex;
+  align-items: flex-end; /* ensures both bottom-align neatly */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.date-field {
+  flex: 1;
+  min-width: 240px;
+}
+
+.return-date {
+  display: none;
+  opacity: 0;
+  transform: translateY(6px); /* ensures smoother entry */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.return-date.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+/* === 📱 SKYmora travels — Mobile Optimization === */
+@media (max-width: 720px) {
+
+  /* Smoother layout */
+  .panel {
+    margin: 3vh 12px;
+    padding: 20px 16px;
+  }
+
+  /* Readable text sizes */
+  label {
+    font-size: 0.95rem;
+  }
+
+  input, select, textarea {
+    font-size: 1rem;
+  }
+
+  /* Responsive heading */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* Buttons + toggles easier to tap */
+  .toggle {
+    padding: 12px 22px;
+    font-size: 1rem;
+  }
+
+  /* Align date fields nicely (stack if narrow) */
+  .date-section {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* CTA button touch comfort */
+  .cta {
+    padding: 16px;
+    font-size: 1.05rem;
+  }
+
+  /* Softer background drift */
+  .bg {
+    animation: drift 40s ease-in-out infinite alternate;
+  }
+
+  /* Optional: reduce shadows for performance */
+  .panel {
+    box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+  }
+}
+/* 🌍 SKYmora travels — Universal Responsive Design */
+:root {
+  --font-scale-base: 1rem;
+}
+
+/* === Default (Desktops & Laptops) === */
+body {
+  font-size: var(--font-scale-base);
+  line-height: 1.55;
+}
+
+/* Panels and forms stay centered and readable */
+.panel {
+  max-width: 760px;
+  margin: 4vh auto;
+  padding: 28px 24px;
+  border-radius: 16px;
+}
+
+/* === Tablets (Landscape or Portrait) === */
+@media (max-width: 1024px) {
+  body {
+    font-size: 0.97rem;
+  }
+
+  .panel {
+    max-width: 90%;
+    padding: 24px 18px;
+  }
+
+  .hero-intro {
+    text-align: center;
+  }
+}
+
+/* === Large Phones and Small Tablets === */
+@media (max-width: 820px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  .hero-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .date-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .toggle {
+    padding: 12px 22px;
+    font-size: 1rem;
+  }
+
+  .cta {
+    font-size: 1.05rem;
+    padding: 16px;
+  }
+
+  .budget-section {
+    padding: 14px;
+  }
+}
+
+/* === Compact Phones (e.g., iPhone SE, older Androids) === */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input, select, textarea {
+    font-size: 0.95rem;
+  }
+
+  .inline-toggle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toggle {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+  }
+
+  .date-picker {
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  .panel {
+    padding: 18px 14px;
+    margin: 3vh 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .cta {
+    width: 100%;
+    font-size: 1rem;
+    padding: 14px;
+  }
+}
+
+/* === Very Large Screens (Retina, 2K, 4K) === */
+@media (min-width: 1400px) {
+  body {
+    font-size: 1.05rem;
+  }
+
+  .panel {
+    max-width: 880px;
+  }
+
+  .hero-intro p {
+    font-size: 1.1rem;
+  }
+}
+/* Mid-range laptops (1280px screens) */
+@media (max-width: 1366px) and (min-width: 1025px) {
+  .panel { max-width: 720px; }
+}
+
+/* Ultra-wide 4K monitors */
+@media (min-width: 2000px) {
+  .panel { max-width: 900px; margin-top: 6vh; }
+}
+/* === 🌐 SKYmora travels — Final Responsive & Universal Scaling Enhancements === */
+
+/* 1️⃣ Fluid font scaling across all devices */
+html {
+  font-size: clamp(14px, 1.1vw, 18px); /* scales text smoothly between small & large screens */
+}
+
+/* 2️⃣ Mid-range laptops (1280–1366px) */
+@media (max-width: 1366px) and (min-width: 1025px) {
+  .panel {
+    max-width: 720px;
+    margin-top: 5vh;
+  }
+}
+
+/* 3️⃣ Ultra-wide 4K monitors */
+@media (min-width: 2000px) {
+  .panel {
+    max-width: 900px;
+    margin-top: 6vh;
+  }
+
+  .hero-intro p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+
+  .main-heading {
+    font-size: 3.5rem;
+  }
+}
+
+/* 4️⃣ Landscape mode (tablets / foldables) */
+@media (orientation: landscape) {
+  .panel {
+    margin: 3vh auto;
+    max-width: 80%;
+  }
+}
+
+/* 5️⃣ Touch UX optimization (mobile Safari / Android) */
+button, input, select, textarea {
+  touch-action: manipulation;
+}
+
+/* 6️⃣ Smooth scrolling for premium feel */
+* {
+  scroll-behavior: smooth;
+}
+
+/* === 🧭 SKYmora travels — Lock Layout to Vertical Scroll Only === */
+html, body {
+  overflow-x: hidden;     /* Prevents horizontal scrolling */
+  width: 100%;
+  max-width: 100vw;       /* Ensures layout never exceeds viewport width */
+}
+
+.panel, .bg, .hero-intro, .date-section, form {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* === 🧭 SKYmora travels — Lock to Vertical Scroll (Preserve Center Layout) === */
+html, body {
+  overflow-x: hidden;   /* Prevent horizontal scroll */
+  width: 100%;
+}
+
+/* Keep the main form panel centered & elegant */
+.panel {
+  margin: 4vh auto;
+  max-width: 760px;        /* same elegant width as before */
+  width: 90%;              /* flexible for small screens */
+  overflow-x: hidden;      /* ensures no side scroll inside */
+}
+
+/* Background stays full width */
+.bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Optional: smooth scroll */
+* {
+  scroll-behavior: smooth;
+}
+/* === 🍃 SKYmora travels — Premium Momentum Scroll Feel === */
+html, body {
+  -webkit-overflow-scrolling: touch; /* smooth kinetic scrolling on iOS */
+  scroll-behavior: smooth;           /* soft scroll transitions everywhere */
+}
+
+body {
+  overscroll-behavior-y: contain;    /* prevents overscroll bounce bugs */
+  scroll-snap-type: none;            /* free-flow scrolling */
+}
+/* === ✨ SKYmora travels — Professional Font Refinement === */
+h1, h2, h3 {
+  font-weight: 700;          /* make main headings strong but elegant */
+  letter-spacing: 0.4px;
+}
+
+label {
+  font-weight: 600;          /* slightly bolder form labels */
+  font-size: 0.95rem;        /* a touch smaller for refined look */
+  color: #1a1a1a;            /* deep neutral tone for professional feel */
+}
+
+.intro-text {
+  font-weight: 500;
+  font-size: 1.05rem;        /* keeps intro clean and balanced */
+  line-height: 1.6;
+  color: #f8f8f8;            /* stays readable on darker backgrounds */
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 2.8rem;         /* slightly smaller for sophistication */
+  letter-spacing: 0.6px;
+}
+.intro-text {
+  color: #ffffff;  /* pure white text */
+}
+/* === ✨ SKYmora travels — True White Intro Text Fix === */
+.intro-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;               /* gives just enough body */
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #fff !important;         /* pure white, overrides all transparency */
+  text-shadow: 0 0 6px rgba(0,0,0,0.2); /* optional: subtle depth for readability */
+}
+
+.intro-text {
+  color: #ffffff !important;   /* make it pure white */
+  font-family: inherit;        /* keep your current font exactly as it is */
+  font-weight: inherit;        /* no change to its thickness */
+}
+
+/* === ✈️ SKYmora travels — Improved Trip Type Toggle Visibility === */
+.inline-toggle .toggle {
+  background: rgba(255, 255, 255, 0.85);  /* brighter background */
+  color: #000;                             /* black text for visibility */
+  font-weight: 600;                        /* bold text even when inactive */
+  transition: all 0.25s ease;
+}
+
+.inline-toggle .toggle:hover {
+  background: rgba(244, 180, 26, 0.15);    /* subtle golden hover */
+  color: #000;
+}
+
+/* Active (selected) state */
+.inline-toggle .toggle.active {
+  background: var(--accent);  /* gold tone */
+  color: #000;                /* black text */
+  font-weight: 700;           /* extra bold for emphasis */
+  box-shadow: 0 0 8px rgba(244, 180, 26, 0.4);
+  transform: scale(1.03);
+}
+/* === ✈️ SKYmora travels — Add Two-Row Gap Between Destination & Trip Type === */
+.inline-toggle {
+  margin-top: 36px;   /* roughly two input-row heights of space */
+}
+/* === 🌅 SKYmora travels — Add Gap Between Timings and Experience Section === */
+.experience-selector {
+  margin-top: 36px;  /* creates roughly two input-row gaps */
+}
+/* === 💫 SKYmora travels — Enhance Travel Experience List Appearance === */
+.experience-option {
+  font-weight: 600;              /* bold like the selected box text */
+  font-size: 1rem;               /* slightly larger for readability */
+  color: #111;                   /* deep neutral black text */
+  letter-spacing: 0.3px;         /* premium spacing */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 8px 10px;
+  transition: all 0.25s ease;
+}
+
+/* Hover interaction for premium feel */
+.experience-option:hover {
+  color: var(--accent);          /* gold highlight on hover */
+  transform: translateX(3px);    /* subtle motion */
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Checkbox alignment tweak */
+.experience-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+  margin-right: 6px;
+}
+.error-msg {
+  color: #b8f0df; /* soft mint tone to match Whisper palette */
+  font-size: 0.9rem;
+  margin-top: 6px;
+  font-weight: 400;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.error-msg {
+  color: #b8f0df; /* mint tone for Whisper palette */
+  font-size: 0.9rem;
+  margin-top: 6px;
+  font-weight: 400;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* 🔴 Input error styling inside the box */
+.input-error {
+  border: 1.5px solid #ff5c5c !important;
+  color: #ff5c5c;
+  background-color: rgba(255, 230, 230, 0.15);
+}
+
+.input-error::placeholder {
+  color: #ff5c5c;
+  opacity: 0.95;
+  font-weight: 600;   /* makes it slightly bolder */
+  letter-spacing: 0.3px; /* subtle clarity */
+}
+
+/* === 💎 SKYmora — Premium Final (Original Look Restored) === */
+/* === 💎 SKYmora — Clean Premium Sans-Serif Version === */
+
+/* Remove old font imports if any */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+.main-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;              /* increased from 3.2rem → 4rem */
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+/* Responsive balance — softer on small screens */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 3rem;            /* scaled down slightly for mobile */
+    letter-spacing: 0.6px;
+  }
+}
+
+/* === 💙 SKYmora — Final Brand Colors === */
+.main-heading .sky {
+  color: #0048ff; /* premium deep bright blue for “Sky” */
+  font-weight: 700;
+}
+
+.main-heading .mora {
+  color: #ffffff; /* pure white for “mora” */
+}
+
+/* === Accessibility: stronger headings for easier reading === */
+/* Applies to headings and important labels across the form */
+h1, h2, h3, h4, h5, h6, label {
+  font-weight: 800;                  /* bolder weight for readability */
+  font-variant-caps: small-caps;     /* small-caps styling (subtle "capital" look) */
+  -webkit-font-variant-caps: small-caps;
+  letter-spacing: 0.6px;             /* a touch more spacing for clarity */
+  color: var(--text-primary);        /* keep your theme color */
+  text-transform: none;              /* preserve normal capitalization, use small-caps instead */
+}
+
+/* Make the main heading extra prominent while still elegant */
+.main-heading {
+  font-weight: 900;
+  font-variant-caps: small-caps;
+  font-size: clamp(2.2rem, 3.4vw, 4rem); /* fluid size: scales well on phones & desktops */
+  letter-spacing: 0.8px;
+}
+
+/* Slightly increase label size & tappable area for older users */
+label {
+  font-size: 1.02rem;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Mobile-specific boost for small screens (easier to read) */
+@media (max-width: 480px) {
+  h1, .main-heading { font-size: 2.2rem; }
+  h2 { font-size: 1.25rem; }
+  label { font-size: 1.05rem; }
+}
+/* === 🧓 Accessibility Enhancement — Stronger Headings for Everyone === */
+h1, h2, h3, h4, h5, h6, label {
+  font-weight: 800;                /* extra bold for visibility */
+  text-transform: uppercase;       /* all caps for clarity */
+  letter-spacing: 0.8px;           /* slight spacing improves legibility */
+}
+
+/* Make main heading prominent but balanced */
+.main-heading {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: clamp(2.2rem, 3.8vw, 4.2rem);
+}
+
+/* Slightly increase form label size for readability */
+label {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+/* On smaller screens — keep headings readable */
+@media (max-width: 480px) {
+  h1, .main-heading { font-size: 2.3rem; }
+  h2 { font-size: 1.3rem; }
+  label { font-size: 1.1rem; }
+}
+
+/* === ✅ SKYmora Final Grammar Case Fix — For Headings & Labels === */
+
+/* Remove ALL previous uppercase or small-caps effects */
+h1, h2, h3, h4, h5, h6, label {
+  text-transform: none !important;
+  font-variant-caps: normal !important;
+}
+
+/* Ensure first-letter capitalization (Title Case) */
+label, h2, h3, h4, h5, h6 {
+  text-transform: capitalize !important;
+}
+
+/* Keep your main heading (SKYmora) exactly as it is */
+.main-heading {
+  text-transform: none !important;
+  font-variant-caps: normal !important;
+}
+/* === 🌿 SKYmora Travels — Readability & Accessibility Enhancement === */
+
+/* Slightly larger text across all form labels and inputs */
+label,
+input,
+select,
+textarea,
+button {
+  font-size: 1.05rem !important;   /* subtle readability boost */
+  line-height: 1.6;
+}
+
+/* Labels stand out clearly without being overwhelming */
+label {
+  font-weight: 700;
+  color: #0d1b2a;                  /* rich dark navy tone for contrast */
+}
+
+/* Input and textarea text — darker and easier to read */
+input,
+select,
+textarea {
+  color: #111 !important;
+  background-color: rgba(255, 255, 255, 0.98); /* cleaner white for clarity */
+  border: 1px solid rgba(0,0,0,0.08);
+  font-weight: 500;
+}
+
+/* Placeholder text — readable gray instead of faint */
+::placeholder {
+  color: #555 !important;
+  opacity: 1 !important;           /* ensures strong visibility */
+  font-size: 0.97rem;
+}
+
+/* Budget and dropdown contrast boost */
+#currencySelect,
+#budgetRange {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Button (CTA) readability */
+.cta {
+  font-size: 1.1rem !important;
+  letter-spacing: 0.6px;
+  padding: 16px;
+  color: #111;
+}
+
+/* On hover — clear contrast without bright flicker */
+.cta:hover {
+  filter: brightness(1.05);
+  box-shadow: 0 6px 25px rgba(244,180,26,0.25);
+}
+
+/* Mobile adjustments for seniors and small screens */
+@media (max-width: 720px) {
+  label,
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 1.1rem !important; /* larger for small displays */
+  }
+
+  .cta {
+    padding: 18px;
+    font-size: 1.15rem !important;
+  }
+}
+/* === ✨ SKYmora travels — Sub-heading (Intro Text) Enhancement === */
+.intro-text {
+  font-weight: 700 !important;    /* bolder for visibility */
+  font-size: 1.25rem !important;  /* increased size slightly */
+  line-height: 1.7;               /* comfortable line spacing */
+  color: #ffffff !important;      /* pure white for strong contrast */
+  text-align: center;             /* centered for brand symmetry */
+  text-shadow: 0 2px 6px rgba(0,0,0,0.3); /* subtle depth for readability */
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+/* On smaller screens — keep text readable but balanced */
+@media (max-width: 720px) {
+  .intro-text {
+    font-size: 1.15rem !important;
+    line-height: 1.6;
+    padding: 0 8px;
+  }
+}
+/* === 📱 SKYmora — Adaptive Frosted Glass Blur for Mobile Displays === */
+
+/* Default (Desktop & Laptop) — stays premium */
+.panel {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Medium screens (tablets & small laptops) */
+@media (max-width: 1024px) {
+  .panel {
+    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Small displays (phones) — softer, lighter glass */
+@media (max-width: 720px) {
+  .panel {
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); /* gentle shadow to keep separation */
+  }
+}
+
+/* Ultra small screens (compact phones) */
+@media (max-width: 480px) {
+  .panel {
+    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.06);
+    padding: 18px 14px;
+  }
+}
+/* === 🌄 SKYmora — Adaptive Background Image Scaling === */
+
+/* Default (Desktops / Large Screens) */
+.bg {
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Tablets (Landscape & Portrait) */
+@media (max-width: 1024px) {
+  .bg {
+    background-size: 110%; /* slight zoom-out for better framing */
+    background-position: center top;
+  }
+}
+
+/* Large Phones (e.g. iPhones, Pixel 7, etc.) */
+@media (max-width: 720px) {
+  .bg {
+    background-size: 120%; /* zoom out more so full scene is visible */
+    background-position: center 25%; /* show more sky or key subject */
+    opacity: 0.95; /* keep it soft and balanced */
+  }
+}
+
+/* Compact Phones (Older / Mini Devices) */
+@media (max-width: 480px) {
+  .bg {
+    background-size: 130%; /* show full landscape composition */
+    background-position: center 20%;
+    filter: brightness(0.92) contrast(1.08);
+  }
+}
+/* === 🌄 SKYmora — Perfect Responsive Fullscreen Background === */
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: opacity 2.5s ease-in-out, background-image 3s ease-in-out;
+  z-index: 0;
+  filter: brightness(0.95) contrast(1.05);
+  animation: slowDrift 45s ease-in-out infinite alternate;
+}
+
+/* Tablets — shift a bit up to show more ground/skyline */
+@media (max-width: 1024px) {
+  .bg {
+    background-position: center top;
+  }
+}
+
+/* Large phones — reveal more of the image vertically */
+@media (max-width: 720px) {
+  .bg {
+    background-position: center 30%; /* shows more upper portion */
+    background-size: cover;
+  }
+}
+
+/* Compact phones — pan higher to show full main subject */
+@media (max-width: 480px) {
+  .bg {
+    background-position: center 25%;
+    background-size: cover;
+  }
+}
+
+/* Subtle slow drift effect for realism */
+@keyframes slowDrift {
+  0% { background-position: center top; }
+  100% { background-position: center bottom; }
+}
+/* === 🌄 SKYmora — True Edge-to-Edge Background (No Crop, No Gaps) === */
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* fully stretch both ways */
+  background-position: center center;
+  object-fit: fill;
+  transition: background-image 2.5s ease-in-out, opacity 2s ease-in-out;
+  z-index: 0;
+  filter: brightness(0.95) contrast(1.05);
+}
+
+/* Tablets (slight adjustment to keep quality) */
+@media (max-width: 1024px) {
+  .bg {
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+}
+
+/* Large Phones */
+@media (max-width: 720px) {
+  .bg {
+    background-size: 100% 100%; /* ensures it fills horizontally */
+    background-position: center center;
+  }
+}
+
+/* Compact Phones */
+@media (max-width: 480px) {
+  .bg {
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+}
+/* === 🪟 SKYmora — Universal Minimal Glass (Unified Blur for All Devices) === */
+
+.panel {
+  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  transition: backdrop-filter 0.3s ease, background 0.3s ease;
+}
+
+/* Apply same look across all devices */
+@media (max-width: 1024px),
+       (max-width: 720px),
+       (max-width: 480px) {
+  .panel {
+    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+/* === 📱 SKYmora — Fix Placeholder Visibility on Small Screens === */
+
+/* Make all input boxes more flexible and responsive */
+input[type=text],
+input[type=number],
+input[type=date],
+select,
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 12px 14px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  white-space: normal; /* allow text to wrap if needed */
+  overflow: visible;   /* ensures text doesn't clip */
+}
+
+/* Style placeholders for readability and prevent clipping */
+::placeholder {
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-overflow: unset;
+  color: rgba(60, 60, 60, 0.9);
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+/* 📲 On very small screens (phones <480px) */
+@media (max-width: 480px) {
+  input[type=text],
+  input[type=number],
+  input[type=date],
+  textarea {
+    font-size: 0.95rem;
+    padding: 11px 12px;
+  }
+
+  ::placeholder {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    white-space: normal;
+  }
+}
+/* === 💰 SKYmora — Improve Manual Budget Placeholder Visibility for Older Users === */
+
+#manualBudget::placeholder {
+  color: #000000 !important;   /* solid black for maximum clarity */
+  font-weight: 700;            /* bold so it's easier to read */
+  opacity: 1;                  /* ensure it's fully opaque, not faded */
+  letter-spacing: 0.4px;       /* subtle spacing improves legibility */
+}
+/* === 💰 SKYmora — Match Manual Budget Input Style with Other Fields === */
+#manualBudget {
+  background: var(--input-bg) !important;  /* same background as other inputs */
+  color: #222 !important;                  /* consistent dark text */
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* On focus, make it softly glow like others */
+#manualBudget:focus {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Keep placeholder readable and strong */
+#manualBudget::placeholder {
+  color: #000 !important;/* === 💰 SKYmora — Refined Manual Input + Slider Layout === */
+
+.budget-section {
+  display: block;
+  padding: 16px 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  color: #222;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+/* Manual Input Box */
+.manual-entry {
+  margin-bottom: 16px;
+}
+
+.manual-entry label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000; /* solid black for older visibility */
+  display: block;
+  margin-bottom: 6px;
+}
+
+#manualBudget {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  background: var(--input-bg);
+  color: #222;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Currency + Slider Row */
+.budget-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+#currencySelect {
+  width: 160px;
+  height: 44px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+  background: var(--input-bg);
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Budget Slider */
+#budgetRange {
+  width: 100%;
+  max-width: 480px;
+  height: 10px;
+  border-radius: 10px;
+  appearance: none;
+  background: linear-gradient(90deg, #90f2d2, #42c9a8);
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#budgetRange::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #dffcf3;
+  border: 2px solid #42c9a8;
+  transition: transform 0.2s ease;
+}
+
+#budgetRange::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+
+/* Budget Display */
+.budget-display {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+  text-align: right;
+  letter-spacing: 0.4px;
+}
+
+  font-weight: 700;
+  opacity: 1;
+}
+/* === 💰 SKYmora — Elegant Dropdown + Working Slider === */
+.manual-entry select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  background: var(--input-bg);
+  color: #111;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #333 50%),
+    linear-gradient(135deg, #333 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(50% - 2px),
+    calc(100% - 15px) calc(50% - 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.manual-entry select:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  transition: 0.3s ease;
+}
+
+.manual-entry {
+  margin-bottom: 16px;
+}
+
+/* Dropdown on mobile */
+@media (max-width: 480px) {
+  .manual-entry select {
+    font-size: 1.1rem;
+    padding: 14px;
+  }
+}
+
+/* Budget Display */
+.budget-display {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+  text-align: right;
+  letter-spacing: 0.4px;
+}
+/* === 💰 SKYmora — Modern Dropdown + Custom Input === */
+.manual-entry select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: #fff; /* solid white box */
+  color: #111;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  appearance: none;
+  transition: all 0.25s ease;
+}
+
+.manual-entry select:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#customBudgetInput {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+/* === 💰 SKYmora — v5 Premium Slider & Custom Input === */
+
+/* Slider track — white with mint outline */
+#budgetRange {
+  width: 100%;
+  height: 12px;
+  border-radius: 10px;
+  appearance: none;
+  background: #fff;
+  border: 2px solid #42c9a8; /* mint outline */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Slider thumb — glowing mint orb */
+#budgetRange::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #90f2d2;
+  border: 2px solid #42c9a8;
+  box-shadow: 0 0 8px rgba(66, 201, 168, 0.7);
+  transition: all 0.2s ease;
+}
+
+#budgetRange::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 12px rgba(66, 201, 168, 0.9);
+}
+
+/* Custom input that replaces dropdown */
+.custom-budget-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.custom-budget-input:focus {
+  box-shadow: 0 0 8px rgba(66, 201, 168, 0.6);
+}
+.budget-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+#manualInputBox {
+  width: 120px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#manualInputBox.hidden {
+  display: none;
+}
+
+#budgetRange {
+  flex: 1;
+  accent-color: #9ef0c0; /* mint green */
+}
+
+.budget-display {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+/* === 💻 SKYmora — Premium Mint Gradient Slider for Desktop (Refined 12px Version) === */
+@media (min-width: 721px) {
+
+  #budgetRange {
+    width: 100%;
+    max-width: 480px;
+    height: 12px; /* ✅ slightly thicker for visibility */
+    border-radius: 999px;
+    appearance: none;
+    background: linear-gradient(90deg, #90f2d2 0%, #42c9a8 100%); /* same mint gradient */
+    box-shadow:
+      0 0 12px rgba(144, 242, 210, 0.35),
+      inset 0 0 6px rgba(66, 201, 168, 0.25);
+    outline: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.4s ease, box-shadow 0.3s ease;
+  }
+
+  #budgetRange::-webkit-slider-thumb {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #ffffff 0%, #90f2d2 100%);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 12px rgba(66, 201, 168, 0.6);
+    transition: all 0.25s ease;
+  }
+
+  #budgetRange::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 16px rgba(66, 201, 168, 0.85);
+  }
+}
+
+/* === 📱 SKYmora — Ultra-Slim Mint Gradient Slider (4px Height, Premium Look) === */
+@media (max-width: 720px) {
+
+  .budget-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    margin-top: 10px;
+  }
+
+  #currencySelect {
+    width: 100%;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  #currencySelect:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  /* 🎚 Ultra-slim slider (4px height, same mint gradient) */
+  #budgetRange {
+    width: 100%;
+    height: 4px; /* ✅ slimmer line for luxury minimalism */
+    border-radius: 999px;
+    appearance: none;
+    background: linear-gradient(90deg, #90f2d2 0%, #42c9a8 100%);
+    box-shadow:
+      0 0 8px rgba(144, 242, 210, 0.25),
+      inset 0 0 4px rgba(66, 201, 168, 0.2);
+    outline: none;
+    cursor: pointer;
+    transition: background 0.4s ease, box-shadow 0.3s ease;
+  }
+
+  #budgetRange::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #ffffff 0%, #90f2d2 100%);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(66, 201, 168, 0.5);
+    transition: all 0.25s ease;
+  }
+
+  #budgetRange::-webkit-slider-thumb:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 14px rgba(66, 201, 168, 0.8);
+  }
+
+  .budget-display {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0,0,0,0.35);
+    letter-spacing: 0.4px;
+  }
+
+  .budget-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    padding: 18px;
+  }
+}
+.back-to-preset {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #0077cc;
+  cursor: pointer;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.back-to-preset:hover {
+  color: #005fa3;
+  opacity: 0.8;
+}
+
+.hidden {
+  display: none !important;
+}
+/* 💠 Premium Full-Width Close Button (Two-Column Look) */
+.close-experiences-footer {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+}
+
+.close-experiences-footer button {
+  width: 100%;
+  max-width: none; /* allow full expansion */
+  background: linear-gradient(90deg, #4faaff, #007bff);
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 14px 0;
+  border: none;
+  border-radius: 0 0 12px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(79, 170, 255, 0.4);
+  letter-spacing: 0.5px;
+}
+
+.close-experiences-footer button:hover {
+  background: linear-gradient(90deg, #007bff, #005ecb);
+  box-shadow: 0 0 14px rgba(79, 170, 255, 0.6);
+  transform: scale(1.02);
+}
+@media (max-width: 600px) {
+  .experience-dropdown {
+    max-height: 70vh; /* use more height on small screens */
+    padding: 10px 12px 70px; /* keep enough for sticky footer */
+  }
+}
+
+/* === 📱 SKYmora — Scrollable Experience List with Sticky Close Button === */
+.experience-dropdown {
+  position: relative;
+  max-height: 60vh; /* prevents dropdown from going off-screen */
+  overflow-y: auto; /* enables scrolling for long lists */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr; /* keep single-column */
+  gap: 8px;
+  margin-top: 6px;
+  z-index: 5;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+/* Smooth scrollbar for Chrome/Safari */
+.experience-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+.experience-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.experience-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Sticky footer for the Close List button */
+/* 💠 SKYmora — True Bottom-Aligned Close Button (Outside Scroll, Not Sticky Inside) */
+.close-experiences-footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  position: relative; /* stays below scroll area */
+  margin-top: 10px; /* slight space below dropdown */
+  border-radius: 0 0 12px 12px;
+  z-index: 5;
+}
+
+.close-experiences-footer button {
+  width: 100%;
+  max-width: 100%;
+  background: linear-gradient(90deg, #4faaff, #007bff);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 14px 0;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(79, 170, 255, 0.4);
+}
+
+.close-experiences-footer button:hover {
+  background: linear-gradient(90deg, #007bff, #005ecb);
+  transform: scale(1.02);
+  box-shadow: 0 0 14px rgba(79, 170, 255, 0.6);
+}
+/* === 🌍 SKYmora — Universal Responsive Perfection Layer === */
+
+/* ✅ Global fluid scaling */
+html {
+  font-size: clamp(14px, 1vw + 0.5rem, 18px);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ✅ Keep the layout centered & readable */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  background: #000;
+}
+
+/* === 🧊 Responsive Glass Panel === */
+.panel {
+  width: 90%;
+  max-width: 780px;
+  margin: 4vh auto;
+  padding: clamp(18px, 3vw, 32px);
+  border-radius: 16px;
+  backdrop-filter: blur(clamp(2px, 1vw, 8px));
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.35);
+  transition: all 0.3s ease;
+}
+
+/* === 📱 Compact Phones (under 480px) === */
+@media (max-width: 480px) {
+  .panel {
+    width: 92%;
+    padding: 18px 14px;
+    backdrop-filter: blur(3px);
+  }
+
+  h1.main-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  label, input, select, textarea {
+    font-size: 1rem;
+  }
+
+  .toggle {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .experience-dropdown {
+    grid-template-columns: 1fr;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  .close-experiences-footer button {
+    font-size: 1rem;
+    padding: 16px;
+  }
+
+  .budget-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  #budgetRange {
+    height: 5px;
+  }
+}
+
+/* === 📱 Mid-size Phones (480px–720px) === */
+@media (min-width: 481px) and (max-width: 720px) {
+  .panel {
+    width: 90%;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+  }
+
+  .experience-dropdown {
+    grid-template-columns: 1fr 1fr;
+    max-height: 65vh;
+    overflow-y: auto;
+  }
+
+  .close-experiences-footer {
+    margin-top: 8px;
+  }
+
+  .budget-section {
+    padding: 14px;
+  }
+
+  .cta {
+    font-size: 1.1rem;
+    padding: 16px;
+  }
+}
+
+/* === 💻 Tablets & Small Laptops (721px–1024px) === */
+@media (min-width: 721px) and (max-width: 1024px) {
+  .panel {
+    width: 85%;
+    max-width: 720px;
+    padding: 24px;
+    backdrop-filter: blur(6px);
+  }
+
+  .experience-dropdown {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-height: 60vh;
+  }
+
+  .budget-controls {
+    gap: 12px;
+  }
+}
+
+/* === 🖥️ Large Screens (1025px–1920px) === */
+@media (min-width: 1025px) {
+  .panel {
+    max-width: 800px;
+    padding: 28px 32px;
+    backdrop-filter: blur(8px);
+  }
+
+  .experience-dropdown {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  #budgetRange {
+    height: 10px;
+  }
+}
+
+/* === 🖥️ Ultra-wide (4K) Screens === */
+@media (min-width: 2000px) {
+  .panel {
+    max-width: 900px;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+  }
+
+  .main-heading {
+    font-size: 4rem;
+  }
+
+  .experience-dropdown {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  #budgetRange {
+    height: 12px;
+  }
+
+  .cta {
+    font-size: 1.2rem;
+  }
+}
+
+/* === 🎨 Finishing Touches === */
+.experience-dropdown {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(79,170,255,0.6) transparent;
+}
+
+.experience-dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.experience-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(79,170,255,0.6);
+  border-radius: 8px;
+}
+
+.experience-dropdown::-webkit-scrollbar-thumb:hover {
+  background: rgba(79,170,255,0.8);
+}
+
+.close-experiences-footer {
+  border-radius: 0 0 12px 12px;
+}
+
+/* Keep toggle buttons responsive and elegant */
+.inline-toggle {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* === ✈️ SKYmora — Smart City & Airport Autocomplete (Final Clean Version) === */
+.autocomplete-list {
+  position: absolute;
+  top: calc(100% + 2px); /* ✅ closes gap perfectly below input */
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.98); /* slightly brighter, no semi-transparent gap */
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  list-style: none;
+  margin: 0 !important; /* ✅ remove white gap */
+  padding: 5px 0;
+  z-index: 999;
+  max-height: 220px;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  color: #111;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.05); /* subtle boundary for clarity */
+}
+
+/* Individual item */
+.autocomplete-list li {
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Hovered / highlighted item */
+.autocomplete-list li:hover {
+  background: linear-gradient(90deg, #90f2d2, #42c9a8);
+  color: #000;
+  font-weight: 600;
+  transform: translateX(3px);
+}
+
+/* Scrollbar — subtle, elegant mint tone */
+.autocomplete-list::-webkit-scrollbar {
+  width: 6px;
+}
+.autocomplete-list::-webkit-scrollbar-thumb {
+  background: rgba(66, 201, 168, 0.4);
+  border-radius: 6px;
+}
+.autocomplete-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(66, 201, 168, 0.7);
+}
+
+/* === 🚫 Anti-line fix — Hide gap when dropdown closes === */
+.autocomplete-list:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
