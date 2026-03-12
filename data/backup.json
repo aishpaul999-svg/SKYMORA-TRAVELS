@@ -6603,6 +6603,37 @@
           "intro": "Olivia designs perfectly balanced journeys that blend comfort and discovery."
         }
       }
+    },
+    {
+      "id": "dc8b5c57-5de7-457e-8ef4-b32946784a3f",
+      "timestamp": "2026-03-11T14:29:10.814Z",
+      "type": "itinerary",
+      "tripId": "@Aaa4325",
+      "trip": {
+        "name": "aaa",
+        "nickname": "",
+        "departure": "New York City",
+        "destination": "",
+        "tripType": "return",
+        "adults": 2,
+        "children": 0,
+        "infants": 0,
+        "tripDays": 7,
+        "departureDate": "2026-03-21",
+        "returnDate": "",
+        "depTime": "",
+        "retTime": "",
+        "travelStyle": "",
+        "budget": 1000,
+        "currency": "USD",
+        "specialRequest": "",
+        "agentData": {
+          "name": "Emma Collins",
+          "specialty": "Budget Adventures",
+          "exp": 6,
+          "intro": "Emma creates affordable journeys that feel premium, every time."
+        }
+      }
     }
   ]
 }
