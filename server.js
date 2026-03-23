@@ -185,7 +185,9 @@ async function fetchRealTravelData(trip, day) {
 
   try {
     const researchPrompt = `Today's date is ${new Date().toISOString().split('T')[0]}.
-
+console.log("🔑 OpenAI Key exists:", !!process.env.OPENAI_API_KEY ? "YES" : "❌ MISSING");
+console.log("🌐 Making OpenAI call for Day", day, "to", destination);
+console.log("💰 Budget:", budget, "Currency:", currency);
 Search the web for CURRENT, REAL travel information with STRICT BUDGET CONSTRAINTS:
 
 **Trip Details:**
@@ -571,13 +573,20 @@ Return JSON:
     return parsed;
 
   } catch (err) {
-    console.error("❌ Build error:", (err && err.message) || err);
-    return {
-      day,
-      title: `Day ${day}: ${destination}`,
-      content: `${travelerName}, I'm gathering real-time budget-appropriate options for Day ${day}. This includes flights under ${sym}${Math.round(budget * 0.3)}, hotels around ${sym}${Math.round(budget * 0.35 / totalDays)}/night, and activities within your ${sym}${dailyBudget} daily budget. One moment...`
-    };
-  }
+  console.error("❌ DETAILED BUILD ERROR:", {
+    message: err.message || "Unknown error",
+    status: err.status, 
+    code: err.code,
+    day: day,
+    destination: destination,
+    hasOpenAIKey: !!process.env.OPENAI_API_KEY
+  });
+  return {
+    day,
+    title: `Day ${day}: ${destination}`,
+    content: `${travelerName}, I'm gathering real-time budget-appropriate options for Day ${day}. This includes flights under $${Math.round(budget * 0.3)}, hotels around $${Math.round(budget * 0.35 / totalDays)}/night, and activities within your $${dailyBudget} daily budget. One moment...`
+  };
+}
 }
 
 // ======== BACKGROUND GENERATION ========
