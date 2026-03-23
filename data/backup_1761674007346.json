@@ -1,0 +1,115 @@
+{
+  "id": "6ebfdbde-5295-4118-801f-0e63b3739229",
+  "timestamp": "2025-10-28T17:53:27.346Z",
+  "traveler": {
+    "name": "sultan",
+    "nickname": null,
+    "departure": "new delhi",
+    "destination": "new york",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "1000",
+    "currency": "USD",
+    "travelStyle": "General",
+    "preferences": [],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "```json\n[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in New York\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from New Delhi city center to Indira Gandhi International Airport — 45 min, ₹900\",\n      \"flight\": \"Air India AI-101, 09:00 – 15:30, ₹52,000\",\n      \"arrival_transfer\": \"Private car from JFK Airport to hotel — 30 min, $60\",\n      \"activities\": [\n        \"Check-in and freshen up at the hotel\",\n        \"Evening walk in Central Park\",\n        \"Dinner at The Smith near Lincoln Square\"\n      ],\n      \"cost_range\": \"₹53,000 – ₹55,000 ($725 – $740)\",\n      \"duration_estimate\": \"10–12 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Exploring Manhattan\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Visit the Metropolitan Museum of Art — Entry: $25\",\n        \"Lunch at Shake Shack — Approx. $15\",\n        \"Stroll through Times Square\",\n        \"Dinner at Carbone — Approx. $50\"\n      ],\n      \"local_commute\": \"Subway day pass — $13\",\n      \"cost_range\": \"$103 – $110\",\n      \"duration_estimate\": \"9 hours\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Statue of Liberty & Brooklyn\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Ferry to Statue of Liberty — Boat ticket: $18\",\n        \"Lunch at a nearby deli — Approx. $12\",\n        \"Walk across Brooklyn Bridge and explore DUMBO\",\n        \"Dinner at Juliana's Pizza — Approx. $30\"\n      ],\n      \"local_commute\": \"Subway to Battery Park — $3\",\n      \"cost_range\": \"$63 – $68\",\n      \"duration_estimate\": \"8 hours\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Cultural Day in NYC\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast in Little Italy — Approx. $10\",\n        \"Visit the American Museum of Natural History — Entry: $23\",\n        \"Lunch at a food truck — Approx. $12\",\n        \"Explore the Upper West Side\",\n        \"Dinner at Jacob's Pickles — Approx. $35\"\n      ],\n      \"local_commute\": \"Subway day pass — $13\",\n      \"cost_range\": \"$93 – $98\",\n      \"duration_estimate\": \"9 hours\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Last Day & Departure\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Last-minute shopping at a nearby mall\",\n        \"Lunch at a café — Approx. $15\",\n        \"Relax at hotel before checkout\",\n        \"Transfer from hotel to JFK Airport via private car — 30 min, $60\"\n      ],\n      \"flight\": \"Air India AI-102, 20:00 – 09:30 (+1 day), ₹52,000\",\n      \"cost_range\": \"₹51,000 – ₹54,000 ($720 – $740)\",\n      \"duration_estimate\": \"7 hours\"\n    }\n  },\n  {\n    \"summary\": {\n      \"total_estimated_budget\": \"₹250,000 – ₹260,000 ($3,330 – $3,460)\",\n      \"cost_breakdown\": {\n        \"transport\": \"₹4,000 ($50)\",\n        \"flights\": \"₹104,000 ($1,400)\",\n        \"accommodation\": \"Approx. ₹100,000 ($1,340)\",\n        \"meals\": \"Approx. $300\",\n        \"activities\": \"Approx. $200\"\n      }\n    }\n  }\n]\n```",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in New York",
+      "details": {
+        "from_city_to_airport": "Taxi from New Delhi city center to Indira Gandhi International Airport — 45 min, ₹900",
+        "flight": "Air India AI-101, 09:00 – 15:30, ₹52,000",
+        "arrival_transfer": "Private car from JFK Airport to hotel — 30 min, $60",
+        "activities": [
+          "Check-in and freshen up at the hotel",
+          "Evening walk in Central Park",
+          "Dinner at The Smith near Lincoln Square"
+        ],
+        "cost_range": "₹53,000 – ₹55,000 ($725 – $740)",
+        "duration_estimate": "10–12 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Exploring Manhattan",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Visit the Metropolitan Museum of Art — Entry: $25",
+          "Lunch at Shake Shack — Approx. $15",
+          "Stroll through Times Square",
+          "Dinner at Carbone — Approx. $50"
+        ],
+        "local_commute": "Subway day pass — $13",
+        "cost_range": "$103 – $110",
+        "duration_estimate": "9 hours"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Statue of Liberty & Brooklyn",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Ferry to Statue of Liberty — Boat ticket: $18",
+          "Lunch at a nearby deli — Approx. $12",
+          "Walk across Brooklyn Bridge and explore DUMBO",
+          "Dinner at Juliana's Pizza — Approx. $30"
+        ],
+        "local_commute": "Subway to Battery Park — $3",
+        "cost_range": "$63 – $68",
+        "duration_estimate": "8 hours"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Cultural Day in NYC",
+      "details": {
+        "activities": [
+          "Breakfast in Little Italy — Approx. $10",
+          "Visit the American Museum of Natural History — Entry: $23",
+          "Lunch at a food truck — Approx. $12",
+          "Explore the Upper West Side",
+          "Dinner at Jacob's Pickles — Approx. $35"
+        ],
+        "local_commute": "Subway day pass — $13",
+        "cost_range": "$93 – $98",
+        "duration_estimate": "9 hours"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Last Day & Departure",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Last-minute shopping at a nearby mall",
+          "Lunch at a café — Approx. $15",
+          "Relax at hotel before checkout",
+          "Transfer from hotel to JFK Airport via private car — 30 min, $60"
+        ],
+        "flight": "Air India AI-102, 20:00 – 09:30 (+1 day), ₹52,000",
+        "cost_range": "₹51,000 – ₹54,000 ($720 – $740)",
+        "duration_estimate": "7 hours"
+      }
+    },
+    {
+      "summary": {
+        "total_estimated_budget": "₹250,000 – ₹260,000 ($3,330 – $3,460)",
+        "cost_breakdown": {
+          "transport": "₹4,000 ($50)",
+          "flights": "₹104,000 ($1,400)",
+          "accommodation": "Approx. ₹100,000 ($1,340)",
+          "meals": "Approx. $300",
+          "activities": "Approx. $200"
+        }
+      }
+    }
+  ]
+}

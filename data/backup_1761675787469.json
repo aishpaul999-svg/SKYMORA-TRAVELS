@@ -1,0 +1,118 @@
+{
+  "id": "4731d3b3-7cc5-44b7-b037-00e2feb54921",
+  "timestamp": "2025-10-28T18:23:07.469Z",
+  "traveler": {
+    "name": "aashish",
+    "nickname": null,
+    "departure": "New Delhi",
+    "destination": "New York City",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "2300",
+    "currency": "USD",
+    "travelStyle": "Luxury Escapes ✨",
+    "preferences": [
+      "Luxury Escapes ✨"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in New York City\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from New Delhi city center to Indira Gandhi International Airport — 45 min, ₹900\",\n      \"flight\": \"Air India AI-101, 09:00 – 15:30, ₹52,000\",\n      \"arrival_transfer\": \"Private car from JFK Airport to hotel — 30 min, $100\",\n      \"activities\": [\n        \"Check-in at The St. Regis New York and freshen up\",\n        \"Explore Central Park for an evening stroll\",\n        \"Dinner at Astoria Restaurant, known for its luxurious ambiance and fine dining experience\"\n      ],\n      \"cost_range\": \"₹50,000 – ₹55,000 (approx. $650 - $720)\",\n      \"duration_estimate\": \"10–12 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Exploring Manhattan\",\n    \"details\": {\n      \"from_city_to_airport\": \"Breakfast at the hotel\",\n      \"activities\": [\n        \"Visit the Metropolitan Museum of Art — entry $25\",\n        \"Lunch at The Modern, a Michelin-starred restaurant in MoMA — approx. $75\",\n        \"Afternoon shopping at Fifth Avenue — luxury boutiques\",\n        \"Return to hotel to relax\",\n        \"Dinner at Le Bernardin, a renowned French seafood restaurant — approx. $150\"\n      ],\n      \"shopping_or_convenience_stop\": \"Stop by Starbucks for a coffee during the day — approx. $5\",\n      \"cost_range\": \"approx. $350 - $400\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Iconic NYC Landmarks\",\n    \"details\": {\n      \"from_city_to_airport\": \"Breakfast at the hotel\",\n      \"activities\": [\n        \"Morning visit to the Statue of Liberty and Ellis Island — ferry ticket $23\",\n        \"Lunch at a trendy spot in the Financial District — approx. $50\",\n        \"Afternoon visit to One World Observatory — entry $38\",\n        \"Dinner at Nobu, experiencing Japanese cuisine — approx. $200\"\n      ],\n      \"shopping_or_convenience_stop\": \"Convenience stop at Duane Reade for snacks — approx. $10\",\n      \"cost_range\": \"approx. $350 - $400\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Culture & Entertainment\",\n    \"details\": {\n      \"from_city_to_airport\": \"Breakfast at the hotel\",\n      \"activities\": [\n        \"Visit to the American Museum of Natural History — entry $23\",\n        \"Lunch at Shake Shack for a casual bite — approx. $20\",\n        \"Afternoon visit to Broadway for a show (ticket approx. $150)\",\n        \"Dinner at The Rainbow Room — approx. $120\"\n      ],\n      \"shopping_or_convenience_stop\": \"7-Eleven for refreshments — approx. $10\",\n      \"cost_range\": \"approx. $350 - $400\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Final Day and Departure\",\n    \"details\": {\n      \"from_city_to_airport\": \"Breakfast at the hotel, relax\",\n      \"activities\": [\n        \"Last-minute shopping in SoHo\",\n        \"Lunch at Balthazar, a classic French bistro — approx. $70\",\n        \"Return to hotel to check-out\",\n        \"Private car transfer to JFK Airport — 30 min, $100\"\n      ],\n      \"flight\": \"Air India AI-102, 18:00 – 08:30 (+1 day), ₹52,000\",\n      \"cost_range\": \"approx. $200 - $300\",\n      \"duration_estimate\": \"6–8 hours total\"\n    }\n  },\n  {\n    \"summary\": {\n      \"total_estimated_budget\": \"approx. $2,100 - $2,400\",\n      \"cost_breakdown\": {\n        \"transport\": \"approx. $500\",\n        \"flights\": \"approx. $1,100\",\n        \"accommodation\": \"approx. $800 for 4 nights\",\n        \"meals\": \"approx. $600\",\n        \"activities\": \"approx. $300\"\n      }\n    }\n  }\n]",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in New York City",
+      "details": {
+        "from_city_to_airport": "Taxi from New Delhi city center to Indira Gandhi International Airport — 45 min, ₹900",
+        "flight": "Air India AI-101, 09:00 – 15:30, ₹52,000",
+        "arrival_transfer": "Private car from JFK Airport to hotel — 30 min, $100",
+        "activities": [
+          "Check-in at The St. Regis New York and freshen up",
+          "Explore Central Park for an evening stroll",
+          "Dinner at Astoria Restaurant, known for its luxurious ambiance and fine dining experience"
+        ],
+        "cost_range": "₹50,000 – ₹55,000 (approx. $650 - $720)",
+        "duration_estimate": "10–12 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Exploring Manhattan",
+      "details": {
+        "from_city_to_airport": "Breakfast at the hotel",
+        "activities": [
+          "Visit the Metropolitan Museum of Art — entry $25",
+          "Lunch at The Modern, a Michelin-starred restaurant in MoMA — approx. $75",
+          "Afternoon shopping at Fifth Avenue — luxury boutiques",
+          "Return to hotel to relax",
+          "Dinner at Le Bernardin, a renowned French seafood restaurant — approx. $150"
+        ],
+        "shopping_or_convenience_stop": "Stop by Starbucks for a coffee during the day — approx. $5",
+        "cost_range": "approx. $350 - $400",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Iconic NYC Landmarks",
+      "details": {
+        "from_city_to_airport": "Breakfast at the hotel",
+        "activities": [
+          "Morning visit to the Statue of Liberty and Ellis Island — ferry ticket $23",
+          "Lunch at a trendy spot in the Financial District — approx. $50",
+          "Afternoon visit to One World Observatory — entry $38",
+          "Dinner at Nobu, experiencing Japanese cuisine — approx. $200"
+        ],
+        "shopping_or_convenience_stop": "Convenience stop at Duane Reade for snacks — approx. $10",
+        "cost_range": "approx. $350 - $400",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Culture & Entertainment",
+      "details": {
+        "from_city_to_airport": "Breakfast at the hotel",
+        "activities": [
+          "Visit to the American Museum of Natural History — entry $23",
+          "Lunch at Shake Shack for a casual bite — approx. $20",
+          "Afternoon visit to Broadway for a show (ticket approx. $150)",
+          "Dinner at The Rainbow Room — approx. $120"
+        ],
+        "shopping_or_convenience_stop": "7-Eleven for refreshments — approx. $10",
+        "cost_range": "approx. $350 - $400",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Final Day and Departure",
+      "details": {
+        "from_city_to_airport": "Breakfast at the hotel, relax",
+        "activities": [
+          "Last-minute shopping in SoHo",
+          "Lunch at Balthazar, a classic French bistro — approx. $70",
+          "Return to hotel to check-out",
+          "Private car transfer to JFK Airport — 30 min, $100"
+        ],
+        "flight": "Air India AI-102, 18:00 – 08:30 (+1 day), ₹52,000",
+        "cost_range": "approx. $200 - $300",
+        "duration_estimate": "6–8 hours total"
+      }
+    },
+    {
+      "summary": {
+        "total_estimated_budget": "approx. $2,100 - $2,400",
+        "cost_breakdown": {
+          "transport": "approx. $500",
+          "flights": "approx. $1,100",
+          "accommodation": "approx. $800 for 4 nights",
+          "meals": "approx. $600",
+          "activities": "approx. $300"
+        }
+      }
+    }
+  ]
+}

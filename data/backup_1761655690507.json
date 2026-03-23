@@ -1,0 +1,128 @@
+{
+  "id": "9a4b5671-7f4d-40c1-a27d-b115294333d3",
+  "timestamp": "2025-10-28T12:48:10.507Z",
+  "traveler": {
+    "name": "harshita",
+    "nickname": null,
+    "departure": "Dubai",
+    "destination": "miami",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "4450",
+    "currency": "EUR",
+    "travelStyle": "Luxury Escapes ✨, Beach Retreats 🏖️",
+    "preferences": [
+      "Luxury Escapes ✨",
+      "Beach Retreats 🏖️"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "```json\n[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in Miami\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from Dubai city center to Dubai Airport — 45 min, 120 AED\",\n      \"flight\": \"Emirates EK-213, 09:00 – 15:00, 1,200 EUR\",\n      \"arrival_transfer\": \"Private car from Miami International Airport to hotel — 30 min, 80 USD\",\n      \"activities\": [\n        \"Check-in at the luxurious Fontainebleau Miami Beach\",\n        \"Relax by the beach to unwind after your flight\",\n        \"Dinner at StripSteak by Michael Mina\"\n      ],\n      \"cost_range\": \"1,400 EUR – 1,450 EUR\",\n      \"duration_estimate\": \"10–12 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Explore Miami Beach\",\n    \"details\": {\n      \"from_city_to_airport\": \"Walking to Lincoln Road Mall — 15 min\",\n      \"activities\": [\n        \"Breakfast at the hotel — lavish buffet\",\n        \"Stroll along the beach and visit Ocean Drive\",\n        \"Lunch at Big Pink — iconic local spot\",\n        \"Afternoon relaxation at Lummus Park\",\n        \"Evening shopping at Lincoln Road Mall\",\n        \"Dinner at Prime 112\"\n      ],\n      \"shopping_stop\": \"7-Eleven for snacks and beverages\",\n      \"local_commute_cost\": \"Free (walking)\",\n      \"cost_range\": \"300 EUR – 350 EUR\",\n      \"duration_estimate\": \"8–10 hours\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Day Trip to Key Biscayne\",\n    \"details\": {\n      \"from_city_to_airport\": \"Private car to Key Biscayne — 30 min, 50 USD\",\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Visit to Bill Baggs Cape Florida State Park\",\n        \"Lunch at Boater's Grill with ocean views\",\n        \"Relaxing beach time at Crandon Park\",\n        \"Return to Miami — 30 min\",\n        \"Dinner at Katsuya\"\n      ],\n      \"shopping_stop\": \"Local convenience store for beach essentials\",\n      \"local_commute_cost\": \"80 USD (round trip)\",\n      \"cost_range\": \"400 EUR – 450 EUR\",\n      \"duration_estimate\": \"9–11 hours\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Culture & Nightlife in Miami\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi to Wynwood Walls — 15 min, 25 USD\",\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Explore the Wynwood Arts District for street art\",\n        \"Lunch at Wynwood Kitchen & Bar\",\n        \"Afternoon visit to Pérez Art Museum Miami\",\n        \"Return to hotel — 15 min, 25 USD\",\n        \"Dinner at Juvia with stunning rooftop views\",\n        \"Experience Miami nightlife at LIV Nightclub\"\n      ],\n      \"shopping_stop\": \"Local boutique for unique souvenirs\",\n      \"local_commute_cost\": \"50 USD (round trip)\",\n      \"cost_range\": \"600 EUR – 650 EUR\",\n      \"duration_estimate\": \"10–12 hours\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Relax & Return to Dubai\",\n    \"details\": {\n      \"from_city_to_airport\": \"Private car from hotel to Miami International Airport — 30 min, 80 USD\",\n      \"flight\": \"Emirates EK-214, 17:00 – 15:55 (next day), 1,200 EUR\",\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Final swim or beach stroll\",\n        \"Check-out and last-minute shopping\",\n        \"Lunch at the hotel restaurant\"\n      ],\n      \"cost_range\": \"1,400 EUR – 1,450 EUR\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"summary\": {\n      \"total_estimated_budget\": \"4,000 EUR – 4,350 EUR\",\n      \"cost_breakdown\": {\n        \"transport\": \"425 EUR\",\n        \"flights\": \"2,400 EUR\",\n        \"accommodation\": \"1,200 EUR\",\n        \"meals\": \"600 EUR\",\n        \"activities\": \"300 EUR\"\n      }\n    }\n  }\n]\n```",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in Miami",
+      "details": {
+        "from_city_to_airport": "Taxi from Dubai city center to Dubai Airport — 45 min, 120 AED",
+        "flight": "Emirates EK-213, 09:00 – 15:00, 1,200 EUR",
+        "arrival_transfer": "Private car from Miami International Airport to hotel — 30 min, 80 USD",
+        "activities": [
+          "Check-in at the luxurious Fontainebleau Miami Beach",
+          "Relax by the beach to unwind after your flight",
+          "Dinner at StripSteak by Michael Mina"
+        ],
+        "cost_range": "1,400 EUR – 1,450 EUR",
+        "duration_estimate": "10–12 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Explore Miami Beach",
+      "details": {
+        "from_city_to_airport": "Walking to Lincoln Road Mall — 15 min",
+        "activities": [
+          "Breakfast at the hotel — lavish buffet",
+          "Stroll along the beach and visit Ocean Drive",
+          "Lunch at Big Pink — iconic local spot",
+          "Afternoon relaxation at Lummus Park",
+          "Evening shopping at Lincoln Road Mall",
+          "Dinner at Prime 112"
+        ],
+        "shopping_stop": "7-Eleven for snacks and beverages",
+        "local_commute_cost": "Free (walking)",
+        "cost_range": "300 EUR – 350 EUR",
+        "duration_estimate": "8–10 hours"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Day Trip to Key Biscayne",
+      "details": {
+        "from_city_to_airport": "Private car to Key Biscayne — 30 min, 50 USD",
+        "activities": [
+          "Breakfast at the hotel",
+          "Visit to Bill Baggs Cape Florida State Park",
+          "Lunch at Boater's Grill with ocean views",
+          "Relaxing beach time at Crandon Park",
+          "Return to Miami — 30 min",
+          "Dinner at Katsuya"
+        ],
+        "shopping_stop": "Local convenience store for beach essentials",
+        "local_commute_cost": "80 USD (round trip)",
+        "cost_range": "400 EUR – 450 EUR",
+        "duration_estimate": "9–11 hours"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Culture & Nightlife in Miami",
+      "details": {
+        "from_city_to_airport": "Taxi to Wynwood Walls — 15 min, 25 USD",
+        "activities": [
+          "Breakfast at the hotel",
+          "Explore the Wynwood Arts District for street art",
+          "Lunch at Wynwood Kitchen & Bar",
+          "Afternoon visit to Pérez Art Museum Miami",
+          "Return to hotel — 15 min, 25 USD",
+          "Dinner at Juvia with stunning rooftop views",
+          "Experience Miami nightlife at LIV Nightclub"
+        ],
+        "shopping_stop": "Local boutique for unique souvenirs",
+        "local_commute_cost": "50 USD (round trip)",
+        "cost_range": "600 EUR – 650 EUR",
+        "duration_estimate": "10–12 hours"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Relax & Return to Dubai",
+      "details": {
+        "from_city_to_airport": "Private car from hotel to Miami International Airport — 30 min, 80 USD",
+        "flight": "Emirates EK-214, 17:00 – 15:55 (next day), 1,200 EUR",
+        "activities": [
+          "Breakfast at the hotel",
+          "Final swim or beach stroll",
+          "Check-out and last-minute shopping",
+          "Lunch at the hotel restaurant"
+        ],
+        "cost_range": "1,400 EUR – 1,450 EUR",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "summary": {
+        "total_estimated_budget": "4,000 EUR – 4,350 EUR",
+        "cost_breakdown": {
+          "transport": "425 EUR",
+          "flights": "2,400 EUR",
+          "accommodation": "1,200 EUR",
+          "meals": "600 EUR",
+          "activities": "300 EUR"
+        }
+      }
+    }
+  ]
+}
