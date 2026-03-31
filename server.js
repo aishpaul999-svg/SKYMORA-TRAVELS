@@ -50,9 +50,6 @@ function getCachedPrompt(tripId, builderFn) {
 const itineraries = new Map();
 
 dotenv.config({ override: true });
-console.log("🔑 DEBUG: OPENAI_API_KEY loaded:", !!process.env.OPENAI_API_KEY);
-console.log("🔑 DEBUG: Key length:", process.env.OPENAI_API_KEY?.length || 0);const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
