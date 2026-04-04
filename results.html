@@ -687,7 +687,7 @@ async function generateItinerary(trip) {
   console.log("🌍 Sending trip details to backend:", trip);
   
   try {
-const response = await fetch("https://skymora-travels-1.onrender.com/api/generate", {      method: "POST",
+const response = await fetch("https://skymora-travels-2.onrender.com/api/generate", {    method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(trip)
     });
@@ -725,7 +725,7 @@ const response = await fetch("https://skymora-travels-1.onrender.com/api/generat
         }
 
         try {
-const progressRes = await fetch(`https://skymora-travels-1.onrender.com/api/progress/${tripId}`);          const progressData = await progressRes.json();
+const progressRes = await fetch(`https://skymora-travels-2.onrender.com/api/progress/${tripId}`);          const progressData = await progressRes.json();
 
           if (progressData.success && progressData.newDays.length > 0) {
             fullItinerary.push(...progressData.newDays);

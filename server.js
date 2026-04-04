@@ -9,6 +9,8 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 import OpenAI from "openai";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
@@ -71,10 +73,15 @@ if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 const dbFile = path.join(dataDir, "backup.json");
 const adapter = new JSONFile(dbFile);
 const db = new Low(adapter, { logs: [] });
+async function initDB() {
+  await db.read();
+  if (!db.data) db.data = { logs: [] };
 
-await db.read();
-if (!db.data) db.data = { logs: [] };
+  await memoryDB.read();
+  if (!memoryDB.data) memoryDB.data = { trips: [] };
+}
 
+initDB();
 async function saveBackup(entry) {
   const id = uuidv4();
   db.data.logs.push({ id, timestamp: new Date().toISOString(), ...entry });
@@ -611,7 +618,18 @@ async function generateInBackground(tripId, trip, startAt, totalDays) {
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+const corsOptions = {
+  origin: [
+    "https://skymora-travels-2.onrender.com",
+    "http://localhost:3000",
+    "http://127.0.0.1:5500"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true
+};
+
+app.use(cors(corsOptions));
 
 const publicPath = path.join(__dirname);
 app.use(express.static(publicPath));
