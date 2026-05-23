@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Terms & Conditions — SKYmora Travels</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #0a1628;
+    color: #f0f0f0;
+    min-height: 100vh;
+  }
+
+  .bg {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #0a1628 0%, #0d2444 50%, #0a1628 100%);
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 30px 100px;
+  }
+
+  .logo-bar {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .logo-bar a { text-decoration: none; }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+  }
+
+  .logo .sky { color: #0099cc; }
+  .logo .mora { color: #ffffff; }
+  .logo-bar p { color: rgba(255,255,255,0.5); font-size: 0.9rem; margin-top: 6px; }
+
+  .page-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,215,0,0.2);
+  }
+
+  .page-title h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: #FFD700;
+    margin-bottom: 12px;
+  }
+
+  .page-title p { color: rgba(255,255,255,0.55); font-size: 0.95rem; }
+
+  .section {
+    margin-bottom: 42px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 32px 36px;
+  }
+
+  .section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem;
+    color: #FFD700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section p {
+    color: rgba(255,255,255,0.78);
+    line-height: 1.85;
+    font-size: 0.97rem;
+    margin-bottom: 14px;
+  }
+
+  .section p:last-child { margin-bottom: 0; }
+
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .section ul li {
+    color: rgba(255,255,255,0.78);
+    font-size: 0.97rem;
+    line-height: 1.85;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+
+  .section ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+    font-size: 0.85rem;
+  }
+
+  .highlight-box {
+    background: rgba(255,215,0,0.06);
+    border-left: 3px solid #FFD700;
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+
+  .highlight-box p {
+    color: rgba(255,255,255,0.85);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .contact-box {
+    background: linear-gradient(135deg, rgba(0,153,204,0.1), rgba(255,215,0,0.08));
+    border: 1px solid rgba(0,153,204,0.3);
+    border-radius: 16px;
+    padding: 32px 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .contact-box h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #FFD700;
+    margin-bottom: 12px;
+  }
+
+  .contact-box p { color: rgba(255,255,255,0.7); margin-bottom: 8px; font-size: 0.95rem; }
+  .contact-box a { color: #0099cc; text-decoration: none; font-weight: 600; }
+
+  .footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: #FFD700; }
+  .footer p { color: rgba(255,255,255,0.3); font-size: 0.85rem; }
+
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(90deg, #FFD700, #FFC300);
+    color: #111;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 12px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: transform 0.2s;
+  }
+
+  .back-btn:hover { transform: scale(1.03); }
+
+  @media (max-width: 600px) {
+    .container { padding: 40px 18px 80px; }
+    .section { padding: 24px 20px; }
+    .page-title h1 { font-size: 1.8rem; }
+    .logo { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+  <div class="logo-bar">
+    <a href="/">
+      <div class="logo">
+        <span class="sky">SKY</span><span class="mora">mora</span>
+      </div>
+    </a>
+    <p>Your Personal Travel Consultant</p>
+  </div>
+
+  <a href="/" class="back-btn">← Back to SKYmora</a>
+
+  <div class="page-title">
+    <h1>Terms &amp; Conditions</h1>
+    <p>Last updated: May 2025 &nbsp;|&nbsp; Please read these terms carefully before using SKYmora</p>
+  </div>
+
+  <div class="section">
+    <h2>📋 Agreement To Terms</h2>
+    <p>By accessing and using SKYmora Travels ("SKYmora", "the Platform", "we", "our", or "us"), you agree to be bound by these Terms and Conditions and our Privacy Policy.</p>
+    <p>If you do not agree to these terms, you must discontinue use of our platform immediately. These terms apply to all visitors, users, and travelers who access or use our service.</p>
+    <div class="highlight-box">
+      <p>SKYmora is a travel planning and itinerary generation platform. We are not a licensed travel agent, airline, or hotel operator. We provide recommendations and connect you with booking partners.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>✈️ Nature of Our Service</h2>
+    <p>SKYmora provides AI-powered personalized travel planning services. Specifically we offer:</p>
+    <ul>
+      <li>Personalized travel itinerary generation based on your preferences and budget</li>
+      <li>AI-powered travel consultation through our chat system</li>
+      <li>Flight and hotel recommendations with links to booking partners</li>
+      <li>Human travel agent support and oversight</li>
+      <li>Budget-aware travel planning within your specified constraints</li>
+    </ul>
+    <p>SKYmora does NOT directly sell or book flights, hotels, or any travel products. We provide recommendations and direct you to authorized booking platforms where all transactions take place under their terms and conditions.</p>
+  </div>
+
+  <div class="section">
+    <h2>💰 Pricing and Payments</h2>
+    <p>SKYmora offers the following payment options:</p>
+    <ul>
+      <li><strong>Free Basic Access</strong> — View your generated itinerary at no cost</li>
+      <li><strong>Personal Journey Pass — $9.99</strong> — Full itinerary download, unlimited edits, and priority chat support</li>
+      <li><strong>Frequent Explorer — $29.99/month</strong> — Unlimited itineraries with exclusive discounts</li>
+      <li><strong>Elite Annual Access — $99.99/year</strong> — VIP access with concierge support</li>
+    </ul>
+    <p>All payments are processed securely through PayPal. SKYmora does not store your payment card details on our servers.</p>
+    <p>Prices are displayed in USD unless otherwise specified. Applicable taxes may vary by location.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔄 Refund Policy</h2>
+    <p>We want you to be completely satisfied with SKYmora. Our refund policy is as follows:</p>
+    <ul>
+      <li><strong>Personal Journey Pass ($9.99)</strong> — Full refund within 24 hours of purchase if the itinerary was not generated successfully due to a technical error on our part</li>
+      <li><strong>Monthly Subscription</strong> — Cancel anytime. No refund for the current billing period but you retain access until the period ends</li>
+      <li><strong>Annual Subscription</strong> — Pro-rata refund available within 30 days of purchase if you are unsatisfied</li>
+    </ul>
+    <p>Refunds are not provided for change of mind, incorrect trip details entered by the user, or dissatisfaction with AI-generated content that accurately reflects the information provided.</p>
+    <p>To request a refund, contact us at skymoratravels@gmail.com within the applicable refund window.</p>
+  </div>
+
+  <div class="section">
+    <h2>⚠️ Accuracy of Information</h2>
+    <p>SKYmora uses AI technology and third-party data sources to generate travel recommendations. While we strive for accuracy, please be aware of the following:</p>
+    <ul>
+      <li>Flight prices and availability change in real time — prices shown are estimates and may differ at time of booking</li>
+      <li>Hotel prices and availability are subject to change without notice</li>
+      <li>Attraction entry fees, opening hours, and policies may have changed since our last update</li>
+      <li>Visa requirements, travel advisories, and entry restrictions vary and should be independently verified</li>
+      <li>Weather forecasts are estimates only and not guaranteed</li>
+    </ul>
+    <div class="highlight-box">
+      <p>Always verify all travel information — including flight prices, hotel rates, visa requirements, and travel advisories — directly with airlines, hotels, and your government's official travel advisory website before making any bookings.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🔗 Third Party Booking Partners</h2>
+    <p>SKYmora provides links to third-party booking platforms including Skyscanner, Booking.com, and others. Please understand:</p>
+    <ul>
+      <li>All bookings made through partner platforms are governed by that platform's own terms and conditions</li>
+      <li>SKYmora is not responsible for any transactions, disputes, cancellations, or refunds that occur on third-party platforms</li>
+      <li>SKYmora may earn affiliate commissions when you book through our partner links — this does not affect the price you pay</li>
+      <li>We recommend reading the terms and conditions of any booking platform before completing a purchase</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🤖 AI-Generated Content</h2>
+    <p>SKYmora uses artificial intelligence to generate personalized travel itineraries and chat responses. By using our platform you acknowledge:</p>
+    <ul>
+      <li>AI-generated content is for guidance and inspiration purposes only</li>
+      <li>Itineraries are created based on the information you provide and may not reflect the most current conditions</li>
+      <li>Our human agents review and can modify AI responses to ensure quality</li>
+      <li>AI recommendations should not replace professional travel advice for complex or high-value trips</li>
+      <li>You retain full responsibility for all travel decisions made based on SKYmora recommendations</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🚫 Prohibited Uses</h2>
+    <p>You agree not to use SKYmora for any of the following purposes:</p>
+    <ul>
+      <li>Any unlawful purpose or in violation of any applicable laws or regulations</li>
+      <li>Attempting to gain unauthorized access to our systems or data</li>
+      <li>Submitting false, misleading, or fraudulent information</li>
+      <li>Harassing, threatening, or abusing our team members or AI systems</li>
+      <li>Scraping, copying, or republishing our AI-generated content without permission</li>
+      <li>Using our platform to generate content for competitor travel services</li>
+      <li>Attempting to reverse-engineer or extract our AI models or algorithms</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🛡️ Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, SKYmora and its team shall not be liable for:</p>
+    <ul>
+      <li>Any direct, indirect, incidental, or consequential damages arising from use of our platform</li>
+      <li>Loss of bookings, missed flights, or hotel issues resulting from inaccurate information</li>
+      <li>Financial losses arising from acting on AI-generated travel recommendations</li>
+      <li>Service interruptions, technical errors, or data loss</li>
+      <li>Actions of third-party booking partners</li>
+      <li>Travel disruptions due to weather, strikes, political events, or force majeure</li>
+    </ul>
+    <p>SKYmora's total liability to you for any claim arising from use of our platform shall not exceed the amount you paid to us in the 3 months preceding the claim.</p>
+  </div>
+
+  <div class="section">
+    <h2>©️ Intellectual Property</h2>
+    <p>All content on the SKYmora platform — including but not limited to our AI system, itinerary format, agent matching system, design, logo, and text — is the intellectual property of SKYmora Travels.</p>
+    <ul>
+      <li>You may download and print your personal itinerary for personal use only</li>
+      <li>You may not reproduce, distribute, or commercially exploit any SKYmora content without written permission</li>
+      <li>Destination photographs are provided by Unsplash and are subject to their respective licenses</li>
+      <li>User-submitted content — such as special requests — remains your property but you grant us license to use it to provide our service</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🌍 Governing Law</h2>
+    <p>These Terms and Conditions are governed by and construed in accordance with the laws of India. Any disputes arising from these terms or your use of SKYmora shall be subject to the exclusive jurisdiction of the courts of India.</p>
+    <p>If any provision of these terms is found to be unenforceable, the remaining provisions shall continue in full force and effect.</p>
+  </div>
+
+  <div class="section">
+    <h2>📝 Changes To These Terms</h2>
+    <p>We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting to our platform.</p>
+    <p>We will notify users of significant changes by updating the "Last Updated" date at the top of this page. Your continued use of SKYmora after any changes constitutes acceptance of the updated terms.</p>
+    <p>We encourage you to review these terms periodically to stay informed of any updates.</p>
+  </div>
+
+  <div class="contact-box">
+    <h3>📬 Questions About These Terms?</h3>
+    <p>If you have any questions about these Terms and Conditions, please contact us:</p>
+    <p><strong>SKYmora Travels</strong></p>
+    <p>Email: <a href="mailto:skymoratravels@gmail.com">skymoratravels@gmail.com</a></p>
+    <p>Website: <a href="https://skymora-travels-2.onrender.com">skymora-travels-2.onrender.com</a></p>
+    <p style="margin-top: 16px; font-size: 0.85rem; color: rgba(255,255,255,0.4);">We aim to respond to all legal inquiries within 14 business days.</p>
+  </div>
+
+  <div class="footer">
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms & Conditions</a>
+      <a href="/about.html">About Us</a>
+      <a href="mailto:skymoratravels@gmail.com">Contact</a>
+    </div>
+    <p>© 2025 SKYmora Travels. All rights reserved. Crafted with 💛 for travelers worldwide.</p>
+  </div>
+
+</div>
+</body>
+</html>

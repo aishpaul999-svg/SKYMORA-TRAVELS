@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — SKYmora Travels</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #0a1628;
+    color: #f0f0f0;
+    min-height: 100vh;
+  }
+
+  .bg {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #0a1628 0%, #0d2444 50%, #0a1628 100%);
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 30px 100px;
+  }
+
+  /* HEADER */
+  .logo-bar {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .logo-bar a {
+    text-decoration: none;
+  }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+  }
+
+  .logo .sky { color: #0099cc; }
+  .logo .mora { color: #ffffff; }
+
+  .logo-bar p {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.9rem;
+    margin-top: 6px;
+  }
+
+  /* PAGE TITLE */
+  .page-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,215,0,0.2);
+  }
+
+  .page-title h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: #FFD700;
+    margin-bottom: 12px;
+  }
+
+  .page-title p {
+    color: rgba(255,255,255,0.55);
+    font-size: 0.95rem;
+  }
+
+  /* SECTIONS */
+  .section {
+    margin-bottom: 42px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 32px 36px;
+  }
+
+  .section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem;
+    color: #FFD700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section p {
+    color: rgba(255,255,255,0.78);
+    line-height: 1.85;
+    font-size: 0.97rem;
+    margin-bottom: 14px;
+  }
+
+  .section p:last-child { margin-bottom: 0; }
+
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .section ul li {
+    color: rgba(255,255,255,0.78);
+    font-size: 0.97rem;
+    line-height: 1.85;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+
+  .section ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+    font-size: 0.85rem;
+  }
+
+  /* CONTACT BOX */
+  .contact-box {
+    background: linear-gradient(135deg, rgba(0,153,204,0.1), rgba(255,215,0,0.08));
+    border: 1px solid rgba(0,153,204,0.3);
+    border-radius: 16px;
+    padding: 32px 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .contact-box h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #FFD700;
+    margin-bottom: 12px;
+  }
+
+  .contact-box p {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+  }
+
+  .contact-box a {
+    color: #0099cc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: #FFD700; }
+
+  .footer p {
+    color: rgba(255,255,255,0.3);
+    font-size: 0.85rem;
+  }
+
+  /* BACK BUTTON */
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(90deg, #FFD700, #FFC300);
+    color: #111;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 12px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: transform 0.2s;
+  }
+
+  .back-btn:hover { transform: scale(1.03); }
+
+  @media (max-width: 600px) {
+    .container { padding: 40px 18px 80px; }
+    .section { padding: 24px 20px; }
+    .page-title h1 { font-size: 1.8rem; }
+    .logo { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+  <!-- Logo -->
+  <div class="logo-bar">
+    <a href="/">
+      <div class="logo">
+        <span class="sky">SKY</span><span class="mora">mora</span>
+      </div>
+    </a>
+    <p>Your Personal Travel Consultant</p>
+  </div>
+
+  <!-- Back Button -->
+  <a href="/" class="back-btn">← Back to SKYmora</a>
+
+  <!-- Page Title -->
+  <div class="page-title">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: May 2025 &nbsp;|&nbsp; Effective immediately upon use of our platform</p>
+  </div>
+
+  <!-- Section 1 -->
+  <div class="section">
+    <h2>📋 Introduction</h2>
+    <p>Welcome to SKYmora Travels ("SKYmora", "we", "our", or "us"). We are committed to protecting your personal information and your right to privacy.</p>
+    <p>This Privacy Policy explains how we collect, use, store, and protect your information when you use our travel planning platform at skymora-travels-2.onrender.com and any related services.</p>
+    <p>By using SKYmora, you agree to the collection and use of information in accordance with this policy. If you do not agree, please discontinue use of our platform.</p>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="section">
+    <h2>📥 Information We Collect</h2>
+    <p>We collect information you provide directly to us when using our travel planning services:</p>
+    <ul>
+      <li>Full name and preferred nickname</li>
+      <li>Departure city and travel destination</li>
+      <li>Travel dates — departure and return</li>
+      <li>Number of travelers — adults, children, and infants</li>
+      <li>Travel budget and preferred currency</li>
+      <li>Travel style preferences and special requests</li>
+      <li>Chat messages and conversation history with our AI system</li>
+      <li>Device information and browser type for technical purposes</li>
+      <li>Usage data including pages visited and features used</li>
+    </ul>
+    <p>We do NOT collect payment card details, bank account numbers, or government identification numbers.</p>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="section">
+    <h2>🎯 How We Use Your Information</h2>
+    <p>The information we collect is used exclusively to provide and improve our travel planning services:</p>
+    <ul>
+      <li>To generate your personalized travel itinerary</li>
+      <li>To match you with the most suitable travel consultant</li>
+      <li>To power our AI chat system and remember your preferences</li>
+      <li>To recommend flights, hotels, and activities within your budget</li>
+      <li>To improve the accuracy and quality of our recommendations</li>
+      <li>To communicate important service updates with you</li>
+      <li>To analyze usage patterns and improve our platform</li>
+      <li>To prevent fraud and ensure platform security</li>
+    </ul>
+    <p>We do NOT sell your personal information to any third party. We do NOT use your data for advertising purposes outside of SKYmora.</p>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="section">
+    <h2>🔗 Third Party Services</h2>
+    <p>SKYmora integrates with trusted third-party services to deliver our travel planning experience. These partners may receive limited data necessary to provide their services:</p>
+    <ul>
+      <li><strong>OpenAI</strong> — Powers our AI travel planning and chat intelligence. Your travel details are processed to generate personalized itineraries.</li>
+      <li><strong>Skyscanner</strong> — Flight search and booking partner. When you click to search flights, you are directed to Skyscanner's platform where their privacy policy applies.</li>
+      <li><strong>Booking.com / Travelpayouts</strong> — Hotel search and booking partner. When you click to search hotels, their respective privacy policies apply.</li>
+      <li><strong>Unsplash</strong> — Provides destination photography for your itinerary display.</li>
+      <li><strong>PayPal</strong> — Processes payments for itinerary unlock. Your payment data is handled entirely by PayPal and never stored on our servers.</li>
+    </ul>
+    <p>We encourage you to review the privacy policies of these third-party services when you are redirected to their platforms.</p>
+  </div>
+
+  <!-- Section 5 -->
+  <div class="section">
+    <h2>🍪 Cookies and Local Storage</h2>
+    <p>SKYmora uses browser local storage (similar to cookies) to remember your trip details and improve your experience. This includes:</p>
+    <ul>
+      <li>Your trip data so you do not need to re-enter it</li>
+      <li>Your itinerary unlock status</li>
+      <li>Your preferred agent and travel style</li>
+      <li>Session information for chat continuity</li>
+    </ul>
+    <p>This data is stored locally on your device and is not transmitted to third parties. You can clear this data at any time by clearing your browser's local storage or cache.</p>
+    <p>We do not use tracking cookies for advertising purposes.</p>
+  </div>
+
+  <!-- Section 6 -->
+  <div class="section">
+    <h2>🔒 Data Security</h2>
+    <p>We take the security of your personal information seriously. We implement industry-standard security measures including:</p>
+    <ul>
+      <li>HTTPS encryption for all data transmission</li>
+      <li>Secure server infrastructure through Render cloud hosting</li>
+      <li>Regular security reviews and updates</li>
+      <li>Limited access to personal data within our team</li>
+      <li>Secure storage of conversation history and trip data</li>
+    </ul>
+    <p>While we implement strong security measures, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security but commit to promptly addressing any security incidents.</p>
+  </div>
+
+  <!-- Section 7 -->
+  <div class="section">
+    <h2>⏱️ Data Retention</h2>
+    <p>We retain your trip data and conversation history for as long as necessary to provide our services and improve your experience on return visits.</p>
+    <ul>
+      <li>Trip itinerary data — retained for 12 months from creation</li>
+      <li>Chat conversation history — retained for 6 months</li>
+      <li>Usage analytics — retained for 24 months in anonymized form</li>
+    </ul>
+    <p>You may request deletion of your data at any time by contacting us at the email address below. We will process deletion requests within 14 business days.</p>
+  </div>
+
+  <!-- Section 8 -->
+  <div class="section">
+    <h2>👤 Your Rights</h2>
+    <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Right to Access</strong> — Request a copy of all data we hold about you</li>
+      <li><strong>Right to Correction</strong> — Request correction of inaccurate data</li>
+      <li><strong>Right to Deletion</strong> — Request deletion of your personal data</li>
+      <li><strong>Right to Portability</strong> — Request your data in a portable format</li>
+      <li><strong>Right to Object</strong> — Object to how we process your data</li>
+      <li><strong>Right to Withdraw Consent</strong> — Withdraw consent at any time</li>
+    </ul>
+    <p>To exercise any of these rights, please contact us using the details below. We will respond within 14 business days.</p>
+  </div>
+
+  <!-- Section 9 -->
+  <div class="section">
+    <h2>👶 Children's Privacy</h2>
+    <p>SKYmora is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+    <p>If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately and we will delete that information from our systems.</p>
+  </div>
+
+  <!-- Section 10 -->
+  <div class="section">
+    <h2>🌍 International Data Transfers</h2>
+    <p>SKYmora operates globally. Your information may be processed in countries outside your own, including India and the United States where our servers and service providers are located.</p>
+    <p>We ensure that any international transfer of data is done in compliance with applicable data protection laws and with appropriate safeguards in place.</p>
+  </div>
+
+  <!-- Section 11 -->
+  <div class="section">
+    <h2>📝 Changes To This Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify users of significant changes by updating the "Last Updated" date at the top of this page.</p>
+    <p>We encourage you to review this Privacy Policy periodically. Your continued use of SKYmora after any changes constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <!-- Contact Box -->
+  <div class="contact-box">
+    <h3>📬 Contact Us</h3>
+    <p>If you have any questions about this Privacy Policy or how we handle your data, please contact us:</p>
+    <p><strong>SKYmora Travels</strong></p>
+    <p>Email: <a href="mailto:skymoratravels@gmail.com">skymoratravels@gmail.com</a></p>
+    <p>Website: <a href="https://skymora-travels-2.onrender.com">skymora-travels-2.onrender.com</a></p>
+    <p style="margin-top: 16px; font-size: 0.85rem; color: rgba(255,255,255,0.4);">We aim to respond to all privacy inquiries within 14 business days.</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms & Conditions</a>
+      <a href="/about.html">About Us</a>
+      <a href="mailto:skymoratravels@gmail.com">Contact</a>
+    </div>
+    <p>© 2025 SKYmora Travels. All rights reserved. Crafted with 💛 for travelers worldwide.</p>
+  </div>
+
+</div>
+</body>
+</html>
