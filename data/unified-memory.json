@@ -1,0 +1,98 @@
+{
+  "trips": {
+    "@Mrinal3629": {
+      "tripId": "@Mrinal3629",
+      "createdAt": "2025-11-19T16:59:47.576Z",
+      "messages": [],
+      "tripData": {
+        "name": "mrinal",
+        "nickname": "TATII",
+        "departure": "New Delhi",
+        "destination": "Dehradun district",
+        "tripType": "oneway",
+        "adults": 1,
+        "children": 0,
+        "infants": 0,
+        "tripDays": 5,
+        "departureDate": "2025-11-20",
+        "returnDate": "",
+        "depTime": "",
+        "retTime": "",
+        "travelStyle": "",
+        "budget": 1000,
+        "currency": "USD",
+        "specialRequest": "",
+        "agentData": {
+          "name": "Emma Collins",
+          "specialty": "Budget Adventures",
+          "exp": 6,
+          "intro": "Emma creates affordable journeys that feel premium, every time."
+        }
+      },
+      "lastUpdated": "2025-11-19T16:59:47.577Z"
+    },
+    "@Mrinal9538": {
+      "tripId": "@Mrinal9538",
+      "createdAt": "2025-11-19T17:02:51.271Z",
+      "messages": [],
+      "tripData": {
+        "name": "mrinal",
+        "nickname": "TATII",
+        "departure": "New Delhi",
+        "destination": "Dehradun district",
+        "tripType": "oneway",
+        "adults": 1,
+        "children": 0,
+        "infants": 0,
+        "tripDays": 5,
+        "departureDate": "2025-11-20",
+        "returnDate": "",
+        "depTime": "",
+        "retTime": "",
+        "travelStyle": "",
+        "budget": 1000,
+        "currency": "USD",
+        "specialRequest": "",
+        "agentData": {
+          "name": "Emma Collins",
+          "specialty": "Budget Adventures",
+          "exp": 6,
+          "intro": "Emma creates affordable journeys that feel premium, every time."
+        }
+      },
+      "lastUpdated": "2025-11-19T17:02:51.271Z"
+    },
+    "@Aashish6262": {
+      "tripId": "@Aashish6262",
+      "createdAt": "2025-11-19T17:13:32.745Z",
+      "messages": [],
+      "tripData": {
+        "name": "aashish",
+        "departure": "new delhi",
+        "destination": "rishikesh",
+        "tripType": "return",
+        "departureDate": "2025-11-18",
+        "returnDate": "2025-11-19",
+        "depTime": "",
+        "retTime": "",
+        "travelStyle": "",
+        "budget": 1000,
+        "currency": "USD",
+        "tripDays": 1,
+        "agentData": {
+          "name": "Daniel Carter — Cape Town, South Africa",
+          "intro": "Daniel creates adventure and wildlife safaris for 8 years. He believes exploration should connect you — with nature, people, and yourself.",
+          "specialties": [
+            "adventure",
+            "wildlife",
+            "safari",
+            "africa"
+          ]
+        },
+        "userPref": "",
+        "budgetPref": "1000"
+      },
+      "lastUpdated": "2025-11-19T17:13:32.745Z"
+    }
+  }
+}

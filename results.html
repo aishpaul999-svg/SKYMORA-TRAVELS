@@ -111,7 +111,7 @@ h1 {
 /* === NARRATIVE DAY CARD === */
 .day-card {
   background: rgba(0,0,0,0.45);
-  padding: 30px 32px;
+  padding: 0;
   margin: 25px 0;
   border-radius: 18px;
   border: 1px solid rgba(255,215,0,0.25);
@@ -119,8 +119,12 @@ h1 {
   line-height: 1.85;
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
+.card-body {
+  padding: 28px 32px;
+}
 .day-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 25px rgba(255,215,0,0.2);
@@ -149,7 +153,20 @@ h1 {
 .day-content p {
   margin-bottom: 18px;
 }
+.section-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.45);
+  margin: 22px 0 8px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 6px;
+}
 
+.section-header:first-child {
+  margin-top: 0;
+}
 /* === SKYMORA PROMISE CARD === */
 .promise-card {
   background: linear-gradient(135deg, rgba(144,242,210,0.15), rgba(66,201,168,0.15));
@@ -425,7 +442,7 @@ h1 {
   }
   h1 { font-size: 2rem; }
   .message { font-size: 1.1rem; }
-  .day-card { padding: 22px 18px; }
+  .day-card { padding: 0; }
   .day-heading { font-size: 1.4rem; }
   .day-content { font-size: 1rem; }
   .download-btn {
@@ -517,7 +534,108 @@ h1 {
   font-size: 0.82rem;
   line-height: 1.7;
 }
+/* ===== CARD PHOTO ===== */
+.card-photo {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 14px 14px 0 0;
+}
 
+.card-photo-placeholder {
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(135deg, #0a1628, #0d2444);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  border-radius: 14px 14px 0 0;
+}
+
+.photo-credit {
+  background: rgba(0,0,0,0.5);
+  padding: 4px 12px;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.55);
+  text-align: right;
+}
+
+.photo-credit a {
+  color: rgba(255,255,255,0.65);
+  text-decoration: none;
+}
+
+.photo-credit a:hover { color: #FFD700; }
+
+/* ===== BOOKING BUTTONS ===== */
+.booking-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.book-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border: none;
+  font-family: 'Playfair Display', serif;
+}
+
+.book-btn-flight {
+  background: linear-gradient(90deg, #0099cc, #0077aa);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(0,153,204,0.4);
+}
+
+.book-btn-hotel {
+  background: linear-gradient(90deg, #FFD700, #FFC300);
+  color: #111;
+  box-shadow: 0 4px 14px rgba(255,215,0,0.4);
+}
+
+.book-btn:hover {
+  transform: scale(1.04);
+}
+
+/* ===== BUDGET BAR ===== */
+.budget-bar-section {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.budget-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 7px;
+}
+
+.budget-bar {
+  height: 5px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.budget-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #90f2d2, #FFD700);
+  border-radius: 999px;
+  transition: width 1s ease;
+}
 @media (max-width: 600px) {
   .skymora-footer { padding: 30px 18px 24px; }
   .footer-links-group { gap: 14px 20px; }
@@ -594,7 +712,7 @@ h1 {
 <div class="chatbox" id="chatBox">
   <div class="chat-header" id="chatHeader">
     <span id="agentNameDisplay">Your Travel Consultant</span><br>
-    <small>Online • Powered by AI Intelligence</small>
+    <small>Online • Available 24/7</small>
     <span class="minimize" id="minChat">−</span>
   </div>
   <div class="chat-messages" id="chatMessages">
@@ -778,7 +896,10 @@ const response = await fetch(`${window.location.origin}/api/generate`, {   metho
 
     const tripId = data.tripId;
     localStorage.setItem("currentTripId", tripId);
-
+    if (data.itinerary?.[0]?.destCode) {
+      window.skymoraTrip.destCode = data.itinerary[0].destCode;
+      window.skymoraTrip.depCode = data.itinerary[0].depCode;
+    }
     let fullItinerary = [...data.itinerary];
     window.currentItinerary = fullItinerary.slice(); // store initial
 
@@ -846,61 +967,120 @@ const progressRes = await fetch(`${window.location.origin}/api/progress/${tripId
     return [];
   }
 }
+function buildFlightLink(day) {
+  const dep = day?.depCode || window.skymoraTrip?.depCode || (departure || "").substring(0, 3).toUpperCase();
+  const dest = day?.destCode || window.skymoraTrip?.destCode || (destination || "").substring(0, 3).toUpperCase();
+  const date = (departureDate || "").replace(/-/g, "");
+  return `https://www.skyscanner.com/transport/flights/${dep.toLowerCase()}/${dest.toLowerCase()}/${date}/?adults=${adults || 1}&utm_source=SKYmora&utm_medium=referral`;
+}
+function buildHotelLink(day) {
+  const resolvedCity = day?.resolvedDestination || window.skymoraTrip?.resolvedDestination || "";
+  const fallback = (window.skymoraTrip?.destination || destination || "")
+    .replace(/^(netherlands|france|germany|italy|spain|thailand|indonesia|india|japan|china|australia|canada|uk|usa|america|united states|united kingdom)$/i, "");
+  const destEncoded = encodeURIComponent(resolvedCity || fallback || destination || "");
+  return `https://www.booking.com/searchresults.html?ss=${destEncoded}&checkin=${departureDate || ""}&checkout=${returnDate || ""}&group_adults=${adults || 1}&utm_source=SKYmora&utm_medium=referral`;
+}
+function buildDayCard(day) {
+  const card = document.createElement("div");
+
+  // Promise card — special styling
+  if (day.title && day.title.includes("Promise")) {
+    card.className = "day-card promise-card";
+    const formattedContent = (day.content || "")
+      .split('\n\n')
+      .map(para => `<p>${para.trim()}</p>`)
+      .join('');
+    card.innerHTML = `
+      <div class="card-body">
+        <h3 class="day-heading">${day.title}</h3>
+        <div class="day-content">${formattedContent}</div>
+      </div>`;
+    return card;
+  }
+
+  card.className = "day-card";
+
+  // Photo section
+  let photoHTML = "";
+  if (day.photo && day.photo.url) {
+    photoHTML = `
+      <img class="card-photo" src="${day.photo.url}" alt="${destination} Day ${day.day}" loading="lazy" />
+      <div class="photo-credit">
+        Photo by <a href="${day.photo.credit.link}" target="_blank" rel="noopener">${day.photo.credit.name}</a> on
+        <a href="${day.photo.unsplashLink}" target="_blank" rel="noopener">Unsplash</a>
+      </div>`;
+  } else {
+    const emojis = ["✈️","🌍","🏨","🗺️","🌅","🌆","🏖️"];
+    photoHTML = `<div class="card-photo-placeholder">${emojis[(day.day - 1) % emojis.length]}</div>`;
+  }
+
+  // Booking buttons
+  const flightLink = buildFlightLink(day);
+  const hotelLink = buildHotelLink(day);
+  const bookingHTML = day.day <= 1
+    ? `<div class="booking-row">
+        <a href="${flightLink}" target="_blank" rel="noopener" class="book-btn book-btn-flight">✈️ Search Best Flights</a>
+        <a href="${hotelLink}" target="_blank" rel="noopener" class="book-btn book-btn-hotel">🏨 Search Best Hotels</a>
+      </div>`
+      : `<div class="booking-row">
+        <a href="${hotelLink}" target="_blank" rel="noopener" class="book-btn book-btn-hotel">🏨 Search Hotels in ${day.resolvedDestination || destination}</a>
+      </div>`;
+
+  // Budget bar
+  const dailyBudget = Math.round((budget || 0) / (tripDays || 1));
+  const spent = day.dailyCost || dailyBudget;
+  const pct = Math.min(100, Math.round((spent / dailyBudget) * 100));
+  const budgetHTML = `
+    <div class="budget-bar-section">
+      <div class="budget-label">
+        <span>Daily Budget</span>
+        <span>${day.budgetStatus || "Within budget ✅"}</span>
+      </div>
+      <div class="budget-bar">
+        <div class="budget-bar-fill" style="width:${pct}%"></div>
+      </div>
+    </div>`;
+
+  // Content
+  const formattedContent = (day.content || "")
+    .split('\n\n')
+    .map(para => {
+      const trimmed = para.trim();
+      if (!trimmed) return '';
+      // Detect section headers — short lines in ALL CAPS or Title Case with no period
+      const isHeader = trimmed.length < 40 && trimmed === trimmed.toUpperCase() && !trimmed.includes('.');
+      if (isHeader) {
+        return `<div class="section-header">${trimmed}</div>`;
+      }
+      return `<p>${trimmed}</p>`;
+    })
+    .filter(Boolean)
+    .join('');
+
+  card.innerHTML = `
+    ${photoHTML}
+    <div class="card-body">
+      <h3 class="day-heading">${day.title || `Day ${day.day}`}</h3>
+      ${bookingHTML}
+      <div class="day-content">${formattedContent}</div>
+      ${budgetHTML}
+    </div>`;
+
+  return card;
+}
 
 function renderItinerary(days) {
   const itineraryBox = document.getElementById("itineraryBox");
   itineraryBox.innerHTML = "";
-
-  for (const day of days) {
-    const card = document.createElement("div");
-    
-    if (day.title && day.title.includes("Promise")) {
-      card.className = "day-card promise-card";
-    } else {
-      card.className = "day-card";
-    }
-
-    const formattedContent = (day.content || day.description || "")
-      .split('\n\n')
-      .map(para => `<p>${para.trim()}</p>`)
-      .join('');
-
-    card.innerHTML = `
-      <h3 class="day-heading">${day.title || `Day ${day.day}`}</h3>
-      <div class="day-content">${formattedContent}</div>
-    `;
-
-    itineraryBox.appendChild(card);
-  }
-}
-
-function appendNewDays(newDays) {
+  for (const day of days) itineraryBox.appendChild(buildDayCard(day));
+}function appendNewDays(newDays) {
   const itineraryBox = document.getElementById("itineraryBox");
-
   for (const day of newDays) {
-    const card = document.createElement("div");
-    
-    if (day.title && day.title.includes("Promise")) {
-      card.className = "day-card promise-card";
-    } else {
-      card.className = "day-card";
-    }
-
-    const formattedContent = (day.content || day.description || "")
-      .split('\n\n')
-      .map(para => `<p>${para.trim()}</p>`)
-      .join('');
-
-    card.innerHTML = `
-      <h3 class="day-heading">${day.title || `Day ${day.day}`}</h3>
-      <div class="day-content">${formattedContent}</div>
-    `;
-
+    const card = buildDayCard(day);
     itineraryBox.appendChild(card);
     card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 }
-
 /* ===== chat system (streaming preserved) ===== */
 /* ===== Premium reply helpers (insert just above sendChatMessage) ===== */
 function getReplyDelay(text) {

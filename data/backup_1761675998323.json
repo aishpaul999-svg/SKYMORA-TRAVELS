@@ -1,0 +1,119 @@
+{
+  "id": "05b0c674-fcd2-4759-b623-049c4c794537",
+  "timestamp": "2025-10-28T18:26:38.323Z",
+  "traveler": {
+    "name": "usha ji",
+    "nickname": null,
+    "departure": "New Delhi",
+    "destination": "Kenya",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "3500",
+    "currency": "USD",
+    "travelStyle": "Beach Retreats 🏖️",
+    "preferences": [
+      "Beach Retreats 🏖️"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in Kenya\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from New Delhi city center to New Delhi Airport — 45 min, ₹900\",\n      \"flight\": \"Kenya Airways KQ-301, 23:55 – 08:00 (next day), ₹45,000\",\n      \"arrival_transfer\": \"Private car from Jomo Kenyatta International Airport to hotel — 30 min, ₹1,500\",\n      \"activities\": [\n        \"Check-in and freshen up\",\n        \"Evening relaxation at the hotel pool\",\n        \"Dinner at a beachfront restaurant\"\n      ],\n      \"cost_range\": \"₹46,400 – ₹52,000\",\n      \"duration_estimate\": \"10–12 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Relaxation and Leisure in Mombasa\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Morning sunbathing at Diani Beach\",\n        \"Lunch at a local seafood restaurant\",\n        \"Afternoon snorkeling tour (cost: ₹3,500)\",\n        \"Dinner at a romantic ocean-view restaurant\"\n      ],\n      \"shopping_stop\": \"Visit a local supermarket for snacks and drinks\",\n      \"cost_range\": \"₹4,500 – ₹5,500\",\n      \"duration_estimate\": \"Full day\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Exploring Marine Parks\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Full-day excursion to Kisite-Mpunguti Marine National Park (cost: ₹7,000)\",\n        \"Packed lunch during the excursion\",\n        \"Return to the hotel for relaxation\",\n        \"Dinner at a local Kenyan restaurant\"\n      ],\n      \"shopping_stop\": \"Quick stop for souvenirs from a nearby shop\",\n      \"cost_range\": \"₹8,500 – ₹9,500\",\n      \"duration_estimate\": \"Full day\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Cultural Experience and Wildlife\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Visit the Mombasa Old Port and Fort Jesus (entry fee: ₹800)\",\n        \"Lunch at a local eatery\",\n        \"Afternoon visit to a local market\",\n        \"Enjoy dinner at a renowned restaurant featuring local cuisine\"\n      ],\n      \"shopping_stop\": \"Local market for fresh fruits\",\n      \"cost_range\": \"₹3,500 – ₹4,500\",\n      \"duration_estimate\": \"Full day\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Beach Day and Leisure\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Day at Nyali Beach — relaxing and swimming\",\n        \"Lunch at a beach café\",\n        \"Afternoon beach games or reading by the shore\",\n        \"Dinner at a beach bar with live music\"\n      ],\n      \"shopping_stop\": \"Visit a local convenience store for beach essentials\",\n      \"cost_range\": \"₹4,000 – ₹5,000\",\n      \"duration_estimate\": \"Full day\"\n    }\n  },\n  {\n    \"day\": 6,\n    \"title\": \"Return Journey to New Delhi\",\n    \"details\": {\n      \"activities\": [\n        \"Breakfast at the hotel\",\n        \"Check-out and last-minute shopping in Mombasa\",\n        \"Private car transfer to the airport — 30 min, ₹1,500\",\n        \"Flight Kenya Airways KQ-302, 15:30 – 23:30, ₹45,000\"\n      ],\n      \"cost_range\": \"₹46,500 – ₹51,500\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  }\n]",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in Kenya",
+      "details": {
+        "from_city_to_airport": "Taxi from New Delhi city center to New Delhi Airport — 45 min, ₹900",
+        "flight": "Kenya Airways KQ-301, 23:55 – 08:00 (next day), ₹45,000",
+        "arrival_transfer": "Private car from Jomo Kenyatta International Airport to hotel — 30 min, ₹1,500",
+        "activities": [
+          "Check-in and freshen up",
+          "Evening relaxation at the hotel pool",
+          "Dinner at a beachfront restaurant"
+        ],
+        "cost_range": "₹46,400 – ₹52,000",
+        "duration_estimate": "10–12 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Relaxation and Leisure in Mombasa",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Morning sunbathing at Diani Beach",
+          "Lunch at a local seafood restaurant",
+          "Afternoon snorkeling tour (cost: ₹3,500)",
+          "Dinner at a romantic ocean-view restaurant"
+        ],
+        "shopping_stop": "Visit a local supermarket for snacks and drinks",
+        "cost_range": "₹4,500 – ₹5,500",
+        "duration_estimate": "Full day"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Exploring Marine Parks",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Full-day excursion to Kisite-Mpunguti Marine National Park (cost: ₹7,000)",
+          "Packed lunch during the excursion",
+          "Return to the hotel for relaxation",
+          "Dinner at a local Kenyan restaurant"
+        ],
+        "shopping_stop": "Quick stop for souvenirs from a nearby shop",
+        "cost_range": "₹8,500 – ₹9,500",
+        "duration_estimate": "Full day"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Cultural Experience and Wildlife",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Visit the Mombasa Old Port and Fort Jesus (entry fee: ₹800)",
+          "Lunch at a local eatery",
+          "Afternoon visit to a local market",
+          "Enjoy dinner at a renowned restaurant featuring local cuisine"
+        ],
+        "shopping_stop": "Local market for fresh fruits",
+        "cost_range": "₹3,500 – ₹4,500",
+        "duration_estimate": "Full day"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Beach Day and Leisure",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Day at Nyali Beach — relaxing and swimming",
+          "Lunch at a beach café",
+          "Afternoon beach games or reading by the shore",
+          "Dinner at a beach bar with live music"
+        ],
+        "shopping_stop": "Visit a local convenience store for beach essentials",
+        "cost_range": "₹4,000 – ₹5,000",
+        "duration_estimate": "Full day"
+      }
+    },
+    {
+      "day": 6,
+      "title": "Return Journey to New Delhi",
+      "details": {
+        "activities": [
+          "Breakfast at the hotel",
+          "Check-out and last-minute shopping in Mombasa",
+          "Private car transfer to the airport — 30 min, ₹1,500",
+          "Flight Kenya Airways KQ-302, 15:30 – 23:30, ₹45,000"
+        ],
+        "cost_range": "₹46,500 – ₹51,500",
+        "duration_estimate": "8–10 hours total"
+      }
+    }
+  ]
+}

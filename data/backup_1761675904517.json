@@ -1,0 +1,126 @@
+{
+  "id": "11b1d64e-ac0c-46da-9d93-391e9b61754f",
+  "timestamp": "2025-10-28T18:25:04.517Z",
+  "traveler": {
+    "name": "usha ji",
+    "nickname": null,
+    "departure": "New Delhi",
+    "destination": "Kenya",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "3500",
+    "currency": "USD",
+    "travelStyle": "Beach Retreats 🏖️",
+    "preferences": [
+      "Beach Retreats 🏖️"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "```json\n[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in Kenya\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from New Delhi city center to Indira Gandhi International Airport — 45 min, ₹900\",\n      \"flight\": \"Kenya Airways KQ-100, 02:30 – 08:00, ₹55,000\",\n      \"arrival_transfer\": \"Private car from Jomo Kenyatta International Airport to hotel in Mombasa — 30 min, ₹1,500\",\n      \"activities\": [\n        \"Check-in and freshen up\",\n        \"Evening stroll on the beach\",\n        \"Dinner at The Tamarind Mombasa, known for seafood\"\n      ],\n      \"cost_range\": \"₹57,000 – ₹60,000\",\n      \"duration_estimate\": \"12–14 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Beach Day in Mombasa\",\n    \"details\": {\n      \"breakfast\": \"Enjoy breakfast at the hotel — included\",\n      \"activities\": [\n        \"Relax on Diani Beach\",\n        \"Lunch at Diani Sea Lodge — approximately ₹1,000\",\n        \"Water sports activities such as snorkeling (₹2,000)\",\n        \"Dinner at Ali Barbour's Cave Restaurant — ₹1,500\"\n      ],\n      \"convenience_stop\": \"Buy snacks from a local shop — ₹300\",\n      \"cost_range\": \"₹4,800 – ₹5,200\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Explore Mombasa\",\n    \"details\": {\n      \"breakfast\": \"Included at the hotel — included\",\n      \"activities\": [\n        \"Visit Fort Jesus, entry fee ₹500\",\n        \"Lunch at Café Majik — ₹800\",\n        \"Explore Old Town and local shops\",\n        \"Dinner at The Moorings — ₹1,500\"\n      ],\n      \"local_commute\": \"Tuk-tuk for the day — ₹600\",\n      \"convenience_stop\": \"Grab a drink from a nearby supermarket — ₹200\",\n      \"cost_range\": \"₹4,500 – ₹5,000\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Wildlife Safari Day Trip\",\n    \"details\": {\n      \"breakfast\": \"Included at hotel — included\",\n      \"activities\": [\n        \"Day trip to Tsavo National Park (tour cost included — ₹6,000)\",\n        \"Lunch during the safari — included\",\n        \"Return to Mombasa in the evening\",\n        \"Dinner at the hotel — included\"\n      ],\n      \"total_safari_cost\": \"₹6,000\",\n      \"cost_range\": \"₹6,000 – ₹6,500\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Relaxation and Departure Prep\",\n    \"details\": {\n      \"breakfast\": \"Included at the hotel — included\",\n      \"activities\": [\n        \"Morning yoga session by the beach\",\n        \"Leisure time at the hotel pool\",\n        \"Lunch at the hotel — included\",\n        \"Pack and prepare for departure\",\n        \"Farewell dinner at Amani Tiwi Beach Resort — ₹1,800\"\n      ],\n      \"local_commute\": \"Taxi for local errands — ₹500\",\n      \"convenience_stop\": \"Stop at a convenience store for last-minute items — ₹300\",\n      \"cost_range\": \"₹2,600 – ₹3,000\"\n    }\n  },\n  {\n    \"day\": 6,\n    \"title\": \"Return to New Delhi\",\n    \"details\": {\n      \"from_hotel_to_airport\": \"Private car from hotel to Jomo Kenyatta International Airport — 30 min, ₹1,500\",\n      \"flight\": \"Kenya Airways KQ-101, 22:00 – 07:30 (+1), ₹55,000\",\n      \"cost_range\": \"₹56,500 – ₹58,000\",\n      \"duration_estimate\": \"11–13 hours total\"\n    }\n  },\n  {\n    \"summary\": {\n      \"total_estimated_budget\": \"₹32,800 – ₹36,000 (approx. $400 – $450)\",\n      \"cost_breakdown\": {\n        \"transport\": \"₹5,500\",\n        \"flights\": \"₹110,000\",\n        \"accommodation\": \"₹20,000\",\n        \"meals\": \"₹10,500\",\n        \"activities\": \"₹20,000\"\n      }\n    }\n  }\n]\n```",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in Kenya",
+      "details": {
+        "from_city_to_airport": "Taxi from New Delhi city center to Indira Gandhi International Airport — 45 min, ₹900",
+        "flight": "Kenya Airways KQ-100, 02:30 – 08:00, ₹55,000",
+        "arrival_transfer": "Private car from Jomo Kenyatta International Airport to hotel in Mombasa — 30 min, ₹1,500",
+        "activities": [
+          "Check-in and freshen up",
+          "Evening stroll on the beach",
+          "Dinner at The Tamarind Mombasa, known for seafood"
+        ],
+        "cost_range": "₹57,000 – ₹60,000",
+        "duration_estimate": "12–14 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Beach Day in Mombasa",
+      "details": {
+        "breakfast": "Enjoy breakfast at the hotel — included",
+        "activities": [
+          "Relax on Diani Beach",
+          "Lunch at Diani Sea Lodge — approximately ₹1,000",
+          "Water sports activities such as snorkeling (₹2,000)",
+          "Dinner at Ali Barbour's Cave Restaurant — ₹1,500"
+        ],
+        "convenience_stop": "Buy snacks from a local shop — ₹300",
+        "cost_range": "₹4,800 – ₹5,200"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Explore Mombasa",
+      "details": {
+        "breakfast": "Included at the hotel — included",
+        "activities": [
+          "Visit Fort Jesus, entry fee ₹500",
+          "Lunch at Café Majik — ₹800",
+          "Explore Old Town and local shops",
+          "Dinner at The Moorings — ₹1,500"
+        ],
+        "local_commute": "Tuk-tuk for the day — ₹600",
+        "convenience_stop": "Grab a drink from a nearby supermarket — ₹200",
+        "cost_range": "₹4,500 – ₹5,000"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Wildlife Safari Day Trip",
+      "details": {
+        "breakfast": "Included at hotel — included",
+        "activities": [
+          "Day trip to Tsavo National Park (tour cost included — ₹6,000)",
+          "Lunch during the safari — included",
+          "Return to Mombasa in the evening",
+          "Dinner at the hotel — included"
+        ],
+        "total_safari_cost": "₹6,000",
+        "cost_range": "₹6,000 – ₹6,500"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Relaxation and Departure Prep",
+      "details": {
+        "breakfast": "Included at the hotel — included",
+        "activities": [
+          "Morning yoga session by the beach",
+          "Leisure time at the hotel pool",
+          "Lunch at the hotel — included",
+          "Pack and prepare for departure",
+          "Farewell dinner at Amani Tiwi Beach Resort — ₹1,800"
+        ],
+        "local_commute": "Taxi for local errands — ₹500",
+        "convenience_stop": "Stop at a convenience store for last-minute items — ₹300",
+        "cost_range": "₹2,600 – ₹3,000"
+      }
+    },
+    {
+      "day": 6,
+      "title": "Return to New Delhi",
+      "details": {
+        "from_hotel_to_airport": "Private car from hotel to Jomo Kenyatta International Airport — 30 min, ₹1,500",
+        "flight": "Kenya Airways KQ-101, 22:00 – 07:30 (+1), ₹55,000",
+        "cost_range": "₹56,500 – ₹58,000",
+        "duration_estimate": "11–13 hours total"
+      }
+    },
+    {
+      "summary": {
+        "total_estimated_budget": "₹32,800 – ₹36,000 (approx. $400 – $450)",
+        "cost_breakdown": {
+          "transport": "₹5,500",
+          "flights": "₹110,000",
+          "accommodation": "₹20,000",
+          "meals": "₹10,500",
+          "activities": "₹20,000"
+        }
+      }
+    }
+  ]
+}

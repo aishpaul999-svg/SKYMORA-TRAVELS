@@ -1,0 +1,114 @@
+{
+  "id": "53f05a3f-8d4f-4228-b923-6b7c4fcbd9e4",
+  "timestamp": "2025-10-28T12:51:40.850Z",
+  "traveler": {
+    "name": "harshita",
+    "nickname": null,
+    "departure": "Dubai",
+    "destination": "miami",
+    "preferred_departure_time": "Not specified",
+    "preferred_return_time": "Not specified",
+    "budget": "4450",
+    "currency": "EUR",
+    "travelStyle": "Luxury Escapes ✨, Beach Retreats 🏖️",
+    "preferences": [
+      "Luxury Escapes ✨",
+      "Beach Retreats 🏖️"
+    ],
+    "specialRequest": "None"
+  },
+  "tripMeta": {
+    "days": null
+  },
+  "raw_text": "```json\n[\n  {\n    \"day\": 1,\n    \"title\": \"Departure & Arrival in Miami\",\n    \"details\": {\n      \"from_city_to_airport\": \"Taxi from Dubai city center to Dubai Airport — 45 min, 80 EUR\",\n      \"flight\": \"Emirates EK-213, 08:15 – 16:00, 600 EUR\",\n      \"arrival_transfer\": \"Private car from Miami Airport to hotel — 30 min, 40 EUR\",\n      \"activities\": [\n        \"Check-in at the luxurious Fontainebleau Miami Beach\",\n        \"Relax and unwind at the hotel's stunning pool\",\n        \"Dinner at Hakkasan Miami, known for its upscale Cantonese cuisine\"\n      ],\n      \"cost_range\": \"720 EUR – 740 EUR\",\n      \"duration_estimate\": \"12–14 hours total\"\n    }\n  },\n  {\n    \"day\": 2,\n    \"title\": \"Explore Miami Beach\",\n    \"details\": {\n      \"from_city_to_airport\": \"7-Eleven for snacks and drinks nearby the hotel — 10 min, 10 EUR\",\n      \"flight\": null,\n      \"arrival_transfer\": null,\n      \"activities\": [\n        \"Breakfast at the hotel — included\",\n        \"Morning yoga session on the beach\",\n        \"Lunch at Nikki Beach Club\",\n        \"Afternoon at Lummus Park, relax and sunbathe\",\n        \"Dinner at The Bazaar by José Andrés, known for modern tapas\"\n      ],\n      \"cost_range\": \"120 EUR – 150 EUR\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"day\": 3,\n    \"title\": \"Cultural Exploration\",\n    \"details\": {\n      \"from_city_to_airport\": \"Uber to Art Deco Historic District — 15 min, 15 EUR\",\n      \"flight\": null,\n      \"arrival_transfer\": null,\n      \"activities\": [\n        \"Breakfast at the hotel — included\",\n        \"Guided tour of the Art Deco District\",\n        \"Lunch at a local cafe\",\n        \"Visit the Pérez Art Museum and take in the views of Biscayne Bay\",\n        \"Dinner at STK Miami for a fine dining steak experience\"\n      ],\n      \"cost_range\": \"150 EUR – 180 EUR\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"day\": 4,\n    \"title\": \"Day Trip to Key Biscayne\",\n    \"details\": {\n      \"from_city_to_airport\": \"Private car to Key Biscayne — 30 min, 50 EUR\",\n      \"flight\": null,\n      \"arrival_transfer\": null,\n      \"activities\": [\n        \"Breakfast at the hotel — included\",\n        \"Visit Bill Baggs Cape Florida State Park\",\n        \"Lunch picnic on the beach\",\n        \"Afternoon kayaking or paddleboarding\",\n        \"Dinner at Rusty Pelican with a view of the Miami skyline\"\n      ],\n      \"cost_range\": \"150 EUR – 200 EUR\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  },\n  {\n    \"day\": 5,\n    \"title\": \"Shopping & Departure\",\n    \"details\": {\n      \"from_city_to_airport\": \"Uber to Aventura Mall — 30 min, 20 EUR\",\n      \"flight\": \"Emirates EK-214, 18:15 – 15:00, 600 EUR\",\n      \"arrival_transfer\": \"Private car from airport to hotel in Dubai — 30 min, 80 EUR\",\n      \"activities\": [\n        \"Breakfast at the hotel — included\",\n        \"Last-minute shopping at Aventura Mall\",\n        \"Lunch at the mall's food court\",\n        \"Transfer to Miami Airport\",\n        \"Dinner en route on the flight\"\n      ],\n      \"cost_range\": \"130 EUR – 160 EUR\",\n      \"duration_estimate\": \"8–10 hours total\"\n    }\n  }\n]\n```",
+  "parsed_itinerary": [
+    {
+      "day": 1,
+      "title": "Departure & Arrival in Miami",
+      "details": {
+        "from_city_to_airport": "Taxi from Dubai city center to Dubai Airport — 45 min, 80 EUR",
+        "flight": "Emirates EK-213, 08:15 – 16:00, 600 EUR",
+        "arrival_transfer": "Private car from Miami Airport to hotel — 30 min, 40 EUR",
+        "activities": [
+          "Check-in at the luxurious Fontainebleau Miami Beach",
+          "Relax and unwind at the hotel's stunning pool",
+          "Dinner at Hakkasan Miami, known for its upscale Cantonese cuisine"
+        ],
+        "cost_range": "720 EUR – 740 EUR",
+        "duration_estimate": "12–14 hours total"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Explore Miami Beach",
+      "details": {
+        "from_city_to_airport": "7-Eleven for snacks and drinks nearby the hotel — 10 min, 10 EUR",
+        "flight": null,
+        "arrival_transfer": null,
+        "activities": [
+          "Breakfast at the hotel — included",
+          "Morning yoga session on the beach",
+          "Lunch at Nikki Beach Club",
+          "Afternoon at Lummus Park, relax and sunbathe",
+          "Dinner at The Bazaar by José Andrés, known for modern tapas"
+        ],
+        "cost_range": "120 EUR – 150 EUR",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "day": 3,
+      "title": "Cultural Exploration",
+      "details": {
+        "from_city_to_airport": "Uber to Art Deco Historic District — 15 min, 15 EUR",
+        "flight": null,
+        "arrival_transfer": null,
+        "activities": [
+          "Breakfast at the hotel — included",
+          "Guided tour of the Art Deco District",
+          "Lunch at a local cafe",
+          "Visit the Pérez Art Museum and take in the views of Biscayne Bay",
+          "Dinner at STK Miami for a fine dining steak experience"
+        ],
+        "cost_range": "150 EUR – 180 EUR",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Day Trip to Key Biscayne",
+      "details": {
+        "from_city_to_airport": "Private car to Key Biscayne — 30 min, 50 EUR",
+        "flight": null,
+        "arrival_transfer": null,
+        "activities": [
+          "Breakfast at the hotel — included",
+          "Visit Bill Baggs Cape Florida State Park",
+          "Lunch picnic on the beach",
+          "Afternoon kayaking or paddleboarding",
+          "Dinner at Rusty Pelican with a view of the Miami skyline"
+        ],
+        "cost_range": "150 EUR – 200 EUR",
+        "duration_estimate": "8–10 hours total"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Shopping & Departure",
+      "details": {
+        "from_city_to_airport": "Uber to Aventura Mall — 30 min, 20 EUR",
+        "flight": "Emirates EK-214, 18:15 – 15:00, 600 EUR",
+        "arrival_transfer": "Private car from airport to hotel in Dubai — 30 min, 80 EUR",
+        "activities": [
+          "Breakfast at the hotel — included",
+          "Last-minute shopping at Aventura Mall",
+          "Lunch at the mall's food court",
+          "Transfer to Miami Airport",
+          "Dinner en route on the flight"
+        ],
+        "cost_range": "130 EUR – 160 EUR",
+        "duration_estimate": "8–10 hours total"
+      }
+    }
+  ]
+}
