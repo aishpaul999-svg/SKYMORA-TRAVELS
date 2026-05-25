@@ -53,7 +53,7 @@ function getCachedPrompt(tripId, builderFn) {
 }
 
 const itineraries = new Map();
-dotenv.config({ override: true });
+dotenv.config();
 
 console.log("🔑 OpenAI Key Loaded:", !!process.env.OPENAI_API_KEY);
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
