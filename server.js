@@ -56,6 +56,7 @@ const itineraries = new Map();
 dotenv.config();
 
 console.log("🔑 OpenAI Key Loaded:", !!process.env.OPENAI_API_KEY);
+console.log("🔑 Key Preview:", process.env.OPENAI_API_KEY?.slice(0, 15));
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // ======== SKYMORA GLOBAL INTELLIGENCE ========
