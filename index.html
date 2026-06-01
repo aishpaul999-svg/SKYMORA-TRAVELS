@@ -61,6 +61,12 @@
 
       <div class="suggestions" id="destination-list" role="listbox"></div>
 
+      <label>Have you visited this destination before?</label>
+      <div class="inline-toggle" id="visitToggle" role="radiogroup" aria-label="Visit History">
+        <button type="button" class="toggle active" data-value="first">✈️ First Visit</button>
+        <button type="button" class="toggle" data-value="repeat">🔄 Been Before</button>
+      </div>
+
       <label>Trip Type</label>
       <div class="inline-toggle" role="radiogroup" aria-label="Trip Type">
         <button type="button" class="toggle active" data-value="oneway">One way</button>
@@ -239,6 +245,45 @@
 </div>
 
 
+
+      <label>What is your travel pace? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="paceToggle" role="radiogroup" aria-label="Travel Pace">
+        <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+        <button type="button" class="toggle" data-value="relaxed">🌿 Relaxed</button>
+        <button type="button" class="toggle" data-value="packed">⚡ Packed</button>
+      </div>
+
+      <label>Your travel experience? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="experienceToggle" role="radiogroup" aria-label="Travel Experience">
+        <button type="button" class="toggle active" data-value="experienced">🌍 Seasoned Traveller</button>
+        <button type="button" class="toggle" data-value="moderate">✈️ Some Experience</button>
+        <button type="button" class="toggle" data-value="first_intl">🗺️ First International Trip</button>
+      </div>
+
+      <div id="socialComfortSection" style="display:none">
+        <label>How do you prefer to travel solo? <span class="optional-text">(optional)</span></label>
+        <div class="inline-toggle" id="socialToggle" role="radiogroup" aria-label="Social Comfort">
+          <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+          <button type="button" class="toggle" data-value="meet_people">👥 Meet People</button>
+          <button type="button" class="toggle" data-value="independent">🧳 Full Independence</button>
+        </div>
+      </div>
+
+      <label>What is the occasion for this trip? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="emotionToggle" role="radiogroup" aria-label="Trip Occasion">
+        <button type="button" class="toggle active" data-value="exploring">🌍 Exploring</button>
+        <button type="button" class="toggle" data-value="celebrating">🎉 Celebrating</button>
+        <button type="button" class="toggle" data-value="recovering">🌿 Need a Break</button>
+        <button type="button" class="toggle" data-value="escaping">✈️ Escaping</button>
+      </div>
+
+      <label>How important is food to this trip? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="diningToggle" role="radiogroup" aria-label="Dining Importance">
+        <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+        <button type="button" class="toggle" data-value="every_meal">🍽️ Every Meal Counts</button>
+        <button type="button" class="toggle" data-value="one_great">⭐ One Great Meal</button>
+        <button type="button" class="toggle" data-value="fuel">⚡ Just Fuel</button>
+      </div>
 
       <label>*Any special requests or experience you want?</label>
 <textarea id="specialRequest" name="specialRequest" placeholder="e.g., restaurants, museums, hiking, vegetarian meals, honeymoon surprises..."></textarea>

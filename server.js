@@ -38,6 +38,7 @@ import { getDestinationPhoto } from "./skymora-photos.js";
 import { MODES } from "./agent-system-lite.js";
 import { holdDraft, cancelDraftTimer } from "./agent-draft-lite.js";
 import { setupAgentRoutesLite } from "./agent-routes-lite.js";
+import { buildKnowledgeBlock } from "./skymora-knowledge-engine.js";
 
 /* ===============================
    SYSTEM PROMPT CACHE
@@ -146,6 +147,8 @@ const DESTINATION_RESOLVER = {
   "ukraine": "Kyiv", "romania": "Bucharest", "bulgaria": "Sofia",
   "croatia": "Zagreb", "serbia": "Belgrade", "iceland": "Reykjavik",
   "cuba": "Havana", "panama": "Panama City", "costa rica": "San Jose",
+  "san diego": "San Diego", "sandieago": "San Diego", "san fransisco": "San Francisco",
+  "los angeles": "Los Angeles", "new york": "New York City",
   "ecuador": "Quito", "bolivia": "La Paz", "venezuela": "Caracas"
 };
 
@@ -398,10 +401,45 @@ async function getRealTimeData(query, tripData = {}) {
   return null;
 }
 
+// ======== AI ARTIFACT CLEANER ========
+function cleanAIArtifacts(text) {
+  if (!text) return text;
+
+  // Fix broken sentences: "The atmosphere is , which" → remove broken fragment
+  text = text.replace(/\b(is|are|was|were|be|been|being|to|has|have|had)\s*,\s*/g, ' ');
+
+  // Fix "designed to be ," patterns
+  text = text.replace(/\b(designed to be|intended to|meant to|positioned to|set to)\s*,/g, (match) => match.replace(',', ''));
+
+  // Remove sentences that end abruptly mid-thought (end with "is" or "are" before period)
+  text = text.replace(/\b(is|are|was|were)\s*\./g, '.');
+
+  // Fix double spaces created by removals
+  text = text.replace(/  +/g, ' ');
+
+  // Fix "with local life..." when "atmosphere is with" pattern
+  text = text.replace(/atmosphere is with/gi, 'atmosphere filled with');
+  text = text.replace(/experience is with/gi, 'experience complemented by');
+
+  // Remove any orphaned commas at start of phrases
+  text = text.replace(/,\s*,/g, ',');
+  text = text.replace(/\s+,/g, ',');
+
+  // Fix incomplete closing sentences (sentence ends without a verb completing)
+  text = text.replace(/positioning you\s*\./g, 'positioning you perfectly for the rest of the day.');
+  text = text.replace(/ensuring you\s*\./g, 'ensuring a smooth and comfortable experience.');
+  text = text.replace(/allowing you\s*\./g, 'allowing you to settle in at your own pace.');
+
+  return text.trim();
+}
+
 // ======== NARRATIVE POLISHER — WORLD CLASS TONE ========
 function narrativePolish(rawText, travelerName, destination, persona = "explorer", day = 1, totalDays = 1) {
   if (!rawText) return rawText;
   let text = rawText;
+
+  // Clean AI artifacts first
+  text = cleanAIArtifacts(text);
 
   const destinationProper = (destination || "")
     .split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(" ");
@@ -421,7 +459,23 @@ function narrativePolish(rawText, travelerName, destination, persona = "explorer
 
   // Clean double spaces left by word removal
   text = text.replace(/\s{2,}/g, ' ').trim();
-
+ // Force section headers onto their own lines — catches both ALL CAPS and Title Case
+  const headers = [
+    'Leaving', 'Your Flight', 'Arriving In', 'Getting To The City',
+    'Your Stay', 'First Evening', 'One Thing To Know',
+    'Morning', 'The Main Experience', 'Lunch', 'Afternoon', 'Evening', 'Dinner',
+    'Final Morning', 'Last Breakfast', 'One More Thing', 'Heading Home', 'Farewell',
+    'LEAVING', 'YOUR FLIGHT', 'ARRIVING IN', 'GETTING TO THE CITY',
+    'YOUR STAY', 'FIRST EVENING', 'ONE THING TO KNOW',
+    'MORNING', 'THE MAIN EXPERIENCE', 'LUNCH', 'AFTERNOON', 'EVENING', 'DINNER',
+    'FINAL MORNING', 'LAST BREAKFAST', 'ONE MORE THING', 'HEADING HOME', 'FAREWELL'
+  ];
+ const sortedHeaders = [...headers].sort((a, b) => b.length - a.length);
+  sortedHeaders.forEach(h => {
+    const escaped = h.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    text = text.replace(new RegExp(`([^\\n])(${escaped})`, 'gi'), '$1\n\n$2');
+  });
+  text = text.replace(/\n{3,}/g, '\n\n');
   // Persona-specific opening — calm, precise, human
   const personaOpenings = {
     luxury: `${travelerName}, here is Day ${day} in ${destinationProper}.`,
@@ -473,8 +527,145 @@ function narrativePolish(rawText, travelerName, destination, persona = "explorer
   return text.trim();
 }
 
+// ======================================================
+// TRIP PLANNING ENGINE — Stage 1
+// Makes ALL decisions before any writing happens.
+// GPT cannot override these decisions in Stage 2.
+// ======================================================
+async function planTrip(trip, knowledgeBlock) {
+  const totalDays = trip.tripDays || 3;
+  const rawName = trip.nickname || trip.name?.split(" ")[0] || "Traveler";
+  const travelerName = rawName.charAt(0).toUpperCase() + rawName.slice(1).toLowerCase();
+  const isRepeat = trip.firstVisit === "repeat";
+  const persona = detectTripPersona(trip);
+  const budget = Number(trip.budget || 0);
+  const curr = trip.currency || "USD";
+  const sym = { USD:"$", EUR:"€", GBP:"£", INR:"₹", AED:"د.إ", CAD:"C$", AUD:"A$", SGD:"S$", JPY:"¥" }[curr] || curr;
+
+  // Random seed ensures variety even for identical inputs
+  const varietySeeds = [
+    "Lean toward hidden local spots over famous landmarks this trip.",
+    "Prioritise culinary depth — make food the emotional thread of this itinerary.",
+    "Emphasise contrast — alternate intense experiences with slow, quiet moments.",
+    "Prioritise one extraordinary experience per day over multiple average ones.",
+    "Lean into the neighbourhood character — ground each day in a specific area of the city.",
+    "Build toward an emotional peak on the middle day — everything else supports it.",
+    "Prioritise the unexpected — at least one choice per day should surprise even the traveler."
+  ];
+  const varietySeed = varietySeeds[Math.floor(Math.random() * varietySeeds.length)];
+
+  const planningPrompt = `You are SKYmora's trip planning engine. Your job is to make DECISIONS — not write the itinerary.
+
+PLANNING DIRECTION FOR THIS SPECIFIC ITINERARY: ${varietySeed}
+
+TRAVELER: ${travelerName}
+DESTINATION: ${trip.destination}
+DEPARTURE: ${trip.departure}
+DAYS: ${totalDays}
+BUDGET: ${sym}${budget} total
+PERSONA: ${persona}
+VISIT TYPE: ${isRepeat ? "REPEAT VISITOR — has been before, wants the layer below the tourist surface" : "FIRST TIME VISITOR — needs the iconic alongside the genuine"}
+TRAVEL PACE: ${trip.travelPace || "balanced"}
+TRAVELER EXPERIENCE: ${trip.travelerExperience || "experienced"}
+SPECIAL REQUEST: ${trip.specialRequest || "none"}
+
+${knowledgeBlock}
+
+YOUR TASK: Create a day-by-day plan. Make SPECIFIC decisions. Do not be generic.
+
+HARD RULES — these cannot be broken:
+1. Burj Khalifa CANNOT appear on Day 1 (travelers arrive tired — the experience is wasted)
+2. Each restaurant appears MAXIMUM ONCE across all days — track every restaurant you assign and never repeat it. If you already used Ossiano on Day 3, you CANNOT use it on Day 4.
+3. At least one recommendation per day must come from the hidden/local/non-tourist category
+4. The designed surprise must appear EXACTLY ONCE across the whole trip (Day 2 or 3)
+5. For REPEAT VISITORS: ZERO standard tourist circuit items (no Burj Khalifa, no Dubai Mall primary activity, no Atlantis)
+6. Budget allocation: Day 1 = lighter spend (arriving, adjusting), Middle day = peak spend (best experiences), Last day = moderate (departure)
+7. VARIETY RULE: Do NOT always pick the single highest-scoring option. For each meal and activity slot, consider the top 3 eligible options and choose one — varying your picks across the itinerary creates a richer, more personal trip. No two itineraries for the same persona should look identical.
+8. Every recommendation must have a REASON — not just what, but why this specific choice for this specific traveler
+9. For ${totalDays}-day trips: spread the experience — do NOT cluster all landmarks on one day
+
+MEMORY PHILOSOPHY: The goal is not "what attraction comes next" — it is "what will ${travelerName} tell someone about in 5 years?" Every day must have one memory-anchor moment that serves this.
+
+Return ONLY valid JSON. Be concise — every field one sentence maximum:
+{
+  "persona": "${persona}",
+  "visitType": "${isRepeat ? "repeat" : "first"}",
+  "dayPlans": [
+    {
+      "day": 1,
+      "dayTitle": "evocative title",
+      "emotionTarget": "arrival_wonder — gentle first contact with the city",
+      "memoryAnchor": "the one moment they tell people about in 5 years",
+      "morning": "activity name + location + why for this traveler",
+      "afternoon": "activity name + location + why for this traveler",
+      "evening": "activity name + why this emotional note",
+      "breakfast": "restaurant + dish",
+      "lunch": "restaurant + dish",
+      "dinner": "restaurant + dish",
+      "hotel": "property name",
+      "surprise": null,
+      "regret": "regret this prevents",
+      "insight": "one insider observation"
+    }
+  ],
+  "surprisePlacement": {
+    "day": 2,
+    "experience": "experience name",
+    "details": "brief details",
+    "howToPresent": "how to weave in naturally"
+  }
+}`;
+
+  try {
+    console.log(`🧠 SKYmora Planning Engine — deciding ${totalDays} days for ${travelerName} (${persona}, ${isRepeat ? "repeat" : "first time"})`);
+
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      response_format: { type: "json_object" },
+      temperature: 0.7,
+      max_tokens: 4000,
+      messages: [
+        {
+          role: "system",
+          content: `You are SKYmora's decision engine. You make precise travel decisions based on traveler psychology and destination intelligence. You NEVER default to generic tourist recommendations when the knowledge data provides better options. You always choose the highest-scoring option for the specific persona. Return valid JSON only.`
+        },
+        { role: "user", content: planningPrompt }
+      ]
+    });
+
+    const raw = response.choices?.[0]?.message?.content;
+    if (!raw) throw new Error("No response from planning engine");
+
+    const plan = JSON.parse(raw);
+    console.log(`✅ Planning complete — ${plan.dayPlans?.length} days planned`);
+    return plan;
+
+  } catch (err) {
+    console.warn("⚠️ Planning engine failed, falling back to standard generation:", err.message);
+    return null;
+  }
+}
+
+// Helper: detect persona key for planning
+function detectTripPersona(trip = {}) {
+  const style = (trip.travelStyle || "").toLowerCase();
+  const req = (trip.specialRequest || "").toLowerCase();
+  const adults = Number(trip.adults || 1);
+  const children = Number(trip.children || 0);
+  if (req.includes("honeymoon")) return "honeymoon";
+  if (style.includes("luxury") || style.includes("elite")) return "luxury";
+  if (req.includes("romantic") || req.includes("anniversary")) return "couple";
+  if (req.includes("photo")) return "photographer";
+  if (req.includes("food") || req.includes("culinary")) return "foodie";
+  if (req.includes("adventure")) return "adventure";
+  if (children > 0) return "family";
+  if (adults === 1) return "solo";
+  if (adults >= 2) return "couple";
+  return "explorer";
+}
+
 // ======== BUILD DAY — COMPLETE INTELLIGENCE ENGINE ========
-async function buildDay(trip, day) {
+async function buildDay(trip, day, tripPlan = null) {
   const {
     name = "Traveler", nickname = "", departure, destination = "",
     departureDate = "", adults = 1, children = 0, infants = 0,
@@ -489,7 +680,23 @@ async function buildDay(trip, day) {
   const assignedAgent = trip.agentData?.name || agentNames[Math.floor(Math.random() * agentNames.length)];
   const agentFirstName = assignedAgent.split(" ")[0];
   const totalDays = trip.tripDays || 5;
-  const dailyBudget = Math.round(budget / totalDays);
+
+  // Smart budget distribution: Day 1 lighter, peak day fuller, last day moderate
+  function getSmartDailyBudget(day, totalDays, totalBudget) {
+    if (totalDays === 1) return totalBudget;
+    if (totalDays === 2) {
+      return day === 1 ? Math.round(totalBudget * 0.40) : Math.round(totalBudget * 0.60);
+    }
+    const peakDay = Math.ceil(totalDays / 2);
+    if (day === 1) return Math.round(totalBudget * 0.20);
+    if (day === totalDays) return Math.round(totalBudget * 0.25);
+    if (day === peakDay) return Math.round(totalBudget * 0.35);
+    const remaining = totalBudget - Math.round(totalBudget * 0.20) - Math.round(totalBudget * 0.25) - Math.round(totalBudget * 0.35);
+    const otherDays = totalDays - 3;
+    return otherDays > 0 ? Math.round(remaining / otherDays) : Math.round(totalBudget / totalDays);
+  }
+
+  const dailyBudget = getSmartDailyBudget(day, totalDays, budget);
 
   const currencySymbols = {
     "USD": "$", "EUR": "€", "GBP": "£", "INR": "₹", "CAD": "C$",
@@ -544,36 +751,138 @@ async function buildDay(trip, day) {
     context += `Persona: ${personaMap} — all recommendations must match this\n\n`;
   }
 
-  // Energy guide per day position
-  const energyGuide = isDay1
-    ? `Arrival day. Keep it gentle. Airport → property → first impressions only. One landmark maximum. Light dinner. Early night.`
-    : day === totalDays
-    ? `Departure day. Slow and meaningful. One final spot. Unhurried departure preparation.`
-    : `Full exploration day. Morning: highest energy, best attraction. Afternoon: neighborhoods, local life. Evening: best dinner, emotional peak.`;
+  // Emotional arc — each day has a distinct register
+  const emotionalArcMap = {
+    1: {
+      register: "arrival_wonder",
+      guidance: "The traveller has just landed. They are tired but alert. Everything is new. Write with quiet observation — not excitement, not information delivery. The city is announcing itself. Let the sentences be shorter. Let the spaces breathe.",
+      example: "There is a specific quality to the first evening in a new city. You are not yet sure what kind of place it is. That uncertainty is the best version of travel."
+    },
+    [Math.ceil(totalDays / 2)]: {
+      register: "peak_discovery",
+      guidance: "This is the day they will tell people about for years. Maximum confidence, maximum engagement. The traveller now knows the city slightly — they move through it with ownership. Write with energy and specificity. Every detail matters.",
+      example: "By now the city has started to feel like yours. You know which side of the road the shade falls on. You know which café opens first."
+    },
+    [totalDays]: {
+      register: "farewell_fullness",
+      guidance: "The last day. Everything is slower. The traveller is absorbing, not collecting. Write with reflection and unhurried observation. The city is being stored in memory. Sentences should slow down.",
+      example: "The last morning in any city has a quality the first morning does not. You are not discovering anymore. You are remembering while it is still happening."
+    }
+  };
+  const currentArc = emotionalArcMap[day] || {
+    register: "active_discovery",
+    guidance: "Full exploration energy. The traveller is confident and curious. Write with forward momentum — each section leads to the next. Specific details reward their attention.",
+    example: "The city is no longer surprising you. It is revealing itself. There is a difference."
+  };
 
-  // Persona writing voice
+  const energyGuide = isDay1
+    ? `Arrival day. Emotional register: arrival_wonder. ${currentArc.guidance} Keep it gentle — airport, property, one first impression, light dinner. Example tone: "${currentArc.example}"`
+    : day === totalDays
+    ? `Departure day. Emotional register: farewell_fullness. ${currentArc.guidance} One final spot. Unhurried. Example tone: "${currentArc.example}"`
+    : `Day ${day} of ${totalDays}. Emotional register: ${currentArc.register}. ${currentArc.guidance} Example tone: "${currentArc.example}"`;
+
+  // Emotional state of trip
+  const emotionalStateMap = {
+    celebrating: "This traveller is celebrating something. The writing should feel like a reward — earned, deserved, elevated. Everything chosen should feel like the best version of itself.",
+    recovering: "This traveller needs restoration, not stimulation. Quieter choices. More space. Less packed. The writing should feel like exhaling, not arriving.",
+    exploring: "Genuine curiosity drives this trip. Prioritise the unexpected over the expected. The traveller wants to be surprised.",
+    escaping: "This traveller needs distance from their normal life. The contrast between here and home should be felt in every section.",
+    ticking: "This traveller wants to say they went and saw everything. Efficient coverage of highlights. No loose ends."
+  };
+  const emotionalStateNote = emotionalStateMap[trip.emotionalState] || "";
+
+  // Persona writing voice — rewritten as experiential, not explanatory
   const personaVoice = {
-    luxury: "Refined and restrained. Demonstrate quality through specific details — never say the word 'luxury'. Focus on precision, exclusivity, being looked after well.",
-    couple: "Romantic framing. Table-for-two settings, sunset timing, slow evenings. Write as if you genuinely want them to fall deeper in love on this trip.",
-    photographer: "Specific golden hour times. Light quality descriptions. Best angles. One unexpected location most tourists miss.",
-    foodie: "Every meal is an event. Describe the actual dish, not just the restaurant. One market or street food moment per day.",
-    family: "Honest about child energy. Rest points built in. Child pricing noted. Best family memories happen in small unexpected moments.",
-    solo: "Intelligent and intentional. One social opportunity per day. Safety noted naturally not alarmingly.",
-    adventurer: "Physical energy language. Effort-to-reward ratios. One route or perspective guidebooks miss.",
-    explorer: "One thing only residents know. Like a well-traveled friend, not a guidebook."
+    luxury: `Write what is seen, felt, and noticed — never what is "provided" or "offered". The difference between a good hotel and a great one is not the thread count. It is the moment the door opens and the room is already exactly the right temperature. Describe that moment. Never use the word luxury. Never say "world-class." Show the quality through one specific detail that a person who has stayed there would remember.`,
+
+    couple: `Every sentence should make them want to be there together. Not romantic adjectives — specific situations. The table by the window. The walk back after dinner when neither of you wanted the evening to end. The moment the fountain started and they looked at each other. Write toward those moments, not around them.`,
+
+    honeymoon: `This is the beginning of the rest of their lives. Write with that weight — gently, never dramatically. The best honeymoon moments are private and specific. A courtyard with no one else in it. A breakfast that lasted two hours. Write toward those moments.`,
+
+    photographer: `Time is light. Every activity should specify the exact hour and why that hour matters for the image. Not "golden hour" — "5:47pm when the light hits the west face of the building and the shadows go long." The photographer notices what everyone else walks past. Write from that eye.`,
+
+    foodie: `The dish is the story. Not the restaurant, not the chef, not the setting — the specific dish and what happens when you eat it. The saffron in the rice. The crispness of the batter. The way the chilli sauce arrives in a small ceramic dish without being asked for. Write the meal, not the menu.`,
+
+    family: `Children remember different things than adults do. The unexpected penguin. The bread given to them by the shopkeeper. The moment the older one helped the younger one with something. Build the day around adult logic but leave room for child magic. Be honest about energy levels — overtired children ruin evenings.`,
+
+    solo: `Solo travel is not lonely — it is free. Every recommendation should carry the implication of that freedom. This table faces the room so you can watch everything. This walk has no fixed end point. This morning is entirely yours. Write toward the specific pleasure of moving through a city entirely at your own pace.`,
+
+    adventurer: `Effort earns the view. The harder the approach, the more the destination means. Write with the physical intelligence of someone who has done it — how the legs feel on the ascent, what the air smells like at altitude, the specific satisfaction of sitting down after something that required something. Numbers matter: how far, how high, how long.`,
+
+    explorer: `Write like a well-travelled friend who happens to know this city well. Not a guidebook — a person. One specific thing that residents know and tourists don't. The detail that makes a stranger feel like an insider. The observation that makes the city feel knowable.`
   };
 
   const voiceInstruction = personaVoice[personaMap] || personaVoice.explorer;
 
-  // Local intelligence lines — specific to destination type
+  // Local intelligence lines
   const localIntelligence = isDay1 ? `
-Include one LOCAL INTELLIGENCE observation that makes SKYmora feel like an insider, not a generator.
-Examples of the tone:
-- "Most visitors stay near Times Square. There is no good reason to."
-- "The subway is faster than any taxi after 9am. This matters more than it sounds."
-- "The property we selected sits in a neighborhood where locals still outnumber tourists."
-This observation should feel like something only someone who has been there many times would say.` : `
-Include one LOCAL INTELLIGENCE line — a specific observation about this destination that feels genuinely insider.`;
+ONE THING TO KNOW section: Do NOT write generic safety or packing advice. Write ONE specific, local, timing-based observation that only someone who knows this city well would say. It must reference a specific time, place, or behaviour pattern.
+Bad example: "Dubai is hot in summer so wear light clothing."
+Good example: "The Gold Souk alley at 9:30am on a weekday has fewer than ten people in it. By noon it has hundreds. The shopkeeper who ignored you at noon will spend twenty minutes explaining the difference between his saffron and the supermarket version at 9:30am. The timing is the intelligence."` : `
+Include one LOCAL INTELLIGENCE line that references either: (a) a specific time window and why it matters, OR (b) a contrast between what most visitors do and what this plan does differently.`;
+
+  const emotionalStateInstruction = emotionalStateNote ? `\nTRIP EMOTIONAL CONTEXT: ${emotionalStateNote}\n` : "";
+
+
+  // Build destination knowledge block
+  const knowledgeBlock = buildKnowledgeBlock({
+    destination: resolvedDestination,
+    travelStyle: trip.travelStyle || "",
+    specialRequest: trip.specialRequest || "",
+    adults: trip.adults || 1,
+    children: trip.children || 0,
+    firstVisit: trip.firstVisit || "first",
+    budget: trip.budget || 0,
+    currency: trip.currency || "USD"
+  });
+
+  // Build locked day brief from trip plan (if available)
+  const dayPlan = tripPlan?.dayPlans?.find(p => p.day === day);
+  const surprisePlan = tripPlan?.surprisePlacement;
+
+  const lockedBrief = dayPlan ? `
+=== LOCKED DAY BRIEF — FOLLOW EXACTLY ===
+These decisions were made by the planning engine based on traveler psychology and destination intelligence.
+You are writing the narrative. You are NOT choosing the venues. They are already chosen.
+
+DAY TITLE: ${dayPlan.dayTitle || ""}
+EMOTION TARGET: ${dayPlan.emotionTarget || ""}
+MEMORY ANCHOR: ${dayPlan.memoryAnchor || ""}
+
+MORNING ACTIVITY: ${dayPlan.morning || dayPlan.morningActivity || ""}
+AFTERNOON ACTIVITY: ${dayPlan.afternoon || dayPlan.afternoonActivity || ""}
+EVENING ACTIVITY: ${dayPlan.evening || dayPlan.eveningActivity || ""}
+
+BREAKFAST: ${dayPlan.breakfast || ""}
+LUNCH: ${dayPlan.lunch || ""}
+DINNER: ${dayPlan.dinner || ""}
+
+HOTEL: ${dayPlan.hotel || ""}
+
+${(dayPlan.surprise && dayPlan.surprise !== 'null') || (surprisePlan?.day === day) ? `DESIGNED SURPRISE (weave naturally into the narrative — do not present as a recommendation):
+Experience: ${dayPlan.surprise || surprisePlan?.experience || ""}
+Details: ${surprisePlan?.details || ""}
+How to present: ${surprisePlan?.howToPresent || "present as something discovered, not prescribed"}` : ""}
+
+REGRET CONTRAST — do NOT state this directly. Imply it as a contrast: ${dayPlan.regret || dayPlan.regretPrevention || ""}
+Write it as: "Most visitors do X. You will not." — never as "this prevents regret about X."
+
+LOCAL INSIGHT FOR TODAY — use verbatim if provided, do not paraphrase: ${dayPlan.insight || dayPlan.localInsight || ""}
+EMOTION TARGET FOR THIS DAY: ${dayPlan.emotionTarget || currentArc.register}
+MEMORY ANCHOR — the one moment they describe in 5 years: ${dayPlan.memoryAnchor || ""}
+
+TIMING INTELLIGENCE — every activity MUST state: (1) the exact time, (2) why that specific time matters.
+Not "visit in the morning" — "arrive at 9:30am — before the crowds, before the heat, when the shopkeepers have time to talk."
+
+CRITICAL RULES:
+- Write ONLY the venues in the locked brief above. NEVER substitute from your training data.
+- Every sentence must be complete. Never end with "is ," or "to be ," or "positioning you."
+- Regret prevention is implied through contrast, never stated.
+- The timing of every activity must be specific and explained.
+=== END LOCKED BRIEF ===
+` : `
+${knowledgeBlock}
+`;
 
   const prompt = `You are a senior travel consultant at SKYmora with 15 years of personal experience in ${resolvedDestination}.
 
@@ -585,8 +894,16 @@ Date: ${departureDate} | Group: ${adults} adult(s)${children ? `, ${children} ch
 Budget: ${sym}${budget} total | ${sym}${dailyBudget}/day
 Travel Style: ${travelStyle || "balanced"} | Special Request: ${specialRequest || "none"}
 Persona: ${personaMap}
+Visit Status: ${trip.firstVisit === "repeat" ? "REPEAT VISITOR — deeper, local itinerary. NO standard tourist circuit." : "FIRST TIME VISITOR — iconic + genuine balance."}
+Travel Pace: ${trip.travelPace === "relaxed" ? "RELAXED — maximum 2 activities, long meals, open afternoons." : trip.travelPace === "packed" ? "PACKED — energetic, 4-5 activities, efficient transitions." : "BALANCED — 3 activities, one great meal, one breathing space."}
+Travel Experience: ${trip.travelerExperience === "first_intl" ? "FIRST INTERNATIONAL TRIP — include logistics detail, customs info, safety context naturally." : trip.travelerExperience === "moderate" ? "SOME EXPERIENCE — skip absolute basics, include destination-specific intelligence." : "SEASONED — skip all logistics basics, straight to deep intelligence."}
+${trip.emotionalState ? `Trip Occasion: ${emotionalStateMap[trip.emotionalState] || ""}` : ""}
+Dining Importance: ${trip.diningDepth === "fuel" ? "Food is fuel — quick, efficient, good enough." : trip.diningDepth === "one_great" ? "One extraordinary meal. The rest can be simple." : trip.diningDepth === "every_meal" ? "Every meal is an event. Food IS the trip." : "Good food matters but does not dominate."}
+Social Preference: ${trip.socialComfort === "meet_people" ? "Wants to meet other travellers — recommend social settings." : trip.socialComfort === "independent" ? "Prefers complete independence — no group activities, solo experiences." : "Balanced social."}
 
 ${context}
+
+${lockedBrief}
 
 DAY ENERGY:
 ${energyGuide}
@@ -623,15 +940,34 @@ FAKE URGENCY — completely banned:
 Never say: "books out fast", "selling quickly", "limited availability"
 Instead inform intelligently: "Current pricing on this route is strong for the season. Midweek dates tend to perform better if flexibility exists."
 
+FLIGHT DURATION FACTS — CRITICAL, DO NOT CONTRADICT:
+- New Delhi to Dubai: DIRECT = 3 hours 30 minutes to 4 hours. This is correct. Never write 16 hours for this route.
+- Mumbai to Dubai: DIRECT = 3 hours.
+- London to Dubai: DIRECT = 7 hours.
+- New York to Dubai: DIRECT = 13-14 hours.
+If the live search data shows a different duration for Delhi-Dubai, it is wrong. Use 3.5 hours.
+
 === SECTION FORMAT ===
-Break the day into named sections. Each section:
-- - Header: SECTION NAME (no brackets, no emojis in headers)
-- 1-2 sentences MAXIMUM per section — no exceptions
-- One hard specific fact per section (exact price, exact time, exact name)
-- One blank line between sections
-- Write like a senior advisor speaking to an intelligent traveler — not a narrator
-- EVERY day must use sections — Day 2 and middle days are NOT exempt
-- Never write continuous paragraphs — always break into named sections
+Break the day into named sections with clear visual separation.
+
+RULES:
+- Every section header must be completely alone on its own line
+- One blank line after every header before content begins
+- One blank line after content before the next header
+- Keep your full explanations, WHY reasoning, and pricing intelligence
+- Never shorten or compress content — just organize into sections
+- Every day must use sections — middle days included
+LEAVING NEW DELHI
+
+Your journey begins at Indira Gandhi International. Air India DEL to JFK. INR 220,457 return. Three hours before departure.
+
+YOUR FLIGHT
+
+Air India AI101. 3 hours 30 minutes direct (Delhi-Dubai). Meal service included. Best value on this route currently.
+
+ARRIVING IN DUBAI
+
+DXB customs typically 30 to 45 minutes on arrival. June weather — around 38 degrees, light breathable clothing essential.
 SECTIONS FOR DAY ${isDay1 ? `1:
 LEAVING ${departure.toUpperCase()}
 YOUR FLIGHT
@@ -639,18 +975,18 @@ ARRIVING IN ${resolvedDestination.toUpperCase()}
 GETTING TO THE CITY
 YOUR STAY
 FIRST EVENING
-ONE THING TO KNOW` : day === totalDays ? `${day}:
+ONE THING TO KNOW — this section MUST reference: (a) a specific timing or traffic intelligence from the destination knowledge, OR (b) a specific regret that travelers have and how this plan prevents it. Not generic advice. Specific, local, insider.` : day === totalDays ? `${day}:
 FINAL MORNING
 LAST BREAKFAST
-ONE MORE THING
+ONE MORE THING — this section MUST reference something specific from the destination knowledge that travelers often miss. Alserkal Avenue, the Canal walk, the Friday Market, a hidden neighbourhood — something that feels discovered.
 HEADING HOME
 FAREWELL` : `${day}:
-MORNING
-THE MAIN EXPERIENCE
+MORNING — reference neighborhood character. Not just "visit X." Explain what this part of the city feels like at this hour and why that matters.
+THE MAIN EXPERIENCE — reference the regret this experience prevents, OR the memory it creates. Make the WHY visible.
 LUNCH
-AFTERNOON
+AFTERNOON — if there is an Alserkal Avenue, Al Quoz, DIFC, or neighbourhood-specific recommendation in the locked brief, this is where it belongs.
 EVENING
-DINNER`}
+DINNER — reference the specific dish ordered, the time to arrive (timing intelligence), and one thing about the atmosphere that makes this right for this traveler today.`}
 
 AGENT SIGNATURE — end every day card with:
 "Prepared for ${travelerName} — ${agentFirstName}, SKYmora Travel Team"
@@ -680,12 +1016,13 @@ Return ONLY this JSON:
       model: "gpt-4o-mini",
       response_format: { type: "json_object" },
       temperature: 0.72,
-      max_tokens: 3000,
+      max_tokens: 4000,
       messages: [
         {
           role: "system",
           content: `You are an elite travel writer at SKYmora. Your writing is precise, human, and intelligent.
 Never use these words: vibrant, nestled, charming, unforgettable, extraordinary, delightful, immersive, enchanting, magical, breathtaking, stunning, incredible, amazing, wonderful, fantastic, luxurious, picturesque, serene, tranquil.
+CRITICAL SENTENCE RULE: Every sentence you start must be completed. Never end a sentence with "is ," or "are ," or "to be ," — these are incomplete. Read every sentence before writing the next one. A half-finished sentence is worse than no sentence at all.
 Every section header must be plain text — no brackets, no emojis.
 Every major recommendation must include WHY that specific option was chosen.
 Pricing must feel like intelligent market analysis, never pressure.
@@ -730,13 +1067,16 @@ parsed.resolvedDestination = resolvedDestination;
 }
 
 // ======== BACKGROUND GENERATION ========
-async function generateInBackground(tripId, trip, startAt, totalDays) {
+async function generateInBackground(tripId, trip, startAt, totalDays, tripPlan = null) {
   const entry = itineraries.get(tripId);
   if (!entry) return;
 
+  // Use stored plan if not passed directly
+  const plan = tripPlan || entry.tripPlan || null;
+
   for (let d = startAt + 1; d <= totalDays; d++) {
     await new Promise(r => setTimeout(r, 3000));
-    const dayObj = await buildDay(trip, d);
+    const dayObj = await buildDay(trip, d, plan);
     entry.days.push(dayObj);
 
     if (d === totalDays) {
@@ -759,18 +1099,70 @@ async function generateInBackground(tripId, trip, startAt, totalDays) {
         return "explorer";
       })();
 
-      const promiseClosers = {
-        luxury: `Every property, every restaurant, every experience was chosen for one reason — it is the strongest option available within your parameters. Nothing generic. This is ${destProper} at the level it deserves to be experienced.`,
-        couple: `Every detail was built with the two of you in mind. Restaurants chosen for intimacy. Timings set for the right light. Pace designed so you are never rushed through the moments that matter. ${destProper} is waiting.`,
-        photographer: `Every location was chosen with light quality, timing, and visual impact in mind. Routes planned so the best shots happen at the best hours. ${destProper} through your lens.`,
-        foodie: `Every restaurant was chosen because it delivers something real at its price point. Not famous — real. The difference matters, and you will taste it from Day 1.`,
-        family: `Every day was paced for the whole family. Energy preserved for evenings. Rest built into afternoons. The moments that become family stories happen when nobody is exhausted.`,
-        solo: `This journey was planned for someone who travels with intention. Every recommendation assumes you know what you are doing and want to do it well.`,
-        adventurer: `Every day pushes slightly beyond comfortable. Not recklessly — purposefully. The experiences that become stories are the ones that required something from you.`,
-        explorer: `Every price is real. Every restaurant chosen for what it delivers at that cost. Every property fits your budget without compromising the experience. This is ${destProper} — planned carefully.`
+      const assignedAgent = trip.agentData?.name || "Olivia Chen";
+      const agentFirst = assignedAgent.split(" ")[0];
+
+      const agentClosers = {
+        "Olivia": [
+          `${travelerName}, I put genuine thought into every detail of this journey — your pace, your budget, the way you like to experience a place. This is not a template. This is ${destProper}, planned specifically for you.\nIf anything feels off — a different neighbourhood, a different restaurant, a change in timing — I am right here. The chat is just below and I would genuinely love to make this perfect for you. — Olivia Chen`,
+          `${travelerName}, crafting this itinerary was a pleasure. Every choice — the property, the restaurants, the route through the city — was made with you specifically in mind.\nNo question is too small. If something needs adjusting before you travel, please reach out through the chat below. I am waiting and happy to help. — Olivia Chen`,
+          `${travelerName}, this is your ${destProper} — ${trip.tripDays} days designed around exactly how you travel. Every price is real, every recommendation has a reason, and nothing was left to chance.\nI would love to hear from you if anything needs a tweak. The chat below is open and I am genuinely eager to make this the best possible version of your trip. — Olivia Chen`,
+          `${travelerName}, the best journeys are the ones that feel personal from the very first day. That is exactly what I tried to create for you here.\nIf you have any questions, any changes in mind, or simply want to talk through the plan — please reach out through the chat below. I am here and I want this trip to be everything you are hoping for. — Olivia Chen`,
+          `${travelerName}, every traveler deserves a journey that feels made for them. I hope this one does.\nThe chat below is open — whether it is a small change or a big one, I am here and genuinely looking forward to hearing from you. Let us make this perfect together. — Olivia Chen`,
+          `${travelerName}, this plan took care and attention to build. ${destProper} rewards the traveler who goes in prepared, and you are prepared.\nAnything you want to change or explore further — I am right below in the chat. I am here for exactly this. — Olivia Chen`
+        ],
+        "Emma": [
+          `${travelerName}, I built this journey to prove that a well-planned trip does not need to feel like a compromise. Every choice here delivers more than its price suggests — that was the goal from the very start.\nIf anything needs changing, please reach out through the chat below. I am genuinely excited to help you refine this further. — Emma Collins`,
+          `${travelerName}, your budget was not a limitation here. It was a challenge I took personally. Every recommendation was chosen to make your money work as hard as possible without sacrificing a single moment.\nI would love to hear from you if you want to adjust anything. The chat is just below and I am ready and waiting. — Emma Collins`,
+          `${travelerName}, this is ${destProper} done properly — not expensively, but properly. There is a difference and this plan understands it.\nIf something does not feel right or you want to explore a different direction, I am here. Chat below, reach out anytime. I genuinely want this trip to exceed your expectations. — Emma Collins`,
+          `${travelerName}, I planned this the way I would plan it for someone whose money I was spending myself — carefully, deliberately, without a single wasted choice.\nThe chat below is open and I am eager to hear from you. Any question, any change, any idea — bring it to me. — Emma Collins`,
+          `${travelerName}, the best feeling in travel planning is when a traveler realises they got far more than they expected. That is exactly what I built this for.\nPlease reach out through the chat below if anything needs adjusting. I am here, I am enthusiastic, and I want to make this perfect for you. — Emma Collins`,
+          `${travelerName}, every price in this plan was verified, every option was compared, and every choice was made with your experience in mind — not just your budget.\nIf you want to talk through anything or make any changes before you travel, the chat is right below. I would love to hear from you. — Emma Collins`
+        ],
+        "Ethan": [
+          `${travelerName}, this plan was built with energy and purpose — every day designed to give you something real, something that pushes slightly beyond the ordinary.\nIf you want to add more edge or simply have questions before you go — I am right here in the chat below. I am genuinely excited about this trip for you. — Ethan Roberts`,
+          `${travelerName}, ${destProper} rewards the traveler who goes in with a plan and the confidence to follow it. You have both now.\nIf anything feels like it needs more intensity or a different direction — the chat is below and I am ready to dig in with you. Let us make this exactly what you want. — Ethan Roberts`,
+          `${travelerName}, I built this itinerary around the belief that the best travel moments are the ones that required something from you. This plan has those built in.\nAnything you want to adjust — reach out through the chat below. I am here and genuinely looking forward to talking this through with you. — Ethan Roberts`,
+          `${travelerName}, ${trip.tripDays} days in ${destProper} — planned with zero wasted hours and maximum experience at every turn.\nIf you want to push the plan further or have any questions, I am just below in the chat. I love refining a good itinerary. — Ethan Roberts`,
+          `${travelerName}, the traveler who goes in prepared always gets more out of a destination. This plan makes sure you are that traveler.\nThe chat below is open — any changes, any questions, anything you want to add. I am here and eager to help. — Ethan Roberts`,
+          `${travelerName}, I planned this with intention, energy, and you at the centre of every decision.\nIf anything needs changing before you travel, please reach out through the chat below. I am waiting and genuinely excited to make this even better for you. — Ethan Roberts`
+        ],
+        "Sophia": [
+          `${travelerName}, precision is the only standard I work to. Every choice in this itinerary — every property, every restaurant, every route — was the strongest available option within your parameters.\nIf anything needs refining before you travel, I am here. The chat below is open and I would be genuinely pleased to make this exactly right for you. — Sophia Bennett`,
+          `${travelerName}, this is ${destProper} at the level it deserves to be experienced. Nothing in this plan is accidental and nothing is generic.\nIf you have questions or want to explore adjustments, please reach out through the chat below. I care deeply about getting this right for you. — Sophia Bennett`,
+          `${travelerName}, the difference between a good trip and the right trip is in the details. I have taken care of the details.\nThe chat below is open — any question, any refinement, any idea you have. I am waiting and genuinely looking forward to hearing from you. — Sophia Bennett`,
+          `${travelerName}, I do not do generic. Every recommendation in this plan earned its place — compared, verified, and chosen for a specific reason.\nIf anything needs adjusting before you travel, please do not hesitate to reach out through the chat below. I am here for exactly this. — Sophia Bennett`,
+          `${travelerName}, ${trip.tripDays} days in ${destProper} — curated with the care this destination deserves and the attention your journey requires.\nThe chat is just below and I would genuinely love to hear from you if anything needs to change. — Sophia Bennett`,
+          `${travelerName}, this plan reflects a standard I hold myself to — nothing included by default, everything chosen with purpose.\nPlease reach out through the chat below if you have any questions. I am here, I am ready, and I want this to be perfect for you. — Sophia Bennett`
+        ],
+        "Noah": [
+          `${travelerName}, I have planned journeys for every kind of traveler and every kind of destination. This one was built around exactly how you travel — your pace, your style, your budget.\nThe chat below is open and I would genuinely love to hear from you if anything needs adjusting. I am here and ready to help. — Noah Davis`,
+          `${travelerName}, the best travel plans feel personal because they are. This one was built for you specifically — not adapted from a template, not generated from a formula.\nIf you have questions or want to make changes, please reach out through the chat below. I am genuinely eager to help. — Noah Davis`,
+          `${travelerName}, ${destProper} has something remarkable to offer every traveler who comes prepared. This plan makes sure you are prepared.\nAnything needs changing or you simply want to talk through the details — I am just below in the chat. — Noah Davis`,
+          `${travelerName}, I built this with care and without assumptions. Every choice was made with your specific journey in mind.\nThe chat below is open — any question, any change, any idea you have. I am here and looking forward to hearing from you. — Noah Davis`,
+          `${travelerName}, travel is personal. Planning should be too. That is exactly the approach I took with this itinerary.\nIf anything feels like it needs a different direction, please reach out through the chat below. I am ready and genuinely happy to help. — Noah Davis`,
+          `${travelerName}, ${trip.tripDays} days in ${destProper} — planned with flexibility, purpose, and you at the centre of every decision.\nThe chat is right below and I am waiting. Any question, any change — bring it to me. — Noah Davis`
+        ],
+        "Liam": [
+          `${travelerName}, culture is not something you observe on this trip — it is something you step into. Every recommendation was chosen to take you deeper than the surface of ${destProper}.\nIf you want to explore a different angle or have any questions at all, please reach out through the chat below. I am genuinely excited about this journey for you. — Liam Patel`,
+          `${travelerName}, the real ${destProper} is not always the one in the guidebooks. This plan knows the difference.\nThe chat below is open — any questions, any changes, anything you want to add. I would genuinely love to hear from you before you travel. — Liam Patel`,
+          `${travelerName}, I built this itinerary around the belief that the most meaningful travel experiences come from going deeper, not just further.\nIf anything needs adjusting, please reach out through the chat below. I am here and eager to help make this perfect. — Liam Patel`,
+          `${travelerName}, ${trip.tripDays} days in ${destProper} — planned around the experiences that stay with you long after you come home.\nThe chat is just below and I am waiting. Any question, any idea, any change — reach out. — Liam Patel`,
+          `${travelerName}, every destination has a version that most travelers miss entirely. This plan makes sure you do not miss it.\nIf you have questions or want to explore any adjustments, please reach out through the chat below. I am genuinely looking forward to hearing from you. — Liam Patel`,
+          `${travelerName}, I planned this with the curiosity of someone who loves ${destProper} and the care of someone who wants you to love it too.\nThe chat below is open — please do not hesitate to reach out. Any change, any question. I am here and ready. — Liam Patel`
+        ],
+        "Alexander": [
+          `${travelerName}, elite travel is not about spending more — it is about experiencing more of what actually matters. Every choice in this plan reflects that.\nIf anything needs refining before you travel, I am here. The chat below is open and I would be honoured to make this exactly right for you. — Alexander Cruz`,
+          `${travelerName}, this is ${destProper} at the highest level available within your parameters. Nothing was left to chance and nothing was chosen by default.\nPlease reach out through the chat below if you want to explore any adjustments. I am here and genuinely invested in making this extraordinary for you. — Alexander Cruz`,
+          `${travelerName}, the finest journeys are the ones where every detail has been considered before you arrive. That is what I have done here.\nThe chat is open below — any question, any refinement. I am waiting and looking forward to hearing from you. — Alexander Cruz`,
+          `${travelerName}, I curate experiences for travelers who expect the best and understand the difference when they experience it. This plan was built with you in mind.\nIf anything needs changing before you travel, please reach out through the chat below. I am here for exactly this. — Alexander Cruz`,
+          `${travelerName}, ${trip.tripDays} days in ${destProper} — every element selected for maximum impact, minimum friction, and the kind of experience that stays with you.\nThe chat is just below. I am here and genuinely eager to hear from you. — Alexander Cruz`,
+          `${travelerName}, excellence is a standard, not an aspiration. This plan reflects that standard.\nPlease reach out through the chat below if you have any questions or want to refine anything. I want this to be perfect for you. — Alexander Cruz`
+        ]
       };
 
-      const closer = promiseClosers[persona] || promiseClosers.explorer;
+      const agentVariants = agentClosers[agentFirst] || agentClosers["Noah"];
+      const closer = agentVariants[Math.floor(Math.random() * agentVariants.length)];
 
       entry.days.push({
         day: totalDays + 1,
@@ -832,18 +1224,119 @@ app.post("/api/generate", async (req, res) => {
     });
   }
 
-  const day1 = await buildDay(trip, 1);
+  const resolvedDest = resolveDestinationCity(trip.destination || "");
+  const destProper = resolvedDest.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(" ");
+  const heroCard = {
+    day: 0,
+    type: "hero",
+    title: destProper,
+    content: `${trip.tripDays} days designed around slower mornings, local food, and room to wander.`,
+    resolvedDestination: resolvedDest
+  };
+const rawName = trip.nickname || trip.name?.split(" ")[0] || "Friend";
+  const travelerName = rawName.charAt(0).toUpperCase() + rawName.slice(1).toLowerCase();
+  const assignedAgentName = trip.agentData?.name || "Olivia Chen";
+  const agentFirstName = assignedAgentName.split(" ")[0];
+
+  const introClosers = {
+    "Olivia": [
+      `${travelerName}, I put genuine thought into every detail of this journey — your pace, your budget, the way you like to experience a place. This is not a template. This is ${destProper}, planned specifically for you.\n\nIf anything feels off — a different neighbourhood, a different restaurant, a change in timing — I am right here. The chat is just below and I would genuinely love to make this perfect for you.\n\n— Olivia Chen`,
+      `${travelerName}, crafting this itinerary was a pleasure. Every choice — the property, the restaurants, the route through the city — was made with you specifically in mind.\n\nNo question is too small. If something needs adjusting before you travel, please reach out through the chat below. I am waiting and happy to help.\n\n— Olivia Chen`,
+      `${travelerName}, this is your ${destProper} — ${trip.tripDays} days designed around exactly how you travel. Every price is real, every recommendation has a reason, and nothing was left to chance.\n\nI would love to hear from you if anything needs a tweak. The chat below is open and I am genuinely eager to make this the best possible version of your trip.\n\n— Olivia Chen`,
+      `${travelerName}, the best journeys are the ones that feel personal from the very first day. That is exactly what I tried to create for you here.\n\nIf you have any questions, any changes in mind, or simply want to talk through the plan — please reach out through the chat below. I am here and I want this trip to be everything you are hoping for.\n\n— Olivia Chen`,
+      `${travelerName}, every traveler deserves a journey that feels made for them. I hope this one does.\n\nThe chat below is open — whether it is a small change or a big one, I am here and genuinely looking forward to hearing from you. Let us make this perfect together.\n\n— Olivia Chen`,
+      `${travelerName}, this plan took care and attention to build. ${destProper} rewards the traveler who goes in prepared, and you are prepared.\n\nAnything you want to change or explore further — I am right below in the chat. I am here for exactly this.\n\n— Olivia Chen`
+    ],
+    "Emma": [
+      `${travelerName}, I built this journey to prove that a well-planned trip does not need to feel like a compromise. Every choice here delivers more than its price suggests — that was the goal from the very start.\n\nIf anything needs changing, please reach out through the chat below. I am genuinely excited to help you refine this further.\n\n— Emma Collins`,
+      `${travelerName}, your budget was not a limitation here. It was a challenge I took personally. Every recommendation was chosen to make your money work as hard as possible without sacrificing a single moment.\n\nI would love to hear from you if you want to adjust anything. The chat is just below and I am ready and waiting.\n\n— Emma Collins`,
+      `${travelerName}, this is ${destProper} done properly — not expensively, but properly. There is a difference and this plan understands it.\n\nIf something does not feel right or you want to explore a different direction, I am here. Chat below anytime. I genuinely want this trip to exceed your expectations.\n\n— Emma Collins`,
+      `${travelerName}, I planned this the way I would plan it for someone whose money I was spending myself — carefully, deliberately, without a single wasted choice.\n\nThe chat below is open and I am eager to hear from you. Any question, any change, any idea — bring it to me.\n\n— Emma Collins`,
+      `${travelerName}, the best feeling in travel planning is when a traveler realises they got far more than they expected. That is exactly what I built this for.\n\nPlease reach out through the chat below if anything needs adjusting. I am here, I am enthusiastic, and I want to make this perfect for you.\n\n— Emma Collins`,
+      `${travelerName}, every price in this plan was verified, every option was compared, and every choice was made with your experience in mind — not just your budget.\n\nIf you want to talk through anything or make any changes before you travel, the chat is right below. I would love to hear from you.\n\n— Emma Collins`
+    ],
+    "Ethan": [
+      `${travelerName}, this plan was built with energy and purpose — every day designed to give you something real, something that pushes slightly beyond the ordinary.\n\nIf you want to add more edge or simply have questions before you go — I am right here in the chat below. I am genuinely excited about this trip for you.\n\n— Ethan Roberts`,
+      `${travelerName}, ${destProper} rewards the traveler who goes in with a plan and the confidence to follow it. You have both now.\n\nIf anything feels like it needs more intensity or a different direction — the chat is below and I am ready to dig in with you. Let us make this exactly what you want.\n\n— Ethan Roberts`,
+      `${travelerName}, I built this itinerary around the belief that the best travel moments are the ones that required something from you. This plan has those built in.\n\nAnything you want to adjust — reach out through the chat below. I am here and genuinely looking forward to talking this through with you.\n\n— Ethan Roberts`,
+      `${travelerName}, ${trip.tripDays} days in ${destProper} — planned with zero wasted hours and maximum experience at every turn.\n\nIf you want to push the plan further or have any questions, I am just below in the chat. I love refining a good itinerary.\n\n— Ethan Roberts`,
+      `${travelerName}, the traveler who goes in prepared always gets more out of a destination. This plan makes sure you are that traveler.\n\nThe chat below is open — any changes, any questions, anything you want to add. I am here and eager to help.\n\n— Ethan Roberts`,
+      `${travelerName}, I planned this with intention, energy, and you at the centre of every decision.\n\nIf anything needs changing before you travel, please reach out through the chat below. I am waiting and genuinely excited to make this even better for you.\n\n— Ethan Roberts`
+    ],
+    "Sophia": [
+      `${travelerName}, precision is the only standard I work to. Every choice in this itinerary — every property, every restaurant, every route — was the strongest available option within your parameters.\n\nIf anything needs refining before you travel, the chat below is open and I would be genuinely pleased to make this exactly right for you.\n\n— Sophia Bennett`,
+      `${travelerName}, this is ${destProper} at the level it deserves to be experienced. Nothing in this plan is accidental and nothing is generic.\n\nIf you have questions or want to explore adjustments, please reach out through the chat below. I care deeply about getting this right for you.\n\n— Sophia Bennett`,
+      `${travelerName}, the difference between a good trip and the right trip is in the details. I have taken care of the details.\n\nThe chat below is open — any question, any refinement, any idea you have. I am waiting and genuinely looking forward to hearing from you.\n\n— Sophia Bennett`,
+      `${travelerName}, I do not do generic. Every recommendation in this plan earned its place — compared, verified, and chosen for a specific reason.\n\nIf anything needs adjusting before you travel, please do not hesitate to reach out through the chat below. I am here for exactly this.\n\n— Sophia Bennett`,
+      `${travelerName}, ${trip.tripDays} days in ${destProper} — curated with the care this destination deserves and the attention your journey requires.\n\nThe chat is just below and I would genuinely love to hear from you if anything needs to change.\n\n— Sophia Bennett`,
+      `${travelerName}, this plan reflects a standard I hold myself to — nothing included by default, everything chosen with purpose.\n\nPlease reach out through the chat below if you have any questions. I am here, I am ready, and I want this to be perfect for you.\n\n— Sophia Bennett`
+    ],
+    "Noah": [
+      `${travelerName}, I have planned journeys for every kind of traveler and every kind of destination. This one was built around exactly how you travel — your pace, your style, your budget.\n\nThe chat below is open and I would genuinely love to hear from you if anything needs adjusting. I am here and ready to help.\n\n— Noah Davis`,
+      `${travelerName}, the best travel plans feel personal because they are. This one was built for you specifically — not adapted from a template, not generated from a formula.\n\nIf you have questions or want to make changes, please reach out through the chat below. I am genuinely eager to help.\n\n— Noah Davis`,
+      `${travelerName}, ${destProper} has something remarkable to offer every traveler who comes prepared. This plan makes sure you are prepared.\n\nAnything needs changing or you simply want to talk through the details — I am just below in the chat.\n\n— Noah Davis`,
+      `${travelerName}, I built this with care and without assumptions. Every choice was made with your specific journey in mind.\n\nThe chat below is open — any question, any change, any idea you have. I am here and looking forward to hearing from you.\n\n— Noah Davis`,
+      `${travelerName}, travel is personal. Planning should be too. That is exactly the approach I took with this itinerary.\n\nIf anything feels like it needs a different direction, please reach out through the chat below. I am ready and genuinely happy to help.\n\n— Noah Davis`,
+      `${travelerName}, ${trip.tripDays} days in ${destProper} — planned with flexibility, purpose, and you at the centre of every decision.\n\nThe chat is right below and I am waiting. Any question, any change — bring it to me.\n\n— Noah Davis`
+    ],
+    "Liam": [
+      `${travelerName}, culture is not something you observe on this trip — it is something you step into. Every recommendation was chosen to take you deeper than the surface of ${destProper}.\n\nIf you want to explore a different angle or have any questions, please reach out through the chat below. I am genuinely excited about this journey for you.\n\n— Liam Patel`,
+      `${travelerName}, the real ${destProper} is not always the one in the guidebooks. This plan knows the difference.\n\nThe chat below is open — any questions, any changes, anything you want to add. I would genuinely love to hear from you before you travel.\n\n— Liam Patel`,
+      `${travelerName}, I built this itinerary around the belief that the most meaningful travel experiences come from going deeper, not just further.\n\nIf anything needs adjusting, please reach out through the chat below. I am here and eager to help make this perfect.\n\n— Liam Patel`,
+      `${travelerName}, ${trip.tripDays} days in ${destProper} — planned around the experiences that stay with you long after you come home.\n\nThe chat is just below and I am waiting. Any question, any idea, any change — reach out.\n\n— Liam Patel`,
+      `${travelerName}, every destination has a version that most travelers miss entirely. This plan makes sure you do not miss it.\n\nIf you have questions or want to explore any adjustments, please reach out through the chat below. I am genuinely looking forward to hearing from you.\n\n— Liam Patel`,
+      `${travelerName}, I planned this with the curiosity of someone who loves ${destProper} and the care of someone who wants you to love it too.\n\nThe chat below is open — please do not hesitate to reach out. Any change, any question. I am here and ready.\n\n— Liam Patel`
+    ],
+    "Alexander": [
+      `${travelerName}, elite travel is not about spending more — it is about experiencing more of what actually matters. Every choice in this plan reflects that.\n\nIf anything needs refining before you travel, the chat below is open and I would be honoured to make this exactly right for you.\n\n— Alexander Cruz`,
+      `${travelerName}, this is ${destProper} at the highest level available within your parameters. Nothing was left to chance and nothing was chosen by default.\n\nPlease reach out through the chat below if you want to explore any adjustments. I am genuinely invested in making this extraordinary for you.\n\n— Alexander Cruz`,
+      `${travelerName}, the finest journeys are the ones where every detail has been considered before you arrive. That is what I have done here.\n\nThe chat is open below — any question, any refinement. I am waiting and looking forward to hearing from you.\n\n— Alexander Cruz`,
+      `${travelerName}, I curate experiences for travelers who expect the best and understand the difference when they experience it. This plan was built with you in mind.\n\nIf anything needs changing before you travel, please reach out through the chat below. I am here for exactly this.\n\n— Alexander Cruz`,
+      `${travelerName}, ${trip.tripDays} days in ${destProper} — every element selected for maximum impact, minimum friction, and the kind of experience that stays with you.\n\nThe chat is just below. I am here and genuinely eager to hear from you.\n\n— Alexander Cruz`,
+      `${travelerName}, excellence is a standard, not an aspiration. This plan reflects that standard.\n\nPlease reach out through the chat below if you have any questions or want to refine anything. I want this to be perfect for you.\n\n— Alexander Cruz`
+    ]
+  };
+
+  const introVariants = introClosers[agentFirstName] || introClosers["Noah"];
+  const introMessage = introVariants[Math.floor(Math.random() * introVariants.length)];
+
+  const introCard = {
+    day: 0,
+    type: "intro",
+    content: introMessage,
+    agentName: assignedAgentName
+  };
+
+  // ── Stage 1: Planning Engine — make all decisions before writing ──
+  const knowledgeBlockForPlanning = buildKnowledgeBlock({
+    destination: resolvedDest,
+    travelStyle: trip.travelStyle || "",
+    specialRequest: trip.specialRequest || "",
+    adults: trip.adults || 1,
+    children: trip.children || 0,
+    firstVisit: trip.firstVisit || "first",
+    budget: trip.budget || 0,
+    currency: trip.currency || "USD"
+  });
+  const tripPlan = await planTrip(trip, knowledgeBlockForPlanning);
+  if (tripPlan) {
+    console.log(`📋 Trip plan ready — persona: ${tripPlan.persona}, visit: ${tripPlan.visitType}`);
+  }
+
+  // ── Stage 2: Write Day 1 using the locked plan ──
+  const day1 = await buildDay(trip, 1, tripPlan);
   itineraries.set(tripId, {
-    days: [day1], lastSentIndex: 1,
-    complete: 1 === totalDays, totalDays, trip
+    days: [introCard, day1], lastSentIndex: 2,
+    complete: 1 === totalDays, totalDays, trip,
+    tripPlan  // store plan for background days
   });
 
-  if (totalDays > 1) generateInBackground(tripId, trip, 1, totalDays);
+  if (totalDays > 1) generateInBackground(tripId, trip, 1, totalDays, tripPlan);
 
   await saveBackup({ type: "itinerary", tripId, trip });
   await saveMemory(tripId, trip);
 
-  res.json({ success: true, tripId, partial: true, itinerary: [day1], totalDays });
+  res.json({ success: true, tripId, partial: true, itinerary: [introCard, day1], totalDays });
 });
 
 // ======== PROGRESS ENDPOINT ========

@@ -1,0 +1,732 @@
+{
+  "destination": "bangkok",
+  "aliases": ["bangkok", "bkk", "thailand", "krung thep", "suvarnabhumi"],
+  "lastUpdated": "2025",
+
+  "hardFacts": {
+    "flightFromDelhi": "New Delhi to Bangkok Suvarnabhumi (BKK): 4 hours direct. Thai Airways, IndiGo, Air India, AirAsia. Return fare: INR 18,000–35,000. Book 6–8 weeks ahead.",
+    "flightFromMumbai": "Mumbai to Bangkok: 4.5 hours direct. Multiple airlines.",
+    "twoAirports": "BKK Suvarnabhumi (main international, closer to city). DMK Don Mueang (budget airlines — AirAsia, Nok Air). They are 30km apart. Check which airport carefully.",
+    "timezone": "ICT (UTC+7). India is UTC+5:30. Bangkok is 1.5 hours ahead of India.",
+    "currency": "Thai Baht (THB). THB 1 = approximately INR 2.3. USD 1 = THB 34–36. Best exchange: Superrich Thailand or Vasu exchange offices in the city — NEVER at the airport. Airport rate is 8–12% worse.",
+    "visaIndia": "Thai tourist visa required for Indians. Best option: e-Visa at thaievisa.go.th — USD 35, 3–5 working days, 60 days single entry. Visa on Arrival available at airport (USD 35, 30 days) but queues often 2+ hours. ALWAYS apply e-Visa online before travel.",
+    "temperature": "28–35°C year-round with high humidity. Cool season November–February: the best months (28–32°C, less humid). Hot season March–May: 32–38°C, most uncomfortable. Rainy season June–October: heavy afternoon rain, mornings usually clear.",
+    "criticalRule": "Bangkok traffic is legendary and unpredictable. The BTS Skytrain and MRT subway are ALWAYS faster than taxis during rush hours 7–9am and 5–8pm. A Skytrain journey that takes 12 minutes takes 45 minutes by taxi. Budget 45–90 minutes for any cross-city taxi journey in peak hours.",
+    "electricity": "Type A and B plugs (American-style). 220V. Indian plugs need adapter. Adapters available at any 7-Eleven for THB 80–150.",
+    "water": "Never drink tap water. Bottled water THB 10–20 for 1.5L at 7-Eleven. Always carry a bottle outdoors."
+  },
+
+  "emergencyContacts": {
+    "police": "191",
+    "ambulance_narenthorn": "1669",
+    "fire": "199",
+    "touristPolice": "1155 (English-speaking, 24/7 — the correct first call for tourists)",
+    "indianEmbassy": "+66 2 258 0300",
+    "indianEmbassyEmergency": "+66 81 812 5050 (24/7 for Indian nationals)",
+    "bangkokHospital": "+66 2 310 3000 (best for tourists, international insurance accepted)",
+    "bumrungradHospital": "+66 2 667 1000 (world-class international hospital, English-speaking throughout)",
+    "samitivejSukhumvit": "+66 2 711 8000",
+    "ramkhamhaengHospital": "+66 2 318 0060 (government hospital, cheaper)",
+    "pharmacy24hr": "Boots Pharmacy at most BTS stations, Watsons at major malls — most open until 10pm. Some 24-hour at major hospitals."
+  },
+
+  "policeStations": [
+    { "name": "Tourist Police Division HQ", "area": "Lumphini (near Silom)", "phone": "1155", "address": "Unico House, Lumphini area — handles all tourist complaints" },
+    { "name": "Patpong Police Station", "area": "Silom, Surawong, Patpong", "phone": "+66 2 233 1177", "address": "Surawong Road" },
+    { "name": "Thonglor Police Station", "area": "Sukhumvit soi 55–63, Thonglor", "phone": "+66 2 390 0090", "address": "Thonglor" },
+    { "name": "Nana Police Station", "area": "Sukhumvit soi 1–21, Nana", "phone": "+66 2 252 7272", "address": "Sukhumvit area" },
+    { "name": "Phra Nakhon Police Station", "area": "Old City, Rattanakosin, Khao San Road", "phone": "+66 2 221 6281", "address": "Phra Nakhon" },
+    { "name": "Chatuchak Police Station", "area": "Chatuchak Market, Mo Chit", "phone": "+66 2 272 1770", "address": "Chatuchak" }
+  ],
+
+  "firstVisitorEssentials": {
+    "summary": "First-time Bangkok visitor. The temples are genuine and extraordinary — see them before 10am. The street food is the finest in Southeast Asia. The city rewards patience and slowing down.",
+    "mustInclude": [
+      "Wat Pho at 8am — Temple of the Reclining Buddha, 46-metre gold Buddha, arrive before tour groups, THB 200",
+      "Grand Palace — THB 500, morning only, dress code strictly enforced (shoulders and knees covered), most photographed site in Thailand",
+      "Chao Phraya River orange-flag express boat — THB 15/stop, not the tourist boat, the workers' boat",
+      "Chatuchak Weekend Market — Saturday–Sunday only, 8,000 stalls, arrive 9am before heat, Mo Chit BTS",
+      "Yaowarat (Chinatown) street food at night — from 7pm, walk the main road and every side alley"
+    ],
+    "localInsiderToAdd": "Most visitors stay near Khao San Road or Sukhumvit and eat pad thai every meal. The Bangkok that matters starts one street behind the tourist strip — the locals who have lived here 20 years eat in places with no English menu and the food is dramatically better.",
+    "regrets": [
+      "Took a tuk-tuk when driver offered a temple tour — all tuk-tuk tour offers lead to gem shops or tailors earning commission. Use Grab for all transport.",
+      "Didn't eat from street stalls — Bangkok street food is statistically safer than most restaurant kitchens due to turnover. The stall with 30 locals queuing is the correct choice.",
+      "Visited temples in the afternoon — all temples better before 10am: cooler, quieter, better light, genuine worshippers",
+      "Stayed entirely on Khao San Road — it is the tourist bubble. The city starts one street away.",
+      "Skipped the river — Chao Phraya express boat for THB 15 gives the best Bangkok perspective available"
+    ]
+  },
+
+  "repeatVisitorIntelligence": {
+    "insiderNarrative": "The Bangkok most visitors see was built for visitors. Fifteen minutes from Khao San Road in any direction is a city that has never heard of pad thai as a tourist dish.",
+    "skipThese": [
+      "Khao San Road as primary base",
+      "Standard tuk-tuk temple tour",
+      "Floating market by tourist bus — the local markets are better and cheaper"
+    ],
+    "goHere": [
+      "Bang Krachao — the green lung of Bangkok. Ferry from Klong Toei pier THB 4, bicycle hire THB 50/day, mangrove forest, no cars, almost no tourists",
+      "Talad Noi — oldest Chinese neighbourhood, Portuguese shophouses, quiet lanes, excellent local coffee shops run by artists",
+      "Or Tor Kor Market — where Bangkok's chefs shop, finest fresh produce, prepared food section beats any restaurant",
+      "Ari neighbourhood — where young Bangkok professionals live, independent cafés, creative food, zero tourists",
+      "Damnoen Saduak floating market at 5:30am — before tour boats arrive, completely different experience",
+      "Jim Thompson House — Thai silk heritage, beautiful gardens, consistently overlooked by tourists",
+      "Nang Loeng Market — Bangkok's oldest market, 1900s architecture, incredible traditional Thai food, locals only"
+    ]
+  },
+
+  "neighborhoods": {
+    "old_city_rattanakosin": {
+      "character": "The historical heart. Grand Palace, Wat Pho, Wat Arun, National Museum. The tourist circuit here is entirely justified — these are genuinely extraordinary monuments. But see them at dawn, not noon.",
+      "bestFor": ["First-time visitors for monuments", "Temple photography at 8am", "Cultural context"],
+      "avoid": ["Afternoon visits — heat and crowd ruin the experience", "Tuk-tuk tours offered outside temple entrances — commission shops"],
+      "insider": "Wat Pho at 8am when monks are chanting and incense is fresh — this is a working temple, not a tourist attraction. The traditional Thai massage school inside Wat Pho charges THB 260/hour for one of the best massage experiences in Bangkok."
+    },
+    "sukhumvit": {
+      "character": "Bangkok's expat and upscale tourist corridor. BTS-connected, full of malls, excellent international dining and nightlife. The most convenient base but most removed from real Bangkok.",
+      "bestFor": ["Convenience and BTS access", "Fine dining", "Rooftop bars and nightlife"],
+      "avoid": ["Nana Plaza area if not interested in red-light district", "Overpriced tourist restaurants on the main Sukhumvit strip when identical food exists on side sois"],
+      "insider": "The quiet-numbered sois (side streets) off Sukhumvit — Soi 38 (local food market), Soi 49 (residential dining) — have excellent restaurants at a fraction of main strip prices."
+    },
+    "silom": {
+      "character": "Bangkok's financial district. More local than Sukhumvit, excellent Indian food at Bangrak area, Patpong Night Market, Lumphini Park adjacent.",
+      "bestFor": ["Business travellers", "Indian food at Bangrak area", "Lumphini Park morning"],
+      "avoid": [],
+      "insider": "Silom Soi 20 has a concentration of excellent local restaurants serving southern Thai food — the most complex and spicy regional Thai cuisine, completely absent from tourist menus."
+    },
+    "chinatown_yaowarat": {
+      "character": "The most visually spectacular neighbourhood in Bangkok. Neon signs, smoke from street grills, gold shops, herbalists, and the city's best street seafood. Come at night.",
+      "bestFor": ["Night street food photography", "Street seafood", "Gold jewellery shopping"],
+      "avoid": ["Visiting before 5pm — the market comes alive at night"],
+      "insider": "The oyster omelette stalls that appear on side streets after 7pm. This dish is specific to Yaowarat and unlike any oyster preparation elsewhere in Bangkok. Walk every side alley off the main road."
+    },
+    "bang_krachao": {
+      "character": "A peninsula in a bend of the Chao Phraya technically part of Bangkok but feels like rural Thailand from the 1970s. Bicycle paths through mangrove forest, wooden houses on stilts, weekend floating market. The air is noticeably different.",
+      "bestFor": ["Repeat visitors", "Cyclists", "Escape from city — full sensory contrast"],
+      "avoid": ["Visiting without a bicycle — walking the paths is inefficient"],
+      "insider": "Ferry from Klong Toei pier costs THB 4 and takes 10 minutes. The island has been protected by its location in the river bend from development since the 1960s. The Sri Nakhon Khuean Khan Park and Botanical Garden is free to enter."
+    },
+    "thonglor_ekkamai": {
+      "character": "The trendiest neighbourhood in Bangkok. Japanese expat community, best cocktail bars in the city, independent coffee culture, farm-to-table restaurants. Where Bangkok's wealthy young professionals go on weekends.",
+      "bestFor": ["Nightlife and bar hopping", "Best cocktail culture in Bangkok", "Repeat visitors wanting contemporary Bangkok"],
+      "avoid": [],
+      "insider": "Thonglor soi 17 has a concentration of Japanese restaurants run by actual Japanese chefs — the Japanese expat community is so large here that standards are genuinely comparable to Tokyo."
+    },
+    "ari": {
+      "character": "The neighbourhood where young creative professionals live. Independent coffee roasters, vinyl record shops, art galleries, food trucks. Zero tourists. 15 minutes from the tourist corridor.",
+      "bestFor": ["Repeat visitors wanting neighbourhood Bangkok", "Coffee culture", "Art and design"],
+      "avoid": [],
+      "insider": "Ari BTS station area on a Sunday morning. The weekend market behind the station has Bangkok's best artisanal food producers. The roasted duck stall that opens at 7am has been operating since the 1950s."
+    }
+  },
+
+  "restaurants": [
+    {
+      "name": "Jay Fai",
+      "area": "Banglamphu, near Democracy Monument",
+      "type": "mid",
+      "cuisine": "Thai — Michelin-starred street food",
+      "orderThis": "Crab omelette THB 1,000, Drunken noodles THB 400",
+      "pricePerPerson": "THB 800–1,500",
+      "hours": "Tue–Sun 2pm–midnight. Queue from noon.",
+      "reservation": "+66 2 223 9384. Walk-up queue 2–3 hours.",
+      "insider": "A 70-year-old woman in ski goggles against the wok flames has been cooking here since the 1980s and now has a Michelin star. The crab omelette is the most-ordered dish in Bangkok by people who know what they are eating. The queue is real. The 2 hours are worth it.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "luxury": 8, "couple": 8, "solo": 9, "repeat": 10, "firstTimer": 8, "budget": 4, "family": 5, "photographer": 9, "adventure": 6 }
+    },
+    {
+      "name": "Or Tor Kor Market Food Court",
+      "area": "Chatuchak, near Mo Chit BTS",
+      "type": "budget",
+      "cuisine": "Thai market food",
+      "orderThis": "Mango sticky rice THB 60, Grilled pork THB 80, Som tum THB 50, Anything from any stall",
+      "pricePerPerson": "THB 100–200",
+      "hours": "8am–6pm daily.",
+      "reservation": "No.",
+      "insider": "Bangkok's professional chefs shop here for ingredients. Air-conditioned, clean, and the prepared food section contains dishes that don't appear on any restaurant menu. The mango sticky rice uses mangoes at peak ripeness because vendors compete with each other daily.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "budget": 10, "solo": 9, "family": 8, "repeat": 10, "firstTimer": 7, "couple": 7, "luxury": 4, "photographer": 7, "adventure": 7 }
+    },
+    {
+      "name": "Gaggan Anand",
+      "area": "Sukhumvit",
+      "type": "luxury",
+      "cuisine": "Progressive Indian — Asia's Best Restaurant",
+      "orderThis": "Tasting menu only — THB 6,500/person. Menu arrives as emojis.",
+      "pricePerPerson": "THB 6,500+",
+      "hours": "Dinner only, Wed–Sun.",
+      "reservation": "Months ahead. eatatgaggan.com",
+      "insider": "The best Indian food outside India is in Bangkok. Chef Gaggan Anand reimagines Indian cuisine with molecular gastronomy. The emoji menu is not a gimmick — it is the dish list. Every Indian traveller who visits should eat here once. Nothing else in the world tastes like this.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "foodie": 10, "honeymoon": 9, "couple": 9, "repeat": 10, "solo": 8, "budget": 0, "family": 2, "photographer": 8, "indianTraveler": 10 }
+    },
+    {
+      "name": "Somtum Der",
+      "area": "Sala Daeng BTS, Silom",
+      "type": "mid",
+      "cuisine": "Isaan — Northeast Thai",
+      "orderThis": "Som tum papaya salad THB 90, Larb moo THB 120, Sticky rice THB 30",
+      "pricePerPerson": "THB 200–400",
+      "hours": "11am–10pm daily.",
+      "reservation": "Walk-in.",
+      "insider": "Isaan food is what Thai people actually eat at home. Not on tourist menus. The fermented fish version of som tum is what it actually tastes like. Order it. The version without fermented fish is the tourist version.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "solo": 9, "repeat": 9, "couple": 7, "budget": 7, "firstTimer": 7, "luxury": 4, "family": 5, "photographer": 5, "adventure": 8 }
+    },
+    {
+      "name": "Yaowarat Street Food — Oyster Omelette",
+      "area": "Yaowarat, Chinatown",
+      "type": "budget",
+      "cuisine": "Chinese-Thai street food",
+      "orderThis": "Oyster omelette THB 100, Grilled seafood cart THB 80–200, Braised pork leg rice THB 80",
+      "pricePerPerson": "THB 150–300",
+      "hours": "Best 7pm–midnight.",
+      "reservation": "No.",
+      "insider": "Yaowarat at 8pm on a weekend: vendors, smoke, neon, families, tourists all compressed into one street. Walk slowly. Eat from stalls with the longest local queues. The oyster omelette is specific to this street and unlike any oyster dish you have had anywhere.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "photographer": 10, "firstTimer": 9, "solo": 9, "couple": 8, "budget": 9, "adventure": 9, "repeat": 8, "family": 7, "luxury": 3 }
+    },
+    {
+      "name": "Nahm",
+      "area": "Como Metropolitan Hotel, Sathorn",
+      "type": "luxury",
+      "cuisine": "Classical Thai — royal court",
+      "orderThis": "Set menu THB 2,200/person",
+      "pricePerPerson": "THB 2,000–3,000",
+      "hours": "Dinner Mon–Sat.",
+      "reservation": "comohotels.com/nahm — essential.",
+      "insider": "Chef David Thompson spent 20 years researching Thai royal court cuisine. The recipes are from 19th-century manuscripts. This is not the Thai food you have eaten before — it is the version that existed before the international palette softened everything.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "foodie": 10, "repeat": 9, "couple": 8, "solo": 8, "firstTimer": 5, "honeymoon": 8, "budget": 0, "family": 2, "photographer": 6 }
+    },
+    {
+      "name": "Bo.lan",
+      "area": "Ekkamai, Sukhumvit 55",
+      "type": "luxury",
+      "cuisine": "Sustainable Thai — seasonal",
+      "orderThis": "Seasonal tasting menu THB 2,800/person",
+      "pricePerPerson": "THB 2,500–3,500",
+      "hours": "Dinner Tue–Sun.",
+      "reservation": "bolan.co.th — essential.",
+      "insider": "The most sustainable restaurant in Bangkok. Every ingredient sourced from small Thai farms. The menu changes with the season and never repeats. The couple who run this restaurant trained at Nahm and opened their own vision of Thai food in a heritage house garden.",
+      "isSurprise": false,
+      "scores": { "luxury": 9, "foodie": 10, "couple": 9, "honeymoon": 9, "repeat": 10, "solo": 7, "firstTimer": 5, "budget": 0, "family": 2, "photographer": 7 }
+    },
+    {
+      "name": "Nang Loeng Market",
+      "area": "Nang Loeng, near Democracy Monument",
+      "type": "budget",
+      "cuisine": "Traditional Thai market food",
+      "orderThis": "Pad see ew THB 60, Khao man gai THB 55, Mango sticky rice THB 50",
+      "pricePerPerson": "THB 100–200",
+      "hours": "Morning 6am–noon.",
+      "reservation": "No.",
+      "insider": "Bangkok's oldest surviving market, built in 1899. Art Deco shophouses around a covered market. The Thai desserts here are made by the same families who have been making them for three generations. Almost no tourists. The food is extraordinary and costs THB 30–80 per item.",
+      "isSurprise": true,
+      "scores": { "foodie": 10, "photographer": 9, "repeat": 10, "solo": 8, "budget": 10, "culture": 9, "firstTimer": 6, "couple": 6, "luxury": 2, "family": 6 }
+    },
+    {
+      "name": "Raan Jay Fai (neighbourhood equivalent)",
+      "area": "Banglamphu area, side streets",
+      "type": "budget",
+      "cuisine": "Thai home cooking",
+      "orderThis": "Pad kra pao (basil stir fry) THB 80, Tom yum THB 120",
+      "pricePerPerson": "THB 80–200",
+      "hours": "All day.",
+      "reservation": "No.",
+      "insider": "The neighbourhood home cooking restaurants on the side streets of Banglamphu. No English menu, no tourist positioning, the same food as Jay Fai at one-tenth the price. Ask hotel staff in the area where they eat.",
+      "isSurprise": true,
+      "scores": { "budget": 10, "solo": 9, "foodie": 9, "repeat": 10, "firstTimer": 7, "couple": 6, "luxury": 2, "family": 7, "photographer": 5, "adventure": 7 }
+    },
+    {
+      "name": "Supanniga Eating Room",
+      "area": "Sukhumvit Soi 55, Thonglor",
+      "type": "mid",
+      "cuisine": "Royal Thai — Chanthaburi style",
+      "orderThis": "Crying tiger beef THB 380, Supanniga shrimp paste rice THB 280, Mango salad THB 220",
+      "pricePerPerson": "THB 500–900",
+      "hours": "Lunch and dinner.",
+      "reservation": "+66 2 714 7508. Recommended evenings.",
+      "insider": "A restaurant serving the home cooking of Chanthaburi province in eastern Thailand — a region known for some of the finest fruit and seafood in the country. The recipes came from the owner's grandmother. This food exists nowhere in the tourist circuit.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "couple": 8, "solo": 7, "repeat": 9, "firstTimer": 7, "luxury": 6, "budget": 5, "family": 6, "photographer": 6, "adventure": 6 }
+    },
+    {
+      "name": "Thip Samai (Pad Thai)",
+      "area": "Mahachai Road, Old City area",
+      "type": "budget",
+      "cuisine": "Pad Thai — the original",
+      "orderThis": "Pad Thai wrapped in egg THB 120, Prawn pad Thai THB 140",
+      "pricePerPerson": "THB 100–180",
+      "hours": "5pm–3am daily.",
+      "reservation": "No. Queue.",
+      "insider": "Open since 1966. The pad Thai here is wrapped in a thin egg omelette. This is the dish — not the tourist pad Thai served everywhere else in Bangkok. The orange juice squeezed to order alongside it is the correct accompaniment. Queue is 20–40 minutes but moves fast.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 10, "foodie": 9, "budget": 9, "solo": 9, "couple": 7, "repeat": 8, "family": 7, "photographer": 7, "luxury": 3, "adventure": 7 }
+    },
+    {
+      "name": "Breakfast at Prempracha's Kitchen",
+      "area": "Silom area",
+      "type": "budget",
+      "cuisine": "Traditional Thai breakfast",
+      "orderThis": "Jok (rice porridge) THB 50, Kai jeow (Thai omelette on rice) THB 60, Patongo (deep fried dough) THB 20",
+      "pricePerPerson": "THB 60–120",
+      "hours": "6am–10am daily.",
+      "reservation": "No.",
+      "insider": "The Thai breakfast that Bangkok's office workers eat every day. Jok rice porridge with pork and egg, fresh patongo dough sticks, strong Thai iced coffee. The version of Bangkok breakfast that exists before any tourist wakes up.",
+      "isSurprise": true,
+      "scores": { "budget": 10, "solo": 9, "foodie": 8, "repeat": 9, "firstTimer": 7, "couple": 6, "family": 7, "photographer": 6, "luxury": 1, "adventure": 6 }
+    },
+    {
+      "name": "Vertigo and Moon Bar — Banyan Tree Hotel",
+      "area": "Silom, 61st floor",
+      "type": "luxury",
+      "cuisine": "International grill + rooftop bar",
+      "orderThis": "Dinner THB 2,000–4,000/person. Bar: cocktails THB 400–600.",
+      "pricePerPerson": "THB 600–4,000 depending on dinner vs drinks",
+      "hours": "Bar from 5pm. Dinner from 6pm.",
+      "reservation": "banyantree.com/bangkok — essential for dinner.",
+      "insider": "61st floor open-air rooftop. The 360° Bangkok skyline view at sunset. Book the first seating at 5:30pm for the transition from day to night. The bar alone (no dinner) offers the same view at drinks prices.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "couple": 10, "honeymoon": 10, "photographer": 9, "firstTimer": 8, "repeat": 8, "solo": 7, "budget": 2, "family": 4, "foodie": 6 }
+    },
+    {
+      "name": "Paste Restaurant",
+      "area": "Gaysorn Tower, Ploenchit BTS",
+      "type": "luxury",
+      "cuisine": "Modern Royal Thai",
+      "orderThis": "Set menu THB 1,800–2,500/person",
+      "pricePerPerson": "THB 1,800–2,500",
+      "hours": "Lunch and dinner.",
+      "reservation": "pasteRestaurant.com — essential.",
+      "insider": "Chef Bee Satongun won the Asia's Best Female Chef award. The food is classical Thai royal cuisine reimagined with modern technique. The curry pastes are all made in-house from fresh ingredients — something no other luxury Thai restaurant does consistently.",
+      "isSurprise": false,
+      "scores": { "luxury": 9, "foodie": 10, "couple": 8, "honeymoon": 8, "repeat": 9, "solo": 7, "firstTimer": 6, "budget": 0, "family": 2, "photographer": 6 }
+    },
+    {
+      "name": "Polo Fried Chicken",
+      "area": "Wireless Road, near US Embassy",
+      "type": "budget",
+      "cuisine": "Thai fried chicken — specialist",
+      "orderThis": "Fried chicken leg THB 80, Sticky rice THB 15, Papaya salad THB 60",
+      "pricePerPerson": "THB 120–200",
+      "hours": "11am–9pm, closed Monday.",
+      "reservation": "No.",
+      "insider": "Bangkok's most famous fried chicken restaurant, open since 1974. The chicken is marinated in garlic and coriander root, fried crispy outside and moist inside. The Bangkok diplomatic community has been eating here for 50 years. Prime location next to the US Embassy means it's surrounded by expats and locals, never tourists.",
+      "isSurprise": true,
+      "scores": { "foodie": 9, "repeat": 9, "solo": 8, "budget": 8, "couple": 7, "firstTimer": 7, "adventure": 6, "family": 8, "luxury": 3, "photographer": 5 }
+    }
+  ],
+
+  "activities": [
+    {
+      "name": "Wat Pho — Temple of Reclining Buddha",
+      "area": "Old City, Rattanakosin Island",
+      "price": "THB 200",
+      "duration": "1.5 hours",
+      "bestTime": "8am weekday — before tour groups at 9:30am",
+      "book": "Walk-in. No booking needed.",
+      "insider": "The 46-metre reclining Buddha fills an entire building. You walk around it in a circle. Most visitors look at the feet and leave. Stay longer — the ceiling, the mother-of-pearl inlay on the feet, the 108 bronze bowls. The temple also contains one of Bangkok's oldest traditional massage schools (THB 260/hour).",
+      "scores": { "firstTimer": 10, "photographer": 9, "couple": 8, "solo": 8, "family": 7, "repeat": 5, "budget": 9, "luxury": 7, "foodie": 3, "adventure": 5 }
+    },
+    {
+      "name": "Chao Phraya Orange-Flag Express Boat",
+      "area": "Multiple piers along the river",
+      "price": "THB 15 per stop",
+      "duration": "As long as you choose",
+      "bestTime": "Morning 7–9am or evening 4–6pm for light and authentic commuter experience",
+      "book": "No booking. Buy ticket at pier.",
+      "insider": "The orange-flag boat is the workers' boat — stops at every pier, packed with commuters, completely authentic. The tourist boat (THB 40 unlimited) visits the same places. Take the orange-flag boat for one journey in each direction. THB 15 is the cheapest and most honest view of Bangkok.",
+      "scores": { "firstTimer": 9, "photographer": 10, "budget": 10, "solo": 9, "couple": 8, "repeat": 8, "family": 7, "luxury": 4, "foodie": 5, "adventure": 7 }
+    },
+    {
+      "name": "Bang Krachao Bicycle Day",
+      "area": "Ferry from Klong Toei pier",
+      "price": "Ferry THB 4, bicycle hire THB 50/day",
+      "duration": "Half day",
+      "bestTime": "8am–noon before heat. Weekend for floating market.",
+      "book": "No booking. Ferry departs when sufficient passengers.",
+      "insider": "A peninsula in a bend of the Chao Phraya that feels like rural Thailand from the 1970s. Bicycle paths through mangrove forest, wooden houses on stilts, almost no tourists. The air is noticeably different from the city fifteen minutes away by ferry. The Sri Nakhon Khuean Khan Park has the best picnic area in Bangkok.",
+      "scores": { "repeat": 10, "photographer": 10, "solo": 9, "couple": 9, "adventure": 9, "budget": 10, "firstTimer": 5, "luxury": 4, "family": 6, "foodie": 5 }
+    },
+    {
+      "name": "Chatuchak Weekend Market",
+      "area": "Mo Chit BTS/MRT Chatuchak Park",
+      "price": "Free entry. Budget THB 500–2,000 for shopping.",
+      "duration": "3–4 hours",
+      "bestTime": "Saturday or Sunday 9am–noon. After noon: very hot and crowded.",
+      "book": "No booking.",
+      "insider": "8,000 stalls across 35 acres. Section 2–3 has vintage and antiques. Section 7 has plants. Section 26 has art. The food section in the interior is better than most restaurants. The map available at the entrance is essential — without it you see 2% of the market.",
+      "scores": { "firstTimer": 9, "family": 9, "couple": 8, "solo": 8, "photographer": 8, "budget": 9, "repeat": 6, "luxury": 4, "foodie": 7, "adventure": 5 }
+    },
+    {
+      "name": "Muay Thai at Rajadamnern Stadium",
+      "area": "Near Democracy Monument",
+      "price": "THB 2,000–3,000 ringside",
+      "duration": "3–4 hours",
+      "bestTime": "Monday, Wednesday, Thursday from 6:30pm",
+      "book": "Book ringside at stadium box office or online.",
+      "insider": "Rajadamnern is the oldest Muay Thai stadium in Thailand (1945). The ringside experience — the smell of liniment, the crowd gambling, the monks blessing fighters — is unlike any sporting event you have attended. Lumphini Stadium (Tuesday, Friday) is the newer venue but Rajadamnern has more history.",
+      "scores": { "adventure": 10, "solo": 9, "couple": 8, "firstTimer": 8, "repeat": 8, "photographer": 8, "family": 6, "budget": 6, "luxury": 5, "foodie": 3 }
+    },
+    {
+      "name": "Thai Cooking Class",
+      "area": "Various — Blue Elephant (luxury), Helping Hands (social enterprise)",
+      "price": "THB 1,500–3,500",
+      "duration": "4 hours including market visit",
+      "bestTime": "Morning class starting 9am",
+      "book": "blueelephant.com or helpinghandscookingschool.com",
+      "insider": "The class starts at the morning market where you shop for ingredients. You learn that Thai cooking uses 11 specific base ingredients (base genep equivalent) in almost every dish — understanding this foundation changes how you taste Thai food for the rest of your life.",
+      "scores": { "foodie": 10, "couple": 9, "solo": 8, "firstTimer": 8, "repeat": 7, "family": 8, "luxury": 7, "budget": 5, "photographer": 7, "adventure": 6 }
+    },
+    {
+      "name": "Grand Palace and Wat Phra Kaew",
+      "area": "Old City",
+      "price": "THB 500 (includes Vimanmek Mansion)",
+      "duration": "2–3 hours",
+      "bestTime": "Opening 8:30am. Dress code: shoulders covered, knees covered, no flip flops.",
+      "book": "Walk-in. Hire official guide inside (THB 200–400) not touts outside.",
+      "insider": "The most visited site in Thailand. Emerald Buddha (Wat Phra Kaew) is 75cm tall — smaller than expected, housed in the most ornate temple you will see anywhere. The Grand Palace grounds are extraordinary. Come at opening — by 10am tour groups dominate every major viewpoint.",
+      "scores": { "firstTimer": 10, "photographer": 8, "family": 8, "couple": 7, "solo": 7, "budget": 7, "repeat": 3, "luxury": 6, "foodie": 1, "adventure": 3 }
+    },
+    {
+      "name": "Wat Arun — Temple of Dawn",
+      "area": "Thonburi side of Chao Phraya, opposite Grand Palace",
+      "price": "THB 100",
+      "duration": "1 hour",
+      "bestTime": "Sunrise 6am for photographers. Late afternoon 4pm for fewer crowds.",
+      "book": "Walk-in. Cross river by ferry THB 4 from Maharaj pier.",
+      "insider": "The most photographed temple in Bangkok from the river. Up close: the tower is covered in fragments of Chinese porcelain — ships brought porcelain as ballast, and when broken, it was used for temple decoration. The detail is extraordinary and invisible in photographs.",
+      "scores": { "photographer": 10, "firstTimer": 9, "couple": 8, "solo": 8, "budget": 9, "repeat": 7, "family": 7, "luxury": 6, "foodie": 2, "adventure": 4 }
+    },
+    {
+      "name": "Jim Thompson House",
+      "area": "Siam BTS area",
+      "price": "THB 200",
+      "duration": "1.5 hours",
+      "bestTime": "Morning any weekday — least crowded",
+      "book": "Guided tour only. jimthompsonhouse.com",
+      "insider": "An American silk entrepreneur who revived the Thai silk industry disappeared in Malaysia in 1967. His house — six traditional Thai houses merged into one — remains exactly as he left it, with his extraordinary art collection. One of the best house museums in Southeast Asia and consistently overlooked by tourists who don't know who Jim Thompson was.",
+      "scores": { "repeat": 9, "photographer": 8, "solo": 8, "couple": 7, "culture": 9, "firstTimer": 7, "budget": 7, "luxury": 7, "family": 5, "adventure": 4 }
+    },
+    {
+      "name": "Lumphini Park Morning",
+      "area": "Silom/Sathorn",
+      "price": "Free",
+      "duration": "1–2 hours",
+      "bestTime": "5:30–8am",
+      "book": "No booking.",
+      "insider": "Bangkok's central park at dawn has outdoor aerobics classes, tai chi groups, people releasing turtles into the lake, and massive monitor lizards (up to 1.5m) walking across the paths completely unconcerned by humans. Free. The monitor lizards are genuinely extraordinary — they are not caged, they simply live here.",
+      "scores": { "family": 9, "photographer": 8, "solo": 8, "repeat": 7, "firstTimer": 7, "couple": 7, "budget": 10, "adventure": 7, "luxury": 4, "foodie": 3 }
+    },
+    {
+      "name": "Khlong Lat Mayom Floating Market",
+      "area": "Taling Chan district (40 mins from city)",
+      "price": "Free entry. Food THB 40–150/item.",
+      "duration": "3 hours",
+      "bestTime": "Saturday–Sunday 8am–4pm",
+      "book": "No booking.",
+      "insider": "The floating market Bangkok residents actually go to — not the tourist version at Damnoen Saduak. Fresh produce sellers on boats, cooked food on the banks, canal atmosphere without tour buses. The mango with chilli salt here is the finest version of this dish in Bangkok.",
+      "scores": { "foodie": 9, "repeat": 10, "photographer": 8, "solo": 8, "couple": 8, "family": 8, "budget": 9, "firstTimer": 6, "luxury": 3, "adventure": 7 }
+    },
+    {
+      "name": "Talad Rot Fai Night Market (Train Market)",
+      "area": "Ratchada area, near Thailand Cultural Centre MRT",
+      "price": "Free entry. Budget THB 500–1,500.",
+      "duration": "3–4 hours",
+      "bestTime": "Thursday–Sunday from 5pm.",
+      "book": "No booking.",
+      "insider": "A hipster vintage market with food vendors, bar stalls, and collectors' items. Thai youth culture on display — fashion, music, food, vintage cars. The green neon lights and the density of activity make it one of the best photography environments in Bangkok.",
+      "scores": { "photographer": 9, "solo": 8, "couple": 8, "repeat": 8, "firstTimer": 7, "budget": 7, "family": 6, "foodie": 7, "luxury": 4, "adventure": 6 }
+    },
+    {
+      "name": "National Museum Bangkok",
+      "area": "Na Phra That Road, Old City",
+      "price": "THB 200",
+      "duration": "2–3 hours",
+      "bestTime": "Morning weekday. Free guided tours in English: Wed and Thu 9:30am.",
+      "book": "Walk-in.",
+      "insider": "The most important collection of Thai art and history in the world. The Buddha collection — spanning 2,000 years — puts every temple visit in context. Completely undervisited. The Wednesday/Thursday English free guided tour by volunteer guides is one of the finest cultural experiences available in Bangkok.",
+      "scores": { "culture": 10, "solo": 8, "repeat": 7, "firstTimer": 7, "couple": 6, "photographer": 7, "budget": 8, "family": 5, "luxury": 5, "adventure": 3 }
+    },
+    {
+      "name": "Rooftop Sunset at Above Eleven",
+      "area": "Fraser Suites, Sukhumvit Soi 11",
+      "price": "THB 300–500 cocktails. No minimum at bar.",
+      "duration": "2–3 hours",
+      "bestTime": "5:30–8pm for sunset transition",
+      "book": "Walk-in for bar seating. aboveeleven.com for table reservation.",
+      "insider": "33-floor rooftop bar with the best view of the Sukhumvit skyline. The Peruvian-Japanese cocktail menu is surprisingly excellent. More accessible and less pretentious than the famous Sky Bar at Lebua. The correct Bangkok rooftop bar for most travellers.",
+      "scores": { "couple": 9, "honeymoon": 9, "solo": 7, "repeat": 8, "firstTimer": 8, "luxury": 7, "photographer": 8, "budget": 4, "family": 3, "foodie": 5 }
+    }
+  ],
+
+  "designedSurprises": {
+    "solo": {
+      "experience": "Bang Krachao at 8am on a weekday",
+      "details": "Ferry from Klong Toei pier (THB 4), hire bicycle (THB 50), ride through mangrove forest and stilted villages. No cars. No tourists. The air is genuinely different from the city fifteen minutes away.",
+      "why": "Solo travellers who find this place describe it as the moment Bangkok stopped being a tourist destination and started being somewhere real."
+    },
+    "couple": {
+      "experience": "Talad Noi neighbourhood morning walk",
+      "details": "Oldest Chinese neighbourhood in Bangkok. Portuguese shophouses from the 1800s. Cats sleeping on motorcycles. Coffee shops in converted warehouses run by art students. The neighbourhood that hasn't been discovered yet.",
+      "why": "Couples who walk Talad Noi together have something to talk about at dinner that no other tourist does."
+    },
+    "foodie": {
+      "experience": "Or Tor Kor Market at 8am",
+      "details": "Bangkok's professional chefs shop here. The durian is the finest in the country, cut to order. The mango sticky rice uses glutinous rice soaked overnight. The prepared food has dishes that don't appear on any restaurant menu.",
+      "why": "Every food-focused traveller who finds Or Tor Kor describes it as the best food hour of the entire trip."
+    },
+    "budget": {
+      "experience": "THB 15 orange-flag boat ride at sunset",
+      "details": "Buy a ticket at any Chao Phraya pier. Board the crowded orange-flag boat. Ride 8 stops at golden hour. Watch the city from the water — temples, markets, office buildings, houses on stilts. THB 15.",
+      "why": "The best view of Bangkok costs THB 15. Most tourists pay THB 800 for a tourist cruise of the same river."
+    },
+    "photographer": {
+      "experience": "Yaowarat (Chinatown) at 7am",
+      "details": "Before the evening vendors arrive, Chinatown at dawn is a working neighbourhood — elderly men playing chess, temple smoke, produce deliveries, golden light on red shop fronts. The neon signs visible in a completely different context at dawn.",
+      "why": "The Yaowarat photograph nobody else has is the 7am version, not the 9pm version."
+    },
+    "honeymoon": {
+      "experience": "Private longtail boat along the canals at sunset",
+      "details": "Charter a private longtail boat from any riverside pier (THB 1,500–2,000/hour). Ask the driver to take the small khlongs — not the river. The canals behind the city have temples, gardens, and houses that look exactly as they did fifty years ago.",
+      "why": "The canals at sunset are Bangkok without the traffic — which is the Bangkok worth seeing."
+    },
+    "family": {
+      "experience": "Lumphini Park at 6:30am for monitor lizards",
+      "details": "Bangkok's central park at dawn has massive monitor lizards (1–1.5m) walking across paths completely unconcerned by humans. Outdoor aerobics, tai chi groups, turtle releases. Free. Children who see their first monitor lizard in the wild talk about it for years.",
+      "why": "The monitor lizards at Lumphini are the most unexpected family experience in Bangkok."
+    },
+    "adventure": {
+      "experience": "Muay Thai evening at Rajadamnern Stadium",
+      "details": "Ringside seats THB 2,000–3,000. The oldest stadium in Thailand (1945). Monks bless fighters. The crowd gambles using hand signals. The physical intensity of watching professionals fight at close range.",
+      "why": "Every adventure traveller who attends Muay Thai at Rajadamnern describes it as one of the most intense evenings they have had anywhere."
+    },
+    "luxury": {
+      "experience": "Gaggan Anand dinner",
+      "details": "The restaurant menu arrives as emojis. What you eat over three hours is unlike any meal anywhere. Asia's Best Restaurant. THB 6,500/person. Every Indian traveller should eat here once in their life.",
+      "why": "Every Indian who eats at Gaggan describes it as the best meal of their life."
+    }
+  },
+
+  "travelerGuides": {
+    "solo": {
+      "accommodation": "Lub d Silom or Lub d Siam — best social hostels in Bangkok. Air-conditioned common areas, pool, events. THB 400–800 dorm, THB 1,500–2,500 private.",
+      "meetingPeople": "Free walking tours (Bangkok Free Tours), cooking classes, Muay Thai evenings, rooftop bars in Sukhumvit",
+      "safety": "Bangkok is safe for solo travellers. Main risk: tuk-tuk commission scams. Use Grab for all transport. Tourist Police on 1155.",
+      "itineraryLogic": "Solo travellers can cover Wat Pho, Chao Phraya, and Chinatown in one efficient day. Second day: neighbourhood exploration in Bang Krachao or Ari."
+    },
+    "couple": {
+      "bestExperiences": "Private longtail canal tour at sunset, cooking class together, Muay Thai evening, rooftop dinner at Vertigo",
+      "bestNeighbourhood": "Thonglor for dining. Silom for bars. Old City for history.",
+      "avoid": "Khao San Road for a couples trip — not the atmosphere"
+    },
+    "honeymoon": {
+      "accommodation": "Capella Bangkok, Mandarin Oriental (opened 1876), Peninsula Bangkok. THB 8,000–25,000/night.",
+      "experiences": "Private chef boat dinner on the Chao Phraya, Gaggan Anand dinner, Jim Thompson House private tour, Spa at the Oriental",
+      "insider": "The Mandarin Oriental Bangkok opened in 1876 and has hosted every significant writer, diplomat, and monarch who visited Bangkok. The Authors' Lounge for afternoon tea is the most historic room in Thailand's hospitality."
+    },
+    "family": {
+      "bestActivities": "Chatuchak Weekend Market (kids love it), cooking class family version, Khlong Lat Mayom floating market, Lumphini Park monitor lizards",
+      "accommodation": "Sukhumvit soi 11–19 area — best malls, parks, BTS access, international restaurants",
+      "heatManagement": "Bangkok heat with children: AC activities 11am–4pm. Temple visits before 10am only."
+    },
+    "budget": {
+      "dailyBudget": "THB 800–1,500 covers comfortable budget travel",
+      "accommodation": "Hostels in Banglamphu or Silom: THB 300–600 dorm, THB 800–1,200 private",
+      "foodStrategy": "Street food all three meals. THB 40–120 per dish. 7-Eleven for breakfast — genuinely good onigiri and hot foods.",
+      "freeActivities": "All wat grounds free to walk. Lumphini Park. Bang Krachao (only ferry + bicycle cost THB 54). Chatuchak entry free."
+    },
+    "senior": {
+      "accommodation": "Silom or Riverside hotels — lower floors, BTS accessible, no need for tuk-tuks or scooters",
+      "heatManagement": "Plan all outdoor activities before 10am. Afternoon: malls, museums, hotel pool. The National Museum free tour Wed/Thu 9:30am is ideal — air-conditioned, guided, genuine content.",
+      "bestActivities": "Chao Phraya boat (seated, breezy), National Museum English tour, Thai massage at Wat Pho school, Jim Thompson House"
+    },
+    "photographer": {
+      "goldenHour": "6:30–8am (Wat Arun at sunrise from the river). 5:30–7pm (Yaowarat neon at dusk, rooftop views).",
+      "locations": "Wat Arun from river at dawn, Yaowarat at rain on a Friday night, Wat Pho interior at 8am, Or Tor Kor sellers at 8am, Bang Krachao canal reflections",
+      "equipment": "Rainy season: sealed bags essential. Humidity causes sensor dust faster than dry climates."
+    },
+    "indian": {
+      "indianFood": "Bangrak area near Silom: excellent Indian restaurants — Rang Mahal, Indus, Taj Indian Restaurant. Authentic South and North Indian at proper prices.",
+      "temples": "Sri Maha Mariamman Temple (Indian Temple, Silom) — the most important Hindu temple in Bangkok, built by Tamil traders in the 1800s",
+      "community": "Bangkok has a significant Indian trading community in the Pahurat area (Little India) near the Old City — textiles, gold, Indian food at Indian prices"
+    }
+  },
+
+  "hotels": {
+    "luxury": [
+      { "name": "Mandarin Oriental Bangkok", "area": "Riverside, Charoen Krung", "nightly": "THB 15,000–45,000", "honest": "Opened 1876. The most historic hotel in Southeast Asia. The Authors' Lounge has had more significant guests than any room in Asia. The spa is the finest in Bangkok.", "tip": "The Garden Wing is more beautiful than the River Wing and cheaper." },
+      { "name": "Capella Bangkok", "area": "Riverside", "nightly": "THB 18,000–50,000", "honest": "The most visually spectacular hotel in Bangkok. Every room faces the Chao Phraya. Only opened 2020.", "tip": "" }
+    ],
+    "mid": [
+      { "name": "137 Pillars Suites Bangkok", "area": "Sukhumvit Soi 39", "nightly": "THB 6,000–15,000", "honest": "All-suite hotel in a converted heritage building. Best value luxury in Bangkok.", "tip": "" },
+      { "name": "Hotel Muse Bangkok", "area": "Langsuan, Ploenchit BTS", "nightly": "THB 4,000–9,000", "honest": "Boutique luxury at mid-range prices. Art-themed rooms. Great location.", "tip": "" }
+    ],
+    "budget": [
+      { "name": "Lub d Silom", "area": "Silom BTS", "nightly": "THB 400–2,500", "honest": "Best social hostel in Bangkok. Pool, rooftop, events programme.", "tip": "" },
+      { "name": "Onederz Hostel", "area": "Banglamphu near Khao San", "nightly": "THB 350–900", "honest": "Clean, well-located, social. Best base for Old City exploration.", "tip": "" }
+    ]
+  },
+
+  "transport": {
+    "bts_skytrain": "BTS Sukhumvit Line (eastern Bangkok) and Silom Line (central). THB 17–59 per trip. Rabbit Card (contactless prepaid) is the equivalent of an Oyster card.",
+    "mrt_subway": "MRT covers Chatuchak, Silom, Lumphini. Connects with BTS at Asok/Sukhumvit interchange.",
+    "grab": "Always faster and cheaper than unbooked taxis. Essential app. Download before arrival.",
+    "taxi": "Metered. Always say 'meter, please' before getting in. Flag fall THB 35. If driver refuses meter, take the next taxi.",
+    "chao_phraya": "Chao Phraya Express Boat — orange flag (THB 15/stop, authentic), tourist boat (THB 40 unlimited). Khlong Saen Saep canal boat connects east and west Bangkok.",
+    "tuk_tuk": "Never accept a temple tour from a tuk-tuk driver — it is a shopping commission tour. Use only for agreed short-distance rides with price negotiated before boarding.",
+    "airport_links": "BKK Suvarnabhumi: Airport Rail Link to Phaya Thai BTS in 30 mins, THB 45. Grab: THB 250–350 to Sukhumvit.",
+    "motorcycle_taxi": "Orange-vest motorcycles at every BTS station. Fast for short distances. THB 10–60. Negotiate first."
+  },
+
+  "trafficIntelligence": {
+    "worstDay": "Monday morning and Friday evening — absolute worst",
+    "bestCrossCity": "BTS Skytrain or MRT always faster during rush hours. NEVER plan taxi journeys across the city 7–9am or 5–8pm.",
+    "rushHours": "7–9am and 5–8pm. Add 45–90 minutes to all taxi journey estimates.",
+    "rainWarning": "When it rains heavily in Bangkok, Grab surge goes 2–3x and taxis disappear. Take BTS before checking your phone.",
+    "itineraryRule": "Plan all temple visits before 10am. All market visits before noon. Afternoon: AC activities or rest. Late evening: street food and Yaowarat.",
+    "friday": "Friday evening 5–9pm is the worst traffic of the week. If departing Bangkok on a Friday evening, allow 2+ hours extra for airport."
+  },
+
+  "seasonal": {
+    "novemberFebruary": { "temp": "28–32°C", "reality": "Best weather. Dry, cooler, ideal. Peak tourist season — book accommodation 4–6 weeks ahead. Loy Krathong in November (floating lanterns on river — extraordinary).", "priceLevel": "High" },
+    "marchMay": { "temp": "30–38°C", "reality": "Hot season. Shoulder prices. Songkran (Thai New Year, April 13–15) — city-wide water fight. Extraordinary or overwhelming depending on preference.", "priceLevel": "Medium" },
+    "junOct": { "temp": "28–34°C", "reality": "Rainy season. Heavy afternoon rain, mornings usually clear. 40–50% lower hotel prices. Bangkok in the rain is photogenic. Temples in the rain are extraordinary.", "priceLevel": "Low" }
+  },
+
+  "bangkokFestivals": {
+    "loyKrathong": "November full moon. Floating lanterns (krathong) on the Chao Phraya and canals. The river at night is covered in floating lights. Extraordinary visual experience. Free to participate.",
+    "songkran": "April 13–15. Thai New Year water festival. City-wide water fight — everyone gets wet. Sukhumvit is the epicentre. Unique and social but requires waterproofing all electronics.",
+    "vegetarianFestival": "October (9 days). Chinatown Yaowarat turns into a vegetarian food paradise. White-clothed devotees, incense, fire-walking ceremonies, extraordinary food.",
+    "makha_bucha": "February full moon. Buddhist holiday. Candlelit circumambulation ceremonies at major temples including Wat Pho. Free to observe respectfully.",
+    "chakri_day": "April 6. Thai national holiday commemorating the Chakri dynasty. Grand Palace area has ceremonies."
+  },
+
+  "rooftopBars": [
+    { "name": "Vertigo & Moon Bar — Banyan Tree", "area": "Silom, 61F", "note": "Best 360° view. Open-air. Book dinner for best experience.", "price": "THB 400–600/cocktail, dinner THB 2,000–4,000" },
+    { "name": "Sky Bar — Lebua State Tower", "area": "Silom, 63F", "note": "The famous Hangover Part II bar. THB 700/cocktail minimum. More famous than it is good but genuinely dramatic.", "price": "THB 700–1,200/cocktail" },
+    { "name": "Above Eleven", "area": "Sukhumvit Soi 11, 33F", "note": "Most accessible rooftop. No minimum. Peruvian-Japanese cocktails. Best value rooftop in Bangkok.", "price": "THB 300–500/cocktail" },
+    { "name": "Octave — Marriott Sukhumvit", "area": "Sukhumvit Soi 57, 45–49F", "note": "Three floors of rooftop. 360° views. More social than Vertigo, more affordable than Sky Bar.", "price": "THB 350–550/cocktail" },
+    { "name": "Chao Phraya riverbank at dusk (free)", "area": "Riverside, Maharaj pier area", "note": "Free view of Wat Arun lit at dusk from the riverbank. The most beautiful free view in Bangkok.", "price": "Free" }
+  ],
+
+  "dayTrips": {
+    "ayutthaya": {
+      "distance": "80km north, 1.5 hours by train or minibus",
+      "note": "Former Thai capital (1350–1767). UNESCO Heritage ruins of ancient temples, massive Buddha heads entwined in tree roots. Day trip from Bangkok by train: THB 15 from Hua Lamphong station. Full day required.",
+      "bestTime": "Early departure (7am train) to maximise time before afternoon heat"
+    },
+    "kanchanaburi": {
+      "distance": "130km west, 2 hours by bus",
+      "note": "Bridge on the River Kwai. WWII history and Allied War Cemetery. River Kwai floating raft houses. The context is genuinely moving. Day trip or overnight.",
+      "transport": "Direct bus from Southern Bus Terminal, THB 100"
+    },
+    "amphawa_floating_market": {
+      "distance": "100km southwest, 1.5 hours",
+      "note": "The authentic floating market for Thai day-trippers — not the tourist version at Damnoen Saduak. Evening firefly boat trips on the canals. Saturday–Sunday only.",
+      "transport": "Minibus from Victory Monument, THB 80"
+    },
+    "pattaya": {
+      "distance": "150km southeast, 2 hours",
+      "note": "Beach city with complex reputation. The beach itself is mediocre. Worth visiting for: Koh Larn island (ferry from Pattaya pier, THB 30, excellent beach), Sanctuary of Truth (ornate wooden temple), and the Underwater World aquarium.",
+      "transport": "Bus from Ekkamai terminal, THB 130"
+    }
+  },
+
+  "shopping": {
+    "chatuchak": "Weekend only. 8,000 stalls. Section 2–3 antiques and vintage. Section 25 home décor. Section 7 plants. The map is essential.",
+    "pratunam": "The wholesale fashion district. The same factory-produced clothes sold in malls at THB 800 are available here at THB 150–200. No name brands but genuine quality. Platinum Fashion Mall and Pratunam Market.",
+    "mahaharat_market": "Near Grand Palace. Amulets and Buddha images. The antique Thai Buddhist artefacts here are sold to monks and collectors — genuine items at genuine prices.",
+    "jj_market_vintage": "Chatuchak section 2–3 has genuine vintage clothing, original 1970s–1990s pieces. The collectors who shop here arrive at 7am before the market officially opens.",
+    "gold_district": "Yaowarat gold shops — similar to Dubai Gold Souk. 23K Thai gold. Check daily gold rate. The design tradition is different from Indian gold — more intricate filigree.",
+    "thai_silk": "Jim Thompson (luxury, genuine Thai silk). Doi Tung (social enterprise, excellent quality). Never buy silk from tour-guide-recommended shops — commission is 50–100% of price."
+  },
+
+  "culturalRules": {
+    "critical": [
+      "Remove shoes before entering temples and Thai homes — always, without exception.",
+      "Never touch a monk. Women must never hand anything directly to a monk — place it on a surface for the monk to pick up.",
+      "The head is sacred — never touch anyone's head including children.",
+      "Feet are the lowest — never point feet at a person, a Buddha image, or the altar.",
+      "Dress modestly for temples: shoulders covered, knees covered. Sarongs available at entrances THB 20–30 hire."
+    ],
+    "royalFamily": "The Thai royal family is held in the deepest reverence. Any criticism of the monarchy is lèse-majesté — a criminal offence with imprisonment. This is enforced. Never make any comment about the royal family, positive or negative, in any public or social media context.",
+    "dressCode": "Temple visits: shoulders and knees covered. Beach and street: casual. Nicer restaurants: smart casual.",
+    "bargaining": "Expected in markets. Not in malls or restaurants. 30–40% reduction from opening price in tourist markets. Always smile throughout — a smile is the entire basis of negotiation.",
+    "tipping": "Not customary but appreciated. THB 20–50 for good restaurant service. Not expected at street stalls."
+  },
+
+  "visaIntelligence": {
+    "indianPassport": "Thai tourist visa required. Best: e-Visa at thaievisa.go.th (USD 35, 3–5 working days, 60 days single entry). Visa on Arrival available at airport (USD 35, 30 days) but queue 2+ hours. ALWAYS apply e-Visa.",
+    "important": "Passport valid minimum 6 months. Return ticket and proof of accommodation required.",
+    "extension": "Tourist visa extendable once at Thai Immigration Office for THB 1,900 for 30 more days.",
+    "visaRun": "If extending stay: Aranyaprathet/Poipet border crossing (3 hours from Bangkok by train) for a same-day visa run. Common for long-term visitors."
+  },
+
+  "pricingBenchmarks": {
+    "grab_airport_sukhumvit": "THB 250–350",
+    "airport_rail_link": "THB 45, 30 mins to Phaya Thai",
+    "bts_per_trip": "THB 17–59",
+    "street_food_per_dish": "THB 40–120",
+    "mid_restaurant": "THB 300–600/person",
+    "fine_dining": "THB 1,500–6,000/person",
+    "thai_massage_1hr": "THB 250–400 (tourist area), THB 150–200 (local area)",
+    "hotel_budget_dorm": "THB 300–600",
+    "hotel_budget_private": "THB 800–1,500",
+    "hotel_mid": "THB 2,000–5,000/night",
+    "hotel_luxury": "THB 8,000–25,000/night",
+    "wat_pho_entry": "THB 200",
+    "grand_palace_entry": "THB 500",
+    "chatuchak_entry": "Free",
+    "bang_krachao_total": "THB 54 (ferry THB 4 + bicycle THB 50)",
+    "muay_thai_ringside": "THB 2,000–3,000",
+    "cooking_class": "THB 1,500–3,500"
+  },
+
+  "savingsIntelligence": [
+    "Exchange at Superrich Thailand (green kiosks in malls) vs airport — saves 8–12% on total exchange",
+    "BTS Skytrain vs taxi for any journey during rush hours — saves 45–90 minutes AND money",
+    "Or Tor Kor Market food vs equivalent restaurant food — saves 70% for same quality",
+    "Orange-flag Chao Phraya boat (THB 15) vs tourist boat (THB 40) — same river, same temples, THB 25 saved per journey",
+    "Wat Pho traditional massage school (THB 260/hour) vs tourist spa (THB 600–900/hour) — same or better quality",
+    "Chatuchak market weekend vintage vs same items in tourist shops Sukhumvit — saves 50–70% on vintage clothing",
+    "Street food breakfast at local vendor (THB 60–80) vs hotel breakfast (THB 300–600) — saves THB 240–520/person/day",
+    "Grab app vs street taxi — saves 20–30% and eliminates meter refusal stress",
+    "e-Visa (60-day) vs Visa on Arrival (30-day) — same cost, double the time, no airport queue"
+  ],
+
+  "practical": {
+    "electricity": "Type A and B (American-style). 220V. Indian plugs need adapter. Available at 7-Eleven THB 80–150.",
+    "bestExchange": "Superrich Thailand (green kiosks) or Vasu exchange — rates 8–12% better than airport. Never at airport.",
+    "simCard": "True Move H and DTAC at airport arrivals: THB 300–500 for 30GB/7 days. Best tourist option.",
+    "tipping": "Restaurants: THB 20–50 if no service charge. Taxis: round up. Street food: never expected.",
+    "apps": "Grab (rides), BTS SkytTrain app, Klook (activities and booking), Wongnai (Thai restaurant discovery in Thai — shows local places Google doesn't), Line (messaging app everyone in Thailand uses)"
+  },
+
+  "hiddenPlaces": [
+    { "name": "Bang Krachao", "note": "Green lung of Bangkok. Ferry THB 4 + bicycle THB 50. No cars. Mangrove forest. The Bangkok of 1970." },
+    { "name": "Talad Noi", "note": "Oldest Chinese neighbourhood. Portuguese shophouses. Cats on motorcycles. Art students' coffee shops. Undiscovered." },
+    { "name": "Or Tor Kor Market", "note": "Where Bangkok chefs shop. Prepared food section is city's best-kept food secret. Air-conditioned." },
+    { "name": "Nang Loeng Market", "note": "Bangkok's oldest market (1899). Art Deco shophouses. Traditional Thai desserts made by 3-generation families. Almost no tourists." },
+    { "name": "Khlong Lat Mayom floating market", "note": "Sat–Sun. The floating market Bangkok residents actually go to — not the tourist version." },
+    { "name": "Ari neighbourhood", "note": "BTS Ari. Design and creative quarter. Independent coffee roasters, vinyl shops, art galleries. Zero tourists." },
+    { "name": "Wat Ratchanatdaram (Loha Prasat)", "note": "The Metal Castle — a 37-spire metal tower adjacent to the Democracy Monument. Free entry. Almost never mentioned in guides." },
+    { "name": "Talad Rot Fai (Train Market) Ratchada", "note": "Thursday–Sunday evenings. Best vintage market in Bangkok. Green neon, food stalls, collectors. Excellent photography." },
+    { "name": "Pridi Phanomyong Museum", "note": "The preserved home of the founder of Thai democracy. Free entry. The most politically significant house in Thailand. Almost no tourists." }
+  ],
+
+  "insiderIntelligence": [
+    "7-Eleven in Bangkok is not a convenience store — it is a legitimate food destination. The Milo dinosaur (cold Milo with undissolved powder on top) is specifically Thai and costs THB 20.",
+    "The cheapest and best Thai massage in Bangkok is at Wat Pho's traditional massage school (THB 260/hour). You are massaged by students supervised by masters — the quality equals tourist spas at 20% of the price.",
+    "Thai fruit in season (mango April–June, durian June–August) is meaningfully better than Thai fruit out of season. Or Tor Kor has the finest seasonal fruit in the city.",
+    "Bangkok's food is hottest at lunch, milder at breakfast. Order your spice level: 'ped nit noi' = mildly spicy, 'ped mak' = very spicy.",
+    "The Skytrain map shows stations as evenly spaced — they are not. Some station-to-station walks are 5 minutes, some are 20. Check Google Maps before deciding to walk.",
+    "Bangkok has more Michelin-starred street food stalls than any city other than Hong Kong. The Michelin Guide Thailand lists vendors at THB 50–100/dish alongside restaurants at THB 3,000/person.",
+    "The royal family image is displayed in almost every business in Thailand. It is treated with deep reverence — the national anthem plays in cinemas before every film and everyone stands.",
+    "Thai Buddhist monks cannot accept anything from a woman's hand directly. If you are a woman and want to give an offering to a monk, place it on a cloth or table surface for the monk to pick up.",
+    "The Grand Palace closes at 3:30pm. Temple entry closes at 3pm. Arriving at 2pm guarantees a rushed experience. Morning is always the correct time.",
+    "Bangkok's red-light districts (Patpong, Nana, Soi Cowboy) are tourist attractions in the sense that many visitors walk through them. They are genuinely part of the city's social landscape and not dangerous to observe."
+  ]
+}

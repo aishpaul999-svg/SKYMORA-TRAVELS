@@ -1,0 +1,745 @@
+{
+  "destination": "goa",
+  "aliases": ["goa", "goi", "panaji", "panjim", "north goa", "south goa", "calangute", "baga", "anjuna", "palolem"],
+  "lastUpdated": "2025",
+
+  "hardFacts": {
+    "flightFromDelhi": "New Delhi to Goa (GOI Dabolim or GOX Mopa): 2.5 hours direct. IndiGo, Air India, SpiceJet, Vistara. Return fare: INR 6,000–22,000. December–January: book 6–8 weeks ahead minimum.",
+    "flightFromMumbai": "Mumbai to Goa: 1 hour direct. Multiple daily flights. Also: Konkan Railway overnight sleeper from Mumbai CST to Madgaon — 10–12 hours, most scenic train in India, Rajdhani AC INR 1,200–1,800.",
+    "twoAirports": "GOI Dabolim (south Goa, closer to Palolem and Colva). GOX Mopa (north Goa, opened 2023, closer to Anjuna/Vagator/Arambol). Check which airport your flight uses — they are 50km apart.",
+    "timezone": "IST (UTC+5:30). Same as all India.",
+    "currency": "Indian Rupee (INR). Cards widely accepted at restaurants and hotels. Carry cash for beach shacks, markets, and local transport.",
+    "temperaturePeak": "November–February: 22–30°C, dry and perfect. This is the correct season for first-time visitors.",
+    "temperatureMonsoon": "June–September: 28–34°C with heavy rain. Most beach shacks close. Dramatically cheaper. Western Ghats waterfalls are accessible. Some travellers consider monsoon the most beautiful Goa.",
+    "criticalRule": "Goa without a scooter or rented vehicle is a significantly diminished experience. All beaches, restaurants, and activities are too spread out. Scooter hire: INR 300–500/day with valid licence. Driver hire: INR 500–700/day — essential if unfamiliar with Indian left-hand traffic.",
+    "northVsSouth": "North Goa and South Goa are 45–60 minutes apart and feel like different countries. North: markets, nightlife, backpacker energy, beach shacks, crowds. South: empty beaches, Portuguese heritage, quiet, better water quality. Decide before you arrive.",
+    "electricity": "Indian Type D and Type M plugs. 220V. Same as rest of India. No adapter needed.",
+    "water": "Do not drink tap water. Bottled water at any supermarket INR 20 for 1 litre."
+  },
+
+  "emergencyContacts": {
+    "police": "100",
+    "ambulance": "108",
+    "coastGuard": "1554",
+    "touristHelpline": "1800 233 0133 (toll-free, Goa Tourism Department)",
+    "goaTourismOffice": "0832 243 7132",
+    "gmeHospitalPanaji": "0832 245 8716 (Goa Medical College — main government hospital)",
+    "apolloClinic": "0832 663 8383 (Porvorim, North Goa — best for tourists)",
+    "northGoaDistrictHospital": "0832 226 6366 (Mapusa)",
+    "southGoaDistrictHospital": "0832 270 9123 (Margao)",
+    "indianEmbassyNa": "Not applicable — domestic travel for Indians",
+    "foreignersRegionalOffice": "0832 243 8034 (for foreigners needing visa extensions)",
+    "pharmacy24hr": "MedPlus and Apollo Pharmacy branches in Panaji, Mapusa, Margao — call 1860 500 1000 for nearest 24-hour MedPlus"
+  },
+
+  "policeStations": [
+    { "name": "Panaji Police Station", "area": "Panaji city and surrounds", "phone": "0832 222 4488", "address": "Panaji, near Secretariat" },
+    { "name": "Calangute Police Station", "area": "Calangute, Baga, Candolim", "phone": "0832 227 6251", "address": "Calangute" },
+    { "name": "Anjuna Police Station", "area": "Anjuna, Vagator, Chapora", "phone": "0832 227 3233", "address": "Anjuna" },
+    { "name": "Mapusa Police Station", "area": "North Goa interior, Assagao, Siolim", "phone": "0832 226 2231", "address": "Mapusa town" },
+    { "name": "Margao Police Station", "area": "South Goa, Colva, Benaulim", "phone": "0832 270 5710", "address": "Margao city" },
+    { "name": "Canacona Police Station", "area": "Palolem, Agonda, Cola", "phone": "0832 264 3231", "address": "Canacona, South Goa" },
+    { "name": "Ponda Police Station", "area": "Interior Goa, spice plantation area", "phone": "0832 231 2233", "address": "Ponda" }
+  ],
+
+  "firstVisitorEssentials": {
+    "summary": "First-time Goa visitor. North Goa and South Goa are completely different. North is loud, colourful, social. South is quiet, spacious, and genuinely beautiful. Most first-timers regret not spending time in south Goa.",
+    "mustInclude": [
+      "Anjuna Flea Market — Wednesday only 8am–sunset. The entire creative economy of Goa in one market. Free entry.",
+      "Old Goa UNESCO Heritage — Basilica of Bom Jesus (St. Francis Xavier's remains preserved since 1554), Se Cathedral. Free. Essential context for why Goa is different from the rest of India.",
+      "Palolem Beach, South Goa — crescent bay, the most beautiful beach in Goa, calmer water than north. 45 minutes from the tourist strip.",
+      "Fontainhas Latin Quarter, Panaji — oldest surviving Latin Quarter in Asia, Portuguese-era coloured houses. Free to walk.",
+      "Beach shack sunset with seafood — the quintessential Goa experience. Fresh tiger prawns, cold Kingfisher, sunset over the Arabian Sea."
+    ],
+    "localInsiderToAdd": "Most visitors stay in Calangute or Baga and think that is Goa. The Goa that changes people is the quiet version — Agonda beach at dawn, the spice plantation at 9am, the ferry to Divar Island, Fontainhas at 6pm when the golden light hits the Portuguese facades.",
+    "regrets": [
+      "Stayed only in north Goa beach strip — south Goa is 45 minutes away and a completely different world",
+      "Hired auto-rickshaws for multiple stops — impossible to negotiate, expensive. Scooter hire INR 400/day solves everything.",
+      "Ate at beach shacks on the main tourist entrance — identical food 400m away costs 60% less",
+      "Missed Fontainhas in Panaji — most photogenic neighbourhood in Goa, almost no tourists",
+      "Visited in peak season without booking — December prices are 3x October for identical rooms"
+    ]
+  },
+
+  "repeatVisitorIntelligence": {
+    "insiderNarrative": "Goa has been so thoroughly discovered that the discovery itself has become the obstacle. The version that survives the love — the ceremony, the rice agriculture, the temple offerings laid fresh every morning — exists in the villages beyond the beach road.",
+    "skipThese": [
+      "Baga-Calangute strip as primary base if already visited",
+      "Standard sunset cruise from tourist operators — overpriced",
+      "Casino if not interested in gambling"
+    ],
+    "goHere": [
+      "Divar Island — ferry from Old Goa INR 10, no cars, Portuguese mansions, jackfruit orchards, absolute silence",
+      "Spice plantation in Ponda — walk through cardamom, vanilla, nutmeg. Elephant encounter. Traditional Goan lunch on banana leaf. INR 400–600.",
+      "Chapora Fort at sunset — Dil Chahta Hai fort, extraordinary view of Chapora River and Arabian Sea. Free.",
+      "Cabo de Rama Fort, South Goa — clifftop fort, almost entirely unknown to tourists",
+      "Butterfly Beach — accessible only by boat from Palolem, INR 200 return, no roads, no shacks",
+      "Chandor heritage village — the Braganza House, 400-year-old Portuguese mansion open for tours",
+      "Morjim Beach — northernmost quiet beach, better seafood than Baga",
+      "Goa Wine Company tasting, Varca — only winery in Goa, tours and tasting INR 500",
+      "Arambol sulfur lake walk — inland from Arambol beach, through palm groves to a freshwater lake beside the sea"
+    ]
+  },
+
+  "neighborhoods": {
+    "baga_calangute": {
+      "character": "The tourist capital of Goa. Loud, crowded in peak season, overpriced relative to quality. The quintessential beach shack experience with nightlife. Best for first-timers who want the Goa postcard.",
+      "bestFor": ["First-timers wanting the iconic experience", "Groups wanting nightlife", "Easy access to most tourist services"],
+      "avoid": ["Hotels directly on main road — constant noise", "Beach shacks near main entrance — same food at 2x the price of shacks 400m away", "Auto-rickshaws for multiple destinations — scooter is the answer"],
+      "insider": "The beach shack at the far northern end of Baga (past the river crossing) has better fresh fish, fewer tourists, and lower prices than anything on the main Calangute stretch. 20-minute walk or 5-minute scooter."
+    },
+    "anjuna_vagator": {
+      "character": "Where the original Goa travellers settled in the 1970s. Anjuna Flea Market on Wednesdays. Chapora Fort above Vagator. More character and alternative energy than Calangute.",
+      "bestFor": ["Wednesday Anjuna Flea Market", "Chapora Fort photography", "Alternative music and trance scene"],
+      "avoid": ["Anjuna beach for swimming — rocky at low tide"],
+      "insider": "Chapora Fort on a weekday afternoon (not Wednesday — market crowds). 15-minute dirt path climb from the Vagator beach parking area. The Dil Chahta Hai view is exactly as the film showed it — Chapora River estuary on one side, Arabian Sea on the other."
+    },
+    "palolem_south_goa": {
+      "character": "The quiet Goa. Perfect crescent bay with headlands on both sides. Calmer water than north Goa. South Goa has longer, emptier beaches with a completely different atmosphere.",
+      "bestFor": ["Anyone wanting beautiful beach without tourist density", "Honeymooners", "Safe swimming — calmer currents than north beaches"],
+      "avoid": ["Palolem in peak December–January without early booking — fills with long-term international backpackers"],
+      "insider": "Agonda beach 8km north of Palolem is wider, longer, and has fewer shacks. A fraction of Palolem's crowd. The beach at dawn — before the shacks open — is empty and extraordinary."
+    },
+    "panaji": {
+      "character": "Goa's state capital. Small, walkable, genuinely beautiful. Fontainhas Latin Quarter, Mandovi riverfront, the best Goan food restaurants in the city.",
+      "bestFor": ["Photography — Fontainhas Portuguese buildings", "Best Goan restaurant food at local prices", "Cultural context before beach"],
+      "avoid": ["Hotel casino strip — overpriced entertainment"],
+      "insider": "Fontainhas at 6pm in golden hour — the yellow and blue Portuguese facades in the evening light, empty of tourists, carved wooden balconies, street-level saint's shrines. The most photogenic 30 minutes in Goa."
+    },
+    "old_goa": {
+      "character": "UNESCO World Heritage Site. Ruins of the former capital of Portuguese India, once the largest city in Asia outside China. Basilica of Bom Jesus, Se Cathedral, Church of St. Francis of Assisi.",
+      "bestFor": ["History and cultural context", "Photography of 16th-century architecture"],
+      "avoid": ["Noon to 3pm — intense heat and maximum tour groups"],
+      "insider": "The Se Cathedral is the largest church in Asia and has 1/10th the visitors of Bom Jesus. The interior proportions are extraordinary and the organ from 1652 still functions. Visit here first, Bom Jesus second."
+    },
+    "assagao": {
+      "character": "The quietly fashionable village between Anjuna and Mapusa. Boutique hotels, excellent independent restaurants, the best café culture in north Goa. Where Goa's creative community lives.",
+      "bestFor": ["Longer stays", "Best cafés in north Goa", "Avoiding the main tourist strip while staying close to it"],
+      "avoid": [],
+      "insider": "Vinayak Family Restaurant in Assagao at noon — home-style Goan thali INR 220, better than any tourist restaurant at 3x the price. Sells out by 2pm."
+    },
+    "ponda_interior": {
+      "character": "The real Goa that tourists never see. Spice plantations, Hindu temples (despite Portuguese colonisation, Goa's interior remained Hindu), the Mahalsa Temple, Mangeshi Temple. A completely different Goa from the beach strip.",
+      "bestFor": ["Spice plantation experience", "Hindu temple visits", "Understanding Goa's complex cultural identity"],
+      "avoid": [],
+      "insider": "The Mangeshi Temple in Priol is the most visited Hindu temple in Goa — but almost no beach tourists ever go. The temple tank, the architecture, and the morning puja are extraordinary. 30 minutes by scooter from north Goa."
+    }
+  },
+
+  "restaurants": [
+    {
+      "name": "Ritz Classic",
+      "area": "Panaji, near Mandovi river",
+      "type": "mid",
+      "cuisine": "Goan-Portuguese seafood",
+      "orderThis": "Fish curry rice INR 200, Prawn recheado INR 350, Sorpotel INR 280, Bebinca INR 120",
+      "pricePerPerson": "INR 300–600",
+      "hours": "Lunch 12–3pm, Dinner 7–10:30pm.",
+      "reservation": "+91 832 222 6660. Recommended evenings.",
+      "insider": "Where Goa's government officials eat on weekdays. No tourist pricing. The fish curry rice uses a kokum-based curry different from anything in Mumbai. The prawn recheado — stuffed with a spice paste that takes three hours to prepare — is the Goan dish that most represents what this cuisine actually is.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "firstTimer": 8, "repeat": 9, "solo": 8, "couple": 8, "budget": 8, "family": 7, "photographer": 5, "luxury": 5, "adventure": 6 }
+    },
+    {
+      "name": "Vinayak Family Restaurant",
+      "area": "Assagao, North Goa",
+      "type": "budget",
+      "cuisine": "Goan local thali",
+      "orderThis": "Goan fish thali INR 220 (fish curry, rice, dal, vegetables, pappadum, prawn dish), Crab masala INR 280",
+      "pricePerPerson": "INR 200–400",
+      "hours": "Lunch 12–3pm only. Arrive by noon.",
+      "reservation": "No.",
+      "insider": "A home-style Goan restaurant in a village 10 minutes from the tourist strip. INR 220 for the complete local lunch. The crab masala sells out first. Known to every Goa resident and almost no tourist. The best Goan food is here, not at beach shacks.",
+      "isSurprise": true,
+      "scores": { "budget": 10, "foodie": 9, "solo": 8, "repeat": 9, "couple": 7, "firstTimer": 7, "adventure": 7, "family": 7, "luxury": 2, "photographer": 6 }
+    },
+    {
+      "name": "Fisherman's Wharf",
+      "area": "Cavelossim, South Goa (on Sal River)",
+      "type": "mid",
+      "cuisine": "Goan seafood",
+      "orderThis": "Tiger prawns butter garlic INR 650, Grilled pomfret INR 480, Beef chilly fry INR 380",
+      "pricePerPerson": "INR 500–1,000",
+      "hours": "Lunch and dinner.",
+      "reservation": "+91 832 287 7047",
+      "insider": "On the Sal river with boats tied to the jetty outside. The seafood is caught that morning. Tiger prawns in butter garlic have been the most-ordered dish here for 20 years. South Goa location means no tourist rush — you can actually have a conversation at dinner.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "couple": 9, "firstTimer": 8, "repeat": 8, "luxury": 7, "family": 7, "solo": 7, "budget": 5, "photographer": 7, "adventure": 5 }
+    },
+    {
+      "name": "Bhatti Village",
+      "area": "Nerul, North Goa",
+      "type": "mid",
+      "cuisine": "Goan pork and beef specialties",
+      "orderThis": "Pork vindaloo INR 340, Beef xacuti INR 310, Sorpotel INR 290",
+      "pricePerPerson": "INR 400–700",
+      "hours": "Lunch and dinner.",
+      "reservation": "+91 832 247 9222",
+      "insider": "The restaurant no guide recommends because it serves beef and pork as its primary identity — the Catholic-Goan meat tradition from 500 years of Portuguese colonisation. The vindaloo is the village version — fiery, sour, rich with palm vinegar. Not the watered-down tourist version. A 200-year-old family recipe.",
+      "isSurprise": true,
+      "scores": { "foodie": 10, "repeat": 9, "solo": 8, "couple": 7, "adventure": 8, "firstTimer": 6, "budget": 6, "family": 5, "luxury": 4, "photographer": 5 }
+    },
+    {
+      "name": "Thalassa Greek Restaurant",
+      "area": "Small Vagator, North Goa",
+      "type": "mid",
+      "cuisine": "Greek",
+      "orderThis": "Grilled octopus INR 650, Lamb souvlaki INR 580, Hummus platter INR 320",
+      "pricePerPerson": "INR 600–1,100",
+      "hours": "Dinner from 6pm.",
+      "reservation": "+91 98220 93537",
+      "insider": "On the hillside above Vagator beach with a view of the Arabian Sea at sunset. The best Greek food in India by a significant margin. Come at 6pm for the sunset view — the terrace fills by 7:30pm.",
+      "isSurprise": false,
+      "scores": { "couple": 10, "honeymoon": 9, "foodie": 9, "firstTimer": 8, "luxury": 8, "solo": 7, "repeat": 8, "budget": 4, "family": 6, "photographer": 9 }
+    },
+    {
+      "name": "Café Chocolatti",
+      "area": "Assagao, North Goa",
+      "type": "mid",
+      "cuisine": "Continental café",
+      "orderThis": "Belgian waffles INR 280, Shakshuka INR 320, Cold brew INR 180",
+      "pricePerPerson": "INR 300–600",
+      "hours": "8am–6pm.",
+      "reservation": "Walk-in.",
+      "insider": "The café the Goa expat community uses for working breakfasts. The waffles and eggs are genuinely excellent. The garden seating has the specific Goa morning feeling — warm air, birds, the sounds of a village starting its day.",
+      "isSurprise": false,
+      "scores": { "solo": 9, "couple": 8, "firstTimer": 7, "repeat": 8, "budget": 6, "luxury": 5, "photographer": 7, "foodie": 7, "family": 6, "adventure": 5 }
+    },
+    {
+      "name": "Mum's Kitchen",
+      "area": "Panaji, Miramar beach area",
+      "type": "mid",
+      "cuisine": "Traditional Goan",
+      "orderThis": "Xacuti INR 320, Cafreal INR 280, Goan prawn curry INR 380",
+      "pricePerPerson": "INR 400–700",
+      "hours": "Lunch and dinner.",
+      "reservation": "+91 832 222 5555",
+      "insider": "A museum-restaurant concept where recipes are collected from Goan grandmothers and cooked in their original form. The chicken cafreal — marinated in coriander, ginger, and green chilli — is the most distinctively Goan non-seafood dish. The research behind the menu is genuine.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "firstTimer": 9, "couple": 8, "repeat": 8, "family": 8, "solo": 7, "budget": 5, "luxury": 6, "photographer": 6, "adventure": 5 }
+    },
+    {
+      "name": "Black Sheep Bistro",
+      "area": "Panaji city",
+      "type": "luxury",
+      "cuisine": "Modern Goan",
+      "orderThis": "Crab bisque INR 480, Pork ribs xacuti INR 680, Bebinca trifle INR 320",
+      "pricePerPerson": "INR 700–1,200",
+      "hours": "Dinner Tue–Sun.",
+      "reservation": "+91 832 222 0594. Essential.",
+      "insider": "The most sophisticated restaurant in Goa. Chef Praful Booking uses traditional Goan ingredients in contemporary European technique. The pork ribs xacuti uses the same spice blend as the village version but the cooking method is French — 6-hour braise. Panaji location means a 30-minute drive from north Goa, but worth it.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "foodie": 10, "couple": 9, "honeymoon": 9, "repeat": 10, "solo": 8, "firstTimer": 7, "budget": 2, "family": 5, "photographer": 7 }
+    },
+    {
+      "name": "La Plage",
+      "area": "Ashwem Beach, North Goa",
+      "type": "mid",
+      "cuisine": "French beach café",
+      "orderThis": "Moules marinière INR 480, Croque monsieur INR 280, Rosé wine INR 320/glass",
+      "pricePerPerson": "INR 500–900",
+      "hours": "Lunch only 10am–4pm.",
+      "reservation": "Walk-in. Come before noon.",
+      "insider": "A French-run beach café on the quietest stretch of north Goa beach. Wooden tables in the sand, the Arabian Sea 20 metres away. The mussels are flown from France. The rosé is cold. This is the version of Goa that exists on the far side of the tourist corridor.",
+      "isSurprise": true,
+      "scores": { "couple": 10, "honeymoon": 10, "luxury": 8, "foodie": 8, "solo": 7, "photographer": 8, "repeat": 9, "firstTimer": 6, "budget": 3, "family": 5 }
+    },
+    {
+      "name": "Gunpowder Restaurant",
+      "area": "Assagao, North Goa",
+      "type": "mid",
+      "cuisine": "South Indian coastal",
+      "orderThis": "Malabar prawn curry INR 480, Nadan chicken INR 380, Appam INR 80",
+      "pricePerPerson": "INR 500–800",
+      "hours": "Dinner only.",
+      "reservation": "+91 98221 00970. Strongly recommended.",
+      "insider": "A South Indian coastal restaurant in a converted heritage house with garden seating. The Malabar prawn curry is made with Toddy vinegar and Kerala spices. The only restaurant in Goa that serves food of this regional specificity at this quality. Come for dinner when the garden is lit.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "couple": 9, "solo": 8, "repeat": 9, "firstTimer": 7, "luxury": 7, "budget": 5, "family": 6, "photographer": 7, "adventure": 5 }
+    },
+    {
+      "name": "The Corner House",
+      "area": "Colva Beach, South Goa",
+      "type": "budget",
+      "cuisine": "Goan beach shack",
+      "orderThis": "Fried kingfish INR 220, Clams in butter INR 280, Fish curry rice INR 150",
+      "pricePerPerson": "INR 250–450",
+      "hours": "Breakfast, lunch, dinner.",
+      "reservation": "No.",
+      "insider": "The beach shack that south Goa residents use for lunch on Sundays. Colva beach is less crowded than Baga or Palolem. The kingfish fried in semolina is the correct lunch order. The prices are approximately 40% below identical quality at Baga shacks.",
+      "isSurprise": false,
+      "scores": { "budget": 9, "firstTimer": 7, "family": 8, "solo": 7, "couple": 7, "foodie": 7, "repeat": 7, "photographer": 5, "luxury": 2, "adventure": 6 }
+    },
+    {
+      "name": "Café Mondegar (Goa outpost)",
+      "area": "Baga / Calangute area",
+      "type": "budget",
+      "cuisine": "Continental and Indian",
+      "orderThis": "Goa sausage masala on toast INR 180, Fish curry INR 220, Cold coffee INR 120",
+      "pricePerPerson": "INR 200–400",
+      "hours": "8am–11pm.",
+      "reservation": "No.",
+      "insider": "The Goa sausage — chorinhas — is the most distinctive local food product: pork sausage marinated in vinegar and spices, cured and dried. It is unavailable outside Goa in its authentic form. The sausage masala on toast at breakfast is the correct introduction to Goan flavour.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 9, "budget": 9, "solo": 8, "family": 8, "couple": 7, "foodie": 7, "repeat": 7, "photographer": 5, "luxury": 2, "adventure": 6 }
+    },
+    {
+      "name": "Villa Blanche Bistro",
+      "area": "Majorda, South Goa",
+      "type": "luxury",
+      "cuisine": "Indo-Portuguese fusion",
+      "orderThis": "Lobster thermidor INR 1,800, Prawn balchão INR 580, Coconut dessert trio INR 320",
+      "pricePerPerson": "INR 800–1,500",
+      "hours": "Dinner only.",
+      "reservation": "+91 832 288 1477. Essential.",
+      "insider": "Inside a 200-year-old Portuguese colonial home. The dining room is candlelit, the garden is perfumed. The lobster thermidor uses Goan-caught lobster with a classical French preparation. This is the finest dining experience in south Goa.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "honeymoon": 10, "couple": 10, "foodie": 9, "repeat": 9, "solo": 7, "firstTimer": 7, "budget": 0, "family": 4, "photographer": 8 }
+    },
+    {
+      "name": "Palolem Beach Shacks",
+      "area": "Palolem, South Goa",
+      "type": "budget",
+      "cuisine": "Goan seafood",
+      "orderThis": "Grilled squids INR 280, Prawn curry rice INR 200, Fresh fish of the day INR 300–500",
+      "pricePerPerson": "INR 300–600",
+      "hours": "Breakfast to dinner (October–May only).",
+      "reservation": "No.",
+      "insider": "The Palolem beach shacks in the centre of the bay have the same quality of seafood as anywhere in Goa. The difference from Baga: the setting is the most beautiful beach in Goa. Order the fresh catch of the day — squid or pomfret caught that morning by the fishermen you can watch landing their boats at the north end of the beach.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 9, "couple": 9, "budget": 8, "family": 7, "solo": 8, "honeymoon": 8, "photographer": 7, "foodie": 7, "repeat": 7, "luxury": 4 }
+    },
+    {
+      "name": "Curlies Beach Shack",
+      "area": "Anjuna Beach",
+      "type": "budget",
+      "cuisine": "Goan/Continental",
+      "orderThis": "Bebinca pancakes INR 180, Grilled kingfish INR 280, Fresh lime soda INR 60",
+      "pricePerPerson": "INR 250–500",
+      "hours": "All day.",
+      "reservation": "No.",
+      "insider": "One of the oldest beach shacks in Goa, running since the 1980s when Anjuna was a hippie enclave. The bebinca (layered Goan coconut pudding) at breakfast is the most specific Goan dessert available. The shack on the rocks at the end of the beach has the best view of the Arabian Sea on the entire Anjuna coastline.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 8, "budget": 8, "solo": 8, "couple": 7, "family": 7, "repeat": 7, "photographer": 7, "foodie": 6, "luxury": 2, "adventure": 7 }
+    }
+  ],
+
+  "activities": [
+    {
+      "name": "Anjuna Flea Market",
+      "area": "Anjuna Beach",
+      "price": "Free entry. Budget INR 500–2,000 for shopping.",
+      "duration": "3–4 hours",
+      "bestTime": "Wednesday only. Arrive 9am before afternoon heat. Never go after noon in peak season.",
+      "book": "No booking.",
+      "insider": "All of Goa's alternative community in one Wednesday market. The vintage jewellery section at the back has pieces unavailable anywhere else in India. The market has been running since the 1970s — the same families have the same stalls. The Kashmiri traders have been here longer than most tourists have been alive. Bargain firmly, never aggressively.",
+      "scores": { "firstTimer": 10, "couple": 9, "solo": 8, "photographer": 9, "budget": 8, "repeat": 7, "family": 7, "foodie": 6, "adventure": 6, "luxury": 4 }
+    },
+    {
+      "name": "Divar Island Ferry Day",
+      "area": "Ferry from Old Goa jetty",
+      "price": "Ferry INR 10 each way. Bicycle hire INR 100.",
+      "duration": "Half day",
+      "bestTime": "Morning any day except Monday",
+      "book": "No booking. Ferry runs every 30 minutes.",
+      "insider": "A river island in the Mandovi with no motor traffic. Portuguese-era mansions, jackfruit trees, church bells, absolute silence. The ferry takes 4 minutes. Almost no tourists. Hire the bicycle from the man near the ferry landing and ride the 8km island loop through village lanes and orchards.",
+      "scores": { "photographer": 10, "repeat": 10, "couple": 9, "solo": 9, "adventure": 7, "firstTimer": 7, "budget": 10, "family": 6, "luxury": 4, "foodie": 5 }
+    },
+    {
+      "name": "Spice Plantation Tour — Sahakari Farms",
+      "area": "Ponda taluka, inland Goa",
+      "price": "INR 400–600 including traditional Goan lunch on banana leaf",
+      "duration": "2.5 hours",
+      "bestTime": "9am departure, back by noon",
+      "book": "Sahakari Spice Farm: +91 832 231 2394",
+      "insider": "Walking through cardamom, vanilla, nutmeg, black pepper, and cinnamon with a guide who grew up on the plantation. Resident elephant encounter. The traditional Goan lunch served on banana leaves is authentic home cooking — not tourist Goan food. This version of Goa has nothing to do with the beach.",
+      "scores": { "firstTimer": 8, "family": 9, "couple": 8, "foodie": 9, "photographer": 7, "repeat": 8, "solo": 7, "budget": 7, "luxury": 6, "adventure": 6 }
+    },
+    {
+      "name": "Fontainhas Latin Quarter Walk",
+      "area": "Panaji city",
+      "price": "Free",
+      "duration": "1.5 hours",
+      "bestTime": "Evening 5–7pm for golden light on facades",
+      "book": "No booking.",
+      "insider": "Oldest surviving Latin Quarter in Asia. Portuguese-era houses in yellow, blue, green, and ochre with wooden balconies and terracotta roof tiles. Built 18th century. Not restored — it simply continues. The tiles, the balconies, the saint's shrines at road junctions — all original. Empty of tourists at 6pm.",
+      "scores": { "photographer": 10, "firstTimer": 8, "couple": 9, "solo": 9, "repeat": 8, "culture": 10, "budget": 10, "family": 6, "luxury": 5, "foodie": 5 }
+    },
+    {
+      "name": "Palolem Beach Crescent Walk",
+      "area": "South Goa, Canacona taluka",
+      "price": "Free",
+      "duration": "1–3 hours",
+      "bestTime": "Dawn 6–7am OR sunset",
+      "book": "No booking.",
+      "insider": "The perfect crescent bay with headlands on both sides. The northern headland has a small temple and tide pools with octopus and starfish at low tide. At dawn — before the shacks open, before the sunbeds are out — the beach is empty. The water is glass. No north Goa beach looks like this.",
+      "scores": { "photographer": 10, "couple": 10, "honeymoon": 10, "solo": 9, "firstTimer": 9, "family": 7, "budget": 9, "repeat": 8, "luxury": 7, "adventure": 6 }
+    },
+    {
+      "name": "Chapora Fort Sunset",
+      "area": "Above Vagator Beach",
+      "price": "Free",
+      "duration": "2 hours including climb",
+      "bestTime": "Arrive 45 minutes before sunset",
+      "book": "No booking.",
+      "insider": "The Dil Chahta Hai fort. The actual filming location. The view from the battlements: Chapora River estuary on one side, Arabian Sea on the other, Vagator beach below. 15-minute climb on dirt paths. No admission fee. The most cinematic view in Goa that costs nothing.",
+      "scores": { "couple": 10, "photographer": 9, "firstTimer": 9, "solo": 8, "repeat": 7, "budget": 10, "honeymoon": 9, "family": 5, "luxury": 6, "adventure": 7 }
+    },
+    {
+      "name": "Old Goa UNESCO Heritage Walk",
+      "area": "Old Goa, 9km from Panaji",
+      "price": "Free to walk. Basilica INR 0, Bom Jesus INR 0, Archaeological Museum INR 15.",
+      "duration": "2–3 hours",
+      "bestTime": "Morning 8–11am before tour groups and heat",
+      "book": "No booking.",
+      "insider": "The Basilica of Bom Jesus contains St. Francis Xavier's body — preserved without embalming since 1554. The Se Cathedral is the largest church in Asia built in a single commission. Come before 10am when the monuments are quiet and the light comes through the windows at the correct angle.",
+      "scores": { "firstTimer": 9, "culture": 10, "family": 8, "couple": 7, "solo": 8, "photographer": 8, "repeat": 6, "budget": 9, "luxury": 5, "adventure": 4 }
+    },
+    {
+      "name": "Saturday Night Market — Arpora",
+      "area": "Between Baga and Anjuna",
+      "price": "Free entry. Food INR 80–200.",
+      "duration": "3–4 hours",
+      "bestTime": "Saturday evening 6pm–midnight",
+      "book": "No booking.",
+      "insider": "150+ stalls of handicrafts, food from across India and the world, live music. Rajasthani, Kashmiri, Tibetan handicraft quality at source prices because sellers travel to Goa in season. The most cost-effective combination of food, shopping, and entertainment in Goa.",
+      "scores": { "firstTimer": 9, "budget": 9, "couple": 8, "family": 8, "solo": 7, "photographer": 7, "repeat": 7, "foodie": 7, "adventure": 5, "luxury": 4 }
+    },
+    {
+      "name": "White Water Rafting — Mhadei River",
+      "area": "Valpoi, Goa interior (2 hours from north Goa)",
+      "price": "INR 1,500–2,500 per person",
+      "duration": "Half day",
+      "bestTime": "July–October only (monsoon season for water levels)",
+      "book": "Goa River Rafting: +91 98228 82626",
+      "insider": "The Mhadei River in the Western Ghats has Class 2–3 rapids in a gorge of extraordinary forest. Available only in monsoon when the beach scene is closed anyway. The landscape — waterfalls, deep forest, the Western Ghats — looks nothing like the beach Goa most visitors experience.",
+      "scores": { "adventure": 10, "solo": 8, "couple": 7, "repeat": 9, "firstTimer": 6, "budget": 5, "family": 5, "photographer": 7, "luxury": 4, "foodie": 2 }
+    },
+    {
+      "name": "Cabo de Rama Fort",
+      "area": "South Goa, between Agonda and Palolem",
+      "price": "Free",
+      "duration": "1.5 hours",
+      "bestTime": "Morning or late afternoon",
+      "book": "No booking.",
+      "insider": "A clifftop fort above the Arabian Sea with one of the most dramatic coastal views in India. Occupied continuously since the 8th century — by local rulers, then the Portuguese from 1763. Almost entirely unknown to tourists. No facilities, no entry fee, no crowds. 30 minutes by scooter from Palolem.",
+      "scores": { "photographer": 9, "adventure": 8, "repeat": 9, "solo": 8, "couple": 8, "budget": 9, "firstTimer": 7, "family": 6, "luxury": 4, "foodie": 2 }
+    },
+    {
+      "name": "Butterfly Beach by Boat",
+      "area": "South Goa, accessible from Palolem",
+      "price": "Boat hire INR 200 return per person",
+      "duration": "2–3 hours",
+      "bestTime": "Morning before wind picks up",
+      "book": "Book boats at Palolem beach (south end). No advance booking needed.",
+      "insider": "Accessible only by boat. No road. No shacks in peak season. A small beach framed by forested headlands. The boat takes 10 minutes. The beach at low tide has rock pools with marine life. You and whoever else is on your boat are likely the only people there.",
+      "scores": { "couple": 10, "honeymoon": 10, "photographer": 9, "solo": 8, "adventure": 8, "firstTimer": 7, "budget": 7, "repeat": 8, "family": 6, "luxury": 7 }
+    },
+    {
+      "name": "Yoga and Retreat — Arambol",
+      "area": "Arambol, Northernmost Goa",
+      "price": "INR 500–1,200 per class. Retreat packages: INR 3,000–8,000/day.",
+      "duration": "Daily classes or multi-day retreats",
+      "bestTime": "November–April season",
+      "book": "Himalaya Yoga Valley: himalayayogavalley.com. Purple Valley: purplevalley.com.",
+      "insider": "Arambol has the highest concentration of genuine yoga teachers in India — not the tourist yoga that appears in Calangute, but practitioners who have been teaching for 20+ years. The 200-hour yoga teacher training courses here have trained hundreds of international instructors.",
+      "scores": { "solo": 10, "repeat": 9, "couple": 7, "adventure": 7, "firstTimer": 5, "budget": 6, "luxury": 5, "foodie": 4, "photographer": 5, "family": 3 }
+    },
+    {
+      "name": "Dolphin Watching Boat Trip",
+      "area": "From Baga, Candolim, or Palolem beaches",
+      "price": "INR 300–500 per person (group boat). Private: INR 2,000–3,000 for the boat.",
+      "duration": "1.5 hours",
+      "bestTime": "Early morning 7–9am for best dolphin activity and calm sea",
+      "book": "Through any beach shack or hotel. Early morning is consistently best.",
+      "insider": "Spinner dolphins are resident in the waters off Goa year-round. The group tours from Baga have 20 people — take the early morning private boat from Palolem where the dolphin sightings are more reliable and the crowds are absent.",
+      "scores": { "family": 9, "firstTimer": 8, "couple": 8, "solo": 6, "photographer": 7, "budget": 6, "repeat": 6, "adventure": 7, "luxury": 5, "foodie": 2 }
+    },
+    {
+      "name": "Goa Carnival (Annual — February)",
+      "area": "Panaji, Mapusa, Margao",
+      "price": "Free to watch",
+      "duration": "4 days",
+      "bestTime": "The 4 days before Lent (February/March). Saturday Panaji parade is the main event.",
+      "book": "No booking needed. Check dates at goa-tourism.com",
+      "insider": "India's largest street festival. Portuguese legacy — the Catholic communities of Goa have celebrated this since the 1500s. The King Momo parade through Panaji on Saturday is extraordinary — floats, dancing troupes, live music. The street parties on Sunday night continue into the early hours.",
+      "scores": { "firstTimer": 9, "photographer": 10, "couple": 8, "solo": 8, "repeat": 8, "family": 7, "budget": 9, "adventure": 7, "foodie": 6, "luxury": 6 }
+    }
+  ],
+
+  "designedSurprises": {
+    "solo": {
+      "experience": "Divar Island bicycle ride on a Tuesday morning",
+      "details": "Ferry from Old Goa jetty INR 10 (runs every 30 mins). Hire bicycle from the man near the landing INR 100. Ride the 8km island loop through village lanes, Portuguese mansions, and jackfruit orchards. No other tourists. The ferry back takes 4 minutes. Total cost: INR 110.",
+      "why": "Solo travellers who find Divar Island describe it as the hour Goa finally made sense."
+    },
+    "couple": {
+      "experience": "Sunset at Chapora Fort followed by dinner at Thalassa",
+      "details": "Drive north past Vagator. Climb to the fort (15 minutes, dirt path). The Dil Chahta Hai view with Chapora River and Arabian Sea below. Then 10 minutes to Thalassa for sunset dinner overlooking the sea. INR 1,200 for the evening between both.",
+      "why": "Every Indian couple who finds Chapora Fort has the same moment — then Thalassa turns it into the evening."
+    },
+    "foodie": {
+      "experience": "Vinayak fish thali in Assagao at noon",
+      "details": "Village restaurant, no signage, no tourist positioning. The thali INR 220 includes everything a Goan lunch is supposed to include. Crab masala sells out first. Arrives at noon, sells out by 2pm.",
+      "why": "Every food-focused Goa traveller who finds Vinayak comes back every trip."
+    },
+    "photographer": {
+      "experience": "Fontainhas at 6pm in golden hour",
+      "details": "The Portuguese-era Latin Quarter in Panaji when the evening light hits the yellow and blue facades. Carved wooden balconies, terracotta tiles, street-level shrines. Empty of tourists at this hour. The colour saturation in this light is specific to this neighbourhood at this time.",
+      "why": "The Goa photograph that looks unlike every other Goa photograph is taken in Fontainhas at 6pm."
+    },
+    "family": {
+      "experience": "Spice plantation morning with elephant encounter",
+      "details": "Sahakari Spice Farm. Resident elephant gives blessings. Cardamom and vanilla at ground level — children can pick and smell. Traditional Goan lunch on banana leaves INR 400–600/person including lunch.",
+      "why": "Children who visit the spice plantation remember the elephant and the banana leaf lunch specifically."
+    },
+    "honeymoon": {
+      "experience": "Butterfly Beach at 8am",
+      "details": "Boat from Palolem south end INR 200 return. 10-minute ride to a beach accessible only by water. At 8am you are likely the only people there. A small beach framed by forested headlands. Completely private.",
+      "why": "The most private beach morning in Goa. No road access. Just the two of you and the sea."
+    },
+    "adventure": {
+      "experience": "White water rafting on the Mhadei River in monsoon",
+      "details": "2 hours from north Goa to Valpoi. Class 2–3 rapids in a forested gorge. INR 1,500–2,500. Available July–October only. The Western Ghats landscape is extraordinary.",
+      "why": "The version of Goa with nothing to do with the beach exists in the mountains behind it."
+    },
+    "budget": {
+      "experience": "The Goa local day for INR 820",
+      "details": "Calangute local market morning free. Vinayak thali lunch INR 220. Fontainhas walk Panaji free. Chapora Fort sunset free. Local dhaba dinner INR 200. Scooter for the day INR 400. Total: INR 820 for a complete extraordinary Goa day.",
+      "why": "The best Goa day costs under INR 1,000. Most tourists spend INR 3,000 and have a worse experience."
+    },
+    "luxury": {
+      "experience": "Private villa with pool and rice paddy view for one night",
+      "details": "Goa villa culture offers private pools overlooking rice terraces for INR 8,000–25,000 for the entire villa. The combination of private pool, no other guests, rice paddy view, and Goa morning is the specific luxury that nothing else replicates.",
+      "why": "The memory couples and honeymooners carry from Goa is almost always the morning coffee by their private pool."
+    }
+  },
+
+  "travelerGuides": {
+    "solo": {
+      "accommodation": "Zostel Goa (Anjuna): INR 500–800 dorm, INR 1,500–2,500 private. Best social hostel. Good events programme.",
+      "meetingPeople": "Beach shacks at sunset — tables naturally share. Yoga classes in Arambol. Free walking tours in Old Goa.",
+      "itineraryLogic": "Solo in Goa moves at their own pace. Best solo day: morning Divar Island, afternoon Fontainhas, evening Chapora Fort. INR 500 total."
+    },
+    "couple": {
+      "bestBeaches": "Palolem (crescent, beautiful), Agonda (empty, widest), Morjim (quiet north), Butterfly Beach (private, boat only)",
+      "bestDinners": "Thalassa (Vagator sunset view), Fisherman's Wharf (Sal river), Ritz Classic (Panaji local quality), Villa Blanche (south Goa heritage)",
+      "regrets": "Spending the whole trip in Baga — the couple who goes to south Goa has a completely different honeymoon."
+    },
+    "honeymoon": {
+      "accommodation": "Private villas: Wildflower Retreat (Assagao), Nilaya Hermitage (Arpora), Vivanta Goa (Panaji). INR 8,000–25,000/night.",
+      "experiences": "Butterfly Beach private morning, Thalassa dinner, Black Sheep Bistro dinner, Divar Island morning, private dolphin watching at dawn",
+      "avoid": "Baga beach in December — too crowded for romance"
+    },
+    "family": {
+      "bestBeaches": "Colva and Benaulim south Goa — calmer water, fewer crowds, safer for children. Avoid north Goa beaches for young children — stronger currents.",
+      "activities": "Spice plantation (elephant, lunch), Old Goa churches (historical), Dolphin watching morning, Saturday Night Market",
+      "accommodation": "South Goa resort area (Majorda, Benaulim) — better for families than north Goa tourist strips."
+    },
+    "senior": {
+      "accommodation": "Panaji hotels are the most accessible — flat ground, close to restaurants, no beach walking required.",
+      "heatManagement": "April–October: all outdoor activities before 10am. The Old Goa churches and Fontainhas are manageable year-round in the morning.",
+      "bestActivities": "Fontainhas walk (flat, shaded), Old Goa by car and short walks, Spice plantation (vehicle-accessible), river cruise on Mandovi"
+    },
+    "budget": {
+      "dailyBudget": "INR 1,500–2,500 covers scooter hire, accommodation, three meals, and one activity",
+      "accommodation": "Assagao guesthouses INR 800–2,000/night. Far better value than Baga at the same price.",
+      "foodStrategy": "Village thalis for lunch INR 150–250. Beach shack breakfasts INR 80–150. Local dhaba dinners INR 200–350.",
+      "freeActivities": "Chapora Fort, Fontainhas, Old Goa churches, all beaches, Anjuna Flea Market entry, Divar Island (INR 20 total)"
+    },
+    "photographer": {
+      "goldenHour": "Fontainhas 5:30–7pm. Chapora Fort 45 mins before sunset. Palolem beach at dawn. Old Goa churches before 9am.",
+      "hiddenShots": "Divar Island Portuguese mansions, Panaji fishing quarter at 5am, Mandovi River abra crossings, Anjuna Flea Market faces and textiles",
+      "equipment": "Monsoon season humidity — keep equipment in sealed bags. Silica gel packets essential."
+    },
+    "indian": {
+      "food": "Goa Catholic food (pork vindaloo, beef xacuti, prawn balchão) is unlike anything available in the rest of India. Goan Hindu food (saraswat cuisine — fish-based, coconut-heavy, no meat) is equally unique. Try both.",
+      "temples": "Mangeshi Temple (Priol), Mahalsa Temple (Mardol), Shri Shantadurga Temple (Kavlem) — the Hindu temples that survived Portuguese occupation are among the most architecturally significant in western India.",
+      "festivals": "Goa Carnival (February), Shigmo (Holi equivalent with unique Goan traditions, March), Christmas in Old Goa (December 25 — extraordinary atmosphere)"
+    }
+  },
+
+  "hotels": {
+    "north_goa_luxury": [
+      { "name": "W Goa", "area": "Vagator", "nightly": "INR 15,000–45,000", "honest": "Best luxury hotel in north Goa. Stunning pool, AWAY spa, Spice Traders restaurant. Vagator hillside location.", "tip": "Book sunset terrace dinner at Spice Traders in advance." },
+      { "name": "Taj Holiday Village", "area": "Candolim", "nightly": "INR 12,000–35,000", "honest": "Best Taj property in Goa for families and couples. Beach access, multiple pools, reliable service.", "tip": "" }
+    ],
+    "north_goa_mid": [
+      { "name": "Nilaya Hermitage", "area": "Arpora", "nightly": "INR 8,000–20,000", "honest": "Boutique hilltop property. Best pool in north Goa for the price. Away from the tourist strip. Stunning views.", "tip": "" },
+      { "name": "Casa de Olga", "area": "Anjuna", "nightly": "INR 3,500–8,000", "honest": "Portuguese-heritage guesthouse. Excellent breakfast. Short walk to Anjuna beach and Wednesday market.", "tip": "" }
+    ],
+    "south_goa_luxury": [
+      { "name": "Taj Exotica", "area": "Benaulim", "nightly": "INR 18,000–55,000", "honest": "Finest resort in south Goa. Enormous beach frontage. Multiple restaurants. The benchmark.", "tip": "Garden rooms are as good as sea-facing rooms at 30% less cost." },
+      { "name": "Alila Diwa", "area": "Majorda", "nightly": "INR 12,000–30,000", "honest": "Best pool in south Goa. Rice paddy views from some rooms. Quieter neighbourhood.", "tip": "" }
+    ],
+    "budget": [
+      { "name": "Zostel Goa", "area": "Anjuna", "nightly": "INR 500–2,500", "honest": "Best social hostel in Goa. Rooftop. Good events. INR 500 dorm, INR 1,500–2,500 private room.", "tip": "" },
+      { "name": "Assagao Village guesthouses", "area": "Assagao", "nightly": "INR 800–2,000", "honest": "Village setting, 10 mins from beach, significantly quieter and better value than Baga or Anjuna.", "tip": "Search Booking.com 'Assagao guesthouse' for best options." }
+    ]
+  },
+
+  "transport": {
+    "scooter": "INR 300–500/day. The essential Goa transport. Valid licence required. Left-hand traffic applies.",
+    "driver": "INR 500–700 full day, INR 150–200/hour. Best for those unfamiliar with Indian roads.",
+    "goaMiles": "App-based taxis more reliable and cheaper than street autos. Pre-negotiate all auto fares without meter.",
+    "ferry": "Multiple ferry crossings across Mandovi and Zuari rivers — free or INR 10. Essential for south Goa and Divar Island access.",
+    "prepaidTaxi": "Fixed prices at GOI Dabolim airport to north Goa INR 700–900, south Goa INR 400–600. Fixed price counter at arrivals.",
+    "konkanRailway": "Connects Madgaon (south) and Thivim (north) to Mumbai and other cities. Most scenic railway in India. Book IRCTC minimum 2 weeks ahead.",
+    "inter_goa": "North Goa to South Goa: NH66 coastal highway fastest. 45–60 minutes. Never plan both north and south in the same half-day."
+  },
+
+  "trafficIntelligence": {
+    "worstTime": "December 25–January 1 — roads gridlocked throughout north Goa. Also: Carnival weekend February.",
+    "bestRoute": "NH66 coastal highway for north-south. Village roads scenic but slower.",
+    "itineraryRule": "Plan north Goa and south Goa as separate days. Anjuna Flea Market (Wednesday) and Chapora Fort can be combined in one north Goa day. Palolem, Agonda, and Old Goa belong to a south Goa day.",
+    "parkingNote": "Anjuna Wednesday market: scooter parking fills by 10am. Park 300m from entrance and walk.",
+    "monsoon": "June–September: roads occasionally flood after heavy rain. Inland roads to spice plantations can wash out. Check conditions before driving."
+  },
+
+  "seasonal": {
+    "october": { "temp": "28–32°C", "reality": "Monsoon ending. Everything reopening. Lowest prices of the dry season. Post-monsoon green. The best value month in Goa.", "priceLevel": "Low" },
+    "november": { "temp": "25–30°C", "reality": "Excellent. Everything open. Clean beaches after monsoon. Book 3–4 weeks ahead. The season properly begins.", "priceLevel": "Medium" },
+    "december1_20": { "temp": "22–28°C", "reality": "Peak season beginning. Good weather. Prices rising but not yet extreme. Best balance of December.", "priceLevel": "High" },
+    "december20_jan5": { "temp": "22–28°C", "reality": "Peak of peak. Christmas and New Year. Prices triple. Crowds everywhere. Completely transforms the Goa experience. Book 6–8 weeks minimum.", "priceLevel": "Highest" },
+    "january": { "temp": "22–28°C", "reality": "Still peak but calmer after New Year. Best weather of the year. Book early.", "priceLevel": "High" },
+    "february": { "temp": "25–30°C", "reality": "Excellent weather. Goa Carnival runs in February — India's largest street festival. Crowds thinning from peak. Good value.", "priceLevel": "Medium-High" },
+    "march": { "temp": "27–33°C", "reality": "Getting hot. Shoulder season. Good value. Shigmo (Goan Holi) in March. Some beach shacks closing.", "priceLevel": "Medium" },
+    "april": { "temp": "30–35°C", "reality": "Hot. Many beach shacks closing end of April. Prices drop 40%. Still possible with heat management.", "priceLevel": "Low" },
+    "may": { "temp": "32–36°C", "reality": "Pre-monsoon. Very hot and humid. Most infrastructure closing. Not recommended for first visit.", "priceLevel": "Very Low" },
+    "june_september": { "temp": "28–34°C", "reality": "Monsoon. Most beach shacks shut. Western Ghats waterfalls accessible. Dramatically cheaper. Genuinely beautiful — some travellers prefer monsoon Goa to peak season.", "priceLevel": "Lowest" }
+  },
+
+  "goaFestivals": {
+    "carnival": "February (4 days before Lent). Panaji Saturday parade is the main event. King Momo floats, dancing troupes, street parties. Free to watch. India's largest street festival.",
+    "shigmo": "March (around Holi). Goa's version of Holi with unique Goan folk traditions. Processions through Panaji and Mapusa.",
+    "christmas": "December 25. Old Goa churches decorated and lit. Midnight mass at Se Cathedral and Bom Jesus. The most atmospheric Christmas in India.",
+    "saojoao": "June 24 (St. John the Baptist Day). North Goa villages fill wells with flowers and people jump into them. Beer and flowers. Genuinely local, not tourist.",
+    "navratri": "October (9 nights). The Hindu Goan community celebrates extensively. Processions, music, decorations in Panaji."
+  },
+
+  "sunsetSpots": [
+    { "name": "Chapora Fort battlements", "area": "Vagator", "note": "Best sunset view in north Goa. Free. River estuary and sea simultaneously.", "timing": "45 mins before sunset" },
+    { "name": "Thalassa restaurant terrace", "area": "Small Vagator", "note": "Best paid sunset view. Dinner with the Arabian Sea below.", "timing": "Book 6pm seating" },
+    { "name": "Palolem beach crescent", "area": "South Goa", "note": "Sunset behind the southern headland. The most beautiful beach sunset in Goa.", "timing": "On the beach, no timing required" },
+    { "name": "Baga river bridge", "area": "North Baga", "note": "Less visited than the main beach. The sunset reflected in the Baga River.", "timing": "30 mins before sunset" },
+    { "name": "Cabo de Rama Fort cliff", "area": "South Goa", "note": "The most dramatic clifftop sunset in Goa. Almost no tourists.", "timing": "30 mins before sunset" }
+  ],
+
+  "dayTrips": {
+    "hampi": {
+      "distance": "6 hours by bus or 4 hours by car",
+      "note": "UNESCO World Heritage ruins of the Vijayanagara Empire across a boulder landscape unlike anywhere on earth. Weekend trip from Goa — Saturday bus overnight, Sunday full day, Monday return. The most extraordinary day trip from Goa."
+    },
+    "dudhsagar_waterfall": {
+      "distance": "3 hours from Panaji",
+      "note": "One of India's tallest waterfalls (310m). Accessible by jeep safari from Collem or by train (the train crosses a bridge over the falls). Best during monsoon and immediately after (October–December). INR 1,500–2,500 for jeep safari.",
+      "bestTime": "October–December when water flow is maximum"
+    },
+    "karwar": {
+      "distance": "70km south, 1.5 hours",
+      "note": "The first Karnataka coastal town south of Goa. Devbagh Beach has a stunning river-meets-sea island beach. Navy Museum. Less crowded than Goa beaches in peak season."
+    },
+    "dandeli": {
+      "distance": "3 hours inland to Karnataka",
+      "note": "White water rafting and jungle safari in the Western Ghats. Overnight packages from Goa operators. The most dramatic nature experience accessible from Goa."
+    }
+  },
+
+  "shopping": {
+    "anjunMarket": "Wednesday Anjuna Flea Market — best shopping in Goa. Vintage jewellery, Tibetan silver, Kashmiri crafts, local art. Bargain at 50–60% of opening price.",
+    "saturdayMarket": "Arpora Saturday Night Market — same vendors, slightly lower prices, better food stalls, cooler evening timing.",
+    "cashewFeni": "Buy at Panjim's Panaji Old Quarters shops or licensed liquor stores. Best cashew feni: ask hotel staff for their recommendation, not tourist shops. Best variety: Fiesta at Campal.",
+    "goaSausages": "Goa sausages (chorinhas) — buy vacuum-packed from any supermarket for taking home. INR 200–400 for 500g. Available at Don Bosco Market Panaji.",
+    "spices": "Or Tor Kor equivalent: Mapusa Friday Market — the largest local market in north Goa, every Friday, spices, vegetables, Goan specific produce.",
+    "cashewNuts": "Goa produces the finest cashews in India. Buy at Mapusa Market or from plantation shops in Ponda. INR 400–600/kg vs INR 800–1,200 in Delhi or Mumbai."
+  },
+
+  "culturalRules": {
+    "critical": [
+      "Goa is predominantly Catholic and Hindu — both communities coexist with genuine tolerance. Respect both equally.",
+      "Old Goa churches: covered shoulders and knees required for entry.",
+      "Hindu temples in Ponda: remove shoes, modest dress, photography permitted in outer areas only.",
+      "Swimming: rip currents on several north Goa beaches. Always swim between the flags. Lifeguards operate November–May.",
+      "Noise curfew: residential areas 10pm strictly enforced since 2023 by local police."
+    ],
+    "dressCode": "Beach: swimwear fine. Restaurants and towns: casual. Churches and temples: covered shoulders and knees.",
+    "bargaining": "Expected at Anjuna and night markets. Never at restaurants. Start at 50% of asking price at flea markets. Always smile throughout.",
+    "localRelations": "The long-term Goan community has complex feelings about tourism. Respect local property and engage with Goans as residents rather than service providers.",
+    "alcohol": "Goa has the lowest alcohol prices in India — state excise duty is minimal. Feni (local cashew spirit) is a Goan GI product. Always buy from licensed shops.",
+    "photography": "Ask before photographing fishermen at work, market traders, or residents. Most will say yes warmly if asked."
+  },
+
+  "visaIntelligence": {
+    "indianCitizens": "No visa required — domestic travel.",
+    "foreignNationals": "India e-Visa at indianvisaonline.gov.in. USD 25–80 depending on nationality. 30–90 day stay. Apply minimum 4 days before travel.",
+    "goaSpecific": "Goa was a Portuguese territory until 1961. Some heritage properties have unique land documentation. Not relevant for tourists but interesting context.",
+    "tip": "GOI Dabolim airport has limited late-night transport. Pre-arrange hotel pickup if arriving after 9pm."
+  },
+
+  "pricingBenchmarks": {
+    "scooter_hire": "INR 300–500/day",
+    "driver_full_day": "INR 500–700",
+    "taxi_dabolim_north_goa": "INR 700–900 (prepaid at airport)",
+    "taxi_dabolim_south_goa": "INR 400–600 (prepaid at airport)",
+    "taxi_mopa_north_goa": "INR 400–600",
+    "beach_shack_meal": "INR 300–700/person",
+    "local_thali": "INR 180–280/person",
+    "mid_restaurant": "INR 500–1,200/person",
+    "luxury_restaurant": "INR 800–1,500/person",
+    "beer_kingfisher": "INR 80–150 (beach shack)",
+    "feni_shot": "INR 40–80 (local toddy shop)",
+    "guesthouse_budget": "INR 800–2,000/night",
+    "hotel_mid": "INR 3,000–8,000/night",
+    "resort_peak": "INR 8,000–25,000/night (December)",
+    "ferry_divar": "INR 10 each way",
+    "anjuna_flea_entry": "Free",
+    "spice_plantation_lunch": "INR 400–600 all-in",
+    "dolphin_watching": "INR 300–500/person"
+  },
+
+  "savingsIntelligence": [
+    "Visit in October — same city, 40–60% lower prices than December, better weather than summer",
+    "Hire scooter INR 400/day vs auto-rickshaw for multiple stops INR 300–500 per auto — saves INR 600–1,000/day",
+    "Vinayak thali INR 220 vs tourist beach shack equivalent INR 500–700 — saves INR 300–500 per lunch",
+    "Book Anjuna guesthouse vs Baga hotel — same quality, 40% less. Same 10-minute distance to beach.",
+    "Buy cashew nuts at Mapusa Market INR 400–600/kg vs Delhi or Mumbai INR 800–1,200/kg",
+    "Buy feni at licensed liquor store INR 200–300/bottle vs tourist shop INR 500–600 for same product",
+    "Morning beach shack breakfast INR 80–150 vs hotel breakfast INR 300–600 for equivalent food",
+    "Saturday Night Market handicrafts — same quality as Anjuna Wednesday market, 10–15% lower prices and better food",
+    "Prepaid airport taxi at fixed INR 700–900 vs negotiating with unmetered taxi INR 1,200–1,800"
+  ],
+
+  "practical": {
+    "electricity": "Type D and M Indian plugs, 220V. Same as rest of India. No adapter needed.",
+    "bestExchange": "Panaji or Mapusa city banks and ATMs. Never exchange at beach shack area touts.",
+    "bestCreditCard": "All major Indian cards work. International cards work at ATMs everywhere except very remote villages.",
+    "simCard": "Jio and Airtel have good coverage in tourist areas. Coverage reduces in interior Goa villages. Buy at any mobile shop with Aadhaar/passport.",
+    "tipping": "Beach shacks: round up to next 50. Restaurants: 10% if service not included. Scooter delivery drivers: INR 20–30.",
+    "apps": "GoaMiles (taxis), Rapido (bikes and autos), Zomato (restaurant discovery and delivery), Booking.com (accommodation), MakeMyTrip (trains and flights from Goa)"
+  },
+
+  "hiddenPlaces": [
+    { "name": "Divar Island", "note": "River island, no cars, Portuguese mansions, jackfruit orchards, INR 10 ferry. Almost entirely unknown to tourists." },
+    { "name": "Butterfly Beach", "note": "South Goa, boat access only from Palolem, no roads, no shacks in quiet hours, completely private." },
+    { "name": "Cabo de Rama Fort", "note": "South Goa clifftop fort, dramatic coastal views, free, almost no tourists, 8th century continuous occupation." },
+    { "name": "Chandor Village — Braganza House", "note": "South Goa heritage village. 400-year-old Portuguese mansion with original furnishings, open for tours by appointment." },
+    { "name": "Cansaulim Beach", "note": "South Goa empty beach 5km from Margao. Palm-lined, no shacks, the Goa before anyone discovered it." },
+    { "name": "Mangeshi Temple, Priol", "note": "Most visited Hindu temple in Goa — visited by Goans, almost never by beach tourists. Extraordinary architecture." },
+    { "name": "Fontainhas Latin Quarter", "note": "Oldest surviving Latin Quarter in Asia. Evening golden hour completely tourist-free." },
+    { "name": "Sao Joao festival (June 24)", "note": "Villages in north Goa fill wells with flowers and locals jump into them. Not for tourists — but witnessing it is extraordinary." },
+    { "name": "Panaji fish market (Panaji Dayanand Bandodkar Marg)", "note": "Wholesale fish market, 5am–8am, where Goa's restaurants buy their daily catch. The city before it wakes up." },
+    { "name": "Bhagwan Mahaveer Wildlife Sanctuary", "note": "The Western Ghats behind Goa. Dudhsagar waterfall within it. Maharashtra border forest. Completely different ecosystem." }
+  ],
+
+  "insiderIntelligence": [
+    "The best cashew feni comes from Bardez taluka in north Goa. A toddy shop owner who makes his own feni is pouring a completely different product from the bottle at a tourist shack.",
+    "The beach shack that has been in the same location for 20+ years is always better than the one that opened last season. Ask how long they have been there.",
+    "Goa's Catholic community eats pork and beef daily. The restaurants that serve this without advertising to tourists are the most interesting food experiences in Goa.",
+    "Panaji's Café Bhonsle (near Municipal Garden) makes the best beef cutlet in Goa — an institution since 1957 that no tourist guide mentions.",
+    "Goa's Konkan railway from Mumbai is the most scenic train journey in India. The section from Goa north through Sawantwadi and south through Kumta has tunnels, viaducts, and rainforest. Book a window seat on the left side going north.",
+    "Goan spice plantations use the same species as Kerala, Coorg, and Northeast India — but Goa's varieties are specifically cultivated for Portuguese colonial export. The nutmeg grown here produces a different essential oil profile from Indonesian nutmeg.",
+    "The Portuguese left Goa in 1961 but their food culture remained. Goa is the only part of India where beef and pork are the prestige meats — the result of 450 years of Catholic Portuguese governance over a Hindu population.",
+    "The Goa monsoon closes the beach shacks but opens the waterfalls. Dudhsagar (310m) is accessible October–December. The Western Ghats behind Goa are genuinely extraordinary in the rain.",
+    "Goa has the cheapest alcohol in India due to low state excise duty. A bottle of good Indian whisky at a Goa wine shop is INR 300–400 vs INR 700–900 in Delhi or Mumbai."
+  ]
+}

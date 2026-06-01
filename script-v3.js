@@ -5,6 +5,27 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  /* ---------- All inline toggles ---------- */
+  document.querySelectorAll('.inline-toggle').forEach(toggleGroup => {
+    toggleGroup.querySelectorAll('.toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        toggleGroup.querySelectorAll('.toggle').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  });
+
+  /* ---------- Social comfort — show only for solo ---------- */
+  function updateSocialComfortVisibility() {
+    const adults = parseInt(document.querySelectorAll('.stepper .value')[0]?.textContent || '1');
+    const children = parseInt(document.querySelectorAll('.stepper .value')[1]?.textContent || '0');
+    const section = document.getElementById('socialComfortSection');
+    if (section) section.style.display = (adults === 1 && children === 0) ? 'block' : 'none';
+  }
+  document.querySelectorAll('.stepper').forEach(s => {
+    s.querySelectorAll('button').forEach(b => b.addEventListener('click', updateSocialComfortVisibility));
+  });
+
   /* ---------- 👨‍👩‍👧 Passenger Steppers ---------- */
   document.querySelectorAll('.stepper').forEach(stepper => {
     const dec = stepper.querySelector('.dec');
@@ -617,6 +638,16 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    // ✅ Capture first visit vs repeat
+    const firstVisit = document.querySelector('#visitToggle .active')?.dataset.value || "first";
+
+    // ✅ Capture all intelligence fields
+    const travelPace = document.querySelector('#paceToggle .active')?.dataset.value || "balanced";
+    const travelerExperience = document.querySelector('#experienceToggle .active')?.dataset.value || "experienced";
+    const emotionalState = document.querySelector('#emotionToggle .active')?.dataset.value || "exploring";
+    const diningDepth = document.querySelector('#diningToggle .active')?.dataset.value || "balanced";
+    const socialComfort = document.querySelector('#socialToggle .active')?.dataset.value || "balanced";
+
     // ✅ FINAL DATA sent to backend
     const tripData = {
       name,
@@ -635,7 +666,13 @@ document.addEventListener('DOMContentLoaded', () => {
       adults,
       children,
       infants,
-      tripDays
+      tripDays,
+      firstVisit,
+      travelPace,
+      travelerExperience,
+      emotionalState,
+      diningDepth,
+      socialComfort
     };
 
     console.log("✅ Trip Data being saved:", tripData); // Debug log

@@ -1,0 +1,736 @@
+{
+  "destination": "paris",
+  "aliases": ["paris", "cdg", "ory", "france", "île-de-france"],
+  "lastUpdated": "2025",
+
+  "hardFacts": {
+    "flightFromDelhi": "New Delhi to Paris CDG: 8–9 hours direct. Air France, Air India. Return fare: INR 55,000–1,20,000 economy. Book 8–12 weeks ahead for best prices.",
+    "flightFromMumbai": "Mumbai to Paris CDG: 9 hours direct. Air France, Air India.",
+    "twoAirports": "CDG Charles de Gaulle (main international). ORY Orly (domestic and some European). CDG is 30km northeast. ORY is 14km south. Most India flights use CDG.",
+    "timezone": "CET (UTC+1) winter, CEST (UTC+2) summer (last Sunday March to last Sunday October). India is 5.5 hours ahead in winter, 4.5 hours in summer.",
+    "currency": "Euro (EUR). EUR 1 = approximately INR 90–95. Best exchange: city bureau de change or ATM. NEVER at CDG airport — rates 8–12% worse.",
+    "visaIndia": "Schengen visa required. Apply at French consulate or VFS Global minimum 3 weeks before travel. Cost: EUR 80. Requires accommodation proof, return ticket, travel insurance EUR 30,000+ coverage, bank statements showing sufficient funds.",
+    "temperature": "Spring Apr–May: 15–20°C — the best season. Summer Jun–Aug: 22–30°C, peak crowds. Autumn Sep–Oct: 12–18°C, excellent. Winter Nov–Mar: 3–8°C, quietest.",
+    "criticalRule": "The Paris Metro is faster, cheaper, and more reliable than taxis for almost every journey. Navigo Découverte weekly pass: EUR 30 unlimited Metro, RER, bus for 7 days. Never buy single tickets if staying more than 2 days.",
+    "electricity": "Type E French plugs (2 round pins). 230V. Indian plugs need adapter. Adapters available at any pharmacy or airport shop.",
+    "water": "Paris tap water is excellent — safe, tested, and better than most bottled water. Fill a bottle at any tap. Save EUR 3–5/day."
+  },
+
+  "emergencyContacts": {
+    "police": "17",
+    "ambulance_samu": "15",
+    "fire": "18",
+    "europeanEmergency": "112",
+    "touristPolice": "+33 1 53 73 53 73",
+    "indianEmbassy": "+33 1 40 50 70 70",
+    "indianEmbassyEmergency": "+33 6 07 20 90 44 (24/7 for Indian nationals)",
+    "americanHospitalParis": "+33 1 46 41 25 25 (best for tourists with insurance, English-speaking)",
+    "hopitalHotelDieu": "+33 1 42 34 82 34 (central Paris, near Notre-Dame, public hospital)",
+    "hertfordBritishHospital": "+33 1 47 55 12 12 (English-speaking staff)",
+    "pharmacyDerhy": "84 Avenue des Champs-Élysées, 24 hours",
+    "pharmacyAnglo": "+33 1 47 42 49 40 (English-speaking pharmacy, 9th arrondissement)"
+  },
+
+  "policeStations": [
+    { "name": "Préfecture de Police (HQ)", "area": "Île de la Cité, 1st", "phone": "+33 1 53 73 53 73", "address": "9 Boulevard du Palais, 75004" },
+    { "name": "Commissariat du 1er", "area": "Louvre, Châtelet, Les Halles", "phone": "+33 1 47 03 10 10", "address": "1st arrondissement" },
+    { "name": "Commissariat du 6e/7e", "area": "Saint-Germain, Eiffel Tower", "phone": "+33 1 40 56 22 00", "address": "6th arrondissement" },
+    { "name": "Commissariat du 8e", "area": "Champs-Élysées, Opéra", "phone": "+33 1 44 90 37 00", "address": "8th arrondissement" },
+    { "name": "Commissariat du 18e", "area": "Montmartre, Sacré-Cœur", "phone": "+33 1 53 06 56 00", "address": "18th arrondissement" },
+    { "name": "Commissariat du 11e", "area": "Bastille, Oberkampf, Canal Saint-Martin", "phone": "+33 1 49 23 59 59", "address": "11th arrondissement" }
+  ],
+
+  "firstVisitorEssentials": {
+    "summary": "First-time Paris visitor. The famous things are famous because they are genuinely worth seeing. See them — but at the right hour, from the right angle, with the right timing.",
+    "mustInclude": [
+      "Eiffel Tower — viewed from Trocadéro gardens at sunset, not directly below. Tower entry: book at toureiffel.paris minimum 2 weeks ahead.",
+      "Louvre Museum — pre-book online EUR 22. Go Wednesday or Friday evening (open until 9:45pm) to avoid weekend afternoon crowds.",
+      "Montmartre morning walk — 8am weekday before tourists arrive. Sacré-Cœur, the vineyard, the cobbled streets.",
+      "Seine river walk both banks — free, best at evening when lights come on. 3km from Notre-Dame to Musée d'Orsay.",
+      "One proper French café sitting — café crème at a terrace table, watching the street. This IS Paris."
+    ],
+    "localInsiderToAdd": "Most visitors spend their entire trip in the 1st and 8th arrondissements. Paris is 20 arrondissements. The 11th has the best wine bars and restaurants. The 18th (Montmartre) has the cafés locals actually use. The 5th has the bookshops that make sense of why people love this city.",
+    "regrets": [
+      "Queued for the Louvre without pre-booking — ticket queue can be 90 minutes. Pre-booked queue is 5 minutes.",
+      "Ate within 500m of the Eiffel Tower — restaurants there charge triple for mediocre food. Walk 10 minutes in any direction.",
+      "Visited museums on Saturday or Sunday afternoon — early morning or Wednesday/Friday evening visits are dramatically better.",
+      "Didn't buy Navigo Découverte weekly pass — EUR 30 unlimited transit vs EUR 2.15 per journey.",
+      "Tried to see too much — Paris rewards slowing down. Three things done properly beats ten things rushed."
+    ]
+  },
+
+  "repeatVisitorIntelligence": {
+    "insiderNarrative": "Paris has been described so many times that the description has replaced the place for most visitors. The city underneath the description is quieter, stranger, and considerably more interesting.",
+    "skipThese": [
+      "Eiffel Tower if already done",
+      "Louvre full day if already done — go for one section only",
+      "Champs-Élysées as primary activity — it is a commercial strip"
+    ],
+    "goHere": [
+      "Palais Royal gardens — locals' lunch spot, arcaded galleries with independent shops, completely different from tourist Paris",
+      "Canal Saint-Martin Sunday morning — pedestrianised, produce market, café culture, iron footbridges, almost no tourists",
+      "Père Lachaise Cemetery — Chopin, Proust, Oscar Wilde, Jim Morrison, more moving than any museum",
+      "Marché d'Aligre — most authentic Paris food market, Tuesday–Sunday mornings, no tourist stalls",
+      "Musée de Cluny (Medieval museum) — never crowded, extraordinary medieval tapestries, EUR 12",
+      "Belleville neighbourhood — multicultural Paris tourists never see, exceptional street art, best falafel",
+      "Promenade Plantée — world's first elevated park (1993, predated New York's High Line), 4.5km, free, almost no tourists",
+      "Passage des Panoramas — oldest covered passage in Paris (1800), stamp dealers, antique prints, cheap excellent restaurants"
+    ]
+  },
+
+  "neighborhoods": {
+    "le_marais_3rd_4th": {
+      "character": "The most vibrant neighbourhood in Paris. Medieval streets, Jewish quarter, LGBTQ+ community, the best art galleries, excellent falafel. Place des Vosges — the oldest planned square in Paris (1612), free to enter.",
+      "bestFor": ["Walking, gallery browsing", "Jewish quarter dining", "LGBTQ+ visitors — most inclusive area"],
+      "avoid": ["Tourist restaurants on the main Jewish quarter street — same food elsewhere for less"],
+      "insider": "Place des Vosges at 7am before any tourist arrives. The arcade is empty, the gardens are quiet, the symmetry is perfect. Café Ma Bourgogne on the northeast corner for wine and steak frites."
+    },
+    "montmartre_18th": {
+      "character": "The artists' village on the hill. Sacré-Cœur at the top, the vineyard halfway down, winding cobbled streets, cafés unchanged since the 1950s.",
+      "bestFor": ["Photography at 8am", "Genuine café culture", "The view of Paris from the steps"],
+      "avoid": ["Tourist trap artists near Sacré-Cœur who pressure you to buy portraits", "Visiting after 11am in peak season"],
+      "insider": "Café des Deux Moulins on rue Lepic — the café from the film Amélie. Still operating. Still has the original interior. Come at 8am for breakfast before the film tourists arrive."
+    },
+    "saint_germain_6th": {
+      "character": "The literary Left Bank. Café de Flore, Les Deux Magots, La Hune bookshop. Sartre and Beauvoir wrote here. More expensive but the street life quality justifies it.",
+      "bestFor": ["Café culture", "Bookshops", "Fine food shopping at Le Bon Marché food hall"],
+      "avoid": ["Full meals at the famous literary cafés — the terrace coffee is the point"],
+      "insider": "The covered market Marché Saint-Germain on rue Lobineau has a cheese stall, charcuterie, and fishmonger supplying the neighbourhood's restaurants. Buy provisions for Luxembourg Gardens picnic."
+    },
+    "canal_saint_martin_10th": {
+      "character": "The neighbourhood where young Parisians live. Canal with iron footbridges and plane trees, independent coffee shops, natural wine bars, record shops.",
+      "bestFor": ["Sunday morning canal walk", "Wine bars in the evening", "Repeat visitors wanting neighbourhood Paris"],
+      "avoid": [],
+      "insider": "On Sundays the road along the canal closes to cars. A produce market sets up. Cafés put tables on the pavement. This is the most genuinely Parisian Sunday morning accessible to a visitor."
+    },
+    "11th_bastille": {
+      "character": "The dining and nightlife district. More local than Marais, better quality-to-price ratio. Septime, Bones, Clown Bar — the restaurants defining contemporary Paris cooking are here.",
+      "bestFor": ["Serious dining", "Natural wine bars", "Repeat visitors wanting locals' Paris"],
+      "avoid": [],
+      "insider": "Rue de la Roquette and Rue Oberkampf on a Thursday evening — the neighbourhood's social life at full intensity. The bar Le Servan is the most honest neighbourhood bar in Paris."
+    },
+    "belleville_20th": {
+      "character": "The multicultural Paris tourists never see. Chinese community, African community, Jewish community, hip artist community all overlapping. The most diverse neighbourhood in the city.",
+      "bestFor": ["Authentic cheap eating", "Street art", "Repeat visitors wanting real Paris"],
+      "avoid": [],
+      "insider": "Parc de Belleville has the best free view of Paris — better than Sacré-Cœur and almost entirely unknown. The view encompasses the entire city from east to west."
+    },
+    "latin_quarter_5th": {
+      "character": "The student district around the Sorbonne. Medieval streets, bookshops, the Panthéon, Jardin des Plantes. The neighbourhood that makes sense of why people love Paris intellectually.",
+      "bestFor": ["Bookshops (Shakespeare and Company)", "Walking", "Musée de Cluny"],
+      "avoid": ["Tourist restaurants on the main rue de la Huchette — the worst food in Paris"],
+      "insider": "Shakespeare and Company bookshop opens at 10am. Arrive just after opening on a weekday. The resident cat, the upstairs reading room with a piano and Notre-Dame view, the piano — all still there."
+    }
+  },
+
+  "restaurants": [
+    {
+      "name": "L'As du Fallafel",
+      "area": "Le Marais, rue des Rosiers",
+      "type": "budget",
+      "cuisine": "Israeli/Jewish falafel",
+      "orderThis": "Falafel special EUR 7, Shawarma EUR 9",
+      "pricePerPerson": "EUR 7–12",
+      "hours": "Sun–Thu 11am–midnight. Closes Shabbat (Friday sundown to Saturday evening).",
+      "reservation": "No. Queue outside.",
+      "insider": "The queue wraps around the corner on weekends and moves fast. The falafel is legendary for a specific reason — the sauce-to-falafel ratio and the quality of the eggplant inside. Every Parisian has a strong opinion about whether it is worth the queue. It is.",
+      "isSurprise": false,
+      "scores": { "budget": 10, "solo": 9, "firstTimer": 8, "repeat": 8, "foodie": 9, "couple": 7, "family": 8, "photographer": 6, "luxury": 2, "adventure": 7 }
+    },
+    {
+      "name": "Septime",
+      "area": "11th arrondissement",
+      "type": "luxury",
+      "cuisine": "Modern French bistronomie",
+      "orderThis": "Tasting menu EUR 60 lunch, EUR 90 dinner",
+      "pricePerPerson": "EUR 60–120",
+      "hours": "Lunch and dinner, closed weekends.",
+      "reservation": "3–4 weeks ahead. septime-resto.fr",
+      "insider": "The most talked-about restaurant in Paris among serious eaters. Weekday lunch tasting menu at EUR 60 is one of the finest value propositions in European dining. The kitchen is visible from the dining room.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "foodie": 10, "couple": 9, "honeymoon": 9, "repeat": 10, "solo": 8, "firstTimer": 6, "budget": 0, "family": 3, "photographer": 7 }
+    },
+    {
+      "name": "Bouillon Chartier",
+      "area": "9th arrondissement, Grands Boulevards",
+      "type": "budget",
+      "cuisine": "Classic French brasserie",
+      "orderThis": "Steak frites EUR 14, Escargot EUR 8, Profiteroles EUR 4",
+      "pricePerPerson": "EUR 15–25",
+      "hours": "11:30am–midnight daily.",
+      "reservation": "No. Queue is part of the experience.",
+      "insider": "An 1896 brasserie unchanged since. Waiters write orders on the paper tablecloth. The room is Belle Époque — ornate mirrors, brass fixtures, packed tables. The food is classical and honest. This is where Parisians take visitors they want to impress without spending money.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 10, "budget": 9, "couple": 8, "family": 8, "solo": 8, "photographer": 9, "repeat": 7, "foodie": 7, "luxury": 3, "adventure": 6 }
+    },
+    {
+      "name": "Café de Flore",
+      "area": "Saint-Germain-des-Prés, 6th",
+      "type": "mid",
+      "cuisine": "French café",
+      "orderThis": "Café crème EUR 5.50, Croque monsieur EUR 18",
+      "pricePerPerson": "EUR 15–30",
+      "hours": "7am–1:30am daily.",
+      "reservation": "No.",
+      "insider": "Sartre wrote here. Beauvoir wrote here. Come at 8am on a Tuesday when half the tables are empty and the neighbourhood goes to work. The coffee is excellent. The terrace watching Saint-Germain walk past is a specific Paris pleasure no other city offers.",
+      "isSurprise": false,
+      "scores": { "couple": 9, "firstTimer": 8, "solo": 9, "photographer": 8, "luxury": 7, "foodie": 6, "repeat": 7, "budget": 4, "family": 6, "honeymoon": 8 }
+    },
+    {
+      "name": "Marché d'Aligre provisions and picnic",
+      "area": "12th arrondissement, Ledru-Rollin Metro",
+      "type": "budget",
+      "cuisine": "Paris food market",
+      "orderThis": "Comté aged 24 months, baguette, half-bottle Burgundy from wine merchant. EUR 15–20 total.",
+      "pricePerPerson": "EUR 10–20 for provisions",
+      "hours": "Tue–Sun 8am–1pm.",
+      "reservation": "No.",
+      "insider": "The most genuine food market in Paris. No tourist stalls. A covered market hall with cheese and charcuterie vendors who know every regular customer. Buy provisions and eat in the nearby Promenade Plantée garden. This is the meal Parisians eat on their days off.",
+      "isSurprise": true,
+      "scores": { "foodie": 10, "repeat": 10, "solo": 9, "couple": 8, "budget": 9, "photographer": 8, "firstTimer": 6, "luxury": 4, "family": 7, "adventure": 6 }
+    },
+    {
+      "name": "Le Comptoir du Relais",
+      "area": "Saint-Germain-des-Prés, 6th",
+      "type": "mid",
+      "cuisine": "French bistro",
+      "orderThis": "Confit de canard EUR 24, Terrine de campagne EUR 10, Tarte tatin EUR 9",
+      "pricePerPerson": "EUR 35–55",
+      "hours": "Noon–11pm. Weekday lunch walk-in. Weekends book 3 weeks ahead.",
+      "reservation": "lerelaissaintgermain.com weekends.",
+      "insider": "Yves Camdeborde's bistro is the reason the Paris bistro revival happened. The duck confit is the standard against which all other duck confits in Paris are measured. Weekday lunch can be walk-in with patience.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "couple": 9, "luxury": 7, "solo": 7, "repeat": 9, "firstTimer": 7, "honeymoon": 8, "budget": 3, "family": 5, "photographer": 6 }
+    },
+    {
+      "name": "Frenchie Bar à Vins",
+      "area": "rue du Nil, 2nd arrondissement",
+      "type": "mid",
+      "cuisine": "Modern French wine bar",
+      "orderThis": "Charcuterie plate EUR 18, Cheese selection EUR 16, Natural wine EUR 8–12/glass",
+      "pricePerPerson": "EUR 35–55",
+      "hours": "Dinner from 7pm, no reservations at the bar.",
+      "reservation": "Walk-in for bar. Restaurant: frenchie-restaurant.com",
+      "insider": "The wine bar version of the celebrated Frenchie restaurant next door. Same kitchen, no reservation required, 30% cheaper. The rue du Nil where Frenchie sits has become the most interesting food street in Paris — fromagerie, fishmonger, épicerie all within 50 metres.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "couple": 9, "solo": 9, "repeat": 9, "firstTimer": 7, "luxury": 7, "budget": 4, "family": 4, "photographer": 6, "adventure": 6 }
+    },
+    {
+      "name": "Breizh Café",
+      "area": "Le Marais and Montmartre",
+      "type": "mid",
+      "cuisine": "Authentic Breton crêpes",
+      "orderThis": "Complète galette (ham, egg, cheese) EUR 13, Cidre brut EUR 5",
+      "pricePerPerson": "EUR 20–35",
+      "hours": "Lunch and dinner daily.",
+      "reservation": "breizhcafe.com — recommended.",
+      "insider": "The only crêperie in Paris worth eating at. The galettes are buckwheat, the cidre is from Brittany, the butter is Bordier. Every tourist crêpe stand in Paris is an insult to this restaurant. This is what crêpes actually are.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 9, "budget": 8, "family": 9, "couple": 8, "solo": 8, "foodie": 8, "photographer": 6, "repeat": 8, "luxury": 4, "adventure": 6 }
+    },
+    {
+      "name": "Chez Omar",
+      "area": "Le Marais, rue de Bretagne",
+      "type": "mid",
+      "cuisine": "Moroccan couscous",
+      "orderThis": "Royal couscous EUR 22, Merguez brochette EUR 18",
+      "pricePerPerson": "EUR 25–40",
+      "hours": "Lunch Mon–Sat, dinner daily.",
+      "reservation": "+33 1 42 72 36 26 — recommended.",
+      "insider": "A Parisian institution since 1952. The couscous royale — lamb, chicken, merguez sausage, vegetables in broth — is the finest version available in Paris. The room is full of French celebrities, politicians, and neighbourhood regulars. No pretension. Enormous portions.",
+      "isSurprise": false,
+      "scores": { "foodie": 9, "firstTimer": 8, "couple": 8, "solo": 8, "budget": 6, "repeat": 9, "family": 8, "photographer": 6, "luxury": 4, "adventure": 6 }
+    },
+    {
+      "name": "Du Pain et des Idées",
+      "area": "Canal Saint-Martin, 10th",
+      "type": "budget",
+      "cuisine": "Artisanal bakery",
+      "orderThis": "Pain des amis (sourdough) EUR 5, Escargot pistache-chocolat EUR 3.50",
+      "pricePerPerson": "EUR 5–12",
+      "hours": "Mon–Fri 6:45am–8pm. Closed weekends.",
+      "reservation": "No.",
+      "insider": "The best bakery in Paris according to most Paris food professionals. The sourdough uses a 70-year-old starter. The escargot pastry is not a croissant, not a pain au chocolat — it is specific to this bakery and unlike anything else. Closed weekends because the baker takes weekends off. Come early — sells out.",
+      "isSurprise": true,
+      "scores": { "foodie": 10, "budget": 9, "solo": 9, "repeat": 10, "firstTimer": 7, "couple": 8, "photographer": 7, "luxury": 4, "family": 7, "adventure": 5 }
+    },
+    {
+      "name": "Pierre Hermé (pastry)",
+      "area": "Multiple — Saint-Germain, Marais",
+      "type": "mid",
+      "cuisine": "French pastry — macarons and viennoiserie",
+      "orderThis": "Ispahan macaron EUR 2.50, Infiniment vanilla tart EUR 7",
+      "pricePerPerson": "EUR 8–20",
+      "hours": "10am–7pm daily.",
+      "reservation": "No.",
+      "insider": "Pierre Hermé is the chef who made the macaron a serious food. The Ispahan (rose, raspberry, lychee) macaron has been copied globally. The original remains unmatchable. Less touristy than Ladurée and the food is dramatically better.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "couple": 9, "honeymoon": 9, "firstTimer": 8, "repeat": 8, "luxury": 7, "budget": 5, "family": 8, "photographer": 8, "solo": 7 }
+    },
+    {
+      "name": "Aux Deux Amis",
+      "area": "Oberkampf, 11th",
+      "type": "mid",
+      "cuisine": "Natural wine bar with plates",
+      "orderThis": "Jamón ibérico EUR 14, Burrata EUR 12, Natural wine THB 7–10/glass",
+      "pricePerPerson": "EUR 25–40",
+      "hours": "Noon–2pm, 7pm–11pm. Closed weekends.",
+      "reservation": "No. Walk-in only.",
+      "insider": "The template for the Paris natural wine bar movement. Standing or perched at small tables, exceptional charcuterie and cheese, natural wines from small producers. The 11th arrondissement neighbourhood life visible through the open front. Zero pretension.",
+      "isSurprise": false,
+      "scores": { "foodie": 10, "solo": 9, "repeat": 10, "couple": 8, "budget": 6, "firstTimer": 6, "luxury": 5, "photographer": 5, "family": 2, "adventure": 6 }
+    },
+    {
+      "name": "Guy Savoy",
+      "area": "La Monnaie de Paris, 6th",
+      "type": "luxury",
+      "cuisine": "French haute cuisine — 3 Michelin stars",
+      "orderThis": "Artichoke and black truffle soup EUR 85, Colour of caviar EUR 145. Tasting menu EUR 360–520.",
+      "pricePerPerson": "EUR 360–600",
+      "hours": "Lunch Wed–Fri, Dinner Tue–Sat.",
+      "reservation": "Months ahead. guysavoy.com",
+      "insider": "Inside the Paris Mint (La Monnaie de Paris, built 1775). Guy Savoy has held 3 Michelin stars since 2002. The artichoke and black truffle soup is the dish that defines contemporary French haute cuisine — a dish so original and so right that it has been on the menu for 40 years and still belongs there.",
+      "isSurprise": false,
+      "scores": { "luxury": 10, "foodie": 10, "honeymoon": 10, "couple": 10, "repeat": 9, "solo": 8, "firstTimer": 5, "budget": 0, "family": 1, "photographer": 7 }
+    },
+    {
+      "name": "Le Baratin",
+      "area": "Belleville, 20th",
+      "type": "mid",
+      "cuisine": "French bistro — neighbourhood institution",
+      "orderThis": "Plat du jour EUR 16, Wine by the carafe EUR 8, Tarte tatin EUR 8",
+      "pricePerPerson": "EUR 25–40",
+      "hours": "Lunch Tue–Fri, Dinner Tue–Sat.",
+      "reservation": "+33 1 43 49 39 70 — recommended.",
+      "insider": "The bistro in Belleville that Paris's finest chefs go to on their days off. Chef Raquel Carena has been cooking the same honest French food for 30 years. The plat du jour changes daily based on what the market had that morning. This is the Paris bistro that no guide finds because it is in a neighbourhood that no guide visits.",
+      "isSurprise": true,
+      "scores": { "foodie": 10, "repeat": 10, "solo": 8, "couple": 8, "budget": 7, "firstTimer": 5, "luxury": 5, "photographer": 6, "family": 5, "adventure": 6 }
+    },
+    {
+      "name": "Brasserie Lipp",
+      "area": "Saint-Germain-des-Prés, 6th",
+      "type": "mid",
+      "cuisine": "Classic Alsatian brasserie",
+      "orderThis": "Choucroute garnie EUR 28, Cervelas rémoulade EUR 14",
+      "pricePerPerson": "EUR 35–55",
+      "hours": "Noon–midnight daily.",
+      "reservation": "+33 1 45 48 53 91",
+      "insider": "Open since 1880. Every French president has eaten here. The 1920s ceramic décor is protected by law. The choucroute garnie — sauerkraut with three kinds of pork — is an Alsatian classic served in the most Parisian possible setting. The waiters are famously rude in the specific French way that is actually warmth once understood.",
+      "isSurprise": false,
+      "scores": { "firstTimer": 8, "repeat": 8, "couple": 7, "solo": 7, "foodie": 7, "photographer": 8, "luxury": 6, "budget": 4, "family": 6, "adventure": 5 }
+    }
+  ],
+
+  "activities": [
+    {
+      "name": "Eiffel Tower from Trocadéro at Sunset",
+      "area": "7th arrondissement, Trocadéro gardens",
+      "price": "Trocadéro view free. Tower: EUR 11–29 depending on level.",
+      "duration": "2–3 hours",
+      "bestTime": "45 minutes before local sunset. Return after dark for sparkle show (every hour, 5 minutes).",
+      "book": "toureiffel.paris — minimum 2 weeks ahead. Walk-up queues: 2–3 hours.",
+      "insider": "The best view of the Eiffel Tower is from the Trocadéro gardens across the river — not from directly below. From Trocadéro you see what it is: a structure placed in space. Arrive at sunset. Return after dark for the sparkle. Two completely different experiences.",
+      "scores": { "firstTimer": 10, "couple": 10, "honeymoon": 10, "photographer": 10, "family": 8, "solo": 7, "luxury": 8, "repeat": 4, "budget": 7, "foodie": 2 }
+    },
+    {
+      "name": "Louvre Museum",
+      "area": "1st arrondissement",
+      "price": "EUR 22 online. Free first Sunday of the month.",
+      "duration": "3–4 hours minimum",
+      "bestTime": "Opening 9am OR Wednesday/Friday evening until 9:45pm.",
+      "book": "louvre.fr — essential. Walk-up can be 90 minutes.",
+      "insider": "35,000 artworks. Decide one section before entering. The Denon Wing has Mona Lisa, Venus de Milo, Winged Victory. On Wednesday evening at 7pm the Denon Wing has one-third of the afternoon crowd. The Reading Room dome (where Marx wrote Das Kapital) is the most beautiful interior in the building.",
+      "scores": { "firstTimer": 10, "culture": 10, "solo": 9, "couple": 8, "photographer": 8, "family": 6, "repeat": 6, "luxury": 7, "budget": 7, "foodie": 2 }
+    },
+    {
+      "name": "Montmartre Morning Walk",
+      "area": "18th arrondissement",
+      "price": "Free",
+      "duration": "2 hours",
+      "bestTime": "8am–10am weekday",
+      "book": "No booking.",
+      "insider": "Montmartre at 8am is a residential neighbourhood going to work. By 11am it is a tourist destination. By 2pm a tourist scrum. The cobbled streets, the vineyard, the view from Sacré-Cœur steps — all better before the first tour bus arrives.",
+      "scores": { "photographer": 10, "firstTimer": 9, "couple": 9, "solo": 9, "repeat": 8, "honeymoon": 8, "budget": 10, "family": 6, "luxury": 6, "foodie": 6 }
+    },
+    {
+      "name": "Canal Saint-Martin Sunday Morning",
+      "area": "10th arrondissement",
+      "price": "Free",
+      "duration": "2–3 hours",
+      "bestTime": "Sunday 9am–noon",
+      "book": "No booking.",
+      "insider": "Every Sunday the road along Canal Saint-Martin closes to cars. A produce market sets up. Cafés put tables on the pavement. The canal with iron footbridges and plane trees looks exactly as it does in every film about Paris — and there are almost no tourists.",
+      "scores": { "photographer": 10, "couple": 10, "solo": 9, "foodie": 8, "repeat": 10, "firstTimer": 7, "budget": 9, "honeymoon": 8, "family": 7, "luxury": 5 }
+    },
+    {
+      "name": "Père Lachaise Cemetery",
+      "area": "20th arrondissement",
+      "price": "Free",
+      "duration": "2 hours",
+      "bestTime": "Morning 9am weekday",
+      "book": "No booking.",
+      "insider": "70,000 graves in a 44-hectare park. Oscar Wilde's tomb has lipstick kisses. Chopin's grave has fresh flowers from someone who visits every week. The light through chestnut trees in autumn is extraordinary. More moving than any museum in Paris.",
+      "scores": { "photographer": 9, "solo": 9, "couple": 8, "repeat": 9, "budget": 10, "firstTimer": 5, "family": 7, "luxury": 5, "foodie": 4, "adventure": 6 }
+    },
+    {
+      "name": "Musée d'Orsay",
+      "area": "7th arrondissement, Seine riverbank",
+      "price": "EUR 16. Free first Sunday of month.",
+      "duration": "2–3 hours",
+      "bestTime": "Thursday evening (open until 9:45pm). Weekday morning.",
+      "book": "musee-orsay.fr — recommended to skip queues.",
+      "insider": "The finest Impressionist collection in the world. Monet, Renoir, Degas, Van Gogh, Cézanne — all in a former railway station. The building itself is extraordinary. Thursday evening the museum is one-third the crowd of Saturday afternoon. The café inside on the upper level has one of the best views of Paris.",
+      "scores": { "firstTimer": 9, "photographer": 8, "couple": 8, "solo": 8, "culture": 10, "repeat": 7, "family": 7, "luxury": 7, "budget": 7, "foodie": 3 }
+    },
+    {
+      "name": "Promenade Plantée — Elevated Park",
+      "area": "12th arrondissement",
+      "price": "Free",
+      "duration": "1–2 hours",
+      "bestTime": "Morning weekday",
+      "book": "No booking.",
+      "insider": "World's first elevated park built on a disused railway viaduct (1993, predated New York's High Line by 17 years). 4.5km through the 12th. Below: the Viaduc des Arts with artisan workshops in brick arches. Almost no tourists. Extraordinary light through the trees.",
+      "scores": { "photographer": 9, "solo": 9, "couple": 8, "repeat": 9, "budget": 10, "firstTimer": 5, "family": 7, "luxury": 5, "foodie": 4, "adventure": 6 }
+    },
+    {
+      "name": "Musée Rodin",
+      "area": "7th arrondissement, near Les Invalides",
+      "price": "EUR 14. Garden only: EUR 4.",
+      "duration": "1.5–2 hours",
+      "bestTime": "Weekday morning",
+      "book": "musee-rodin.fr",
+      "insider": "The Thinker in the garden, The Kiss inside, The Gates of Hell across the path. The garden is one of the most beautiful in Paris — sculpted works among roses and hedges. The EUR 4 garden-only entry is one of the best value experiences in Paris.",
+      "scores": { "photographer": 9, "couple": 9, "solo": 8, "culture": 9, "firstTimer": 7, "repeat": 8, "budget": 8, "luxury": 7, "family": 5, "foodie": 2 }
+    },
+    {
+      "name": "Victoria and Albert equivalent — Musée des Arts Décoratifs",
+      "area": "Palais du Louvre, rue de Rivoli, 1st",
+      "price": "EUR 14",
+      "duration": "2–3 hours",
+      "bestTime": "Weekday morning",
+      "book": "madparis.fr",
+      "insider": "French design and decorative arts from the Middle Ages to the present. The fashion and textile galleries are extraordinary. The Art Nouveau and Art Deco sections are the finest in the world. Almost never crowded. Adjacent to the Louvre but separate — most Louvre visitors never enter.",
+      "scores": { "repeat": 9, "photographer": 8, "solo": 8, "couple": 7, "culture": 10, "firstTimer": 6, "luxury": 7, "budget": 6, "family": 5, "foodie": 3 }
+    },
+    {
+      "name": "Sainte-Chapelle",
+      "area": "Île de la Cité, 1st",
+      "price": "EUR 13. Free first Sunday of month.",
+      "duration": "45 minutes",
+      "bestTime": "Morning, earliest entry",
+      "book": "sainte-chapelle.fr — essential, sells out.",
+      "insider": "Built in 1248 to house Christ's crown of thorns. The upper chapel has 15 windows of 13th-century stained glass covering the entire wall. No photograph captures it. You must stand in it. One of the most extraordinary spaces in France. Hidden behind the Palais de Justice — most tourists walk past the entrance.",
+      "scores": { "photographer": 10, "firstTimer": 9, "couple": 8, "solo": 8, "culture": 10, "repeat": 7, "budget": 7, "luxury": 7, "family": 6, "foodie": 2 }
+    },
+    {
+      "name": "Palais Royal Gardens",
+      "area": "1st arrondissement",
+      "price": "Free",
+      "duration": "1 hour",
+      "bestTime": "Lunchtime on a weekday when Parisians bring their lunch",
+      "book": "No booking.",
+      "insider": "A secret garden behind a row of columns. Former home of Cardinal Richelieu. The arcaded galleries have the most interesting independent shops in Paris — vintage perfume, lead soldiers, antique books, a restaurant where Colette lived upstairs. Free to walk. Almost no tourists know it exists.",
+      "scores": { "repeat": 10, "photographer": 8, "solo": 9, "couple": 8, "budget": 9, "firstTimer": 6, "culture": 9, "luxury": 6, "family": 6, "foodie": 5 }
+    },
+    {
+      "name": "Luxembourg Gardens Morning",
+      "area": "6th arrondissement",
+      "price": "Free",
+      "duration": "1–2 hours",
+      "bestTime": "Morning 8–10am",
+      "book": "No booking.",
+      "insider": "Paris's most beautiful park. The beehives, the orchard, the tennis courts, the model yacht pond. On weekday mornings: children going to school, retirees playing chess, the Guignol puppet theatre for children. Free. The picnic from Marché Saint-Germain or Marché d'Aligre eaten here is one of the correct Paris lunches.",
+      "scores": { "family": 9, "couple": 8, "solo": 8, "firstTimer": 7, "repeat": 7, "budget": 9, "photographer": 7, "luxury": 5, "foodie": 6, "adventure": 4 }
+    },
+    {
+      "name": "Père Lachaise and Belleville view",
+      "area": "20th arrondissement",
+      "price": "Free",
+      "duration": "3 hours for both",
+      "bestTime": "Morning or early afternoon",
+      "book": "No booking.",
+      "insider": "After Père Lachaise, walk 10 minutes to Parc de Belleville — the best FREE view of Paris from the east, encompassing the entire city from the Eiffel Tower to La Défense. This view is better than Sacré-Cœur and known only to people who live in the 20th.",
+      "scores": { "photographer": 10, "repeat": 10, "solo": 8, "couple": 7, "budget": 10, "firstTimer": 5, "adventure": 6, "luxury": 4, "family": 5, "foodie": 3 }
+    },
+    {
+      "name": "Versailles Day Trip",
+      "area": "30km southwest, RER C from Paris",
+      "price": "EUR 21.50 palace entry. RER C: EUR 4.10 return.",
+      "duration": "Full day",
+      "bestTime": "Tuesday (closed Monday) arriving 9am when gates open",
+      "book": "chateauversailles.fr — essential, sold out weeks ahead in summer.",
+      "insider": "The most visited monument in France after the Eiffel Tower. The Hall of Mirrors is extraordinary. But the Gardens (free after palace closing hours) are the correct reason to go — 800 hectares of formal French gardens with the Grand Canal. The musical fountains show runs Saturdays and certain dates April–October.",
+      "scores": { "firstTimer": 9, "family": 8, "couple": 8, "photographer": 8, "culture": 10, "solo": 7, "repeat": 6, "luxury": 8, "budget": 5, "adventure": 5 }
+    }
+  ],
+
+  "designedSurprises": {
+    "solo": {
+      "experience": "Shakespeare and Company bookshop at opening",
+      "details": "The famous English-language bookshop on the Left Bank opens at 10am. Arrive just after opening on a weekday. The shop is empty. The resident cat is usually asleep on a shelf. The upstairs reading room has a piano and a view of Notre-Dame. Free to enter.",
+      "why": "Solo travellers who read describe this as the hour Paris became personal."
+    },
+    "couple": {
+      "experience": "Picnic at Parc de Bagatelle",
+      "details": "A hidden rose garden within the Bois de Boulogne. Entry EUR 3. Famous rose garden (June especially) and complete absence of tour groups. Buy provisions from Marché d'Aligre. A corner of the garden that belongs only to you.",
+      "why": "Couples who find Bagatelle have a Paris memory that no Instagram account has overexposed."
+    },
+    "foodie": {
+      "experience": "Marché d'Aligre at 8am then Promenade Plantée picnic",
+      "details": "Buy Comté aged 24 months from the covered hall, a baguette from the boulangerie on place d'Aligre, half-bottle of Burgundy from the wine merchant. Walk to Promenade Plantée 8 minutes away. Eat on the elevated park above the 12th arrondissement. EUR 25 total.",
+      "why": "This is the meal Parisians eat on their days off. Costs EUR 25 and is better than most EUR 80 restaurant lunches."
+    },
+    "photographer": {
+      "experience": "Père Lachaise Cemetery at 9am followed by Belleville view",
+      "details": "The cemetery at opening (8am). The light through chestnut trees. Oscar Wilde's tomb. Chopin's grave. Then 10-minute walk to Parc de Belleville for the best free view of Paris — the entire city from east to west.",
+      "why": "The photographs no photographer expects to take in Paris are at Père Lachaise and Belleville."
+    },
+    "luxury": {
+      "experience": "Breakfast at Le Meurice followed by private Louvre after-hours",
+      "details": "Le Meurice breakfast EUR 45–65 (the same setting as EUR 200+ dinner, one-third the price at 8am when the room is quiet). Then private Louvre after-hours tour (through Viator, EUR 150–250/person) — the museum at night with no crowds.",
+      "why": "Paris luxury at breakfast costs a third of what it costs at dinner. The room and service are identical."
+    },
+    "family": {
+      "experience": "Musée de la Chasse et de la Nature",
+      "details": "Private museum in Le Marais dedicated to hunting and nature. Taxidermy animals in 17th-century rooms, hidden drawers in antique cabinets, contemporary art. Free for under-18s, EUR 10 adults. Almost no crowds. Children who are bored in ordinary museums become investigators here.",
+      "why": "The museum no guidebook recommends is often the one children remember most."
+    },
+    "honeymoon": {
+      "experience": "Sunset from Pont Alexandre III bridge",
+      "details": "The most ornate bridge in Paris. Gold statues, Belle Époque lamp posts, the Seine below. At sunset with the Eiffel Tower visible to the west and Les Invalides behind you. Free. Usually far fewer people than the tower itself.",
+      "why": "The most romantic view in Paris costs nothing and most tourists never find it."
+    },
+    "budget": {
+      "experience": "Free Paris cultural day — first Sunday of the month",
+      "details": "Louvre free. Musée d'Orsay free. Centre Pompidou free. Musée d'Art Moderne free. Notre-Dame exterior walk free. Luxembourg Gardens free. Total cost: EUR 0 for the finest art museum day available in any city in the world.",
+      "why": "The finest cultural day available in any city in the world costs nothing on the first Sunday of every month."
+    },
+    "adventure": {
+      "experience": "Vélib bike ride from Montmartre to the Marais at dawn",
+      "details": "Rent a Vélib bike at 6am (EUR 3 for 45 mins). Ride from Montmartre downhill through empty Paris streets — Sacré-Cœur behind you, the whole city ahead. Through the empty market streets of the 18th, down into the Marais. Coffee at Du Pain et des Idées when it opens at 6:45am.",
+      "why": "Paris by bicycle at dawn is a city that doesn't exist after 8am."
+    }
+  },
+
+  "travelerGuides": {
+    "solo": {
+      "accommodation": "Hostel in 11th (near Canal Saint-Martin) or Oberkampf: EUR 25–40 dorm, EUR 70–100 private. Far better value and location than tourist-area accommodation.",
+      "meetingPeople": "Free walking tours (sandemans.com), cooking classes, Canal Saint-Martin Sunday morning, wine bars in the 11th",
+      "itineraryLogic": "Solo Paris: morning museum or market, afternoon neighbourhood walk, evening wine bar or bistro. One destination per day done properly."
+    },
+    "couple": {
+      "bestExperiences": "Canal Saint-Martin Sunday morning, Musée Rodin garden, Pont Alexandre III at sunset, dinner at Le Comptoir du Relais, picnic at Parc de Bagatelle",
+      "bestNeighbourhood": "Stay in Le Marais or Canal Saint-Martin — the most romantic neighbourhood in Paris for walking",
+      "avoid": "Tour Eiffel area restaurants — the most overpriced dining in Europe"
+    },
+    "honeymoon": {
+      "accommodation": "Ritz Paris (Place Vendôme, EUR 1,500+/night), Le Bristol (8th, EUR 900+), Hôtel de Crillon (8th, EUR 800+)",
+      "experiences": "Breakfast at Le Meurice, private Louvre tour, dinner at Guy Savoy or Taillevent, Versailles private visit, champagne cave tour at Moët & Chandon (90 mins from Paris)",
+      "insider": "The Mandarin Oriental Paris on rue Saint-Honoré has a garden suite with a private terrace facing a courtyard garden — the most private luxury accommodation in Paris."
+    },
+    "family": {
+      "bestActivities": "Musée d'Orsay Impressionists (children respond to), Luxembourg Gardens puppet theatre, Palais de la Découverte (science museum), Vélib family bikes, Versailles gardens",
+      "accommodation": "Serviced apartments in the 15th or 16th: kitchen, space, residential feel at reasonable prices.",
+      "transport": "Paris strollers: the Metro has no lifts at many historic stations. The RER B has lifts. Vélib bikes cannot accommodate strollers. Uber or taxi for stroller families."
+    },
+    "budget": {
+      "dailyBudget": "EUR 60–100 covers comfortable Paris on a budget",
+      "accommodation": "Hostel in 11th or 20th: EUR 25–40 dorm, EUR 70–100 private. Far better neighbourhood than tourist areas.",
+      "foodStrategy": "Boulangerie breakfast EUR 3–5. Market lunch EUR 8–12. Bistro dinner plat du jour EUR 12–18.",
+      "freeActivities": "All national museums first Sunday of month. All parks free. Seine walk free. Père Lachaise free. Sacré-Cœur free. Palais Royal gardens free. Promenade Plantée free."
+    },
+    "senior": {
+      "accommodation": "Hotels in the 6th or 7th — flat ground, close to everything, good transport",
+      "accessibility": "Paris Metro has no lifts at many historic stations. Taxis and buses are more senior-friendly. Hire a car with driver for day trips.",
+      "bestActivities": "Musée d'Orsay (on one level), Rodin Museum garden (flat), Luxembourg Gardens (benches everywhere), Seine river cruise (seated, 1.5 hours)"
+    },
+    "photographer": {
+      "goldenHour": "Sunrise: Trocadéro facing Eiffel Tower. Eiffel Tower from Seine riverside. Sunset: Pont Alexandre III, Sacré-Cœur steps.",
+      "locations": "Père Lachaise Cemetery, Canal Saint-Martin iron bridges, Promenade Plantée, Rue Crémieux (colourful painted houses), Passage des Panoramas interior",
+      "tip": "Rue Crémieux (12th arrondissement) — the most colourful street in Paris. Arrive before 9am to avoid the Instagram crowd that fills it by 10am."
+    },
+    "indian": {
+      "indianFood": "Paris has a small but good Indian restaurant scene. Passage Brady (10th) — covered passage known as 'Little India' with multiple Indian and Pakistani restaurants at reasonable prices. Also: Ganesha Corner near Gare du Nord.",
+      "temples": "Temple Hindou de la Région Parisienne in Croissy-Beaubourg (35 mins from Paris) — the main Hindu temple serving the Indian community",
+      "community": "Indian community concentrated in the 10th arrondissement (Passage Brady area) and certain suburban areas. Paris has a smaller Indian community than London but Passage Brady offers authentic South Asian dining."
+    }
+  },
+
+  "hotels": {
+    "luxury": [
+      { "name": "Ritz Paris", "area": "Place Vendôme, 1st", "nightly": "EUR 1,500–5,000", "honest": "The most famous hotel in the world. Bar Hemingway has the best cocktails in Paris. The garden is extraordinary in summer.", "tip": "The Cambon wing rooms are quieter than the Place Vendôme wing and 20% cheaper." },
+      { "name": "Le Bristol", "area": "8th arrondissement", "nightly": "EUR 900–3,000", "honest": "The finest service in Paris. The rooftop pool is the best in the city. Chef Eric Frechon holds 3 Michelin stars in the restaurant.", "tip": "" }
+    ],
+    "mid": [
+      { "name": "Hôtel du Petit Moulin", "area": "Le Marais, 3rd", "nightly": "EUR 200–400", "honest": "Boutique hotel designed by Christian Lacroix in a former boulangerie. Each room is different. The best-designed mid-range hotel in Paris.", "tip": "" },
+      { "name": "Hôtel Fabric", "area": "Oberkampf, 11th", "nightly": "EUR 180–320", "honest": "Converted 19th-century textile factory. The 11th arrondissement location puts you near the best restaurants and wine bars. Not tourist-adjacent.", "tip": "" }
+    ],
+    "budget": [
+      { "name": "Generator Paris", "area": "10th, Canal Saint-Martin", "nightly": "EUR 25–40 dorm, EUR 90–140 private", "honest": "Best social hostel in Paris. Rooftop bar with Sacré-Cœur view. Canal Saint-Martin neighbourhood.", "tip": "" },
+      { "name": "Hôtel Beaumarchais", "area": "11th arrondissement", "nightly": "EUR 100–180", "honest": "Clean, colourful, small hotel in the best neighbourhood in Paris. Walk to most restaurants and bars.", "tip": "" }
+    ]
+  },
+
+  "transport": {
+    "metro": "14 lines. Single ticket EUR 2.15 OR Navigo Découverte weekly pass EUR 30 unlimited. Tap contactless bank card directly on turnstiles — no separate ticket needed.",
+    "cdg_airport": "CDG Express rail: EUR 12–15, 20 mins to Gare du Nord. RER B: EUR 11.80, 30 mins. Taxi/Uber: EUR 50–60 fixed rate left bank, EUR 55–65 right bank.",
+    "velib": "Paris bike share. EUR 1 per 30 mins. Fastest for journeys under 3km. App required.",
+    "batobus": "River bus service. Day pass EUR 23. Stops at Eiffel Tower, Musée d'Orsay, Louvre, Notre-Dame, Hôtel de Ville. Slow but scenic.",
+    "uber_vtc": "G7 app (French equivalent, more reliable). Uber also operates. Both faster than hailing taxis at peak hours."
+  },
+
+  "trafficIntelligence": {
+    "worstDay": "Monday morning and Friday evening. Any day with Metro strikes (grèves) — check RATP app.",
+    "rushHours": "8–9:30am and 5:30–7:30pm",
+    "itineraryRule": "Never schedule Louvre on Saturday or Sunday afternoon. Never major restaurants Friday/Saturday without reservation. Navigo weekly pass covers everything.",
+    "strikes": "French workers' strikes (grèves) affect Metro and RER with little notice. Always check RATP app morning of travel."
+  },
+
+  "seasonal": {
+    "aprilMay": { "temp": "15–20°C", "reality": "Best season. Mild weather, blooming, fewer crowds than summer, more affordable. Cherry blossoms April. Perfect for first visit.", "priceLevel": "Medium" },
+    "june": { "temp": "20–25°C", "reality": "Excellent weather but crowds building. Fête de la Musique June 21 — free live music throughout the city all day and night. Book accommodation early.", "priceLevel": "Medium-High" },
+    "julyAugust": { "temp": "22–30°C", "reality": "Peak tourist season. Very crowded, expensive, long queues everywhere. Paris Plages (artificial beach on Seine, free). Book everything 4–6 weeks ahead.", "priceLevel": "High" },
+    "sepOct": { "temp": "12–18°C", "reality": "Arguably best season for repeat visitors. Autumn light extraordinary. Fewer tourists than summer. Fashion Week September. Vendanges de Montmartre grape harvest October.", "priceLevel": "Medium-High" },
+    "novMar": { "temp": "3–8°C", "reality": "Cold and grey but cheapest and quietest. Christmas markets December (best: Champs-Élysées, Notre-Dame forecourt). Fewer crowds everywhere.", "priceLevel": "Low" }
+  },
+
+  "parisFestivals": {
+    "feteMusique": "June 21. Free live music concerts throughout the entire city — on streets, in squares, in courtyards. Every genre. Free. The most social night of the Parisian year.",
+    "bastilleDay": "July 14. French National Day. Military parade on Champs-Élysées (best viewed from La Concorde end, arrive 8am for good position). Fireworks at Eiffel Tower from Champ de Mars at 11pm.",
+    "nuitDesMusees": "One night in May (check dates). All Paris museums free and open all night. Extraordinary atmosphere inside normally crowded museums.",
+    "paradesPride": "Late June. Paris Gay Pride parade from Montparnasse to Bastille. One of Europe's largest.",
+    "vendangesMontmartre": "First weekend of October. Montmartre grape harvest festival. The tiny Montmartre vineyard harvested. Free street festival, wine, music.",
+    "christmas": "December 1–31. Christmas markets throughout. The Champs-Élysées market is famous but mediocre. The Saint-Germain-des-Prés market and the Notre-Dame forecourt market are better. The Galeries Lafayette roof (free access) has the best Christmas illuminations view."
+  },
+
+  "rooftopsAndViews": [
+    { "name": "Trocadéro gardens facing Eiffel Tower", "area": "16th arrondissement", "note": "Best Eiffel Tower view. Free. Best at sunset.", "price": "Free" },
+    { "name": "Parc de Belleville", "area": "20th arrondissement", "note": "Best free panoramic view of all Paris. Almost no tourists.", "price": "Free" },
+    { "name": "Sacré-Cœur steps at dawn", "area": "Montmartre, 18th", "note": "Paris at 7am. Free. Empty. The correct version of this view.", "price": "Free" },
+    { "name": "Institut du Monde Arabe rooftop", "area": "5th arrondissement", "note": "Free rooftop terrace. Notre-Dame and Seine view. Almost unknown.", "price": "EUR 12 to enter museum, rooftop included" },
+    { "name": "Le Perchoir rooftop bar", "area": "Oberkampf, 11th", "note": "Best rooftop bar in Paris. Eiffel Tower visible in the distance. Book for weekends.", "price": "EUR 15–20/cocktail" },
+    { "name": "Tour Montparnasse (unfashionable but best view)", "area": "15th arrondissement", "note": "The only tall building in central Paris. The view includes the Eiffel Tower, Notre-Dame, Sacré-Cœur simultaneously. EUR 20. Tourists forget about it.", "price": "EUR 20" }
+  ],
+
+  "dayTrips": {
+    "versailles": {
+      "distance": "30km southwest, RER C, 40 mins",
+      "note": "Most visited monument in France after Eiffel Tower. The Hall of Mirrors. The gardens (800 hectares). Musical Fountains show Saturdays April–October. Come Tuesday (closed Monday) at opening — essential to pre-book at chateauversailles.fr",
+      "cost": "EUR 21.50 + RER EUR 4.10 return"
+    },
+    "giverny": {
+      "distance": "75km northwest, train + bus",
+      "note": "Monet's house and garden. The water lily garden that inspired the Nymphéas series in the Orangerie. Open April–November. Best visit: weekday morning in May or September when not peak.",
+      "cost": "EUR 12 entry + train EUR 15–20 return"
+    },
+    "reims": {
+      "distance": "145km northeast, TGV 45 mins",
+      "note": "Champagne capital. Reims Cathedral (the finest Gothic cathedral in France, where French kings were crowned). Champagne house cellars — Taittinger, Mumm, Veuve Clicquot all offer tours. Day trip or overnight.",
+      "cost": "TGV EUR 20–40 return, champagne cave tour EUR 25–45"
+    },
+    "fontainebleau": {
+      "distance": "60km south, train 40 mins",
+      "note": "Royal château and enormous forest. The château interior rivals Versailles with 1/10th of the tourists. The Fontainebleau forest is the best day walk accessible from Paris.",
+      "cost": "EUR 13 château entry + train EUR 8–12 return"
+    }
+  },
+
+  "shopping": {
+    "flea_markets": "Marché aux Puces de Saint-Ouen (Clignancourt) — the largest antique market in the world. Saturday–Monday. 2,500 dealers. EUR 0 entry. The best vintage finds in Europe. Arrive at 9am before dealers arrive and leave for better prices.",
+    "department_stores": "Galeries Lafayette (9th) — the most beautiful department store in the world architecturally. Free to enter. The dome is extraordinary. The food hall in the basement is excellent. Le Bon Marché (7th) — the finest food hall in Paris (La Grande Épicerie).",
+    "fashion": "Avenue Montaigne: Dior, Chanel, Louis Vuitton, Givenchy. Not cheaper than India for Indian visitors (no import duty savings as with London). The outlet village Marque Avenue 1 hour from Paris has 100+ French brands at 30–70% off.",
+    "books": "Shakespeare and Company (5th, English language). Boulinier (Latin Quarter, second-hand French books). The bouquinistes along the Seine (open-air second-hand book stalls, hundreds of metres of both banks — free to browse).",
+    "food": "Fauchon (Place de la Madeleine) — the finest delicatessen in France. Excellent gifts. Hediard adjacent. La Grande Épicerie in Le Bon Marché for the finest packaged French food products.",
+    "taxes": "France has 20% VAT. Tourist refund for purchases over EUR 100 at a single shop. Pablo tax refund kiosks at CDG airport. Keep receipts and ask for tax refund form at purchase."
+  },
+
+  "culturalRules": {
+    "critical": [
+      "Always say 'Bonjour' before asking anything in any shop or restaurant. Not saying bonjour is the single biggest cultural mistake visitors make.",
+      "Restaurant pace: the table is yours for the evening. Ask for 'l'addition, s'il vous plaît' when ready to leave — the waiter will not bring the bill otherwise.",
+      "Queuing is strictly observed. Cutting creates real hostility in France.",
+      "Noise in restaurants and public spaces is lower than visitors expect. Loud group behaviour is noticed."
+    ],
+    "dressCode": "Paris dresses well. Smart casual for most restaurants. Very casual at the most relaxed places. Ripped jeans at nicer establishments receive visible judgement. Pack one good outfit.",
+    "tipping": "Service charge is legally included in all bills (service compris). Additional EUR 2–5 for good service is appreciated but not expected. Never tip at cafés for a single coffee.",
+    "photography": "Photography inside most churches: permitted in the nave, prohibited near altars and during services. Photography in private galleries: ask first. Photography of people: ask — particularly for street portraits.",
+    "strikes": "French unions strike regularly. Strikes affect transport, museums, and services. They are announced in advance. Check RATP app and news before major plans."
+  },
+
+  "visaIntelligence": {
+    "indianPassport": "Schengen visa required. Apply at French consulate or VFS Global. Processing: 2–3 weeks. Cost: EUR 80. Requires return ticket, accommodation proof, travel insurance EUR 30,000+, bank statements.",
+    "important": "Apply at French consulate if France is primary/first Schengen destination. Do not book non-refundable flights before visa approval.",
+    "tip": "France has one of the higher Schengen approval rates for Indian applicants. A detailed day-by-day itinerary in the application significantly improves approval rate.",
+    "schengenNote": "A French Schengen visa allows travel to all 27 Schengen countries. Paris trip can be combined with Amsterdam, Brussels, Berlin, or Barcelona at no additional visa cost."
+  },
+
+  "pricingBenchmarks": {
+    "metro_single": "EUR 2.15",
+    "navigo_weekly": "EUR 30 (unlimited all zones)",
+    "cdg_taxi_paris": "EUR 50–60 fixed rate",
+    "cdg_express_train": "EUR 12–15",
+    "baguette": "EUR 1.10–1.30",
+    "cafe_creme": "EUR 2.50–5.50",
+    "budget_meal": "EUR 12–18/person (brasserie plat du jour)",
+    "mid_restaurant": "EUR 30–55/person",
+    "fine_dining": "EUR 80–200/person",
+    "falafel_marai": "EUR 7",
+    "louvre_online": "EUR 22",
+    "eiffel_summit": "EUR 29 online",
+    "musee_orsay": "EUR 16",
+    "versailles": "EUR 21.50",
+    "hotel_budget": "EUR 80–150/night",
+    "hotel_mid": "EUR 150–350/night",
+    "hotel_luxury": "EUR 400–2,000/night",
+    "velib_30min": "EUR 1",
+    "champagne_glass_bar": "EUR 12–25"
+  },
+
+  "savingsIntelligence": [
+    "First Sunday of every month: Louvre, Musée d'Orsay, Pompidou, and all national museums are FREE — saves EUR 50–80 per person on museum admissions",
+    "Navigo Découverte weekly pass EUR 30 vs EUR 2.15 per journey — break even at 14 trips, saves EUR 30+ for a typical 5-day visit",
+    "Boulangerie breakfast EUR 3–5 vs hotel breakfast EUR 20–35 — saves EUR 15–30/person/day",
+    "Picnic from Marché d'Aligre EUR 15–20 vs equivalent restaurant lunch EUR 35–55 — saves EUR 15–35/person",
+    "Water from Paris tap (free, excellent quality) vs bottled water EUR 3–5/day — saves EUR 20+ per person per week",
+    "L'As du Fallafel for lunch EUR 7–9 vs tourist restaurant in Marais EUR 20–35 — saves EUR 13–26/person",
+    "RER B to CDG airport EUR 11.80 vs taxi EUR 50–60 — saves EUR 38–48",
+    "Galeries Lafayette rooftop (free access) vs paid panoramic views EUR 15–25 — saves EUR 15–25",
+    "Marché aux Puces flea market: same vintage item available at EUR 200 in a Marais boutique is EUR 20–30 from a market dealer at 9am",
+    "Tax refund at CDG airport: 20% back on purchases over EUR 100 — on EUR 500 of shopping saves EUR 100"
+  ],
+
+  "practical": {
+    "electricity": "Type E French plugs (2 round pins). 230V. Indian plugs need adapter. Available at pharmacies or hardware shops EUR 3–8.",
+    "bestExchange": "City bureau de change or ATMs — Crédit Mutuel and BNP ATMs have best rates. Never at CDG airport (8–12% worse rates).",
+    "bestCreditCard": "Visa and Mastercard accepted everywhere including street markets. Some small vendors and rural areas: cash only. Always carry EUR 50–100 in cash.",
+    "simCard": "Orange or SFR tourist SIM at CDG airport: EUR 15–30 for 5–15GB. Also: Airalo eSIM before travel — cheaper for short visits.",
+    "tipping": "Not mandatory. Service charge included in all bills by law. EUR 2–5 extra for good restaurant service.",
+    "apps": "RATP (Metro/bus), G7 Taxi, Vélib (bike share), ParisGo (tourism), Google Maps (works excellently for Paris navigation)"
+  },
+
+  "hiddenPlaces": [
+    { "name": "Parc de Belleville", "note": "20th arrondissement. Best free panoramic Paris view. Almost no tourists ever find it." },
+    { "name": "Passage des Panoramas", "note": "Oldest covered passage (1800). Stamp dealers, antique prints, cheap excellent restaurants. Free to walk." },
+    { "name": "Promenade Plantée", "note": "World's first elevated park (1993). 4.5km, free, almost no tourists. Predated New York's High Line by 17 years." },
+    { "name": "Parc de Bagatelle", "note": "Hidden rose garden in Bois de Boulogne. Entry EUR 3. No tour groups. Best June for roses." },
+    { "name": "Cour de Rohan", "note": "Medieval courtyards in the 6th, most Parisians have never entered. Free, usually open." },
+    { "name": "Musée de la Vie Romantique", "note": "George Sand's house, 9th arrondissement. Free permanent collection. Best garden café in the 9th." },
+    { "name": "Le Marché Couvert des Enfants Rouges", "note": "Paris's oldest covered food market (1615), 3rd arrondissement. Open Tue–Sun. No tourists. Extraordinary food from every French region." },
+    { "name": "Institut du Monde Arabe rooftop", "note": "5th arrondissement. Free rooftop with Seine and Notre-Dame view. Almost entirely unknown." },
+    { "name": "Sainte-Chapelle", "note": "The most extraordinary stained glass in the world, hidden behind the Palais de Justice. Most tourists walk past the entrance." },
+    { "name": "Rue Crémieux", "note": "12th arrondissement. The most colourful street in Paris. Arrive before 9am to have it to yourself." }
+  ],
+
+  "insiderIntelligence": [
+    "The best croissant is from any neighbourhood boulangerie that bakes its own (you can smell it from 50 metres) — not from the famous expensive bakeries that tourists queue for.",
+    "Paris pharmacies are staffed by actual pharmacists who give detailed health advice free. For minor ailments, a pharmacy is faster and more effective than finding a doctor.",
+    "The Louvre is free for under-26s who are EU residents. Non-EU under-26s get a discounted rate. Always carry ID.",
+    "French restaurant service that appears rude is often simply formal. The waiter who ignores you for 10 minutes is waiting for you to be ready to order. Make eye contact and say 's'il vous plaît' to begin.",
+    "The best supermarket prepared foods in Paris is the basement of any Monoprix chain — a full dinner for EUR 8–12 of genuinely excellent quality.",
+    "Paris water is excellent tap water — tested daily, free from any tap. The city has public water fountains throughout. Do not buy bottled water.",
+    "The Paris Metro smells of heat and electricity but is very safe. Pickpockets operate on lines 1, 4, and at major tourist stations (Châtelet-Les Halles, Montparnasse). Keep bags in front of you.",
+    "Versailles closes Monday. Musée d'Orsay closes Monday. Louvre closes Tuesday. Centre Pompidou closes Tuesday. Check before going.",
+    "The free views of Paris are better than the paid ones: Parc de Belleville, Sacré-Cœur steps at dawn, Trocadéro for the Eiffel Tower, Institut du Monde Arabe rooftop.",
+    "Paris Fashion Week (March and October) fills the city's hotels and raises prices 30–50%. If your dates overlap, book 6–8 weeks ahead."
+  ]
+}

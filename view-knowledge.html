@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SKYmora — Knowledge Base Viewer</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#080808;color:#e0e0e0;line-height:1.7}
+.page{max-width:1060px;margin:0 auto;padding:32px 24px 80px}
+h1{font-size:2rem;color:#FFD700;font-family:Georgia,serif;margin-bottom:6px}
+.subtitle{color:rgba(255,255,255,0.3);font-size:0.78rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:32px}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
+.tab{padding:8px 20px;border-radius:999px;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);cursor:pointer;font-size:0.82rem;transition:all 0.2s}
+.tab.active,.tab:hover{background:rgba(255,215,0,0.12);border-color:rgba(255,215,0,0.3);color:#FFD700}
+.city-view{display:none}
+.city-view.active{display:block}
+h2{font-size:1.3rem;color:#FFD700;font-family:Georgia,serif;margin:40px 0 14px;padding-bottom:8px;border-bottom:1px solid rgba(255,215,0,0.15)}
+h3{font-size:1rem;color:#90f2d2;margin:24px 0 10px}
+h4{font-size:0.68rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,215,0,0.5);margin:14px 0 6px}
+p{color:rgba(255,255,255,0.72);margin-bottom:10px;font-size:0.92rem}
+ul{margin:6px 0 12px 18px}
+li{color:rgba(255,255,255,0.7);margin-bottom:6px;font-size:0.9rem}
+.card{background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:18px 22px;margin-bottom:14px}
+.restaurant{background:rgba(255,255,255,0.03);border:1px solid rgba(255,215,0,0.15);border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.rest-name{font-family:Georgia,serif;font-size:1.05rem;color:#fff;margin-bottom:3px}
+.rest-area{font-size:0.7rem;color:rgba(255,215,0,0.5);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.rest-insider{background:rgba(80,60,240,0.07);border-left:3px solid rgba(130,110,255,0.4);padding:10px 14px;border-radius:0 8px 8px 0;margin-top:10px;font-size:0.86rem;color:rgba(200,195,255,0.85);font-style:italic}
+.price{color:#FFD700;font-weight:700}
+.surprise{background:rgba(0,180,80,0.06);border:1px solid rgba(0,200,90,0.2);border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.surprise-title{color:#60e090;font-weight:700;margin-bottom:6px}
+.fact{background:rgba(255,60,60,0.06);border-left:3px solid rgba(255,80,80,0.4);padding:10px 14px;border-radius:0 8px 8px 0;margin:6px 0;font-size:0.86rem;color:rgba(255,185,185,0.88)}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:0.84rem}
+th{background:rgba(255,215,0,0.07);color:rgba(255,215,0,0.8);padding:8px 12px;text-align:left;border-bottom:1px solid rgba(255,215,0,0.1);font-size:0.7rem;text-transform:uppercase;letter-spacing:1px}
+td{padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.04);color:rgba(255,255,255,0.68)}
+</style>
+</head>
+<body>
+<div class="page">
+<h1>🗺️ SKYmora Knowledge Base</h1>
+<div class="subtitle">Internal Destination Intelligence Files</div>
+
+<div class="tabs" id="tabBar"></div>
+<div id="content"></div>
+</div>
+
+<script>
+const cities = ['dubai','goa','india','bangkok','paris','singapore','bali','london','tokyo','maldives','new-york'];
+const labels = {'dubai':'🇦🇪 Dubai','goa':'🌴 Goa','india':'🇮🇳 India','bangkok':'🇹🇭 Bangkok','paris':'🇫🇷 Paris','singapore':'🇸🇬 Singapore','bali':'🌺 Bali','london':'🇬🇧 London','tokyo':'🇯🇵 Tokyo','maldives':'🏝️ Maldives','new-york':'🗽 New York'};
+
+const tabBar = document.getElementById('tabBar');
+const content = document.getElementById('content');
+
+cities.forEach((city, i) => {
+  const tab = document.createElement('div');
+  tab.className = 'tab' + (i === 0 ? ' active' : '');
+  tab.textContent = labels[city] || city;
+  tab.onclick = () => loadCity(city, tab);
+  tabBar.appendChild(tab);
+});
+
+async function loadCity(city, clickedTab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  clickedTab.classList.add('active');
+  content.innerHTML = '<p style="color:rgba(255,255,255,0.4);padding:20px 0">Loading...</p>';
+
+  try {
+    const res = await fetch(`/data/destinations/${city}.json`);
+    const k = await res.json();
+    renderCity(k);
+  } catch(e) {
+    content.innerHTML = `<p style="color:rgba(255,100,100,0.7)">Could not load ${city}.json — ${e.message}</p>`;
+  }
+}
+
+function renderCity(k) {
+  let html = '';
+
+  // Hard Facts
+  if(k.hardFacts) {
+    html += '<h2>⚠️ Hard Facts</h2><div class="card">';
+    Object.entries(k.hardFacts).forEach(([key,val]) => {
+      html += `<div class="fact"><strong>${key.replace(/_/g,' ').toUpperCase()}:</strong> ${val}</div>`;
+    });
+    html += '</div>';
+  }
+
+  // First Visitor
+  if(k.firstVisitorEssentials) {
+    const fv = k.firstVisitorEssentials;
+    html += '<h2>✈️ First-Time Visitor</h2>';
+    html += `<div class="card"><p>${fv.summary}</p>`;
+    if(fv.mustInclude?.length) {
+      html += '<h4>Must Include</h4><ul>' + fv.mustInclude.map(m=>`<li>${m}</li>`).join('') + '</ul>';
+    }
+    if(fv.localInsiderToAdd) html += `<h4>Local Insider Line</h4><p style="color:#90f2d2;font-style:italic">"${fv.localInsiderToAdd}"</p>`;
+    if(fv.regrets?.length) {
+      html += '<h4>Common Regrets to Prevent</h4><ul>' + fv.regrets.map(r=>`<li>${r}</li>`).join('') + '</ul>';
+    }
+    html += '</div>';
+  }
+
+  // Repeat Visitor
+  if(k.repeatVisitorIntelligence) {
+    const rv = k.repeatVisitorIntelligence;
+    html += '<h2>🔄 Repeat Visitor Intelligence</h2>';
+    html += `<div class="card"><p>${rv.insiderNarrative || rv.summary || ''}</p>`;
+    if(rv.goHere?.length) {
+      html += '<h4>Go Here Instead</h4><ul>' + rv.goHere.map(g=>`<li>${g}</li>`).join('') + '</ul>';
+    }
+    if(rv.skipThese?.length) {
+      html += '<h4>Skip These</h4><ul>' + rv.skipThese.map(s=>`<li>${s}</li>`).join('') + '</ul>';
+    }
+    html += '</div>';
+  }
+
+  // Restaurants
+  if(k.restaurants?.length) {
+    html += '<h2>🍽️ Restaurants</h2>';
+    k.restaurants.forEach(r => {
+      html += `<div class="restaurant">
+        <div class="rest-name">${r.name}${r.isSurprise ? ' <span style="font-size:0.7rem;color:#60e090;background:rgba(0,200,80,0.1);padding:2px 8px;border-radius:4px;margin-left:6px">SURPRISE</span>' : ''}</div>
+        <div class="rest-area">${r.area} · ${r.type} · ${r.cuisine}</div>
+        <p><strong>Order:</strong> ${r.orderThis}</p>
+        <p><strong>Price:</strong> <span class="price">${r.pricePerPerson}</span> · <strong>Hours:</strong> ${r.hours}</p>
+        ${r.insider ? `<div class="rest-insider">"${r.insider}"</div>` : ''}
+      </div>`;
+    });
+  }
+
+  // Activities
+  if(k.activities?.length) {
+    html += '<h2>🎯 Activities</h2>';
+    k.activities.forEach(a => {
+      html += `<div class="card">
+        <h3>${a.name}</h3>
+        <p><strong>Area:</strong> ${a.area} · <strong>Price:</strong> <span class="price">${a.price}</span></p>
+        <p><strong>Best time:</strong> ${a.bestTime}</p>
+        ${a.insider ? `<div class="rest-insider">"${a.insider}"</div>` : ''}
+      </div>`;
+    });
+  }
+
+  // Designed Surprises
+  if(k.designedSurprises) {
+    html += '<h2>✨ Designed Surprises — By Persona</h2>';
+    Object.entries(k.designedSurprises).forEach(([persona, s]) => {
+      html += `<div class="surprise">
+        <div class="surprise-title">${persona.toUpperCase()} → ${s.experience}</div>
+        <p>${s.details}</p>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.83rem;margin-top:6px;font-style:italic">${s.why}</p>
+      </div>`;
+    });
+  }
+
+  // Traffic
+  if(k.trafficIntelligence) {
+    const t = k.trafficIntelligence;
+    html += '<h2>🚖 Traffic & Timing Intelligence</h2><div class="card"><ul>';
+    Object.entries(t).forEach(([k2,v]) => html += `<li><strong>${k2.replace(/_/g,' ')}:</strong> ${v}</li>`);
+    html += '</ul></div>';
+  }
+
+  // Pricing
+  if(k.pricingBenchmarks) {
+    html += '<h2>💰 Pricing Benchmarks</h2><table><tr><th>Item</th><th>Price</th></tr>';
+    Object.entries(k.pricingBenchmarks).forEach(([k2,v]) => {
+      html += `<tr><td>${k2.replace(/_/g,' ')}</td><td class="price">${v}</td></tr>`;
+    });
+    html += '</table>';
+  }
+
+  // Cultural Rules
+  if(k.culturalRules) {
+    html += '<h2>🙏 Cultural Rules</h2><div class="card">';
+    if(k.culturalRules.critical?.length) {
+      html += '<h4>Critical Rules</h4><ul>' + k.culturalRules.critical.map(c=>`<li>${c}</li>`).join('') + '</ul>';
+    }
+    if(k.culturalRules.dressCode) html += `<h4>Dress Code</h4><p>${k.culturalRules.dressCode}</p>`;
+    html += '</div>';
+  }
+
+  // Visa
+  if(k.visaIntelligence) {
+    html += '<h2>🛂 Visa Intelligence</h2><div class="card">';
+    Object.entries(k.visaIntelligence).forEach(([k2,v]) => {
+      html += `<p><strong>${k2.replace(/([A-Z])/g,' $1').trim()}:</strong> ${v}</p>`;
+    });
+    html += '</div>';
+  }
+
+  // India-specific: cities and budget
+  if(k.citiesAndRegions) {
+    html += '<h2>🗺️ Cities & Regions</h2>';
+    Object.entries(k.citiesAndRegions).forEach(([city, data]) => {
+      html += `<div class="card"><h3>${city.toUpperCase()}</h3>`;
+      if(typeof data === 'object') {
+        if(data.character) html += `<p>${data.character}</p>`;
+        if(data.mustDo?.length) html += '<h4>Must Do</h4><ul>' + data.mustDo.map(m=>`<li>${m}</li>`).join('') + '</ul>';
+        if(data.hiddenGem) html += `<h4>Hidden Gem</h4><p style="color:#60e090">${data.hiddenGem}</p>`;
+        if(data.budgetTip) html += `<h4>Budget Tip</h4><p style="color:#FFD700">${data.budgetTip}</p>`;
+      }
+      html += '</div>';
+    });
+  }
+
+  if(k.budgetTravelIndia) {
+    const b = k.budgetTravelIndia;
+    html += '<h2>💰 Budget Travel India</h2>';
+    if(b.philosophy) html += `<div class="card"><p>${b.philosophy}</p></div>`;
+    if(b.food?.bestValue?.length) {
+      html += '<div class="card"><h4>Best Value Food</h4><ul>' + b.food.bestValue.map(f=>`<li>${f}</li>`).join('') + '</ul></div>';
+    }
+    if(b.savingsByCity) {
+      html += '<h3>Savings by City</h3>';
+      Object.entries(b.savingsByCity).forEach(([city,tip]) => {
+        html += `<div class="card"><h4>${city.toUpperCase()}</h4><p>${tip}</p></div>`;
+      });
+    }
+  }
+
+  content.innerHTML = html;
+}
+
+// Load first city on startup
+document.querySelector('.tab').click();
+</script>
+</body>
+</html>
