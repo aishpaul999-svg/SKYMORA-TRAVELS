@@ -38,7 +38,7 @@ import { getDestinationPhoto } from "./skymora-photos.js";
 import { MODES } from "./agent-system-lite.js";
 import { holdDraft, cancelDraftTimer } from "./agent-draft-lite.js";
 import { setupAgentRoutesLite } from "./agent-routes-lite.js";
-import { buildKnowledgeBlock } from "./skymora-knowledge-engine.js";
+import { buildKnowledgeBlock, loadDestination as loadDestinationKnowledge } from "./skymora-knowledge-engine.js";
 
 /* ===============================
    SYSTEM PROMPT CACHE
@@ -978,12 +978,19 @@ FAKE URGENCY — completely banned:
 Never say: "books out fast", "selling quickly", "limited availability"
 Instead inform intelligently: "Current pricing on this route is strong for the season. Midweek dates tend to perform better if flexibility exists."
 
-FLIGHT DURATION FACTS — CRITICAL, DO NOT CONTRADICT:
-- New Delhi to Dubai: DIRECT = 3 hours 30 minutes to 4 hours. This is correct. Never write 16 hours for this route.
+FLIGHT DURATION FACTS — CRITICAL, DO NOT CONTRADICT THESE EVER:
+- New Delhi to Dubai: DIRECT = 3 hours 30 minutes to 4 hours. NEVER write 16 hours. NEVER write 8 hours. 3.5 hours is correct.
 - Mumbai to Dubai: DIRECT = 3 hours.
-- London to Dubai: DIRECT = 7 hours.
-- New York to Dubai: DIRECT = 13-14 hours.
-If the live search data shows a different duration for Delhi-Dubai, it is wrong. Use 3.5 hours.
+- New Delhi to Paris: DIRECT = 8 to 9 hours. Air France, Air India. NEVER write 3.5 hours for Delhi-Paris.
+- Mumbai to Paris: DIRECT = 9 hours.
+- New Delhi to Singapore: DIRECT = 5 hours 30 minutes to 6 hours.
+- New Delhi to Bangkok: DIRECT = 4 hours 30 minutes.
+- New Delhi to London: DIRECT = 9 hours.
+- New Delhi to Tokyo: DIRECT = 9 to 10 hours.
+- New Delhi to New York: DIRECT = 14 to 15 hours.
+- New Delhi to Bali: Via Singapore or Kuala Lumpur = 8 to 10 hours total.
+- New Delhi to Maldives: DIRECT = 3 hours 30 minutes.
+If Google data shows a different duration, verify against these hard facts. These are correct.
 
 === SECTION FORMAT ===
 Break the day into named sections with clear visual separation.
@@ -1006,25 +1013,46 @@ Air India AI101. 3 hours 30 minutes direct (Delhi-Dubai). Meal service included.
 ARRIVING IN DUBAI
 
 DXB customs typically 30 to 45 minutes on arrival. June weather — around 38 degrees, light breathable clothing essential.
+PERSONALIZATION PROOF — within the first 2 paragraphs of every day, include at least ONE of these lines naturally (pick what is true for this traveler):
+${trip.emotionalState === 'celebrating' ? `"Because you are celebrating — [specific experience] was chosen because it rewards, not just entertains."` : ''}
+${trip.emotionalState === 'recovering' ? `"Because you need restoration — today is deliberately unhurried. The city will wait."` : ''}
+${trip.emotionalState === 'escaping' ? `"Because you needed contrast — everything today is designed to feel different from home."` : ''}
+${trip.travelPersonality === 'introvert' ? `"Because you prefer depth over breadth — one neighbourhood explored properly beats three rushed."` : ''}
+${trip.travelPersonality === 'extrovert' ? `"Because you thrive on connection — today puts you where people actually gather."` : ''}
+${trip.firstVisit === 'first' ? `"Because this is your first time — the sequence matters. What you see first shapes how you see everything after."` : ''}
+${trip.pace === 'relaxed' ? `"Because you chose a relaxed pace — this afternoon stays open. That is not wasted time. It is the point."` : ''}
+${trip.diningPreference === 'every meal' ? `"Because every meal matters to you — both lunch and dinner today were chosen as experiences, not conveniences."` : ''}
+${trip.specialRequest ? `"Because you mentioned ${trip.specialRequest} — this day was shaped around that specifically."` : ''}
+
+WHY I CHOSE THIS — after every major recommendation (hotel, main activity, dinner), include a WHY paragraph:
+Format exactly: "WHY I CHOSE THIS: [1-2 sentences explaining the specific decision logic for THIS traveler]"
+Examples:
+- "WHY I CHOSE THIS: Deira first because seeing old Dubai before modern Dubai makes the towers feel more impressive, not less. Almost every first-timer gets this sequence wrong."
+- "WHY I CHOSE THIS: The Burj at 8:30am because the observation deck has under 50 people at that hour. By 11am it has 500. Same view. Completely different experience."
+- "WHY I CHOSE THIS: This restaurant because the kitchen closes at 10:30pm and the reservation needs to be at 8pm. Arriving later means the best dishes are gone."
+
+HOTEL JUSTIFICATION — in YOUR STAY section, after the hotel name, add:
+"WHY THIS HOTEL: [distance to key Day 1, 2, 3 attractions] | [what this location saves in travel time] | [why this is right for this specific trip length and traveler type]"
+
 SECTIONS FOR DAY ${isDay1 ? `1:
 LEAVING ${departure.toUpperCase()}
 YOUR FLIGHT
 ARRIVING IN ${resolvedDestination.toUpperCase()}
 GETTING TO THE CITY
-YOUR STAY
+YOUR STAY — include WHY THIS HOTEL after the hotel name
 FIRST EVENING
-ONE THING TO KNOW — this section MUST reference: (a) a specific timing or traffic intelligence from the destination knowledge, OR (b) a specific regret that travelers have and how this plan prevents it. Not generic advice. Specific, local, insider.` : day === totalDays ? `${day}:
+ONE THING TO KNOW — MUST reference: (a) a specific regret most first-timers have AND how this plan prevents it, OR (b) a specific insider timing/price fact. Not generic.` : day === totalDays ? `${day}:
 FINAL MORNING
 LAST BREAKFAST
-ONE MORE THING — this section MUST reference something specific from the destination knowledge that travelers often miss. Alserkal Avenue, the Canal walk, the Friday Market, a hidden neighbourhood — something that feels discovered.
+ONE MORE THING — reference something specific from the destination knowledge that most travelers miss entirely. Feel like a secret.
 HEADING HOME
 FAREWELL` : `${day}:
-MORNING — reference neighborhood character. Not just "visit X." Explain what this part of the city feels like at this hour and why that matters.
-THE MAIN EXPERIENCE — reference the regret this experience prevents, OR the memory it creates. Make the WHY visible.
+MORNING — explain what this neighbourhood feels like at this hour and WHY that matters for this traveler
+THE MAIN EXPERIENCE — include WHY I CHOSE THIS after the recommendation
 LUNCH
-AFTERNOON — if there is an Alserkal Avenue, Al Quoz, DIFC, or neighbourhood-specific recommendation in the locked brief, this is where it belongs.
+AFTERNOON
 EVENING
-DINNER — reference the specific dish ordered, the time to arrive (timing intelligence), and one thing about the atmosphere that makes this right for this traveler today.`}
+DINNER — include the specific dish, arrival time (timing intelligence), and WHY I CHOSE THIS restaurant for today specifically`}
 
 AGENT SIGNATURE — end every day card with:
 "Prepared for ${travelerName} — ${agentFirstName}, SKYmora Travel Team"
@@ -1238,41 +1266,84 @@ async function generateInBackground(tripId, trip, startAt, totalDays, tripPlan =
       else checklistItems.push(`☐ Verify visa requirements for ${destination} — check mea.gov.in`);
 
       // Booking reminders
-      checklistItems.push(`☐ Book travel insurance (minimum ${currency === 'INR' ? 'INR 10,000' : 'USD 30,000'} medical coverage)`);
-      checklistItems.push(`☐ Download Careem/Grab/Uber app for ${destination} before departure`);
+      checklistItems.push(`☐ Book travel insurance (minimum ${currency === 'INR' ? 'INR 10 lakh' : 'USD 30,000'} medical coverage)`);
       checklistItems.push(`☐ Exchange small amount of local currency — enough for first transfer from airport`);
-      checklistItems.push(`☐ Screenshot your hotel address in local script for the taxi driver`);
+      checklistItems.push(`☐ Screenshot your hotel address to show the taxi driver on arrival`);
       checklistItems.push(`☐ Save emergency contacts offline: local police, Indian embassy, your hotel`);
 
       // Destination-specific items
       if (destLower.includes('dubai')) {
-        checklistItems.push(`☐ Book Burj Khalifa online NOW if going — saves AED 51-251 vs walk-up. burjkhalifa.ae`);
-        checklistItems.push(`☐ Check if any UAE fines from previous visits — outstanding fines held at immigration. Check Dubai Police app.`);
-        checklistItems.push(`☐ Download Careem app — 15-25% cheaper than metered taxis`);
+        checklistItems.push(`☐ Book Burj Khalifa online NOW — saves AED 80 per person vs walk-up price. burjkhalifa.ae`);
+        checklistItems.push(`☐ Check UAE fines from previous visits — outstanding fines stop you at immigration. Check Dubai Police app.`);
+        checklistItems.push(`☐ Download Careem app — 15-25% cheaper than metered taxis in Dubai`);
+      } else if (destLower.includes('paris') || destLower.includes('france')) {
+        checklistItems.push(`☐ Indians: French Schengen visa required (EUR 80). Apply VFS Global minimum 3 weeks before travel.`);
+        checklistItems.push(`☐ Download Citymapper — Paris metro is the fastest way to move. Do not use taxis during peak hours.`);
+        checklistItems.push(`☐ Book Louvre/Musée d'Orsay timed entry online — saves 1-2 hour queues. museedulouvre.fr`);
+        checklistItems.push(`☐ Carry EUR 20-30 cash — some neighbourhood cafés and markets are cash only`);
       } else if (destLower.includes('japan') || destLower.includes('tokyo')) {
         checklistItems.push(`☐ Buy Suica IC card at airport — works on all trains, metro, buses, and 7-Eleven`);
         checklistItems.push(`☐ Carry JPY 5,000-10,000 cash — many restaurants are cash only`);
         checklistItems.push(`☐ Download Google Translate with Japanese offline — camera mode works on menus`);
       } else if (destLower.includes('bali')) {
         checklistItems.push(`☐ Photograph every scratch on scooter rental before taking it`);
-        checklistItems.push(`☐ Use PT Dirgahayu for currency exchange — never airport or Gold Souk equivalent`);
+        checklistItems.push(`☐ Use PT Dirgahayu for currency exchange — airport rates are 15-20% worse`);
         checklistItems.push(`☐ Pack sarong for temple visits — required, available at entrances but bring your own`);
+      } else if (destLower.includes('singapore')) {
+        checklistItems.push(`☐ Download Grab app — the only ride-hailing app that works reliably in Singapore`);
+        checklistItems.push(`☐ Get an EZ-Link card at the airport — works on all MRT, buses, and 7-Eleven`);
+      } else if (destLower.includes('bangkok') || destLower.includes('thailand')) {
+        checklistItems.push(`☐ Download Grab app — metered taxis can overcharge tourists. Grab shows fixed price.`);
+        checklistItems.push(`☐ Carry THB 1,000-2,000 cash — street food and tuk-tuks are cash only`);
+      } else if (destLower.includes('london') || destLower.includes('uk')) {
+        checklistItems.push(`☐ Download Citymapper — London tube and bus navigation`);
+        checklistItems.push(`☐ Get an Oyster card at the airport — cheaper than buying single tickets every journey`);
       } else if (destLower.includes('goa')) {
         checklistItems.push(`☐ Book scooter rental in advance for peak season — INR 400/day`);
         checklistItems.push(`☐ Note which airport your flight uses — GOI (Dabolim) or GOX (Mopa) — they are 50km apart`);
+      } else if (destLower.includes('maldives')) {
+        checklistItems.push(`☐ Confirm your resort transfer type — speedboat vs seaplane — both depart from different terminals at Velana`);
+        checklistItems.push(`☐ Carry USD cash — many resort activities and excursions are cash only`);
+      } else {
+        checklistItems.push(`☐ Download Google Maps with offline maps for ${destination} before you leave`);
+        checklistItems.push(`☐ Research local transport app for ${destination} — Uber may not be the best option`);
       }
 
       const checklistContent = `☑ BEFORE YOU LEAVE FOR ${destination.toUpperCase()}\n\n${checklistItems.join('\n')}\n\n${travelerName}, every item above is specific to your trip. The checklist took 30 seconds to read. The consequences of missing any item can take days to fix.\n\n— ${agentFirst}, SKYmora Travel Team`;
 
+      // ── What You'll Regret Missing card ──
+      const k = loadDestinationKnowledge(resolvedDest);
+      const regrets = k?.antiPatterns?.slice(0,3) || [];
+      const neverSkip = k?.ifYouOnlyHadOneChance;
+      const agentOpinion = neverSkip?.memory || neverSkip?.breakfast || neverSkip?.sunset || '';
+
+      if (regrets.length > 0) {
+        entry.days.push({
+          day: totalDays + 1,
+          title: "⚠️ What Most Travelers Regret",
+          type: "regrets",
+          content: `REGRETS\n${regrets.map(r => `• ${r}`).join('\n')}\n\nThis itinerary was specifically designed to prevent each of these.\n\n— ${agentFirst}, SKYmora Travel Team`
+        });
+      }
+
+      if (agentOpinion) {
+        entry.days.push({
+          day: totalDays + (regrets.length > 0 ? 2 : 1),
+          title: "💛 One Thing I'd Never Skip",
+          type: "never-skip",
+          content: `NEVER SKIP\n${agentOpinion}\n\nIf everything else fell apart — weather, delays, closures — and I could only save one experience from your ${destProper} trip, this would be it.\n\n— ${agentFirst}`
+        });
+      }
+
       entry.days.push({
-        day: totalDays + 1,
+        day: totalDays + (regrets.length > 0 ? 3 : 2) - (agentOpinion ? 0 : 1),
         title: "☑ Before You Leave",
         type: "checklist",
         content: checklistContent
       });
 
       entry.days.push({
-        day: totalDays + 2,
+        day: totalDays + (regrets.length > 0 ? 4 : 3) - (agentOpinion ? 0 : 1),
         title: "The SKYmora Promise",
         content: `${travelerName}, your ${totalDays}-day ${destProper} journey was built with one goal — the finest version of this trip within ${budgetDisplay}.\n\n${closer}\n\nEvery detail verified. Every cost transparent. Available through the chat below if anything needs adjusting.\n\nSafe travels.\n\n— Your SKYmora Travel Team`
       });

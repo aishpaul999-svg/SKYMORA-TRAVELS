@@ -13,7 +13,7 @@ const DEST_DIR = path.join(__dirname, "data", "destinations");
 // Cache loaded files
 const knowledgeCache = new Map();
 
-function loadDestination(destination = "") {
+export function loadDestination(destination = "") {
   const dest = destination.toLowerCase().trim();
   if (knowledgeCache.has(dest)) return knowledgeCache.get(dest);
 
@@ -387,4 +387,4 @@ function getSurpriseKey(persona, trip = {}) {
   return "budget";
 }
 
-export { loadDestination };
+// loadDestination is already exported inline above
