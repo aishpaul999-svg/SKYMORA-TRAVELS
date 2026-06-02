@@ -1,8 +1,17 @@
 {
   "destination": "new york",
-  "aliases": ["new york", "nyc", "jfk", "ewr", "lga", "new york city", "manhattan", "brooklyn", "queens"],
-  "lastUpdated": "2025",
-
+  "aliases": [
+    "new york",
+    "nyc",
+    "jfk",
+    "ewr",
+    "lga",
+    "new york city",
+    "manhattan",
+    "brooklyn",
+    "queens"
+  ],
+  "lastUpdated": "2026-06",
   "hardFacts": {
     "flightFromDelhi": "New Delhi to New York JFK: 13–14 hours direct. Air India DEL-JFK direct is the primary route. Return fare: INR 80,000–2,00,000 economy. Book 8–12 weeks ahead for best prices.",
     "flightFromMumbai": "Mumbai to New York: 14–16 hours via Middle East hub or Air India direct.",
@@ -15,7 +24,6 @@
     "electricity": "Type A and B (American-style, 2 flat pins). 120V. Indian appliances need a voltage converter AND adapter.",
     "water": "New York City tap water is some of the cleanest in the US — tested thousands of times per day. Use it."
   },
-
   "emergencyContacts": {
     "police_fire_ambulance": "911 (emergency)",
     "nonEmergencyPolice": "311",
@@ -27,15 +35,38 @@
     "presbyterian": "+1 212 305 2500 (midtown)",
     "duane_reade_pharmacy": "Multiple 24-hour locations. Check app for nearest."
   },
-
   "policeStations": [
-    { "name": "NYPD Midtown South Precinct (14th)", "area": "Midtown Manhattan, Times Square area", "phone": "+1 212 741 8211", "address": "357 W 35th St, Manhattan" },
-    { "name": "NYPD 1st Precinct", "area": "Lower Manhattan, Financial District, Chinatown", "phone": "+1 212 334 0611", "address": "16 Erin Place, Manhattan" },
-    { "name": "NYPD 78th Precinct", "area": "Park Slope, Brooklyn", "phone": "+1 718 636 6411", "address": "65 6th Ave, Brooklyn" },
-    { "name": "NYPD 5th Precinct", "area": "Chinatown, Little Italy, Soho", "phone": "+1 212 334 0711", "address": "19 Elizabeth St, Manhattan" },
-    { "name": "NYPD 26th Precinct", "area": "Harlem, Upper West Side", "phone": "+1 212 678 1311", "address": "520 W 126th St, Manhattan" }
+    {
+      "name": "NYPD Midtown South Precinct (14th)",
+      "area": "Midtown Manhattan, Times Square area",
+      "phone": "+1 212 741 8211",
+      "address": "357 W 35th St, Manhattan"
+    },
+    {
+      "name": "NYPD 1st Precinct",
+      "area": "Lower Manhattan, Financial District, Chinatown",
+      "phone": "+1 212 334 0611",
+      "address": "16 Erin Place, Manhattan"
+    },
+    {
+      "name": "NYPD 78th Precinct",
+      "area": "Park Slope, Brooklyn",
+      "phone": "+1 718 636 6411",
+      "address": "65 6th Ave, Brooklyn"
+    },
+    {
+      "name": "NYPD 5th Precinct",
+      "area": "Chinatown, Little Italy, Soho",
+      "phone": "+1 212 334 0711",
+      "address": "19 Elizabeth St, Manhattan"
+    },
+    {
+      "name": "NYPD 26th Precinct",
+      "area": "Harlem, Upper West Side",
+      "phone": "+1 212 678 1311",
+      "address": "520 W 126th St, Manhattan"
+    }
   ],
-
   "firstVisitorEssentials": {
     "summary": "First-time New York visitor. The famous things are famous because they genuinely warrant it. The city also has endless layers below the famous things — every neighbourhood a different country.",
     "mustInclude": [
@@ -54,7 +85,6 @@
       "Visited in August — most expensive and crowded month. October is the optimal month."
     ]
   },
-
   "repeatVisitorIntelligence": {
     "insiderNarrative": "New York is too big to visit. You can only visit pieces of it. The pieces you choose determine what you think the city is. The person who only visits Midtown thinks New York is loud and expensive. The person who goes to Jackson Heights thinks New York is the world in a city.",
     "skipThese": [
@@ -71,46 +101,76 @@
       "Jazz at the Village Vanguard — 75 years of jazz history, every Monday the Vanguard Jazz Orchestra, USD 35 door"
     ]
   },
-
   "neighborhoods": {
     "west_village": {
       "character": "The most beautiful neighbourhood in New York. Cobblestone streets, Federal-style townhouses from the 1820s, the best restaurant concentration in Manhattan. Where celebrities live because it is genuinely pleasant to walk.",
-      "bestFor": ["Architecture walks", "Best neighbourhood dining in Manhattan", "Couples walking"],
-      "avoid": ["Weekend evenings — packed with visitors from surrounding areas"],
+      "bestFor": [
+        "Architecture walks",
+        "Best neighbourhood dining in Manhattan",
+        "Couples walking"
+      ],
+      "avoid": [
+        "Weekend evenings — packed with visitors from surrounding areas"
+      ],
       "insider": "Hudson Street and Perry Street at 7am are the most beautiful residential streets in New York City. The light through the trees onto the Federal row houses is specific to autumn mornings."
     },
     "williamsburg_brooklyn": {
       "character": "Brooklyn's creative neighbourhood. Smorgasburg (Saturday food market), independent coffee culture, live music venues, and the best views of the Manhattan skyline from the Brooklyn waterfront.",
-      "bestFor": ["Smorgasburg Saturday market", "Independent restaurants", "Brooklyn waterfront skyline view"],
-      "avoid": ["Weekend afternoons when the Williamsburg Bridge becomes a river of pedestrian tourists"],
+      "bestFor": [
+        "Smorgasburg Saturday market",
+        "Independent restaurants",
+        "Brooklyn waterfront skyline view"
+      ],
+      "avoid": [
+        "Weekend afternoons when the Williamsburg Bridge becomes a river of pedestrian tourists"
+      ],
       "insider": "The East River State Park on a Sunday morning — the park is almost empty until 10am, and the view of the Manhattan skyline over the East River is better than any paid observation deck."
     },
     "jackson_heights_queens": {
       "character": "The most ethnically diverse neighbourhood on earth. 160 languages spoken. The Indian, Bangladeshi, Nepali, and Colombian communities concentrated in a few blocks. The street food prices are what they are in the originating countries.",
-      "bestFor": ["Indian travellers — most familiar food environment in New York", "Authentic street food", "Understanding New York's real diversity"],
+      "bestFor": [
+        "Indian travellers — most familiar food environment in New York",
+        "Authentic street food",
+        "Understanding New York's real diversity"
+      ],
       "avoid": [],
       "insider": "74th Street between Roosevelt and 37th is the most concentrated Indian commercial street outside India. The sweetshops, the sari stores, the restaurants — it looks and smells exactly like Chandni Chowk."
     },
     "harlem": {
       "character": "The cultural heartland of Black America. The Apollo Theater, Sylvia's (the legendary soul food restaurant), the Abyssinian Baptist Church, the Harlem Renaissance heritage. A neighbourhood in transformation.",
-      "bestFor": ["Gospel Sunday at church (10am service at Abyssinian Baptist)", "Soul food", "Jazz and music history"],
-      "avoid": ["Sunday gospel 'tours' sold by tour operators — the church welcomes independent visitors to services for free, the tour operators are parasitic"],
+      "bestFor": [
+        "Gospel Sunday at church (10am service at Abyssinian Baptist)",
+        "Soul food",
+        "Jazz and music history"
+      ],
+      "avoid": [
+        "Sunday gospel 'tours' sold by tour operators — the church welcomes independent visitors to services for free, the tour operators are parasitic"
+      ],
       "insider": "Sunday morning at Abyssinian Baptist Church on Odell Clark Place — arrive at 10am for the 11am service, sit in the balcony, the choir is extraordinary. Free. The soul food brunch at Sylvia's after is the correct sequence."
     },
     "lower_east_side": {
       "character": "The neighbourhood where every immigrant group passed through on their way to becoming American. Jewish heritage, now Hispanic community, now home to the most interesting bar scene in Manhattan.",
-      "bestFor": ["Jewish food heritage (Russ & Daughters)", "Best bars in Manhattan", "Tenement Museum"],
+      "bestFor": [
+        "Jewish food heritage (Russ & Daughters)",
+        "Best bars in Manhattan",
+        "Tenement Museum"
+      ],
       "avoid": [],
       "insider": "The Tenement Museum (97 Orchard Street) is the most moving museum in New York — a preserved 1863 tenement building with apartments of immigrant families frozen in time. USD 35. Book in advance."
     },
     "chinatown_flushing": {
       "character": "Manhattan Chinatown is the original; Flushing (Queens) is larger and more authentic. Flushing has the finest Chinese, Korean, and Taiwanese food in the US. The Golden Mall in Flushing has the best food court in New York.",
-      "bestFor": ["Best Chinese food outside China", "Korean BBQ culture", "Taiwanese street food"],
-      "avoid": ["Manhattan Chinatown tourist restaurants on Canal Street"],
+      "bestFor": [
+        "Best Chinese food outside China",
+        "Korean BBQ culture",
+        "Taiwanese street food"
+      ],
+      "avoid": [
+        "Manhattan Chinatown tourist restaurants on Canal Street"
+      ],
       "insider": "The Golden Mall in Flushing (136-17 Roosevelt Avenue, basement level) is a cramped basement food court with a dozen stalls serving Xi'an noodles, cumin lamb, and dumplings at USD 5–8. It is the most authentic and cheapest food in the New York area."
     }
   },
-
   "restaurants": [
     {
       "name": "Di Fara Pizza",
@@ -123,7 +183,20 @@
       "reservation": "No. Queue.",
       "insider": "Domenico DeMarco made every single pizza here by hand from 1965 until 2023. His family continues. The pizza is made with San Marzano tomatoes, fresh mozzarella, and fresh basil cut by scissors over the top. Called the best pizza in the world more often than any other pizza in America.",
       "isSurprise": true,
-      "scores": { "foodie": 10, "repeat": 10, "solo": 9, "budget": 8, "firstTimer": 7, "couple": 7, "adventure": 7, "photographer": 6, "family": 7, "luxury": 2 }
+      "scores": {
+        "foodie": 10,
+        "repeat": 10,
+        "solo": 9,
+        "budget": 8,
+        "firstTimer": 7,
+        "couple": 7,
+        "adventure": 7,
+        "photographer": 6,
+        "family": 7,
+        "luxury": 2
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Katz's Delicatessen",
@@ -136,7 +209,20 @@
       "reservation": "No. Walk-in.",
       "insider": "Open since 1888. You take a ticket at the door, order at the counter, pay at the exit. The pastrami is cured for 30 days and steamed for 3 hours. The sandwich is the size of a paperback book. The table where the When Harry Met Sally scene was filmed has a sign above it.",
       "isSurprise": false,
-      "scores": { "firstTimer": 10, "foodie": 9, "solo": 9, "couple": 8, "budget": 5, "photographer": 8, "repeat": 8, "family": 7, "luxury": 3, "adventure": 6 }
+      "scores": {
+        "firstTimer": 10,
+        "foodie": 9,
+        "solo": 9,
+        "couple": 8,
+        "budget": 5,
+        "photographer": 8,
+        "repeat": 8,
+        "family": 7,
+        "luxury": 3,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Per Se",
@@ -149,7 +235,20 @@
       "reservation": "perseny.com — months ahead.",
       "insider": "Thomas Keller's New York restaurant. Nine-course tasting menus. The salmon cornet (a miniature ice cream cone of smoked salmon tartare) is served as an amuse-bouche and is the most photographed bite of food in New York. Floor-to-ceiling windows overlook Central Park.",
       "isSurprise": false,
-      "scores": { "luxury": 10, "foodie": 10, "honeymoon": 10, "couple": 10, "repeat": 9, "solo": 8, "firstTimer": 6, "budget": 0, "family": 1, "photographer": 8 }
+      "scores": {
+        "luxury": 10,
+        "foodie": 10,
+        "honeymoon": 10,
+        "couple": 10,
+        "repeat": 9,
+        "solo": 8,
+        "firstTimer": 6,
+        "budget": 0,
+        "family": 1,
+        "photographer": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Jackson Heights Indian Food Walk",
@@ -162,7 +261,20 @@
       "reservation": "No.",
       "insider": "The most diverse food street in the world within a 3-block area. Bangladeshi halal food on one side, South Indian tiffin on the other, Tibetan momo shops in the side streets. The street food prices are what they are in Delhi. For Indian travellers, Jackson Heights is the New York neighbourhood that makes you feel least like a tourist.",
       "isSurprise": true,
-      "scores": { "indianTraveler": 10, "budget": 10, "foodie": 10, "repeat": 10, "solo": 9, "family": 9, "couple": 7, "photographer": 8, "firstTimer": 7, "adventure": 8 }
+      "scores": {
+        "indianTraveler": 10,
+        "budget": 10,
+        "foodie": 10,
+        "repeat": 10,
+        "solo": 9,
+        "family": 9,
+        "couple": 7,
+        "photographer": 8,
+        "firstTimer": 7,
+        "adventure": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Xi'an Famous Foods",
@@ -175,7 +287,20 @@
       "reservation": "No.",
       "insider": "Started in a basement stall in the Flushing Mall food court. The biang biang noodles are 5cm wide, spiced with cumin and chilli, topped with lamb. The founder is from Xi'an in Shaanxi province and brought recipes that don't exist anywhere else in New York.",
       "isSurprise": false,
-      "scores": { "budget": 10, "foodie": 9, "solo": 9, "firstTimer": 8, "repeat": 8, "couple": 7, "adventure": 8, "family": 7, "luxury": 3, "photographer": 5 }
+      "scores": {
+        "budget": 10,
+        "foodie": 9,
+        "solo": 9,
+        "firstTimer": 8,
+        "repeat": 8,
+        "couple": 7,
+        "adventure": 8,
+        "family": 7,
+        "luxury": 3,
+        "photographer": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Smorgasburg",
@@ -188,7 +313,20 @@
       "reservation": "No.",
       "insider": "The largest open-air food market in the US. 100 vendors. The ramen burger was invented here. The lobster roll that made lobster rolls happen outside New England. The ice cream sandwich that every other ice cream sandwich copied. With the Manhattan skyline behind the vendors.",
       "isSurprise": false,
-      "scores": { "foodie": 10, "firstTimer": 8, "couple": 9, "solo": 8, "photographer": 9, "budget": 7, "family": 8, "repeat": 9, "adventure": 7, "luxury": 4 }
+      "scores": {
+        "foodie": 10,
+        "firstTimer": 8,
+        "couple": 9,
+        "solo": 8,
+        "photographer": 9,
+        "budget": 7,
+        "family": 8,
+        "repeat": 9,
+        "adventure": 7,
+        "luxury": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Sylvia's Restaurant",
@@ -201,7 +339,20 @@
       "reservation": "+1 212 996 0660 — recommended for Sunday.",
       "insider": "Open since 1962. The institution of Harlem soul food. The Sunday brunch after Abyssinian Baptist Church is the Harlem tradition. Al Sharpton, Barack Obama, and every significant figure in Black America has eaten here.",
       "isSurprise": false,
-      "scores": { "firstTimer": 9, "foodie": 8, "solo": 7, "couple": 7, "family": 8, "repeat": 8, "budget": 5, "luxury": 4, "photographer": 7, "adventure": 6 }
+      "scores": {
+        "firstTimer": 9,
+        "foodie": 8,
+        "solo": 7,
+        "couple": 7,
+        "family": 8,
+        "repeat": 8,
+        "budget": 5,
+        "luxury": 4,
+        "photographer": 7,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Russ & Daughters",
@@ -214,7 +365,20 @@
       "reservation": "No.",
       "insider": "Open since 1914, run by four generations of the Russ family. The finest smoked fish in the US. The nova salmon on a bagel with cream cheese is the specific New York breakfast that makes every other breakfast in the city feel like it's trying to be something it's not.",
       "isSurprise": false,
-      "scores": { "foodie": 10, "firstTimer": 8, "solo": 9, "couple": 7, "budget": 6, "repeat": 9, "family": 7, "photographer": 7, "luxury": 4, "adventure": 6 }
+      "scores": {
+        "foodie": 10,
+        "firstTimer": 8,
+        "solo": 9,
+        "couple": 7,
+        "budget": 6,
+        "repeat": 9,
+        "family": 7,
+        "photographer": 7,
+        "luxury": 4,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Cosme",
@@ -227,7 +391,20 @@
       "reservation": "exploretock.com — 3–4 weeks ahead.",
       "insider": "Chef Enrique Olvera's New York restaurant (his Mexico City original, Pujol, is regularly in the world's 50 best). The duck carnitas — slow-roasted duck served with corn husks and mole — is the dish that defines contemporary Mexican-American fine dining.",
       "isSurprise": false,
-      "scores": { "luxury": 9, "foodie": 10, "couple": 9, "honeymoon": 9, "repeat": 9, "solo": 8, "firstTimer": 7, "budget": 0, "family": 3, "photographer": 7 }
+      "scores": {
+        "luxury": 9,
+        "foodie": 10,
+        "couple": 9,
+        "honeymoon": 9,
+        "repeat": 9,
+        "solo": 8,
+        "firstTimer": 7,
+        "budget": 0,
+        "family": 3,
+        "photographer": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Arthur Avenue, The Bronx",
@@ -240,7 +417,20 @@
       "reservation": "Dominick's: no reservations, long communal tables.",
       "insider": "The real Italian neighbourhood of New York. Not Little Italy in Manhattan (tourist trap). Arthur Avenue has been the Bronx Italian community since 1900 — salumeria, cheese shops, fresh pasta makers, old restaurants with red-checked tablecloths. The restaurant Dominick's has no menu: the waiter tells you what's available today.",
       "isSurprise": true,
-      "scores": { "foodie": 10, "repeat": 10, "solo": 8, "couple": 8, "budget": 7, "firstTimer": 6, "adventure": 7, "family": 7, "luxury": 3, "photographer": 6 }
+      "scores": {
+        "foodie": 10,
+        "repeat": 10,
+        "solo": 8,
+        "couple": 8,
+        "budget": 7,
+        "firstTimer": 6,
+        "adventure": 7,
+        "family": 7,
+        "luxury": 3,
+        "photographer": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Le Bernardin",
@@ -253,7 +443,20 @@
       "reservation": "le-bernardin.com — 2–3 weeks ahead.",
       "insider": "New York's finest seafood restaurant since 1986. Chef Eric Ripert's precise French technique applied to the finest fish available in the world. The tasting menu at lunch (USD 195) is the finest value proposition in New York fine dining.",
       "isSurprise": false,
-      "scores": { "luxury": 10, "foodie": 10, "couple": 9, "honeymoon": 9, "solo": 8, "repeat": 9, "firstTimer": 6, "budget": 0, "family": 1, "photographer": 6 }
+      "scores": {
+        "luxury": 10,
+        "foodie": 10,
+        "couple": 9,
+        "honeymoon": 9,
+        "solo": 8,
+        "repeat": 9,
+        "firstTimer": 6,
+        "budget": 0,
+        "family": 1,
+        "photographer": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Two Boots Pizza",
@@ -266,7 +469,20 @@
       "reservation": "No.",
       "insider": "The pizza that New York neighbourhood residents eat. Cornmeal crust, Louisiana-style toppings (crawfish, andouille sausage), names like the DW Special. Less famous than Di Fara, much closer to Midtown, equally good for a standard slice.",
       "isSurprise": false,
-      "scores": { "firstTimer": 8, "budget": 9, "solo": 9, "couple": 7, "family": 8, "repeat": 7, "foodie": 7, "photographer": 4, "luxury": 2, "adventure": 6 }
+      "scores": {
+        "firstTimer": 8,
+        "budget": 9,
+        "solo": 9,
+        "couple": 7,
+        "family": 8,
+        "repeat": 7,
+        "foodie": 7,
+        "photographer": 4,
+        "luxury": 2,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Gramercy Tavern",
@@ -279,7 +495,20 @@
       "reservation": "gramercytavern.com for dining room. Tavern walk-in.",
       "insider": "The Gramercy Tavern tavern room (front of the restaurant) takes no reservations and is first-come-first-served. The menu is simpler and cheaper than the dining room but the same kitchen and same quality. The tavern room at noon is the best USD 40 lunch in New York.",
       "isSurprise": false,
-      "scores": { "luxury": 8, "foodie": 9, "couple": 8, "solo": 7, "repeat": 8, "firstTimer": 7, "budget": 4, "family": 5, "photographer": 6, "adventure": 4 }
+      "scores": {
+        "luxury": 8,
+        "foodie": 9,
+        "couple": 8,
+        "solo": 7,
+        "repeat": 8,
+        "firstTimer": 7,
+        "budget": 4,
+        "family": 5,
+        "photographer": 6,
+        "adventure": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Momofuku Noodle Bar",
@@ -292,7 +521,20 @@
       "reservation": "tock.com",
       "insider": "Chef David Chang's original restaurant — the one that changed American food culture. The pork belly bun (steamed bun, pork belly, hoisin, cucumbers) has been the most copied single dish in American restaurants since 2004. Come for the original.",
       "isSurprise": false,
-      "scores": { "foodie": 9, "firstTimer": 8, "solo": 8, "couple": 7, "budget": 5, "repeat": 7, "family": 6, "luxury": 5, "photographer": 5, "adventure": 7 }
+      "scores": {
+        "foodie": 9,
+        "firstTimer": 8,
+        "solo": 8,
+        "couple": 7,
+        "budget": 5,
+        "repeat": 7,
+        "family": 6,
+        "luxury": 5,
+        "photographer": 5,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Golden Mall Flushing basement food court",
@@ -305,10 +547,22 @@
       "reservation": "No.",
       "insider": "A cramped basement food court that serves the most authentic and cheapest food in New York. The Xi'an noodle stall is the original before Xi'an Famous Foods became a chain. The Sichuan mapo tofu. The Taiwanese popcorn chicken. USD 6–10 for the best possible version of each dish.",
       "isSurprise": true,
-      "scores": { "budget": 10, "foodie": 10, "repeat": 10, "solo": 9, "adventure": 8, "firstTimer": 6, "couple": 7, "family": 7, "photographer": 5, "luxury": 1 }
+      "scores": {
+        "budget": 10,
+        "foodie": 10,
+        "repeat": 10,
+        "solo": 9,
+        "adventure": 8,
+        "firstTimer": 6,
+        "couple": 7,
+        "family": 7,
+        "photographer": 5,
+        "luxury": 1
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     }
   ],
-
   "activities": [
     {
       "name": "Brooklyn Bridge Walk + DUMBO",
@@ -318,7 +572,20 @@
       "bestTime": "Early morning weekday 7–9am — best light, fewest pedestrians",
       "book": "No booking.",
       "insider": "Walk from Manhattan to Brooklyn (not the other way — the Manhattan skyline is behind you on the return). DUMBO (Down Under the Manhattan Bridge Overpass) has the most photographed New York view — Manhattan Bridge framing the Empire State Building at the end of Washington Street.",
-      "scores": { "firstTimer": 10, "photographer": 10, "couple": 9, "solo": 8, "budget": 10, "family": 8, "honeymoon": 9, "repeat": 7, "luxury": 6, "adventure": 6 }
+      "scores": {
+        "firstTimer": 10,
+        "photographer": 10,
+        "couple": 9,
+        "solo": 8,
+        "budget": 10,
+        "family": 8,
+        "honeymoon": 9,
+        "repeat": 7,
+        "luxury": 6,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "The High Line",
@@ -328,7 +595,20 @@
       "bestTime": "Weekday morning 8–10am",
       "book": "No booking.",
       "insider": "An elevated park built on a disused 1930s freight railway line 9 metres above the street. The planting uses wild prairie species. Art installations change regularly. The views over the Hudson River at the northern end are unexpected. New Yorkers actually use this — it is not purely a tourist attraction.",
-      "scores": { "firstTimer": 9, "couple": 9, "photographer": 8, "solo": 8, "budget": 10, "family": 7, "repeat": 7, "honeymoon": 8, "luxury": 5, "foodie": 4 }
+      "scores": {
+        "firstTimer": 9,
+        "couple": 9,
+        "photographer": 8,
+        "solo": 8,
+        "budget": 10,
+        "family": 7,
+        "repeat": 7,
+        "honeymoon": 8,
+        "luxury": 5,
+        "foodie": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Metropolitan Museum of Art",
@@ -338,7 +618,20 @@
       "bestTime": "Opening 10am weekday. Friday and Saturday evenings (open until 9pm).",
       "book": "metmuseum.org — optional advance booking.",
       "insider": "The finest art museum in the Western Hemisphere. The Egyptian collection (an actual 2,500-year-old temple transported from Egypt) is extraordinary. The Roof Garden (summer only, free with admission) has the best Central Park view in the city.",
-      "scores": { "firstTimer": 9, "culture": 10, "solo": 9, "couple": 8, "budget": 7, "repeat": 7, "photographer": 8, "family": 7, "luxury": 7, "foodie": 3 }
+      "scores": {
+        "firstTimer": 9,
+        "culture": 10,
+        "solo": 9,
+        "couple": 8,
+        "budget": 7,
+        "repeat": 7,
+        "photographer": 8,
+        "family": 7,
+        "luxury": 7,
+        "foodie": 3
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Central Park at 6am",
@@ -348,7 +641,20 @@
       "bestTime": "6–8am weekday",
       "book": "No booking.",
       "insider": "843 acres in the middle of Manhattan. At 6am on a weekday it belongs to joggers, dog walkers, and the occasional deer. By 10am it belongs to tourists. The Bethesda Fountain at 6am with steam rising from the ground in autumn is the New York that exists in every New York film.",
-      "scores": { "photographer": 10, "solo": 9, "couple": 8, "firstTimer": 8, "budget": 10, "repeat": 8, "honeymoon": 8, "family": 8, "luxury": 5, "adventure": 5 }
+      "scores": {
+        "photographer": 10,
+        "solo": 9,
+        "couple": 8,
+        "firstTimer": 8,
+        "budget": 10,
+        "repeat": 8,
+        "honeymoon": 8,
+        "family": 8,
+        "luxury": 5,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Village Vanguard Jazz on Monday",
@@ -358,7 +664,20 @@
       "bestTime": "Monday — the Vanguard Jazz Orchestra since 1966",
       "book": "villagevanguard.com — reserve or walk up.",
       "insider": "The most historic jazz club in the world. Every Monday since 1966, the Vanguard Jazz Orchestra plays the same 9pm show. The musicians include people who played with Miles Davis' former bandmates. The basement is unchanged since 1935. Come 30 minutes early for a seat with sightlines.",
-      "scores": { "solo": 10, "couple": 9, "repeat": 10, "firstTimer": 7, "honeymoon": 8, "luxury": 7, "budget": 5, "photographer": 5, "family": 2, "adventure": 5 }
+      "scores": {
+        "solo": 10,
+        "couple": 9,
+        "repeat": 10,
+        "firstTimer": 7,
+        "honeymoon": 8,
+        "luxury": 7,
+        "budget": 5,
+        "photographer": 5,
+        "family": 2,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Smorgasburg Saturday Morning",
@@ -368,7 +687,20 @@
       "bestTime": "Saturday 11am–2pm",
       "book": "No booking.",
       "insider": "100 vendors representing New York's most creative food businesses. The ramen burger, the lobster roll, the innovative ice cream. With the Manhattan skyline visible across the East River. The best outdoor food experience available in any American city.",
-      "scores": { "foodie": 10, "firstTimer": 8, "couple": 9, "solo": 7, "photographer": 9, "budget": 7, "family": 8, "repeat": 9, "adventure": 7, "luxury": 4 }
+      "scores": {
+        "foodie": 10,
+        "firstTimer": 8,
+        "couple": 9,
+        "solo": 7,
+        "photographer": 9,
+        "budget": 7,
+        "family": 8,
+        "repeat": 9,
+        "adventure": 7,
+        "luxury": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Natural History Museum + Rose Center",
@@ -378,7 +710,20 @@
       "bestTime": "Weekday morning. School holiday periods: very crowded.",
       "book": "amnh.org",
       "insider": "The most famous dinosaur hall in the world — T-Rex, Triceratops, Brachiosaurus (all real). The Rose Center for Earth and Space has a full-dome planetarium show. The giant blue whale suspended from the ceiling of the Ocean Hall. Children consistently rate this as their favourite New York experience.",
-      "scores": { "family": 10, "firstTimer": 8, "solo": 7, "couple": 7, "photographer": 7, "budget": 6, "repeat": 6, "luxury": 5, "culture": 8, "adventure": 6 }
+      "scores": {
+        "family": 10,
+        "firstTimer": 8,
+        "solo": 7,
+        "couple": 7,
+        "photographer": 7,
+        "budget": 6,
+        "repeat": 6,
+        "luxury": 5,
+        "culture": 8,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Harlem Gospel and Soul Food Sunday",
@@ -388,7 +733,20 @@
       "bestTime": "Sunday. Church service 11am. Brunch 1pm.",
       "book": "No booking for Abyssinian Baptist Church (arrive at 10am for 11am service). Sylvia's: +1 212 996 0660.",
       "insider": "Abyssinian Baptist Church on Odell Clark Place — arrive 10am for the 11am service. Sit in the balcony. The choir is extraordinary. The tradition dates from 1808. Sylvia's restaurant afterwards for fried chicken and candied yams.",
-      "scores": { "firstTimer": 8, "repeat": 8, "culture": 10, "solo": 7, "couple": 7, "family": 7, "photographer": 7, "budget": 6, "luxury": 4, "adventure": 5 }
+      "scores": {
+        "firstTimer": 8,
+        "repeat": 8,
+        "culture": 10,
+        "solo": 7,
+        "couple": 7,
+        "family": 7,
+        "photographer": 7,
+        "budget": 6,
+        "luxury": 4,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Top of the Rock Observation Deck",
@@ -398,7 +756,20 @@
       "bestTime": "Sunset timing (30 minutes before)",
       "book": "topoftherocknyc.com",
       "insider": "The correct observation deck in New York — it gives you the Empire State Building IN the frame, plus Central Park, Brooklyn Bridge, and the whole Manhattan skyline in both directions. The Empire State Building observation deck only gives you everything EXCEPT the Empire State Building.",
-      "scores": { "firstTimer": 9, "photographer": 9, "couple": 8, "family": 8, "solo": 7, "repeat": 5, "budget": 5, "luxury": 7, "adventure": 4, "foodie": 2 }
+      "scores": {
+        "firstTimer": 9,
+        "photographer": 9,
+        "couple": 8,
+        "family": 8,
+        "solo": 7,
+        "repeat": 5,
+        "budget": 5,
+        "luxury": 7,
+        "adventure": 4,
+        "foodie": 2
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Jackson Heights Food Walk",
@@ -408,7 +779,20 @@
       "bestTime": "Any day 11am–8pm",
       "book": "No booking. Take E/F/M/R to Jackson Heights-Roosevelt Ave.",
       "insider": "Roosevelt Avenue and 74th Street for 2 hours. Pani puri USD 3, Bangladeshi biryani USD 10, Tibetan momos USD 7, Nepali thali USD 12. Street food prices are Indian prices. Quality is Indian quality. No restaurant in Manhattan's Indian neighbourhood comes close.",
-      "scores": { "indianTraveler": 10, "foodie": 10, "budget": 10, "repeat": 10, "solo": 9, "family": 9, "couple": 7, "photographer": 8, "firstTimer": 7, "adventure": 8 }
+      "scores": {
+        "indianTraveler": 10,
+        "foodie": 10,
+        "budget": 10,
+        "repeat": 10,
+        "solo": 9,
+        "family": 9,
+        "couple": 7,
+        "photographer": 8,
+        "firstTimer": 7,
+        "adventure": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Brooklyn Flea Market",
@@ -418,7 +802,20 @@
       "bestTime": "Sunday 10am–5pm",
       "book": "No booking.",
       "insider": "The most curated flea market in the US. 150 vendors selling vintage clothing, furniture, jewellery, records, and art. The DUMBO location has the most beautiful setting of any flea market in the world — industrial warehouses with the Brooklyn Bridge visible from the market.",
-      "scores": { "firstTimer": 7, "photographer": 8, "couple": 8, "solo": 7, "repeat": 8, "budget": 7, "family": 7, "luxury": 4, "foodie": 5, "adventure": 5 }
+      "scores": {
+        "firstTimer": 7,
+        "photographer": 8,
+        "couple": 8,
+        "solo": 7,
+        "repeat": 8,
+        "budget": 7,
+        "family": 7,
+        "luxury": 4,
+        "foodie": 5,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "A Broadway Show",
@@ -428,7 +825,20 @@
       "bestTime": "Evening performances. TKTS booth opens 3pm for evening shows.",
       "book": "Official booking at each theatre website. Same-day: TKTS booth, 47th Street and Broadway.",
       "insider": "The TKTS booth in Times Square sells same-day unsold seats at 20–50% discount from 3pm. Best discounts on shows that have been running for years. On Friday evenings the premium seats sometimes appear at standard prices.",
-      "scores": { "firstTimer": 9, "couple": 9, "honeymoon": 9, "solo": 7, "luxury": 7, "family": 7, "repeat": 8, "budget": 5, "photographer": 3, "adventure": 4 }
+      "scores": {
+        "firstTimer": 9,
+        "couple": 9,
+        "honeymoon": 9,
+        "solo": 7,
+        "luxury": 7,
+        "family": 7,
+        "repeat": 8,
+        "budget": 5,
+        "photographer": 3,
+        "adventure": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Staten Island Ferry",
@@ -438,10 +848,22 @@
       "bestTime": "Sunset going toward Staten Island",
       "book": "No booking. Runs every 30 minutes.",
       "insider": "The Staten Island Ferry passes within 800 metres of the Statue of Liberty — the same view as the tourist boat for USD 0. The ferry runs 24/7, 365 days a year, completely free. It is the finest free view of New York's harbour available.",
-      "scores": { "firstTimer": 9, "budget": 10, "photographer": 8, "family": 9, "couple": 7, "solo": 8, "repeat": 7, "luxury": 4, "foodie": 2, "adventure": 5 }
+      "scores": {
+        "firstTimer": 9,
+        "budget": 10,
+        "photographer": 8,
+        "family": 9,
+        "couple": 7,
+        "solo": 8,
+        "repeat": 7,
+        "luxury": 4,
+        "foodie": 2,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     }
   ],
-
   "designedSurprises": {
     "solo": {
       "experience": "Village Vanguard Jazz on a Monday evening",
@@ -489,7 +911,6 @@
       "why": "New York by bicycle at dawn is a city that doesn't exist at noon."
     }
   },
-
   "travelerGuides": {
     "solo": {
       "accommodation": "Hostel in East Village or Brooklyn: USD 35–50 dorm, USD 100–140 private. The Pod Hotels (Pod 39, Pod 51) offer small but well-designed rooms at USD 100–180.",
@@ -531,22 +952,56 @@
       "community": "New York's Indian community is concentrated in New Jersey (Edison) and Queens (Jackson Heights, Flushing). For the most immersive Indian community experience: take the train to Edison, NJ (1 hour from Penn Station)."
     }
   },
-
   "hotels": {
     "luxury": [
-      { "name": "Aman New York", "area": "Crown Building, Midtown", "nightly": "USD 2,000–5,000", "honest": "The most architecturally extraordinary hotel in New York. Inside a 1921 Beaux-Arts landmark. The spa is the finest in the city.", "tip": "" },
-      { "name": "The Standard High Line", "area": "Meatpacking District, above High Line", "nightly": "USD 400–800", "honest": "The most interesting design hotel in Manhattan. Directly above the High Line. The Boom Boom Room rooftop bar is New York nightlife at its best.", "tip": "" }
+      {
+        "name": "Aman New York",
+        "area": "Crown Building, Midtown",
+        "nightly": "USD 2,000–5,000",
+        "honest": "The most architecturally extraordinary hotel in New York. Inside a 1921 Beaux-Arts landmark. The spa is the finest in the city.",
+        "tip": ""
+      },
+      {
+        "name": "The Standard High Line",
+        "area": "Meatpacking District, above High Line",
+        "nightly": "USD 400–800",
+        "honest": "The most interesting design hotel in Manhattan. Directly above the High Line. The Boom Boom Room rooftop bar is New York nightlife at its best.",
+        "tip": ""
+      }
     ],
     "mid": [
-      { "name": "The Ludlow", "area": "Lower East Side", "nightly": "USD 250–450", "honest": "The most romantic mid-range hotel in Manhattan. The neighbourhood is the best for independent restaurants and bars.", "tip": "" },
-      { "name": "Ace Hotel New York", "area": "Midtown, 29th Street", "nightly": "USD 200–400", "honest": "The Ace lobby is one of the great hotel social spaces — a working café that New Yorkers use daily.", "tip": "" }
+      {
+        "name": "The Ludlow",
+        "area": "Lower East Side",
+        "nightly": "USD 250–450",
+        "honest": "The most romantic mid-range hotel in Manhattan. The neighbourhood is the best for independent restaurants and bars.",
+        "tip": ""
+      },
+      {
+        "name": "Ace Hotel New York",
+        "area": "Midtown, 29th Street",
+        "nightly": "USD 200–400",
+        "honest": "The Ace lobby is one of the great hotel social spaces — a working café that New Yorkers use daily.",
+        "tip": ""
+      }
     ],
     "budget": [
-      { "name": "HI NYC Hostel", "area": "Upper West Side, 103rd Street", "nightly": "USD 35–55 dorm", "honest": "The best-located hostel in Manhattan. Next to Central Park. Large common areas.", "tip": "" },
-      { "name": "Pod 39", "area": "Midtown East", "nightly": "USD 100–180", "honest": "The best-designed budget hotel in Manhattan. Small rooms but immaculately designed. Rooftop bar.", "tip": "" }
+      {
+        "name": "HI NYC Hostel",
+        "area": "Upper West Side, 103rd Street",
+        "nightly": "USD 35–55 dorm",
+        "honest": "The best-located hostel in Manhattan. Next to Central Park. Large common areas.",
+        "tip": ""
+      },
+      {
+        "name": "Pod 39",
+        "area": "Midtown East",
+        "nightly": "USD 100–180",
+        "honest": "The best-designed budget hotel in Manhattan. Small rooms but immaculately designed. Rooftop bar.",
+        "tip": ""
+      }
     ]
   },
-
   "transport": {
     "subway": "24/7, USD 2.90/trip. OMNY contactless (tap your bank card). MetroCard available at all stations. Daily cap USD 13 (unlimited after 4.5 rides). Weekly unlimited MetroCard: USD 34.",
     "jfk_airport": "AirTrain to Jamaica + subway: USD 10.50 total, 60 mins. Express Bus to midtown: USD 16, 60 mins. Taxi flat rate: USD 70 + tolls + tip. Uber: USD 55–85.",
@@ -554,7 +1009,6 @@
     "citi_bike": "USD 4 for 30 mins. Fastest for journeys under 3km. Available at 1,000+ stations.",
     "staten_island_ferry": "FREE. 24/7. Best free ride in any city. Whitehall Terminal, Lower Manhattan."
   },
-
   "trafficIntelligence": {
     "worstDay": "Monday morning and Friday afternoon in Midtown — worst gridlock of the week",
     "bestCrossCity": "Subway is always faster than any surface transport during rush hours",
@@ -562,14 +1016,28 @@
     "itineraryRule": "Never schedule tourist activities during rush hour — not for safety but for time wasted. Everything in Manhattan is 15–20 minutes by subway from everything else.",
     "congestion_pricing": "Manhattan Congestion Pricing (2024) — USD 9/day toll to drive into central Manhattan. Not relevant for tourists using public transport. Taxis and Ubers pass this cost to passengers."
   },
-
   "seasonal": {
-    "marchMay": { "temp": "8–20°C", "reality": "Unpredictable spring. Cherry blossoms in Central Park late March. Good pricing, lower crowds than summer.", "priceLevel": "Medium" },
-    "juneAugust": { "temp": "22–32°C", "reality": "Peak season. Most expensive, most crowded. Free SummerStage concerts in Central Park. Book 6–8 weeks ahead.", "priceLevel": "High" },
-    "sepNov": { "temp": "10–22°C", "reality": "Best season. Autumn colours in Central Park October–November. Comfortable temperatures. Moderate pricing. The optimal month: October.", "priceLevel": "Medium-High" },
-    "decFeb": { "temp": "-5 to 8°C", "reality": "Cold but not extreme. Christmas lights December (Rockefeller Center tree, Fifth Avenue displays). New Year's Eve Times Square ball drop (ticketed outdoor areas). January–February cheapest.", "priceLevel": "Low (except New Year)" }
+    "marchMay": {
+      "temp": "8–20°C",
+      "reality": "Unpredictable spring. Cherry blossoms in Central Park late March. Good pricing, lower crowds than summer.",
+      "priceLevel": "Medium"
+    },
+    "juneAugust": {
+      "temp": "22–32°C",
+      "reality": "Peak season. Most expensive, most crowded. Free SummerStage concerts in Central Park. Book 6–8 weeks ahead.",
+      "priceLevel": "High"
+    },
+    "sepNov": {
+      "temp": "10–22°C",
+      "reality": "Best season. Autumn colours in Central Park October–November. Comfortable temperatures. Moderate pricing. The optimal month: October.",
+      "priceLevel": "Medium-High"
+    },
+    "decFeb": {
+      "temp": "-5 to 8°C",
+      "reality": "Cold but not extreme. Christmas lights December (Rockefeller Center tree, Fifth Avenue displays). New Year's Eve Times Square ball drop (ticketed outdoor areas). January–February cheapest.",
+      "priceLevel": "Low (except New Year)"
+    }
   },
-
   "nycFestivals": {
     "nyeTimesSquare": "December 31. The ball drop at Times Square. Ticketed outdoor viewing areas (apply at timessquarenyc.org). Crowds of 2 million in the area. Arrive 4+ hours early for the best position.",
     "metOpera": "September–May. The Metropolitan Opera at Lincoln Center. Rush tickets (USD 25) available from 10am on performance days. The finest opera house in the Western Hemisphere.",
@@ -577,15 +1045,38 @@
     "thanksgiving": "Fourth Thursday November. The Macy's Thanksgiving Day Parade along Central Park West (7am, free). The night before: the balloons are inflated on 77th Street (free, extraordinary).",
     "notting_hill_equivalent": "Puerto Rican Day Parade, June. The West Indian American Day Parade, Brooklyn, Labor Day. The most vibrant street parades in the US."
   },
-
   "rooftopsAndViews": [
-    { "name": "Top of the Rock, Rockefeller Center", "area": "Midtown", "note": "The Empire State Building is IN your frame. The correct observation deck in New York. Book for sunset.", "price": "USD 40–45" },
-    { "name": "Edge, Hudson Yards", "area": "West Midtown", "note": "Highest outdoor observation deck in Western Hemisphere. Glass floor extension over the city.", "price": "USD 38–56" },
-    { "name": "The Bar at the Met Museum rooftop (seasonal)", "area": "Upper East Side", "note": "The most elegant rooftop bar in New York. With the Central Park tree canopy below and the Manhattan skyline behind. Summer only.", "price": "USD 20–25/cocktail" },
-    { "name": "East River State Park, Williamsburg (free)", "area": "Brooklyn", "note": "Free park. Best Manhattan skyline view. Especially beautiful at sunset.", "price": "Free" },
-    { "name": "Dumbo waterfront (free)", "area": "Brooklyn", "note": "Manhattan Bridge frame + Empire State Building. Most photographed view. Free.", "price": "Free" }
+    {
+      "name": "Top of the Rock, Rockefeller Center",
+      "area": "Midtown",
+      "note": "The Empire State Building is IN your frame. The correct observation deck in New York. Book for sunset.",
+      "price": "USD 40–45"
+    },
+    {
+      "name": "Edge, Hudson Yards",
+      "area": "West Midtown",
+      "note": "Highest outdoor observation deck in Western Hemisphere. Glass floor extension over the city.",
+      "price": "USD 38–56"
+    },
+    {
+      "name": "The Bar at the Met Museum rooftop (seasonal)",
+      "area": "Upper East Side",
+      "note": "The most elegant rooftop bar in New York. With the Central Park tree canopy below and the Manhattan skyline behind. Summer only.",
+      "price": "USD 20–25/cocktail"
+    },
+    {
+      "name": "East River State Park, Williamsburg (free)",
+      "area": "Brooklyn",
+      "note": "Free park. Best Manhattan skyline view. Especially beautiful at sunset.",
+      "price": "Free"
+    },
+    {
+      "name": "Dumbo waterfront (free)",
+      "area": "Brooklyn",
+      "note": "Manhattan Bridge frame + Empire State Building. Most photographed view. Free.",
+      "price": "Free"
+    }
   ],
-
   "dayTrips": {
     "hamptons": {
       "distance": "130km east, 2.5 hours by Long Island Rail Road",
@@ -603,7 +1094,6 @@
       "transport": "Amtrak Acela or NE Regional from Penn Station: USD 25–80 return."
     }
   },
-
   "shopping": {
     "strand_bookshop": "East Village. 18 miles of books. The finest used bookshop in the US. The rare book room on the third floor has first editions from USD 50–5,000.",
     "chelsea_galleries": "The Chelsea gallery district (10th–11th Avenues, 14th–27th Streets) has the most significant contemporary art in the US — free to enter all galleries Tuesday–Saturday.",
@@ -612,7 +1102,6 @@
     "midtown_electronics": "B&H Photo (Midtown West) is the finest camera and electronics store in the world. Tax-free for tourists. Open Sunday–Friday except Jewish holidays.",
     "tax_refund": "New York charges 8.875% sales tax. No tourist refund scheme. Budget for this on purchases."
   },
-
   "culturalRules": {
     "critical": [
       "Tipping 18–20% at restaurants is mandatory social behaviour, not optional — servers earn USD 2.13/hour legally.",
@@ -624,13 +1113,11 @@
     "tipping": "Restaurants: 20% standard. Taxis: 20%. Hotel bellhop: USD 2–5/bag. Bar: USD 1–2/drink.",
     "photography": "Photography in public spaces is legal in the US without consent for personal use. Photography of government buildings: avoid."
   },
-
   "visaIntelligence": {
     "indianPassport": "US B-2 tourist visa required. Apply at US Embassy or consulate. Cost: USD 185. Processing: interview required, 4–8 weeks total process.",
     "important": "The US visa process is strict for Indians. Show strong ties to India — employment, property, family. Financial statements showing USD 1,500–2,000/week of stay.",
     "tip": "Apply for a 10-year multiple entry visa if eligible — same cost, much more flexibility for future US travel."
   },
-
   "pricingBenchmarks": {
     "subway_single": "USD 2.90",
     "subway_weekly_unlimited": "USD 34",
@@ -650,7 +1137,6 @@
     "top_of_rock": "USD 40–45",
     "staten_island_ferry": "FREE"
   },
-
   "savingsIntelligence": [
     "Tipping 20% is standard — budget for it. On a USD 25 dinner for two, tip is USD 10. New York meal cost is always 25% more than the menu price.",
     "TKTS same-day Broadway tickets (USD 25–120) vs full price (USD 80–350) — saves USD 30–200/person",
@@ -661,7 +1147,6 @@
     "Museums: Met suggested donation is suggested — pay what you can. Natural History Museum: purchase online to skip ticket line.",
     "Smorgasburg (USD 12 for a satisfying meal) vs restaurant equivalent in Williamsburg (USD 25–40)"
   ],
-
   "practical": {
     "electricity": "Type A (2 flat pins). 120V. Indian appliances need voltage converter (230V to 120V) AND adapter.",
     "bestExchange": "ATMs at Chase, Citibank, or Wells Fargo — best rates. Never airport exchange.",
@@ -671,17 +1156,36 @@
     "tipping": "20% at restaurants (standard). 20% taxis. USD 1–2/drink at bars.",
     "apps": "Citymapper (best NYC transit app), Uber/Lyft, OpenTable (restaurant reservations), Yelp (business hours and reviews), Resy (upscale restaurant bookings)"
   },
-
   "hiddenPlaces": [
-    { "name": "Golden Mall Flushing basement", "note": "The most authentic and cheapest food in New York. Xi'an noodles USD 6. Under a shopping mall in Flushing, Queens." },
-    { "name": "Village Vanguard Monday evening", "note": "The most historic jazz club in the world. USD 35. The Vanguard Jazz Orchestra since 1966." },
-    { "name": "Arthur Avenue, The Bronx", "note": "The real Italian neighbourhood. Dominick's restaurant: no menu, communal tables, cash only." },
-    { "name": "The Strand rare book room", "note": "Third floor of the Strand. First editions USD 50–5,000. Completely unknown." },
-    { "name": "Chelsea gallery district", "note": "10th–11th Avenues, 14th–27th Streets. The most significant contemporary art in the US. Free. Tuesday–Saturday." },
-    { "name": "Abyssinian Baptist Church Sunday 11am", "note": "The most extraordinary gospel choir accessible to visitors. Free. Arrive at 10am." },
-    { "name": "East River State Park Brooklyn at dawn", "note": "Free park. Best Manhattan skyline view. Almost empty before 8am." }
+    {
+      "name": "Golden Mall Flushing basement",
+      "note": "The most authentic and cheapest food in New York. Xi'an noodles USD 6. Under a shopping mall in Flushing, Queens."
+    },
+    {
+      "name": "Village Vanguard Monday evening",
+      "note": "The most historic jazz club in the world. USD 35. The Vanguard Jazz Orchestra since 1966."
+    },
+    {
+      "name": "Arthur Avenue, The Bronx",
+      "note": "The real Italian neighbourhood. Dominick's restaurant: no menu, communal tables, cash only."
+    },
+    {
+      "name": "The Strand rare book room",
+      "note": "Third floor of the Strand. First editions USD 50–5,000. Completely unknown."
+    },
+    {
+      "name": "Chelsea gallery district",
+      "note": "10th–11th Avenues, 14th–27th Streets. The most significant contemporary art in the US. Free. Tuesday–Saturday."
+    },
+    {
+      "name": "Abyssinian Baptist Church Sunday 11am",
+      "note": "The most extraordinary gospel choir accessible to visitors. Free. Arrive at 10am."
+    },
+    {
+      "name": "East River State Park Brooklyn at dawn",
+      "note": "Free park. Best Manhattan skyline view. Almost empty before 8am."
+    }
   ],
-
   "insiderIntelligence": [
     "New York pizza slice culture: the correct pizza experience is standing at the counter of any neighbourhood slice place, folding the slice in half, and eating it immediately. USD 3–4.",
     "The subway map is designed to be geographically misleading — some 'close' stations are a 20-minute walk apart. Check Google Maps before deciding to walk between subway stops.",
@@ -692,15 +1196,12 @@
     "Times Square: worth seeing once for 15 minutes. Never worth eating at, never worth staying near, never worth spending a full evening at.",
     "Jackson Heights in Queens is 30 minutes by subway from Midtown Manhattan and feels like entering a different country. This contrast — available for USD 2.90 — is the most extraordinary thing New York offers Indian visitors."
   ],
-
   "whyPeopleFallInLove": "People arrive for the skyline. They stay for the food — specifically for the moment they eat something extraordinary from a counter in a basement under a mall in Flushing for USD 6, or a pizza slice standing on the street in Brooklyn for USD 3.50, and understand that New York's greatest gift is the democracy of its pleasures. They return because no other city makes you feel simultaneously anonymous and entirely seen. New York does not require you to be anyone. It also does not stop you from becoming whoever you need to be.",
-
   "localTruths": [
     "Most visitors think New York is Times Square. New Yorkers have not been to Times Square voluntarily since approximately 2003. The New York that New Yorkers love is their neighbourhood — the specific block, the coffee shop where the barista knows their order, the park at the end of the street.",
     "Most visitors think New York is rude. New Yorkers are the most direct people in the world. They will tell you exactly what they think, give you exactly the information you asked for, and move on immediately. This is not rudeness. It is efficiency. It is also, once understood, a profound form of respect.",
     "Most visitors think New York is expensive. The subway is USD 2.90. The pizza slice is USD 3.50. The Staten Island Ferry gives you the harbour view and the Statue of Liberty for free. Jackson Heights feeds you like a king for USD 12. The expensive New York is the tourist New York. The real New York has always been accessible."
   ],
-
   "ifYouOnlyHadOneChance": {
     "breakfast": "Russ & Daughters on a weekday morning — smoked nova salmon on a bagel with cream cheese, the fish cured to the same recipe since 1914, the counter staff the fourth generation. USD 22 for the specific taste of New York Jewish heritage that no other city can replicate.",
     "sunset": "Brooklyn Bridge at 5:30am — before any tourist arrives, Lower Manhattan glowing in the early light, the suspension cables converging toward the towers, the East River below. The photograph everyone has taken minus every other person who has taken it.",
@@ -709,53 +1210,268 @@
     "memory": "The first subway ride at rush hour — the packed car, the specific underground smell, the efficiency of 6 million daily riders all moving simultaneously on a system built in 1904. New York reveals itself in its subway in a way no other city reveals itself in its transport.",
     "secret": "The Village Vanguard on a Monday evening — the most historic jazz club in the world, the Vanguard Jazz Orchestra since 1966, the basement unchanged since 1935, USD 35. The musicians are at a level of mastery that exists in maybe four rooms in the world. One of them is this basement in the West Village."
   },
-
   "neighborhoodPersonalities": {
-    "midtown": ["Efficient", "Tourist", "Corporate", "Impersonal"],
-    "west_village": ["Beautiful", "Cobblestone", "Residential", "Beloved"],
-    "williamsburg": ["Creative", "Foodie", "Brooklyn", "Evolving"],
-    "jackson_heights": ["Diverse", "Immigrant", "World", "Authentic"],
-    "harlem": ["Cultural", "Musical", "Historical", "Transforming"],
-    "lower_east_side": ["Heritage", "Bars", "Jewish", "Night"],
-    "greenpoint": ["Polish", "Gallery", "Quiet", "Undiscovered"]
+    "midtown": [
+      "Efficient",
+      "Tourist",
+      "Corporate",
+      "Impersonal"
+    ],
+    "west_village": [
+      "Beautiful",
+      "Cobblestone",
+      "Residential",
+      "Beloved"
+    ],
+    "williamsburg": [
+      "Creative",
+      "Foodie",
+      "Brooklyn",
+      "Evolving"
+    ],
+    "jackson_heights": [
+      "Diverse",
+      "Immigrant",
+      "World",
+      "Authentic"
+    ],
+    "harlem": [
+      "Cultural",
+      "Musical",
+      "Historical",
+      "Transforming"
+    ],
+    "lower_east_side": [
+      "Heritage",
+      "Bars",
+      "Jewish",
+      "Night"
+    ],
+    "greenpoint": [
+      "Polish",
+      "Gallery",
+      "Quiet",
+      "Undiscovered"
+    ]
   },
-
   "residentSunday": "A New York resident with one free Sunday: 8am Russ & Daughters for smoked salmon and a bagel — the specific New York breakfast that no other city has. 10am walk across the Brooklyn Bridge to DUMBO — coffee at a café on the waterfront before the tourists arrive. 11am Brooklyn Flea Market if open. 1pm Smorgasburg (April-November) for lunch — SGD equivalent, the ramen burger, the lobster roll. 3pm walk Williamsburg back toward Manhattan on the East River State Park for the skyline view. 5pm back to Manhattan — a late afternoon nap in Central Park on the Great Lawn. 7pm Village Vanguard if it's Monday, otherwise a neighbourhood bar in the West Village. This is the Sunday that New Yorkers describe when asked why they stay.",
-
   "dayMemoryTargets": {
     "arrival": "The first subway ride — the specific underground smell, the efficiency, the map that is a lie about geography, the complete absence of eye contact that is not coldness but the social contract of 9 million people in close proximity. Then the first moment above ground when Manhattan reveals itself: a view of the skyline, or the Brooklyn Bridge, or Central Park from a taxi window. The memory is the moment the idea of New York collides with the physical reality of it.",
     "peak": "The Brooklyn Bridge at 5:30am when no other tourist is present — the suspension cables converging, the lower Manhattan skyline glowing, the East River below. OR the first bite of a pastrami sandwich at Katz's with the memory of the film playing in the background. OR Jackson Heights at noon — pani puri for USD 3 while standing on Roosevelt Avenue and understanding that this city contains the entire world. The memory is the moment New York stopped being a backdrop and became a place.",
     "departure": "The last subway journey. The last slice of pizza standing at a counter on a street that looks like every film ever set in New York. The specific quality of New York autumn light — amber, low, through the ginkgo trees on any residential street. The memory is the realisation that New York is not one city but the city closest to everyone's idea of what a city should be."
   },
-
   "tripLengthGuide": {
     "two_days": {
-      "must_include": ["Brooklyn Bridge walk at dawn", "One iconic New York meal (Katz's OR Russ & Daughters)", "Central Park morning"],
-      "skip": ["Statue of Liberty (full half-day)", "Multiple museums"],
+      "must_include": [
+        "Brooklyn Bridge walk at dawn",
+        "One iconic New York meal (Katz's OR Russ & Daughters)",
+        "Central Park morning"
+      ],
+      "skip": [
+        "Statue of Liberty (full half-day)",
+        "Multiple museums"
+      ],
       "note": "Two days in New York: one morning experience, one neighbourhood, one meal. Do not try to cover the city. Cover one version of it well."
     },
     "three_to_four_days": {
-      "must_include": ["Brooklyn Bridge", "Central Park", "Metropolitan Museum (one wing)", "High Line", "Jackson Heights OR Smorgasburg", "One show at TKTS price"],
-      "skip": ["Day trips"],
+      "must_include": [
+        "Brooklyn Bridge",
+        "Central Park",
+        "Metropolitan Museum (one wing)",
+        "High Line",
+        "Jackson Heights OR Smorgasburg",
+        "One show at TKTS price"
+      ],
+      "skip": [
+        "Day trips"
+      ],
       "note": "Three to four days is the ideal first New York trip. Enough to understand what makes it unlike anywhere else."
     },
     "five_to_six_days": {
-      "must_include": ["All above", "Village Vanguard Monday", "Harlem Sunday gospel and brunch", "Brooklyn Flea and Smorgasburg Saturday"],
+      "must_include": [
+        "All above",
+        "Village Vanguard Monday",
+        "Harlem Sunday gospel and brunch",
+        "Brooklyn Flea and Smorgasburg Saturday"
+      ],
       "skip": [],
       "note": "Now the neighbourhood character of New York opens up. The traveller can move between Manhattan and Brooklyn and begin to understand the difference."
     },
     "seven_plus_days": {
-      "must_include": ["All above", "Citi Bike ride at dawn", "Arthur Avenue The Bronx", "Di Fara Pizza Brooklyn", "Philadelphia or Hudson Valley day trip"],
+      "must_include": [
+        "All above",
+        "Citi Bike ride at dawn",
+        "Arthur Avenue The Bronx",
+        "Di Fara Pizza Brooklyn",
+        "Philadelphia or Hudson Valley day trip"
+      ],
       "skip": [],
       "note": "At 7+ days New York becomes navigable. The goal is to find one neighbourhood that feels like the traveller's own — and to eat every meal as a local would."
     }
   },
-
   "antiPatterns": [
     "Times Square as a dining destination — no exception to this rule exists. Walk 10 minutes in any direction.",
     "Metropolitan Museum AND MoMA on the same day — each requires 3-4 hours of genuine attention. Combining them produces the museum equivalent of eating too fast.",
     "Brooklyn Bridge walk AND the High Line on the same morning — they are in opposite parts of Manhattan. The commute between them takes 45 minutes and turns two good experiences into one rushed one.",
     "Statue of Liberty AND Ellis Island as a half-day — this is a full day commitment minimum. Book the first ferry and plan nothing else.",
     "Dinner reservation in the West Village at 7pm AND a Broadway show at 8pm — the West Village at peak dinner hour requires either a very quick meal or a very late theatre arrival. Give dinner 2 hours or book the pre-theatre menu specifically."
-  ]
+  ],
+  "meta": {
+    "_schemaVersion": "3.0",
+    "lastUpdated": "2026-06",
+    "lastVerified": "2026-06",
+    "nextReviewDue": "2026-12",
+    "dataQualityScore": 9.2
+  },
+  "geography": {
+    "mapCenter": {
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "googleMapsUrl": "https://maps.google.com/?q=New+York+City",
+    "timezone": "EST/EDT UTC-5/-4"
+  },
+  "languageIntelligence": {
+    "officialLanguage": "English",
+    "workingLanguage": "American English — direct, fast, efficient",
+    "usefulPhrases": {
+      "regular": "Standard coffee with milk and sugar at a deli",
+      "slice": "One piece of pizza",
+      "bodega": "Corner convenience store"
+    },
+    "note": "New Yorkers are direct not rude. They give you the information you asked for and move on.",
+    "indianLanguageSupport": "Jackson Heights (Queens): Hindi, Punjabi, Bengali, Gujarati, Tamil all widely spoken. The most linguistically diverse neighbourhood on earth."
+  },
+  "safetyIntelligence": {
+    "overallRating": "Safe with awareness",
+    "safetyScore": 7.8,
+    "safeAtNight": true,
+    "soloFemaleRating": "Generally safe — awareness late night on subway",
+    "scamsToKnow": [
+      "CD/souvenir approach in Times Square — someone puts something in your hand then demands payment",
+      "Three-card Monte street games — never participate"
+    ],
+    "emergencyProtocol": "Police/Ambulance/Fire: 911. Non-emergency: 311."
+  },
+  "healthIntelligence": {
+    "vaccinesRecommended": [
+      "Standard routine vaccines"
+    ],
+    "waterSafety": "NYC tap water is among the finest in the US — safe from any tap.",
+    "pharmacyAvailability": "Duane Reade (Walgreens) — multiple 24-hour locations throughout Manhattan."
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "13-14 hours direct",
+        "airlines": [
+          "Air India DEL-JFK direct"
+        ],
+        "priceRange": "INR 80,000-2,00,000 return",
+        "note": "Book 8-12 weeks ahead for best prices."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "14-16 hours one stop or direct",
+        "priceRange": "INR 75,000-1,90,000"
+      }
+    },
+    "airportToCity": {
+      "jfkSubway": "AirTrain to Jamaica + E train: USD 10.50, 60 mins — cheapest",
+      "taxi": "USD 70 flat rate to Manhattan + tolls + tip",
+      "uber": "USD 55-85 to Midtown"
+    }
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Philadelphia",
+      "travelTime": "1.5 hours by Amtrak",
+      "cost": "USD 25-80 return",
+      "whyCombine": "Declaration of Independence. Liberty Bell. Excellent cheesesteak.",
+      "suggestIf": "Trip is 5+ days"
+    },
+    {
+      "city": "Hudson Valley",
+      "travelTime": "1.5-2 hours by Metro-North",
+      "cost": "USD 15-20 return",
+      "whyCombine": "Best autumn foliage accessible from NYC. Dia:Beacon museum.",
+      "suggestIf": "Visiting October-November"
+    }
+  ],
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 — peak summer season. Hot, humid, very crowded. Most expensive time to visit. Central Park Summerstage free concerts running.",
+    "currentAlerts": [],
+    "entryRequirements": "Indians need US B-2 Tourist Visa. USD 185, interview required, 4-8 weeks process. Strong ties to India needed.",
+    "indianAdvisoryNote": "Check mea.gov.in for current USA advisory."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Brooklyn Bridge walk (5:30am)",
+        "Russ & Daughters breakfast (8am)",
+        "Metropolitan Museum (10am)"
+      ],
+      "emotionalArc": "New York's icon → New York's most specific breakfast → New York's finest collection. The city from three angles before noon.",
+      "bestFor": [
+        "firstTimer",
+        "solo",
+        "photographer"
+      ]
+    },
+    {
+      "sequence": [
+        "Jackson Heights food walk (Sunday noon)",
+        "Smorgasburg (if Saturday, sequence reverses)",
+        "Village Vanguard (Monday 9pm)"
+      ],
+      "emotionalArc": "The world in one neighbourhood → the city's food creativity → the world's finest jazz. New York's extraordinary diversity.",
+      "bestFor": [
+        "foodie",
+        "repeat",
+        "solo"
+      ]
+    },
+    {
+      "sequence": [
+        "High Line (morning)",
+        "Chelsea galleries (11am, free)",
+        "St John equivalent → Katz's Deli lunch",
+        "TKTS show (evening)"
+      ],
+      "emotionalArc": "Elevated park → contemporary art → the most New York possible lunch → Broadway. The cultural arc of the city.",
+      "bestFor": [
+        "couple",
+        "culture",
+        "firstTimer"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Brooklyn Bridge at 5:30am",
+        "what": "Lower Manhattan in dawn light, suspension cables, East River",
+        "bestTime": "5:30-7:00am"
+      },
+      {
+        "name": "DUMBO — Washington Street frame",
+        "what": "Manhattan Bridge framing Empire State Building",
+        "bestTime": "Golden hour and dusk"
+      },
+      {
+        "name": "East River State Park, Williamsburg",
+        "what": "Full Manhattan skyline from Brooklyn waterfront",
+        "bestTime": "Dawn and sunset"
+      }
+    ]
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Improving — variable by neighbourhood",
+    "metroAccessibility": "Many subway stations lack lifts. MTA Elevator app shows current working lifts. Buses fully accessible.",
+    "challengingAreas": "Historic subway stations, some Midtown areas",
+    "seniorFriendlyScore": 7,
+    "note": "NYC Ferry system fully accessible. CitiBike has adaptive bikes."
+  }
 }

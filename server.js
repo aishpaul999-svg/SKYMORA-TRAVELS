@@ -30,7 +30,7 @@ import {
 } from "./skymora-smart-chat.js";
 import { setupPerfectChat, runPerfectProgrammatic } from "./skymora-perfect-chat.js";
 import { DateTime } from "luxon";
-import { needsLiveSearch, performLiveSearch } from "./skymora-live-search.js";
+import { needsLiveSearch, performLiveSearch, checkCurrentReality } from "./skymora-live-search.js";
 import { runUltraProgrammatic, setupUltraChat } from "./skymora-ultra-chat.js";
 import { classifyMessage } from "./skymora-firewall.js";
 import { validateTrip, buildRejectionItinerary } from "./skymora-validator.js";
@@ -554,7 +554,15 @@ async function planTrip(trip, knowledgeBlock) {
   ];
   const varietySeed = varietySeeds[Math.floor(Math.random() * varietySeeds.length)];
 
+  const planningNow = new Date();
+  const planningDate = planningNow.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+  const planningYear = planningNow.getFullYear();
+
   const planningPrompt = `You are SKYmora's trip planning engine. Your job is to make DECISIONS — not write the itinerary.
+
+TODAY'S REAL DATE: ${planningDate}. Current year is ${planningYear}. Never use 2024 or 2025 as the current year.
+
+${trip._currentAlerts?.length ? `⚠️ CURRENT ALERTS (checked live today): ${trip._currentAlerts.slice(0,2).map(a => a.title).join(' | ')} — Factor these into your decisions. Avoid flagged areas.` : `✅ No live safety alerts for ${trip.destination} as of today.`}
 
 PLANNING DIRECTION FOR THIS SPECIFIC ITINERARY: ${varietySeed}
 
@@ -791,6 +799,18 @@ async function buildDay(trip, day, tripPlan = null) {
   };
   const emotionalStateNote = emotionalStateMap[trip.emotionalState] || "";
 
+  // Occasion-specific writing voice — changes HOW we write about experiences
+  const occasionWritingVoice = {
+    celebrating: `THIS TRAVELLER IS CELEBRATING SOMETHING. Write every experience as a reward that has been earned. The restaurant is not just good — it is the evening they deserve. The view is not just beautiful — it is the view from the top of something they worked toward. Every sentence should carry the quality of celebration without ever stating it. Use elevated language for ordinary moments. This trip is a gift to themselves.`,
+
+    recovering: `THIS TRAVELLER NEEDS RESTORATION. They are not here to see everything. They are here to remember what quiet feels like. Write with spaciousness — long unhurried sentences, open afternoons, no pressure in the pacing. Never say "you can also fit in..." — that is the wrong energy entirely. The correct sentence is "The afternoon belongs to you." Every activity should feel like permission to slow down, not an obligation to fill the day.`,
+
+    escaping: `THIS TRAVELLER NEEDS CONTRAST. Everything written should emphasise how different this place is from wherever they came from. The food doesn't just taste good — it tastes like nothing they have eaten before. The morning doesn't just start early — it starts in a way that their usual mornings never do. The contrast IS the medicine. Write every observation through the lens of difference.`,
+
+    exploring: `THIS TRAVELLER IS GENUINELY CURIOUS. Write as if the city is revealing itself to someone intelligent and attentive. Not "here are the things to see" but "here is what the city is actually made of." Prioritise the specific and unexpected over the famous and safe. This traveller wants to be surprised by what they find — write toward that surprise.`
+  };
+  const occasionVoice = occasionWritingVoice[trip.emotionalState] || "";
+
   // Persona writing voice — rewritten as experiential, not explanatory
   const personaVoice = {
     luxury: `Write what is seen, felt, and noticed — never what is "provided" or "offered". The difference between a good hotel and a great one is not the thread count. It is the moment the door opens and the room is already exactly the right temperature. Describe that moment. Never use the word luxury. Never say "world-class." Show the quality through one specific detail that a person who has stayed there would remember.`,
@@ -884,7 +904,14 @@ CRITICAL RULES:
 ${knowledgeBlock}
 `;
 
+  // Real system date — never hardcoded
+  const systemNow = new Date();
+  const systemDate = systemNow.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+  const systemYear = systemNow.getFullYear();
+
   const prompt = `You are a senior travel consultant at SKYmora with 15 years of personal experience in ${resolvedDestination}.
+
+TODAY IS: ${systemDate}. The current year is ${systemYear}. Never reference 2024 or 2025 as the current year. Use ${systemYear} for all date context.
 
 You are writing Day ${day} of ${totalDays} for ${travelerName}.
 
@@ -903,6 +930,12 @@ Social Preference: ${trip.socialComfort === "meet_people" ? "Wants to meet other
 Travel Personality: ${trip.travelPersonality === "introvert" ? "INTROVERT — prioritise quiet neighbourhoods, solo counters, independent cafés, morning walks before crowds. Avoid loud group activities. Build in solitude." : trip.travelPersonality === "extrovert" ? "EXTROVERT — prioritise rooftop bars, night markets, group food tours, social settings. Evenings should be energetic and social." : "BALANCED personality — mix of social and quiet experiences."}
 Planning Style: ${trip.planningStyle === "planner" ? "PLANNER — fill every slot, include reservations needed, specific timings. Leave nothing ambiguous." : trip.planningStyle === "spontaneous" ? "SPONTANEOUS — give 2 anchors per day maximum, leave afternoons deliberately open, no rigid timing. Write in a way that invites deviation." : "BALANCED planner — structured morning, open afternoon."}
 Trip Length Context: ${totalDays <= 2 ? `VERY SHORT TRIP (${totalDays} days) — ruthless prioritisation. One iconic experience per day maximum. Cut everything secondary.` : totalDays <= 4 ? `SHORT TRIP (${totalDays} days) — focus on the 2-3 experiences that define this destination. No day trips. No rushed overview.` : totalDays <= 6 ? `MEDIUM TRIP (${totalDays} days) — now depth is possible. Mix iconic with hidden. One day trip viable.` : `LONG TRIP (${totalDays}+ days) — full depth. Neighbourhoods, day trips, slow mornings. The traveller can now truly understand the city.`}
+
+${trip._currentAlerts?.length ? `
+⚠️ LIVE CURRENT REALITY ALERTS — READ BEFORE WRITING:
+${trip._currentAlerts.map(a => `- ${a.title}: ${a.snippet}`).join('\n')}
+CRITICAL: These are real-time alerts from today (${new Date().toLocaleDateString('en-GB')}). Acknowledge relevant alerts naturally in the itinerary. Adjust recommendations if safety is affected. Be honest — a traveller's safety matters more than a positive itinerary. If an area is flagged as unsafe, recommend an alternative.
+` : `✅ No current travel alerts or advisories detected for ${resolvedDestination} as of ${new Date().toLocaleDateString('en-GB')}.`}
 
 ${context}
 
@@ -936,6 +969,8 @@ GOOD: "The Hoxton in Chelsea. Chelsea gives faster subway access than Midtown, s
 
 PACE INTELLIGENCE — acknowledge when you are intentionally keeping things light:
 "This afternoon stays deliberately open. Most travelers over-schedule Day 1 and arrive at dinner already tired. That is a waste of a good city."
+
+${occasionVoice ? `\nOCCASION-SPECIFIC WRITING INSTRUCTION:\n${occasionVoice}\n` : ''}
 
 ${localIntelligence}
 
@@ -1167,8 +1202,77 @@ async function generateInBackground(tripId, trip, startAt, totalDays, tripPlan =
       const agentVariants = agentClosers[agentFirst] || agentClosers["Noah"];
       const closer = agentVariants[Math.floor(Math.random() * agentVariants.length)];
 
+      // ── Before You Leave Checklist ──
+      const knowledgeForChecklist = buildKnowledgeBlock({
+        destination: resolvedDest,
+        travelStyle: entry.trip?.travelStyle || "",
+        specialRequest: entry.trip?.specialRequest || "",
+        adults: entry.trip?.adults || 1,
+        firstVisit: entry.trip?.firstVisit || "first"
+      });
+
+      // Generate personalised checklist from knowledge data
+      const depDate = entry.trip?.departureDate || trip.departureDate || "";
+      const currency = entry.trip?.currency || trip.currency || "INR";
+      const destination = destProper;
+
+      // Build smart checklist from knowledge file data
+      const checklistItems = [];
+      checklistItems.push(`☐ Check passport validity — must be valid for 6+ months beyond your travel date`);
+
+      // Visa reminder based on destination
+      const visaMap = {
+        'dubai': `☐ Indians: visa-free 30 days — no application needed. Confirm e-Gate registration on arrival.`,
+        'singapore': `☐ Indians: Singapore e-Visa (ivacsingapore.com) — SGD 30. Apply minimum 1 week ahead.`,
+        'thailand': `☐ Indians: Thai e-Visa (thaievisa.go.th) — USD 35, 60 days. Apply minimum 1 week ahead.`,
+        'bali': `☐ Indians: Bali Visa on Arrival USD 35 OR e-Visa at molina.imigrasi.go.id — same cost, no queue.`,
+        'japan': `☐ Indians: Japan tourist visa required. Japanese Embassy/VFS. 4 weeks minimum.`,
+        'uk': `☐ Indians: UK Visitor Visa required (GBP 115, separate from Schengen). Apply VFS Global 3+ weeks ahead.`,
+        'france': `☐ Indians: French Schengen visa required (EUR 80). Apply at French consulate/VFS 3+ weeks ahead.`,
+        'usa': `☐ Indians: US B-2 Tourist Visa required (USD 185, interview needed). Apply 6-8 weeks ahead.`,
+        'maldives': `☐ Indians: Visa-free 30 days on arrival at Velana International Airport.`
+      };
+      const destLower = resolvedDest.toLowerCase();
+      const visaReminder = Object.entries(visaMap).find(([k]) => destLower.includes(k));
+      if (visaReminder) checklistItems.push(visaReminder[1]);
+      else checklistItems.push(`☐ Verify visa requirements for ${destination} — check mea.gov.in`);
+
+      // Booking reminders
+      checklistItems.push(`☐ Book travel insurance (minimum ${currency === 'INR' ? 'INR 10,000' : 'USD 30,000'} medical coverage)`);
+      checklistItems.push(`☐ Download Careem/Grab/Uber app for ${destination} before departure`);
+      checklistItems.push(`☐ Exchange small amount of local currency — enough for first transfer from airport`);
+      checklistItems.push(`☐ Screenshot your hotel address in local script for the taxi driver`);
+      checklistItems.push(`☐ Save emergency contacts offline: local police, Indian embassy, your hotel`);
+
+      // Destination-specific items
+      if (destLower.includes('dubai')) {
+        checklistItems.push(`☐ Book Burj Khalifa online NOW if going — saves AED 51-251 vs walk-up. burjkhalifa.ae`);
+        checklistItems.push(`☐ Check if any UAE fines from previous visits — outstanding fines held at immigration. Check Dubai Police app.`);
+        checklistItems.push(`☐ Download Careem app — 15-25% cheaper than metered taxis`);
+      } else if (destLower.includes('japan') || destLower.includes('tokyo')) {
+        checklistItems.push(`☐ Buy Suica IC card at airport — works on all trains, metro, buses, and 7-Eleven`);
+        checklistItems.push(`☐ Carry JPY 5,000-10,000 cash — many restaurants are cash only`);
+        checklistItems.push(`☐ Download Google Translate with Japanese offline — camera mode works on menus`);
+      } else if (destLower.includes('bali')) {
+        checklistItems.push(`☐ Photograph every scratch on scooter rental before taking it`);
+        checklistItems.push(`☐ Use PT Dirgahayu for currency exchange — never airport or Gold Souk equivalent`);
+        checklistItems.push(`☐ Pack sarong for temple visits — required, available at entrances but bring your own`);
+      } else if (destLower.includes('goa')) {
+        checklistItems.push(`☐ Book scooter rental in advance for peak season — INR 400/day`);
+        checklistItems.push(`☐ Note which airport your flight uses — GOI (Dabolim) or GOX (Mopa) — they are 50km apart`);
+      }
+
+      const checklistContent = `☑ BEFORE YOU LEAVE FOR ${destination.toUpperCase()}\n\n${checklistItems.join('\n')}\n\n${travelerName}, every item above is specific to your trip. The checklist took 30 seconds to read. The consequences of missing any item can take days to fix.\n\n— ${agentFirst}, SKYmora Travel Team`;
+
       entry.days.push({
         day: totalDays + 1,
+        title: "☑ Before You Leave",
+        type: "checklist",
+        content: checklistContent
+      });
+
+      entry.days.push({
+        day: totalDays + 2,
         title: "The SKYmora Promise",
         content: `${travelerName}, your ${totalDays}-day ${destProper} journey was built with one goal — the finest version of this trip within ${budgetDisplay}.\n\n${closer}\n\nEvery detail verified. Every cost transparent. Available through the chat below if anything needs adjusting.\n\nSafe travels.\n\n— Your SKYmora Travel Team`
       });
@@ -1208,6 +1312,22 @@ app.post("/api/generate", async (req, res) => {
 
   console.log(`🚀 SKYmora: ${trip.name} → ${trip.destination} | ${trip.currency}${trip.budget} | ${totalDays} days`);
   console.log(`🪶 Trip ID: ${tripId}`);
+
+  // ── Real-time current reality check ──
+  // Checks for live travel advisories, safety alerts, disruptions before generating
+  let currentReality = null;
+  try {
+    currentReality = await checkCurrentReality(trip.destination || "", "India");
+    if (currentReality?.hasAlerts) {
+      console.log(`⚠️  Current alerts found for ${trip.destination}: ${currentReality.alerts.length} alert(s)`);
+      // Store on trip object so it gets injected into prompts
+      trip._currentAlerts = currentReality.alerts;
+    } else {
+      console.log(`✅ No current alerts for ${trip.destination}`);
+    }
+  } catch(e) {
+    console.warn("⚠️ Reality check failed (non-blocking):", e.message);
+  }
 
   const validation = validateTrip(trip);
   console.log(`🧠 SKYmora Intelligence — Persona: ${validation.persona} | Tier: ${validation.tier} | Feasible: ${validation.feasible} | Comfort: ${validation.comfortScore}% | DNA: ${validation.experienceDNA} | Type: ${validation.message?.type}`);

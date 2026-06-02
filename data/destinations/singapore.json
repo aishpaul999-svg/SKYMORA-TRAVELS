@@ -1,8 +1,13 @@
 {
   "destination": "singapore",
-  "aliases": ["singapore", "sin", "sg", "changi", "singapore city"],
-  "lastUpdated": "2025",
-
+  "aliases": [
+    "singapore",
+    "sin",
+    "sg",
+    "changi",
+    "singapore city"
+  ],
+  "lastUpdated": "2026-06",
   "hardFacts": {
     "flightFromDelhi": "New Delhi to Singapore Changi (SIN): 5.5 hours direct. IndiGo, Air India, Singapore Airlines, Vistara. Return fare: INR 22,000–55,000 economy.",
     "flightFromMumbai": "Mumbai to Singapore: 5.5 hours direct. Multiple airlines.",
@@ -14,7 +19,6 @@
     "electricity": "Type G British 3-pin plugs. 230V. Indian plugs need adapter (Type G adapter available at any 7-Eleven or electronics shop).",
     "water": "Tap water in Singapore is some of the cleanest in the world. Drink directly from the tap. Do not buy bottled water unnecessarily."
   },
-
   "emergencyContacts": {
     "police": "999",
     "ambulance_fire": "995",
@@ -27,16 +31,44 @@
     "glenEaglesHospital": "+65 6470 5688",
     "pharmacy24hr": "Guardian Pharmacy at multiple 24-hour locations. Watsons at most major MRT stations. Both open until midnight minimum."
   },
-
   "policeStations": [
-    { "name": "Central Police Division HQ", "area": "Central Singapore", "phone": "1800 255 0000", "address": "391 New Bridge Road" },
-    { "name": "Orchard NPC", "area": "Orchard Road, tourist area", "phone": "1800 255 0000", "address": "Tanglin Shopping Centre" },
-    { "name": "Marina Bay NPC", "area": "Marina Bay Sands area, Downtown", "phone": "1800 255 0000", "address": "Marina Bay" },
-    { "name": "Little India NPC", "area": "Little India, Mustafa Centre area", "phone": "1800 255 0000", "address": "Serangoon Road" },
-    { "name": "Chinatown NPC", "area": "Chinatown, Tanjong Pagar", "phone": "1800 255 0000", "address": "Chinatown" },
-    { "name": "Bedok Police Division", "area": "East Singapore, Changi Airport vicinity", "phone": "1800 255 0000", "address": "Bedok" }
+    {
+      "name": "Central Police Division HQ",
+      "area": "Central Singapore",
+      "phone": "1800 255 0000",
+      "address": "391 New Bridge Road"
+    },
+    {
+      "name": "Orchard NPC",
+      "area": "Orchard Road, tourist area",
+      "phone": "1800 255 0000",
+      "address": "Tanglin Shopping Centre"
+    },
+    {
+      "name": "Marina Bay NPC",
+      "area": "Marina Bay Sands area, Downtown",
+      "phone": "1800 255 0000",
+      "address": "Marina Bay"
+    },
+    {
+      "name": "Little India NPC",
+      "area": "Little India, Mustafa Centre area",
+      "phone": "1800 255 0000",
+      "address": "Serangoon Road"
+    },
+    {
+      "name": "Chinatown NPC",
+      "area": "Chinatown, Tanjong Pagar",
+      "phone": "1800 255 0000",
+      "address": "Chinatown"
+    },
+    {
+      "name": "Bedok Police Division",
+      "area": "East Singapore, Changi Airport vicinity",
+      "phone": "1800 255 0000",
+      "address": "Bedok"
+    }
   ],
-
   "firstVisitorEssentials": {
     "summary": "First-time Singapore visitor. The famous things are famous for genuine reasons. Gardens by the Bay is real. The hawker food is extraordinary. The city is the most efficient in the world — use that efficiency to go deeper, not just faster.",
     "mustInclude": [
@@ -55,7 +87,6 @@
       "Didn't use the MRT — it goes everywhere, costs SGD 1–3, runs exactly on time, faster than any taxi"
     ]
   },
-
   "repeatVisitorIntelligence": {
     "insiderNarrative": "Singapore has been described as a city with no culture. That description comes from people who never left the MRT station at Orchard Road. The culture is in the hawker centres, the wet markets, and the HDB void decks where community still functions.",
     "skipThese": [
@@ -73,52 +104,86 @@
       "Nang Loeng equivalent: Whampoa Market — the hawker centre Singapore's older generation uses, zero tourists, extraordinary food"
     ]
   },
-
   "neighborhoods": {
     "marina_bay": {
       "character": "The postcard Singapore. Marina Bay Sands, Gardens by the Bay, the CBD skyline reflected in the bay. The most photographed skyline in Southeast Asia. Genuinely impressive but entirely constructed for the camera.",
-      "bestFor": ["First-time visitors for the iconic views", "Garden Rhapsody light show at night", "Architecture photography"],
-      "avoid": ["Eating in Marina Bay — tourist prices for mediocre food"],
+      "bestFor": [
+        "First-time visitors for the iconic views",
+        "Garden Rhapsody light show at night",
+        "Architecture photography"
+      ],
+      "avoid": [
+        "Eating in Marina Bay — tourist prices for mediocre food"
+      ],
       "insider": "The best view of Marina Bay is from the free public promenade on the Esplanade side, not from the paid observation decks. At 6am before any tourist arrives the reflection of the skyline in the bay is extraordinary."
     },
     "chinatown": {
       "character": "Singapore's Chinese heritage district. Sri Mariamman Temple (a Hindu temple in Chinatown — this cultural overlap is what Singapore is), Buddha Tooth Relic Temple, Chinatown Complex hawker centre. Best street art in Singapore.",
-      "bestFor": ["Cultural contrast and overlap", "Budget hawker food", "Photography — street art and temple"],
-      "avoid": ["Tourist trinket shops on Pagoda Street — identical items available everywhere at double the price"],
+      "bestFor": [
+        "Cultural contrast and overlap",
+        "Budget hawker food",
+        "Photography — street art and temple"
+      ],
+      "avoid": [
+        "Tourist trinket shops on Pagoda Street — identical items available everywhere at double the price"
+      ],
       "insider": "Chinatown Complex Food Centre 2nd floor: the beef noodle stall (Lim Kee, opens 7am) has been operating since 1946 and produces the finest beef noodles in Singapore. Open until noon, closed Sunday."
     },
     "little_india": {
       "character": "Serangoon Road area. Singapore's Indian community has been here since 1819. Tekka Centre wet market, Sri Veeramakaliamman Temple, flower garland makers for temple offerings. The most sensory neighbourhood in Singapore.",
-      "bestFor": ["Indian travellers — most familiar environment in Singapore", "Photography — colour and texture", "Authentic Indian food at Indian prices"],
-      "avoid": ["Sunday evenings — very crowded with Indian migrant workers on their day off"],
+      "bestFor": [
+        "Indian travellers — most familiar environment in Singapore",
+        "Photography — colour and texture",
+        "Authentic Indian food at Indian prices"
+      ],
+      "avoid": [
+        "Sunday evenings — very crowded with Indian migrant workers on their day off"
+      ],
       "insider": "The roti prata at Tekka Centre at 7am uses a recipe unchanged in 40 years and costs SGD 1.20 per piece. It is better than any roti prata available in most Indian restaurants outside India."
     },
     "tiong_bahru": {
       "character": "Singapore's oldest public housing estate built in the 1930s in Art Deco/Streamline Moderne style. Now home to BooksActually (independent bookshop), coffee roasters, bakeries, and cafés. The neighbourhood most visitors never find.",
-      "bestFor": ["Repeat visitors", "Architecture photography", "Best café culture in Singapore"],
+      "bestFor": [
+        "Repeat visitors",
+        "Architecture photography",
+        "Best café culture in Singapore"
+      ],
       "avoid": [],
       "insider": "The Tiong Bahru wet market at 8am on a weekday is where the neighbourhood buys its day's food. The fishmongers, vegetable sellers, and cooked food stalls have been in the same spots for 40 years."
     },
     "kampong_glam": {
       "character": "Singapore's Malay-Arab heritage district. Sultan Mosque (largest mosque in Singapore), Arab Street (textiles), Haji Lane (boutiques), rooftop cafés. The neighbourhood where Singapore's Malay royalty once lived.",
-      "bestFor": ["Photography — colourful Haji Lane shopfronts", "Textile shopping on Arab Street", "Friday evening atmosphere"],
+      "bestFor": [
+        "Photography — colourful Haji Lane shopfronts",
+        "Textile shopping on Arab Street",
+        "Friday evening atmosphere"
+      ],
       "avoid": [],
       "insider": "Bussorah Street on a Friday evening after Maghrib prayers: road closed to traffic, cafés outdoors, Sultan Mosque lit against the dark sky. The most atmospheric street in Singapore."
     },
     "tanjong_pagar": {
       "character": "Singapore's historic port district now transformed into one of the most sophisticated dining and bar areas in the city. Conservation shophouses converted to restaurants. The best cocktail bars in Singapore are here.",
-      "bestFor": ["Evening dining and cocktails", "Singapore's best restaurant concentration", "Business travellers"],
+      "bestFor": [
+        "Evening dining and cocktails",
+        "Singapore's best restaurant concentration",
+        "Business travellers"
+      ],
       "avoid": [],
       "insider": "Duxton Hill — a row of conservation shophouses on a hill above Tanjong Pagar. The best cocktail bars in Singapore (28 HongKong Street, Native Bar, Employees Only) are within walking distance."
     },
     "pulau_ubin": {
       "character": "A small island northeast of Singapore accessible by bumboat. The last kampong village in Singapore unchanged since the 1980s. Chickens cross the road. Wild boar emerge in the evening. Old Chinese farmhouses still stand.",
-      "bestFor": ["Adventure travellers", "Nature photography", "Repeat visitors wanting genuine contrast"],
-      "avoid": ["Public holidays — popular with Singapore families"],
+      "bestFor": [
+        "Adventure travellers",
+        "Nature photography",
+        "Repeat visitors wanting genuine contrast"
+      ],
+      "avoid": [
+        "Public holidays — popular with Singapore families"
+      ],
       "insider": "Chek Jawa wetlands at the eastern tip has a 1km boardwalk over mangrove and sea grass. At low tide the marine life is visible from the boardwalk. Free. Remote. The most extraordinary nature experience accessible from Singapore."
     }
   },
-
   "restaurants": [
     {
       "name": "Lau Pa Sat Satay Street",
@@ -131,7 +196,20 @@
       "reservation": "No.",
       "insider": "After 7pm the road alongside the Victorian iron market hall closes and satay grill stalls emerge. The smoke is part of the address. This is where bankers from the CBD buildings 50 metres away come after work. Arguing about which satay stall is best is the entire point.",
       "isSurprise": false,
-      "scores": { "firstTimer": 9, "foodie": 10, "budget": 10, "solo": 9, "couple": 8, "family": 7, "photographer": 9, "repeat": 8, "luxury": 3, "adventure": 8 }
+      "scores": {
+        "firstTimer": 9,
+        "foodie": 10,
+        "budget": 10,
+        "solo": 9,
+        "couple": 8,
+        "family": 7,
+        "photographer": 9,
+        "repeat": 8,
+        "luxury": 3,
+        "adventure": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Maxwell Food Centre — Tian Tian Chicken Rice",
@@ -144,7 +222,20 @@
       "reservation": "No.",
       "insider": "Anthony Bourdain described Tian Tian's chicken rice as the most perfect food in the world. The chicken is poached at precisely 70°C. The rice is cooked in chicken fat and pandan leaf. The chilli sauce is made fresh daily. SGD 5. Arrive 11:30am.",
       "isSurprise": false,
-      "scores": { "firstTimer": 10, "foodie": 10, "budget": 10, "solo": 9, "family": 8, "couple": 8, "repeat": 8, "photographer": 7, "luxury": 3, "adventure": 7 }
+      "scores": {
+        "firstTimer": 10,
+        "foodie": 10,
+        "budget": 10,
+        "solo": 9,
+        "family": 8,
+        "couple": 8,
+        "repeat": 8,
+        "photographer": 7,
+        "luxury": 3,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Burnt Ends",
@@ -157,7 +248,20 @@
       "reservation": "3–4 weeks ahead. burntends.com.sg",
       "insider": "The most talked-about restaurant in Singapore that is not a hawker centre. Chef Dave Pynt cooks over custom-built 4-tonne wood-burning ovens. The brisket has a bark that takes 14 hours to develop. The bread with bone marrow arrives first and most tables order a second portion before the mains.",
       "isSurprise": false,
-      "scores": { "luxury": 10, "foodie": 10, "couple": 9, "repeat": 10, "solo": 8, "firstTimer": 6, "honeymoon": 8, "budget": 0, "family": 3, "photographer": 7 }
+      "scores": {
+        "luxury": 10,
+        "foodie": 10,
+        "couple": 9,
+        "repeat": 10,
+        "solo": 8,
+        "firstTimer": 6,
+        "honeymoon": 8,
+        "budget": 0,
+        "family": 3,
+        "photographer": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Tekka Centre — Roti Prata",
@@ -170,7 +274,20 @@
       "reservation": "No.",
       "insider": "Singapore's Indian community has been eating breakfast here for generations. The roti prata recipe is 40 years old. The fish head curry uses curry leaves and coconut milk in proportions unchanged since the stall opened — the best version available outside South India.",
       "isSurprise": true,
-      "scores": { "indianTraveler": 10, "foodie": 9, "budget": 10, "photographer": 9, "solo": 9, "firstTimer": 8, "couple": 7, "repeat": 8, "family": 7, "adventure": 8 }
+      "scores": {
+        "indianTraveler": 10,
+        "foodie": 9,
+        "budget": 10,
+        "photographer": 9,
+        "solo": 9,
+        "firstTimer": 8,
+        "couple": 7,
+        "repeat": 8,
+        "family": 7,
+        "adventure": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Odette",
@@ -183,7 +300,20 @@
       "reservation": "Months ahead. odetterestaurant.com",
       "insider": "Asia's best restaurant by multiple rankings. Chef Julien Royer uses French techniques with Southeast Asian ingredients. The dining room inside the National Gallery has views of the Colonial District. The lunch tasting menu is meaningfully more accessible than dinner.",
       "isSurprise": false,
-      "scores": { "luxury": 10, "foodie": 10, "honeymoon": 10, "couple": 10, "repeat": 9, "solo": 7, "firstTimer": 5, "budget": 0, "family": 1, "photographer": 8 }
+      "scores": {
+        "luxury": 10,
+        "foodie": 10,
+        "honeymoon": 10,
+        "couple": 10,
+        "repeat": 9,
+        "solo": 7,
+        "firstTimer": 5,
+        "budget": 0,
+        "family": 1,
+        "photographer": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Tiong Bahru Bakery",
@@ -196,7 +326,20 @@
       "reservation": "No.",
       "insider": "The finest croissant in Singapore is here — made with French technique and Singaporean butter. The original Tiong Bahru branch at the base of the estate is the correct location. The neighbourhood wet market is 100 metres away. The combination of a Tiong Bahru Bakery breakfast and a wet market walk is the finest morning available in Singapore.",
       "isSurprise": false,
-      "scores": { "foodie": 9, "solo": 9, "couple": 8, "firstTimer": 7, "repeat": 9, "budget": 8, "photographer": 7, "family": 7, "luxury": 5, "adventure": 5 }
+      "scores": {
+        "foodie": 9,
+        "solo": 9,
+        "couple": 8,
+        "firstTimer": 7,
+        "repeat": 9,
+        "budget": 8,
+        "photographer": 7,
+        "family": 7,
+        "luxury": 5,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "328 Katong Laksa",
@@ -209,7 +352,20 @@
       "reservation": "No.",
       "insider": "The laksa that Gordon Ramsay called the best in the world (and was challenged by the stall owner). The Katong-style laksa has short noodles, thick coconut gravy, cockles. The stall owner famously told Gordon Ramsay he was wrong about his assessment. The story is real and the laksa justifies the confidence.",
       "isSurprise": false,
-      "scores": { "foodie": 10, "firstTimer": 9, "budget": 9, "solo": 9, "couple": 7, "repeat": 9, "family": 8, "photographer": 5, "luxury": 3, "adventure": 7 }
+      "scores": {
+        "foodie": 10,
+        "firstTimer": 9,
+        "budget": 9,
+        "solo": 9,
+        "couple": 7,
+        "repeat": 9,
+        "family": 8,
+        "photographer": 5,
+        "luxury": 3,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Candlenut",
@@ -222,7 +378,20 @@
       "reservation": "comodempsey.com — essential.",
       "insider": "The only Michelin-starred Peranakan restaurant in the world. Peranakan (Straits Chinese) cuisine is specific to Singapore and Malaysia — Chinese techniques, Malay spices. The buah keluak is the signature dish — a black nut from Indonesia cooked for hours into a paste. Unlike anything else in the world.",
       "isSurprise": false,
-      "scores": { "luxury": 9, "foodie": 10, "couple": 8, "honeymoon": 8, "repeat": 10, "solo": 7, "firstTimer": 7, "budget": 2, "family": 5, "photographer": 6 }
+      "scores": {
+        "luxury": 9,
+        "foodie": 10,
+        "couple": 8,
+        "honeymoon": 8,
+        "repeat": 10,
+        "solo": 7,
+        "firstTimer": 7,
+        "budget": 2,
+        "family": 5,
+        "photographer": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Hawker Chan",
@@ -235,7 +404,20 @@
       "reservation": "No. Queue.",
       "insider": "The world's cheapest Michelin-starred meal at SGD 3.80. The queue is real (20–40 minutes). The soy sauce chicken is excellent. The honest truth: the identical quality soy sauce chicken is available at five other hawker centres with no queue. But this is the story — a hawker stall awarded a Michelin star, and the chef who did not raise his prices.",
       "isSurprise": false,
-      "scores": { "firstTimer": 9, "budget": 10, "solo": 8, "foodie": 7, "couple": 6, "family": 7, "repeat": 6, "photographer": 7, "luxury": 4, "adventure": 5 }
+      "scores": {
+        "firstTimer": 9,
+        "budget": 10,
+        "solo": 8,
+        "foodie": 7,
+        "couple": 6,
+        "family": 7,
+        "repeat": 6,
+        "photographer": 7,
+        "luxury": 4,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Old Airport Road Food Centre",
@@ -248,7 +430,20 @@
       "reservation": "No.",
       "insider": "The hawker centre with the highest concentration of famous stalls in Singapore. Mr. Teh Tarik Istimewa (40 years of teh tarik), Heng Heng Hokkien Prawn Mee, Original Serangoon Char Kway Teow. Residents of every neighbourhood in Singapore make the trip specifically here.",
       "isSurprise": false,
-      "scores": { "foodie": 10, "budget": 10, "repeat": 9, "solo": 8, "family": 8, "couple": 7, "firstTimer": 7, "photographer": 7, "luxury": 3, "adventure": 7 }
+      "scores": {
+        "foodie": 10,
+        "budget": 10,
+        "repeat": 9,
+        "solo": 8,
+        "family": 8,
+        "couple": 7,
+        "firstTimer": 7,
+        "photographer": 7,
+        "luxury": 3,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Jumbo Seafood",
@@ -261,7 +456,20 @@
       "reservation": "jumposeafood.com.sg — essential.",
       "insider": "Chilli crab is Singapore's national dish. The sauce (tomato, chilli, egg) is mopped up with deep-fried mantou buns. Jumbo is the most reliable quality chain for tourists. The real question is not which restaurant — it is to order at least 1kg crab between two people and to accept that it will be messy.",
       "isSurprise": false,
-      "scores": { "firstTimer": 9, "couple": 8, "family": 9, "luxury": 6, "solo": 5, "foodie": 8, "repeat": 7, "budget": 4, "photographer": 7, "adventure": 6 }
+      "scores": {
+        "firstTimer": 9,
+        "couple": 8,
+        "family": 9,
+        "luxury": 6,
+        "solo": 5,
+        "foodie": 8,
+        "repeat": 7,
+        "budget": 4,
+        "photographer": 7,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Violet Oon Singapore",
@@ -274,7 +482,20 @@
       "reservation": "violetoon.com — recommended.",
       "insider": "Violet Oon is Singapore's most respected food journalist who opened her own restaurant. The Peranakan recipes are family recipes from Straits Chinese community. More accessible than Candlenut with slightly lower prices. The beef rendang requires overnight marinating — the texture is different from any Malaysian or Indonesian version.",
       "isSurprise": false,
-      "scores": { "foodie": 9, "couple": 8, "firstTimer": 8, "repeat": 8, "luxury": 6, "solo": 7, "family": 7, "budget": 4, "photographer": 6, "adventure": 5 }
+      "scores": {
+        "foodie": 9,
+        "couple": 8,
+        "firstTimer": 8,
+        "repeat": 8,
+        "luxury": 6,
+        "solo": 7,
+        "family": 7,
+        "budget": 4,
+        "photographer": 6,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Casuarina Curry",
@@ -287,7 +508,20 @@
       "reservation": "No.",
       "insider": "The banana leaf rice here — rice on a banana leaf with 4–5 accompanying curries and unlimited refills — is the most authentic South Indian meal in Singapore. The Sri Lankan and South Indian communities have been eating here for 40 years. Not on any tourist list. The best value meal in Singapore.",
       "isSurprise": true,
-      "scores": { "indianTraveler": 10, "budget": 10, "foodie": 9, "solo": 8, "repeat": 9, "firstTimer": 7, "couple": 7, "family": 8, "luxury": 2, "adventure": 7 }
+      "scores": {
+        "indianTraveler": 10,
+        "budget": 10,
+        "foodie": 9,
+        "solo": 8,
+        "repeat": 9,
+        "firstTimer": 7,
+        "couple": 7,
+        "family": 8,
+        "luxury": 2,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "National Kitchen by Violet Oon",
@@ -300,7 +534,20 @@
       "reservation": "violetoon.com",
       "insider": "Inside the National Gallery Singapore (a former Supreme Court and City Hall — the colonial buildings where Lee Kuan Yew proclaimed independence in 1965). The building and the food together make the most historically significant dining experience in Singapore.",
       "isSurprise": false,
-      "scores": { "luxury": 9, "foodie": 9, "couple": 8, "honeymoon": 9, "history": 10, "repeat": 9, "solo": 7, "firstTimer": 7, "budget": 2, "family": 5 }
+      "scores": {
+        "luxury": 9,
+        "foodie": 9,
+        "couple": 8,
+        "honeymoon": 9,
+        "history": 10,
+        "repeat": 9,
+        "solo": 7,
+        "firstTimer": 7,
+        "budget": 2,
+        "family": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Samy's Curry",
@@ -313,10 +560,22 @@
       "reservation": "+65 6472 2080 for dinner.",
       "insider": "Open since 1952 in the same location inside a former British military barracks. The fish head curry is the standard all other Singapore fish head curries are measured against. Politicians, bankers, and grandmothers eat at the same tables on banana leaves.",
       "isSurprise": false,
-      "scores": { "foodie": 9, "indianTraveler": 9, "firstTimer": 8, "couple": 7, "repeat": 9, "solo": 8, "budget": 5, "luxury": 5, "family": 7, "photographer": 6 }
+      "scores": {
+        "foodie": 9,
+        "indianTraveler": 9,
+        "firstTimer": 8,
+        "couple": 7,
+        "repeat": 9,
+        "solo": 8,
+        "budget": 5,
+        "luxury": 5,
+        "family": 7,
+        "photographer": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     }
   ],
-
   "activities": [
     {
       "name": "Gardens by the Bay — Garden Rhapsody Show",
@@ -326,7 +585,20 @@
       "bestTime": "Arrive 6:30pm, walk free outdoor areas, stay for 7:45pm show.",
       "book": "gardensbythebay.com.sg for indoor domes.",
       "insider": "The Supertree Grove light show (Garden Rhapsody) at 7:45pm is free, outside, and lasts 15 minutes. It is the correct reason to come. The Cloud Forest waterfall inside a glass dome is genuinely extraordinary. But the free show is the memory.",
-      "scores": { "firstTimer": 10, "couple": 10, "family": 9, "photographer": 9, "honeymoon": 9, "solo": 7, "budget": 8, "luxury": 8, "repeat": 6, "foodie": 2 }
+      "scores": {
+        "firstTimer": 10,
+        "couple": 10,
+        "family": 9,
+        "photographer": 9,
+        "honeymoon": 9,
+        "solo": 7,
+        "budget": 8,
+        "luxury": 8,
+        "repeat": 6,
+        "foodie": 2
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Pulau Ubin Island",
@@ -336,7 +608,20 @@
       "bestTime": "Weekday morning 7am.",
       "book": "No booking. Bumboat departs when 12 passengers assembled.",
       "insider": "The last kampong in Singapore. Time stopped here in the 1980s. Chickens cross the road. Wild boar emerge in the evening. Old Chinese farmhouses still stand. No cars, no MRT, no malls. Completely different country 25 minutes from Changi Airport.",
-      "scores": { "repeat": 10, "adventure": 10, "photographer": 9, "solo": 9, "couple": 8, "family": 8, "budget": 9, "firstTimer": 5, "luxury": 2, "foodie": 4 }
+      "scores": {
+        "repeat": 10,
+        "adventure": 10,
+        "photographer": 9,
+        "solo": 9,
+        "couple": 8,
+        "family": 8,
+        "budget": 9,
+        "firstTimer": 5,
+        "luxury": 2,
+        "foodie": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Tiong Bahru Morning Walk and Wet Market",
@@ -346,7 +631,20 @@
       "bestTime": "8–10am weekday",
       "book": "No booking.",
       "insider": "Singapore's oldest public housing estate in 1930s Art Deco/Streamline Moderne style. The wet market at 8am, BooksActually bookshop (opens 11am), Tiong Bahru Bakery (opens 8am). The neighbourhood most visitors never find.",
-      "scores": { "photographer": 10, "repeat": 10, "solo": 9, "couple": 8, "foodie": 8, "budget": 10, "firstTimer": 6, "luxury": 5, "family": 6, "adventure": 6 }
+      "scores": {
+        "photographer": 10,
+        "repeat": 10,
+        "solo": 9,
+        "couple": 8,
+        "foodie": 8,
+        "budget": 10,
+        "firstTimer": 6,
+        "luxury": 5,
+        "family": 6,
+        "adventure": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Night Safari",
@@ -356,7 +654,20 @@
       "bestTime": "Arrive 7:15pm for 7:30pm tram. Weekdays less crowded.",
       "book": "nightsafari.com.sg — book in advance.",
       "insider": "The world's first nocturnal wildlife park. The tram ride through seven geographical zones while animals move freely in near-darkness is completely unlike a zoo. The fishing cats hunting at the water's edge. The giant flying squirrel. Animals in their preferred environment.",
-      "scores": { "family": 10, "firstTimer": 9, "couple": 8, "solo": 7, "adventure": 8, "photographer": 7, "luxury": 7, "repeat": 6, "budget": 4, "foodie": 2 }
+      "scores": {
+        "family": 10,
+        "firstTimer": 9,
+        "couple": 8,
+        "solo": 7,
+        "adventure": 8,
+        "photographer": 7,
+        "luxury": 7,
+        "repeat": 6,
+        "budget": 4,
+        "foodie": 2
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "National Gallery Singapore",
@@ -366,7 +677,20 @@
       "bestTime": "Weekday morning",
       "book": "nationalgallery.sg",
       "insider": "Inside the former Supreme Court and City Hall where Lee Kuan Yew proclaimed Singapore's independence. The world's largest collection of Southeast Asian modern art. The building itself — colonial architecture now housing 21st-century art — is the most architecturally significant museum in Southeast Asia.",
-      "scores": { "culture": 10, "repeat": 9, "solo": 8, "photographer": 8, "couple": 7, "firstTimer": 7, "luxury": 7, "budget": 6, "family": 5, "adventure": 3 }
+      "scores": {
+        "culture": 10,
+        "repeat": 9,
+        "solo": 8,
+        "photographer": 8,
+        "couple": 7,
+        "firstTimer": 7,
+        "luxury": 7,
+        "budget": 6,
+        "family": 5,
+        "adventure": 3
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Singapore Botanic Gardens UNESCO",
@@ -376,7 +700,20 @@
       "bestTime": "Before 10am",
       "book": "No booking.",
       "insider": "UNESCO World Heritage Site and the most beautiful park in Southeast Asia. The Heritage Trees — trees over 300 years old, mapped and protected. The ginger garden, the evolution garden, the rain forest. At 7am the park belongs to joggers and families. By noon it belongs to tourists.",
-      "scores": { "photographer": 9, "family": 9, "couple": 8, "solo": 8, "firstTimer": 7, "repeat": 8, "budget": 8, "luxury": 6, "foodie": 4, "adventure": 5 }
+      "scores": {
+        "photographer": 9,
+        "family": 9,
+        "couple": 8,
+        "solo": 8,
+        "firstTimer": 7,
+        "repeat": 8,
+        "budget": 8,
+        "luxury": 6,
+        "foodie": 4,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Haji Lane and Kampong Glam Walk",
@@ -386,7 +723,20 @@
       "bestTime": "Evening from 6pm, or Friday after prayers",
       "book": "No booking.",
       "insider": "Haji Lane — the most photographed lane in Singapore. Colourful shopfronts, boutiques, street art. Arab Street for textile and rattan shopping. Sultan Mosque at dusk. Bussorah Street on Friday evening when the road closes and cafés put tables outside with the mosque lit behind them.",
-      "scores": { "photographer": 10, "firstTimer": 8, "couple": 8, "solo": 8, "repeat": 7, "budget": 8, "family": 7, "luxury": 5, "foodie": 6, "adventure": 5 }
+      "scores": {
+        "photographer": 10,
+        "firstTimer": 8,
+        "couple": 8,
+        "solo": 8,
+        "repeat": 7,
+        "budget": 8,
+        "family": 7,
+        "luxury": 5,
+        "foodie": 6,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Jewel Changi Airport",
@@ -396,7 +746,20 @@
       "bestTime": "Evening when HSBC Rain Vortex is most dramatic",
       "book": "No booking for general access.",
       "insider": "The world's tallest indoor waterfall (40 metres) in the middle of an airport terminal, surrounded by a 10-level retail and garden complex. The Rain Vortex at night with the light effects is genuinely extraordinary. Worth visiting even with no flight — the MRT goes directly from any part of Singapore.",
-      "scores": { "firstTimer": 9, "family": 10, "photographer": 10, "couple": 8, "solo": 7, "repeat": 7, "budget": 8, "luxury": 7, "foodie": 6, "adventure": 5 }
+      "scores": {
+        "firstTimer": 9,
+        "family": 10,
+        "photographer": 10,
+        "couple": 8,
+        "solo": 7,
+        "repeat": 7,
+        "budget": 8,
+        "luxury": 7,
+        "foodie": 6,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Singapore Zoo",
@@ -406,7 +769,20 @@
       "bestTime": "Opening 8:30am for cooler temperatures and more active animals",
       "book": "mandai.com — book online.",
       "insider": "Consistently voted one of the best zoos in the world. The open concept with moats instead of cages means animals move freely in naturalistic habitats. The orangutan breakfast (SGD 35 including zoo entry) is the most famous Singapore zoo experience — orangutans move freely through the trees above the dining area.",
-      "scores": { "family": 10, "firstTimer": 8, "couple": 7, "solo": 7, "repeat": 6, "luxury": 6, "budget": 4, "photographer": 7, "adventure": 7, "foodie": 3 }
+      "scores": {
+        "family": 10,
+        "firstTimer": 8,
+        "couple": 7,
+        "solo": 7,
+        "repeat": 6,
+        "luxury": 6,
+        "budget": 4,
+        "photographer": 7,
+        "adventure": 7,
+        "foodie": 3
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Henderson Waves Bridge at Dawn",
@@ -416,7 +792,20 @@
       "bestTime": "6am–8am",
       "book": "No booking.",
       "insider": "The highest pedestrian bridge in Singapore (36m above the forest floor). Wave-shaped wooden structure connecting two hills. At dawn the forest below has monkeys. The Southern Ridges walking trail (9km) connects Henderson Waves to Labrador Nature Reserve — the best nature walk in Singapore.",
-      "scores": { "photographer": 9, "repeat": 9, "solo": 9, "couple": 8, "adventure": 8, "budget": 9, "firstTimer": 6, "family": 6, "luxury": 4, "foodie": 2 }
+      "scores": {
+        "photographer": 9,
+        "repeat": 9,
+        "solo": 9,
+        "couple": 8,
+        "adventure": 8,
+        "budget": 9,
+        "firstTimer": 6,
+        "family": 6,
+        "luxury": 4,
+        "foodie": 2
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Gillman Barracks Art Galleries",
@@ -426,7 +815,20 @@
       "bestTime": "Tuesday–Sunday 11am–7pm",
       "book": "No booking.",
       "insider": "Converted British military barracks from the 1930s now housing international contemporary art galleries. An excellent café (Naked Finn for seafood, or Open Farm Community for farm-to-table). Almost no tourists. The architecture of the barracks — white colonial buildings in a green compound — is extraordinary.",
-      "scores": { "repeat": 9, "photographer": 8, "solo": 8, "couple": 7, "culture": 9, "firstTimer": 5, "budget": 8, "luxury": 6, "family": 4, "adventure": 5 }
+      "scores": {
+        "repeat": 9,
+        "photographer": 8,
+        "solo": 8,
+        "couple": 7,
+        "culture": 9,
+        "firstTimer": 5,
+        "budget": 8,
+        "luxury": 6,
+        "family": 4,
+        "adventure": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Little India at Night",
@@ -436,7 +838,20 @@
       "bestTime": "7–10pm",
       "book": "No booking.",
       "insider": "Serangoon Road at night: gold shops lit up, flower garland sellers, Sri Veeramakaliamman Temple illuminated, restaurants spilling onto the street. The most sensory neighbourhood experience in Singapore. The Indian community gathered for evening temple visits, shopping, and food.",
-      "scores": { "firstTimer": 9, "photographer": 10, "indianTraveler": 10, "solo": 8, "couple": 7, "budget": 9, "family": 7, "repeat": 7, "luxury": 3, "adventure": 7 }
+      "scores": {
+        "firstTimer": 9,
+        "photographer": 10,
+        "indianTraveler": 10,
+        "solo": 8,
+        "couple": 7,
+        "budget": 9,
+        "family": 7,
+        "repeat": 7,
+        "luxury": 3,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Clarke Quay and Boat Quay Evening",
@@ -446,7 +861,20 @@
       "bestTime": "7–11pm",
       "book": "No booking.",
       "insider": "Singapore's riverside entertainment district. The conserved shophouses along Boat Quay are now restaurants and bars — the juxtaposition of 19th-century buildings and the CBD skyline behind them is the most photographed evening view in Singapore. Walk both banks.",
-      "scores": { "firstTimer": 8, "couple": 9, "honeymoon": 8, "photographer": 9, "solo": 7, "budget": 6, "family": 5, "repeat": 7, "luxury": 7, "foodie": 7 }
+      "scores": {
+        "firstTimer": 8,
+        "couple": 9,
+        "honeymoon": 8,
+        "photographer": 9,
+        "solo": 7,
+        "budget": 6,
+        "family": 5,
+        "repeat": 7,
+        "luxury": 7,
+        "foodie": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Sentosa Island Beach Day",
@@ -456,10 +884,22 @@
       "bestTime": "Weekday morning",
       "book": "No booking for beaches.",
       "insider": "Sentosa's three beaches (Palawan, Siloso, Tanjong) are clean and managed. Palawan Beach has the southernmost point of continental Asia (a small island connected by suspension bridge). The beaches are not extraordinary by Asian standards but they are fine for a half-day Singapore beach experience.",
-      "scores": { "family": 9, "firstTimer": 7, "couple": 6, "solo": 5, "budget": 6, "repeat": 4, "photographer": 5, "luxury": 7, "adventure": 7, "foodie": 3 }
+      "scores": {
+        "family": 9,
+        "firstTimer": 7,
+        "couple": 6,
+        "solo": 5,
+        "budget": 6,
+        "repeat": 4,
+        "photographer": 5,
+        "luxury": 7,
+        "adventure": 7,
+        "foodie": 3
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     }
   ],
-
   "designedSurprises": {
     "solo": {
       "experience": "Lau Pa Sat satay street at midnight",
@@ -507,7 +947,6 @@
       "why": "The island that exists 25 minutes from Changi Airport and hasn't changed since 1985."
     }
   },
-
   "travelerGuides": {
     "solo": {
       "accommodation": "Dorms in Little India or Chinatown: SGD 25–40. Budget hotels in Bugis or Lavender: SGD 70–120.",
@@ -549,22 +988,56 @@
       "digital": "UPI works at select Singapore merchants since 2023. RuPay cards accepted at several ATMs. Carry SGD cash for hawker centres."
     }
   },
-
   "hotels": {
     "luxury": [
-      { "name": "Raffles Singapore", "area": "City Hall", "nightly": "SGD 800–2,500", "honest": "The most historic hotel in Southeast Asia (1887). The Long Bar, the Tiffin Room. The colonial building is the reason to stay.", "tip": "The Palm Court Suites overlook the central courtyard garden — more beautiful than the street-facing rooms." },
-      { "name": "Capella Singapore", "area": "Sentosa Island", "nightly": "SGD 700–1,800", "honest": "Converted colonial British military officers' club. The finest resort in Singapore. Adults-oriented quiet.", "tip": "" }
+      {
+        "name": "Raffles Singapore",
+        "area": "City Hall",
+        "nightly": "SGD 800–2,500",
+        "honest": "The most historic hotel in Southeast Asia (1887). The Long Bar, the Tiffin Room. The colonial building is the reason to stay.",
+        "tip": "The Palm Court Suites overlook the central courtyard garden — more beautiful than the street-facing rooms."
+      },
+      {
+        "name": "Capella Singapore",
+        "area": "Sentosa Island",
+        "nightly": "SGD 700–1,800",
+        "honest": "Converted colonial British military officers' club. The finest resort in Singapore. Adults-oriented quiet.",
+        "tip": ""
+      }
     ],
     "mid": [
-      { "name": "Hotel Fort Canning", "area": "Fort Canning Hill", "nightly": "SGD 250–500", "honest": "Converted 1926 British military building in a heritage park. The most interesting mid-range hotel in Singapore.", "tip": "" },
-      { "name": "The Warehouse Hotel", "area": "Robertson Quay, Singapore River", "nightly": "SGD 200–400", "honest": "Converted 1895 warehouse on the Singapore River. Best rooftop pool in mid-range Singapore.", "tip": "" }
+      {
+        "name": "Hotel Fort Canning",
+        "area": "Fort Canning Hill",
+        "nightly": "SGD 250–500",
+        "honest": "Converted 1926 British military building in a heritage park. The most interesting mid-range hotel in Singapore.",
+        "tip": ""
+      },
+      {
+        "name": "The Warehouse Hotel",
+        "area": "Robertson Quay, Singapore River",
+        "nightly": "SGD 200–400",
+        "honest": "Converted 1895 warehouse on the Singapore River. Best rooftop pool in mid-range Singapore.",
+        "tip": ""
+      }
     ],
     "budget": [
-      { "name": "Cube Boutique Capsule Hotel", "area": "Little India, Bras Basah", "nightly": "SGD 50–100", "honest": "Clean, well-designed capsule hotel. Little India location is excellent for authentic Singapore.", "tip": "" },
-      { "name": "Footprints Hostel", "area": "Chinatown", "nightly": "SGD 30–50 dorm", "honest": "Best social hostel in Chinatown. Good location for hawker food and MRT.", "tip": "" }
+      {
+        "name": "Cube Boutique Capsule Hotel",
+        "area": "Little India, Bras Basah",
+        "nightly": "SGD 50–100",
+        "honest": "Clean, well-designed capsule hotel. Little India location is excellent for authentic Singapore.",
+        "tip": ""
+      },
+      {
+        "name": "Footprints Hostel",
+        "area": "Chinatown",
+        "nightly": "SGD 30–50 dorm",
+        "honest": "Best social hostel in Chinatown. Good location for hawker food and MRT.",
+        "tip": ""
+      }
     ]
   },
-
   "transport": {
     "mrt": "The most reliable metro in the world. SGD 1.20–2.80/trip. EZ-Link card (SGD 12 with SGD 7 credit) or tap contactless bank card directly on turnstiles.",
     "grab": "Always faster and cheaper than street taxis. Essential app. Download before arrival.",
@@ -572,20 +1045,29 @@
     "buses": "SGD 1–2 per trip. Use the SG Buses app or Google Maps for real-time tracking. Buses go where MRT doesn't.",
     "taxi": "SGD 3.90–4.10 flag fall. Grab is always cheaper. Never hail a taxi at the airport — Grab saves SGD 10–15."
   },
-
   "trafficIntelligence": {
     "rushHours": "7:30–9am and 5:30–7:30pm",
     "itineraryRule": "Singapore is small. Everything is 20–40 minutes by MRT. Never take a taxi when the MRT serves the destination — it is almost always faster AND cheaper.",
     "weekends": "Saturday afternoons: Orchard Road and Marina Bay extremely crowded. Tiong Bahru, Kampong Glam, and neighbourhoods away from these are significantly better on weekends.",
     "rain": "Singapore rains heavily but usually briefly. The MRT is sheltered end-to-end. Rain is not a reason to take a taxi."
   },
-
   "seasonal": {
-    "novemberJanuary": { "temp": "27–31°C", "reality": "Northeast monsoon. Wetter but with rain typically in the evenings rather than all day. Deepavali October–November (Little India extraordinary). Christmas December (Orchard Road illuminations). Chinese New Year January–February.", "priceLevel": "Medium-High" },
-    "februaryApril": { "temp": "28–33°C", "reality": "Dry inter-monsoon. Best season with less rain. Chinese New Year typically February — Little India quiet but Chinatown extraordinary.", "priceLevel": "Medium" },
-    "mayOctober": { "temp": "28–33°C", "reality": "Southwest monsoon. Afternoon rain most days, mornings clear. Singapore is year-round — rain is not a deterrent, just an afternoon consideration.", "priceLevel": "Low-Medium" }
+    "novemberJanuary": {
+      "temp": "27–31°C",
+      "reality": "Northeast monsoon. Wetter but with rain typically in the evenings rather than all day. Deepavali October–November (Little India extraordinary). Christmas December (Orchard Road illuminations). Chinese New Year January–February.",
+      "priceLevel": "Medium-High"
+    },
+    "februaryApril": {
+      "temp": "28–33°C",
+      "reality": "Dry inter-monsoon. Best season with less rain. Chinese New Year typically February — Little India quiet but Chinatown extraordinary.",
+      "priceLevel": "Medium"
+    },
+    "mayOctober": {
+      "temp": "28–33°C",
+      "reality": "Southwest monsoon. Afternoon rain most days, mornings clear. Singapore is year-round — rain is not a deterrent, just an afternoon consideration.",
+      "priceLevel": "Low-Medium"
+    }
   },
-
   "singaporeFestivals": {
     "deepavali": "October–November. Little India transforms — streets lit with festive lights, rangoli on the ground, thousands of shoppers. The most atmospheric evening in Singapore during the festival period. Free to walk and watch.",
     "chineseNewYear": "January–February. Chinatown transforms. River Hongbao festival at Marina Bay. Yusheng tossing at restaurants. The most social festival in Singapore.",
@@ -594,15 +1076,38 @@
     "singaporeGP": "September. Formula 1 night race — the only night race on the F1 calendar. Marina Bay street circuit. Hotels triple rates during race weekend.",
     "singaporeAirshow": "February (biennial). The largest airshow in Asia. Held at Changi Exhibition Centre."
   },
-
   "rooftopsAndViews": [
-    { "name": "1-Altitude, One Raffles Place", "area": "CBD, 63F", "note": "Highest outdoor rooftop bar in Singapore. 360° city view. No minimum weekday evenings.", "price": "SGD 30–40/cocktail" },
-    { "name": "Lantern Rooftop Bar, Fullerton Bay Hotel", "area": "Waterfront, near Raffles", "note": "Best Marina Bay Sands view from the opposite bank. Romantic. Minimum SGD 25/person.", "price": "SGD 25–35/cocktail" },
-    { "name": "Ce La Vi SkyBar, Marina Bay Sands", "area": "Marina Bay, 57F", "note": "The famous infinity pool building's bar. SGD 30 entry fee on weekends. View is extraordinary.", "price": "SGD 25–35/cocktail + entry fee" },
-    { "name": "Marina Bay at dusk (free)", "area": "Esplanade waterfront", "note": "Best free view of the Marina Bay Sands and Gardens by the Bay skyline. No admission.", "price": "Free" },
-    { "name": "Fort Canning Park (free)", "area": "Fort Canning Hill", "note": "Best free city view. Almost unknown to tourists.", "price": "Free" }
+    {
+      "name": "1-Altitude, One Raffles Place",
+      "area": "CBD, 63F",
+      "note": "Highest outdoor rooftop bar in Singapore. 360° city view. No minimum weekday evenings.",
+      "price": "SGD 30–40/cocktail"
+    },
+    {
+      "name": "Lantern Rooftop Bar, Fullerton Bay Hotel",
+      "area": "Waterfront, near Raffles",
+      "note": "Best Marina Bay Sands view from the opposite bank. Romantic. Minimum SGD 25/person.",
+      "price": "SGD 25–35/cocktail"
+    },
+    {
+      "name": "Ce La Vi SkyBar, Marina Bay Sands",
+      "area": "Marina Bay, 57F",
+      "note": "The famous infinity pool building's bar. SGD 30 entry fee on weekends. View is extraordinary.",
+      "price": "SGD 25–35/cocktail + entry fee"
+    },
+    {
+      "name": "Marina Bay at dusk (free)",
+      "area": "Esplanade waterfront",
+      "note": "Best free view of the Marina Bay Sands and Gardens by the Bay skyline. No admission.",
+      "price": "Free"
+    },
+    {
+      "name": "Fort Canning Park (free)",
+      "area": "Fort Canning Hill",
+      "note": "Best free city view. Almost unknown to tourists.",
+      "price": "Free"
+    }
   ],
-
   "dayTrips": {
     "johor_bahru": {
       "distance": "30 minutes by bus over the Causeway",
@@ -620,7 +1125,6 @@
       "transport": "Ferry SGD 50–80 return"
     }
   },
-
   "shopping": {
     "orchard_road": "Main shopping boulevard. ION Orchard, Ngee Ann City, Wisma Atria. International brands at Singapore prices — generally no cheaper than India for Indian visitors due to 9% GST.",
     "mustafa_centre": "24-hour department store in Little India. Everything under one roof — electronics, clothing, food, gold, Indian products. Prices are genuinely competitive. Indians shop here for international products at Indian prices.",
@@ -629,7 +1133,6 @@
     "arab_street": "Kampong Glam. Textiles, rattan, batik, Middle Eastern goods. The textile shops have been run by the same families for generations.",
     "tourist_refund": "Singapore has a 9% GST tourist refund scheme for purchases over SGD 100 at participating retailers. Electronic Tourist Refund Scheme (eTRS) — refund at airport. Save receipts."
   },
-
   "culturalRules": {
     "critical": [
       "Eating and drinking on the MRT: illegal. Fine SGD 500. No exceptions.",
@@ -642,13 +1145,11 @@
     "tipping": "Not customary. Service charge 10% included at sit-down restaurants. Additional tip optional but not expected.",
     "photography": "Ask before photographing people. Most Singaporeans are comfortable with photography in public spaces."
   },
-
   "visaIntelligence": {
     "indianPassport": "Singapore e-Visa at ivacsingapore.com. SGD 30. Processing 3–5 working days. 30 days single entry.",
     "important": "Passport valid 6+ months. Return ticket and accommodation confirmation required. Singapore immigration is thorough and efficient.",
     "tip": "Singapore immigration officers may ask for proof of funds. Keep bank statements accessible."
   },
-
   "pricingBenchmarks": {
     "mrt_per_trip": "SGD 1.20–2.80",
     "ez_link_card": "SGD 12 (SGD 5 deposit + SGD 7 credit)",
@@ -666,7 +1167,6 @@
     "night_safari": "SGD 55 adults",
     "pulau_ubin_total": "SGD 24 (ferry SGD 4 + bicycle SGD 10 + lunch SGD 10)"
   },
-
   "savingsIntelligence": [
     "Exchange at Lucky Plaza (Orchard) money changers vs Changi airport — saves 8–12% on total exchange",
     "MRT vs Grab for any MRT-served destination — saves SGD 15–25 per journey",
@@ -678,7 +1178,6 @@
     "Garden Rhapsody free show (SGD 0) vs paid Supertree Grove walking trail (SGD 8) — same trees, free version is the better show",
     "Tourist refund 9% GST on purchases over SGD 100 — on SGD 500 of shopping saves SGD 45"
   ],
-
   "practical": {
     "electricity": "Type G British 3-pin. 230V. Indian plugs need adapter available at any 7-Eleven SGD 5–10.",
     "bestExchange": "Lucky Plaza (Orchard Road) money changers or Mustafa Centre (Little India). Never at Changi airport.",
@@ -687,19 +1186,44 @@
     "tipping": "Not customary. 10% service charge included in sit-down restaurants.",
     "apps": "MyTransport.SG (MRT/bus real-time), Grab (rides), Klook (activity booking), Eatigo (restaurant reservations with discounts), Foodpanda (food delivery)"
   },
-
   "hiddenPlaces": [
-    { "name": "Tiong Bahru wet market at 8am", "note": "The neighbourhood shopping for its day's food. Unchanged for 40 years." },
-    { "name": "Bussorah Street Friday evening", "note": "Most atmospheric street in Singapore. Sultan Mosque lit. Road closed. Cafés outdoor." },
-    { "name": "Chek Jawa wetlands, Pulau Ubin", "note": "Mangrove boardwalk. Marine life at low tide. Almost no tourists." },
-    { "name": "Gillman Barracks", "note": "Converted British barracks, art galleries, excellent café. Zero tourists." },
-    { "name": "Parc de Belleville equivalent: Fort Canning Park", "note": "Hill in the middle of the city. Best free view of downtown Singapore. Almost unknown." },
-    { "name": "Nang Loeng equivalent: Whampoa Market", "note": "Hawker centre used by Singapore's older generation. Zero tourists. Extraordinary food." },
-    { "name": "Henderson Waves bridge at dawn", "note": "Highest pedestrian bridge in Singapore. Monkeys in the forest below. Free." },
-    { "name": "Casuarina Curry, Macpherson Road", "note": "The banana leaf rice that the Sri Lankan and South Indian communities have eaten for 40 years. Not on any tourist list." },
-    { "name": "Old Ford Factory Museum", "note": "Where the British surrendered Singapore to Japan in 1942. Preserved. Almost no tourists. Free on Tuesdays." }
+    {
+      "name": "Tiong Bahru wet market at 8am",
+      "note": "The neighbourhood shopping for its day's food. Unchanged for 40 years."
+    },
+    {
+      "name": "Bussorah Street Friday evening",
+      "note": "Most atmospheric street in Singapore. Sultan Mosque lit. Road closed. Cafés outdoor."
+    },
+    {
+      "name": "Chek Jawa wetlands, Pulau Ubin",
+      "note": "Mangrove boardwalk. Marine life at low tide. Almost no tourists."
+    },
+    {
+      "name": "Gillman Barracks",
+      "note": "Converted British barracks, art galleries, excellent café. Zero tourists."
+    },
+    {
+      "name": "Parc de Belleville equivalent: Fort Canning Park",
+      "note": "Hill in the middle of the city. Best free view of downtown Singapore. Almost unknown."
+    },
+    {
+      "name": "Nang Loeng equivalent: Whampoa Market",
+      "note": "Hawker centre used by Singapore's older generation. Zero tourists. Extraordinary food."
+    },
+    {
+      "name": "Henderson Waves bridge at dawn",
+      "note": "Highest pedestrian bridge in Singapore. Monkeys in the forest below. Free."
+    },
+    {
+      "name": "Casuarina Curry, Macpherson Road",
+      "note": "The banana leaf rice that the Sri Lankan and South Indian communities have eaten for 40 years. Not on any tourist list."
+    },
+    {
+      "name": "Old Ford Factory Museum",
+      "note": "Where the British surrendered Singapore to Japan in 1942. Preserved. Almost no tourists. Free on Tuesdays."
+    }
   ],
-
   "insiderIntelligence": [
     "Singapore's 7-Eleven and FamilyMart are not convenience stores — they are full food destinations. The Milo dinosaur (cold Milo with undissolved powder on top) is specifically Singaporean and costs SGD 2.",
     "The hawker centre stall with a queue of local workers at noon is always better than the stall with tourist-facing English descriptions.",
@@ -712,15 +1236,12 @@
     "Singapore hawker centres are classified by the National Environment Agency — Grade A (very clean), Grade B (clean), Grade C (adequate). Only eat from Grade A or Grade B stalls.",
     "The entire island of Singapore is 50km from east to west. You can travel from Changi Airport to Jurong in 1 hour by MRT for SGD 2.80."
   ],
-
   "whyPeopleFallInLove": "People arrive for the efficiency. They stay for the food — specifically for the moment they eat Tian Tian chicken rice at Maxwell at 11:30am for SGD 5 and understand why Anthony Bourdain called it the most perfect food in the world. They return for the people behind the efficiency — the hawker stall owner who has been making the same dish for 40 years and will tell you exactly why his version is different, the wet market vendor who has sold to the same families for three generations, the neighbourhood that exists inside the gleaming city like a secret that was never hidden.",
-
   "localTruths": [
     "Most visitors think Singapore is modern. Locals think Singapore is neighbourhoods — Tiong Bahru's Art Deco estates, Kampong Glam's Sultan Mosque lit at night, Pulau Ubin where time stopped in 1985. The modernity is the surface. The neighbourhoods are the soul.",
     "Most visitors think Singapore is expensive. A Tian Tian chicken rice at Maxwell costs SGD 5. A roti prata at Tekka Centre costs SGD 1.20. The finest food in Singapore exists at hawker centre prices. The city is expensive for accommodation. It is not expensive for the thing that matters most.",
     "Most visitors think Singapore is efficient because of rules. Singaporeans are orderly because of values — the multiracial social contract that emerged from a genuinely precarious independence in 1965 and has held for 60 years. The cleanliness and the queue discipline are not fear of fines. They are community in practice."
   ],
-
   "ifYouOnlyHadOneChance": {
     "breakfast": "Tian Tian chicken rice at Maxwell Food Centre at 11:30am — SGD 5, poached at exactly 70°C, rice cooked in chicken fat and pandan leaf, chilli made fresh that morning. The most argued-about dish in Singapore. The argument is correct.",
     "sunset": "Gardens by the Bay Supertree Grove at 7:30pm — free, outside, the Garden Rhapsody light show at 7:45pm. Stand in the garden, not on a viewing platform. The scale of the supertrees becomes apparent only at ground level.",
@@ -729,53 +1250,273 @@
     "memory": "Pulau Ubin by bicycle on a Tuesday morning — ferry SGD 4, bicycle hire SGD 10, rubber plantations, wild boar, old Chinese farmhouses, the air genuinely different from the city. The Singapore that existed before anyone planned anything.",
     "secret": "Bussorah Street on a Friday evening after Maghrib prayers — the road closed, the Sultan Mosque lit against the dark sky, cafés putting tables outside, the neighbourhood gathering. The most atmospheric street in Singapore and almost nobody outside of Kampong Glam ever finds it."
   },
-
   "neighborhoodPersonalities": {
-    "marina_bay": ["Iconic", "Photogenic", "Engineered", "Spectacular"],
-    "chinatown": ["Heritage", "Contrast", "Hawker", "Layered"],
-    "little_india": ["Sensory", "Familiar", "Colour", "Community"],
-    "tiong_bahru": ["Design", "Local", "Heritage", "Discovery"],
-    "kampong_glam": ["Malay", "Arab", "Atmospheric", "Friday"],
-    "tanjong_pagar": ["Cocktail", "Dining", "Shophouse", "Sophisticated"],
-    "pulau_ubin": ["Timeless", "Wild", "Kampong", "Forgotten"]
+    "marina_bay": [
+      "Iconic",
+      "Photogenic",
+      "Engineered",
+      "Spectacular"
+    ],
+    "chinatown": [
+      "Heritage",
+      "Contrast",
+      "Hawker",
+      "Layered"
+    ],
+    "little_india": [
+      "Sensory",
+      "Familiar",
+      "Colour",
+      "Community"
+    ],
+    "tiong_bahru": [
+      "Design",
+      "Local",
+      "Heritage",
+      "Discovery"
+    ],
+    "kampong_glam": [
+      "Malay",
+      "Arab",
+      "Atmospheric",
+      "Friday"
+    ],
+    "tanjong_pagar": [
+      "Cocktail",
+      "Dining",
+      "Shophouse",
+      "Sophisticated"
+    ],
+    "pulau_ubin": [
+      "Timeless",
+      "Wild",
+      "Kampong",
+      "Forgotten"
+    ]
   },
-
   "residentSunday": "A Singapore resident with one free Sunday: 7am Tiong Bahru wet market — the fishmonger, the vegetable sellers, the cooked food stalls that have been in the same spots for 40 years. Buy provisions. Breakfast at Tiong Bahru Bakery. 9am walk the Art Deco estate streets before the Sunday brunch crowd arrives. 11am ferry to Pulau Ubin — bicycle hire SGD 10, ride to Chek Jawa, lunch at a village warung. Back by 4pm. 6pm Kampong Glam — Bussorah Street when the road closes after Maghrib prayers, the Sultan Mosque lit, cafés outside. 8pm satay at Lau Pa Sat. This is the Singapore that residents describe when asked what they love about living here.",
-
   "dayMemoryTargets": {
     "arrival": "The MRT from Changi Airport — the efficiency, the cleanliness, the precision. The contrast when they step out into Little India or Chinatown and Singapore suddenly looks nothing like the airport. The moment the traveller realises Singapore is not one city but many cities occupying the same island simultaneously. The memory is the dissonance and the delight.",
     "peak": "Tian Tian chicken rice at Maxwell at 11:30am for SGD 5 — the specific moment of understanding why this dish, at this price, is considered the most perfect food in the world by people who know. OR the Supertree Garden Rhapsody at 7:45pm from ground level — the scale only apparent when standing underneath. The memory is the moment Singapore stopped being a layover and started being a destination.",
     "departure": "The last hawker centre meal. The last MRT journey. The specific combination of heat and air conditioning and efficiency and diversity that is uniquely Singapore. The memory is the realisation that Singapore is the most functional city they have ever visited — and that functionality, done at this level, is a form of beauty."
   },
-
   "tripLengthGuide": {
     "two_days": {
-      "must_include": ["Maxwell hawker centre Tian Tian chicken rice", "Gardens by the Bay Supertree show (evening, free)", "Tiong Bahru OR Little India walk"],
-      "skip": ["Sentosa", "Universal Studios", "Night Safari"],
+      "must_include": [
+        "Maxwell hawker centre Tian Tian chicken rice",
+        "Gardens by the Bay Supertree show (evening, free)",
+        "Tiong Bahru OR Little India walk"
+      ],
+      "skip": [
+        "Sentosa",
+        "Universal Studios",
+        "Night Safari"
+      ],
       "note": "Two days in Singapore should be food and neighbourhood. Not attractions. The food alone justifies Singapore."
     },
     "three_to_four_days": {
-      "must_include": ["Hawker food daily", "Gardens by the Bay", "Tiong Bahru morning", "Kampong Glam evening", "Night Safari"],
-      "skip": ["Universal Studios unless family travel"],
+      "must_include": [
+        "Hawker food daily",
+        "Gardens by the Bay",
+        "Tiong Bahru morning",
+        "Kampong Glam evening",
+        "Night Safari"
+      ],
+      "skip": [
+        "Universal Studios unless family travel"
+      ],
       "note": "Three to four days allows Singapore's neighbourhood diversity to emerge. Each day should feel like a different country."
     },
     "five_to_six_days": {
-      "must_include": ["All 3-4 day essentials", "Pulau Ubin full day", "Flushing equivalent — Old Airport Road Food Centre", "Gillman Barracks art galleries"],
+      "must_include": [
+        "All 3-4 day essentials",
+        "Pulau Ubin full day",
+        "Flushing equivalent — Old Airport Road Food Centre",
+        "Gillman Barracks art galleries"
+      ],
       "skip": [],
       "note": "Now the hidden Singapore becomes accessible. Pulau Ubin is the most important addition at this length."
     },
     "seven_plus_days": {
-      "must_include": ["All above", "Johor Bahru day trip", "Batam or Bintan island", "Henderson Waves at dawn"],
+      "must_include": [
+        "All above",
+        "Johor Bahru day trip",
+        "Batam or Bintan island",
+        "Henderson Waves at dawn"
+      ],
       "skip": [],
       "note": "At 7+ days Singapore becomes a base for the region. The city itself is small enough to understand fully in 4-5 days — the additional days go outward."
     }
   },
-
   "antiPatterns": [
     "Sentosa AND Tiong Bahru on the same day — these represent the two most opposite versions of Singapore and neither deserves the rushed half-day the combination produces.",
     "Night Safari AND an early morning hawker market the next day — Night Safari ends at 11pm minimum. A 7am market visit requires sacrifice that affects both experiences.",
     "Universal Studios AND a cultural day combined — Universal Studios is a full-day commitment. Cultural Singapore requires a different mental state entirely.",
     "Orchard Road shopping AND hawker culture on the same afternoon — Orchard Road erases everything that makes Singapore interesting. Keep them separate.",
     "Gardens by the Bay during the day in peak heat AND the Supertree show the same evening — the afternoon will exhaust the traveller. Visit briefly in the day and return specifically for the 7:45pm show on a separate evening if possible."
-  ]
+  ],
+  "meta": {
+    "_schemaVersion": "3.0",
+    "lastUpdated": "2026-06",
+    "lastVerified": "2026-06",
+    "nextReviewDue": "2026-12",
+    "dataQualityScore": 9.5
+  },
+  "geography": {
+    "mapCenter": {
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "googleMapsUrl": "https://maps.google.com/?q=Singapore",
+    "timezone": "SGT UTC+8"
+  },
+  "languageIntelligence": {
+    "officialLanguage": "English, Malay, Mandarin, Tamil",
+    "workingLanguage": "English — universally spoken",
+    "usefulPhrases": {
+      "lah": "Added to end of sentences — uniquely Singaporean",
+      "shiok": "Delicious / excellent",
+      "kopitiam": "Local coffee shop/food court"
+    },
+    "indianLanguageSupport": "Tamil is an official language. Hindi understood in Little India. English works everywhere."
+  },
+  "safetyIntelligence": {
+    "overallRating": "Exceptionally safe — one of the safest cities on earth",
+    "safetyScore": 9.8,
+    "safeAtNight": true,
+    "soloFemaleRating": "Extremely safe at all hours",
+    "scamsToKnow": [
+      "Almost none — Singapore has severe fraud penalties"
+    ],
+    "emergencyProtocol": "Police: 999. Ambulance/Fire: 995. Tourist Hotline: 1800 736 2000."
+  },
+  "healthIntelligence": {
+    "vaccinesRecommended": [
+      "Standard routine vaccines"
+    ],
+    "waterSafety": "Singapore tap water is among the finest in the world — drink from any tap.",
+    "pharmacyAvailability": "Guardian and Watsons at most MRT stations."
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5.5 hours direct",
+        "airlines": [
+          "IndiGo",
+          "Air India",
+          "Singapore Airlines"
+        ],
+        "priceRange": "INR 22,000-55,000 return"
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5.5 hours direct",
+        "priceRange": "INR 20,000-50,000"
+      }
+    },
+    "airportToCity": {
+      "mrt": "SGD 1.80, 35 mins to City Hall — most convenient",
+      "grab": "SGD 20-30 to Orchard",
+      "note": "Jewel Changi Airport — worlds tallest indoor waterfall — worth 90 mins even in transit"
+    }
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Johor Bahru (Malaysia)",
+      "travelTime": "30 mins by bus",
+      "cost": "SGD 3.50 one way",
+      "whyCombine": "Shopping and cheaper food. Johor Premium Outlets for brand discounts.",
+      "suggestIf": "Trip is 4+ days"
+    },
+    {
+      "city": "Bintan Island (Indonesia)",
+      "travelTime": "1 hour by ferry",
+      "cost": "SGD 50-80 return",
+      "whyCombine": "Beach resort island accessible in 1 hour.",
+      "suggestIf": "Trip is 5+ days, beach desired"
+    }
+  ],
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 — wet inter-monsoon season. Occasional afternoon rain. Otherwise pleasant. Great Singapore Sale may be running.",
+    "currentAlerts": [],
+    "entryRequirements": "Indians need Singapore e-Visa (ivacsingapore.com) — SGD 30, 3-5 working days, 30 days.",
+    "indianAdvisoryNote": "Check mea.gov.in for current Singapore advisory. Generally Category Green for Indian nationals."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Tiong Bahru wet market (8am)",
+        "Tiong Bahru Bakery breakfast (9am)",
+        "Maxwell Food Centre Tian Tian (11:30am)"
+      ],
+      "emotionalArc": "Singapore's oldest neighbourhood community → best bakery → most perfect dish in the city. Three layers of food culture before noon.",
+      "bestFor": [
+        "foodie",
+        "repeat",
+        "introvert"
+      ]
+    },
+    {
+      "sequence": [
+        "Pulau Ubin bicycle (9am-2pm)",
+        "Return to city",
+        "Lau Pa Sat satay street (8pm)"
+      ],
+      "emotionalArc": "The Singapore that time forgot → return to the most modern city → the city celebrating itself. Maximum contrast.",
+      "bestFor": [
+        "adventure",
+        "repeat",
+        "extrovert"
+      ]
+    },
+    {
+      "sequence": [
+        "Gardens by the Bay Supertrees (7:45pm show)",
+        "Clarke Quay waterfront walk",
+        "Satay street Lau Pa Sat (9pm)"
+      ],
+      "emotionalArc": "Engineered spectacle → heritage waterfront → human warmth. Singapore's three scales.",
+      "bestFor": [
+        "firstTimer",
+        "couple",
+        "family"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Tekka Centre wet market at 6:30am",
+        "what": "Spice sellers, flower garland makers, golden light through roof panels",
+        "bestTime": "6:00-8:00am"
+      },
+      {
+        "name": "Tiong Bahru Art Deco estate",
+        "what": "1930s curved facades, spiral staircases, air wells",
+        "bestTime": "8-10am weekday"
+      },
+      {
+        "name": "Jewel Changi waterfall",
+        "what": "World's tallest indoor waterfall — 40 metres",
+        "bestTime": "Evening for best lighting effects"
+      },
+      {
+        "name": "Bussorah Street Friday evening",
+        "what": "Sultan Mosque lit, cafés outdoor, road closed",
+        "bestTime": "After Maghrib prayers, Friday 7-9pm"
+      }
+    ],
+    "goldenHour": "7:00-8:00am. 6:30-7:30pm.",
+    "droneRules": "Civil Aviation Authority of Singapore (CAAS) permit required. Significant restricted zones around Changi Airport and government buildings."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Excellent — best accessibility in Southeast Asia",
+    "metroAccessibility": "ALL MRT stations have lifts — exceptional",
+    "mallAccessibility": "All fully accessible",
+    "challengingAreas": "Very few",
+    "seniorFriendlyScore": 9.5,
+    "note": "Singapore is the most accessible city in Asia — designed from the ground up with universal access."
+  }
 }

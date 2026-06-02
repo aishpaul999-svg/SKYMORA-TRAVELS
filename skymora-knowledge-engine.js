@@ -47,7 +47,15 @@ export function buildKnowledgeBlock(trip = {}) {
 
   if (!k) return "";
 
+  // Always use real system date — never hardcoded
+  const now = new Date();
+  const currentDate = now.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+  const currentMonth = now.toLocaleString('en-GB', { month:'long' });
+  const currentYear = now.getFullYear();
+  const ym = now.toLocaleString('en-GB', { month:'long', year:'numeric' });
+
   let block = `\n=== SKYmora DESTINATION INTELLIGENCE — ${dest.toUpperCase()} ===\n`;
+  block += `TODAY'S DATE: ${currentDate}. Use this as the reference for all seasonal, event, and timing intelligence. Never use 2024 or 2025 as the current year — it is ${currentYear}.\n`;
 
   // 0. Hard facts first — override any GPT training data
   if (k.hardFacts) {
@@ -239,6 +247,101 @@ export function buildKnowledgeBlock(trip = {}) {
       block += `- ${name}: ${tags.join(', ')}\n`;
     });
     block += `INSTRUCTION: When recommending a neighbourhood, describe its personality using these tags, not just its attractions.\n`;
+  }
+
+  // 18. GETTING HERE — correct transport from Indian cities
+  if (k.gettingHere) {
+    const dep = trip.departure?.toLowerCase() || '';
+    const depKey = dep.includes('delhi') || dep.includes('new delhi') ? 'fromDelhi' :
+                   dep.includes('mumbai') || dep.includes('bombay') ? 'fromMumbai' :
+                   dep.includes('bangalore') || dep.includes('bengaluru') ? 'fromBangalore' :
+                   dep.includes('chennai') ? 'fromChennai' : 'fromDelhi';
+    const depInfo = k.gettingHere[depKey] || k.gettingHere.fromDelhi;
+    if (depInfo?.flight) {
+      block += `\nGETTING THERE FROM ${(trip.departure || 'India').toUpperCase()}:\n`;
+      block += `- Flight: ${depInfo.flight.duration} | Airlines: ${depInfo.flight.airlines?.join(', ')} | Price: ${depInfo.flight.priceRange}\n`;
+      if (depInfo.flight.note) block += `- Note: ${depInfo.flight.note}\n`;
+    }
+    if (k.gettingHere.airportToCity || k.gettingHere.airportToAccommodation) {
+      const transfers = k.gettingHere.airportToCity || k.gettingHere.airportToAccommodation;
+      block += `Airport transfers: ${JSON.stringify(transfers).slice(0,300)}\n`;
+    }
+  }
+
+  // 19. NEARBY DESTINATIONS — suggest combinations
+  if (k.nearbyDestinations?.length && (trip.tripDays || 0) >= 4) {
+    const relevant = k.nearbyDestinations.filter(nd => {
+      if (!nd.suggestIf) return true;
+      const days = trip.tripDays || 0;
+      const minDays = parseInt(nd.suggestIf.match(/\d+/)?.[0] || '99');
+      return days >= minDays;
+    });
+    if (relevant.length) {
+      block += `\nNEARBY DESTINATIONS WORTH COMBINING (${trip.tripDays} day trip):\n`;
+      relevant.slice(0,2).forEach(nd => {
+        block += `- ${nd.city}: ${nd.travelTime} | ${nd.whyCombine}\n`;
+      });
+      block += `INSTRUCTION: Mention relevant nearby destinations naturally as an option in the itinerary if the trip length supports it.\n`;
+    }
+  }
+
+  // 20. LANGUAGE INTELLIGENCE — useful for Day 1
+  if (k.languageIntelligence && isRepeat === false) {
+    block += `\nLANGUAGE INTELLIGENCE:\n`;
+    block += `Working language: ${k.languageIntelligence.workingLanguage}\n`;
+    if (k.languageIntelligence.criticalNote) block += `Critical: ${k.languageIntelligence.criticalNote}\n`;
+    if (k.languageIntelligence.indianLanguageSupport) block += `For Indian travellers: ${k.languageIntelligence.indianLanguageSupport}\n`;
+  }
+
+  // 21. LIVE INTELLIGENCE — current reality check
+  if (k.liveIntelligence) {
+    if (k.liveIntelligence.seasonalNow) {
+      block += `\nCURRENT SEASONAL INTELLIGENCE: ${k.liveIntelligence.seasonalNow}\n`;
+    }
+    if (k.liveIntelligence.strikesDisruptions && k.liveIntelligence.strikesDisruptions !== '') {
+      block += `CURRENT DISRUPTIONS: ${k.liveIntelligence.strikesDisruptions}\n`;
+    }
+    if (k.liveIntelligence.currentAlerts?.length) {
+      block += `LIVE ALERTS: ${k.liveIntelligence.currentAlerts.join(' | ')}\n`;
+    }
+    if (k.liveIntelligence.entryRequirements) {
+      block += `ENTRY REQUIREMENTS (as of ${ym}): ${k.liveIntelligence.entryRequirements}\n`;
+    }
+  }
+
+  // 22. HEALTH INTELLIGENCE — important for Day 1 logistics
+  if (k.healthIntelligence?.waterSafety) {
+    block += `\nHEALTH: Water: ${k.healthIntelligence.waterSafety} | Insurance: ${k.healthIntelligence.travelInsuranceNote || 'Travel insurance strongly recommended'}\n`;
+  }
+
+  // 23. COMBINATION INTELLIGENCE — emotional day sequences
+  if (k.combinationIntelligence?.length) {
+    const persona = detectPersonaKey(trip);
+    const relevant = k.combinationIntelligence.filter(c =>
+      !c.bestFor || c.bestFor.includes(persona) || c.bestFor.includes('firstTimer')
+    ).slice(0, 3);
+    if (relevant.length) {
+      block += `\nCOMBINATION INTELLIGENCE — PROVEN EMOTIONAL SEQUENCES FOR THIS DESTINATION:\n`;
+      relevant.forEach((c, i) => {
+        block += `Sequence ${i+1}: ${c.sequence.join(' → ')}\n`;
+        block += `  Arc: ${c.emotionalArc}\n`;
+      });
+      block += `INSTRUCTION: Use at least one of these proven sequences as the skeleton for a day. The arc matters as much as the activities.\n`;
+    }
+  }
+
+  // 24. PHOTOGRAPHY INTELLIGENCE — if photographer persona or special request
+  const req = (trip.specialRequest || "").toLowerCase();
+  if (k.photographyIntelligence && (req.includes("photo") || req.includes("camera") || detectPersonaKey(trip) === "photographer")) {
+    const pi = k.photographyIntelligence;
+    block += `\nPHOTOGRAPHY INTELLIGENCE:\n`;
+    if (pi.bestShotLocations?.length) {
+      pi.bestShotLocations.slice(0, 4).forEach(l => {
+        if (typeof l === 'object') block += `- ${l.name} (${l.bestTime}): ${l.what}${l.tip ? ' — ' + l.tip : ''}\n`;
+      });
+    }
+    if (pi.goldenHour) block += `Golden hour: ${pi.goldenHour}\n`;
+    if (pi.droneRules) block += `Drone rules: ${pi.droneRules}\n`;
   }
 
   block += `\n=== END DESTINATION INTELLIGENCE ===\n`;

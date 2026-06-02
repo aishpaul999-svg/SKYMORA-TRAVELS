@@ -1,8 +1,14 @@
 {
   "destination": "maldives",
-  "aliases": ["maldives", "mle", "male", "maldive islands", "maldivian islands", "malé"],
-  "lastUpdated": "2025",
-
+  "aliases": [
+    "maldives",
+    "mle",
+    "male",
+    "maldive islands",
+    "maldivian islands",
+    "malé"
+  ],
+  "lastUpdated": "2026-06",
   "hardFacts": {
     "flightFromDelhi": "New Delhi to Velana International Airport, Malé (MLE): 3.5–4 hours direct. IndiGo, Air India, SriLankan Airlines (via Colombo). Return fare: INR 22,000–55,000 economy direct. SriLankan via Colombo is often cheapest at INR 18,000.",
     "flightFromMumbai": "Mumbai to Malé: 3.5 hours direct. Multiple airlines.",
@@ -14,7 +20,6 @@
     "electricity": "Type G British 3-pin plugs in resorts. 230V. Same as UAE. Indian 2-pin plugs need adapter.",
     "water": "All resort islands provide filtered drinking water. Do not drink tap water on local islands. Bottled water available at USD 2–4/bottle."
   },
-
   "emergencyContacts": {
     "police": "119",
     "ambulance": "102",
@@ -27,14 +32,32 @@
     "adduEquatorialHospital": "+960 689 3131 (for southern atolls)",
     "seaplane": "Trans Maldivian Airways +960 331 5201 (for seaplane transfer issues)"
   },
-
   "policeStations": [
-    { "name": "Maldives Police Service HQ", "area": "Malé city", "phone": "+960 332 2111", "address": "Ameer Ahmed Magu, Malé" },
-    { "name": "Male Police Station", "area": "Malé island, near market", "phone": "+960 332 2022", "address": "Malé" },
-    { "name": "Maafushi Police Post", "area": "Maafushi local island", "phone": "+960 664 5333", "address": "Maafushi, Kaafu Atoll" },
-    { "name": "Addu City Police", "area": "Addu/Seenu Atoll, far south", "phone": "+960 689 9099", "address": "Addu City" }
+    {
+      "name": "Maldives Police Service HQ",
+      "area": "Malé city",
+      "phone": "+960 332 2111",
+      "address": "Ameer Ahmed Magu, Malé"
+    },
+    {
+      "name": "Male Police Station",
+      "area": "Malé island, near market",
+      "phone": "+960 332 2022",
+      "address": "Malé"
+    },
+    {
+      "name": "Maafushi Police Post",
+      "area": "Maafushi local island",
+      "phone": "+960 664 5333",
+      "address": "Maafushi, Kaafu Atoll"
+    },
+    {
+      "name": "Addu City Police",
+      "area": "Addu/Seenu Atoll, far south",
+      "phone": "+960 689 9099",
+      "address": "Addu City"
+    }
   ],
-
   "firstVisitorEssentials": {
     "summary": "First-time Maldives visitor. This is one of the very few destinations where the accommodation IS the entire experience. Your choice of island, resort, and room type determines everything. Choosing correctly transforms the trip.",
     "mustInclude": [
@@ -53,7 +76,6 @@
       "Ate all meals at the resort — the lunch on a sandbank from a packed picnic basket, or breakfast on a dhow boat, is worth asking for even if it costs extra"
     ]
   },
-
   "repeatVisitorIntelligence": {
     "insiderNarrative": "The Maldives is the most successfully marketed destination in the world — every image looks identical. The specific quality of a Maldives experience depends entirely on which atoll, which resort, which reef depth, and which month. Two people who both 'went to the Maldives' may have had completely different countries.",
     "skipThese": [
@@ -70,28 +92,44 @@
       "South Male Atoll dive sites — shark point, fish head, some of the most concentrated marine life in the Maldives"
     ]
   },
-
   "islandTypes": {
     "resort_private": {
       "character": "Private uninhabited islands developed exclusively for one resort. No local population. The classic Maldives postcard. Ranges from small eco-boutiques to mega-resorts with 200+ villas.",
-      "bestFor": ["Ultimate privacy", "Overwater villas", "All-inclusive diving and water sports"],
-      "avoid": ["Resort islands without a house reef — boat trips required for every snorkel"],
+      "bestFor": [
+        "Ultimate privacy",
+        "Overwater villas",
+        "All-inclusive diving and water sports"
+      ],
+      "avoid": [
+        "Resort islands without a house reef — boat trips required for every snorkel"
+      ],
       "insider": "The size of the resort matters enormously. A 50-villa boutique resort and a 300-villa resort on adjacent islands have completely different atmospheres. Check the villa count before booking."
     },
     "local_guesthouse": {
       "character": "Inhabited Maldivian islands with guesthouse accommodation. The real Maldives — coral houses, fishing dhows, the call to prayer, the fish market. Budget-friendly without sacrificing marine life quality.",
-      "bestFor": ["Budget travellers", "Cultural experience", "Authentic Maldivian life"],
-      "avoid": ["Expecting resort-style service or full privacy"],
+      "bestFor": [
+        "Budget travellers",
+        "Cultural experience",
+        "Authentic Maldivian life"
+      ],
+      "avoid": [
+        "Expecting resort-style service or full privacy"
+      ],
       "insider": "Maafushi, Dhigurah, and Thulusdhoo are the three best-established guesthouse islands. Maafushi has the widest choice (50+ guesthouses). Dhigurah is better for whale shark access."
     },
     "liveaboard": {
       "character": "A live-aboard dive boat that moves between dive sites over 7–10 nights. Access to remote atolls not served by any resort.",
-      "bestFor": ["Serious divers", "Repeat visitors", "Those wanting to see everything"],
-      "avoid": ["Anyone prone to seasickness — the open ocean between atolls can be rough"],
+      "bestFor": [
+        "Serious divers",
+        "Repeat visitors",
+        "Those wanting to see everything"
+      ],
+      "avoid": [
+        "Anyone prone to seasickness — the open ocean between atolls can be rough"
+      ],
       "insider": "The best liveaboard operators: Blue Force Fleet, Carpe Diem, Emperor Divers. Book 3–4 months ahead for peak season. The outer atolls they access (Laamu, Thaa, Gaafu) have the most pristine reef in the Maldives."
     }
   },
-
   "restaurants": [
     {
       "name": "Ithaa Undersea Restaurant — Conrad Maldives",
@@ -104,7 +142,20 @@
       "reservation": "Through Conrad Maldives directly. Non-hotel guests can book for lunch only.",
       "insider": "The world's first all-glass undersea restaurant. 5 metres below the surface. Coral and fish surround the acrylic walls. The food is good — not extraordinary — but the setting makes everything taste different. The lunch seating (non-guests can book) is 30% cheaper than dinner and the underwater light during the day is better.",
       "isSurprise": false,
-      "scores": { "luxury": 10, "honeymoon": 10, "couple": 10, "repeat": 9, "firstTimer": 8, "solo": 6, "budget": 0, "family": 5, "photographer": 9, "adventure": 7 }
+      "scores": {
+        "luxury": 10,
+        "honeymoon": 10,
+        "couple": 10,
+        "repeat": 9,
+        "firstTimer": 8,
+        "solo": 6,
+        "budget": 0,
+        "family": 5,
+        "photographer": 9,
+        "adventure": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Local teahouses — Malé island",
@@ -117,7 +168,20 @@
       "reservation": "No.",
       "insider": "Mas huni — shredded tuna, coconut, onion, and chilli served with roshi flatbread — is the Maldivian breakfast eaten every morning here for centuries. It costs USD 2. No resort serves it properly. The teahouses in Malé open at 5:30am. This is the most authentic food experience available in the Maldives.",
       "isSurprise": true,
-      "scores": { "foodie": 9, "budget": 10, "solo": 8, "firstTimer": 7, "repeat": 9, "couple": 6, "adventure": 7, "family": 7, "luxury": 2, "photographer": 6 }
+      "scores": {
+        "foodie": 9,
+        "budget": 10,
+        "solo": 8,
+        "firstTimer": 7,
+        "repeat": 9,
+        "couple": 6,
+        "adventure": 7,
+        "family": 7,
+        "luxury": 2,
+        "photographer": 6
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Azur Restaurant — Kurumba Maldives",
@@ -130,7 +194,20 @@
       "reservation": "Through resort.",
       "insider": "Kurumba was the first resort in the Maldives (opened 1972). The Azur restaurant's beachfront setting — directly on the lagoon, lit by fire torches — is the most photogenic resort dining in North Male Atoll. The grilled reef fish (caught that morning) is the correct order.",
       "isSurprise": false,
-      "scores": { "luxury": 8, "couple": 9, "honeymoon": 9, "firstTimer": 8, "repeat": 7, "solo": 5, "budget": 0, "family": 6, "photographer": 9, "foodie": 7 }
+      "scores": {
+        "luxury": 8,
+        "couple": 9,
+        "honeymoon": 9,
+        "firstTimer": 8,
+        "repeat": 7,
+        "solo": 5,
+        "budget": 0,
+        "family": 6,
+        "photographer": 9,
+        "foodie": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Dhigurah Guesthouse Restaurants",
@@ -143,7 +220,20 @@
       "reservation": "No.",
       "insider": "The local island guesthouses on Dhigurah serve the same Indian Ocean reef fish as the luxury resorts nearby — the difference is the cook is the guesthouse owner's wife using family recipes. The freshness is identical. The cost is 10% of resort pricing.",
       "isSurprise": true,
-      "scores": { "budget": 10, "foodie": 7, "solo": 8, "repeat": 9, "firstTimer": 6, "couple": 7, "adventure": 8, "family": 7, "luxury": 1, "photographer": 5 }
+      "scores": {
+        "budget": 10,
+        "foodie": 7,
+        "solo": 8,
+        "repeat": 9,
+        "firstTimer": 6,
+        "couple": 7,
+        "adventure": 8,
+        "family": 7,
+        "luxury": 1,
+        "photographer": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Soneva Fushi — Fresh in the Garden",
@@ -156,10 +246,22 @@
       "reservation": "Through resort.",
       "insider": "Soneva Fushi has a 2-hectare organic garden that supplies 70% of the resort's produce — unusual for an island in the middle of the Indian Ocean. The tomatoes, herbs, and vegetables that go into your meal were picked that morning. The concept is more significant than it sounds in a place that imports nearly everything.",
       "isSurprise": false,
-      "scores": { "luxury": 10, "foodie": 9, "couple": 9, "honeymoon": 9, "repeat": 10, "solo": 7, "firstTimer": 7, "budget": 0, "family": 6, "photographer": 7 }
+      "scores": {
+        "luxury": 10,
+        "foodie": 9,
+        "couple": 9,
+        "honeymoon": 9,
+        "repeat": 10,
+        "solo": 7,
+        "firstTimer": 7,
+        "budget": 0,
+        "family": 6,
+        "photographer": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     }
   ],
-
   "activities": [
     {
       "name": "Snorkelling the House Reef",
@@ -169,7 +271,20 @@
       "bestTime": "Morning 7–9am for best visibility and fish activity",
       "book": "No booking. Equipment from resort dive centre.",
       "insider": "The house reef is more important than any other single feature of a Maldives resort. Ask specifically before booking: How far is the reef drop-off from the shore? What marine life is resident? Are there resident reef sharks or manta rays? This conversation saves the trip.",
-      "scores": { "honeymoon": 10, "couple": 10, "firstTimer": 10, "family": 9, "solo": 8, "adventure": 9, "photographer": 9, "luxury": 8, "budget": 7, "repeat": 8 }
+      "scores": {
+        "honeymoon": 10,
+        "couple": 10,
+        "firstTimer": 10,
+        "family": 9,
+        "solo": 8,
+        "adventure": 9,
+        "photographer": 9,
+        "luxury": 8,
+        "budget": 7,
+        "repeat": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Bioluminescent Plankton Night Swim",
@@ -179,7 +294,20 @@
       "bestTime": "Dark nights, no moon. Best May–November.",
       "book": "No booking. Ask your resort if bioluminescence is currently present.",
       "insider": "Certain beaches have phytoplankton that emit blue light when disturbed by movement. Walking through shallow water at night, every step creates a constellation of blue light. It looks like the scene has been filtered. It has not. This is real and free.",
-      "scores": { "honeymoon": 10, "couple": 10, "photographer": 10, "solo": 9, "adventure": 9, "firstTimer": 8, "repeat": 8, "luxury": 8, "family": 6, "budget": 8 }
+      "scores": {
+        "honeymoon": 10,
+        "couple": 10,
+        "photographer": 10,
+        "solo": 9,
+        "adventure": 9,
+        "firstTimer": 8,
+        "repeat": 8,
+        "luxury": 8,
+        "family": 6,
+        "budget": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Whale Shark Snorkelling — South Ari Atoll",
@@ -189,7 +317,20 @@
       "bestTime": "October–April. Morning departure 6:30am.",
       "book": "Through Dhigurah guesthouses or South Ari Atoll resort dive centres.",
       "insider": "South Ari Atoll has year-round resident whale sharks — the only location in the Indian Ocean with confirmed year-round presence. The same whale shark experience from a USD 500/night resort costs USD 45–70 from the USD 80/night Dhigurah guesthouse. You swim alongside an 8-metre shark. It is completely gentle.",
-      "scores": { "adventure": 10, "honeymoon": 9, "couple": 9, "solo": 9, "photographer": 10, "firstTimer": 8, "repeat": 9, "family": 7, "budget": 7, "luxury": 8 }
+      "scores": {
+        "adventure": 10,
+        "honeymoon": 9,
+        "couple": 9,
+        "solo": 9,
+        "photographer": 10,
+        "firstTimer": 8,
+        "repeat": 9,
+        "family": 7,
+        "budget": 7,
+        "luxury": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Sandbank Sunset",
@@ -199,7 +340,20 @@
       "bestTime": "Depart 45 minutes before sunset",
       "book": "Through resort water sports desk.",
       "insider": "A sandbank is a strip of white sand 50cm above sea level in the middle of the Indian Ocean. The boat drops you and leaves. Turquoise water in every direction to the horizon. When the sun goes below the water with no land between you and it — this is the moment the Maldives becomes something that cannot be photographed accurately.",
-      "scores": { "honeymoon": 10, "couple": 10, "firstTimer": 9, "photographer": 9, "solo": 7, "luxury": 9, "repeat": 8, "family": 7, "adventure": 7, "budget": 5 }
+      "scores": {
+        "honeymoon": 10,
+        "couple": 10,
+        "firstTimer": 9,
+        "photographer": 9,
+        "solo": 7,
+        "luxury": 9,
+        "repeat": 8,
+        "family": 7,
+        "adventure": 7,
+        "budget": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Manta Ray Snorkelling — Baa Atoll Hanifaru Bay",
@@ -209,7 +363,20 @@
       "bestTime": "June–November (manta ray aggregation season)",
       "book": "Through resort or Baa Atoll dive operators.",
       "insider": "Hanifaru Bay in Baa Atoll is one of the best manta ray snorkelling sites in the world. During plankton blooms (June–November), hundreds of manta rays aggregate to feed — barrel rolls, chain feeding, spinning in circles. Accessible from the Baa Atoll resort islands or by liveaboard.",
-      "scores": { "adventure": 10, "photographer": 10, "repeat": 9, "couple": 8, "solo": 8, "honeymoon": 8, "firstTimer": 7, "family": 7, "budget": 5, "luxury": 7 }
+      "scores": {
+        "adventure": 10,
+        "photographer": 10,
+        "repeat": 9,
+        "couple": 8,
+        "solo": 8,
+        "honeymoon": 8,
+        "firstTimer": 7,
+        "family": 7,
+        "budget": 5,
+        "luxury": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Scuba Diving — First Open Water Course",
@@ -219,7 +386,20 @@
       "bestTime": "Year-round. Best visibility: December–April.",
       "book": "Through resort dive centre. All major resorts have PADI-certified centres.",
       "insider": "The Maldives is the best place in the world to learn to dive. The visibility (30–40m), the warmth (28°C), and the marine life (reef sharks, turtles, rays) available on beginner dives is unmatched. The open water course done here is an investment that serves for life.",
-      "scores": { "adventure": 10, "firstTimer": 8, "repeat": 8, "couple": 8, "solo": 9, "honeymoon": 7, "family": 6, "luxury": 7, "budget": 4, "photographer": 8 }
+      "scores": {
+        "adventure": 10,
+        "firstTimer": 8,
+        "repeat": 8,
+        "couple": 8,
+        "solo": 9,
+        "honeymoon": 7,
+        "family": 6,
+        "luxury": 7,
+        "budget": 4,
+        "photographer": 8
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Male Island Half-Day Walk",
@@ -229,7 +409,20 @@
       "bestTime": "Morning 7–10am",
       "book": "No booking.",
       "insider": "Malé is one of the most densely populated cities in the world — 200,000 people on a 5km² island. The fish market (5am–7am) where every resort's morning catch was bought. The Old Friday Mosque (1656, coral stone construction). The National Museum. The waterfront corniche. Most visitors transit through Malé without stopping — that is an error.",
-      "scores": { "repeat": 8, "solo": 7, "photographer": 7, "culture": 8, "firstTimer": 6, "couple": 6, "budget": 8, "adventure": 5, "luxury": 3, "family": 5 }
+      "scores": {
+        "repeat": 8,
+        "solo": 7,
+        "photographer": 7,
+        "culture": 8,
+        "firstTimer": 6,
+        "couple": 6,
+        "budget": 8,
+        "adventure": 5,
+        "luxury": 3,
+        "family": 5
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Sunset Fishing (Traditional Maldivian)",
@@ -239,7 +432,20 @@
       "bestTime": "Late afternoon departure 5pm",
       "book": "Through resort.",
       "insider": "Traditional Maldivian fishing uses a single line with a hook — no rod. The fishing grounds are above known reef where tuna and other pelagic fish aggregate at sunset. The fish caught (with assistance from the boat crew) are often grilled and served at dinner.",
-      "scores": { "firstTimer": 8, "family": 9, "couple": 7, "solo": 7, "adventure": 7, "repeat": 7, "luxury": 6, "budget": 6, "photographer": 7, "foodie": 7 }
+      "scores": {
+        "firstTimer": 8,
+        "family": 9,
+        "couple": 7,
+        "solo": 7,
+        "adventure": 7,
+        "repeat": 7,
+        "luxury": 6,
+        "budget": 6,
+        "photographer": 7,
+        "foodie": 7
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Dhow Sunrise Cruise",
@@ -249,7 +455,20 @@
       "bestTime": "Depart 30 minutes before sunrise",
       "book": "Through resort.",
       "insider": "A traditional wooden dhow sailing into the sunrise over the Indian Ocean. The Maldivian dhow (dhoni) is specific to these islands — double-ended, curved bow. At 5:30am the sea is glassy, the colours extraordinary, dolphins common. The most serene experience available in the Maldives.",
-      "scores": { "honeymoon": 10, "couple": 9, "photographer": 9, "solo": 7, "luxury": 8, "firstTimer": 8, "repeat": 8, "family": 6, "adventure": 6, "budget": 4 }
+      "scores": {
+        "honeymoon": 10,
+        "couple": 9,
+        "photographer": 9,
+        "solo": 7,
+        "luxury": 8,
+        "firstTimer": 8,
+        "repeat": 8,
+        "family": 6,
+        "adventure": 6,
+        "budget": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     },
     {
       "name": "Sea-Plane Transfer",
@@ -259,10 +478,22 @@
       "bestTime": "Morning departure for best light and visibility",
       "book": "Through resort — almost always managed by Trans Maldivian Airways.",
       "insider": "The seaplane transfer is itself one of the great Maldives experiences — flying at 500 metres over the atolls, the ring-shaped reefs and lagoons visible below. Request a window seat on the left side for the best views on most routes. The 20–45 minutes is too short.",
-      "scores": { "firstTimer": 10, "photographer": 10, "couple": 9, "honeymoon": 9, "luxury": 9, "solo": 7, "family": 8, "repeat": 7, "adventure": 7, "budget": 4 }
+      "scores": {
+        "firstTimer": 10,
+        "photographer": 10,
+        "couple": 9,
+        "honeymoon": 9,
+        "luxury": 9,
+        "solo": 7,
+        "family": 8,
+        "repeat": 7,
+        "adventure": 7,
+        "budget": 4
+      },
+      "active": true,
+      "lastVerified": "2026-06"
     }
   ],
-
   "designedSurprises": {
     "honeymoon": {
       "experience": "Private beach dinner arranged by the resort",
@@ -305,7 +536,6 @@
       "why": "The Maldives luxury experience done properly creates memories that no photograph adequately captures."
     }
   },
-
   "travelerGuides": {
     "honeymoon": {
       "accommodation": "Soneva Fushi (Baa Atoll, USD 2,500+/night, most secluded), Gili Lankanfushi (North Male Atoll, USD 1,800+/night, overwater villas), Four Seasons Kuda Huraa (North Male Atoll, USD 1,200+/night, accessible by speedboat)",
@@ -337,22 +567,56 @@
       "indianCommunity": "A significant Indian expat community works in the Maldives tourism industry. Indian managers and staff are common at most resorts."
     }
   },
-
   "hotels": {
     "ultraluxury": [
-      { "name": "Soneva Fushi", "area": "Baa Atoll", "nightly": "USD 2,500–10,000", "honest": "The template for Maldives luxury. The Baa Atoll UNESCO location. The organic garden. The open-air cinema. The founding resort of barefoot luxury.", "tip": "Crusoe Residences are the most private — on a small separate island within the island." },
-      { "name": "Gili Lankanfushi", "area": "North Male Atoll, 20 mins speedboat", "nightly": "USD 1,800–6,000", "honest": "The finest overwater villas in the Maldives. No shoes policy throughout. Highest butlering ratio.", "tip": "" }
+      {
+        "name": "Soneva Fushi",
+        "area": "Baa Atoll",
+        "nightly": "USD 2,500–10,000",
+        "honest": "The template for Maldives luxury. The Baa Atoll UNESCO location. The organic garden. The open-air cinema. The founding resort of barefoot luxury.",
+        "tip": "Crusoe Residences are the most private — on a small separate island within the island."
+      },
+      {
+        "name": "Gili Lankanfushi",
+        "area": "North Male Atoll, 20 mins speedboat",
+        "nightly": "USD 1,800–6,000",
+        "honest": "The finest overwater villas in the Maldives. No shoes policy throughout. Highest butlering ratio.",
+        "tip": ""
+      }
     ],
     "luxury": [
-      { "name": "Four Seasons Kuda Huraa", "area": "North Male Atoll, 25 mins speedboat", "nightly": "USD 1,200–4,000", "honest": "Accessible by speedboat (not seaplane). Four Seasons service standards. Water villas over a stunning lagoon.", "tip": "" },
-      { "name": "Reethi Beach Resort", "area": "Baa Atoll", "nightly": "USD 600–1,500", "honest": "The best value mid-to-luxury in Baa Atoll. Excellent house reef. Family-friendly. Speedboat-only.", "tip": "" }
+      {
+        "name": "Four Seasons Kuda Huraa",
+        "area": "North Male Atoll, 25 mins speedboat",
+        "nightly": "USD 1,200–4,000",
+        "honest": "Accessible by speedboat (not seaplane). Four Seasons service standards. Water villas over a stunning lagoon.",
+        "tip": ""
+      },
+      {
+        "name": "Reethi Beach Resort",
+        "area": "Baa Atoll",
+        "nightly": "USD 600–1,500",
+        "honest": "The best value mid-to-luxury in Baa Atoll. Excellent house reef. Family-friendly. Speedboat-only.",
+        "tip": ""
+      }
     ],
     "budget_guesthouse": [
-      { "name": "Any certified guesthouse on Maafushi", "area": "Maafushi, Kaafu Atoll", "nightly": "USD 60–100", "honest": "50+ certified guesthouses. The most established local island for tourism. Bikini beach, water sports, reliable boat trips.", "tip": "Book houses with their own boats for better whale shark and dive trip access." },
-      { "name": "Dhigurah guesthouses", "area": "Dhigurah, South Ari Atoll", "nightly": "USD 70–100", "honest": "The best island for whale shark snorkelling. Small island, few tourists, the South Ari Atoll house reef is excellent.", "tip": "" }
+      {
+        "name": "Any certified guesthouse on Maafushi",
+        "area": "Maafushi, Kaafu Atoll",
+        "nightly": "USD 60–100",
+        "honest": "50+ certified guesthouses. The most established local island for tourism. Bikini beach, water sports, reliable boat trips.",
+        "tip": "Book houses with their own boats for better whale shark and dive trip access."
+      },
+      {
+        "name": "Dhigurah guesthouses",
+        "area": "Dhigurah, South Ari Atoll",
+        "nightly": "USD 70–100",
+        "honest": "The best island for whale shark snorkelling. Small island, few tourists, the South Ari Atoll house reef is excellent.",
+        "tip": ""
+      }
     ]
   },
-
   "transport": {
     "seaplane": "Trans Maldivian Airways (TMA) operates all Maldives seaplane transfers. USD 200–450/person each way. Operates daylight hours only — afternoon arrivals at Malé require a Malé city hotel for one night before seaplane next morning.",
     "speedboat": "USD 30–100/person each way to resorts accessible from Malé. Takes 20–90 mins depending on distance.",
@@ -360,31 +624,46 @@
     "local_ferry": "Government ferries connect inhabited islands. Very cheap (USD 1–3) but slow (4–8 hours). Not practical for resorts.",
     "liveaboard_transfer": "Liveaboard boats are picked up at Malé marina or domestic airports. All arranged through the liveaboard operator."
   },
-
   "trafficIntelligence": {
     "seaplaneNote": "CRITICAL: Resort transfers are ONLY by seaplane during daylight. If your international flight lands after 3pm, you need to stay the night in Malé before your seaplane transfer next morning. Plan flights to arrive before 2pm.",
     "maleCrowding": "Malé is one of the densest cities in the world. Roads are genuinely congested during rush hours (7–9am, 5–7pm).",
     "boatTransfers": "Speedboat transfers in rough weather (May–November) can be uncomfortable. Seasickness pills are recommended if travelling with young children or sensitive travellers.",
     "itineraryRule": "Book the most remote (and usually most beautiful) resort or island you can access. The seaplane access fee is a one-time cost that opens the entire Indian Ocean."
   },
-
   "seasonal": {
-    "decemberApril": { "temp": "28–30°C", "reality": "Dry season. Best visibility, calm seas, almost no rain. Peak prices. The postcard Maldives. Book 3–4 months ahead for top resorts. December 20–January 5 is peak-of-peak.", "priceLevel": "Highest" },
-    "mayNovember": { "temp": "27–30°C", "reality": "Wet season. Some rain (usually in the afternoon, not all day). 40–50% lower resort prices. Best manta ray season (June–November at Hanifaru Bay). Best whale shark season continues in South Ari Atoll. Fewer tourists, same marine life or better.", "priceLevel": "Low-Medium" }
+    "decemberApril": {
+      "temp": "28–30°C",
+      "reality": "Dry season. Best visibility, calm seas, almost no rain. Peak prices. The postcard Maldives. Book 3–4 months ahead for top resorts. December 20–January 5 is peak-of-peak.",
+      "priceLevel": "Highest"
+    },
+    "mayNovember": {
+      "temp": "27–30°C",
+      "reality": "Wet season. Some rain (usually in the afternoon, not all day). 40–50% lower resort prices. Best manta ray season (June–November at Hanifaru Bay). Best whale shark season continues in South Ari Atoll. Fewer tourists, same marine life or better.",
+      "priceLevel": "Low-Medium"
+    }
   },
-
   "maldivesFestivals": {
     "eid_alfitr": "End of Ramadan. The biggest holiday in the Maldives. Local islands transform with celebrations. Visiting during Eid on a local island gives the most culturally immersive Maldives experience.",
     "independence_day": "July 26. Maldivian National Day. Events in Malé. Some resort celebrations.",
     "ramadan": "Dates shift annually (Islamic calendar). On local islands, all restaurants close during daylight hours. Resorts continue normal service. Local island guesthouse visitors must eat inside during Ramadan."
   },
-
   "sunsetSpots": [
-    { "name": "Sandbank in the open ocean", "note": "Any resort can arrange. The best sunset on earth. 50cm above sea level in the middle of the Indian Ocean.", "price": "Included at most resorts" },
-    { "name": "West-facing overwater villa deck", "note": "West-facing villas at any resort. Direct sunset view over the Indian Ocean.", "price": "Room rate" },
-    { "name": "The bow of a traditional dhoni at sunset", "note": "Arrange a sunset dhow cruise. Being on the water at sunset is different from watching the sunset from land.", "price": "USD 50–100/person" }
+    {
+      "name": "Sandbank in the open ocean",
+      "note": "Any resort can arrange. The best sunset on earth. 50cm above sea level in the middle of the Indian Ocean.",
+      "price": "Included at most resorts"
+    },
+    {
+      "name": "West-facing overwater villa deck",
+      "note": "West-facing villas at any resort. Direct sunset view over the Indian Ocean.",
+      "price": "Room rate"
+    },
+    {
+      "name": "The bow of a traditional dhoni at sunset",
+      "note": "Arrange a sunset dhow cruise. Being on the water at sunset is different from watching the sunset from land.",
+      "price": "USD 50–100/person"
+    }
   ],
-
   "dayTrips": {
     "male_city": {
       "distance": "Adjacent to Malé international airport by ferry/boat",
@@ -399,14 +678,12 @@
       "note": "A day visit to a local island to experience Maldivian community life. Walk the village, visit the fish market, eat at a teahouse. Completely different from resort life."
     }
   },
-
   "shopping": {
     "male_fish_market": "5am–7am and evening. The freshest tuna in the world. Locals and resort buyers come here every morning. Not for buying to take home — for the experience of seeing the Indian Ocean's catch.",
     "lacquerware": "Traditional Maldivian lacquerware (liyaa) from specific atolls. The finest is from Baa Atoll. Available in Malé gift shops. Genuine lacquerware takes days to make.",
     "cowrie_shells": "Historically used as currency across the Indian Ocean. Decorative items using genuine cowrie shells from the Maldives are the most authentic local craft.",
     "resort_boutiques": "Resort shops sell everything at a significant premium. Buy snorkelling equipment, sunscreen, and medications before leaving Malé or your home country."
   },
-
   "culturalRules": {
     "critical": [
       "The Maldives is a 100% Muslim country. Pork and alcohol are prohibited for local Maldivians. Resorts operate under a special Tourism Zone licence.",
@@ -419,13 +696,11 @@
     "alcohol": "Available at resorts. Strictly prohibited on inhabited islands. Never bring alcohol to a local island guesthouse.",
     "photography": "Ask before photographing mosque interiors and individuals."
   },
-
   "visaIntelligence": {
     "indianPassport": "Visa-free for Indians. 30 days on arrival at Velana International Airport. No application needed.",
     "important": "Return ticket required. Accommodation confirmation (resort booking or guesthouse) required. Passport valid 6+ months.",
     "tip": "Have resort transfer details printed — immigration may ask for your island destination."
   },
-
   "pricingBenchmarks": {
     "budget_guesthouse_local": "USD 60–120/night",
     "mid_range_resort": "USD 250–600/night",
@@ -441,7 +716,6 @@
     "mas_huni_breakfast_male": "USD 2–4",
     "resort_meal_average": "USD 50–100/person"
   },
-
   "savingsIntelligence": [
     "Local island guesthouse (USD 80/night) vs resort (USD 500+/night) — same marine environment, saves USD 420+ per night",
     "Whale shark trip from Dhigurah (USD 55) vs same trip from adjacent luxury resort (USD 150–200) — same sharks, same water, saves USD 100+",
@@ -451,7 +725,6 @@
     "Pack all medications, sunscreen, and snorkelling equipment from India — resort shops charge 3–5x normal prices",
     "Speedboat-access resorts vs seaplane-access — saves USD 400–900/person return, with modest time compromise"
   ],
-
   "practical": {
     "electricity": "Type G British 3-pin. 230V. Indian 2-pin adapter needed.",
     "bestExchange": "Exchange at Malé city banks or use USD cash directly. Most resorts and local islands accept USD.",
@@ -460,15 +733,28 @@
     "tipping": "Resorts: USD 5–10/day for housekeeping, USD 10–20 for excellent dive guide. Local islands: rounding up appreciated.",
     "apps": "Trans Maldivian Airways (seaplane tracking), Maldives weather app (wave height matters for transfers)"
   },
-
   "hiddenPlaces": [
-    { "name": "Hanifaru Bay, Baa Atoll", "note": "World's best manta ray aggregation site. June–November. Accessible by liveaboard or Baa Atoll resorts." },
-    { "name": "Fulhadhoo island", "note": "One of the least visited inhabited islands. Pristine reef, village life, almost no tourists." },
-    { "name": "USAT Liberty Wreck, Amed Bali (for comparison)", "note": "Note: this is Bali. In Maldives context: the Sinai Wrecks in South Male Atoll are similarly accessible wrecks with extraordinary marine life." },
-    { "name": "Malé fish market at 5am", "note": "The freshest tuna in the world bought and sold before any tourist is awake." },
-    { "name": "Sandbank at dawn", "note": "The same sandbank that appears in every Maldives sunset photograph, emptied of tourists at 6am." }
+    {
+      "name": "Hanifaru Bay, Baa Atoll",
+      "note": "World's best manta ray aggregation site. June–November. Accessible by liveaboard or Baa Atoll resorts."
+    },
+    {
+      "name": "Fulhadhoo island",
+      "note": "One of the least visited inhabited islands. Pristine reef, village life, almost no tourists."
+    },
+    {
+      "name": "USAT Liberty Wreck, Amed Bali (for comparison)",
+      "note": "Note: this is Bali. In Maldives context: the Sinai Wrecks in South Male Atoll are similarly accessible wrecks with extraordinary marine life."
+    },
+    {
+      "name": "Malé fish market at 5am",
+      "note": "The freshest tuna in the world bought and sold before any tourist is awake."
+    },
+    {
+      "name": "Sandbank at dawn",
+      "note": "The same sandbank that appears in every Maldives sunset photograph, emptied of tourists at 6am."
+    }
   ],
-
   "insiderIntelligence": [
     "The Maldives has no mountains, no forests, no cities, no monuments. The marine environment IS the destination. Your entire trip depends on the quality of the reef beneath your resort.",
     "The seaplane transfer is itself one of the great Maldives experiences. Sit on the left side of the aircraft for the best atoll views on most routes from Malé.",
@@ -477,15 +763,12 @@
     "The best house reefs in the Maldives are on islands with a steep drop-off close to shore — ideally within 50 metres of the beach. Ask specifically: 'How far from the beach does the reef begin and how deep does it go?'",
     "Weather in the Maldives changes within the day. A cloudy morning becomes a perfect afternoon. Plan snorkelling for the best visibility window of the day — usually 7–10am."
   ],
-
   "whyPeopleFallInLove": "People arrive for the photographs. They stay for the silence — the specific silence of standing on a sandbank in the middle of the Indian Ocean with water in every direction to the horizon and no other sound except the sea. They return because they never found that silence again anywhere. The Maldives is the only destination in the world where the experience cannot be adequately described to someone who has not had it, and where the photographs — however beautiful — consistently fail to capture what actually happened.",
-
   "localTruths": [
     "Most visitors think the Maldives is the resort. The island the resort was built on existed before the resort and the Maldivian fishing community that has lived on the adjacent island for centuries still exists 30 minutes away. The resort is a beautiful construction placed on top of something that was already extraordinary.",
     "Most visitors think the Maldives is photographs. The bioluminescent plankton at night, the whale shark at 6 metres, the sandbank at sunset with the Indian Ocean stretching to the horizon — none of these can be photographed accurately. Every photograph of the Maldives is technically correct and experientially incomplete.",
     "Most visitors think the Maldives is luxury. The fishing villages on the inhabited islands — Maafushi, Dhigurah, Fulhadhoo — have the same coral reefs, the same warm water, and the same Indian Ocean sunsets as the USD 2,000/night resorts. The luxury is the privacy. The nature belongs to everyone."
   ],
-
   "ifYouOnlyHadOneChance": {
     "breakfast": "Mas huni at a teahouse in Malé at 5:30am — shredded tuna, coconut, onion, and chilli with roshi flatbread, USD 2. The Maldivian breakfast eaten every morning for centuries. No resort serves it properly. The teahouses open before the city wakes.",
     "sunset": "A sandbank — any sandbank accessible from your resort or guesthouse. 50cm above sea level, white sand, turquoise water in every direction. The boat drops you and leaves. Stand there as the sun goes below the horizon with no land between you and it.",
@@ -494,51 +777,234 @@
     "memory": "The first step from the overwater villa deck directly into the Indian Ocean — the specific physical sensation that makes people return to the Maldives. Warm water, coral immediately below, fish already gathering. This cannot be described. It can only be experienced.",
     "secret": "Snorkelling the house reef alone at 6am — before any other guest wakes, before any organised activity begins. The water is glassy, the light is coming in at the angle that makes colour saturate, the fish are feeding. The Indian Ocean at 6am with no one else in it."
   },
-
   "neighborhoodPersonalities": {
-    "north_male_atoll": ["Accessible", "Classic", "Speedboat", "Established"],
-    "south_ari_atoll": ["Whale Sharks", "Diving", "Local Islands", "Marine"],
-    "baa_atoll": ["UNESCO", "Manta Rays", "Remote", "Pristine"],
-    "local_islands": ["Authentic", "Budget", "Cultural", "Honest"],
-    "outer_atolls_liveaboard": ["Remote", "Untouched", "Serious Diving", "Isolated"]
+    "north_male_atoll": [
+      "Accessible",
+      "Classic",
+      "Speedboat",
+      "Established"
+    ],
+    "south_ari_atoll": [
+      "Whale Sharks",
+      "Diving",
+      "Local Islands",
+      "Marine"
+    ],
+    "baa_atoll": [
+      "UNESCO",
+      "Manta Rays",
+      "Remote",
+      "Pristine"
+    ],
+    "local_islands": [
+      "Authentic",
+      "Budget",
+      "Cultural",
+      "Honest"
+    ],
+    "outer_atolls_liveaboard": [
+      "Remote",
+      "Untouched",
+      "Serious Diving",
+      "Isolated"
+    ]
   },
-
   "residentSunday": "A Maldives resort worker with one free Sunday (rare): 5am walk to the beach before any guest wakes — the lagoon at first light, the water completely still, the reef visible below. Snorkel alone for 45 minutes. 8am breakfast of mas huni at the staff canteen — the real Maldivian breakfast. 10am take the speedboat to the nearest inhabited island for a visit. Tea at a teahouse, walk the village, talk to the fishermen about the morning catch. Return by 2pm. Afternoon: sleep, because the heat at 2pm in the Maldives is non-negotiable. 5pm on the sandbank alone — watch the sunset over the Indian Ocean with no other person. This is what the people who built the experience actually live.",
-
   "dayMemoryTargets": {
     "arrival": "The seaplane transfer — the view of the atolls from 500 metres, the ring-shaped reefs and turquoise lagoons below, the Indian Ocean stretching to every horizon. Then the specific sensation of stepping onto the wooden jetty and looking down through clear water to coral and fish at 2 metres depth. The memory is the gap between knowing the Maldives exists and understanding what existing here actually means.",
     "peak": "The sandbank moment — standing on 50cm of sand in the middle of the Indian Ocean with warm water to every horizon and no other sound except the sea. The specific quality of silence available only here. Or the bioluminescence at midnight — stepping into water that lights with every movement, blue light from every footstep. The memory is the encounter with something that cannot be photographed accurately.",
     "departure": "The last morning snorkel at 6am alone — the fish at their most active, the light through the water at the exact angle that makes colour saturate, the coral below undisturbed. Then the seaplane lifting off and the atoll visible below getting smaller. The memory is the specific feeling of leaving a place that exists in no other form anywhere on earth."
   },
-
   "tripLengthGuide": {
     "two_days": {
-      "must_include": ["House reef snorkelling at 6am", "Sandbank sunset"],
-      "skip": ["Day trips to other islands", "Multiple water sports"],
+      "must_include": [
+        "House reef snorkelling at 6am",
+        "Sandbank sunset"
+      ],
+      "skip": [
+        "Day trips to other islands",
+        "Multiple water sports"
+      ],
       "note": "Two days in the Maldives is enough to understand what makes it singular. House reef and sandbank — nothing else is necessary."
     },
     "three_to_four_days": {
-      "must_include": ["House reef morning", "Sandbank sunset", "Dolphin watching cruise", "Night bioluminescence swim (if available)"],
+      "must_include": [
+        "House reef morning",
+        "Sandbank sunset",
+        "Dolphin watching cruise",
+        "Night bioluminescence swim (if available)"
+      ],
       "skip": [],
       "note": "Three to four days is the correct Maldives trip length. Enough to decompress, snorkel daily, and have the sandbank moment."
     },
     "five_to_six_days": {
-      "must_include": ["All above", "Whale shark snorkelling (South Ari Atoll)", "Local island visit for genuine Maldivian culture", "Sunset fishing trip"],
+      "must_include": [
+        "All above",
+        "Whale shark snorkelling (South Ari Atoll)",
+        "Local island visit for genuine Maldivian culture",
+        "Sunset fishing trip"
+      ],
       "skip": [],
       "note": "Now the marine life depth of the Maldives becomes accessible. The whale shark is the defining addition at this length."
     },
     "seven_plus_days": {
-      "must_include": ["All above", "Manta ray snorkelling (Baa Atoll if in season)", "Scuba diving open water course if not yet certified"],
+      "must_include": [
+        "All above",
+        "Manta ray snorkelling (Baa Atoll if in season)",
+        "Scuba diving open water course if not yet certified"
+      ],
       "skip": [],
       "note": "At 7+ days a liveaboard becomes a viable alternative. The outer atolls accessible only by liveaboard contain the most pristine marine life in the Indian Ocean."
     }
   },
-
   "antiPatterns": [
     "Seaplane transfer arrival after 3pm — seaplanes only operate in daylight. A late arrival means an overnight in Malé and the seaplane next morning. Always book flights arriving before 2pm.",
     "Booking a resort without verifying the house reef quality — some resorts have no snorkelling directly from the shore. This eliminates the most accessible daily activity.",
     "Multiple water sports on the same day — kitesurfing AND diving AND a dolphin cruise produces exhaustion in a destination specifically designed for the opposite.",
     "Sandbank visit at midday — the correct time is sunset. Midday on a sandbank in the Maldives is extremely hot with no shade. The sandbank at sunset is the experience.",
     "Local island day trip without checking dress code — inhabited islands require covered knees and shoulders outside beach areas. Arriving in swimwear creates discomfort for everyone."
-  ]
+  ],
+  "meta": {
+    "_schemaVersion": "3.0",
+    "lastUpdated": "2026-06",
+    "lastVerified": "2026-06",
+    "nextReviewDue": "2026-12",
+    "dataQualityScore": 9.3
+  },
+  "geography": {
+    "mapCenter": {
+      "lat": 3.2028,
+      "lng": 73.2207
+    },
+    "googleMapsUrl": "https://maps.google.com/?q=Maldives",
+    "timezone": "MVT UTC+5"
+  },
+  "languageIntelligence": {
+    "officialLanguage": "Dhivehi",
+    "workingLanguage": "English — universally spoken in resort environments",
+    "usefulPhrases": {
+      "thank_you": "Shukuriyyaa",
+      "hello": "Assalaamu alaikum"
+    },
+    "indianLanguageSupport": "Hindi understood in Male and some resort staff areas — significant Indian expat community in Maldivian hospitality."
+  },
+  "safetyIntelligence": {
+    "overallRating": "Very safe for tourists",
+    "safetyScore": 8.5,
+    "safeAtNight": true,
+    "soloFemaleRating": "Safe on resort islands — exercise modesty on local islands",
+    "marineWarning": "Rip currents at some beaches. Follow resort safety flags. Reef cuts can become infected — treat immediately.",
+    "emergencyProtocol": "Police: 119. Ambulance: 102. Coast Guard: 191."
+  },
+  "healthIntelligence": {
+    "vaccinesRecommended": [
+      "Hepatitis A",
+      "Typhoid"
+    ],
+    "waterSafety": "Resorts: filtered drinking water provided. Local islands: bottled water only.",
+    "sunProtection": "Intense equatorial sun — SPF 50+ essential. Reef-safe sunscreen preferred.",
+    "travelInsuranceNote": "MANDATORY. Hospitals require payment guarantee. Medical evacuation by seaplane costs USD 5,000-15,000 without insurance."
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "3.5-4 hours direct",
+        "airlines": [
+          "IndiGo",
+          "Air India",
+          "SriLankan via Colombo"
+        ],
+        "priceRange": "INR 22,000-55,000 return"
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3.5 hours direct",
+        "priceRange": "INR 20,000-50,000"
+      }
+    },
+    "airportToResort": {
+      "seaplane": "Trans Maldivian Airways USD 200-450 per person each way. DAYLIGHT ONLY. Book through resort.",
+      "speedboat": "USD 30-100 each way. 20-90 minutes.",
+      "criticalNote": "SEAPLANES DAYLIGHT ONLY. If arriving after 3pm — need Male city hotel for one night before seaplane next morning."
+    }
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Local inhabited islands from your resort",
+      "travelTime": "30-60 mins speedboat",
+      "cost": "USD 30-60 return",
+      "whyCombine": "Genuine Maldivian culture, local food at USD 2-8, the real country behind the resort industry.",
+      "suggestIf": "Always recommend for 3+ night stays"
+    },
+    {
+      "city": "Outer atolls by liveaboard",
+      "travelTime": "4-8 hours from Male",
+      "cost": "USD 1,500-3,000 per person 7 nights",
+      "whyCombine": "Most pristine reef in the Indian Ocean.",
+      "suggestIf": "Serious divers on 7+ day trips"
+    }
+  ],
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 — wet season. Occasional rain. 40-50% lower resort prices vs Dec-Apr. Same marine life. Manta rays at Hanifaru Bay in season (June-November). Excellent value.",
+    "currentAlerts": [],
+    "entryRequirements": "Indians: visa-free 30 days on arrival at Velana International Airport. No application needed.",
+    "indianAdvisoryNote": "Check mea.gov.in for current Maldives advisory."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "House reef snorkel (6am alone)",
+        "Breakfast on villa deck",
+        "Sandbank afternoon"
+      ],
+      "emotionalArc": "The ocean at its most alive → the morning at its most peaceful → the Indian Ocean at sunset. Perfect day arc.",
+      "bestFor": [
+        "honeymoon",
+        "solo",
+        "recovering"
+      ]
+    },
+    {
+      "sequence": [
+        "Sunrise dhow cruise (5:30am)",
+        "Morning rest",
+        "Whale shark snorkel (afternoon)"
+      ],
+      "emotionalArc": "Wonder at dawn → recovery → the most extraordinary wildlife encounter. The Maldives most intense experiences in correct sequence.",
+      "bestFor": [
+        "adventure",
+        "couple",
+        "photographer"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Sandbank at dawn before any other guests",
+        "what": "Empty white sand, turquoise water, Indian Ocean sunrise",
+        "bestTime": "5:30-7:00am — before the standard sandbank tours"
+      },
+      {
+        "name": "Bioluminescent beach at midnight",
+        "what": "Blue light with every footstep in shallow water",
+        "bestTime": "After 11pm, no moon, specific beaches only"
+      },
+      {
+        "name": "House reef at 6am from underwater",
+        "what": "Light through water at the angle that makes colour saturate",
+        "bestTime": "6:00-8:00am"
+      }
+    ],
+    "underwaterNote": "Underwater photography requires either a dedicated underwater camera or waterproof housing. The GoPro is the minimum standard. The colours available at 2-5 metre depth in the Maldives justify a proper setup.",
+    "tip": "The bioluminescence photographs you have seen are all real but none of them are accurate. The experience is far better than any photograph of it."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Resort dependent — some excellent, some poor",
+    "metroAccessibility": "No public transport. Resort boats may have steps.",
+    "note": "Always verify specific resort accessibility before booking. Some overwater villas have steep steps.",
+    "seniorFriendlyScore": 6.5
+  }
 }
