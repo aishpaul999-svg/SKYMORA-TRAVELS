@@ -802,5 +802,72 @@
     "The Dubai Police app can pay traffic fines incurred during a rental — saving the rental company's AED 50–150 processing fee.",
     "Indian films screen at Vox and Reel Cinemas within 1–2 weeks of Indian release. Check BookMyShow Middle East before travel.",
     "Gold Souk at Thursday evening 7–9pm — fully lit, lanes bustling, gold cases illuminated, Arabic music from shopkeeper radios. One of the genuinely beautiful things in Dubai that costs nothing."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the towers. They stay for the Gold Souk at 9:30am on a quiet Tuesday when the shopkeeper explains the difference between his saffron and the supermarket version. They return for the desert at dawn — no other tourists, no sound except the wind, the dunes turning orange-red as the sun comes up. Dubai is a city that gives you what you came for, then slowly reveals what you actually needed.",
+
+  "localTruths": [
+    "Most visitors think Dubai is modern. The Creek that divides Deira from Bur Dubai has been a trading waterway for 4,000 years. The modernity is 40 years old. The city beneath it is ancient.",
+    "Most visitors think Dubai is luxury. The workers who built every tower eat at Ravi Restaurant for AED 20. Both versions of Dubai are real and exist 10 minutes apart.",
+    "Most visitors think Dubai is finished. Dubai has never been finished. There is always a new island, a new record, a new tower under construction. The ambition is the culture."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "21grams in Jumeirah 2 — the breakfast Dubai's working chefs choose for themselves on their day off. Eggs Benedict, cold brew, no one else in the room at 8am on a Tuesday.",
+    "sunset": "Souk Al Bahar bridge, 6pm — the Burj Khalifa directly behind the fountain, the water rising simultaneously with the last light. Stand there 15 minutes before the first evening show.",
+    "neighbourhood": "Deira at 9:30am on a weekday — the Gold Souk alley with fewer than ten people in it, the spice souk shopkeeper explaining his trade, the AED 1 abra crossing to Bur Dubai.",
+    "meal": "Bu Qtair fish shed at Jumeirah Fishing Harbour — a shed, plastic tables, cash only, no sign. The fried hammour is what every Dubai expat describes to visitors but most tourists never find.",
+    "memory": "The first abra crossing at dawn. Cargo dhows moving on the Creek, the call to prayer from both banks simultaneously, the wooden boat rocking slightly, the city in its most honest form.",
+    "secret": "The desert at 5:30am with Platinum Heritage — private camp, just you, the silence absolute, the dunes turning every shade of gold as the sun rises. The version of Dubai that doesn't exist in any photograph because the people experiencing it are not photographing it."
+  },
+
+  "neighborhoodPersonalities": {
+    "downtown": ["Ambitious", "Photogenic", "Touristy", "Efficient"],
+    "dubai_marina_jbr": ["Social", "Beach", "International", "Young"],
+    "deira": ["Authentic", "Chaotic", "Honest", "Old"],
+    "bur_dubai": ["Heritage", "Indian", "Quiet", "Cultural"],
+    "difc": ["Business", "Sophisticated", "Art", "Expensive"],
+    "jumeirah": ["Expat", "Comfortable", "Residential", "Independent"],
+    "palm_jumeirah": ["Luxury", "Resort", "Photographed", "Isolated"],
+    "business_bay_d3": ["Creative", "Emerging", "Canal", "Undervisited"]
+  },
+
+  "residentSunday": "A Dubai resident with one free Sunday: 7am wake up, walk to the Creek before the heat. Take the abra for AED 1 to Bur Dubai. Walk Al Fahidi neighbourhood — the XVA courtyard for coffee, the wind-tower lanes while they are still quiet. 11am drive to Leila Restaurant in Alserkal Avenue — the Thursday galleries are worth browsing before lunch. Afternoon: pool at home or a beach club that isn't busy on Sunday. 7pm: the Fountain show from Souk Al Bahar bridge. 9pm: dinner at a neighbourhood restaurant in Jumeirah that doesn't appear in any tourist guide. This is the Dubai that residents describe when asked where they actually go.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first time the traveller steps outside the air-conditioned airport and understands where they are — the heat, the scale, the strangeness. Then the first moment of the city that contradicts the expectation: the creek at dusk instead of a tower, a spice souk instead of a mall. The memory is the gap between what they expected and what they found.",
+    "peak": "The moment the desert becomes real — not the sand, but the silence. The 5:30am when the dunes are turning orange-red and there are no other vehicles and no other sound. Or the fountain from the bridge at the exact moment the Burj Khalifa lights simultaneously. The memory is the moment something genuinely extraordinary happened.",
+    "departure": "The last walk in Deira before the airport. Not a tourist — a person who has been here and knows where things are and what they cost. The Gold Souk at 9:30am one final time. The AED 1 abra crossing. The specific quality of morning light on the Creek. The memory is the gap between who arrived and who is leaving."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Deira morning at 9:30am (Gold Souk, Spice Souk, Abra)", "Dubai Fountain from Souk Al Bahar bridge at night"],
+      "skip": ["Burj Khalifa (save for a longer trip)", "Desert safari (too rushed)", "Day trips"],
+      "note": "Two days in Dubai should feel like two deep experiences, not ten shallow ones. Deira morning is non-negotiable — it is the honest soul of the city. The Fountain at night is non-negotiable — it is the spectacular face. Everything else is secondary."
+    },
+    "three_to_four_days": {
+      "must_include": ["Deira morning", "Burj Khalifa At The Top (8:30am)", "Dubai Fountain", "Al Fahidi Historical Neighbourhood", "One exceptional dinner from the knowledge file"],
+      "skip": ["Day trips to Abu Dhabi or East Coast", "More than one beach club"],
+      "note": "Three to four days is the correct Dubai trip length for a first visit. Enough to see the city properly without rushing it."
+    },
+    "five_to_six_days": {
+      "must_include": ["All 3-4 day essentials", "Alserkal Avenue (Thursday evening)", "Abu Dhabi day trip OR East Coast day trip", "Desert sunset or overnight camp"],
+      "skip": ["Trying to do both Abu Dhabi AND East Coast"],
+      "note": "Now depth is possible. The second half of the trip should feel completely different from the first — old Dubai vs new Dubai, desert vs coast."
+    },
+    "seven_plus_days": {
+      "must_include": ["All 5-6 day content", "Hatta mountain day", "Bu Qtair fish shed", "Dubai Water Canal walk at night"],
+      "skip": ["Nothing — at 7 days the traveller has time for everything"],
+      "note": "At 7+ days the traveller can understand Dubai as a city, not just as a destination. The goal is for them to leave having found the Dubai that residents protect."
+    }
+  },
+
+  "antiPatterns": [
+    "Burj Khalifa AND Dubai Aquarium on the same afternoon — both are indoor, both require queuing, no contrast, physical and sensory overload",
+    "Dubai Mall as primary activity AND Souk Al Bahar as secondary — these are 200m apart and feel identical. Choose one or the other, not both in the same day",
+    "Desert safari departure at 3pm AND a fine dining reservation before 9pm — the desert safari returns 9:30-10pm. Never book a restaurant for the evening of a desert safari unless it's after 10pm",
+    "Gold Souk AND Spice Souk on a Friday afternoon — the souk at peak crowd on the wrong day. Both are better before 11am on a weekday. Friday afternoon is the worst possible time.",
+    "Atlantis Aquaventure AND a cultural day in the same day — Aquaventure is a full day activity. Combining it with temples or old Dubai creates a day that does neither properly"
   ]
 }

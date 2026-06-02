@@ -711,5 +711,71 @@
     "The Raffles Hotel Long Bar has watered-down Singapore Slings sold to tourists for SGD 38. The original recipe at the Raffles Hotel Courtyard bar is SGD 28 and significantly better.",
     "Singapore hawker centres are classified by the National Environment Agency — Grade A (very clean), Grade B (clean), Grade C (adequate). Only eat from Grade A or Grade B stalls.",
     "The entire island of Singapore is 50km from east to west. You can travel from Changi Airport to Jurong in 1 hour by MRT for SGD 2.80."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the efficiency. They stay for the food — specifically for the moment they eat Tian Tian chicken rice at Maxwell at 11:30am for SGD 5 and understand why Anthony Bourdain called it the most perfect food in the world. They return for the people behind the efficiency — the hawker stall owner who has been making the same dish for 40 years and will tell you exactly why his version is different, the wet market vendor who has sold to the same families for three generations, the neighbourhood that exists inside the gleaming city like a secret that was never hidden.",
+
+  "localTruths": [
+    "Most visitors think Singapore is modern. Locals think Singapore is neighbourhoods — Tiong Bahru's Art Deco estates, Kampong Glam's Sultan Mosque lit at night, Pulau Ubin where time stopped in 1985. The modernity is the surface. The neighbourhoods are the soul.",
+    "Most visitors think Singapore is expensive. A Tian Tian chicken rice at Maxwell costs SGD 5. A roti prata at Tekka Centre costs SGD 1.20. The finest food in Singapore exists at hawker centre prices. The city is expensive for accommodation. It is not expensive for the thing that matters most.",
+    "Most visitors think Singapore is efficient because of rules. Singaporeans are orderly because of values — the multiracial social contract that emerged from a genuinely precarious independence in 1965 and has held for 60 years. The cleanliness and the queue discipline are not fear of fines. They are community in practice."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Tian Tian chicken rice at Maxwell Food Centre at 11:30am — SGD 5, poached at exactly 70°C, rice cooked in chicken fat and pandan leaf, chilli made fresh that morning. The most argued-about dish in Singapore. The argument is correct.",
+    "sunset": "Gardens by the Bay Supertree Grove at 7:30pm — free, outside, the Garden Rhapsody light show at 7:45pm. Stand in the garden, not on a viewing platform. The scale of the supertrees becomes apparent only at ground level.",
+    "neighbourhood": "Tiong Bahru at 8am — the wet market, BooksActually opening at 11am, Tiong Bahru Bakery's kouign-amann, the 1930s Art Deco estates in a style that exists nowhere else in Asia. The neighbourhood most Singaporeans are proud of.",
+    "meal": "Lau Pa Sat satay street at 9pm — when the road closes and the grill stalls emerge, smoke filling the Victorian market hall, bankers from the CBD 50 metres away arguing about which stall is best. SGD 12 for the most social meal in Singapore.",
+    "memory": "Pulau Ubin by bicycle on a Tuesday morning — ferry SGD 4, bicycle hire SGD 10, rubber plantations, wild boar, old Chinese farmhouses, the air genuinely different from the city. The Singapore that existed before anyone planned anything.",
+    "secret": "Bussorah Street on a Friday evening after Maghrib prayers — the road closed, the Sultan Mosque lit against the dark sky, cafés putting tables outside, the neighbourhood gathering. The most atmospheric street in Singapore and almost nobody outside of Kampong Glam ever finds it."
+  },
+
+  "neighborhoodPersonalities": {
+    "marina_bay": ["Iconic", "Photogenic", "Engineered", "Spectacular"],
+    "chinatown": ["Heritage", "Contrast", "Hawker", "Layered"],
+    "little_india": ["Sensory", "Familiar", "Colour", "Community"],
+    "tiong_bahru": ["Design", "Local", "Heritage", "Discovery"],
+    "kampong_glam": ["Malay", "Arab", "Atmospheric", "Friday"],
+    "tanjong_pagar": ["Cocktail", "Dining", "Shophouse", "Sophisticated"],
+    "pulau_ubin": ["Timeless", "Wild", "Kampong", "Forgotten"]
+  },
+
+  "residentSunday": "A Singapore resident with one free Sunday: 7am Tiong Bahru wet market — the fishmonger, the vegetable sellers, the cooked food stalls that have been in the same spots for 40 years. Buy provisions. Breakfast at Tiong Bahru Bakery. 9am walk the Art Deco estate streets before the Sunday brunch crowd arrives. 11am ferry to Pulau Ubin — bicycle hire SGD 10, ride to Chek Jawa, lunch at a village warung. Back by 4pm. 6pm Kampong Glam — Bussorah Street when the road closes after Maghrib prayers, the Sultan Mosque lit, cafés outside. 8pm satay at Lau Pa Sat. This is the Singapore that residents describe when asked what they love about living here.",
+
+  "dayMemoryTargets": {
+    "arrival": "The MRT from Changi Airport — the efficiency, the cleanliness, the precision. The contrast when they step out into Little India or Chinatown and Singapore suddenly looks nothing like the airport. The moment the traveller realises Singapore is not one city but many cities occupying the same island simultaneously. The memory is the dissonance and the delight.",
+    "peak": "Tian Tian chicken rice at Maxwell at 11:30am for SGD 5 — the specific moment of understanding why this dish, at this price, is considered the most perfect food in the world by people who know. OR the Supertree Garden Rhapsody at 7:45pm from ground level — the scale only apparent when standing underneath. The memory is the moment Singapore stopped being a layover and started being a destination.",
+    "departure": "The last hawker centre meal. The last MRT journey. The specific combination of heat and air conditioning and efficiency and diversity that is uniquely Singapore. The memory is the realisation that Singapore is the most functional city they have ever visited — and that functionality, done at this level, is a form of beauty."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Maxwell hawker centre Tian Tian chicken rice", "Gardens by the Bay Supertree show (evening, free)", "Tiong Bahru OR Little India walk"],
+      "skip": ["Sentosa", "Universal Studios", "Night Safari"],
+      "note": "Two days in Singapore should be food and neighbourhood. Not attractions. The food alone justifies Singapore."
+    },
+    "three_to_four_days": {
+      "must_include": ["Hawker food daily", "Gardens by the Bay", "Tiong Bahru morning", "Kampong Glam evening", "Night Safari"],
+      "skip": ["Universal Studios unless family travel"],
+      "note": "Three to four days allows Singapore's neighbourhood diversity to emerge. Each day should feel like a different country."
+    },
+    "five_to_six_days": {
+      "must_include": ["All 3-4 day essentials", "Pulau Ubin full day", "Flushing equivalent — Old Airport Road Food Centre", "Gillman Barracks art galleries"],
+      "skip": [],
+      "note": "Now the hidden Singapore becomes accessible. Pulau Ubin is the most important addition at this length."
+    },
+    "seven_plus_days": {
+      "must_include": ["All above", "Johor Bahru day trip", "Batam or Bintan island", "Henderson Waves at dawn"],
+      "skip": [],
+      "note": "At 7+ days Singapore becomes a base for the region. The city itself is small enough to understand fully in 4-5 days — the additional days go outward."
+    }
+  },
+
+  "antiPatterns": [
+    "Sentosa AND Tiong Bahru on the same day — these represent the two most opposite versions of Singapore and neither deserves the rushed half-day the combination produces.",
+    "Night Safari AND an early morning hawker market the next day — Night Safari ends at 11pm minimum. A 7am market visit requires sacrifice that affects both experiences.",
+    "Universal Studios AND a cultural day combined — Universal Studios is a full-day commitment. Cultural Singapore requires a different mental state entirely.",
+    "Orchard Road shopping AND hawker culture on the same afternoon — Orchard Road erases everything that makes Singapore interesting. Keep them separate.",
+    "Gardens by the Bay during the day in peak heat AND the Supertree show the same evening — the afternoon will exhaust the traveller. Visit briefly in the day and return specifically for the 7:45pm show on a separate evening if possible."
   ]
 }

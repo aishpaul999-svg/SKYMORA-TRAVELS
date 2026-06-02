@@ -683,5 +683,71 @@
     "Japanese people queue for things they care about. If you see a long queue outside a restaurant at 11am, it is because the food is genuinely extraordinary. Queuing is a form of curation in Japan.",
     "Japan has some of the lowest violent crime rates in the world. Items left unattended on trains and in restaurants are almost always still there when you return. The social contract in Japan is real.",
     "Sumo stable morning training (keiko) is available for visitors by prior arrangement — email the stable. Arashio stable (Nihonbashi area) is the most accessible. Free. One of the most extraordinary things to observe in Japan."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the technology and the organisation. They stay for the food — specifically for the moment they eat something extraordinary from a basement counter in an unmarked building, prepared by someone who has done exactly this for 40 years and intends to do it for 40 more. They return for the silence. Not the silence of emptiness but the silence of a city of 14 million people that has decided, collectively, that courtesy is more important than noise. Tokyo is the only city in the world where nothing goes wrong. That is not a small thing.",
+
+  "localTruths": [
+    "Most visitors think Tokyo is futuristic. The ramen shop in Shinjuku has been making the same broth for 60 years. The sword-polisher in Yanaka learned his craft from his grandfather. The temple in Asakusa was founded in 628 AD. Tokyo carries its past more carefully than any other city on earth.",
+    "Most visitors think Japan is impersonal. The waiter who did not come to your table for 10 minutes was waiting for you to be ready to order. The shop assistant who did not speak to you was respecting your space. The conductor who bowed to the empty train was honouring his craft. Every apparent coldness is a form of consideration.",
+    "Most visitors think Tokyo is exhausting. Tokyo is the only major city in the world where the trains run on time, the streets are clean, the food is extraordinary at every price point, and strangers will walk you to your destination rather than point. The exhaustion belongs to the visitor who tries to do too much. The city itself is impeccably managed."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Standing sushi counter at Tsukiji outer market at 7am — five pieces of tuna, salmon, and sea urchin pressed by hand, eaten standing up while the chef slices the next piece. JPY 2,500. The best breakfast in Tokyo. The entire transaction takes 10 minutes.",
+    "sunset": "Nakameguro canal in late March — cherry petals falling into the dark water, lanterns lit above the canal, the whole neighbourhood emerging at dusk. If the timing is wrong: the canal at any dusk with the coffee shops lit and the independent boutiques open.",
+    "neighbourhood": "Yanaka on a weekday morning — the only major neighbourhood that survived both the 1923 earthquake and the 1945 bombing. Wooden temple gates, the cemetery walk, the Yanaka Ginza shopping street with 60-year-old shops, cats that belong to the neighbourhood.",
+    "meal": "Memory Lane (Omoide Yokocho) in the rain at 9pm — a narrow alley of 20 yakitori stalls under the train tracks in Shinjuku, the smoke from the grills filling the alley, the seats so close you share a table with strangers, JPY 150 per skewer of chicken heart or thigh or liver.",
+    "memory": "Senso-ji Temple at 6am — the monks chanting sutras, the incense smoke rising straight in the still air, the five-storey pagoda lit by the first light, the entire Nakamise shopping street empty. The temple as a working spiritual site rather than a tourist attraction. These are not the same place.",
+    "secret": "Golden Gai in Shinjuku on a Thursday evening — 200 bars in 6 narrow alleyways, each fitting 5-8 people, some members-only, some open to anyone. The most intimate bar experience available in any city in the world. The musicians, writers, and photographers who drink here are not performing. They simply gathered here and kept gathering."
+  },
+
+  "neighborhoodPersonalities": {
+    "asakusa": ["Historical", "Traditional", "Photogenic", "Tourist"],
+    "shinjuku": ["Everything", "Intense", "Layered", "24 Hours"],
+    "shibuya_harajuku": ["Youth", "Fashion", "Energy", "Famous"],
+    "yanaka": ["Old Tokyo", "Quiet", "Preserved", "Cats"],
+    "shimokitazawa": ["Music", "Vintage", "Bohemian", "Creative"],
+    "nakameguro": ["Design", "Café", "Canal", "Intimate"],
+    "roppongi": ["International", "Art", "Nightlife", "Expat"]
+  },
+
+  "residentSunday": "A Tokyo resident with one free Sunday: 6am Senso-ji before the tourists arrive — the monks, the incense, the complete quiet of the temple working. 8am breakfast at a depachika (department store basement) — the prepared food section of Isetan Shinjuku, the wagashi sweets, the tamagoyaki. 10am Yanaka neighbourhood walk — the cemetery, the shotengai, the cats. Lunch at a neighbourhood soba shop with no English menu. Afternoon: Nakameguro canal walk and one café with good beans and a counter facing the water. 6pm the vinyl record shops in Shimokitazawa — no agenda, just looking. 8pm Memory Lane in Shinjuku for yakitori and beer. This is the Sunday Tokyo residents describe when asked why they chose this city.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first convenience store meal at 11pm after checking in — the egg salad sandwich that is inexplicably perfect, the onigiri with salmon, the canned coffee. The moment the traveller understands that Japan's entire culture — the precision, the craft, the care — is expressed even in the things that should be ordinary. The memory is the first evidence that Tokyo operates at a standard that has no equivalent.",
+    "peak": "The Tsukiji outer market at 5:30am — the smell of fresh tuna, the chefs shopping for the day, the standing sushi counter where a meal pressed by a master chef costs JPY 2,500 and is eaten in 10 minutes on the street. OR the Senso-ji at 6am when the monks are chanting and no tourist has arrived yet. The memory is the specific Tokyo moment that cannot be recreated anywhere else on earth.",
+    "departure": "The last convenience store. The last ramen. The last Yamanote Line loop around the city. The specific Tokyo silence — the absence of car horns, the absence of shouting, the 14 million people moving with collective consideration. The memory is the realisation that Tokyo is the city that made the traveller believe that the world could be organised better than they thought it was."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Senso-ji at 6am", "Tsukiji outer market morning", "Shibuya Crossing evening rush"],
+      "skip": ["Day trips", "Teamlab (too long a queue for 2 days)", "Multiple museum districts"],
+      "note": "Two days in Tokyo: temple at dawn, market at morning, crossing at dusk. Three experiences done with full attention."
+    },
+    "three_to_four_days": {
+      "must_include": ["Senso-ji morning", "Tsukiji market", "Shibuya Crossing", "Yanaka neighbourhood walk", "Memory Lane yakitori evening", "One depachika visit"],
+      "skip": ["Day trips to Nikko or Kamakura"],
+      "note": "Three to four days reveals the layering of Tokyo — ancient temple, fishing market, neighbourhood, street food. The essential first Tokyo trip."
+    },
+    "five_to_six_days": {
+      "must_include": ["All above", "Kamakura day trip", "Shimokitazawa vinyl afternoon", "Nakameguro canal", "Teamlab"],
+      "skip": [],
+      "note": "Day trips become viable. Kamakura (1 hour south) gives essential historical context for the modern city."
+    },
+    "seven_plus_days": {
+      "must_include": ["All above", "Nikko day trip", "Hakone (Mount Fuji view, overnight)", "Shinjuku Gyoen cherry blossom OR autumn leaves"],
+      "skip": [],
+      "note": "At 7+ days Tokyo becomes a base for Japan. The traveller can begin to understand what the city is reacting against — the mountains, the ancient capitals, the sea."
+    }
+  },
+
+  "antiPatterns": [
+    "Grand Palace equivalent — Meiji Shrine AND Senso-ji on the same morning — each requires a different mental state. Shinto and Buddhist, serene and bustling. One per morning.",
+    "Teamlab AND Tsukiji market on the same day — Teamlab requires 2-3 hours of intense sensory immersion. Combining it with a 5am market visit produces a day that exhausts before noon.",
+    "Tsukiji outer market after 10am — the best stalls sell out by 9am. Arriving at 10am means paying tourist prices for second-best quality. Tsukiji is a dawn activity only.",
+    "Multiple neighbourhood walks on the same day — Yanaka AND Shimokitazawa AND Nakameguro in one day produces exhaustion and blurs all three. Each deserves 2-3 hours of unhurried attention.",
+    "Sumo tournament on a Sunday afternoon without arriving early — the best bouts are 3:30-6pm. Arriving at 2pm gives adequate preparation. Arriving at 4pm means fighting the crowd for the essential hour."
   ]
 }

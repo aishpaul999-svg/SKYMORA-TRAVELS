@@ -476,5 +476,69 @@
     "'All-inclusive' in the Maldives means different things at different resorts. Some include water sports, some exclude diving, some include only food and drink. Read the inclusions carefully before booking.",
     "The best house reefs in the Maldives are on islands with a steep drop-off close to shore — ideally within 50 metres of the beach. Ask specifically: 'How far from the beach does the reef begin and how deep does it go?'",
     "Weather in the Maldives changes within the day. A cloudy morning becomes a perfect afternoon. Plan snorkelling for the best visibility window of the day — usually 7–10am."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the photographs. They stay for the silence — the specific silence of standing on a sandbank in the middle of the Indian Ocean with water in every direction to the horizon and no other sound except the sea. They return because they never found that silence again anywhere. The Maldives is the only destination in the world where the experience cannot be adequately described to someone who has not had it, and where the photographs — however beautiful — consistently fail to capture what actually happened.",
+
+  "localTruths": [
+    "Most visitors think the Maldives is the resort. The island the resort was built on existed before the resort and the Maldivian fishing community that has lived on the adjacent island for centuries still exists 30 minutes away. The resort is a beautiful construction placed on top of something that was already extraordinary.",
+    "Most visitors think the Maldives is photographs. The bioluminescent plankton at night, the whale shark at 6 metres, the sandbank at sunset with the Indian Ocean stretching to the horizon — none of these can be photographed accurately. Every photograph of the Maldives is technically correct and experientially incomplete.",
+    "Most visitors think the Maldives is luxury. The fishing villages on the inhabited islands — Maafushi, Dhigurah, Fulhadhoo — have the same coral reefs, the same warm water, and the same Indian Ocean sunsets as the USD 2,000/night resorts. The luxury is the privacy. The nature belongs to everyone."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Mas huni at a teahouse in Malé at 5:30am — shredded tuna, coconut, onion, and chilli with roshi flatbread, USD 2. The Maldivian breakfast eaten every morning for centuries. No resort serves it properly. The teahouses open before the city wakes.",
+    "sunset": "A sandbank — any sandbank accessible from your resort or guesthouse. 50cm above sea level, white sand, turquoise water in every direction. The boat drops you and leaves. Stand there as the sun goes below the horizon with no land between you and it.",
+    "neighbourhood": "Dhigurah local island — USD 80/night guesthouse, whale shark snorkelling for USD 55, the same Indian Ocean as the USD 2,000 resort on the adjacent island. The Maldives before anyone discovered it needed to be expensive.",
+    "meal": "Grilled fish at a Dhigurah guesthouse — caught that morning by the fishermen you can see from the porch. The freshness is identical to what the luxury resort serves at dinner for USD 90. The cost is USD 10.",
+    "memory": "The first step from the overwater villa deck directly into the Indian Ocean — the specific physical sensation that makes people return to the Maldives. Warm water, coral immediately below, fish already gathering. This cannot be described. It can only be experienced.",
+    "secret": "Snorkelling the house reef alone at 6am — before any other guest wakes, before any organised activity begins. The water is glassy, the light is coming in at the angle that makes colour saturate, the fish are feeding. The Indian Ocean at 6am with no one else in it."
+  },
+
+  "neighborhoodPersonalities": {
+    "north_male_atoll": ["Accessible", "Classic", "Speedboat", "Established"],
+    "south_ari_atoll": ["Whale Sharks", "Diving", "Local Islands", "Marine"],
+    "baa_atoll": ["UNESCO", "Manta Rays", "Remote", "Pristine"],
+    "local_islands": ["Authentic", "Budget", "Cultural", "Honest"],
+    "outer_atolls_liveaboard": ["Remote", "Untouched", "Serious Diving", "Isolated"]
+  },
+
+  "residentSunday": "A Maldives resort worker with one free Sunday (rare): 5am walk to the beach before any guest wakes — the lagoon at first light, the water completely still, the reef visible below. Snorkel alone for 45 minutes. 8am breakfast of mas huni at the staff canteen — the real Maldivian breakfast. 10am take the speedboat to the nearest inhabited island for a visit. Tea at a teahouse, walk the village, talk to the fishermen about the morning catch. Return by 2pm. Afternoon: sleep, because the heat at 2pm in the Maldives is non-negotiable. 5pm on the sandbank alone — watch the sunset over the Indian Ocean with no other person. This is what the people who built the experience actually live.",
+
+  "dayMemoryTargets": {
+    "arrival": "The seaplane transfer — the view of the atolls from 500 metres, the ring-shaped reefs and turquoise lagoons below, the Indian Ocean stretching to every horizon. Then the specific sensation of stepping onto the wooden jetty and looking down through clear water to coral and fish at 2 metres depth. The memory is the gap between knowing the Maldives exists and understanding what existing here actually means.",
+    "peak": "The sandbank moment — standing on 50cm of sand in the middle of the Indian Ocean with warm water to every horizon and no other sound except the sea. The specific quality of silence available only here. Or the bioluminescence at midnight — stepping into water that lights with every movement, blue light from every footstep. The memory is the encounter with something that cannot be photographed accurately.",
+    "departure": "The last morning snorkel at 6am alone — the fish at their most active, the light through the water at the exact angle that makes colour saturate, the coral below undisturbed. Then the seaplane lifting off and the atoll visible below getting smaller. The memory is the specific feeling of leaving a place that exists in no other form anywhere on earth."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["House reef snorkelling at 6am", "Sandbank sunset"],
+      "skip": ["Day trips to other islands", "Multiple water sports"],
+      "note": "Two days in the Maldives is enough to understand what makes it singular. House reef and sandbank — nothing else is necessary."
+    },
+    "three_to_four_days": {
+      "must_include": ["House reef morning", "Sandbank sunset", "Dolphin watching cruise", "Night bioluminescence swim (if available)"],
+      "skip": [],
+      "note": "Three to four days is the correct Maldives trip length. Enough to decompress, snorkel daily, and have the sandbank moment."
+    },
+    "five_to_six_days": {
+      "must_include": ["All above", "Whale shark snorkelling (South Ari Atoll)", "Local island visit for genuine Maldivian culture", "Sunset fishing trip"],
+      "skip": [],
+      "note": "Now the marine life depth of the Maldives becomes accessible. The whale shark is the defining addition at this length."
+    },
+    "seven_plus_days": {
+      "must_include": ["All above", "Manta ray snorkelling (Baa Atoll if in season)", "Scuba diving open water course if not yet certified"],
+      "skip": [],
+      "note": "At 7+ days a liveaboard becomes a viable alternative. The outer atolls accessible only by liveaboard contain the most pristine marine life in the Indian Ocean."
+    }
+  },
+
+  "antiPatterns": [
+    "Seaplane transfer arrival after 3pm — seaplanes only operate in daylight. A late arrival means an overnight in Malé and the seaplane next morning. Always book flights arriving before 2pm.",
+    "Booking a resort without verifying the house reef quality — some resorts have no snorkelling directly from the shore. This eliminates the most accessible daily activity.",
+    "Multiple water sports on the same day — kitesurfing AND diving AND a dolphin cruise produces exhaustion in a destination specifically designed for the opposite.",
+    "Sandbank visit at midday — the correct time is sunset. Midday on a sandbank in the Maldives is extremely hot with no shade. The sandbank at sunset is the experience.",
+    "Local island day trip without checking dress code — inhabited islands require covered knees and shoulders outside beach areas. Arriving in swimwear creates discomfort for everyone."
   ]
 }

@@ -169,6 +169,78 @@ export function buildKnowledgeBlock(trip = {}) {
     block += `\nVISA INTELLIGENCE: ${k.visaIntelligence.indianPassport}\n`;
   }
 
+  // 10. WHY PEOPLE FALL IN LOVE — the emotional soul of the destination
+  if (k.whyPeopleFallInLove) {
+    block += `\nWHY PEOPLE FALL IN LOVE WITH THIS DESTINATION:\n${k.whyPeopleFallInLove}\n`;
+    block += `INSTRUCTION: Use this as the emotional undercurrent of the entire itinerary. This is why the traveller will return. Build toward this feeling.\n`;
+  }
+
+  // 14. RESIDENT SUNDAY — how a local actually spends a free day
+  if (k.residentSunday) {
+    block += `\nRESIDENT BEHAVIOUR — HOW A LOCAL SPENDS A FREE SUNDAY:\n${k.residentSunday}\n`;
+    block += `INSTRUCTION: Use this as the template for the best day in the itinerary. This is the day that makes the traveller feel like a resident, not a tourist.\n`;
+  }
+
+  // 15. TRIP LENGTH GUIDE — what to cut/add based on duration
+  const tripDays = trip.tripDays || 3;
+  if (k.tripLengthGuide) {
+    const guide = tripDays <= 2 ? k.tripLengthGuide.two_days :
+                  tripDays <= 4 ? k.tripLengthGuide.three_to_four_days :
+                  tripDays <= 6 ? k.tripLengthGuide.five_to_six_days :
+                  k.tripLengthGuide.seven_plus_days;
+    if (guide) {
+      block += `\nTRIP LENGTH INTELLIGENCE (${tripDays} days):\n`;
+      block += `Must include: ${guide.must_include?.join(', ')}\n`;
+      block += `Skip or cut: ${guide.skip?.join(', ')}\n`;
+      if (guide.note) block += `Note: ${guide.note}\n`;
+    }
+  }
+
+  // 16. ANTI-PATTERNS — combinations that go wrong
+  if (k.antiPatterns?.length) {
+    block += `\nANTI-PATTERNS — NEVER PUT THESE COMBINATIONS IN THE SAME DAY:\n`;
+    k.antiPatterns.forEach(ap => block += `- ${ap}\n`);
+  }
+
+  // 17. DAY MEMORY TARGETS — what the traveller remembers in 5 years
+  // Note: day number is not available here (this runs once per trip at planning stage)
+  // Inject all three memory targets so the planning engine can assign them per day
+  if (k.dayMemoryTargets) {
+    block += `\nDAY MEMORY TARGETS (assign one per day):\n`;
+    if (k.dayMemoryTargets.arrival) block += `- Arrival day memory: ${k.dayMemoryTargets.arrival}\n`;
+    if (k.dayMemoryTargets.peak) block += `- Peak day memory: ${k.dayMemoryTargets.peak}\n`;
+    if (k.dayMemoryTargets.departure) block += `- Departure day memory: ${k.dayMemoryTargets.departure}\n`;
+    block += `INSTRUCTION: Each day must have one specific moment designed to deliver its memory target. Not the attraction — the moment within it.\n`;
+  }
+
+  // 11. LOCAL TRUTHS — contrast lines that make SKYmora sound like an expert
+  if (k.localTruths?.length) {
+    block += `\nLOCAL TRUTHS — use at least one of these contrast lines naturally in the itinerary:\n`;
+    k.localTruths.forEach(t => block += `"${t}"\n`);
+  }
+
+  // 12. IF YOU ONLY HAD ONE CHANCE — forced prioritisation
+  if (k.ifYouOnlyHadOneChance) {
+    const o = k.ifYouOnlyHadOneChance;
+    block += `\nIF THIS TRAVELER ONLY HAD ONE CHANCE:\n`;
+    if (o.breakfast) block += `- One breakfast: ${o.breakfast}\n`;
+    if (o.sunset) block += `- One sunset: ${o.sunset}\n`;
+    if (o.neighbourhood) block += `- One neighbourhood: ${o.neighbourhood}\n`;
+    if (o.meal) block += `- One meal: ${o.meal}\n`;
+    if (o.memory) block += `- One memory: ${o.memory}\n`;
+    if (o.secret) block += `- The secret: ${o.secret}\n`;
+    block += `INSTRUCTION: Weave these into the itinerary as natural peaks, not as a list. Each one should feel earned by the day that leads to it.\n`;
+  }
+
+  // 13. NEIGHBOURHOOD DNA — personality matching
+  if (k.neighborhoodPersonalities) {
+    block += `\nNEIGHBOURHOOD PERSONALITIES (match to traveler type):\n`;
+    Object.entries(k.neighborhoodPersonalities).forEach(([name, tags]) => {
+      block += `- ${name}: ${tags.join(', ')}\n`;
+    });
+    block += `INSTRUCTION: When recommending a neighbourhood, describe its personality using these tags, not just its attractions.\n`;
+  }
+
   block += `\n=== END DESTINATION INTELLIGENCE ===\n`;
 
   return block;

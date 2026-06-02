@@ -732,5 +732,71 @@
     "Versailles closes Monday. Musée d'Orsay closes Monday. Louvre closes Tuesday. Centre Pompidou closes Tuesday. Check before going.",
     "The free views of Paris are better than the paid ones: Parc de Belleville, Sacré-Cœur steps at dawn, Trocadéro for the Eiffel Tower, Institut du Monde Arabe rooftop.",
     "Paris Fashion Week (March and October) fills the city's hotels and raises prices 30–50%. If your dates overlap, book 6–8 weeks ahead."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the landmarks. They stay for the cafés — specifically for the morning they sit at a terrace table at 8am with a café crème, watching the neighbourhood go to work, realising that the most Parisian thing in Paris is not a monument but a Tuesday morning. They return for the daily life — the boulangerie smell from 50 metres, the market at Marché d'Aligre on a Sunday, the canal with iron footbridges and the light through plane trees. Paris gives you the famous things and then slowly reveals that none of them are the reason people come back.",
+
+  "localTruths": [
+    "Most visitors think the Eiffel Tower is Paris. Parisians think their arrondissement is Paris — specifically their street, their boulangerie, their café where the waiter knows their order. The monument is what you see. The neighbourhood is what you feel.",
+    "Most visitors think Paris is romantic. Parisians think Paris is ordinary in the most extraordinary way — the everyday beauty of a city that has been beautiful for so long it no longer notices. The romance is the residue of everyone else noticing what Parisians have stopped seeing.",
+    "Most visitors think Paris is expensive. The baguette is EUR 1.20 by law. The museum is free on the first Sunday. The park is free every day. The canal walk is free every Sunday. The best Paris costs nothing and is available to anyone willing to walk."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Du Pain et des Idées on a weekday at 7am — the best bakery in Paris, the escargot pastry specific to this place unlike anything else, the sourdough made from a 70-year-old starter. Closed weekends. Sells out by 10am.",
+    "sunset": "Trocadéro gardens facing the Eiffel Tower — not from below, not from the tower itself, but from the elevated gardens across the river where you see what it actually is. Arrive 45 minutes before sunset. Return after dark for the sparkle.",
+    "neighbourhood": "Canal Saint-Martin on a Sunday morning — the road closed to cars, the produce market, the iron footbridges, the café terraces. The most genuinely Parisian Sunday morning available to a visitor.",
+    "meal": "Septime on a Tuesday lunch — weekday tasting menu EUR 60, the kitchen visible from every table, the wine list exceptional at every price point. The restaurant that defines contemporary Paris cooking.",
+    "memory": "A café crème at Café de Flore at 8am on a Tuesday when half the tables are empty and the neighbourhood is going to work. Sartre's table. The specific quality of morning light through the windows. The bill: EUR 5.50.",
+    "secret": "Parc de Belleville at dusk — the best free panoramic view of Paris, east to west, from the highest hill in the 20th arrondissement. Almost no tourists ever find it. The view encompasses everything from the Eiffel Tower to Montmartre to the entire Seine valley."
+  },
+
+  "neighborhoodPersonalities": {
+    "le_marais": ["Historic", "Stylish", "LGBTQ", "Jewish"],
+    "montmartre_18th": ["Romantic", "Artistic", "Touristy", "Cobblestone"],
+    "saint_germain_6th": ["Literary", "Expensive", "Café", "Intellectual"],
+    "canal_saint_martin_10th": ["Bohemian", "Young", "Canal", "Authentic"],
+    "11th_bastille": ["Foodie", "Nightlife", "Local", "Evolving"],
+    "belleville_20th": ["Multicultural", "Graffiti", "Cheap", "Real"],
+    "latin_quarter_5th": ["Student", "Bookshop", "Medieval", "University"]
+  },
+
+  "residentSunday": "A Paris resident with one free Sunday: 7am walk to the local boulangerie before the queue forms — croissant, café crème, the newspaper. 9am Canal Saint-Martin when the road is closed to cars and the market is setting up — buy cheese, charcuterie, a half-bottle of Burgundy from the wine merchant. 11am Promenade Plantée — the elevated park, the city below, nobody else. Picnic from the market provisions in the Parc de Bagatelle or Luxembourg Gardens. 3pm Musée d'Orsay if a special exhibition is on — Thursday late opening, no weekend crowd. 6pm walk back through the 11th — one natural wine bar, one conversation that has nowhere to go. This is the Sunday that Parisians describe when they say they love their city.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first café crème at a terrace table on the correct street. The moment the traveller understands that Paris is not about monuments — it is about the quality of ordinary life. The croissant that is genuinely different. The waiter who moves with a specific kind of unhurried efficiency. The memory is the moment the city reveals that it is not performing for tourists — it simply is what it is.",
+    "peak": "The Louvre at 7pm on a Wednesday when the crowd has thinned and the Winged Victory is lit at the end of the Daru staircase — the most dramatic sculpture in the world in a moment of relative quiet. OR Café de Flore at 8am when the neighbourhood goes to work and the literary ghosts are almost tangible. The memory is the specific Paris moment that no photograph captures.",
+    "departure": "The last walk in whatever neighbourhood they chose. The last café crème. The specific Paris light in October, or the specific Paris rain in November, or the specific Paris morning heat in June. The memory is the realisation that Paris has a daily quality — not a collection of monuments — and that quality is what they came for without knowing it."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Eiffel Tower from Trocadéro at sunset", "Louvre (one wing, morning)", "One proper café sit"],
+      "skip": ["Versailles", "Day trips", "Multiple museums in same day"],
+      "note": "Two days in Paris is enough to fall in love with it. It is not enough to understand it. Keep it simple — two or three experiences done completely."
+    },
+    "three_to_four_days": {
+      "must_include": ["Eiffel Tower", "Louvre (Wednesday/Friday evening)", "Montmartre morning walk", "Canal Saint-Martin Sunday OR Marché d'Aligre", "One proper meal at a bistro"],
+      "skip": ["Versailles unless it's the only priority"],
+      "note": "Three to four days is the ideal first Paris trip. Enough for the landmarks and the first neighbourhood discovery."
+    },
+    "five_to_six_days": {
+      "must_include": ["All 3-4 day essentials", "Versailles (Tuesday)", "Père Lachaise", "Musée d'Orsay", "One neighbourhood dinner in the 11th"],
+      "skip": [],
+      "note": "Now the neighbourhood character of Paris can be properly experienced alongside the monuments."
+    },
+    "seven_plus_days": {
+      "must_include": ["All above", "Reims day trip (champagne caves)", "Columbia Road equivalent — Marché aux Puces de Saint-Ouen Saturday", "Musée Rodin garden"],
+      "skip": [],
+      "note": "At 7+ days Paris becomes a city to live in briefly rather than visit. The goal is to find one neighbourhood that feels like the traveller's own."
+    }
+  },
+
+  "antiPatterns": [
+    "Louvre AND Musée d'Orsay on the same day — each requires 3-4 hours minimum. Combining them produces exhaustion and neither is seen properly.",
+    "Versailles AND a Paris museum on the same day — Versailles is a full day. Trying to add the Louvre before or after produces the worst version of both.",
+    "Montmartre at noon on a weekend — by noon the tourist crowd makes the neighbourhood unrecognisable. Montmartre is a morning experience only.",
+    "Dinner at a restaurant within 500m of the Eiffel Tower — the prices are triple for inferior food. No exception to this rule exists.",
+    "Canal Saint-Martin on a Monday — the market doesn't run on Mondays and the Sunday-specific magic of the road closure doesn't apply. Canal Saint-Martin is specifically a Sunday morning destination."
   ]
 }

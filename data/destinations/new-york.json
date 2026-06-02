@@ -691,5 +691,71 @@
     "The city that never sleeps: New York's subway runs 24 hours. The bars close at 4am (later than almost any other US city). Food is available at any hour in every neighbourhood.",
     "Times Square: worth seeing once for 15 minutes. Never worth eating at, never worth staying near, never worth spending a full evening at.",
     "Jackson Heights in Queens is 30 minutes by subway from Midtown Manhattan and feels like entering a different country. This contrast — available for USD 2.90 — is the most extraordinary thing New York offers Indian visitors."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the skyline. They stay for the food — specifically for the moment they eat something extraordinary from a counter in a basement under a mall in Flushing for USD 6, or a pizza slice standing on the street in Brooklyn for USD 3.50, and understand that New York's greatest gift is the democracy of its pleasures. They return because no other city makes you feel simultaneously anonymous and entirely seen. New York does not require you to be anyone. It also does not stop you from becoming whoever you need to be.",
+
+  "localTruths": [
+    "Most visitors think New York is Times Square. New Yorkers have not been to Times Square voluntarily since approximately 2003. The New York that New Yorkers love is their neighbourhood — the specific block, the coffee shop where the barista knows their order, the park at the end of the street.",
+    "Most visitors think New York is rude. New Yorkers are the most direct people in the world. They will tell you exactly what they think, give you exactly the information you asked for, and move on immediately. This is not rudeness. It is efficiency. It is also, once understood, a profound form of respect.",
+    "Most visitors think New York is expensive. The subway is USD 2.90. The pizza slice is USD 3.50. The Staten Island Ferry gives you the harbour view and the Statue of Liberty for free. Jackson Heights feeds you like a king for USD 12. The expensive New York is the tourist New York. The real New York has always been accessible."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Russ & Daughters on a weekday morning — smoked nova salmon on a bagel with cream cheese, the fish cured to the same recipe since 1914, the counter staff the fourth generation. USD 22 for the specific taste of New York Jewish heritage that no other city can replicate.",
+    "sunset": "Brooklyn Bridge at 5:30am — before any tourist arrives, Lower Manhattan glowing in the early light, the suspension cables converging toward the towers, the East River below. The photograph everyone has taken minus every other person who has taken it.",
+    "neighbourhood": "Jackson Heights on a Sunday afternoon — Roosevelt Avenue and 74th Street for two hours, pani puri USD 3, Bangladeshi biryani USD 10, Tibetan momos USD 7. The most ethnically diverse neighbourhood on earth. The street food prices are what they are in Delhi.",
+    "meal": "Katz's Delicatessen at noon — the pastrami cured for 30 days and steamed for 3 hours, the sandwich the size of a paperback book, the ticket system unchanged since 1888. USD 24. The most New York meal available.",
+    "memory": "The first subway ride at rush hour — the packed car, the specific underground smell, the efficiency of 6 million daily riders all moving simultaneously on a system built in 1904. New York reveals itself in its subway in a way no other city reveals itself in its transport.",
+    "secret": "The Village Vanguard on a Monday evening — the most historic jazz club in the world, the Vanguard Jazz Orchestra since 1966, the basement unchanged since 1935, USD 35. The musicians are at a level of mastery that exists in maybe four rooms in the world. One of them is this basement in the West Village."
+  },
+
+  "neighborhoodPersonalities": {
+    "midtown": ["Efficient", "Tourist", "Corporate", "Impersonal"],
+    "west_village": ["Beautiful", "Cobblestone", "Residential", "Beloved"],
+    "williamsburg": ["Creative", "Foodie", "Brooklyn", "Evolving"],
+    "jackson_heights": ["Diverse", "Immigrant", "World", "Authentic"],
+    "harlem": ["Cultural", "Musical", "Historical", "Transforming"],
+    "lower_east_side": ["Heritage", "Bars", "Jewish", "Night"],
+    "greenpoint": ["Polish", "Gallery", "Quiet", "Undiscovered"]
+  },
+
+  "residentSunday": "A New York resident with one free Sunday: 8am Russ & Daughters for smoked salmon and a bagel — the specific New York breakfast that no other city has. 10am walk across the Brooklyn Bridge to DUMBO — coffee at a café on the waterfront before the tourists arrive. 11am Brooklyn Flea Market if open. 1pm Smorgasburg (April-November) for lunch — SGD equivalent, the ramen burger, the lobster roll. 3pm walk Williamsburg back toward Manhattan on the East River State Park for the skyline view. 5pm back to Manhattan — a late afternoon nap in Central Park on the Great Lawn. 7pm Village Vanguard if it's Monday, otherwise a neighbourhood bar in the West Village. This is the Sunday that New Yorkers describe when asked why they stay.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first subway ride — the specific underground smell, the efficiency, the map that is a lie about geography, the complete absence of eye contact that is not coldness but the social contract of 9 million people in close proximity. Then the first moment above ground when Manhattan reveals itself: a view of the skyline, or the Brooklyn Bridge, or Central Park from a taxi window. The memory is the moment the idea of New York collides with the physical reality of it.",
+    "peak": "The Brooklyn Bridge at 5:30am when no other tourist is present — the suspension cables converging, the lower Manhattan skyline glowing, the East River below. OR the first bite of a pastrami sandwich at Katz's with the memory of the film playing in the background. OR Jackson Heights at noon — pani puri for USD 3 while standing on Roosevelt Avenue and understanding that this city contains the entire world. The memory is the moment New York stopped being a backdrop and became a place.",
+    "departure": "The last subway journey. The last slice of pizza standing at a counter on a street that looks like every film ever set in New York. The specific quality of New York autumn light — amber, low, through the ginkgo trees on any residential street. The memory is the realisation that New York is not one city but the city closest to everyone's idea of what a city should be."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Brooklyn Bridge walk at dawn", "One iconic New York meal (Katz's OR Russ & Daughters)", "Central Park morning"],
+      "skip": ["Statue of Liberty (full half-day)", "Multiple museums"],
+      "note": "Two days in New York: one morning experience, one neighbourhood, one meal. Do not try to cover the city. Cover one version of it well."
+    },
+    "three_to_four_days": {
+      "must_include": ["Brooklyn Bridge", "Central Park", "Metropolitan Museum (one wing)", "High Line", "Jackson Heights OR Smorgasburg", "One show at TKTS price"],
+      "skip": ["Day trips"],
+      "note": "Three to four days is the ideal first New York trip. Enough to understand what makes it unlike anywhere else."
+    },
+    "five_to_six_days": {
+      "must_include": ["All above", "Village Vanguard Monday", "Harlem Sunday gospel and brunch", "Brooklyn Flea and Smorgasburg Saturday"],
+      "skip": [],
+      "note": "Now the neighbourhood character of New York opens up. The traveller can move between Manhattan and Brooklyn and begin to understand the difference."
+    },
+    "seven_plus_days": {
+      "must_include": ["All above", "Citi Bike ride at dawn", "Arthur Avenue The Bronx", "Di Fara Pizza Brooklyn", "Philadelphia or Hudson Valley day trip"],
+      "skip": [],
+      "note": "At 7+ days New York becomes navigable. The goal is to find one neighbourhood that feels like the traveller's own — and to eat every meal as a local would."
+    }
+  },
+
+  "antiPatterns": [
+    "Times Square as a dining destination — no exception to this rule exists. Walk 10 minutes in any direction.",
+    "Metropolitan Museum AND MoMA on the same day — each requires 3-4 hours of genuine attention. Combining them produces the museum equivalent of eating too fast.",
+    "Brooklyn Bridge walk AND the High Line on the same morning — they are in opposite parts of Manhattan. The commute between them takes 45 minutes and turns two good experiences into one rushed one.",
+    "Statue of Liberty AND Ellis Island as a half-day — this is a full day commitment minimum. Book the first ferry and plan nothing else.",
+    "Dinner reservation in the West Village at 7pm AND a Broadway show at 8pm — the West Village at peak dinner hour requires either a very quick meal or a very late theatre arrival. Give dinner 2 hours or book the pre-theatre menu specifically."
   ]
 }

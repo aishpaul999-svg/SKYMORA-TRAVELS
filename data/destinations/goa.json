@@ -741,5 +741,71 @@
     "The Portuguese left Goa in 1961 but their food culture remained. Goa is the only part of India where beef and pork are the prestige meats — the result of 450 years of Catholic Portuguese governance over a Hindu population.",
     "The Goa monsoon closes the beach shacks but opens the waterfalls. Dudhsagar (310m) is accessible October–December. The Western Ghats behind Goa are genuinely extraordinary in the rain.",
     "Goa has the cheapest alcohol in India due to low state excise duty. A bottle of good Indian whisky at a Goa wine shop is INR 300–400 vs INR 700–900 in Delhi or Mumbai."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the beaches. They stay when they find Fontainhas at 6pm — the yellow Portuguese facades in the golden light, a cat asleep on a doorstep, the sound of church bells across the rooftops. They return for the thing they almost missed: the quiet Goa that exists 10 minutes inland from the beach road. The rice field at 7am. The spice plantation at 9am when the only other person there is the farmer's son. The ferry to Divar Island that costs INR 10 and takes you to a place that feels like 1965.",
+
+  "localTruths": [
+    "Most visitors think Goa is beach. Goans think Goa is the village — the paddy fields, the ferry crossings, the afternoon silence, the sound of the sea without seeing it.",
+    "Most visitors think Goa is Portuguese. The Catholic community thinks Goa is still Catholic. The Hindu community thinks Goa was always Hindu. Both are correct and the tension between them is the most interesting thing about the state.",
+    "Most visitors think Goa is crowded. They are correct about December. They are completely wrong about October, when the beaches are clean after the monsoon, the prices are low, and the whole place feels like it belongs to the people who actually live here."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Vinayak Family Restaurant in Assagao at noon — the Goan fish thali for INR 220. The crab masala sells out first. This is the lunch Goa residents eat on Sundays when they want to feel at home.",
+    "sunset": "Chapora Fort battlements at 5:30pm — the Chapora River estuary on one side, the Arabian Sea on the other, Vagator beach below, the light turning everything gold. The Dil Chahta Hai fort. No entry fee.",
+    "neighbourhood": "Fontainhas, Panaji at 6pm — the oldest surviving Latin Quarter in Asia, the yellow and blue Portuguese facades in the evening light, empty of tourists, the saint's shrines at the road junctions original since the 18th century.",
+    "meal": "Ritz Classic in Panaji — where Goa's government officials eat on weekdays. The fish curry rice made with kokum-based curry unlike anything available in Mumbai. The prawn recheado with its three-hour spice paste.",
+    "memory": "The Divar Island ferry at 4pm — INR 10, four minutes across the Mandovi River, arriving on an island with no cars, Portuguese mansions behind jackfruit trees, complete silence, the sense that the 21st century did not follow you across.",
+    "secret": "Agonda beach at 6am — before the shacks open, before the sunbeds are out, before any other tourist is awake. The crescent bay entirely yours, the water glass-flat, the headlands framing the horizon. The most beautiful beach morning in Goa costs nothing except waking up early."
+  },
+
+  "neighborhoodPersonalities": {
+    "baga_calangute": ["Loud", "Tourist", "Commercial", "Social"],
+    "anjuna_vagator": ["Alternative", "Artistic", "Market", "Character"],
+    "assagao": ["Creative", "Expat", "Quiet", "Culinary"],
+    "palolem": ["Beautiful", "Backpacker", "Peaceful", "South"],
+    "panaji": ["Colonial", "Authentic", "Overlooked", "Real"],
+    "old_goa": ["Heritage", "Spiritual", "Historical", "UNESCO"],
+    "ponda_interior": ["Local", "Temple", "Spice", "Undiscovered"]
+  },
+
+  "residentSunday": "A Goa resident with one free Sunday: 7am drive to the fish market in Panaji before it closes at 9am — buy the morning's catch and take it home or eat at a teahouse. 9:30am drive to Vinayak Family Restaurant in Assagao for the fish thali before the crab masala runs out. 11am walk Fontainhas in Panaji while it is still quiet. Afternoon: the beach at Morjim with nobody from the tourist circuit, a paperback, a cold Kingfisher from the one shack that's actually good. 5pm drive to Chapora Fort for the sunset. 7pm dinner at Thalassa. This is the Goa that residents describe to friends who visit — and it has almost nothing to do with Baga or Calangute.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first smell of the ocean mixed with frangipani and cashew from the taxi window. The first sight of a white Portuguese church between palm trees. The moment the traveller realises Goa is not a beach — it is a civilisation built on top of a beach. The memory is the first hour when expectations collide with reality, and reality wins.",
+    "peak": "Either the silence of Divar Island at 2pm when the ferry has departed and there are no cars and no tourists and the only sound is birdsong — or the Chapora Fort at the exact moment the sun touches the horizon and the Arabian Sea turns gold behind the battlements. The memory is the moment Goa stopped being a holiday and became a place.",
+    "departure": "The last warung breakfast. The last fish curry rice eaten at a plastic table with the sea visible through the shack walls. The drive to the airport through palm groves and paddy fields and the specific green of Goa in October. The memory is the quality of light — the way Goa light is different from any other light in India."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Fontainhas at 6pm", "One genuine Goan meal at Ritz Classic or Vinayak", "Palolem beach at dawn OR Chapora Fort at sunset — choose one"],
+      "skip": ["Old Goa churches (need more time to do properly)", "Spice plantation", "Anjuna Market unless it's Wednesday"],
+      "note": "Two days in Goa should go deep in one direction — either north or south. Never try to do both."
+    },
+    "three_to_four_days": {
+      "must_include": ["Anjuna Flea Market (if Wednesday)", "Fontainhas Panaji", "Palolem or Agonda beach", "One authentic Goan meal", "Old Goa UNESCO"],
+      "skip": ["Inland spice plantation (needs half day)"],
+      "note": "Three to four days is the ideal first Goa trip. North Goa one day, south Goa one day, Panaji one morning."
+    },
+    "five_to_six_days": {
+      "must_include": ["All 3-4 day essentials", "Divar Island ferry morning", "Spice plantation Ponda", "Chapora Fort sunset"],
+      "skip": [],
+      "note": "Now there is time to go inland. The real Goa opens up — the temples, the villages, the ferry crossings."
+    },
+    "seven_plus_days": {
+      "must_include": ["All 5-6 day content", "Dudhsagar waterfalls (October-December)", "Cabo de Rama Fort south Goa", "A monsoon day if applicable"],
+      "skip": [],
+      "note": "At 7+ days the traveller can understand that Goa is not a beach destination — it is a civilisation with a beach."
+    }
+  },
+
+  "antiPatterns": [
+    "North Goa beach strip AND south Goa beach on the same day — they are 45-60 minutes apart and doing both rushes both. Choose one area per day.",
+    "Anjuna Flea Market AND Old Goa on the same day — both are full-morning commitments in opposite directions from most accommodation.",
+    "Palolem AND Colva on the same beach day — they are different beaches in the same region. One beach day means one beach.",
+    "Spice plantation AND Fontainhas AND Old Goa in a single day — this is three half-days compressed into one. Every experience becomes a rush.",
+    "Beach club day AND a cultural morning — the beach club mindset and the Fontainhas mindset are incompatible. They produce the worst version of each."
   ]
 }

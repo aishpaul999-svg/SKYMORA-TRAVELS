@@ -704,5 +704,71 @@
     "The rice terrace irrigation system (subak) is an ancient cooperative system managed communally by farmers. When you walk through rice terraces you are walking through a water management system that is 1,000 years old and still operational.",
     "Balinese Hinduism includes approximately 20,000 gods. Every village, every rice paddy, every crossroads, and every family compound has its own protective deity and requires regular offerings.",
     "The best organic produce in Indonesia is grown in Bali. The organic market at BIMC Kuta and the Canggu area farmers' markets (Saturday mornings) have produce equivalent to European organic standards."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the beaches. They stay when they witness a ceremony they were not looking for — a procession on a village road, offerings being laid at dawn, the sound of gamelan from behind a temple wall. They return for the rice terraces at 6am before any other tourist arrives, the mist in the valleys, the specific quality of Ubud morning light through the palms. Bali is the only place in the world where the spiritual life of a community is not separate from its daily life — the offerings are made every morning by the same hands that cook breakfast and tend the fields.",
+
+  "localTruths": [
+    "Most visitors think Bali is beach. Balinese think Bali is ceremony — the 20,000 gods, the daily offerings, the temple festivals that happen somewhere on the island every single day. The beach is what tourists came for. The ceremony is what makes Bali itself.",
+    "Most visitors think Bali is discovered. There are still villages in the eastern regencies where a foreign visitor arriving by motorbike is a genuine event. The undiscovered Bali is not a myth — it is 45 minutes from Ubud in a direction most people never turn.",
+    "Most visitors think Bali is relaxing. Balinese people work constantly — the rice farming, the offering-making, the temple obligations, the community duties. The relaxation belongs to the tourists. The industry belongs to everyone who lives here."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Warung Nasi Ayam Kedewatan in the village north of Ubud at 8am — nasi ayam set IDR 25,000, the chicken poached then grilled, the sambal made fresh that morning, the same recipe since the 1970s. Better than Locavore. Costs 1% as much.",
+    "sunset": "Tanah Lot at 5pm, 45 minutes before the actual sunset — arrive early enough to walk to the base of the rock temple at low tide before the crowd reaches the viewing platform. The silhouette of the 16th-century sea temple against the orange sky is the most replicated Bali image for a reason.",
+    "neighbourhood": "Ubud in the early morning before 8am — the Campuhan Ridge Walk in the first light, the valley below with rice terraces and river, no other walkers, the specific smell of incense from the morning puja at the temple at the path's start.",
+    "meal": "Warung Babi Guling Ibu Oka at 11am sharp — the whole pig roasted over coconut wood since 5am, the crackling shattering, the 17-spice marinade. It sells out by 2pm. Anthony Bourdain came here. The kitchen has not changed.",
+    "memory": "Witnessing a temple ceremony by accident — turning down a village road and finding a procession, the women in white carrying offerings on their heads, gamelan music from inside the temple walls, being waved in to watch from the outer courtyard. It happens somewhere on the island every day.",
+    "secret": "Sidemen Valley at dawn — rice terraces on both sides of the road, Mount Agung visible behind them on clear mornings, almost no tourists, homestays with rice paddy views for IDR 200,000 per night. The Bali that existed before anyone wrote about it."
+  },
+
+  "neighborhoodPersonalities": {
+    "ubud": ["Spiritual", "Artistic", "Cultural", "The Real Bali"],
+    "seminyak": ["Stylish", "International", "Beach Club", "Comfortable"],
+    "kuta": ["Budget", "Surf", "Loud", "Tourist"],
+    "canggu": ["Digital Nomad", "Creative", "Surf", "Café"],
+    "nusa_dua": ["Resort", "Family", "Safe", "Sanitised"],
+    "amed_east_bali": ["Diver", "Quiet", "Fishing", "Undiscovered"],
+    "north_bali_munduk": ["Cool", "Coffee", "Waterfall", "Local"]
+  },
+
+  "residentSunday": "A Bali expat resident with one free Sunday: 6am Campuhan Ridge Walk before any other human arrives — the valley, the light, the silence. 8am breakfast at a warung in Penestanan village, no menu in English, nasi goreng IDR 20,000. 10am the Sunday market at the base of Ubud — the local farmers' market, not the tourist art market. Noon drive to Sidemen Valley — lunch at a warung overlooking rice terraces with Mount Agung behind them if the sky is clear. 3pm swim at a natural waterfall on the way back. 6pm back in Ubud for the Kecak fire dance at Ubud Palace or simply sitting at a café watching the ceremony preparations. This is the Bali that long-term residents describe as why they never left.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first temple offering seen on the ground — the small woven palm leaf basket with flowers and incense laid by a Balinese family at their doorstep before sunrise. The moment the traveller understands that Bali's spirituality is not performed for tourists — it is the daily practice of a living Hindu community. The memory is the first evidence that Bali is different from every other destination.",
+    "peak": "The rice terraces at Tegalalang at 7:30am when the terraces are flooded and the light comes through the palm trees and the farmers are already at work — or the Uluwatu Kecak fire dance at 6pm when the temple is silhouetted against the orange sky and the ocean is 70 metres below. The memory is the moment Bali became irreducible to any description.",
+    "departure": "The last warung breakfast. The sound of gamelan from a temple courtyard heard through an open window on the road to the airport. The specific smell of incense and frangipani that Bali has had since before any tourist arrived and will have after the last one leaves. The memory is the gap between the Bali the traveller expected and the Bali that ceremony, food, and landscape revealed."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Campuhan Ridge Walk at dawn", "One warung meal — authentic, no English menu", "Tegalalang Rice Terraces at 7:30am"],
+      "skip": ["Beach clubs", "Tanah Lot (needs more time)", "Cooking class"],
+      "note": "Two days in Bali should be in Ubud, not on the beach. Ubud in two days reveals more of what Bali actually is than a week in Seminyak."
+    },
+    "three_to_four_days": {
+      "must_include": ["Campuhan Ridge at dawn", "Tegalalang Terraces", "Tanah Lot sunset", "One warung lunch with locals", "Cooking class morning"],
+      "skip": ["East Bali — not enough time to do it justice"],
+      "note": "Three to four days: two in Ubud, one or two in the south. The first Bali trip."
+    },
+    "five_to_six_days": {
+      "must_include": ["All above", "Mount Batur sunrise trek", "Amed or Sidemen Valley overnight", "One temple ceremony witnessed"],
+      "skip": [],
+      "note": "Now Bali's geography opens up. The east coast reveals a completely different island."
+    },
+    "seven_plus_days": {
+      "must_include": ["All above", "Nusa Penida day trip (Kelingking Beach)", "Munduk highlands overnight", "Pura Besakih Mother Temple"],
+      "skip": [],
+      "note": "At 7+ days Bali becomes multiple islands and multiple landscapes. The traveller can understand that Bali is a universe, not a beach."
+    }
+  },
+
+  "antiPatterns": [
+    "Mount Batur sunrise trek AND a full temple tour the same day — the trek departs at 2am and returns at 10am. Any activity after noon on a trek day is wasted on an exhausted person.",
+    "Ubud AND Seminyak in the same day — they are 45-60 minutes apart and represent completely opposite Bali experiences. Neither benefits from being rushed.",
+    "Tanah Lot AND Uluwatu on the same sunset day — they are 1.5 hours apart. By the time you reach Uluwatu from Tanah Lot the sunset is over.",
+    "Cooking class AND rice terrace walk on the same morning — the cooking class market visit starts at 8am and runs until 1pm. The terraces need a separate morning.",
+    "Kuta beach AND an Ubud cultural day combined — the beach mindset and the temple mindset require different versions of the traveller. Combining them in one day produces neither."
   ]
 }

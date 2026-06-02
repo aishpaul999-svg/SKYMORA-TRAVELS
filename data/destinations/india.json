@@ -733,5 +733,71 @@
     "Most Indian temples have strict dress codes. Carry a dupatta/scarf for women and wear full-length trousers for men. Many temples do not allow leather items inside.",
     "Bargaining is expected at markets, souvenir shops, and with auto-rickshaws where meters are not used. Start at 50% of asking price. Never bargain at restaurants or in shops with fixed prices displayed.",
     "The best months to visit most of India are October and November — after the monsoon when everything is green and before the peak tourist season. October pricing is lower, crowds are thinner, and the landscape is at its most beautiful."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the Taj Mahal. They stay when they witness something they were not expecting — a morning puja at a ghat they found by accident, an invitation to a family home for chai, the call to prayer and temple bells happening simultaneously from adjacent buildings. They return because India is the only country that simultaneously overwhelms you and makes you feel that you have not understood it yet, and both feelings are correct. India does not reveal itself to the person who rushes. It reveals itself to the person who accepts that they will not understand it today and comes back anyway.",
+
+  "localTruths": [
+    "Most visitors think India is chaotic. India runs on a logic that takes three days to begin to read — the traffic that moves without signals, the negotiation that sounds like an argument, the hospitality that appears from nowhere. The apparent chaos is organised. The visitor who accepts this stops being frustrated and starts being amazed.",
+    "Most visitors think India is one country. India is 28 countries with one passport, one currency, and one railway system. The person who visits Delhi and Goa has visited two places that share a flag and almost nothing else. The food, language, architecture, culture, and pace are completely different. India requires more than one trip.",
+    "Most visitors think India is the ancient monuments. The ancient monuments are real and extraordinary. But the living traditions — the artisan weaving in Varanasi, the morning aarti at the ghats, the temple ceremony in a Bali-equivalent village in Tamil Nadu — are the India that cannot be found in photographs and cannot be adequately described. It requires presence."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Chandni Chowk at 7am before the shops open — the wholesale traders working, the temples doing morning puja, the parathas at Paranthe Wali Gali being fried in clarified butter. The oldest market street in India at its most honest hour.",
+    "sunrise": "Taj Mahal at opening, 30 minutes before sunrise — the most photographed building in human history, at the one hour when it belongs to almost no one. The mist on the Yamuna behind it. The marble changing colour as the sun rises. The version of this monument that exists in no travel photograph.",
+    "neighbourhood": "Varanasi ghats at 5am — the morning boat ride before the tour boats arrive, watching the city use the river for yoga, bathing, laundry, prayer, and cremation simultaneously. The oldest continuously inhabited city in the world being itself.",
+    "meal": "Thali at any local restaurant with locals eating — unlimited, regional, INR 120–200, every dish placed simultaneously on the banana leaf or steel plate. The meal that tells you more about where you are than any monument.",
+    "memory": "Being invited somewhere you were not expecting — into a home for chai, to watch a ceremony from the outer courtyard, to join a family at the ghat. India's hospitality is not a tourism product. It is a cultural practice that has existed longer than most countries.",
+    "secret": "The 5:30am on any Indian train — the chai vendor walking the platform, the fields appearing pale blue in the first light, your fellow passengers sharing food without being asked. The Indian railway at dawn is the most honest portrait of the country available to anyone with INR 200 and a willingness to be awake."
+  },
+
+  "neighborhoodPersonalities": {
+    "rajasthan": ["Royal", "Colourful", "Desert", "Majestic"],
+    "kerala": ["Lush", "Culinary", "Backwater", "Quiet"],
+    "varanasi": ["Ancient", "Spiritual", "Confronting", "Sacred"],
+    "mumbai": ["Ambitious", "Cinematic", "Relentless", "Contradictory"],
+    "delhi": ["Historical", "Political", "Street Food", "Layered"],
+    "himachal_ladakh": ["Mountain", "Buddhist", "Clean Air", "High"],
+    "northeast": ["Tribal", "Green", "Overlooked", "Extraordinary"]
+  },
+
+  "residentSunday": "A Delhi resident with one free Sunday: 6am Lodi Garden walk before the joggers arrive — the 15th-century tombs in morning mist, free, extraordinary. 8am Paranthe Wali Gali in Chandni Chowk for breakfast — the stuffed parathas being fried in clarified butter, INR 80-120. 10am Humayun's Tomb before the tour groups — the prototype for the Taj Mahal with a fraction of the crowd, INR 10 for Indians. 1pm Karim's near Jama Masjid — the mutton burra, the seekh kebab, open since 1913. Afternoon rest. 4pm Mehrauli Archaeological Park — 20+ medieval monuments in a park that most Delhi residents have never visited. Free. 7pm back home. This is the Delhi that the city's residents describe when they say they love where they live.",
+
+  "dayMemoryTargets": {
+    "arrival": "The specific moment India makes itself known — the heat, the density, the simultaneity of ancient and modern, the smell of spices and diesel and marigolds and incense all at once. Then the first act of hospitality from a stranger: a chai offered without request, directions given with genuine investment, an invitation extended without expectation of return. The memory is the first evidence that India operates on human terms that no other country has quite matched.",
+    "peak": "The Taj Mahal at sunrise — but not the standard photograph. The walk through the Great Gate at 6am when the monument appears framed by the arch, and then the 20-minute walk across the garden as the light changes on the marble. OR the Ganga Aarti in Varanasi at dusk — the fire, the chanting, the river, the simultaneous life and death of the same waterfront. The memory is the moment India became irreducible to any single explanation.",
+    "departure": "The train station before departure — the chai wallahs, the families, the vendors, the noise, the extraordinary human density that is somehow organised. Then the specific quality of Indian light from a train window at dawn — the fields pale blue, the villages beginning their day, the sense of a country starting over every morning. The memory is the realisation that India is too large to have visited but exactly the right size to have experienced."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Taj Mahal at sunrise (if Agra)", "OR Golden Temple langar in Amritsar", "OR one genuine local meal wherever you are"],
+      "skip": ["Multiple cities", "Multiple monuments in same day"],
+      "note": "Two days in India should go deep in one place. The Taj Mahal deserves a full day. The Golden Temple deserves a full day. One thing done properly is infinitely better than three things rushed."
+    },
+    "three_to_four_days": {
+      "must_include": ["Delhi-Agra Golden Triangle (3 days)", "OR Rajasthan single city (Jaipur, Jodhpur, or Udaipur)", "OR Kerala backwaters (3 nights minimum)"],
+      "skip": ["Multi-state itinerary at this length"],
+      "note": "Three to four days in India: one region, done properly. India punishes the traveller who tries to see too much too quickly."
+    },
+    "five_to_six_days": {
+      "must_include": ["Golden Triangle (Delhi-Agra-Jaipur)", "OR Kerala (Kochi-Alleppey-Munnar)", "OR Rajasthan (Jaipur-Jodhpur-Udaipur)"],
+      "skip": ["Cross-country combinations that require 3+ flights"],
+      "note": "Five to six days: one circuit done properly. Now depth is possible within a region."
+    },
+    "seven_plus_days": {
+      "must_include": ["One full region with day trips", "Varanasi (minimum 2 nights)", "At least one overnight train journey"],
+      "skip": [],
+      "note": "At 7+ days India begins to reveal itself. The overnight train is mandatory — not for efficiency but for experience. The train IS the India."
+    }
+  },
+
+  "antiPatterns": [
+    "Agra Fort AND Taj Mahal AND Fatehpur Sikri in a single day — each requires 2-3 hours of genuine attention. The Taj deserves its own morning. Agra Fort can follow. Fatehpur Sikri is a separate half-day.",
+    "Multiple Rajasthan cities in a single day — Jaipur to Jodhpur to Udaipur as a 1-day drive is a travel day disguised as a sightseeing day. Each city deserves a minimum of 2 nights.",
+    "Kerala houseboat AND Munnar hill station on the same day — they are 4-5 hours apart and represent completely different landscapes and experiences. Each deserves at least 2 nights.",
+    "Varanasi ghat walk AND Sarnath on the same morning — Varanasi ghats at dawn require 2-3 hours of unhurried presence. Sarnath (10km away) is a separate half-day.",
+    "Golden Temple in Amritsar AND Wagah Border ceremony on the same day without sufficient time — the Wagah ceremony is 30km from Amritsar. Attempting the Golden Temple morning AND the Wagah afternoon is physically possible but leaves neither done with full attention."
   ]
 }

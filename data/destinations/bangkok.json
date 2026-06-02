@@ -728,5 +728,71 @@
     "Thai Buddhist monks cannot accept anything from a woman's hand directly. If you are a woman and want to give an offering to a monk, place it on a cloth or table surface for the monk to pick up.",
     "The Grand Palace closes at 3:30pm. Temple entry closes at 3pm. Arriving at 2pm guarantees a rushed experience. Morning is always the correct time.",
     "Bangkok's red-light districts (Patpong, Nana, Soi Cowboy) are tourist attractions in the sense that many visitors walk through them. They are genuinely part of the city's social landscape and not dangerous to observe."
+  ],
+
+  "whyPeopleFallInLove": "People arrive for the temples. They stay for the food — specifically for the moment they eat something extraordinary from a stall with no English menu and no Instagram presence, standing on the street at 11pm, and realise the finest meal of their trip cost THB 80. They return for the neighbourhoods — Talad Noi at 8am, Bang Krachao by bicycle on a Sunday, the canal at sunset when the light turns everything amber. Bangkok rewards the person who stops trying to see it and starts letting it happen.",
+
+  "localTruths": [
+    "Most visitors think Bangkok is traffic. Locals think Bangkok is food — the Or Tor Kor market at dawn, the Jay Fai wok at midnight, the 7-Eleven that is genuinely a meal destination. The traffic is the price. The food is the reason.",
+    "Most visitors think Bangkok is temples. Young Thais think Bangkok is rooftops, vinyl records in Shimokitazawa-equivalent Ari, the craft beer scene in Thonglor. Two completely different cities occupy the same geography.",
+    "Most visitors think Bangkok is chaotic. Bangkok runs on a precise social order that takes 3 days to begin to read. The apparent chaos is organised. The apparent rudeness is formality. The apparent smile is genuine."
+  ],
+
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Or Tor Kor Market at 8am — Bangkok's professional chefs shop here. The mango sticky rice uses mangoes at peak ripeness because vendors compete with each other daily. The prepared food section contains dishes that don't appear on any restaurant menu.",
+    "sunset": "Chao Phraya River on the orange-flag express boat at 5pm — THB 15, workers going home, temples lit against the sky, the city from the water at golden hour. The cheapest and most honest view of Bangkok available.",
+    "neighbourhood": "Talad Noi at 9am — the oldest Chinese neighbourhood, Portuguese shophouses from the 1800s, cats on motorcycles, coffee shops in converted warehouses run by art students. The neighbourhood that hasn't been discovered yet.",
+    "meal": "Jay Fai at opening — a 70-year-old woman in ski goggles against the wok flames, Michelin-starred since 2018, the crab omelette the most argued-about dish in Bangkok. The queue is two hours. The two hours are correct.",
+    "memory": "Wat Pho at 6am — the monks chanting morning sutras, the incense smoke rising straight in the still air, the 46-metre reclining Buddha lit by the first light through the temple windows. The working temple before it becomes a tourist attraction.",
+    "secret": "Bang Krachao by bicycle on a Sunday morning — ferry THB 4 from Klong Toei pier, bicycle hire THB 50, mangrove forest, wooden houses on stilts, the air noticeably different from the city fifteen minutes away. The Bangkok of 1970 that somehow still exists."
+  },
+
+  "neighborhoodPersonalities": {
+    "old_city_rattanakosin": ["Historical", "Spiritual", "Photogenic", "Touristy"],
+    "sukhumvit": ["Convenient", "International", "Polished", "Expat"],
+    "silom": ["Business", "Culinary", "Local", "Understated"],
+    "chinatown_yaowarat": ["Sensory", "Authentic", "Electric", "Nocturnal"],
+    "bang_krachao": ["Natural", "Quiet", "Timeless", "Secret"],
+    "thonglor_ekkamai": ["Trendy", "Japanese", "Cocktail", "Wealthy"],
+    "ari": ["Creative", "Relaxed", "Local", "Undiscovered"]
+  },
+
+  "residentSunday": "A Bangkok resident with one free Sunday: 7am Or Tor Kor Market — the mango sticky rice, the prepared food section, the freshest produce in Bangkok. 9am drive or taxi to Bang Krachao — ferry THB 4, bicycle hire THB 50, mangrove forest, wooden houses, the air genuinely different. Back by noon. 1pm lunch at a neighbourhood restaurant in Thonglor that no tourist has found. 3pm afternoon nap — this is accepted and correct. 6pm Chatuchak area if the weekend market is still open, or a neighbourhood café in Ari. 8pm Yaowarat for one dish. This is the Bangkok that residents describe when asked what they actually do on weekends.",
+
+  "dayMemoryTargets": {
+    "arrival": "The first moment the scale of Bangkok becomes real — the elevated highway at night, the neon below, the density, the smells through the taxi window. Then the first extraordinary food from a stall with no English menu that costs THB 60 and is better than anything back home. The memory is the gap between what the traveller expected Bangkok to be and what it actually is.",
+    "peak": "The Jay Fai moment — standing in the queue for two hours, watching a 70-year-old woman in ski goggles work a wok flame, finally eating the crab omelette that required the two hours. OR the Bang Krachao moment — bicycle in the mangrove forest, air noticeably different, a city of 14 million people fifteen minutes away and completely absent. The memory is the moment Bangkok revealed its other self.",
+    "departure": "The last bowl of something from a stall that the traveller found themselves, not from a list. The Skytrain at rush hour one final time. The specific quality of Bangkok heat at 9am when the city is already fully operational. The memory is the realisation that they understand this city slightly — and the desire to come back and understand it more."
+  },
+
+  "tripLengthGuide": {
+    "two_days": {
+      "must_include": ["Wat Pho at 8am", "Chao Phraya orange-flag boat", "Yaowarat street food at night"],
+      "skip": ["Day trips", "Chatuchak (needs 3+ hours)", "Cooking class"],
+      "note": "Two days in Bangkok should be three experiences done deeply. The temple, the river, the street food. Bangkok rewards depth over breadth more than almost any other city."
+    },
+    "three_to_four_days": {
+      "must_include": ["Wat Pho morning", "Chao Phraya boat", "Chatuchak weekend (Sat/Sun)", "Or Tor Kor Market", "Yaowarat evening", "One neighbourhood walk"],
+      "skip": ["Day trips to Ayutthaya or Kanchanaburi"],
+      "note": "Three to four days is the ideal first Bangkok trip. Enough to discover what the city actually is."
+    },
+    "five_to_six_days": {
+      "must_include": ["All 3-4 day essentials", "Bang Krachao bicycle day", "Ayutthaya day trip", "Muay Thai evening", "Cooking class"],
+      "skip": [],
+      "note": "Now day trips are viable and the neighbourhood character of Bangkok can be properly experienced."
+    },
+    "seven_plus_days": {
+      "must_include": ["All 5-6 day content", "Amphawa floating market", "Jim Thompson House", "Khlong Lat Mayom local market"],
+      "skip": [],
+      "note": "At 7+ days the traveller can move between Bangkok's layers — tourist, expat, local — and begin to understand how they relate to each other."
+    }
+  },
+
+  "antiPatterns": [
+    "Grand Palace AND Wat Pho on the same morning — both require 2+ hours and significant walking in heat. One per morning only.",
+    "Chatuchak Market AND Yaowarat in the same day — Chatuchak is 3-4 hours in morning heat, Yaowarat peaks at 9pm. The gap requires a full afternoon rest that most people don't plan for.",
+    "Floating market AND Ayutthaya as a combined day trip — they are in opposite directions from Bangkok. Combined, neither gets sufficient time.",
+    "Muay Thai evening AND an early morning temple visit the next day — Muay Thai ends at 10pm minimum. A 7am temple visit the next morning produces an exhausted person at both.",
+    "Cooking class AND Chatuchak on the same day — the cooking class market visit starts at 8am and the class runs until 1pm. Chatuchak needs to be a separate day."
   ]
 }

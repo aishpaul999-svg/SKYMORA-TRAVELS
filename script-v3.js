@@ -647,6 +647,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const emotionalState = document.querySelector('#emotionToggle .active')?.dataset.value || "exploring";
     const diningDepth = document.querySelector('#diningToggle .active')?.dataset.value || "balanced";
     const socialComfort = document.querySelector('#socialToggle .active')?.dataset.value || "balanced";
+    const travelPersonality = document.querySelector('#personalityToggle .active')?.dataset.value || "balanced";
+    const planningStyle = document.querySelector('#plannerToggle .active')?.dataset.value || "balanced";
 
     // ✅ FINAL DATA sent to backend
     const tripData = {
@@ -672,7 +674,9 @@ document.addEventListener('DOMContentLoaded', () => {
       travelerExperience,
       emotionalState,
       diningDepth,
-      socialComfort
+      socialComfort,
+      travelPersonality,
+      planningStyle
     };
 
     console.log("✅ Trip Data being saved:", tripData); // Debug log
