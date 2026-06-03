@@ -1,0 +1,333 @@
+{
+  "destination": "Delhi",
+  "state": "Delhi",
+  "type": "capital/megacity",
+  "aliases": [
+    "Delhi",
+    "delhi",
+    "Delhi"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "art aficionados",
+      "culture seekers",
+      "shopping enthusiasts"
+    ],
+    "notFor": [
+      "nature lovers",
+      "solitary travelers",
+      "those seeking tranquility"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the street food at Chandni Chowk. They stay for the haunting echoes of history at the Red Fort — layers of stories in every brick. They return because Delhi is the only city where the past feels alive in the bustling markets and quiet parks alike.",
+  "honestTruth": "Most travel guides ignore the fact that Delhi's real charm lies in its local neighborhoods, where the rhythm of daily life unfolds away from the tourist sites.",
+  "localTruths": [
+    "Most visitors spend too much time at India Gate and Connaught Place. Locals think the real cultural pulse of Delhi beats in places like Hauz Khas and Nizamuddin.",
+    "Most visitors eat at high-end restaurants. The best version of Delhi is found in its street food stalls, where the flavors burst with authenticity.",
+    "Most visitors rush through museums. The real Delhi starts at the quiet corners of the city, like the hidden lanes of Old Delhi, where every turn tells a story."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Delhi": {
+      "tags": [
+        "historic",
+        "chaotic",
+        "cultural"
+      ],
+      "bestFor": "experiencing the depth of Delhi's history and street food culture",
+      "avoid": "the overwhelming crowds during peak hours"
+    },
+    "Hauz Khas": {
+      "tags": [
+        "trendy",
+        "artsy",
+        "young"
+      ],
+      "bestFor": "its blend of history and modern cafes",
+      "avoid": "the overpriced boutiques"
+    },
+    "Connaught Place": {
+      "tags": [
+        "commercial",
+        "busy",
+        "central"
+      ],
+      "bestFor": "shopping and dining",
+      "avoid": "the tourist traps that inflate prices"
+    },
+    "Lajpat Nagar": {
+      "tags": [
+        "local",
+        "shopping",
+        "affordable"
+      ],
+      "bestFor": "bargain shopping and local cuisine",
+      "avoid": "the crowds on weekends"
+    },
+    "Nizamuddin": {
+      "tags": [
+        "spiritual",
+        "cultural",
+        "local"
+      ],
+      "bestFor": "experiencing Sufi culture and Qawwali nights",
+      "avoid": "visiting without checking Qawwali timings"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the Red Fort for its historical significance",
+        "Explore the bustling streets of Chandni Chowk",
+        "Experience the tranquility of Humayun's Tomb",
+        "Enjoy the street food at Paranthe Wali Gali"
+      ],
+      "avoid": [
+        "Relying only on taxis; use the metro for better connectivity",
+        "Skipping out on local street food for safe but bland restaurants"
+      ],
+      "mindset": "Approach Delhi with an open heart, ready to embrace the chaos and the warmth of its people."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Explore the lesser-known museums like the National Museum of Natural History",
+        "Attend a Sufi music night at Nizamuddin Dargah",
+        "Visit the art galleries in Hauz Khas",
+        "Take a heritage walk through Mehrauli"
+      ],
+      "neighborhoods": [
+        "Explore the artsy vibe of Shahpur Jat",
+        "Check out the local markets in Sarojini Nagar"
+      ],
+      "local": "Only locals know that the best time for street food is during the evening rush, when vendors are ready and fresh."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "mild, 10°C to 25°C",
+      "crowds": "high tourist influx, especially during festivals",
+      "prices": "20% premium on accommodations",
+      "verdict": "Best time to visit but expect crowded attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer tourists and more authentic experiences, plus you can enjoy the local festivities."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon brings heavy rains, making travel challenging.",
+      "hiddenGem": "The city transforms with greenery and fewer tourists, revealing a quieter side."
+    },
+    "bestMonth": "November — ideal weather and festive atmosphere.",
+    "worstMonth": "May — extreme heat can be overwhelming."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying enough local street food.",
+    "Most visitors regret spending too much time in touristy areas like Connaught Place.",
+    "Most visitors regret not exploring Old Delhi's hidden gems."
+  ],
+  "antiPatterns": [
+    "An itinerary that focuses only on major attractions fails to capture the local essence.",
+    "Skipping street food completely leads to missing out on the culinary heart of Delhi.",
+    "Visiting during the day without planning for evening cultural events often ruins the experience."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Explore the Red Fort, have lunch at Chandni Chowk, visit Humayun's Tomb, and end the day at India Gate.",
+      "verdict": "A whirlwind tour, best for those with limited time."
+    },
+    "two_days": {
+      "focus": "Covers major tourist sites and introduces local neighborhoods.",
+      "misses": "Deeper cultural experiences and offbeat attractions."
+    },
+    "three_to_four_days": {
+      "focus": "A comprehensive look at Delhi's history, culture, and cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of art, culture, and offbeat experiences.",
+      "whoFor": "Cultural enthusiasts and food lovers."
+    },
+    "recommended": "3 days — this allows for a good mix of major attractions and local experiences."
+  },
+  "residentSunday": "A Delhi resident with one free Sunday starts the morning with a jog around India Gate, then heads to Sarojini Nagar for some shopping. Lunch is at a popular local dhaba, Moolchand Paratha, followed by an afternoon visit to the National Gallery of Modern Art. The evening is spent at the Dargah of Nizamuddin for Qawwali night, ending with chai at a nearby stall.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping out of the airport and feeling the vibrant energy of the city hit you immediately.",
+    "peak": "The overwhelming joy of listening to live Qawwali music at Nizamuddin Dargah.",
+    "departure": "Taking a last glance at the skyline from the airport taxi, filled with memories of the city's chaos and charm."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "AC buses are comfortable and range from ₹600-₹800, but can be delayed.",
+      "flight": "Not applicable for domestic travel within India.",
+      "recommended": "The Shatabdi Express for its speed and comfort.",
+      "budgetTip": "Book train tickets in advance to save on last-minute price hikes."
+    },
+    "fromMumbai": {
+      "train": "Ajmer Express 12985, departs 5:25pm, 16 hours, ₹700 sleeper",
+      "flight": "Direct flights are available, typically under ₹4000.",
+      "recommended": "The Ajmer Express is a budget-friendly option."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 12627, departs 8:30am, 36 hours, ₹1300 sleeper",
+      "flight": "Direct flights usually cost around ₹3000-₹4000.",
+      "recommended": "Opt for a flight for quicker travel."
+    },
+    "localTransport": {
+      "best": "The Delhi Metro is the quickest and most efficient way to navigate the city.",
+      "avoid": "Avoid auto-rickshaws during peak hours due to traffic.",
+      "appRecommendation": "Use the Delhi Metro app for real-time updates.",
+      "autoRickshaw": "Usually safe but negotiate fares before starting.",
+      "cost": "A daily budget of ₹200-₹300 should suffice for local transport."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "The 'Taxi Overcharge Scam'",
+      "howItWorks": "Drivers claim the meter is broken and ask for a flat rate much higher than the actual fare.",
+      "prevention": "Always use recognized taxi apps like Uber or Ola.",
+      "ifItHappens": "Politely refuse and exit the vehicle."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Chole Bhature at Chachey Di Hatti, ₹50",
+      "Aloo Tikki at Aloo Tikki Wale, ₹30",
+      "Jalebi at Jain Coffee House, ₹20"
+    ],
+    "avoidList": [
+      "Avoid street food from vendors who don't maintain cleanliness — look for stalls with a high turnover of customers."
+    ],
+    "waterAdvice": "Drink only bottled or filtered water. Tap water is not safe for consumption.",
+    "trustedDhabas": "Look for dhabas that are crowded with locals, indicating quality and safety.",
+    "mustEat": [
+      "Biryani at Karim's in Jama Masjid, ₹300",
+      "Butter Chicken at Moti Mahal, ₹400",
+      "Dhokla at the local market, ₹40"
+    ],
+    "touristTrap": "Avoid eating at high-end hotel restaurants; they often lack the authentic flavor of Delhi."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly when visiting religious sites; women should cover their shoulders and knees.",
+    "photographyRules": "No photography allowed inside most temples and certain museums.",
+    "templeEtiquette": "Always remove shoes before entering a temple and maintain silence.",
+    "timing": "It's culturally respectful to visit religious places during non-peak hours.",
+    "localCustom": "Greet locals with a 'Namaste' and a slight bow of the head as a sign of respect."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget hotels around ₹600-₹800.",
+      "food": "Street food and local eateries, ₹200-₹300.",
+      "transport": "Daily local transport via metro or bus, ₹200."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels or guesthouses around ₹1,500-₹2,000.",
+      "food": "Mix of street food and restaurants, ₹800.",
+      "includes": "Comfortable transport and guided tours."
+    },
+    "premium": {
+      "perDay": "₹10,000",
+      "accommodation": "3-4 star hotels around ₹3,500-₹5,000.",
+      "experience": "Includes guided tours, premium experiences, and fine dining."
+    },
+    "luxury": {
+      "perDay": "₹20,000+",
+      "accommodation": "Luxury hotels like The Taj or The Oberoi.",
+      "note": "Luxury adds comfort, but authentic experiences can still be found at lower price points."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek peace and quiet will be disappointed because Delhi is a bustling metropolis.",
+    "If you want natural landscapes and serenity, Delhi is the wrong choice — places like Rishikesh are better.",
+    "Anyone expecting a small-town charm will find the city's chaos overwhelming."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the book market at Daryaganj on Sundays for rare finds at low prices.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check the timings for Qawwali at Nizamuddin Dargah — it’s a must-see event.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the momos at the street stalls around Janakpuri, known for their unique flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the hidden galleries in Hauz Khas Village for contemporary art.",
+      "category": "art"
+    },
+    {
+      "tip": "Use the Metro for faster travel — it’s often cleaner and safer than road transport.",
+      "category": "transport"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Humayun's Tomb",
+        "Explore the nearby Nizamuddin Dargah",
+        "Enjoy a meal at a local restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to connect with history and spirituality before indulging in local flavors.",
+      "bestFor": [
+        "history enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "India Gate",
+        "what": "Capture the iconic arch and surrounding gardens",
+        "bestTime": "Early morning or late afternoon",
+        "tip": "Use a wide-angle lens for the best shots."
+      }
+    ],
+    "goldenHour": "Early morning or late afternoon is best for capturing the city's essence.",
+    "restrictedAreas": [
+      "Inside the Red Fort and most temples."
+    ],
+    "tip": "Use local people as subjects to tell a story in your photographs."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many public places are not fully accessible, but major attractions like India Gate and Humayun's Tomb have facilities.",
+    "majorChallenges": "Uneven pavements and crowded areas can pose challenges.",
+    "seniorFriendlyScore": 7,
+    "note": "Mobility aids are recommended for those with significant challenges."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Agra",
+      "distance": "206km",
+      "travelTime": "3-4 hours",
+      "how": "By train or taxi",
+      "whyCombine": "To see the iconic Taj Mahal and Agra Fort."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "May due to extreme heat.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "Not relevant.",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "Currently in the monsoon season, expect heavy rainfall but fewer tourists.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic travelers."
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "destination": "Dharamshala",
+  "state": "Himachal Pradesh",
+  "type": "spiritual/culture",
+  "aliases": [
+    "Dharamshala",
+    "dharamshala",
+    "Himachal Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "spiritual seekers",
+      "nature lovers",
+      "budget travelers",
+      "yoga practitioners",
+      "cultural enthusiasts"
+    ],
+    "notFor": [
+      "luxury travelers who expect high-end amenities",
+      "party-goers looking for nightlife",
+      "those who dislike cold weather"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the serene teachings at Tsuglagkhang Complex. They stay for the fragrant Tibetan momos from local stalls, steaming cups of chai in hand. They return because the mountains here don’t just surround you, they envelop you in a sense of peace that's hard to find elsewhere.",
+  "honestTruth": "Most guides miss that while Dharamshala is famous for its Tibetan culture, the local Himachali traditions offer a depth of experience that is equally rewarding for travelers.",
+  "localTruths": [
+    "Most visitors think they need to book a guided tour for the best experiences. Locals think exploring on foot and interacting with shopkeepers gives a deeper insight into the culture.",
+    "Most visitors spend too much time at the Tsuglagkhang Complex. The real Dharamshala starts at the vibrant Norbulingka Institute, where art and spirituality thrive.",
+    "Most visitors rush through their itinerary. The heart of Dharamshala is truly felt in the quiet moments spent in local cafés, sipping tea and watching the world go by."
+  ],
+  "neighborhoodPersonalities": {
+    "McLeod Ganj": {
+      "tags": [
+        "Tibetan culture",
+        "café scene",
+        "shopping"
+      ],
+      "bestFor": "budget travelers looking for cultural immersion",
+      "avoid": "overly touristy spots that lack authenticity."
+    },
+    "Bhagsu": {
+      "tags": [
+        "waterfalls",
+        "yoga",
+        "health retreats"
+      ],
+      "bestFor": "young travelers seeking adventure and wellness",
+      "avoid": "crowded cafes that serve overpriced food."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Attend a meditation session at Tushita Meditation Centre",
+        "Hike to Bhagsu Waterfall",
+        "Explore the Tibetan Museum",
+        "Visit the local markets for handicrafts"
+      ],
+      "avoid": [
+        "Skipping the local food scene",
+        "Rushing through temple visits without absorbing the atmosphere"
+      ],
+      "mindset": "Approach Dharamshala with an open heart and a willingness to slow down — the real treasures are found in the quiet moments."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Join a local cooking class to learn Tibetan recipes",
+        "Volunteer at a nearby monastery",
+        "Attend a local festival if timing allows"
+      ],
+      "neighborhoods": [
+        "Explore the lesser-known areas of Sidhpur and Bhagsunag"
+      ],
+      "local": "Only locals know that the best views are from the hike to Triund, especially at sunrise."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to June, September to November",
+      "weather": "15-25°C, pleasant and sunny",
+      "crowds": "High tourist footfall, especially during festivals",
+      "prices": "20% increase in accommodation and tours",
+      "verdict": "Great weather but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "July to August",
+      "why": "Less crowded and hotel prices drop significantly, ideal for budget travelers."
+    },
+    "offSeason": {
+      "months": "December to February",
+      "reality": "Cold weather, occasional snowfall, fewer tourists",
+      "hiddenGem": "The tranquil atmosphere and empty trails can be very refreshing for solitude seekers."
+    },
+    "bestMonth": "April, as the weather is perfect and the flowers are in bloom.",
+    "worstMonth": "January, due to cold temperatures and potential snowfall disrupting travel."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying the local dishes at small eateries.",
+    "Most visitors regret not hiking to Triund for the stunning views.",
+    "Most visitors regret not spending time at the Norbulingka Institute."
+  ],
+  "antiPatterns": [
+    "Visiting only the tourist traps in McLeod Ganj fails to capture the essence of Dharamshala.",
+    "Hiking without proper gear or guidance can lead to dangerous situations.",
+    "Rushing through the itinerary without engaging with locals diminishes the experience."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit the Tsuglagkhang Complex, enjoy lunch at a local café, and hike to Bhagsu Waterfall.",
+      "verdict": "You can get a taste, but it will leave you wanting more."
+    },
+    "two_days": {
+      "focus": "Exploring major attractions in McLeod Ganj and Bhagsu",
+      "misses": "The depth of local culture and quieter spots."
+    },
+    "three_to_four_days": {
+      "focus": "Cultural immersion, local food, and nature hikes",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration into local traditions, meditation retreats, and multi-day hikes",
+      "whoFor": "spiritual seekers and nature enthusiasts"
+    },
+    "recommended": "3 days — enough to explore, unwind, and connect with the local culture."
+  },
+  "residentSunday": "A Dharamshala resident starts their Sunday with a morning yoga session at a local studio, followed by a hearty breakfast of parathas at a small eatery in McLeod Ganj. In the afternoon, they visit the local artisan market to catch up with friends and buy handicrafts. As evening falls, they head to the Bhagsu Temple to enjoy the sunset views over the mountains.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the bus and feel the crisp mountain air fill your lungs.",
+    "peak": "The day you hike to Triund, reaching the top just in time for sunset, with the sky ablaze in colors.",
+    "departure": "The last image should be of the mist rolling over the mountains as you look back one last time."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses from Delhi to Dharamshala are frequent, taking around 12-14 hours, costing ₹800-1200.",
+      "flight": "Flights are available but expensive; better to take the train/bus.",
+      "recommended": "Take the Shatabdi Express for comfort and speed.",
+      "budgetTip": "Book your train tickets in advance to save ₹500-1000."
+    },
+    "fromMumbai": {
+      "train": "Nanda Devi Express 12205, 19 hours, ₹1,000-1,500 sleeper class",
+      "flight": "Direct flights to Dharamshala are limited; best to fly to Chandigarh and then take a bus.",
+      "recommended": "Opt for the train for a scenic journey."
+    },
+    "fromBangalore": {
+      "train": "Take a train to Delhi, then follow the Delhi route.",
+      "flight": "Direct flights to Dharamshala are rare; consider flying to Chandigarh.",
+      "recommended": "A combination of flight to Delhi and train to Dharamshala is advisable."
+    },
+    "localTransport": {
+      "best": "Local taxis and shared autos are best for getting around.",
+      "avoid": "Avoid walking in areas with steep inclines unless you're fit.",
+      "appRecommendation": "Uber is available in certain areas, but local taxis are more reliable.",
+      "autoRickshaw": "Common but often crowded; negotiate fares upfront.",
+      "cost": "Daily local transport budget is around ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Tibetan Rug Scam",
+      "howItWorks": "Tourists are approached with offers to buy overpriced rugs.",
+      "prevention": "Only buy from certified stores and galleries.",
+      "ifItHappens": "Politely decline and walk away."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Momos from Norling Restaurant",
+      "Chaat from Bhagsu Chaat Stall",
+      "Chai from the local tea stalls"
+    ],
+    "avoidList": [
+      "Avoid food from roadside vendors without proper hygiene standards."
+    ],
+    "waterAdvice": "Always drink bottled or filtered water; tap water is not safe.",
+    "trustedDhabas": "Look for busy dhabas with local patrons; they are usually trustworthy.",
+    "mustEat": [
+      "Thukpa at Tibet Kitchen",
+      "Momos at Joy Restaurant",
+      "Chowmein at Sharma's Cafe"
+    ],
+    "touristTrap": "The overpriced cafes in McLeod Ganj that serve bland food catering to tourists."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest clothing is appreciated, especially when visiting monasteries.",
+    "photographyRules": "Photography is restricted in certain areas of monasteries; always ask first.",
+    "templeEtiquette": "Remove shoes before entering any temple or monastery.",
+    "timing": "Best to visit monasteries early morning for a peaceful experience.",
+    "localCustom": "Offering a small donation at temples is customary and appreciated."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory hostels at ₹500-800/night",
+      "food": "Street food and dhabas for ₹200-300/day",
+      "transport": "Local buses/taxis for ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels at ₹1,500-2,500/night",
+      "food": "Mix of cafes and dhabas for ₹500-800/day",
+      "includes": "Guided tours and some activities."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels at ₹4,000-6,000/night",
+      "experience": "Private tours and exclusive dining experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "High-end resorts and villas",
+      "note": "Luxury options may not significantly enhance the local experience."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek a vibrant nightlife will be disappointed because Dharamshala is focused on tranquility and spirituality.",
+    "If you want bustling markets and urban excitement, Dharamshala is the wrong choice — Delhi or Mumbai are better.",
+    "Anyone expecting lavish amenities will find that Dharamshala prioritizes experience over luxury."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Norbulingka Institute early in the morning for a guided tour at ₹100; it’s less crowded.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local bakery for fresh pastries at the Tibetan Kitchen; they’re a favorite among residents.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the lesser-known trail to Triund for a quieter hike with stunning views; it’s less traveled.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bargain while shopping in local markets; prices are often inflated for tourists.",
+      "category": "shopping"
+    },
+    {
+      "tip": "Join a local cooking class for an authentic taste of Tibetan cuisine; it usually costs around ₹1,000.",
+      "category": "food"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Tsuglagkhang Complex",
+        "Attend a meditation session",
+        "Hike to Bhagsu Waterfall"
+      ],
+      "emotionalArc": "This sequence helps you transition from learning about culture to experiencing the tranquility of nature.",
+      "bestFor": [
+        "spiritual seekers",
+        "nature lovers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Triund",
+        "what": "Panoramic views of the Dhauladhar range",
+        "bestTime": "Sunrise",
+        "tip": "Leave early to capture the golden hour light."
+      }
+    ],
+    "goldenHour": "Morning around 6:30-7:00 AM in summer, 7:00-7:30 AM in winter.",
+    "restrictedAreas": [
+      "Inside monasteries and personal residences."
+    ],
+    "tip": "Use natural frames like doorways or branches to add depth to your photos."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many areas have steep paths, making it challenging for wheelchair users.",
+    "majorChallenges": "Uneven terrain and limited accessibility in older buildings.",
+    "seniorFriendlyScore": 7,
+    "note": "It's advisable to have companions for support in navigating hilly areas."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Palampur",
+      "distance": "35km",
+      "travelTime": "1 hour",
+      "how": "Local buses are frequent and affordable.",
+      "whyCombine": "Known for its tea gardens and scenic beauty."
+    },
+    {
+      "city": "McLeod Ganj",
+      "distance": "10km",
+      "travelTime": "30 minutes",
+      "how": "Local taxi or shared auto.",
+      "whyCombine": "Rich in Tibetan culture and a hub for spiritual activities."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "April",
+    "avoidMonth": "January, due to cold weather and potential snow.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "1,475 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The weather is pleasant with occasional showers, perfect for trekking and exploring.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for tourists."
+  }
+}

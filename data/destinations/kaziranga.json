@@ -1,0 +1,298 @@
+{
+  "destination": "Kaziranga",
+  "state": "Assam",
+  "type": "wildlife/UNESCO",
+  "aliases": [
+    "Kaziranga",
+    "kaziranga",
+    "Assam"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "wildlife enthusiasts",
+      "photographers",
+      "nature lovers",
+      "budget travelers",
+      "adventure seekers"
+    ],
+    "notFor": [
+      "luxury travelers expecting high-end amenities",
+      "city dwellers looking for nightlife",
+      "travelers who dislike wildlife"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the one-horned rhinoceros. They stay for the dawn safaris through the misty grasslands, where the calls of birds echo in the stillness. They return because Kaziranga is a sanctuary where wildlife is not just observed but felt, connecting deeply with the land and its stories.",
+  "honestTruth": "Most guides focus solely on the rhinos, but the real treasure is the diverse ecosystem, from elephants to rare birds, that thrives in the shadows of Kaziranga's tall grasses.",
+  "localTruths": [
+    "Most visitors think they can see all the wildlife in a single safari. Locals think multiple visits are essential to truly appreciate Kaziranga's rich biodiversity.",
+    "Most visitors spend too much time in the park's main zones. The best version of Kaziranga is exploring the lesser-known trails with local guides who share untold stories.",
+    "Most visitors flock to the popular viewpoints. The real Kaziranga starts at the quiet riverbanks where time slows and the surroundings hum with life."
+  ],
+  "neighborhoodPersonalities": {
+    "Kohora": {
+      "tags": [
+        "wildlife",
+        "accommodation",
+        "food"
+      ],
+      "bestFor": "first-time visitors seeking convenience and options",
+      "avoid": "overpriced tourist traps that don't offer genuine experiences"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "take an elephant safari for a unique perspective",
+        "visit the Kaziranga National Park for a chance to see the rhinos",
+        "enjoy a boat ride on the Brahmaputra River at sunset"
+      ],
+      "avoid": [
+        "don't skip the early morning safaris",
+        "avoid rushing through without appreciating the local culture"
+      ],
+      "mindset": "Approach Kaziranga with a spirit of adventure and curiosity, allowing the wild to unfold at its own pace."
+    },
+    "repeat": {
+      "goDeeper": [
+        "explore the lesser-known ranges like Agoratoli",
+        "engage with local conservation efforts",
+        "participate in community-based tourism initiatives"
+      ],
+      "neighborhoods": [
+        "Diphlu River Lodge area for a quieter experience",
+        "Bokakhat for local interactions"
+      ],
+      "local": "One thing only locals and repeat visitors know is to listen to the stories of the guides, as they hold the key to the park's hidden wonders."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "average temp 10-20°C, dry and cool",
+      "crowds": "moderate to heavy during weekends and holidays",
+      "prices": "20% premium",
+      "verdict": "It's the best time for wildlife sightings, but book in advance."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "wildlife is still active and the weather is pleasant with fewer tourists."
+    },
+    "offSeason": {
+      "months": "May to October",
+      "reality": "monsoon rains can lead to temporary closures; however, the park is lush and alive with vibrant flora and fauna.",
+      "hiddenGem": "Some travelers prefer this time for birdwatching as migratory birds flock to the region."
+    },
+    "bestMonth": "January - ideal weather and high wildlife visibility.",
+    "worstMonth": "August - heavy rains can disrupt travel plans and park access."
+  },
+  "commonRegrets": [
+    "Most visitors regret not taking more safaris to fully experience the wildlife.",
+    "Most visitors regret missing the local cuisine by sticking to tourist restaurants.",
+    "Most visitors regret not engaging with local communities for a deeper understanding of the culture."
+  ],
+  "antiPatterns": [
+    "Planning too tight of an itinerary — it fails to allow spontaneous wildlife encounters or local experiences.",
+    "Focusing only on the iconic rhinos — it limits appreciation for the park's overall biodiversity.",
+    "Visiting during peak hours — it leads to crowded experiences and missed wildlife opportunities."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": false,
+      "itinerary": "A day is insufficient to explore Kaziranga's vast landscapes and wildlife.",
+      "verdict": "Plan for at least two days to truly experience the park."
+    },
+    "two_days": {
+      "focus": "wildlife safaris and local culture",
+      "misses": "deeper exploration of lesser-known trails and community experiences."
+    },
+    "three_to_four_days": {
+      "focus": "comprehensive wildlife experience and cultural immersion",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration of varied habitats and interactions with conservation projects",
+      "whoFor": "wildlife enthusiasts and photographers"
+    },
+    "recommended": "3 days — to balance safaris with local experiences without feeling rushed."
+  },
+  "residentSunday": "A Kaziranga resident with one free Sunday: morning coffee at a local tea stall → lunch at Bonhabi Restaurant for traditional Assamese thali → afternoon walk along the Brahmaputra River, observing migratory birds → evening gathering with friends to share stories of the day's wildlife encounters.",
+  "dayMemoryTargets": {
+    "arrival": "The moment the sun rises over the grasslands, illuminating fog and the first sight of rhinos grazing peacefully.",
+    "peak": "The peak memory will be the thrill of spotting a herd of wild elephants crossing the road during a safari.",
+    "departure": "The last image should be of the vibrant sunset over the lush landscape, a reminder of the wild beauty that lingers."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Limited direct buses; best to train or fly.",
+      "flight": "Direct flights to Guwahati, then travel by road.",
+      "recommended": "Take the Shatabdi Express for a comfortable ride and then a taxi to Kaziranga.",
+      "budgetTip": "Book train tickets in advance to save up to ₹1,000."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express, departs 11:45pm, 30 hours, ₹1,200 sleeper class",
+      "flight": "Direct flights to Guwahati, then travel by road.",
+      "recommended": "Fly to Guwahati and take a taxi to Kaziranga for speed."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express, departs 8:00pm, 36 hours, ₹1,500 sleeper class",
+      "flight": "Direct flights to Guwahati, then travel by road.",
+      "recommended": "Fly to Guwahati and hire a taxi to Kaziranga."
+    },
+    "localTransport": {
+      "best": "Shared taxis and auto-rickshaws are convenient for local travel.",
+      "avoid": "Do not rely on private cars as they may be overpriced.",
+      "appRecommendation": "Use Ola or Uber in nearby towns for better rates.",
+      "autoRickshaw": "Reliable for short distances, but negotiate fares upfront.",
+      "cost": "Daily local transport budget of ₹300-500."
+    },
+    "scamPrevention": [
+      {
+        "scam": "Transport Scam",
+        "howItWorks": "Drivers may inflate prices for rides to the park.",
+        "prevention": "Always negotiate fares before boarding or use ride-hailing apps.",
+        "ifItHappens": "Politely refuse to pay more than previously agreed."
+      }
+    ],
+    "foodSafety": {
+      "safeStreetFood": [
+        "Pitha from local vendors at Kohora",
+        "Bamboo shoot dishes at Bonhabi Restaurant",
+        "Fish curry at Diphlu River Lodge"
+      ],
+      "avoidList": [
+        "Avoid uncooked street food and tap water to prevent foodborne illnesses.",
+        "Steer clear of roadside stalls without hygiene standards."
+      ],
+      "waterAdvice": "Drink only bottled or boiled water; avoid ice in drinks.",
+      "trustedDhabas": "Look for busy dhabas with locals eating, as they indicate freshness and good quality.",
+      "mustEat": [
+        "Assamese thali at Bonhabi Restaurant",
+        "Bamboo shoot curry at Diphlu River Lodge",
+        "Fish tenga at local eateries near Kohora"
+      ],
+      "touristTrap": "Avoid overpriced meals at lodges that cater exclusively to tourists."
+    },
+    "culturalIntelligence": {
+      "dressCode": "Modest and comfortable clothing, suitable for outdoor activities; avoid revealing attire.",
+      "photographyRules": "Photography is restricted in certain areas of the park; always ask guides for permission.",
+      "templeEtiquette": "If visiting local temples, remove shoes and wear traditional attire if possible.",
+      "timing": "Respect local customs by avoiding loud behavior during early morning hours.",
+      "localCustom": "Participate in local festivities like Bihu to engage with the community."
+    },
+    "budgetReality": {
+      "backpacker": {
+        "perDay": "₹2,000",
+        "accommodation": "Dormitory beds in guesthouses for ₹500-700",
+        "food": "Eat at local stalls for ₹200-300",
+        "transport": "Use shared taxis or buses."
+      },
+      "comfortable": {
+        "perDay": "₹4,000",
+        "accommodation": "Mid-range hotels for ₹1,500-2,000",
+        "food": "Mix of local and restaurant dining for ₹800-1,000",
+        "includes": "This budget unlocks guided tours and safaris."
+      },
+      "premium": {
+        "perDay": "₹8,000",
+        "accommodation": "Luxury resorts like Diphlu River Lodge",
+        "experience": "Includes private safaris and personalized experiences."
+      },
+      "luxury": {
+        "perDay": "₹15,000+",
+        "accommodation": "5-star resorts with all amenities",
+        "note": "Luxury adds comfort but not necessarily unique experiences."
+      }
+    },
+    "whoThisIsNotFor": [
+      "Travelers who seek nightlife will be disappointed because Kaziranga is primarily focused on nature and wildlife.",
+      "If you want high-end shopping and dining, Kaziranga is the wrong choice — Guwahati is better.",
+      "Anyone expecting urban conveniences will find the rural setting a challenge."
+    ],
+    "insiderIntelligence": [
+      {
+        "tip": "Visit Kaziranga in the early morning for the best chances to see wildlife in action.",
+        "category": "experience"
+      },
+      {
+        "tip": "Engage with local communities to learn about their conservation efforts.",
+        "category": "experience"
+      },
+      {
+        "tip": "Try to book safaris through local operators for a more authentic experience.",
+        "category": "experience"
+      },
+      {
+        "tip": "Bring binoculars for birdwatching — the area is rich in avifauna.",
+        "category": "experience"
+      },
+      {
+        "tip": "Learn a few phrases in Assamese to connect better with locals.",
+        "category": "cultural"
+      }
+    ],
+    "combinationIntelligence": [
+      {
+        "sequence": [
+          "Morning safari in Kaziranga",
+          "Lunch at a local dhaba",
+          "Visit a nearby village for cultural interactions"
+        ],
+        "emotionalArc": "This sequence allows for a blend of adventure, culinary delight, and cultural immersion, enhancing the travel experience.",
+        "bestFor": [
+          "cultural enthusiasts",
+          "food lovers",
+          "wildlife photographers"
+        ]
+      }
+    ],
+    "photographyIntelligence": {
+      "bestShotLocations": [
+        {
+          "name": "Kaziranga National Park",
+          "what": "One-horned rhinoceros and diverse wildlife",
+          "bestTime": "Early morning or late afternoon",
+          "tip": "Use a zoom lens for wildlife photography."
+        }
+      ],
+      "goldenHour": "Sunrise and sunset are ideal for capturing vibrant colors and dramatic landscapes.",
+      "restrictedAreas": [
+        "Certain parts of Kaziranga National Park",
+        "local villages during festivals"
+      ],
+      "tip": "Patience is key; wait quietly for wildlife to appear."
+    },
+    "accessibility": {
+      "wheelchairFriendly": "Limited accessibility in the national park; some areas are rugged.",
+      "majorChallenges": "Uneven terrain and lack of wheelchair-friendly facilities in remote areas.",
+      "seniorFriendlyScore": 7,
+      "note": "Travelers with mobility needs should plan ahead and consult local operators."
+    },
+    "nearbyDestinations": [
+      {
+        "city": "Guwahati",
+        "distance": "217km",
+        "travelTime": "4-5 hours",
+        "how": "By road or train",
+        "whyCombine": "To explore Assam's capital and its cultural sites."
+      }
+    ],
+    "hardFacts": {
+      "bestMonthToVisit": "January",
+      "avoidMonth": "August - heavy rains can limit park access.",
+      "minimumDays": 2,
+      "recommendedDays": 3,
+      "altitude": "50-100 meters above sea level",
+      "timezone": "IST (UTC+5:30)"
+    },
+    "liveIntelligence": {
+      "lastChecked": "2026-06",
+      "seasonalNow": "June is the start of the monsoon, leading to lush greenery but also possible access issues in the park.",
+      "currentAlerts": [],
+      "entryRequirements": "No special permits required for Indian citizens, but check for updates."
+    }
+  }
+}

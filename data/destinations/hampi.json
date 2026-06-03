@@ -1,0 +1,320 @@
+{
+  "destination": "Hampi",
+  "state": "Karnataka",
+  "type": "ruins/heritage",
+  "aliases": [
+    "Hampi",
+    "hampi",
+    "Karnataka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "photographers",
+      "cultural travelers",
+      "backpackers",
+      "spiritual seekers"
+    ],
+    "notFor": [
+      "luxury travelers who expect high-end amenities",
+      "foodies seeking fine dining",
+      "beach lovers looking for coastal experiences"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the ancient temples of the Vijayanagara Empire. They stay for the surreal landscapes of boulders and ruins, where every sunset paints the sky with colors that seem to echo a forgotten time. They return because Hampi's blend of history and raw nature is a reminder that life can be both chaotic and beautiful at once.",
+  "honestTruth": "Most travel writers gloss over Hampi's sheer scale; it's not just about the temples, but the vastness of the landscape that leaves you feeling small and introspective.",
+  "localTruths": [
+    "Most visitors see Hampi as just a historical site. Locals know it as a living canvas where history breathes through the lives of its people.",
+    "Most visitors flock to the Virupaksha Temple. The best version of Hampi is actually found in the quiet corners of Anegundi, across the river.",
+    "Most visitors spend too much time at the main attractions. The real magic of Hampi starts at 6 AM with a sunrise trek to Matanga Hill."
+  ],
+  "neighborhoodPersonalities": {
+    "Hampi Bazaar": {
+      "tags": [
+        "tourist hub",
+        "souvenir shopping",
+        "heritage"
+      ],
+      "bestFor": "immersing in the local market scene",
+      "avoid": "overpriced souvenirs and tourist traps"
+    },
+    "Anegundi": {
+      "tags": [
+        "peaceful",
+        "cultural",
+        "offbeat"
+      ],
+      "bestFor": "experiencing local village life",
+      "avoid": "expecting nightlife or modern amenities"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Explore the Virupaksha Temple",
+        "Visit the Vittala Temple Complex",
+        "Take a sunset at Matanga Hill"
+      ],
+      "avoid": [
+        "Rushing through the ruins",
+        "Ignoring local guides who can enrich the experience"
+      ],
+      "mindset": "Approach Hampi with curiosity — let the ruins tell their stories, and don’t be afraid to wander."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the ancient murals in the Jain Temple",
+        "Cycle through Anegundi's fields",
+        "Engage with local artisans"
+      ],
+      "neighborhoods": [
+        "Anegundi",
+        "Kamalapur",
+        "Hampi's lesser-known temples"
+      ],
+      "local": "One thing only locals and repeat visitors know: the best time to visit the local eateries is during the afternoon when they serve fresh, home-cooked meals."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "pleasant temperatures around 25-30°C during the day, cooler at night",
+      "crowds": "high, with many domestic tourists",
+      "prices": "20-30% higher",
+      "verdict": "ideal for outdoor exploration, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "October, March",
+      "why": "Fewer tourists, pleasant weather, and better prices make it a good time to explore."
+    },
+    "offSeason": {
+      "months": "June to September",
+      "reality": "Monsoon rains can make it difficult to explore, but the landscape turns lush and green, offering a different experience.",
+      "hiddenGem": "Some travelers prefer this time for solitude and the beauty of rain-soaked ruins."
+    },
+    "bestMonth": "January — mild weather and vibrant festivals make it perfect for exploration.",
+    "worstMonth": "April — extreme heat can make day exploration uncomfortable."
+  },
+  "commonRegrets": [
+    "Most visitors regret not bringing a good camera to capture the stunning landscapes.",
+    "Most visitors regret not exploring the ruins at sunrise or sunset when the light is magical.",
+    "Most visitors regret skipping local restaurants for tourist traps."
+  ],
+  "antiPatterns": [
+    "Hurrying through the main attractions — it leads to missing the subtle beauty of Hampi's landscape.",
+    "Focusing solely on historical sites while ignoring the local culture and community — it diminishes the experience.",
+    "Visiting only the temples without exploring the surrounding landscapes and villages."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Virupaksha Temple, Vittala Temple, and Matanga Hill for sunset.",
+      "verdict": "You can see the highlights, but the experience will feel rushed."
+    },
+    "two_days": {
+      "focus": "Covers major attractions and allows for a leisurely exploration.",
+      "misses": "Doesn't give time to explore Anegundi and the lesser-known temples."
+    },
+    "three_to_four_days": {
+      "focus": "Allows for both major sites and deeper exploration of local life and culture.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of Hampi and surrounding areas like Anegundi and Hospet.",
+      "whoFor": "History buffs and nature lovers."
+    },
+    "recommended": "3 days — this allows you to absorb the history and enjoy the serene landscapes."
+  },
+  "residentSunday": "A Hampi resident with one free Sunday: starts the morning with a chai at the local stall near Virupaksha Temple → enjoys a leisurely breakfast of idli and sambar at the nearby MTR → spends the afternoon cycling through Anegundi's fields and visiting local artisans → ends the day watching the sunset at Hemakuta Hill with friends, sharing stories and laughter.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first glimpse the boulders and ruins spread across the horizon, feeling like stepping into a time machine.",
+    "peak": "The peak day memory is standing on Matanga Hill at sunset, watching the sky explode in colors, feeling a sense of peace that is hard to describe.",
+    "departure": "The last image should be the silhouette of the ancient temples against the setting sun as you leave, a lingering thought of their stories."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Karnataka Express 12627, departs 8:30 PM, 24 hours, ₹1,200 sleeper class",
+      "bus": "Long-distance buses are available but can be uncomfortable for such a long journey.",
+      "flight": "No direct flights, nearest is Hubli Airport (HBX) 80 km away.",
+      "recommended": "Take the train for comfort and scenic views; book in advance for better prices.",
+      "budgetTip": "Use IRCTC's 'Tatkal' scheme to save up to ₹1,000 by booking last-minute."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, duration 12 hours, ₹900 sleeper class",
+      "flight": "Direct flights to Hubli (HBX) are available, approx. ₹3,500.",
+      "recommended": "Train is better for budget travelers."
+    },
+    "fromBangalore": {
+      "train": "Jan Shatabdi Express 12079, departs 6:00 AM, 8 hours, ₹600 AC chair car",
+      "flight": "No direct flights; better to take a train or bus.",
+      "recommended": "The train is the most efficient and budget-friendly option."
+    },
+    "localTransport": {
+      "best": "Bicycles for rent are the best way to explore Hampi.",
+      "avoid": "Avoid overcharging auto-rickshaws for short distances.",
+      "appRecommendation": "Use 'Hampi on Wheels' for reliable bicycle rentals.",
+      "autoRickshaw": "Auto-rickshaws are available but can be expensive for tourists.",
+      "cost": "Daily local transport budget should be around ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Overcharging for bicycle rentals",
+      "howItWorks": "Some vendors may inflate prices for tourists.",
+      "prevention": "Check multiple rental shops and ask locals for fair prices.",
+      "ifItHappens": "Politely refuse and walk away; there are plenty of options."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Masala dosa at MTR, ₹40",
+      "Pani puri at Raghunandan's Stall, ₹20",
+      "Chaat at Abarna's Stall, ₹30"
+    ],
+    "avoidList": [
+      "Avoid street stalls with unsanitary conditions or where food is left uncovered.",
+      "Be cautious of milk products from unknown sources."
+    ],
+    "waterAdvice": "Drink only bottled water from trusted brands; avoid tap water.",
+    "trustedDhabas": "Look for dhabas with a crowd of locals, indicating food quality.",
+    "mustEat": [
+      "Ragi mudde at Mango Tree, ₹150",
+      "Bisi bele bath at Shree Krishna, ₹120",
+      "Pongal at MTR, ₹100"
+    ],
+    "touristTrap": "Many tourists fall for the 'Hampi thali' in overpriced restaurants that lack authentic flavors."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest clothing is recommended when visiting temples; cover shoulders and knees.",
+    "photographyRules": "Photography is restricted inside certain temples; always ask before taking photos.",
+    "templeEtiquette": "Remove shoes before entering temple premises and maintain silence.",
+    "timing": "Best to visit temples during early morning or late afternoon to avoid crowds.",
+    "localCustom": "It’s customary to greet locals with a smile and 'Namaste' for a friendly interaction."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels starting at ₹500",
+      "food": "Street food and local eateries, ₹500-800",
+      "transport": "Bicycle rentals at ₹200/day."
+    },
+    "comfortable": {
+      "perDay": "₹3,500",
+      "accommodation": "Mid-range hotels around ₹1,200/night",
+      "food": "Mix of street food and restaurants, ₹1,000",
+      "includes": "Guided tours and local experiences."
+    },
+    "premium": {
+      "perDay": "₹6,000",
+      "accommodation": "Boutique hotels or heritage stays, ₹3,000/night",
+      "experience": "Private guided tours and meals at well-reviewed restaurants."
+    },
+    "luxury": {
+      "perDay": "₹10,000+",
+      "accommodation": "Luxury resorts and hotels, ₹5,000/night",
+      "note": "Luxury adds comfort but may not enhance the cultural experience significantly."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who prioritize nightlife will be disappointed because Hampi is quiet after dark.",
+    "If you want modern amenities and luxury, Hampi is the wrong choice — Bangalore's upscale hotels are better.",
+    "Anyone expecting a fast-paced vacation will find Hampi's slow rhythm challenging."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Hampi Utsav in January for a blend of culture and history, with no entry fees.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take an early morning guided trek to experience the sunrise from Matanga Hill, costs around ₹500.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local ragi mudde at Mango Tree for an authentic taste of Karnataka, around ₹150.",
+      "category": "food"
+    },
+    {
+      "tip": "Engage with local artisans in Anegundi and learn about their crafts, often free of charge.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a cycling tour for a unique way to explore the ruins and surrounding villages, costs about ₹800.",
+      "category": "transport"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Sunrise at Matanga Hill",
+        "Breakfast at Mango Tree",
+        "Exploration of Vittala Temple",
+        "Lunch at Shree Krishna"
+      ],
+      "emotionalArc": "This sequence builds anticipation and rewards with beautiful sights and delicious food, creating a fulfilling day.",
+      "bestFor": [
+        "history enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Matanga Hill",
+        "what": "Panoramic views of Hampi",
+        "bestTime": "Sunrise",
+        "tip": "Arrive early to secure the best spot."
+      },
+      {
+        "name": "Vittala Temple",
+        "what": "Ruins and intricate carvings",
+        "bestTime": "Late afternoon",
+        "tip": "Capture the temple amidst the golden hour light."
+      }
+    ],
+    "goldenHour": "The golden hour in Hampi is approximately 6:00 AM to 7:00 AM and 6:30 PM to 7:30 PM.",
+    "restrictedAreas": [
+      "Inside Virupaksha Temple and Jain Temple."
+    ],
+    "tip": "Always ask locals about the best spots to photograph for unique perspectives."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many temples and ruins are not wheelchair accessible due to uneven terrain and steps.",
+    "majorChallenges": "The boulder-strewn landscape poses significant challenges for mobility-impaired travelers.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan routes carefully and consider hiring local guides for assistance."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Hospet",
+      "distance": "13km",
+      "travelTime": "30 minutes",
+      "how": "Local buses or auto-rickshaws",
+      "whyCombine": "Hospet has railway connectivity and local markets."
+    },
+    {
+      "city": "Badami",
+      "distance": "150km",
+      "travelTime": "3 hours",
+      "how": "Buses or private taxis",
+      "whyCombine": "Famous for rock-cut temples and ancient architecture."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "January",
+    "avoidMonth": "April — extreme heat makes exploration uncomfortable.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "465 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June brings monsoon rains, making the landscape lush but challenging for outdoor activities.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for entry."
+  }
+}

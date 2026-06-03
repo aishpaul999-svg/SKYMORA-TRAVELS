@@ -1,0 +1,304 @@
+{
+  "destination": "Kumbhalgarh",
+  "state": "Rajasthan",
+  "type": "heritage",
+  "aliases": [
+    "Kumbhalgarh",
+    "kumbhalgarh",
+    "Rajasthan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "photographers",
+      "nature lovers",
+      "adventure seekers",
+      "architectural students"
+    ],
+    "notFor": [
+      "luxury travelers",
+      "beach lovers",
+      "party seekers"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the imposing Kumbhalgarh Fort, a UNESCO World Heritage Site. They stay for the sunset views from the fort walls, where the horizon melts into shades of orange and purple. They return because Kumbhalgarh offers a rare glimpse into India's Rajputana legacy, where every stone tells a story of valor and sacrifice.",
+  "honestTruth": "Most guides miss that Kumbhalgarh's real charm lies not just in the fort but in the stories of its local villagers, who keep the legacy alive through their hospitality and craftsmanship.",
+  "localTruths": [
+    "Most visitors think Kumbhalgarh is just about the fort. Locals think it’s about the vibrant culture and traditions that flourish in the surrounding villages.",
+    "Most visitors rush through the fort in a few hours. The best version of Kumbhalgarh is to explore the nearby temples and enjoy a traditional Rajasthani meal at a local dhaba.",
+    "Most visitors spend too much time at the fort. The real Kumbhalgarh starts at the village market where you can see artisans at work."
+  ],
+  "neighborhoodPersonalities": {
+    "Kumbhalgarh Fort": {
+      "tags": [
+        "historic",
+        "architectural",
+        "scenic"
+      ],
+      "bestFor": "exploring the history and grandeur of Rajputana architecture.",
+      "avoid": "visiting during peak midday heat without proper hydration and sunscreen."
+    },
+    "Nearby Villages": {
+      "tags": [
+        "cultural",
+        "rural",
+        "artisanal"
+      ],
+      "bestFor": "experiencing local crafts and traditional Rajasthani life.",
+      "avoid": "not engaging with the locals who are eager to share their stories."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "explore Kumbhalgarh Fort",
+        "visit the nearby Neelkantheshwar Temple",
+        "enjoy a local meal at Sanwaria Restaurant"
+      ],
+      "avoid": [
+        "underestimating the trek up to the fort",
+        "not carrying enough water for your visit"
+      ],
+      "mindset": "Approach Kumbhalgarh with an open heart, ready to absorb the rich history and vibrant local culture."
+    },
+    "repeat": {
+      "goDeeper": [
+        "attend a local festival if timing permits",
+        "explore the lesser-known temples",
+        "take a guided village tour"
+      ],
+      "neighborhoods": [
+        "explore the villages around the fort for authentic experiences"
+      ],
+      "local": "Only locals know the best spots for panoramic views of the fort, especially at dusk."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "Pleasant with temperatures ranging from 15°C to 25°C.",
+      "crowds": "High tourist footfall, especially during festivals.",
+      "prices": "Price premium of 30%.",
+      "verdict": "Best time to enjoy the fort and surroundings, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Less crowded, and you can enjoy the fort with fewer tourists around despite the rising temperatures."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon rains can make travel challenging, but the landscape transforms into lush greenery.",
+      "hiddenGem": "Some travelers prefer this time for the serene atmosphere and fewer crowds."
+    },
+    "bestMonth": "November — ideal weather for exploring the fort and surrounding areas.",
+    "worstMonth": "May — extreme heat can be uncomfortable for sightseeing."
+  },
+  "commonRegrets": [
+    "Most visitors regret not staying longer to explore the surrounding villages.",
+    "Most visitors regret not hiring a local guide for a deeper understanding of the fort's history.",
+    "Most visitors regret visiting during the peak hours, missing the best light for photography."
+  ],
+  "antiPatterns": [
+    "Visiting only the fort without exploring the local culture — it feels incomplete.",
+    "Trying to rush through Kumbhalgarh in a day — you miss out on its essence.",
+    "Visiting during the peak afternoon sun — it can be exhausting and unenjoyable."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Kumbhalgarh Fort in the morning, have lunch at a local dhaba, and explore nearby temples in the afternoon.",
+      "verdict": "A rushed experience, but can be rewarding if planned well."
+    },
+    "two_days": {
+      "focus": "Exploring the fort and immersing in local culture.",
+      "misses": "Opportunities to connect with artisans and attend local events."
+    },
+    "three_to_four_days": {
+      "focus": "Deep exploration of the fort, nearby villages, and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth cultural experiences, including workshops and village tours.",
+      "whoFor": "Cultural enthusiasts and those looking for a comprehensive trip."
+    },
+    "recommended": "3 days — it allows for a balanced experience of history, culture, and leisure."
+  },
+  "residentSunday": "A Kumbhalgarh resident with one free Sunday: mornings start with a walk around the village to greet neighbors and admire morning rituals → lunch at 'Shree Rajputana Dhaba' for a traditional thali → afternoons spent crafting handmade jewelry with family → evenings at the fort to watch the sunset with friends, sharing stories and laughter.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the fort and see the vast expanse of the Aravalli hills stretching out before you.",
+    "peak": "Standing on the fort walls during sunset, watching the changing colors of the sky.",
+    "departure": "Feeling a sense of connection to the stories of valor that echo within the fort's walls."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Rajasthan Sampark Kranti Express 12457, departs 6:20am, 10 hours, ₹650 Sleeper class",
+      "bus": "Buses are available, but can be uncomfortable and take longer.",
+      "flight": "No direct flights; Udaipur is the nearest airport.",
+      "recommended": "Train is the best option for comfort and cost-effectiveness.",
+      "budgetTip": "Book train tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Mandore Express 14803, departs 9:50pm, 13 hours, ₹750 Sleeper class",
+      "flight": "Flights to Udaipur are available but costly.",
+      "recommended": "Train travel offers a more authentic experience and is more affordable."
+    },
+    "fromBangalore": {
+      "train": "There are no direct trains; consider a combination of flights to Udaipur and then a train.",
+      "flight": "Flights to Udaipur are available.",
+      "recommended": "Flying to Udaipur and then taking a taxi or train to Kumbhalgarh is the most efficient route."
+    },
+    "localTransport": {
+      "best": "Local taxis or private vehicles are the best for flexibility.",
+      "avoid": "Avoid relying solely on auto-rickshaws for long distances.",
+      "appRecommendation": "Use Ola or Uber for reliable rides.",
+      "autoRickshaw": "Auto-rickshaws are available but can be expensive for longer distances.",
+      "cost": "Around ₹500-800 for daily local transport."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Fake Guide Scam",
+      "howItWorks": "Unlicensed guides approach tourists offering services at inflated prices.",
+      "prevention": "Always check for registered guides or go through official channels.",
+      "ifItHappens": "Politely decline and report to local authorities."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Pyaaz Kachori from 'Kachori Gali'",
+      "Samosas from 'Chaat Gali'",
+      "Chai from 'Chaiwala Kumbhalgarh'"
+    ],
+    "avoidList": [
+      "Tap water is not safe; always drink bottled water.",
+      "Street food from unknown vendors should be approached with caution."
+    ],
+    "waterAdvice": "Always opt for sealed bottled water to avoid stomach issues.",
+    "trustedDhabas": "Look for crowded dhabas, as locals tend to choose reliable eateries.",
+    "mustEat": [
+      "Dal Baati Churma at 'Sanwaria Restaurant'",
+      "Gatte Ki Sabzi at 'Shree Rajputana Dhaba'",
+      "Ker Sangri at 'Aangan Restaurant'"
+    ],
+    "touristTrap": "Avoid 'Fort View Restaurant' which is known for overpriced and underwhelming food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest clothing is recommended, especially when visiting temples.",
+    "photographyRules": "Photography is restricted in certain temple areas; always ask first.",
+    "templeEtiquette": "Remove shoes before entering temples and maintain silence.",
+    "timing": "Early mornings or late afternoons are the best times to visit attractions to avoid crowds and heat.",
+    "localCustom": "Greet locals with 'Ram Ram' as a sign of respect."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "hostels or budget guesthouses at ₹500-800 per night",
+      "food": "₹300-500 for street food and local dhabas",
+      "transport": "₹300-500 for local transport."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "mid-range hotels at ₹1,500-2,500 per night",
+      "food": "₹600-800 at decent restaurants",
+      "includes": "local transport and minor entry fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "luxury hotels at ₹4,000-5,000 per night",
+      "experience": "includes guided tours and special meals."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star hotels with full amenities",
+      "note": "Luxury here may not add significant value; consider spending on experiences instead."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who expect modern amenities will be disappointed because Kumbhalgarh is focused on heritage and culture.",
+    "If you want a party scene, Kumbhalgarh is the wrong choice — Udaipur offers better nightlife.",
+    "Anyone expecting a commercial tourist experience will find Kumbhalgarh's charm in its simplicity."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the fort early in the morning; entry is cheaper at ₹50 before 9am.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to catch the local folk dance performances in the village; it's free and very entertaining.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring comfortable walking shoes; the fort requires a lot of walking on uneven paths.",
+      "category": "experience"
+    },
+    {
+      "tip": "Chat with local craftsmen about their work; many are eager to share their skills and stories.",
+      "category": "experience"
+    },
+    {
+      "tip": "Learn a few words of Rajasthani; locals appreciate the effort and are more welcoming.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Kumbhalgarh Fort",
+        "Neelkantheshwar Temple",
+        "Village Market"
+      ],
+      "emotionalArc": "This sequence allows you to build anticipation with the grandeur of the fort, followed by spiritual tranquility, and finally immersing in the local culture.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "history buffs"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Fort Walls",
+        "what": "panoramic views of the Aravalli hills",
+        "bestTime": "sunset",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Early morning and late afternoon for best natural light.",
+    "restrictedAreas": [
+      "inside temples and specific fort sections."
+    ],
+    "tip": "Use a polarizer filter to enhance colors during the day."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "The fort has steep paths and steps making it challenging for wheelchair users.",
+    "majorChallenges": "Access to certain areas of the fort and temple steps can be difficult.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan ahead and consider hiring local assistance."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Udaipur",
+      "distance": "84km",
+      "travelTime": "2 hours",
+      "how": "Taxi or bus",
+      "whyCombine": "Udaipur offers additional attractions like Lake Pichola and City Palace."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "May — extreme heat makes sightseeing uncomfortable.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "600m",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "As of June 2026, the monsoon is beginning, with occasional showers and lush landscapes.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits are required for visiting Kumbhalgarh."
+  }
+}

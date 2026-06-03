@@ -1142,15 +1142,32 @@ function setUnlockedUI() {
 /* ===== generate itinerary (calls backend) ===== */
 async function generateItinerary(trip) {
   console.log("🌍 Sending trip details to backend:", trip);
-  
+
+  // Ensure tripDays has a value
+  if (!trip.tripDays || trip.tripDays < 1) {
+    if (trip.departureDate && trip.returnDate) {
+      const diff = Math.ceil((new Date(trip.returnDate) - new Date(trip.departureDate)) / (1000*60*60*24));
+      trip.tripDays = Math.max(1, diff);
+    } else {
+      trip.tripDays = 3;
+    }
+  }
+
   try {
-const response = await fetch(`${window.location.origin}/api/generate`, {   method: "POST",
+    // 90 second timeout — generation takes 15-45 seconds
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 90000);
+
+    const response = await fetch(`${window.location.origin}/api/generate`, {
+      method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(trip)
+      body: JSON.stringify(trip),
+      signal: controller.signal
     });
+    clearTimeout(timeout);
 
     const data = await response.json();
-    
+
     if (!data.success) {
       throw new Error("Failed to generate itinerary.");
     }

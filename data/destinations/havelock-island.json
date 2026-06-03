@@ -1,0 +1,308 @@
+{
+  "destination": "Havelock Island",
+  "state": "Andaman & Nicobar",
+  "type": "beach/dive",
+  "aliases": [
+    "Havelock Island",
+    "havelock island",
+    "Andaman & Nicobar"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "adventure seekers",
+      "divers",
+      "families",
+      "nature enthusiasts"
+    ],
+    "notFor": [
+      "luxury travelers seeking opulence",
+      "party-goers looking for nightlife",
+      "those who prefer urban settings"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the serene beaches of Radhanagar. They stay for the vibrant coral reefs at Elephant Beach — the thrill of snorkeling with fish darting by. They return because Havelock Island is the only place in India where the calm of the sea meets the thrill of adventure seamlessly.",
+  "honestTruth": "Most guides overlook the fact that the best experiences often happen outside of peak tourist spots — such as a local fishing expedition with fishermen at sunrise.",
+  "localTruths": [
+    "Most visitors think Havelock is all about Radhanagar Beach. Locals think the real charm lies in the lesser-known Vijay Nagar Beach — less crowded, equally stunning.",
+    "Most visitors rush to book activities. The best version of Havelock Island is enjoying a beach day without a packed schedule, simply soaking in the sun and local vibes.",
+    "Most visitors spend too much time at the resorts. The real Havelock starts at the local markets, where you can taste fresh seafood and interact with the islanders."
+  ],
+  "neighborhoodPersonalities": {
+    "Radhanagar Beach": {
+      "tags": [
+        "beach",
+        "relaxation",
+        "sunset"
+      ],
+      "bestFor": "sunset views and beach lounging",
+      "avoid": "avoid peak hours to escape crowds"
+    },
+    "Elephant Beach": {
+      "tags": [
+        "snorkeling",
+        "adventure",
+        "water sports"
+      ],
+      "bestFor": "adventurous water activities",
+      "avoid": "avoid weekends to skip the crowds"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Relax at Radhanagar Beach",
+        "Snorkel at Elephant Beach",
+        "Take a sunset cruise",
+        "Explore Kalapathar Beach"
+      ],
+      "avoid": [
+        "Don't skip local dining experiences for hotel food",
+        "Avoid rushing through activities without enjoying the surroundings"
+      ],
+      "mindset": "Approach Havelock Island with a spirit of exploration and relaxation, allowing for spontaneous experiences."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Visit the local markets for fresh seafood",
+        "Take a guided underwater photography tour",
+        "Explore the untouched beaches like Long Beach",
+        "Engage in volunteer activities with local conservation efforts"
+      ],
+      "neighborhoods": [
+        "Kalimatang Village",
+        "Long Beach"
+      ],
+      "local": "One thing only locals and repeat visitors know is that the best seafood is at the small shacks near the docks."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "pleasant temperatures around 25-30°C, dry conditions",
+      "crowds": "crowds can be heavy, especially during holidays",
+      "prices": "price premium of 30-50%",
+      "verdict": "It's beautiful but expect crowds and higher prices."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "Fewer tourists and still great weather make it ideal for a peaceful getaway."
+    },
+    "offSeason": {
+      "months": "May to October",
+      "reality": "Expect heavy rain and occasional storms, but the island is less crowded.",
+      "hiddenGem": "Some travelers prefer this time for the lush green landscapes and lower accommodation prices."
+    },
+    "bestMonth": "March — ideal weather and fewer crowds.",
+    "worstMonth": "July — heavy monsoon rains disrupt travel plans and activities."
+  },
+  "commonRegrets": [
+    "Most visitors regret not spending enough time at the local beaches.",
+    "Most visitors regret not trying the street food at the local markets.",
+    "Most visitors regret not taking the time to interact with locals."
+  ],
+  "antiPatterns": [
+    "Booking too many activities in one day — it leads to burnout.",
+    "Sticking to only popular tourist spots — you miss the essence of the island.",
+    "Planning a visit during heavy rainfall — it ruins the beach experience."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Radhanagar Beach in the morning, snorkel at Elephant Beach, and enjoy a sunset at Kalapathar Beach.",
+      "verdict": "You can see highlights but will miss deeper experiences."
+    },
+    "two_days": {
+      "focus": "Covering major beaches and a local dining experience.",
+      "misses": "You miss hidden spots and interactions with locals."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience of relaxation, adventure, and local culture.",
+      "sweetSpot": true
+    },
+    "five-to-seven_days": {
+      "focus": "In-depth exploration of beaches, diving spots, and cultural engagement.",
+      "whoFor": "travelers who seek both adventure and relaxation."
+    },
+    "recommended": "3 days — it allows a good mix of activity and leisure."
+  },
+  "residentSunday": "A Havelock Island resident with one free Sunday: Morning yoga on Radhanagar Beach → Lunch at a local fish shack serving grilled fish → Afternoon snorkeling at Elephant Beach with friends → Evening gathering with locals for a bonfire on the beach.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping off the ferry and feeling the ocean breeze mixed with the scent of fresh seafood.",
+    "peak": "The moment you dive into the vibrant coral reefs and see the underwater life for the first time.",
+    "departure": "The last view of the sunset over the ocean as you leave the island."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Check IRCTC.co.in for trains from Delhi to nearest station (None)",
+      "bus": "Limited options, longer travel times and not recommended.",
+      "flight": "Direct flights to Port Blair available, prices vary based on season.",
+      "recommended": "SKYmora recommends flying to Port Blair and then taking a ferry to Havelock Island for safety and convenience.",
+      "budgetTip": "Book flights 3 months in advance to save ₹1,000-2,000."
+    },
+    "fromMumbai": {
+      "train": "N/A",
+      "flight": "Direct flights available to Port Blair. Prices range from ₹5,000-8,000.",
+      "recommended": "Book early to secure the best rates."
+    },
+    "fromBangalore": {
+      "train": "N/A",
+      "flight": "Direct flights available to Port Blair, ranging from ₹4,500-7,500.",
+      "recommended": "Consider a flight to save time."
+    },
+    "localTransport": {
+      "best": "Bicycles and scooters are the best way to explore the island.",
+      "avoid": "Avoid relying on public transportation as options are limited.",
+      "appRecommendation": "There are no specific apps, but local rental shops offer bicycles.",
+      "autoRickshaw": "Limited options and can be expensive for short distances.",
+      "cost": "Daily local transport budget around ₹500-1,000."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Ferry Ticket Scams",
+      "howItWorks": "Scammers sell fake ferry tickets to tourists.",
+      "prevention": "Always buy tickets from official counters or trusted sources.",
+      "ifItHappens": "Report to local authorities immediately."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Grilled fish at the market near the jetty",
+      "Fish curry from local shacks",
+      "Fresh coconut water from roadside vendors"
+    ],
+    "avoidList": [
+      "Avoid eating raw seafood from unknown sources due to hygiene concerns.",
+      "Avoid street food that looks unattended."
+    ],
+    "waterAdvice": "Drink bottled water only; avoid tap water.",
+    "trustedDhabas": "Look for busy stalls with locals dining to ensure freshness.",
+    "mustEat": [
+      "Fish Curry at Anju Coco, ₹250",
+      "Tandoori Fish at Full Moon Cafe, ₹400",
+      "Prawn Masala at The Village, ₹350"
+    ],
+    "touristTrap": "Avoid overpriced restaurants near the main ferry terminal that cater exclusively to tourists."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Light, comfortable clothing suitable for beach activities; swimwear is acceptable on the beach but cover up when off.",
+    "photographyRules": "Respect local privacy; ask permission before photographing individuals.",
+    "templeEtiquette": "N/A",
+    "timing": "Avoid visiting beaches during peak sun hours (12-3 PM) for health reasons.",
+    "localCustom": "When meeting locals, a friendly smile and greeting in Hindi go a long way."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds at hostels for ₹600-800",
+      "food": "Street food and local dhabas for ₹400",
+      "transport": "Bicycle rentals for ₹200."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Budget hotels or guesthouses for ₹1,500-2,000",
+      "food": "Mix of local dining and casual eateries, ₹800-1,000",
+      "includes": "Local tours and activities."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Mid-range hotels for ₹3,500-4,500",
+      "experience": "Guided tours and premium activities."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury resorts with all amenities",
+      "note": "Luxury doesn't necessarily enhance the experience due to the island's natural beauty."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who crave nightlife will be disappointed because Havelock Island is quiet after sunset.",
+    "If you want a fast-paced vacation, Havelock Island is the wrong choice — the pace here is leisurely.",
+    "Anyone expecting high-end shopping will find the local markets limited and basic."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit local markets early in the morning for the freshest seafood and local produce, around 7 AM.",
+      "category": "food"
+    },
+    {
+      "tip": "Rent a bicycle and explore the hidden beaches rather than sticking to the main areas.",
+      "category": "experience"
+    },
+    {
+      "tip": "Book diving sessions in advance as spots fill up quickly during peak season.",
+      "category": "experience"
+    },
+    {
+      "tip": "Always negotiate prices for beach equipment rentals for better deals.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join local community events for an authentic experience, often organized on weekends.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Relax at Radhanagar Beach",
+        "Snorkel at Elephant Beach",
+        "Enjoy a sunset cruise"
+      ],
+      "emotionalArc": "This sequence allows for a mix of relaxation, adventure, and reflection, giving a rounded experience of the island's charm.",
+      "bestFor": [
+        "families",
+        "couples",
+        "adventure seekers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Radhanagar Beach",
+        "what": "Sunset over the horizon",
+        "bestTime": "Evening around 5:30 PM",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "The hour after sunrise and the hour before sunset are ideal for photography.",
+    "restrictedAreas": [
+      "Military areas are off-limits for photography."
+    ],
+    "tip": "Use a polarizing filter to enhance the colors of the sea and sky."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility due to uneven terrain and sandy beaches.",
+    "majorChallenges": "Lack of paved paths and accessible transport options.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan activities carefully."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Neil Island",
+      "distance": "10km",
+      "travelTime": "30 minutes by ferry",
+      "how": "Frequent ferries from Havelock",
+      "whyCombine": "Neil Island offers an equally relaxing vibe with fewer crowds."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "March",
+    "avoidMonth": "July — heavy rains disrupt travel.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "N/A",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "Currently in peak season with pleasant weather but crowded beaches.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for Indian citizens; foreigners may need to check for permits."
+  }
+}

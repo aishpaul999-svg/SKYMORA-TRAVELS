@@ -1,0 +1,315 @@
+{
+  "destination": "Jaisalmer",
+  "state": "Rajasthan",
+  "type": "city",
+  "aliases": [
+    "Jaisalmer",
+    "jaisalmer",
+    "Rajasthan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History enthusiasts",
+      "Cultural explorers",
+      "Adventure seekers",
+      "Photography lovers",
+      "Budget travelers"
+    ],
+    "notFor": [
+      "Luxury travelers expecting opulence",
+      "Beach lovers looking for coastal vibes",
+      "Travelers who dislike desert climates"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the golden sands of the Thar Desert. They stay for the mesmerizing sunset at Sam Sand Dunes, where the sky ignites in shades of orange and pink. They return because Jaisalmer is the only place where the intricate craftsmanship of havelis tells stories of centuries gone by, echoing the sounds of traditional music in the air.",
+  "honestTruth": "Many overlook that the best way to experience Jaisalmer is to wander through its less commercialized lanes and engage with the local artisans — they hold the keys to the city's authentic soul.",
+  "localTruths": [
+    "Most visitors think Jaisalmer is solely about the forts. Locals think the real treasure lies in the craftsmanship of the artisans who still create masterpieces by hand.",
+    "Most visitors rush to see the Golden Fort. The best version of Jaisalmer is found in the quiet lanes of the Patwon Ki Haveli, where history whispers through the walls.",
+    "Most visitors spend too much time shopping for souvenirs in street markets. The real Jaisalmer starts at the local chai stalls where you can savor authentic flavors and stories."
+  ],
+  "neighborhoodPersonalities": {
+    "Gadisar Lake": {
+      "tags": [
+        "peaceful",
+        "scenic",
+        "historic"
+      ],
+      "bestFor": "A serene spot for evening strolls and reflections",
+      "avoid": "Avoid peak hours when it gets crowded with tourists."
+    },
+    "Fort Area": {
+      "tags": [
+        "cultural",
+        "busy",
+        "vibrant"
+      ],
+      "bestFor": "Exploring ancient architecture and local crafts",
+      "avoid": "Avoid dining at overly commercial restaurants that lack authentic flavor."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Explore Jaisalmer Fort",
+        "Visit Patwon Ki Haveli",
+        "Experience a desert safari",
+        "Witness the sunset at Sam Sand Dunes"
+      ],
+      "avoid": [
+        "Don’t limit your experience to just the Fort; there's more to Jaisalmer.",
+        "Avoid over-scheduling; leave time for spontaneous adventures."
+      ],
+      "mindset": "Approach Jaisalmer with an open heart and a willingness to connect with both the land and its people."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Attend a local music night at a desert camp",
+        "Learn about the artisan craft of puppetry",
+        "Take a guided heritage walk through lesser-known areas",
+        "Visit local villages to experience true desert life"
+      ],
+      "neighborhoods": [
+        "Bhatia Nagar",
+        "Salim Singh Ki Haveli"
+      ],
+      "local": "Only locals know the best time to visit the desert is just after sunrise when the sand is cool and the colors are vibrant."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "Average 10°C to 25°C, pleasant days and cool nights.",
+      "crowds": "Tourist crowds peak, especially during festivals.",
+      "prices": "Prices can surge by 30-50%.",
+      "verdict": "Ideal time but expect busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer crowds and more affordable prices, with the desert landscape still beautiful before the heat sets in."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon season brings occasional rains and cooler temperatures, but also risks of flash floods.",
+      "hiddenGem": "Some travelers prefer this time for the lush greenery and the quiet atmosphere."
+    },
+    "bestMonth": "November — perfect weather for desert activities and festivals.",
+    "worstMonth": "July — heavy rains can disrupt travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in local villages to understand the culture.",
+    "Most visitors regret skipping the desert safari for a more commercial experience.",
+    "Most visitors regret not engaging more with local artisans."
+  ],
+  "antiPatterns": [
+    "Rushing through the Fort Area and missing the charm of the surrounding neighborhoods — it dilutes the experience.",
+    "Planning a desert trip without checking weather conditions — can lead to disappointment.",
+    "Visiting only during peak hours, which can make the experience feel rushed and crowded."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Explore Jaisalmer Fort, Patwon Ki Haveli, and sunset at Sam Sand Dunes.",
+      "verdict": "A taste of Jaisalmer, but you'll leave wanting more."
+    },
+    "two_days": {
+      "focus": "Main highlights including a desert safari and local cuisine.",
+      "misses": "Overlooked attractions like Bada Bagh and local artisans."
+    },
+    "three_to_four_days": {
+      "focus": "A deeper dive into culture, desert activities, and lesser-known sites.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Comprehensive exploration with day trips to nearby villages and cultural experiences.",
+      "whoFor": "Ideal for culture enthusiasts and adventure seekers."
+    },
+    "recommended": "3 days — enough time to experience the richness of Jaisalmer without feeling rushed."
+  },
+  "residentSunday": "A Jaisalmer resident with one free Sunday: Morning starts at 7 AM with a walk around Gadisar Lake, enjoying tea from a local stall. Lunch at 'The Trio', known for its authentic Rajasthani thali. Afternoon spent exploring local artisan workshops in the Fort area. Evening ends with a small gathering of friends around a bonfire under the stars, sharing stories of the desert.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out into the golden sands of the desert, feeling the warmth and smell of the dry earth.",
+    "peak": "The day you ride a camel across the dunes at sunset, experiencing the colors of the sky shift and the desert come alive.",
+    "departure": "The last image should be the mesmerizing sight of the Fort illuminated under the stars as you leave."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Delhi→Jaisalmer: Jaisalmer Express 14059 (overnight, 17h, ₹500 sleeper)",
+      "bus": "Buses are available but take about 20-22 hours with limited comfort.",
+      "flight": "No direct flights; nearest airport is Jodhpur.",
+      "recommended": "The train is the best option for comfort and cost-effectiveness.",
+      "budgetTip": "Book train tickets in advance to save up to ₹1000."
+    },
+    "fromMumbai": {
+      "train": "Mandore Express 14659, departs 10:05 PM, 16h 30m, ₹650 sleeper",
+      "flight": "Airlines like IndiGo and SpiceJet offer flights to Jodhpur, then a bus or taxi to Jaisalmer.",
+      "recommended": "Train travel is more scenic and economical."
+    },
+    "fromBangalore": {
+      "train": "No direct trains; travelers should take a train to Jodhpur and then a bus or taxi. Flight to Jodhpur is available.",
+      "flight": "Direct flights to Jodhpur are available, followed by a taxi.",
+      "recommended": "Opt for flights to Jodhpur for quicker access."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws and cycle rickshaws are prevalent and affordable for local travel.",
+      "avoid": "Avoid unlicensed taxis due to safety concerns.",
+      "appRecommendation": "Use 'Uber' or 'Ola' where available for reliable transport.",
+      "autoRickshaw": "Generally available, but negotiate fares beforehand.",
+      "cost": "Daily local transport budget of ₹200-400."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Overpriced camel rides",
+      "howItWorks": "Tourists are often quoted inflated prices by vendors at the dunes.",
+      "prevention": "Always negotiate the price before getting on a camel and check with locals for fair prices.",
+      "ifItHappens": "Politely refuse and walk away; there are many other vendors."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Samosas at Shree Laxmi Mishthan Bhandar",
+      "Chaat at the corner stall near Jaisalmer Fort",
+      "Kachoris at the local market"
+    ],
+    "avoidList": [
+      "Avoid street food that looks unsanitary or is from vendors without proper hygiene practices.",
+      "Skip raw salads and unpeeled fruits."
+    ],
+    "waterAdvice": "Always drink bottled water, as tap water is not safe for consumption.",
+    "trustedDhabas": "Look for busy dhabas with local patrons; they are usually trustworthy.",
+    "mustEat": [
+      "Dal Baati Churma at 'Chokhi Dhani', 'Rajasthani Thali' at 'The Trio', 'Gatte ki Sabzi' at 'Desert Boy's Dhani'."
+    ],
+    "touristTrap": "The overpriced buffet at hotels that claim to offer 'authentic' Rajasthani food but serve mediocre dishes."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly, especially when visiting temples or local homes.",
+    "photographyRules": "Photography is restricted inside Jaisalmer Fort and certain temples.",
+    "templeEtiquette": "Remove shoes and cover heads when entering temples.",
+    "timing": "Best to visit markets in the early morning or late afternoon to avoid crowds.",
+    "localCustom": "It's customary to greet locals with 'Ram Ram' as a sign of respect."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds starting at ₹400.",
+      "food": "Local eateries offering meals for ₹100-150.",
+      "transport": "Biking or using auto-rickshaws at ₹200."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Budget hotels or guesthouses around ₹1,000.",
+      "food": "Dining at mid-range restaurants for ₹300-500 per meal.",
+      "includes": "Sightseeing and some activities."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Boutique hotels starting at ₹3,000.",
+      "experience": "Guided tours and exclusive desert experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury resorts starting at ₹5,000.",
+      "note": "Luxury adds value primarily in terms of comfort and curated experiences."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who prefer coastal destinations will be disappointed because Jaisalmer lacks beaches and water activities.",
+    "If you want high-end shopping, Jaisalmer is the wrong choice — Jaipur offers a broader selection.",
+    "Anyone expecting modern amenities in a historic setting will find Jaisalmer's charm comes with rustic simplicity."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Patwon Ki Haveli early morning to avoid crowds, entry fee is ₹100.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local sweet 'Ghevar' at Shree Laxmi Mishthan Bhandar during the festival season.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a local music night at a desert camp for an authentic cultural experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Purchase handicrafts directly from artisans in their workshops for better prices.",
+      "category": "shopping"
+    },
+    {
+      "tip": "Join a guided heritage walk through the old city for rich historical insights.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Explore Jaisalmer Fort",
+        "Visit Patwon Ki Haveli",
+        "Desert Safari",
+        "Watch the sunset at Sam Sand Dunes"
+      ],
+      "emotionalArc": "This sequence allows you to connect with the history before immersing yourself in the natural beauty, creating a memorable day.",
+      "bestFor": [
+        "History buffs",
+        "Nature lovers",
+        "Photography enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Sam Sand Dunes",
+        "what": "Capture the sunset over the dunes.",
+        "bestTime": "Just before sunset.",
+        "tip": "Use a tripod for better low-light shots."
+      }
+    ],
+    "goldenHour": "Early morning and late afternoon are best for capturing the desert's rich colors.",
+    "restrictedAreas": [
+      "Jaisalmer Fort interiors",
+      "Certain temples"
+    ],
+    "tip": "Consider using a polarizing filter to enhance the sky during your desert shots."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Most areas are not wheelchair accessible due to uneven terrain.",
+    "majorChallenges": "Narrow streets in the Fort area and sand dunes present significant challenges.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan visits during cooler parts of the day to accommodate mobility needs."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Jodhpur",
+      "distance": "295km",
+      "travelTime": "5 hours",
+      "how": "By bus or train.",
+      "whyCombine": "To explore the majestic Mehrangarh Fort and vibrant markets."
+    },
+    {
+      "city": "Tanot",
+      "distance": "120km",
+      "travelTime": "2.5 hours",
+      "how": "By taxi or shared jeep.",
+      "whyCombine": "To visit the Tanot Mata Temple and see the Indo-Pak border."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "July due to heavy rains affecting travel plans.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "226m",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "Currently, Jaisalmer is experiencing pleasant weather with fewer tourists, making it a great time to explore.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits are required for domestic travelers."
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "destination": "Gulmarg",
+  "state": "Jammu & Kashmir",
+  "type": "ski/meadow",
+  "aliases": [
+    "Gulmarg",
+    "gulmarg",
+    "Jammu & Kashmir"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "adventure seekers",
+      "nature lovers",
+      "families",
+      "couples",
+      "photographers"
+    ],
+    "notFor": [
+      "luxury travelers expecting high-end amenities",
+      "business travelers needing a fast-paced environment",
+      "those looking for a vibrant nightlife"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the breathtaking slopes of Gulmarg. They stay for the crisp mountain air, the sound of skis carving fresh snow, and the aroma of hot kehwa wafting through the markets. They return because Gulmarg is the only place in India where skiing feels like a secret shared among friends on a sunlit slope, surrounded by the majestic Himalayas.",
+  "honestTruth": "Most guides miss that Gulmarg is not just about skiing; it's about experiencing the local culture, especially the warm interactions with shopkeepers and the community that thrives here.",
+  "localTruths": [
+    "Most visitors think they only need to ski in Gulmarg. Locals think the real charm lies in exploring the meadows and taking in the untouched nature around them.",
+    "Most visitors rush to the gondola. The best version of Gulmarg is the serene walk around Khilanmarg, where you can escape the crowds and enjoy the stunning scenery.",
+    "Most visitors spend too much time in the ski resorts. The real Gulmarg starts at the local dhabas, where you can savor authentic Kashmiri cuisine."
+  ],
+  "neighborhoodPersonalities": {
+    "Gulmarg Meadows": {
+      "tags": [
+        "adventure",
+        "scenic",
+        "family-friendly"
+      ],
+      "bestFor": "families looking for recreational activities",
+      "avoid": "the crowds during peak ski season"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "take the Gulmarg Gondola to Khilanmarg",
+        "try skiing lessons",
+        "explore the local market",
+        "enjoy kehwa at a local café"
+      ],
+      "avoid": [
+        "skipping the local dhabas for overpriced resort food",
+        "ignoring weather forecasts before planning ski activities"
+      ],
+      "mindset": "Approach Gulmarg with an open heart and a willingness to engage with both the landscape and the locals."
+    },
+    "repeat": {
+      "goDeeper": [
+        "hike to the nearby Apharwat Peak",
+        "explore the hidden trails around Khilanmarg",
+        "visit the ancient St. Mary's Church",
+        "learn about local handicrafts from artisans"
+      ],
+      "neighborhoods": [
+        "Khilanmarg",
+        "Bubiyan"
+      ],
+      "local": "Only locals know that the best time to visit the meadows is just after a fresh snowfall for untouched skiing."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "temperatures range from -5°C to 5°C with heavy snowfall",
+      "crowds": "crowds are high, especially during weekends and holidays",
+      "prices": "price premium of 30%",
+      "verdict": "a vibrant atmosphere, but expect long queues at popular spots."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "it's a great time for skiing with fewer crowds and milder weather."
+    },
+    "offSeason": {
+      "months": "May to November",
+      "reality": "monsoon rains may disrupt travel plans, but the lush greenery makes it a different kind of beautiful.",
+      "hiddenGem": "some travelers prefer this time for peaceful hikes and fewer tourists."
+    },
+    "bestMonth": "January — perfect for skiing and enjoying the winter wonderland.",
+    "worstMonth": "July — heavy rains can lead to landslides and travel disruptions."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying skiing lessons.",
+    "Most visitors regret overlooking the local food scene.",
+    "Most visitors regret not exploring the meadows more thoroughly."
+  ],
+  "antiPatterns": [
+    "Rushing straight to the slopes without acclimatizing — it can lead to altitude sickness.",
+    "Ignoring weather forecasts before heading out — unpredictable weather can ruin your plans.",
+    "Staying only in high-end resorts instead of exploring local accommodations."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Take the Gondola, ski or enjoy the meadows, and have kehwa at a local dhaba.",
+      "verdict": "A day is enough for a taste of Gulmarg, but you'll leave wanting more."
+    },
+    "two_days": {
+      "focus": "skiing and local exploration",
+      "misses": "the deeper cultural experiences and hidden trails."
+    },
+    "three_to_four_days": {
+      "focus": "skiing, cultural immersion, and exploration of Khilanmarg.",
+      "sweetSpot": true
+    },
+    "five-to-seven-days": {
+      "focus": "a deep dive into skiing, local crafts, and nearby treks.",
+      "whoFor": "adventure seekers and nature enthusiasts."
+    },
+    "recommended": "3 days — enough to enjoy skiing, local culture, and some relaxation."
+  },
+  "residentSunday": "A Gulmarg resident with one free Sunday: starts the morning with a walk through the snow-covered meadows, enjoys a hearty breakfast of aloo parathas at a local dhaba, spends the afternoon skiing with friends on the slopes, and ends the day sipping kehwa at home while watching the sunset over the mountains.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the vehicle and breathe in the crisp mountain air, with the sight of snow-capped peaks greeting you.",
+    "peak": "The peak day memory is the first time you glide down the slope, feeling the snow beneath your skis.",
+    "departure": "As you drive away, the last image is the view of the meadows bathed in golden sunset light."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses from Jammu to Gulmarg are available but can take 10-12 hours and are often crowded.",
+      "flight": "Direct flights from Delhi to Srinagar are available, costing around ₹3,000-5,000.",
+      "recommended": "Take a flight to Srinagar, followed by a taxi to Gulmarg; it's the quickest and most comfortable option.",
+      "budgetTip": "Book your train or flight tickets in advance to save ₹500-2000."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express, 11013, departs 11:30pm, 28 hours, ₹1,200 Sleeper Class",
+      "flight": "Direct flights are available, typically costing ₹4,000-6,500.",
+      "recommended": "Take a direct flight to Srinagar and then a taxi to Gulmarg."
+    },
+    "fromBangalore": {
+      "train": "Yesvantpur Jammu Tawi Express, 16589, departs 9:15pm, 38 hours, ₹1,500 Sleeper Class",
+      "flight": "Direct flights to Srinagar are available, costing around ₹5,000-8,000.",
+      "recommended": "Fly directly to Srinagar for convenience."
+    },
+    "localTransport": {
+      "best": "Hiring a local taxi or sharing a cab works best for getting around Gulmarg.",
+      "avoid": "Avoid relying on auto-rickshaws as they are not available in this area.",
+      "appRecommendation": "Use local taxi apps like 'Kashmir Taxi' for convenience.",
+      "autoRickshaw": "Not applicable in Gulmarg.",
+      "cost": "A daily local transport budget of ₹800-1,200 should suffice."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Kashmiri Pashmina Scam",
+      "howItWorks": "Sellers claim their shawls are pure pashmina but are often synthetic.",
+      "prevention": "Always ask for a certificate of authenticity and buy from recognized shops.",
+      "ifItHappens": "Report to local tourism authorities."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Kashmiri Kebabs from 'Shawarma Corner'",
+      "Aloo Tikki from 'Nawab's Kitchen'",
+      "Kehwa from 'Baba Kebab'"
+    ],
+    "avoidList": [
+      "Avoid dairy street food items as they may not be pasteurized.",
+      "Avoid unbranded stalls selling raw meat."
+    ],
+    "waterAdvice": "Drink bottled or boiled water only — tap water is not safe.",
+    "trustedDhabas": "Look for busy dhabas with local families eating there; they are usually safe and hygienic.",
+    "mustEat": [
+      "Rogan Josh at 'Al Fresco Restaurant'",
+      "Gushtaba at 'Kashmir Darbar'",
+      "Yakhni at 'Hotel Hilltop'"
+    ],
+    "touristTrap": "'Kashmiri Wazwan' dining experiences advertised at hotels tend to be overpriced."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly, especially when visiting local homes or places of worship.",
+    "photographyRules": "Respect privacy; ask for permission before photographing locals.",
+    "templeEtiquette": "Remove shoes before entering local shrines and temples.",
+    "timing": "Visit local markets early in the morning for the freshest produce.",
+    "localCustom": "It's customary to greet locals with 'As-Salaam-Alaikum' as a sign of respect."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "hostels or budget guesthouses around ₹800-1,200",
+      "food": "street food and local dhabas for ₹300-500",
+      "transport": "local transport and shared taxis."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "mid-range hotels costing ₹2,000-3,000",
+      "food": "eating at local restaurants for ₹700-1,000",
+      "includes": "local tours and activities."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "staying at luxury hotels like 'Hotel Hilltop'",
+      "experience": "includes guided tours and exclusive experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star hotels with all amenities",
+      "note": "Luxury does add comfort, but the essence of Gulmarg lies in its natural beauty."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek high-end shopping will be disappointed because Gulmarg is devoid of commercial shopping venues.",
+    "If you want nightlife and parties, Gulmarg is the wrong choice — Manali or Shimla is better.",
+    "Anyone expecting a modern city infrastructure will find the reality of Gulmarg to be rustic and basic."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local craft market on Sundays for authentic handicrafts at reasonable prices.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the kehwa at 'Baba Kebab' — it's the best in the region and costs only ₹50.",
+      "category": "food"
+    },
+    {
+      "tip": "Skiing lessons at the Gulmarg Ski School are around ₹2,500 for a full day.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use the 'Kashmir Taxi' app for safe local transport; drivers are vetted.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit the St. Mary's Church early in the morning for peaceful solitude.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Gondola ride to Khilanmarg",
+        "Lunch at a local dhaba",
+        "Afternoon skiing lessons"
+      ],
+      "emotionalArc": "This sequence builds excitement with breathtaking views followed by the joy of skiing, ending with a sense of accomplishment.",
+      "bestFor": [
+        "adventure seekers",
+        "first-time skiers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Apharwat Peak",
+        "what": "panoramic views of the valleys and snow-capped mountains",
+        "bestTime": "early morning",
+        "tip": "Catch the sunrise for the best lighting."
+      }
+    ],
+    "goldenHour": "1 hour after sunrise and 1 hour before sunset during winter.",
+    "restrictedAreas": [
+      "military zones near the borders"
+    ],
+    "tip": "Always carry a polarizing filter to enhance the colors of the snowy landscape."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Limited access due to steep terrains and snow; many areas are not wheelchair accessible.",
+    "majorChallenges": "Snow-covered pathways and lack of ramps in many local establishments pose challenges.",
+    "seniorFriendlyScore": 5,
+    "note": "Travelers with mobility needs should plan ahead and may require assistance."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Srinagar",
+      "distance": "56km",
+      "travelTime": "2 hours",
+      "how": "by taxi or shared cab",
+      "whyCombine": "to explore the famous Dal Lake and Mughal Gardens."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "January",
+    "avoidMonth": "July — heavy rains disrupt travel.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "2,650 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "As of June 2026, summer is in full swing, with lush greenery and mild weather but less snow.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for Indian citizens, but check for any updates if traveling from abroad."
+  }
+}

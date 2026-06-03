@@ -1,0 +1,319 @@
+{
+  "destination": "Kolkata",
+  "state": "West Bengal",
+  "type": "megacity/culture",
+  "aliases": [
+    "Kolkata",
+    "kolkata",
+    "West Bengal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "history enthusiasts",
+      "art aficionados",
+      "cultural explorers",
+      "budget travelers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "adventure seekers",
+      "luxury travelers"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the iconic Howrah Bridge. They stay for the aroma of street food wafting through the narrow lanes of Old Kolkata. They return because Kolkata is the only city where colonial architecture and modern skyscrapers engage in an ongoing dialogue — one that is palpable in the air.",
+  "honestTruth": "Travel guides often skip how chaotic yet charming Kolkata's public transport can be, with its relentless taxi honks and bustling trams that tell stories of a bygone era.",
+  "localTruths": [
+    "Most visitors think Kolkata is just about Durga Puja. Locals think it's a year-round celebration of art and culture in every nook and cranny.",
+    "Most visitors take a tram ride to experience the city. The best version of Kolkata is actually explored on foot, where each step reveals stories etched in the walls.",
+    "Most visitors spend too much time at Victoria Memorial. The real Kolkata starts at Kumartuli, where artisans breathe life into clay idols."
+  ],
+  "neighborhoodPersonalities": {
+    "Kalikata": {
+      "tags": [
+        "historical",
+        "cultural",
+        "artistic"
+      ],
+      "bestFor": "exploring the roots of the city's heritage through art and architecture.",
+      "avoid": "beware of overly aggressive touts at tourist spots."
+    },
+    "Bhowanipore": {
+      "tags": [
+        "foodie",
+        "local",
+        "lively"
+      ],
+      "bestFor": "enjoying some of the best street food the city has to offer.",
+      "avoid": "watch out for hygiene issues at some smaller stalls."
+    },
+    "Salt Lake": {
+      "tags": [
+        "modern",
+        "urban",
+        "planned"
+      ],
+      "bestFor": "finding modern cafes and shopping complexes.",
+      "avoid": "the traffic during peak hours can be overwhelming."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the Howrah Bridge at sunrise",
+        "Explore the Victoria Memorial",
+        "Try puchka (pani puri) at Vivekananda Park",
+        "Take a tram ride from Esplanade to Tollygunge"
+      ],
+      "avoid": [
+        "Don't stick to only touristy areas",
+        "Avoid dining in overpriced restaurants in tourist spots"
+      ],
+      "mindset": "Approach Kolkata with an open mind, ready to soak in its chaotic charm and rich history."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Spend an afternoon at Kumartuli to see artisans at work",
+        "Visit the lesser-known Nakhoda Mosque",
+        "Explore the bookshops of College Street",
+        "Attend a local theater performance"
+      ],
+      "neighborhoods": [
+        "Explore the hidden gems of North Kolkata",
+        "Discover the artistic vibes of Shyambazar"
+      ],
+      "local": "One thing only locals and repeat visitors know is that the best time for street food is after 10 PM in many areas."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October, November",
+      "weather": "comfortable with temperatures around 20-30°C",
+      "crowds": "highly crowded due to festivals",
+      "prices": "price premium of about 30%",
+      "verdict": "Great for experiencing the city's culture but expect higher costs and crowds."
+    },
+    "shoulderSeason": {
+      "months": "February, March",
+      "why": "milder weather and fewer tourists make it easier to explore."
+    },
+    "offSeason": {
+      "months": "April, May, June",
+      "reality": "intense heat can be draining, but monsoons start in June bringing relief.",
+      "hiddenGem": "The greenery and fresh monsoon cuisine attract a few travelers."
+    },
+    "bestMonth": "November, as the weather is pleasant and the city is alive with post-Durga Puja celebrations.",
+    "worstMonth": "May, due to extreme heat making outdoor exploration uncomfortable."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying local sweets like rasgulla from Ballaram Mullick's shop.",
+    "Most visitors regret not spending enough time in the neighborhoods away from the main tourist spots.",
+    "Most visitors regret not bargaining enough when shopping in local markets."
+  ],
+  "antiPatterns": [
+    "Spending too much time in upscale malls — it fails to capture the authentic spirit of the city.",
+    "Trying to see Kolkata in a single day — it diminishes the rich experiences available.",
+    "Rushing through street food without taking the time to interact with vendors — it misses the cultural connection."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Howrah Bridge, Victoria Memorial, and spend the evening at Park Street.",
+      "verdict": "You can get a taste of Kolkata but will miss its deeper stories."
+    },
+    "two_days": {
+      "focus": "Exploring key attractions and indulging in local cuisine.",
+      "misses": "Lesser-known neighborhoods and hidden gems."
+    },
+    "three_to_four_days": {
+      "focus": "Cultural immersion, local experiences, and culinary delights.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of art, history, and the surrounding areas.",
+      "whoFor": "history buffs and culture enthusiasts."
+    },
+    "recommended": "3 days — it allows for a balance of major attractions and local experiences."
+  },
+  "residentSunday": "A Kolkata resident with one free Sunday: starts with a morning walk at Maidan → enjoys breakfast at Flurys, Park Street → spends the afternoon exploring the Indian Museum → unwinds with a book at College Street's Coffee House in the evening.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and are engulfed by the cacophony of sounds and smells, each telling a story.",
+    "peak": "The peak day memory target is watching the sun set behind Howrah Bridge, with the Ganges reflecting the colors of dusk.",
+    "departure": "The last image that stays with them is the vibrant street life as they leave, a tapestry of colors and sounds."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Rajdhani 12302, departs 4:00 PM, 17 hours, ₹2,100 3AC",
+      "bus": "Buses are available but take around 30 hours, often uncomfortable.",
+      "flight": "flights from DEL to CCU take about 2.5 hours, ranging from ₹4,000 to ₹7,000.",
+      "recommended": "SKYmora recommends the Rajdhani for comfort and value.",
+      "budgetTip": "Book your train tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, departs 11:10 PM, 28 hours, ₹1,400 3AC",
+      "flight": "flights from BOM to CCU are around 2 hours, ₹5,000-8,000.",
+      "recommended": "The train is much cheaper and offers a scenic route."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 12626, departs 8:00 PM, 34 hours, ₹1,800 3AC",
+      "flight": "flights from BLR to CCU take about 2 hours, ₹4,500-7,000.",
+      "recommended": "Opt for the flight for time efficiency."
+    },
+    "localTransport": {
+      "best": "The best way to get around is the metro and trams, both affordable and efficient.",
+      "avoid": "Avoid unlicensed auto-rickshaws for safety and overcharging.",
+      "appRecommendation": "Use the 'Kolkata Metro' app for real-time updates.",
+      "autoRickshaw": "Auto-rickshaws are available but negotiate fares upfront.",
+      "cost": "A daily local transport budget of ₹300-500 is reasonable."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Taxi Overcharging",
+      "howItWorks": "Some drivers may not use the meter and quote high fixed prices.",
+      "prevention": "Always insist on using the meter or book through a reputable app.",
+      "ifItHappens": "Politely refuse and look for another taxi."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Try puchka at Banshree, near Vivekananda Park",
+      "Kathi rolls from Nizam's",
+      "Fish fry from College Street stalls"
+    ],
+    "avoidList": [
+      "Avoid street vendors with unsanitary conditions or food left uncovered.",
+      "Be cautious with raw or undercooked items."
+    ],
+    "waterAdvice": "Drink bottled water only to avoid waterborne diseases.",
+    "trustedDhabas": "Look for dhabas packed with locals for authentic and safe meals.",
+    "mustEat": [
+      "Macher Jhol at 6 Ballygunge Place",
+      "Rosogolla at Ballaram Mullick",
+      "Aloo Poshto at Bhojohori Manna"
+    ],
+    "touristTrap": "Avoid overpriced restaurants in touristy areas like Park Street."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly when visiting temples; light cotton clothing is advisable in summer.",
+    "photographyRules": "Photography is restricted in some temples and museums; always ask for permission.",
+    "templeEtiquette": "Remove shoes before entering temples and maintain silence.",
+    "timing": "The best time to visit cultural sites is early morning to beat the crowds.",
+    "localCustom": "Gifting sweets during festivals and family gatherings is common and appreciated."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels for ₹500-800",
+      "food": "Street food and local eateries for about ₹500",
+      "transport": "Local buses and metro for around ₹200."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Budget hotels or guesthouses for ₹1,500-2,000",
+      "food": "Dining at mid-range restaurants for about ₹1,000",
+      "includes": "Local transport and some entry fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "4-star hotels for ₹4,000-5,000",
+      "experience": "Guided tours and fine dining."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star hotels such as The Taj Bengal",
+      "note": "Luxury here is about comfort but may not add to the cultural experience."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek pristine beaches will be disappointed because Kolkata offers a bustling urban experience instead.",
+    "If you want a peaceful retreat, Kolkata is the wrong choice — the Himalayas offer tranquility.",
+    "Anyone expecting a modern city devoid of chaos will find Kolkata's vibrancy overwhelming."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Maidan early for a morning jog, it’s a great way to see local life, free.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the ferry from Howrah to Belur Math for a serene view of the city, ₹10 ticket.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best fish curry, head to a local home-cooked meal service; ask locals for recommendations.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the book stalls along College Street for rare finds, especially on weekends.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a walk along the Hooghly river at sunset for a memorable view, it’s free.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning walk at Maidan",
+        "Breakfast at Flurys",
+        "Visit to Victoria Memorial",
+        "Lunch at 6 Ballygunge Place"
+      ],
+      "emotionalArc": "This sequence builds a day of cultural appreciation, delicious food, and leisurely exploration.",
+      "bestFor": [
+        "food lovers",
+        "culture enthusiasts",
+        "leisure travelers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Howrah Bridge",
+        "what": "The bridge with traffic below and the river reflecting the city.",
+        "bestTime": "Sunrise",
+        "tip": "Arrive early to avoid crowds."
+      }
+    ],
+    "goldenHour": "The golden hour in Kolkata is around 6:00 PM during winter months.",
+    "restrictedAreas": [
+      "Inside temples",
+      "Certain museums"
+    ],
+    "tip": "Always ask locals for the best angles and perspectives on classic shots."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many public places are not wheelchair accessible, but some metro stations are improving.",
+    "majorChallenges": "Uneven pavements and crowded public transport can be challenging.",
+    "seniorFriendlyScore": 6,
+    "note": "Be prepared to assist elderly travelers with mobility needs."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Bhubaneswar",
+      "distance": "440km",
+      "travelTime": "8 hours",
+      "how": "Direct train or bus services are available.",
+      "whyCombine": "To explore ancient temples and rich history."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "May due to extreme heat and discomfort.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "N/A",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is currently hot and humid with sporadic rainfall.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic travelers."
+  }
+}

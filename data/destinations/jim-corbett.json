@@ -1,0 +1,320 @@
+{
+  "destination": "Jim Corbett",
+  "state": "Uttarakhand",
+  "type": "wildlife",
+  "aliases": [
+    "Jim Corbett",
+    "jim corbett",
+    "Uttarakhand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "wildlife enthusiasts",
+      "nature photographers",
+      "adventure seekers",
+      "family vacationers",
+      "weekend getaway travelers"
+    ],
+    "notFor": [
+      "luxury travelers seeking opulence",
+      "urbanites craving city life",
+      "those afraid of wildlife encounters"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the thrill of spotting a tiger. They stay for the early morning jeep safaris along the Kosi River, where the chorus of birds fills the air. They return because Jim Corbett is the only national park where the wilderness feels both untamed and accessible, with the scent of wet earth after a monsoon rain lingering in the memory.",
+  "honestTruth": "Most travel guides skip the fact that Jim Corbett can get surprisingly crowded during weekends, especially with local tourists, making early morning safaris essential for a true wildlife experience.",
+  "localTruths": [
+    "Most visitors think they can see tigers at any hour of the day. Locals think the best chances are during the early morning or late evening when wildlife is most active.",
+    "Most visitors rush through the park on their first safari. The best version of Jim Corbett is when you take your time, soaking in the sounds and sights rather than just ticking off species.",
+    "Most visitors spend too much time at the popular Dhikala zone. The real Jim Corbett starts at the quieter Jhirna zone, where you can often spot leopards and lesser-known wildlife."
+  ],
+  "neighborhoodPersonalities": {
+    "Dhikala Zone": {
+      "tags": [
+        "biodiversity",
+        "tiger sightings",
+        "safari"
+      ],
+      "bestFor": "wildlife enthusiasts looking for the quintessential safari experience",
+      "avoid": "avoid during weekends when it gets overcrowded"
+    },
+    "Jhirna Zone": {
+      "tags": [
+        "quiet",
+        "rich flora",
+        "local culture"
+      ],
+      "bestFor": "travelers wanting a more intimate wildlife experience",
+      "avoid": "do not expect luxury accommodations here"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Take an early morning jeep safari",
+        "Visit the Corbett Museum",
+        "Explore the nearby Kosi River",
+        "Try local cuisine at a dhaba"
+      ],
+      "avoid": [
+        "Don't rush safaris; take your time to enjoy the surroundings",
+        "Avoid expecting to see tigers in every safari"
+      ],
+      "mindset": "Approach Jim Corbett with a spirit of curiosity and patience, and let nature reveal its secrets at its own pace."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Explore lesser-known trails with a local guide",
+        "Participate in birdwatching sessions",
+        "Visit the nearby village to experience local culture"
+      ],
+      "neighborhoods": [
+        "Jhirna Zone",
+        "Bijrani Zone"
+      ],
+      "local": "One thing only locals and repeat visitors know is that the park is best enjoyed on foot with guided walks in designated areas."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to March",
+      "weather": "15-25°C, pleasant and cool",
+      "crowds": "high, especially weekends",
+      "prices": "price premium 20%",
+      "verdict": "Best time for wildlife sightings, but be prepared for crowds."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Wildlife is more active, and it's less crowded."
+    },
+    "offSeason": {
+      "months": "July to October",
+      "reality": "Monsoon season can limit access, but the park is lush and beautiful.",
+      "hiddenGem": "Fewer tourists mean more solitude and a chance to appreciate the park's beauty."
+    },
+    "bestMonth": "February - ideal weather and great wildlife visibility.",
+    "worstMonth": "July - heavy rains can disrupt travel and safaris."
+  },
+  "commonRegrets": [
+    "Most visitors regret not booking early morning safaris for better wildlife sightings.",
+    "Most visitors regret not exploring the surrounding areas like the Kosi River.",
+    "Most visitors regret not trying the local food at dhabas."
+  ],
+  "antiPatterns": [
+    "Rushing through a single safari without appreciating the landscape will leave you feeling unsatisfied.",
+    "Visiting during the peak season without prior bookings will mean missing out on the best experiences.",
+    "Trying to cover too much in a short time can lead to fatigue and missed opportunities."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Morning jeep safari, lunch at a local dhaba, evening nature walk.",
+      "verdict": "A rushed experience, but can still be enjoyable."
+    },
+    "two_days": {
+      "focus": "Wildlife safaris and local culture",
+      "misses": "Deeper exploration of the park and surrounding areas."
+    },
+    "three_to_four_days": {
+      "focus": "Comprehensive wildlife experiences and local interactions",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth wildlife exploration and relaxation",
+      "whoFor": "Nature lovers and photography enthusiasts."
+    },
+    "recommended": "3 days — allows for a balanced mix of relaxation and wildlife exploration."
+  },
+  "residentSunday": "A Jim Corbett resident with one free Sunday: wakes up early for a birdwatching session near the Kosi River → enjoys breakfast at The River View Restaurant → spends the afternoon visiting the Corbett Museum → ends the day with a local dinner at a dhaba in Ramnagar, enjoying tandoori roti and dal fry.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the park and hear the rustle of leaves and the call of distant animals.",
+    "peak": "The peak moment comes when you spot a majestic tiger lounging under a tree, a sight that feels surreal.",
+    "departure": "The last image that stays with you is the sunset over the forest, casting a golden hue on everything."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses from Delhi to Ramnagar are frequent and cost around ₹500, but they can be crowded and less comfortable.",
+      "flight": "Not applicable; nearest airport is Pantnagar (PGH) 105 km away.",
+      "recommended": "We recommend taking the Shatabdi Express for comfort and speed.",
+      "budgetTip": "Book train tickets in advance to save ₹500-2000 on last-minute fares."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10107, 18 hours, ₹1,200 sleeper",
+      "flight": "No direct flights; best to fly to Delhi and take a train or bus from there.",
+      "recommended": "Train is the most economical option for Mumbai travelers."
+    },
+    "fromBangalore": {
+      "train": "No direct trains; best to fly to Delhi and then take a train or bus to Ramnagar.",
+      "flight": "Direct flights to Delhi available, ideal for onward travel.",
+      "recommended": "Fly to Delhi and take the Shatabdi Express for a smooth transfer."
+    },
+    "localTransport": {
+      "best": "Private jeeps and local taxis work best for traveling within the park.",
+      "avoid": "Avoid auto-rickshaws for long distances; they are not common in the area.",
+      "appRecommendation": "Uber is available in Ramnagar for local transport.",
+      "autoRickshaw": "Not commonly available in Jim Corbett area.",
+      "cost": "Daily local transport budget of ₹500-1000."
+    },
+    "scamPrevention": [
+      {
+        "scam": "Fake safari bookings",
+        "howItWorks": "Scammers may offer cheap safari bookings online or in person.",
+        "prevention": "Always book through recognized and official channels or your hotel.",
+        "ifItHappens": "Report to the local authorities immediately and seek assistance from your hotel."
+      }
+    ],
+    "foodSafety": {
+      "safeStreetFood": [
+        "Aloo Tikki at Kosi River roadside stalls",
+        "Chaat at Ramnagar market",
+        "Samosas from a local vendor near the park entrance"
+      ],
+      "avoidList": [
+        "Avoid street food that looks unhygienic or is served in unsanitary conditions, especially near bus stops."
+      ],
+      "waterAdvice": "Always drink bottled water; tap water is not safe.",
+      "trustedDhabas": "Look for busy dhabas with a local clientele and clean surroundings as a sign of trustworthiness.",
+      "mustEat": [
+        "Garhwali Thali at The River View Restaurant",
+        "Tandoori Chicken at Mohan's Dhabha",
+        "Puri and Aloo at Dhabha near Ramnagar bus stand"
+      ],
+      "touristTrap": "The overpriced meals at resorts in Dhikala zone are often not worth it."
+    },
+    "culturalIntelligence": {
+      "dressCode": "Wear earth-toned clothing for safaris to blend into the surroundings.",
+      "photographyRules": "Photography is restricted in certain areas of the park; always check with your guide.",
+      "templeEtiquette": "If visiting local temples, dress modestly and remove shoes before entering.",
+      "timing": "Early mornings and late afternoons are the best times for activities.",
+      "localCustom": "Respect local customs by greeting with a 'Namaste' and asking for permission before taking photos of people."
+    },
+    "budgetReality": {
+      "backpacker": {
+        "perDay": "₹2,000",
+        "accommodation": "Dormitory beds at local hostels, ₹500-800",
+        "food": "Street food and local dhabas, ₹300-500",
+        "transport": "Local buses and shared taxis, ₹200-300"
+      },
+      "comfortable": {
+        "perDay": "₹4,500",
+        "accommodation": "Mid-range hotels or guesthouses, ₹1,500-2,500",
+        "food": "Mix of dhabas and restaurants, ₹800-1,200",
+        "includes": "Safari costs and local transport."
+      },
+      "premium": {
+        "perDay": "₹10,000",
+        "accommodation": "Luxury resorts, ₹5,000-7,000",
+        "experience": "Personalized safaris and gourmet dining."
+      },
+      "luxury": {
+        "perDay": "₹20,000+",
+        "accommodation": "High-end resorts with exclusive services",
+        "note": "While luxury options exist, the true charm of Jim Corbett is in its natural beauty and wildlife, not just in luxury."
+      }
+    },
+    "whoThisIsNotFor": [
+      "Travelers who seek urban comforts will be disappointed because Jim Corbett is a wilderness destination with rustic accommodations.",
+      "If you want a nightlife scene, Jim Corbett is the wrong choice — Rishikesh or Nainital might suit you better.",
+      "Anyone expecting a theme park experience will find the reality of nature and wildlife encounters quite different."
+    ],
+    "insiderIntelligence": [
+      {
+        "tip": "For the best chance of tiger sightings, book your safaris well in advance for early morning slots.",
+        "category": "experience"
+      },
+      {
+        "tip": "Visit the small village of Dhela for a cultural experience and local crafts.",
+        "category": "experience"
+      },
+      {
+        "tip": "The Kosi River area is great for spotting birds, especially during the migratory season from November to February.",
+        "category": "experience"
+      },
+      {
+        "tip": "Pack binoculars for better wildlife viewing during safaris.",
+        "category": "experience"
+      },
+      {
+        "tip": "Join local conservation efforts; many organizations welcome volunteers for wildlife protection.",
+        "category": "experience"
+      }
+    ],
+    "combinationIntelligence": [
+      {
+        "sequence": [
+          "Morning safari",
+          "Lunch at a local dhaba",
+          "Visit Corbett Museum",
+          "Evening nature walk"
+        ],
+        "emotionalArc": "This sequence allows you to experience the thrill of wildlife, enjoy local flavors, and connect with the region's history.",
+        "bestFor": [
+          "nature lovers",
+          "families",
+          "adventure seekers"
+        ]
+      }
+    ],
+    "photographyIntelligence": {
+      "bestShotLocations": [
+        {
+          "name": "Kosi River",
+          "what": "Birds and natural landscapes",
+          "bestTime": "Early morning",
+          "tip": "Bring a zoom lens for better shots."
+        },
+        {
+          "name": "Dhikala Camp",
+          "what": "Tigers and elephants",
+          "bestTime": "Late afternoon",
+          "tip": "Stay quiet and still for the best photographs."
+        }
+      ],
+      "goldenHour": "Early morning just after sunrise and late afternoon before sunset.",
+      "restrictedAreas": [
+        "Some areas in the core zone of the park are off-limits for photography."
+      ],
+      "tip": "Always ask your guide about the best spots and times for photography."
+    },
+    "accessibility": {
+      "wheelchairFriendly": "Limited, as many areas in the park are rugged and not paved.",
+      "majorChallenges": "Uneven terrain and lack of paved paths in most parts of the park pose challenges.",
+      "seniorFriendlyScore": 6,
+      "note": "Consider hiring a local guide who can assist with mobility challenges."
+    },
+    "nearbyDestinations": [
+      {
+        "city": "Nainital",
+        "distance": "65km",
+        "travelTime": "2 hours",
+        "how": "By taxi or bus",
+        "whyCombine": "Famous hill station with serene lakes and panoramic views."
+      },
+      {
+        "city": "Ranikhet",
+        "distance": "50km",
+        "travelTime": "1.5 hours",
+        "how": "By taxi",
+        "whyCombine": "Peaceful natural surroundings and a break from wildlife activities."
+      }
+    ],
+    "hardFacts": {
+      "bestMonthToVisit": "February",
+      "avoidMonth": "July - heavy rains can disrupt travel and safaris.",
+      "minimumDays": 2,
+      "recommendedDays": 3,
+      "altitude": "400-600 meters",
+      "timezone": "IST (UTC+5:30)"
+    },
+    "liveIntelligence": {
+      "lastChecked": "2026-06",
+      "seasonalNow": "As of June, the park is closed for monsoon, but local areas are lush and green.",
+      "currentAlerts": [],
+      "entryRequirements": "No special permits required for domestic tourists; international tourists should carry valid ID."
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "destination": "Kasol",
+  "state": "Himachal Pradesh",
+  "type": "backpacker",
+  "aliases": [
+    "Kasol",
+    "kasol",
+    "Himachal Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "solo travelers",
+      "student backpackers",
+      "nature enthusiasts",
+      "trekkers",
+      "budget-conscious travelers"
+    ],
+    "notFor": [
+      "luxury seekers",
+      "party-goers looking for nightlife",
+      "those who prefer urban environments"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the vibrant market along the Parvati River. They stay for the intoxicating aroma of freshly baked apple pie wafting from local cafes. They return because Kasol is the only town where the spirit of adventure runs as wild as the river itself.",
+  "honestTruth": "Many guides miss that Kasol's charm lies not just in its scenery, but in the connections made over shared meals and stories with fellow travelers and locals alike.",
+  "localTruths": [
+    "Most visitors think Kasol is just a party town. Locals think it’s a sanctuary for those seeking peace and introspection.",
+    "Most visitors hike only to Kheerganga. The best version of Kasol is exploring lesser-known trails to Malana and Rasol.",
+    "Most visitors spend too much time at local cafes. The real Kasol starts at the hidden waterfalls just a short trek from the main road."
+  ],
+  "neighborhoodPersonalities": {
+    "Main Market": {
+      "tags": [
+        "shopping",
+        "food",
+        "cultural"
+      ],
+      "bestFor": "finding local handicrafts and delicious food",
+      "avoid": "overpriced items and tourist traps"
+    },
+    "Chalal": {
+      "tags": [
+        "nature",
+        "quiet",
+        "retreat"
+      ],
+      "bestFor": "serene walks and nature immersion",
+      "avoid": "crowds during peak hours"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the main market for local goods",
+        "Try the apple pie at the German Bakery",
+        "Take a short hike to Chalal village",
+        "Enjoy a bonfire at your accommodation"
+      ],
+      "avoid": [
+        "Don't skip the local food for trendy cafes",
+        "Avoid planning a packed itinerary without allowing for spontaneity"
+      ],
+      "mindset": "Approach Kasol with an open heart and mind, ready to embrace both nature and the stories of those around you."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Explore hidden waterfalls off the beaten track",
+        "Attend a local festival if timing permits",
+        "Engage with local artisans and learn their crafts"
+      ],
+      "neighborhoods": [
+        "Malana",
+        "Rasol"
+      ],
+      "local": "Only locals and repeat visitors know the best times to visit the hot springs near Kheerganga."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to June",
+      "weather": "15-25°C, pleasant weather",
+      "crowds": "heavily crowded, especially on weekends",
+      "prices": "price premium 30-50%",
+      "verdict": "A vibrant but overwhelming experience if you crave solitude."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "Fewer crowds, pleasant weather, and the beauty of autumn colors."
+    },
+    "offSeason": {
+      "months": "December to February",
+      "reality": "Cold weather, snowfall may occur, some facilities may close",
+      "hiddenGem": "The serene beauty of snow-covered landscapes attracts a different kind of traveler."
+    },
+    "bestMonth": "April — mild weather and blooming nature.",
+    "worstMonth": "July — heavy monsoons can disrupt travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not taking the time to hike to hidden spots.",
+    "Most visitors regret missing out on local food experiences.",
+    "Most visitors regret rushing their trip without relaxing."
+  ],
+  "antiPatterns": [
+    "Hiking only the popular trails — it leads to missing the peace of lesser-known routes.",
+    "Staying in overly commercialized hostels — it detracts from the local experience.",
+    "Rushing through sightseeing — it can lead to exhaustion rather than enjoyment."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Explore the main market, take a short trek to Chalal, and try local food",
+      "verdict": "Too brief to truly absorb the essence of Kasol."
+    },
+    "two_days": {
+      "focus": "Covers local exploration and a short trek",
+      "misses": "More in-depth experiences with local culture and nature."
+    },
+    "three_to_four_days": {
+      "focus": "Balanced exploration of both popular and hidden spots",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration including treks to Kheerganga and Malana, and community engagements",
+      "whoFor": "travelers seeking immersion and adventure."
+    },
+    "recommended": "3-4 days — enough time to relax and explore at a leisurely pace."
+  },
+  "residentSunday": "A Kasol resident with one free Sunday: starts with a morning trek to a nearby waterfall, followed by lunch at the German Bakery for their famous apple pie, spends the afternoon reading by the riverside, and concludes with a small gathering around a bonfire with friends at a local guesthouse.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the bus and breathe in the cool mountain air, the sound of the river rushing nearby.",
+    "peak": "Sitting by the Parvati River at sunset, surrounded by new friends, sharing stories and laughter.",
+    "departure": "A last glimpse of the snow-capped mountains framed by the valley as you board the bus back home."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Volvo bus to Kullu/Manali ₹800-1200, get off at Bhuntar (12h) then taxi/local bus 20km",
+      "flight": "No direct flights; nearest airport is KUU, 75km away",
+      "recommended": "SKYmora recommends the Volvo bus for budget-friendly travel and scenic views.",
+      "budgetTip": "Book your bus tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express, 11 hours, ₹1,200 Sleeper class",
+      "flight": "Direct flights to KUU, but very limited",
+      "recommended": "Take the train for a cost-effective and scenic journey."
+    },
+    "fromBangalore": {
+      "train": "No direct trains; take a train to Delhi and then follow Delhi transport options",
+      "flight": "Direct flights to Delhi, then follow Delhi transport options",
+      "recommended": "Consider a combination of flight to Delhi and then bus."
+    },
+    "localTransport": {
+      "best": "Shared taxis for nearby locations",
+      "avoid": "Avoid private taxis due to high costs",
+      "appRecommendation": "Use Ola or Uber for intra-city trips if available",
+      "autoRickshaw": "Limited availability, not common",
+      "cost": "Daily local transport budget ₹200-300."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Fake trekking guides",
+      "howItWorks": "Unlicensed individuals may offer treks at inflated prices.",
+      "prevention": "Always book through reputable hostels or agencies.",
+      "ifItHappens": "Report to local authorities or your accommodation."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Chole Bhature from Shanti Cafe",
+      "Momos from the street vendor near the bridge",
+      "Pakoras from the stalls near the main market"
+    ],
+    "avoidList": [
+      "Avoid raw salads from roadside eateries due to water quality concerns.",
+      "Steer clear of unbranded bottled water."
+    ],
+    "waterAdvice": "Drink bottled or boiled water only; avoid tap water.",
+    "trustedDhabas": "Look for dhabas with a local crowd to ensure food quality.",
+    "mustEat": [
+      "Apple pie at German Bakery",
+      "Thukpa at Little Italy",
+      "Paneer Tikka at Evergreen Cafe"
+    ],
+    "touristTrap": "The overpriced food at cafes along the riverfront that serve bland versions of local dishes."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Casual, comfortable clothing suitable for trekking; modest attire is appreciated when visiting local villages.",
+    "photographyRules": "Respect privacy in local villages; ask for permission before taking photos.",
+    "templeEtiquette": "Remove shoes and cover heads when entering temples.",
+    "timing": "Best to visit local markets in the morning for fresh produce and local culture.",
+    "localCustom": "Sharing food is a sign of hospitality; if offered, graciously accept."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,500",
+      "accommodation": "Dormitory beds in hostels around ₹500-800",
+      "food": "Street food and local dhabas at ₹300-500",
+      "transport": "Local transport budgeted at ₹200-300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Private rooms in guesthouses around ₹1,500-2,000",
+      "food": "Dining at mid-range restaurants at ₹600-800",
+      "includes": "Convenience of comfort while still being budget-conscious."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels starting from ₹3,500",
+      "experience": "Includes guided treks and tours."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "High-end resorts",
+      "note": "Luxury may not add significant value in Kasol due to its laid-back nature."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek nightlife will be disappointed because Kasol has a more relaxed vibe and fewer party options.",
+    "If you want a fast-paced urban experience, Kasol is the wrong choice — Manali is better.",
+    "Anyone expecting high-end luxury will find the basic amenities here lacking."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the hidden waterfalls near Chalal early in the morning for solitude — it's a 30-minute trek from the village.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local apple cider — available in the main market during the apple season.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the local bus to Bhuntar for a cheaper and authentic travel experience — costs around ₹50.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a local festival if your visit coincides — a great way to mingle with locals.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore beyond the main trails — the lesser-known treks offer breathtaking views without the crowds.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the German Bakery",
+        "Take a riverside walk",
+        "Hike to Chalal",
+        "Enjoy a sunset by the river"
+      ],
+      "emotionalArc": "This sequence allows for a mix of relaxation, adventure, and connection with nature, enriching your experience in Kasol.",
+      "bestFor": [
+        "nature lovers",
+        "photography enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Parvati River",
+        "what": "Sunset reflections on the water",
+        "bestTime": "Evening during golden hour",
+        "tip": "Find a spot on the rocks for the best angle."
+      }
+    ],
+    "goldenHour": "Around 6:30 PM in summer months, providing stunning lighting for photography.",
+    "restrictedAreas": [
+      "Local temples and private properties"
+    ],
+    "tip": "Capture candid moments with locals; they often appreciate the gesture."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility due to steep paths and rugged terrain.",
+    "majorChallenges": "Narrow roads and lack of ramps in local areas pose challenges.",
+    "seniorFriendlyScore": 4,
+    "note": "Travelers with mobility needs should plan ahead and consider accommodations with better access."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Manali",
+      "distance": "75km",
+      "travelTime": "2 hours",
+      "how": "Shared taxis or local buses",
+      "whyCombine": "To explore a more commercial tourist hub with varied activities."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "April",
+    "avoidMonth": "July due to heavy rains",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "1,580 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "Summer season with pleasant weather, ideal for trekking and outdoor activities.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for Indian national travelers."
+  }
+}

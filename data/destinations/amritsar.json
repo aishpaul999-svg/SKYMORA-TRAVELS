@@ -1,0 +1,311 @@
+{
+  "destination": "Amritsar",
+  "state": "Punjab",
+  "type": "spiritual/Golden Temple",
+  "aliases": [
+    "Amritsar",
+    "amritsar",
+    "Punjab"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "spiritual seekers",
+      "history enthusiasts",
+      "food lovers",
+      "cultural explorers",
+      "budget travelers"
+    ],
+    "notFor": [
+      "luxury travelers expecting high-end amenities",
+      "party-goers looking for nightlife",
+      "those seeking beach destinations"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the awe-inspiring Golden Temple, with its shimmering gold facade reflecting in the holy Amrit Sarovar. They stay for the communal langar, where the aroma of freshly cooked dal and chapatis fills the air, and they return because Amritsar's essence lies in its blend of spirituality, community, and history — a place where silence speaks louder than words.",
+  "honestTruth": "Many guides overlook the profound silence of the Golden Temple at dawn — it's a moment that changes your perspective on spirituality.",
+  "localTruths": [
+    "Most visitors think they can only see the Golden Temple in daylight. Locals know that the temple is equally mesmerizing at night, with fewer crowds and the glow of lights reflecting on the water.",
+    "Most visitors rush through the main attractions. The best version of Amritsar is discovered in the narrow lanes of the old city, where you can taste authentic street food and experience daily life.",
+    "Most visitors spend too much time at the Golden Temple. The real Amritsar starts at the Partition Museum, which tells the heart-wrenching stories that shaped the city's identity."
+  ],
+  "neighborhoodPersonalities": {
+    "Old City": {
+      "tags": [
+        "historical",
+        "cultural",
+        "foodie"
+      ],
+      "bestFor": "exploring authentic Punjabi culture and street food",
+      "avoid": "beware of overly aggressive vendors."
+    },
+    "Civil Lines": {
+      "tags": [
+        "modern",
+        "quiet",
+        "upscale"
+      ],
+      "bestFor": "a more relaxed atmosphere with cafes and boutiques",
+      "avoid": "it can be quieter and less lively than other areas."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the Golden Temple early in the morning",
+        "Experience the langar meal",
+        "Watch the Wagah Border ceremony",
+        "Explore the Partition Museum"
+      ],
+      "avoid": [
+        "Don't skip the local street food, thinking it’s unsafe",
+        "Avoid only visiting the Golden Temple without exploring the old city"
+      ],
+      "mindset": "Approach Amritsar with an open heart and a willingness to connect with its deep-rooted history and spirituality."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Attend the early morning prayers at the Golden Temple",
+        "Explore the local markets for unique handicrafts",
+        "Visit historical sites like Jallianwala Bagh",
+        "Take a heritage walk in the old city"
+      ],
+      "neighborhoods": [
+        "Chowk Passian",
+        "Street food lanes near Katra Jaimal Singh"
+      ],
+      "local": "One dish only locals know is Amritsari Kulcha from Kulcha Land, best enjoyed in a bustling corner of the old city."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to March",
+      "weather": "mild and pleasant, temperatures ranging from 10°C to 20°C",
+      "crowds": "heavy, especially around festivals",
+      "prices": "20% higher for accommodations and services",
+      "verdict": "A great time to visit, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer tourists, manageable heat, and lower prices make it a good time to explore."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon season brings heavy rains, leading to occasional flooding but also lush greenery.",
+      "hiddenGem": "Some travelers enjoy the quieter temples and lush surroundings during this time."
+    },
+    "bestMonth": "October — the weather is pleasant, and the festivities of Diwali add to the charm.",
+    "worstMonth": "July — heavy rains can disrupt travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying enough local food options beyond the famous dishes.",
+    "Most visitors regret not taking time to understand the history behind the Partition Museum.",
+    "Most visitors regret not exploring beyond the Golden Temple into the vibrant streets of the old city."
+  ],
+  "antiPatterns": [
+    "Rushing from the Golden Temple to the Wagah Border without enjoying the local food fails to capture the essence of Amritsar.",
+    "Visiting only during the day and missing the magical night atmosphere of the temple ruins the experience.",
+    "Ignoring the local transport options leads to unnecessary walking in the heat."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit the Golden Temple, have langar, explore Jallianwala Bagh, and watch the Wagah Border ceremony.",
+      "verdict": "One day is sufficient for a quick overview but lacks depth."
+    },
+    "two_days": {
+      "focus": "Covers main attractions like the Golden Temple, Jallianwala Bagh, and a food tour.",
+      "misses": "The hidden gems of the old city and deeper cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "Allows for a good mix of historical sites, local cuisine, and cultural immersion.",
+      "sweetSpot": true
+    },
+    "five-to-seven_days": {
+      "focus": "Deep exploration of Amritsar's history, culture, and local life.",
+      "whoFor": "Cultural enthusiasts and food lovers."
+    },
+    "recommended": "3 days — it provides enough time to truly absorb the spirit of the city."
+  },
+  "residentSunday": "An Amritsar resident's Sunday starts with an early morning visit to the Golden Temple for peaceful prayers, followed by breakfast at 'Balle Balle' for their famous aloo parathas. In the afternoon, a stroll through the narrow lanes of the old city leads to a chai break at 'Kesar Da Dhaba'. The evening is spent at the Wagah Border for the Beating Retreat ceremony, soaking in the patriotic atmosphere.",
+  "dayMemoryTargets": {
+    "arrival": "The sight of the Golden Temple as you approach it for the first time, with its golden reflections shimmering on the water.",
+    "peak": "Sharing a meal at the langar with locals and fellow travelers, feeling the sense of community.",
+    "departure": "Walking away from the Golden Temple with the sound of hymns echoing in your heart."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12013 (departs 7:20am, 6h, ₹1,255 CC)",
+      "bus": "Buses are available but can take longer (8-10 hours) and may not be as comfortable.",
+      "flight": "Not recommended as the nearest airport is ATQ and it's more costly.",
+      "recommended": "Take the Shatabdi Express for comfort and speed.",
+      "budgetTip": "Book train tickets in advance to save up to ₹500 on fares."
+    },
+    "fromMumbai": {
+      "train": "Nandigram Express 22199 (departs 11:55pm, 26 hours, ₹1,400)",
+      "flight": "Direct flights available, around ₹5,000 one-way.",
+      "recommended": "The train is a cheaper and more adventurous option."
+    },
+    "fromBangalore": {
+      "train": "No direct trains; take a train to Delhi and then follow the Delhi route.",
+      "flight": "Direct flights available, around ₹5,500 one-way.",
+      "recommended": "Flying to save time but book early for better deals."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws and cycle rickshaws are the best local transport options.",
+      "avoid": "Avoid private taxis unless necessary, as they can be overpriced.",
+      "appRecommendation": "Use Uber or Ola for rides within the city.",
+      "autoRickshaw": "Auto-rickshaws are cheap and fun, but always negotiate the fare beforehand.",
+      "cost": "Daily local transport budget around ₹200-300."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Fake Tour Guides",
+      "howItWorks": "Unlicensed guides approach tourists near major attractions, offering overpriced tours.",
+      "prevention": "Always verify guides through official channels or trusted hotel recommendations.",
+      "ifItHappens": "Politely decline and report to local authorities."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Amritsari Kulcha from Kulcha Land",
+      "Chole Bhature from Bharawan Da Dhaba",
+      "Lassi from Ahuja Lassi",
+      "Paneer Tikka from Ashok Tandoori",
+      "Samosas from the street vendors near the Golden Temple"
+    ],
+    "avoidList": [
+      "Avoid street food from vendors without visible hygiene practices.",
+      "Steer clear of unbranded bottled water."
+    ],
+    "waterAdvice": "Drink only bottled water or water from trusted restaurants, as tap water can cause issues.",
+    "trustedDhabas": "Look for crowded dhabas, as they indicate trust and quality.",
+    "mustEat": [
+      "Amritsari Kulcha at Kulcha Land",
+      "Lassi at Ahuja Lassi",
+      "Chole Bhature at Bharawan Da Dhaba"
+    ],
+    "touristTrap": "Beware of the overpriced meals near the Golden Temple that lack authenticity."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest clothing is essential when visiting the Golden Temple; cover your head and shoulders.",
+    "photographyRules": "Photography is prohibited inside the Golden Temple and at certain sensitive areas.",
+    "templeEtiquette": "Remove shoes and wash hands before entering the temple complex.",
+    "timing": "Visit during early morning or late evening for a quieter experience.",
+    "localCustom": "It's customary to sit cross-legged while eating in the langar."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget guesthouses around ₹500-700",
+      "food": "Street food and local dhabas, around ₹500-700",
+      "transport": "Use local buses and rickshaws for around ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels or guesthouses at ₹1,500-2,000",
+      "food": "Mix of dhabas and restaurants, around ₹1,000",
+      "includes": "Guided tours and some cultural experiences."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "4-star hotels at ₹3,500-5,000",
+      "experience": "Includes guided tours and fine dining experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury hotels like Hyatt Regency",
+      "note": "Luxury adds comfort but not necessarily a deeper connection to the culture."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who dislike crowds will be disappointed because Amritsar is often busy, especially at popular sites.",
+    "If you want a beach experience, Amritsar is the wrong choice — Goa is better.",
+    "Anyone expecting a nightlife scene will find Amritsar lacking in options after sunset."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Golden Temple at dawn for a serene experience with fewer visitors.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the jalebis from the street vendor outside the Golden Temple for a sweet treat.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the local bus service for a budget-friendly way to explore the city.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend the evening light show at the Golden Temple for a magical experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the lesser-known nearby village of Khalsa College for a glimpse of Punjabi architecture.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Golden Temple",
+        "Langar",
+        "Jallianwala Bagh",
+        "Wagah Border"
+      ],
+      "emotionalArc": "This sequence builds up from spiritual reflection to community dining, followed by historical remembrance and patriotic fervor.",
+      "bestFor": [
+        "spiritual seekers",
+        "history enthusiasts",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Golden Temple",
+        "what": "Capture the reflection of the temple in the Amrit Sarovar",
+        "bestTime": "Early morning at sunrise",
+        "tip": "Arrive before dawn for the best light and fewer crowds."
+      }
+    ],
+    "goldenHour": "The golden hour is just after sunrise and before sunset when the temple glows beautifully.",
+    "restrictedAreas": [
+      "Inside the Golden Temple and at certain historical sites."
+    ],
+    "tip": "Use a wide-angle lens to capture the grandeur of the temple and surrounding architecture."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "The Golden Temple has ramps and pathways but can get crowded.",
+    "majorChallenges": "Some streets in the old city are narrow and uneven.",
+    "seniorFriendlyScore": 7,
+    "note": "Travelers with mobility needs can find assistance, but it's advisable to plan visits during less crowded times."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Amritsar",
+      "distance": "15km",
+      "travelTime": "30 minutes",
+      "how": "Local bus or auto-rickshaw",
+      "whyCombine": "Visit the nearby town of Tarn Taran for its historical gurdwaras."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "October",
+    "avoidMonth": "July due to heavy monsoon rains.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "If relevant",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The monsoon season is in full swing, which means beautiful greenery but also potential flooding.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required, but ensure to follow local guidelines."
+  }
+}

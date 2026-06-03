@@ -405,30 +405,46 @@ async function getRealTimeData(query, tripData = {}) {
 function cleanAIArtifacts(text) {
   if (!text) return text;
 
-  // Fix broken sentences: "The atmosphere is , which" → remove broken fragment
+  // ── Broken noun phrases: "what kind of place this ." / "what kind of city this ."
+  text = text.replace(/what kind of (place|city|destination|country|town) (this|it)\s*\./gi, 'what kind of place it is.');
+  text = text.replace(/not yet sure what (it|this) (is|will be)\s*\./gi, '');
+  text = text.replace(/You are not yet sure[^.]*\./gi, '');
+
+  // ── Fix broken sentences: "The atmosphere is , which" → remove broken fragment
   text = text.replace(/\b(is|are|was|were|be|been|being|to|has|have|had)\s*,\s*/g, ' ');
 
-  // Fix "designed to be ," patterns
+  // ── Fix "designed to be ," patterns
   text = text.replace(/\b(designed to be|intended to|meant to|positioned to|set to)\s*,/g, (match) => match.replace(',', ''));
 
-  // Remove sentences that end abruptly mid-thought (end with "is" or "are" before period)
-  text = text.replace(/\b(is|are|was|were)\s*\./g, '.');
+  // ── Remove dangling sentence ends: "The city is ." / "Paris is ."
+  text = text.replace(/\b(\w+)\s+(is|are|was|were)\s*\.\s*/g, (match, noun, verb) => '');
 
-  // Fix double spaces created by removals
+  // ── Fix double spaces
   text = text.replace(/  +/g, ' ');
 
-  // Fix "with local life..." when "atmosphere is with" pattern
+  // ── Fix common broken phrase patterns
   text = text.replace(/atmosphere is with/gi, 'atmosphere filled with');
   text = text.replace(/experience is with/gi, 'experience complemented by');
+  text = text.replace(/city is\s*\./gi, 'city.');
+  text = text.replace(/place is\s*\./gi, 'place.');
 
-  // Remove any orphaned commas at start of phrases
+  // ── Remove orphaned commas
   text = text.replace(/,\s*,/g, ',');
   text = text.replace(/\s+,/g, ',');
 
-  // Fix incomplete closing sentences (sentence ends without a verb completing)
-  text = text.replace(/positioning you\s*\./g, 'positioning you perfectly for the rest of the day.');
-  text = text.replace(/ensuring you\s*\./g, 'ensuring a smooth and comfortable experience.');
+  // ── Fix trailing incomplete closings
+  text = text.replace(/positioning you\s*\./g, 'positioning you for the rest of the day.');
+  text = text.replace(/ensuring you\s*\./g, 'ensuring a smooth experience.');
   text = text.replace(/allowing you\s*\./g, 'allowing you to settle in at your own pace.');
+  text = text.replace(/making it\s*\./g, '');
+  text = text.replace(/providing you\s*\./g, '');
+
+  // ── Remove lines that are just fragments (under 4 words, no verb)
+  text = text.split('\n').filter(line => {
+    const words = line.trim().split(/\s+/);
+    if (words.length < 3 && !line.includes(':')) return false;
+    return true;
+  }).join('\n');
 
   return text.trim();
 }
