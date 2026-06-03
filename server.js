@@ -672,6 +672,72 @@ function detectTripPersona(trip = {}) {
   return "explorer";
 }
 
+// ── Build personalization note deterministically from trip data ──
+// 100% reliable, no GPT, no banned words, always specific
+function buildPersonalizationNote(trip, day, totalDays, destination) {
+  const occasion = trip.emotionalState || "";
+  const firstVisit = trip.firstVisit || "first";
+  const pace = trip.pace || "balanced";
+  const dining = trip.diningPreference || "balanced";
+  const personality = trip.travelPersonality || "balanced";
+  const special = (trip.specialRequest || "").toLowerCase();
+  const isFirst = firstVisit !== "repeat";
+  const isLastDay = day === totalDays;
+  const isPeakDay = day === Math.ceil(totalDays / 2);
+
+  // Occasion-specific notes
+  if (special.includes("honeymoon") || special.includes("anniversary")) {
+    if (isFirst && day === 1) return `Because this is your honeymoon and your first visit to ${destination} — the day starts where most visitors never go, so the famous landmarks feel earned rather than obligatory.`;
+    if (isPeakDay) return `Because you are celebrating your anniversary — today carries the most weight in the trip, so it holds the most private and specific experiences.`;
+    if (isLastDay) return `Because this is a honeymoon — the last morning was kept deliberate and unhurried, so the trip ends the way it deserves to.`;
+    return `Because every experience today was chosen to feel like a reward, not a checklist — this is a celebration, and the itinerary was built to feel like one.`;
+  }
+
+  if (occasion === "celebrating") {
+    return `Because you are celebrating — each experience today was chosen because it rewards, not because it is expected. The city is performing for you today.`;
+  }
+  if (occasion === "recovering") {
+    if (day === 1) return `Because you came here to restore yourself — Day 1 is deliberately light. The city does not need to be rushed, and neither do you.`;
+    return `Because rest is the purpose of this trip — today has open windows built in. That is not wasted time. It is the point.`;
+  }
+  if (occasion === "escaping") {
+    return `Because you needed contrast — everything today is designed to feel as different from your daily life as possible.`;
+  }
+
+  // First visit notes
+  if (isFirst && day === 1) return `Because this is your first visit to ${destination} — the sequence today is intentional. What you see first shapes how you see everything after.`;
+  if (isFirst && isPeakDay) return `Because first-time visitors often try to see everything — today focuses on depth over breadth. One experience done properly beats three done quickly.`;
+
+  // Pace notes
+  if (pace === "relaxed") {
+    return `Because you chose a relaxed pace — this afternoon stays open. Most travelers who over-schedule Day ${day} arrive at dinner already tired. That is a waste of a good city.`;
+  }
+  if (pace === "packed") {
+    return `Because you wanted a full day — every hour today has a purpose, and the transitions between activities were sequenced to avoid backtracking.`;
+  }
+
+  // Dining notes
+  if (dining === "every meal") {
+    return `Because every meal matters to you — both lunch and dinner today were chosen as primary experiences, not afterthoughts. The food carries as much weight as the sights.`;
+  }
+
+  // Personality notes
+  if (personality === "introvert") {
+    return `Because you prefer depth over crowds — today keeps you away from the tourist peak hours and in the parts of the city where genuine experiences happen.`;
+  }
+  if (personality === "extrovert") {
+    return `Because you thrive on connection — today puts you where people actually gather, not where visitors are told to gather.`;
+  }
+
+  // Repeat visitor
+  if (!isFirst) {
+    return `Because you have been here before — today skips the landmarks you already know and goes to the ${destination} that most visitors never reach.`;
+  }
+
+  // Default — always returns something specific
+  return `Because this is Day ${day} of ${totalDays} — the pacing was set so today builds on yesterday and prepares for tomorrow. The sequence is deliberate.`;
+}
+
 // ======== BUILD DAY — COMPLETE INTELLIGENCE ENGINE ========
 async function buildDay(trip, day, tripPlan = null) {
   const {
@@ -1064,7 +1130,7 @@ RULES:
 - Title must be specific: "Day 1: Arrival in ${resolvedDestination}" not "Day 1: ${resolvedDestination}"
 - Airport codes in content: ${depCode} → ${destCode}
 
-Return ONLY this JSON:
+Return ONLY this JSON — every field is required:
 {
   "day": ${day},
   "title": "Day ${day}: [Specific Title]",
@@ -1072,7 +1138,22 @@ Return ONLY this JSON:
   "dailyCost": [number],
   "budgetStatus": "Within budget",
   "depCode": "${depCode}",
-  "destCode": "${destCode}"
+  "destCode": "${destCode}",
+  "personalizationNote": "[ONE sentence starting with 'Because' explaining why this specific day was designed for THIS traveler — reference their occasion, personality, visit type, or pace. Example: 'Because this is your first visit, today starts with old Dubai so the modern city feels earned rather than assumed.']",
+  "whyChoices": [
+    {
+      "for": "[hotel name OR main activity name OR dinner restaurant name]",
+      "reason": "[1-2 sentences of specific decision logic for THIS traveler. Not generic. Reference location advantage, time saving, or why it fits their occasion/pace/personality.]"
+    },
+    {
+      "for": "[second recommendation]",
+      "reason": "[specific reason]"
+    },
+    {
+      "for": "[dinner or evening highlight]",
+      "reason": "[specific reason — include timing logic if relevant]"
+    }
+  ]
 }`;
 
   try {
@@ -1086,13 +1167,33 @@ Return ONLY this JSON:
       messages: [
         {
           role: "system",
-          content: `You are an elite travel writer at SKYmora. Your writing is precise, human, and intelligent.
-Never use these words: vibrant, nestled, charming, unforgettable, extraordinary, delightful, immersive, enchanting, magical, breathtaking, stunning, incredible, amazing, wonderful, fantastic, luxurious, picturesque, serene, tranquil.
-CRITICAL SENTENCE RULE: Every sentence you start must be completed. Never end a sentence with "is ," or "are ," or "to be ," — these are incomplete. Read every sentence before writing the next one. A half-finished sentence is worse than no sentence at all.
-Every section header must be plain text — no brackets, no emojis.
-Every major recommendation must include WHY that specific option was chosen.
-Pricing must feel like intelligent market analysis, never pressure.
-Return valid JSON with a "content" field.`
+          content: `You are an elite travel writer at SKYmora. Precise. Human. Specific. Never generic.
+
+BANNED WORDS — never use anywhere including in whyChoices and personalizationNote:
+vibrant, nestled, charming, unforgettable, extraordinary, delightful, immersive, enchanting, magical, breathtaking, stunning, incredible, amazing, wonderful, fantastic, luxurious, picturesque, serene, tranquil, elevate, resonate, impactful, memorable.
+
+SENTENCE RULE: Every sentence must be complete. No sentence ends with "is ," or "are ," or "to ,".
+
+SECTION HEADERS: Plain text only — no brackets, no emojis.
+
+PERSONALIZATION NOTE RULE:
+- Must start with "Because"
+- Must reference something SPECIFIC about this traveler (their occasion, first/repeat visit, pace preference, or dining preference)
+- Must explain a concrete decision — not a feeling
+- BAD: "Because you are celebrating, this day was designed to feel special."
+- GOOD: "Because this is your first visit, today starts with old Dubai before the modern city — the sequence is intentional, because seeing the towers before the Creek makes the towers seem hollow."
+- BAD: "Because you love food, meals were prioritized."
+- GOOD: "Because every meal matters to you, both lunch and dinner today have specific dishes worth ordering — the tasting menu at Trèsind is a set sequence, and arriving 15 minutes early is the difference between a warm table and a rushed one."
+
+WHY CHOICES RULE:
+- Each reason must be SPECIFIC to this traveler, not generic praise
+- Reference time, location advantage, occasion fit, or trip sequencing
+- BAD: "This is a great restaurant for a romantic dinner."
+- GOOD: "Trèsind Studio on an anniversary because the tasting menu has a natural ceremony to it — each course is announced — and the kitchen accommodates the occasion if told in advance."
+- BAD: "Burj Khalifa at 8:30am for the best experience."
+- GOOD: "Burj Khalifa at 8:30am because the deck has fewer than 50 people at that hour. By 11am it has 500. The view is identical. The experience is completely different."
+
+Return ALL JSON fields. A missing or generic personalizationNote is a failure. A whyChoices reason that could apply to any traveler is a failure.`
         },
         { role: "user", content: prompt }
       ]
@@ -1108,6 +1209,38 @@ Return valid JSON with a "content" field.`
     }
 
     parsed.content = narrativePolish(parsed.content, travelerName, resolvedDestination, personaMap, day, totalDays);
+
+    // ── Generate personalizationNote deterministically from trip data ──
+    // This is 100% reliable — no GPT hallucination, no banned words
+    parsed.personalizationNote = buildPersonalizationNote(trip, day, totalDays, resolvedDestination);
+
+    // ── Improve whyChoices — replace vague phrases with specific ones ──
+    if (Array.isArray(parsed.whyChoices)) {
+      const replacements = [
+        [/\bunforgettable\b/gi, 'worth remembering'],
+        [/\bbreathtaking\b/gi, 'genuinely impressive'],
+        [/\bstunning\b/gi, 'striking'],
+        [/\bincredible\b/gi, 'exceptional'],
+        [/\bamazing\b/gi, 'strong'],
+        [/\bmagical\b/gi, 'distinctive'],
+        [/\bextraordinary\b/gi, 'notable'],
+        [/\bluxurious\b/gi, 'high-end'],
+        [/\bserenity\b/gi, 'quiet'],
+        [/\bimmersive\b/gi, 'absorbing'],
+        [/\belevate your\b/gi, 'improve your'],
+        [/\bculminating in a memorable\b/gi, 'ending well'],
+        [/\bperfect for\b/gi, 'well-suited for'],
+        [/\bculinary adventure\b/gi, 'food experience'],
+        [/\bunique experience\b/gi, 'specific experience']
+      ];
+      parsed.whyChoices = parsed.whyChoices.map(w => {
+        let reason = w.reason || '';
+        replacements.forEach(([pattern, replacement]) => {
+          reason = reason.replace(pattern, replacement);
+        });
+        return { ...w, reason: reason.trim() };
+      }).filter(w => w.for && w.reason && w.reason.length > 20);
+    }
     parsed.depCode = parsed.depCode || depCode;
     parsed.destCode = parsed.destCode || destCode;
 parsed.resolvedDestination = resolvedDestination;
