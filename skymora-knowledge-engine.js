@@ -67,20 +67,22 @@ export function buildKnowledgeBlock(trip = {}) {
   // 1. Visitor type
   if (isRepeat) {
     block += `\nVISITOR STATUS: REPEAT VISITOR\n`;
-    block += `${k.repeatVisitorIntelligence.insiderNarrative}\n`;
-    block += `\nSKIP THESE (already seen): ${k.repeatVisitorIntelligence.skipThese.join(", ")}\n`;
-    block += `\nGO HERE INSTEAD:\n${k.repeatVisitorIntelligence.goHere.map(g => `- ${g}`).join("\n")}\n`;
+    if (k.repeatVisitorIntelligence?.insiderNarrative) block += `${k.repeatVisitorIntelligence.insiderNarrative}\n`;
+    if (k.repeatVisitorIntelligence?.skipThese?.length) block += `\nSKIP THESE (already seen): ${k.repeatVisitorIntelligence.skipThese.join(", ")}\n`;
+    if (k.repeatVisitorIntelligence?.goHere?.length) block += `\nGO HERE INSTEAD:\n${k.repeatVisitorIntelligence.goHere.map(g => `- ${g}`).join("\n")}\n`;
   } else {
     block += `\nVISITOR STATUS: FIRST TIME VISITOR\n`;
-    block += `${k.firstVisitorEssentials.summary}\n`;
-    block += `\nMUST INCLUDE:\n${k.firstVisitorEssentials.mustInclude.map(m => `- ${m}`).join("\n")}\n`;
-    block += `\nLOCAL INSIDER LINE TO USE: "${k.firstVisitorEssentials.localInsiderToAdd}"\n`;
+    if (k.firstVisitorEssentials?.summary) {
+      block += `${k.firstVisitorEssentials.summary}\n`;
+      if (k.firstVisitorEssentials.mustInclude?.length) block += `\nMUST INCLUDE:\n${k.firstVisitorEssentials.mustInclude.map(m => `- ${m}`).join("\n")}\n`;
+      if (k.firstVisitorEssentials.localInsiderToAdd) block += `\nLOCAL INSIDER LINE TO USE: "${k.firstVisitorEssentials.localInsiderToAdd}"\n`;
+    }
   }
 
-  // 2. Top restaurants for this persona
-  const topRestaurants = k.restaurants
-    .filter(r => r.scores[persona] >= 7)
-    .sort((a, b) => (b.scores[persona] || 0) - (a.scores[persona] || 0))
+  // 2. Top restaurants for this persona (international schema only)
+  const topRestaurants = (k.restaurants || [])
+    .filter(r => r.scores?.[persona] >= 7)
+    .sort((a, b) => (b.scores?.[persona] || 0) - (a.scores?.[persona] || 0))
     .slice(0, 6);
 
   if (topRestaurants.length) {
@@ -92,16 +94,16 @@ export function buildKnowledgeBlock(trip = {}) {
     });
   }
 
-  // 3. Top activities for this persona
-  const topActivities = k.activities
+  // 3. Top activities for this persona (international schema only)
+  const topActivities = (k.activities || [])
     .filter(a => {
-      const score = a.scores[persona] || 0;
-      if (isRepeat && a.scores.repeat) return a.scores.repeat >= 7;
+      const score = a.scores?.[persona] || 0;
+      if (isRepeat && a.scores?.repeat) return a.scores.repeat >= 7;
       return score >= 7;
     })
     .sort((a, b) => {
-      const keyA = isRepeat ? (a.scores.repeat || a.scores[persona] || 0) : (a.scores[persona] || 0);
-      const keyB = isRepeat ? (b.scores.repeat || b.scores[persona] || 0) : (b.scores[persona] || 0);
+      const keyA = isRepeat ? (a.scores?.repeat || a.scores?.[persona] || 0) : (a.scores?.[persona] || 0);
+      const keyB = isRepeat ? (b.scores?.repeat || b.scores?.[persona] || 0) : (b.scores?.[persona] || 0);
       return keyB - keyA;
     })
     .slice(0, 6);
@@ -301,7 +303,7 @@ export function buildKnowledgeBlock(trip = {}) {
     if (k.liveIntelligence.strikesDisruptions && k.liveIntelligence.strikesDisruptions !== '') {
       block += `CURRENT DISRUPTIONS: ${k.liveIntelligence.strikesDisruptions}\n`;
     }
-    if (k.liveIntelligence.currentAlerts?.length) {
+    if (Array.isArray(k.liveIntelligence.currentAlerts) && k.liveIntelligence.currentAlerts.length) {
       block += `LIVE ALERTS: ${k.liveIntelligence.currentAlerts.join(' | ')}\n`;
     }
     if (k.liveIntelligence.entryRequirements) {
@@ -342,6 +344,170 @@ export function buildKnowledgeBlock(trip = {}) {
     }
     if (pi.goldenHour) block += `Golden hour: ${pi.goldenHour}\n`;
     if (pi.droneRules) block += `Drone rules: ${pi.droneRules}\n`;
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // INDIA-SPECIFIC SECTIONS (v4.0-india schema only)
+  // These sections are unique to Indian destinations and
+  // contain intelligence that international files don't have
+  // ══════════════════════════════════════════════════════════
+
+  if (k._schemaVersion === '4.0-india') {
+    const budget = Number(trip.budget || 0);
+    const currency = (trip.currency || 'INR').toUpperCase();
+    const departure = (trip.departure || '').toLowerCase();
+
+    // 25. TRANSPORTATION REALITY — real trains, real prices
+    if (k.transportationReality) {
+      const tr = k.transportationReality;
+      const depKey = departure.includes('delhi') || departure.includes('new delhi') ? 'fromDelhi' :
+                     departure.includes('mumbai') || departure.includes('bombay') ? 'fromMumbai' :
+                     departure.includes('bangalore') || departure.includes('bengaluru') ? 'fromBangalore' :
+                     departure.includes('chennai') ? 'fromChennai' : 'fromDelhi';
+      const depInfo = tr[depKey] || tr.fromDelhi;
+
+      if (depInfo) {
+        block += `\nTRANSPORTATION — HOW TO GET THERE FROM ${(trip.departure || 'DELHI').toUpperCase()}:\n`;
+        if (depInfo.train) block += `Train: ${depInfo.train}\n`;
+        if (depInfo.bus) block += `Bus: ${depInfo.bus}\n`;
+        if (depInfo.flight) block += `Flight: ${depInfo.flight}\n`;
+        if (depInfo.recommended) block += `SKYmora Recommendation: ${depInfo.recommended}\n`;
+        if (depInfo.budgetTip) block += `Budget Tip: ${depInfo.budgetTip}\n`;
+      }
+      if (tr.localTransport) {
+        const lt = tr.localTransport;
+        block += `Local Transport: ${lt.best || ''}`;
+        if (lt.avoid) block += ` | Avoid: ${lt.avoid}`;
+        if (lt.appRecommendation) block += ` | App: ${lt.appRecommendation}`;
+        if (lt.cost) block += ` | Daily cost: ${lt.cost}`;
+        block += '\n';
+      }
+      block += `INSTRUCTION: Use exact train names and prices in Day 1 transport section. Do NOT invent train numbers.\n`;
+    }
+
+    // 26. BUDGET REALITY — real INR tiers
+    if (k.budgetReality) {
+      const br = k.budgetReality;
+      // Detect which budget tier this traveler is
+      let tier = 'comfortable';
+      if (currency === 'INR') {
+        const tripDays = Number(trip.tripDays || 3);
+        const perDay = budget / tripDays;
+        if (perDay < 2500) tier = 'backpacker';
+        else if (perDay < 8000) tier = 'comfortable';
+        else if (perDay < 20000) tier = 'premium';
+        else tier = 'luxury';
+      }
+      const tierData = br[tier] || br.comfortable;
+      block += `\nBUDGET REALITY FOR THIS TRAVELER (${tier.toUpperCase()} tier):\n`;
+      if (tierData?.perDay) block += `Daily budget: ${tierData.perDay}\n`;
+      if (tierData?.accommodation) block += `Accommodation: ${tierData.accommodation}\n`;
+      if (tierData?.food) block += `Food approach: ${tierData.food}\n`;
+      if (tierData?.transport) block += `Local transport: ${tierData.transport}\n`;
+      if (br.backpacker?.perDay) block += `Reference: Backpacker=${br.backpacker.perDay} | Comfortable=${br.comfortable?.perDay} | Premium=${br.premium?.perDay}\n`;
+      block += `INSTRUCTION: Use these real INR figures. Never suggest hotels/restaurants outside this budget tier without flagging the cost.\n`;
+    }
+
+    // 27. SCAM PREVENTION — specific named scams
+    if (k.scamPrevention?.length) {
+      block += `\nSCAM PREVENTION — MENTION THESE NATURALLY IN THE ITINERARY:\n`;
+      k.scamPrevention.slice(0, 4).forEach(s => {
+        block += `- ${s.scam}: ${s.prevention}`;
+        if (s.ifItHappens) block += ` (If it happens: ${s.ifItHappens})`;
+        block += '\n';
+      });
+      block += `INSTRUCTION: Weave relevant scam warnings naturally into Day 1 (ONE THING TO KNOW section). Not as a scary list — as insider knowledge that protects this specific traveler.\n`;
+    }
+
+    // 28. FOOD SAFETY — safe zones, must-eat, water
+    if (k.foodSafety) {
+      const fs_data = k.foodSafety;
+      block += `\nFOOD INTELLIGENCE:\n`;
+      if (fs_data.mustEat?.length) block += `Must eat: ${fs_data.mustEat.slice(0,3).join(' | ')}\n`;
+      if (fs_data.safeStreetFood?.length) block += `Safe street food: ${fs_data.safeStreetFood.slice(0,3).join(' | ')}\n`;
+      if (fs_data.waterAdvice) block += `Water: ${fs_data.waterAdvice}\n`;
+      if (fs_data.touristTrap) block += `Tourist trap to avoid: ${fs_data.touristTrap}\n`;
+      if (fs_data.trustedDhabas) block += `How to spot trusted dhabas: ${fs_data.trustedDhabas}\n`;
+      block += `INSTRUCTION: Reference specific must-eat items and their locations in the itinerary. The food section should feel like advice from a local, not a menu listing.\n`;
+    }
+
+    // 29. CULTURAL INTELLIGENCE
+    if (k.culturalIntelligence) {
+      const ci = k.culturalIntelligence;
+      block += `\nCULTURAL INTELLIGENCE:\n`;
+      if (ci.dressCode) block += `Dress: ${ci.dressCode}\n`;
+      if (ci.photographyRules) block += `Photography: ${ci.photographyRules}\n`;
+      if (ci.templeEtiquette) block += `Temple etiquette: ${ci.templeEtiquette}\n`;
+      if (ci.timing) block += `Timing insight: ${ci.timing}\n`;
+      if (ci.localCustom) block += `Local custom: ${ci.localCustom}\n`;
+    }
+
+    // 30. FIRST vs REPEAT VISIT INTELLIGENCE
+    if (k.firstVsRepeatVisit) {
+      const fvr = k.firstVsRepeatVisit;
+      const visitKey = isRepeat ? 'repeat' : 'first';
+      const visitData = fvr[visitKey];
+      if (visitData) {
+        block += `\n${isRepeat ? 'REPEAT VISITOR' : 'FIRST VISIT'} INTELLIGENCE:\n`;
+        if (visitData.mustDo?.length) block += `Must do: ${visitData.mustDo.join(' | ')}\n`;
+        if (visitData.avoid?.length) block += `Avoid: ${visitData.avoid.join(' | ')}\n`;
+        if (visitData.mindset) block += `Mindset: ${visitData.mindset}\n`;
+        if (visitData.goDeeper?.length) block += `Go deeper: ${visitData.goDeeper.join(' | ')}\n`;
+        if (visitData.local) block += `Local secret: ${visitData.local}\n`;
+      }
+    }
+
+    // 31. SEASONAL INTELLIGENCE — month-specific reality
+    if (k.seasonalIntelligence) {
+      const si = k.seasonalIntelligence;
+      block += `\nSEASONAL INTELLIGENCE (${currentMonth} ${currentYear}):\n`;
+      if (si.bestMonth) block += `Best month: ${si.bestMonth}\n`;
+      if (si.worstMonth) block += `Worst month: ${si.worstMonth}\n`;
+      // Detect current season
+      const month = now.getMonth(); // 0-11
+      const isMonthInRange = (rangeStr) => {
+        if (!rangeStr) return false;
+        const monthNames = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+        const currentM = monthNames[month];
+        return rangeStr.toLowerCase().includes(currentM);
+      };
+      if (isMonthInRange(si.peakSeason?.months)) {
+        block += `Current season: PEAK — ${si.peakSeason.weather || ''} | Crowds: ${si.peakSeason.crowds || ''} | ${si.peakSeason.verdict || ''}\n`;
+      } else if (isMonthInRange(si.offSeason?.months)) {
+        block += `Current season: OFF SEASON — ${si.offSeason.reality || ''}\n`;
+        if (si.offSeason.hiddenGem) block += `Hidden gem of this season: ${si.offSeason.hiddenGem}\n`;
+      } else if (si.shoulderSeason?.months) {
+        block += `Current season: SHOULDER — ${si.shoulderSeason.why || ''}\n`;
+      }
+    }
+
+    // 32. COMMON REGRETS — prevent them proactively
+    if (k.commonRegrets?.length) {
+      block += `\nCOMMON REGRETS TO PREVENT:\n`;
+      k.commonRegrets.forEach(r => block += `- ${r}\n`);
+      block += `INSTRUCTION: Each of these regrets should be actively prevented in the itinerary. If Day 2 would normally lead to regret #1, restructure Day 2.\n`;
+    }
+
+    // 33. WHO THIS IS NOT FOR — honest mismatch check
+    if (k.whoThisIsNotFor?.length) {
+      const req_lower = (trip.specialRequest || '').toLowerCase();
+      const style_lower = (trip.travelStyle || '').toLowerCase();
+      block += `\nHONEST DESTINATION FIT:\n`;
+      k.whoThisIsNotFor.slice(0, 2).forEach(w => block += `- ${w}\n`);
+      block += `INSTRUCTION: If the traveler's request clearly matches a mismatch warning above, acknowledge it briefly at the start of the itinerary. This is what makes SKYmora trustworthy.\n`;
+    }
+
+    // 34. RESIDENT SUNDAY — local's real day
+    if (k.residentSunday) {
+      block += `\nRESIDENT SUNDAY (what a local does with one free day):\n${k.residentSunday}\n`;
+      block += `INSTRUCTION: Use this as the reference for what 'local' looks and feels like here. At least one activity per day should draw from this local DNA.\n`;
+    }
+
+    // 35. HONEST TRUTH — the one line that sounds like a specialist
+    if (k.honestTruth) {
+      block += `\nTHE HONEST TRUTH ABOUT ${dest.toUpperCase()}:\n"${k.honestTruth}"\n`;
+      block += `INSTRUCTION: Weave this truth naturally into the itinerary — not as a warning, as context.\n`;
+    }
   }
 
   block += `\n=== END DESTINATION INTELLIGENCE ===\n`;

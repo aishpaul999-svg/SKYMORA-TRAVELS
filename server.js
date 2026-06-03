@@ -750,6 +750,20 @@ function buildPersonalizationNote(trip, day, totalDays, destination) {
     return `Because you have been here before — today skips the landmarks you already know and goes to the ${destination} that most visitors never reach.`;
   }
 
+  // Indian domestic travel context
+  const kDest = trip.destination || '';
+  if (kDest && !kDest.toLowerCase().includes('dubai') && !kDest.toLowerCase().includes('paris') &&
+      !kDest.toLowerCase().includes('singapore') && !kDest.toLowerCase().includes('london') &&
+      !kDest.toLowerCase().includes('tokyo') && !kDest.toLowerCase().includes('bali') &&
+      !kDest.toLowerCase().includes('maldives') && !kDest.toLowerCase().includes('new york') &&
+      !kDest.toLowerCase().includes('bangkok') && !kDest.toLowerCase().includes('goa')) {
+    // Likely an Indian domestic destination
+    if (day === 1) return `Because getting to ${kDest} is part of the experience — the train journey, the first chai at the station, the landscape changing out of the window — this day starts before you arrive.`;
+    if (isLastDay) return `Because the best version of ${kDest} stays with you on the journey home. The last morning was kept specific so the city sends you off correctly.`;
+    if (pace === 'relaxed') return `Because India rewards the traveler who moves slowly — today has open space built in for the thing you will discover that wasn't in any plan.`;
+    return `Because ${kDest} is not a city you understand in a day. Today goes deeper than most travelers get.`;
+  }
+
   // Default — always returns something specific
   return `Because this is Day ${day} of ${totalDays} — the pacing was set so today builds on yesterday and prepares for tomorrow. The sequence is deliberate.`;
 }
@@ -762,8 +776,8 @@ async function buildDay(trip, day, tripPlan = null) {
     budget = 0, currency = "USD", travelStyle = "", specialRequest = ""
   } = trip;
 
-  // Proper name capitalisation
-  const rawName = nickname || name?.split(" ")[0] || "Friend";
+  // Proper name capitalisation — support both 'name' and 'travelerName' fields
+  const rawName = trip.travelerName || nickname || name?.split(" ")[0] || "Friend";
   const travelerName = rawName.charAt(0).toUpperCase() + rawName.slice(1).toLowerCase();
 
   const agentNames = ["Olivia Chen", "Emma Collins", "Ethan Roberts", "Sophia Bennett", "Noah Davis"];
@@ -892,6 +906,22 @@ async function buildDay(trip, day, tripPlan = null) {
     exploring: `THIS TRAVELLER IS GENUINELY CURIOUS. Write as if the city is revealing itself to someone intelligent and attentive. Not "here are the things to see" but "here is what the city is actually made of." Prioritise the specific and unexpected over the famous and safe. This traveller wants to be surprised by what they find — write toward that surprise.`
   };
   const occasionVoice = occasionWritingVoice[trip.emotionalState] || "";
+
+  // India-specific writing voice — activates for Indian domestic destinations
+  const kForVoice = loadDestinationKnowledge ? loadDestinationKnowledge(resolvedDestination) : null;
+  const isIndiaDest = kForVoice?._schemaVersion === '4.0-india';
+  const indiaVoice = isIndiaDest ? `
+INDIA DOMESTIC TRAVEL WRITING STANDARD:
+This traveler is likely traveling within India. Write with awareness of the real India experience — not the brochure version.
+- Mention the specific train/bus route used to get here — it is part of the trip
+- INR prices should feel real and specific, not approximated
+- Reference the specific chai, the specific dhaba, the specific stall — not "local food"
+- The chaos of Indian travel is part of the charm — don't sanitize it, embrace it with affection
+- Mention the scam to avoid once, naturally — as a friend warning them, not as a safety disclaimer
+- The best India moments are unplanned. Write space for discovery.
+- Use Hindi words naturally where a local would: "ghat", "dhaba", "mandir", "bazaar" — not the English translation
+- Budget sensitivity: if this traveler is on a budget, every INR saving matters and should be referenced specifically
+` : "";
 
   // Persona writing voice — rewritten as experiential, not explanatory
   const personaVoice = {
@@ -1053,6 +1083,7 @@ PACE INTELLIGENCE — acknowledge when you are intentionally keeping things ligh
 "This afternoon stays deliberately open. Most travelers over-schedule Day 1 and arrive at dinner already tired. That is a waste of a good city."
 
 ${occasionVoice ? `\nOCCASION-SPECIFIC WRITING INSTRUCTION:\n${occasionVoice}\n` : ''}
+${indiaVoice ? `\n${indiaVoice}\n` : ''}
 
 ${localIntelligence}
 
@@ -1117,13 +1148,15 @@ HOTEL JUSTIFICATION — in YOUR STAY section, after the hotel name, add:
 "WHY THIS HOTEL: [distance to key Day 1, 2, 3 attractions] | [what this location saves in travel time] | [why this is right for this specific trip length and traveler type]"
 
 SECTIONS FOR DAY ${isDay1 ? `1:
-LEAVING ${departure.toUpperCase()}
+${isIndiaDest ? `GETTING THERE FROM ${departure.toUpperCase()}
+Use the EXACT train or bus from the TRANSPORTATION section above. Include: train name, departure time, journey duration, price. Do NOT invent a flight if the knowledge says train/bus.
+ARRIVING IN ${resolvedDestination.toUpperCase()}` : `LEAVING ${departure.toUpperCase()}
 YOUR FLIGHT
-ARRIVING IN ${resolvedDestination.toUpperCase()}
-GETTING TO THE CITY
+ARRIVING IN ${resolvedDestination.toUpperCase()}`}
+GETTING TO YOUR ACCOMMODATION
 YOUR STAY — include WHY THIS HOTEL after the hotel name
-FIRST EVENING
-ONE THING TO KNOW — MUST reference: (a) a specific regret most first-timers have AND how this plan prevents it, OR (b) a specific insider timing/price fact. Not generic.` : day === totalDays ? `${day}:
+FIRST EVENING — use the specific street/ghat/market name from the knowledge file, not a generic description
+ONE THING TO KNOW — must name a SPECIFIC scam, timing insight, or local truth. Not generic.` : day === totalDays ? `${day}:
 FINAL MORNING
 LAST BREAKFAST
 ONE MORE THING — reference something specific from the destination knowledge that most travelers miss entirely. Feel like a secret.
@@ -1393,69 +1426,123 @@ async function generateInBackground(tripId, trip, startAt, totalDays, tripPlan =
       const currency = entry.trip?.currency || trip.currency || "INR";
       const destination = destProper;
 
-      // Build smart checklist from knowledge file data
+      // Build smart checklist — India domestic vs international
       const checklistItems = [];
-      checklistItems.push(`☐ Check passport validity — must be valid for 6+ months beyond your travel date`);
-
-      // Visa reminder based on destination
-      const visaMap = {
-        'dubai': `☐ Indians: visa-free 30 days — no application needed. Confirm e-Gate registration on arrival.`,
-        'singapore': `☐ Indians: Singapore e-Visa (ivacsingapore.com) — SGD 30. Apply minimum 1 week ahead.`,
-        'thailand': `☐ Indians: Thai e-Visa (thaievisa.go.th) — USD 35, 60 days. Apply minimum 1 week ahead.`,
-        'bali': `☐ Indians: Bali Visa on Arrival USD 35 OR e-Visa at molina.imigrasi.go.id — same cost, no queue.`,
-        'japan': `☐ Indians: Japan tourist visa required. Japanese Embassy/VFS. 4 weeks minimum.`,
-        'uk': `☐ Indians: UK Visitor Visa required (GBP 115, separate from Schengen). Apply VFS Global 3+ weeks ahead.`,
-        'france': `☐ Indians: French Schengen visa required (EUR 80). Apply at French consulate/VFS 3+ weeks ahead.`,
-        'usa': `☐ Indians: US B-2 Tourist Visa required (USD 185, interview needed). Apply 6-8 weeks ahead.`,
-        'maldives': `☐ Indians: Visa-free 30 days on arrival at Velana International Airport.`
-      };
       const destLower = resolvedDest.toLowerCase();
-      const visaReminder = Object.entries(visaMap).find(([k]) => destLower.includes(k));
-      if (visaReminder) checklistItems.push(visaReminder[1]);
-      else checklistItems.push(`☐ Verify visa requirements for ${destination} — check mea.gov.in`);
+      const kData = loadDestinationKnowledge(resolvedDest);
+      const isIndiaDestination = kData?._schemaVersion === '4.0-india';
 
-      // Booking reminders
-      checklistItems.push(`☐ Book travel insurance (minimum ${currency === 'INR' ? 'INR 10 lakh' : 'USD 30,000'} medical coverage)`);
-      checklistItems.push(`☐ Exchange small amount of local currency — enough for first transfer from airport`);
-      checklistItems.push(`☐ Screenshot your hotel address to show the taxi driver on arrival`);
-      checklistItems.push(`☐ Save emergency contacts offline: local police, Indian embassy, your hotel`);
+      if (isIndiaDestination) {
+        // ── INDIA DOMESTIC CHECKLIST ──
+        checklistItems.push(`☐ Carry valid government ID — Aadhaar card or PAN card required at hotels across India`);
+        checklistItems.push(`☐ Book train ticket on IRCTC (irctc.co.in) well in advance — tourist quota fills fast`);
+        checklistItems.push(`☐ Carry ₹2,000-5,000 cash — ATMs unreliable in hill stations and remote areas`);
+        checklistItems.push(`☐ Download Google Maps with offline maps — mobile data patchy in mountains`);
+        checklistItems.push(`☐ Carry water purification tablets or buy packaged water on Day 1`);
 
-      // Destination-specific items
-      if (destLower.includes('dubai')) {
-        checklistItems.push(`☐ Book Burj Khalifa online NOW — saves AED 80 per person vs walk-up price. burjkhalifa.ae`);
-        checklistItems.push(`☐ Check UAE fines from previous visits — outstanding fines stop you at immigration. Check Dubai Police app.`);
-        checklistItems.push(`☐ Download Careem app — 15-25% cheaper than metered taxis in Dubai`);
-      } else if (destLower.includes('paris') || destLower.includes('france')) {
-        checklistItems.push(`☐ Indians: French Schengen visa required (EUR 80). Apply VFS Global minimum 3 weeks before travel.`);
-        checklistItems.push(`☐ Download Citymapper — Paris metro is the fastest way to move. Do not use taxis during peak hours.`);
-        checklistItems.push(`☐ Book Louvre/Musée d'Orsay timed entry online — saves 1-2 hour queues. museedulouvre.fr`);
-        checklistItems.push(`☐ Carry EUR 20-30 cash — some neighbourhood cafés and markets are cash only`);
-      } else if (destLower.includes('japan') || destLower.includes('tokyo')) {
-        checklistItems.push(`☐ Buy Suica IC card at airport — works on all trains, metro, buses, and 7-Eleven`);
-        checklistItems.push(`☐ Carry JPY 5,000-10,000 cash — many restaurants are cash only`);
-        checklistItems.push(`☐ Download Google Translate with Japanese offline — camera mode works on menus`);
-      } else if (destLower.includes('bali')) {
-        checklistItems.push(`☐ Photograph every scratch on scooter rental before taking it`);
-        checklistItems.push(`☐ Use PT Dirgahayu for currency exchange — airport rates are 15-20% worse`);
-        checklistItems.push(`☐ Pack sarong for temple visits — required, available at entrances but bring your own`);
-      } else if (destLower.includes('singapore')) {
-        checklistItems.push(`☐ Download Grab app — the only ride-hailing app that works reliably in Singapore`);
-        checklistItems.push(`☐ Get an EZ-Link card at the airport — works on all MRT, buses, and 7-Eleven`);
-      } else if (destLower.includes('bangkok') || destLower.includes('thailand')) {
-        checklistItems.push(`☐ Download Grab app — metered taxis can overcharge tourists. Grab shows fixed price.`);
-        checklistItems.push(`☐ Carry THB 1,000-2,000 cash — street food and tuk-tuks are cash only`);
-      } else if (destLower.includes('london') || destLower.includes('uk')) {
-        checklistItems.push(`☐ Download Citymapper — London tube and bus navigation`);
-        checklistItems.push(`☐ Get an Oyster card at the airport — cheaper than buying single tickets every journey`);
-      } else if (destLower.includes('goa')) {
-        checklistItems.push(`☐ Book scooter rental in advance for peak season — INR 400/day`);
-        checklistItems.push(`☐ Note which airport your flight uses — GOI (Dabolim) or GOX (Mopa) — they are 50km apart`);
-      } else if (destLower.includes('maldives')) {
-        checklistItems.push(`☐ Confirm your resort transfer type — speedboat vs seaplane — both depart from different terminals at Velana`);
-        checklistItems.push(`☐ Carry USD cash — many resort activities and excursions are cash only`);
+        // Destination-specific India items
+        if (destLower.includes('leh') || destLower.includes('ladakh') || destLower.includes('spiti') || destLower.includes('auli') || destLower.includes('kedarnath')) {
+          checklistItems.push(`☐ Altitude sickness: Acclimatize 24-48 hours before any trekking. Carry Diamox (consult doctor first)`);
+          checklistItems.push(`☐ Warm layered clothing essential — temperatures drop sharply at night even in summer`);
+          checklistItems.push(`☐ Inner Line Permit required for Ladakh border areas — apply at leh.nic.in or District Collector`);
+        }
+        if (destLower.includes('rishikesh') || destLower.includes('haridwar') || destLower.includes('kedarnath') || destLower.includes('varanasi')) {
+          checklistItems.push(`☐ Dress modestly near ghats and temples — carry a dupatta/stole`);
+          checklistItems.push(`☐ Remove shoes before entering temple premises — carry a bag for them`);
+        }
+        if (destLower.includes('manali') || destLower.includes('shimla') || destLower.includes('mussoorie') || destLower.includes('nainital')) {
+          checklistItems.push(`☐ Book accommodation in advance — hill stations fill up completely on weekends and holidays`);
+          checklistItems.push(`☐ Check road conditions — Rohtang Pass and similar roads close due to snow`);
+        }
+        if (destLower.includes('goa')) {
+          checklistItems.push(`☐ Note which airport your flight uses — GOI (Dabolim) or GOX (Mopa) — they are 50km apart`);
+          checklistItems.push(`☐ Book scooter rental in advance for peak season — INR 400-600/day`);
+        }
+        if (destLower.includes('andaman') || destLower.includes('havelock')) {
+          checklistItems.push(`☐ Book ferry tickets in advance — Havelock ferries sell out weeks ahead in season`);
+          checklistItems.push(`☐ Carry extra cash — very few ATMs on islands, and they often run out`);
+        }
+        if (destLower.includes('rajasthan') || destLower.includes('jaipur') || destLower.includes('jaisalmer') || destLower.includes('jodhpur') || destLower.includes('udaipur')) {
+          checklistItems.push(`☐ Beware gem shop touts — never visit shops with auto/rickshaw drivers who offer to take you for 'free'`);
+        }
+        if (destLower.includes('agra')) {
+          checklistItems.push(`☐ Book Taj Mahal entry online — saves queue time. Archaeological Survey of India: asi.payumoney.com`);
+          checklistItems.push(`☐ Hire only government-licensed guides — unofficial guides near gates are commission agents`);
+        }
+        if (destLower.includes('kerala') || destLower.includes('alleppey') || destLower.includes('munnar') || destLower.includes('thekkady')) {
+          checklistItems.push(`☐ Book houseboat in Alleppey directly with operator — avoid middlemen who charge 30-40% premium`);
+        }
+        // Add scam prevention from knowledge file
+        if (kData?.scamPrevention?.length) {
+          const topScam = kData.scamPrevention[0];
+          if (topScam?.scam && topScam?.prevention) {
+            checklistItems.push(`☐ Watch out: ${topScam.scam} — ${topScam.prevention}`);
+          }
+        }
+        checklistItems.push(`☐ Share your itinerary with family — emergency contacts: local police 100 | ambulance 108`);
+
       } else {
-        checklistItems.push(`☐ Download Google Maps with offline maps for ${destination} before you leave`);
-        checklistItems.push(`☐ Research local transport app for ${destination} — Uber may not be the best option`);
+        // ── INTERNATIONAL CHECKLIST ──
+        checklistItems.push(`☐ Check passport validity — must be valid for 6+ months beyond your travel date`);
+
+        const visaMap = {
+          'dubai': `☐ Indians: visa-free 30 days — no application needed. Confirm e-Gate registration on arrival.`,
+          'singapore': `☐ Indians: Singapore e-Visa (ivacsingapore.com) — SGD 30. Apply minimum 1 week ahead.`,
+          'thailand': `☐ Indians: Thai e-Visa (thaievisa.go.th) — USD 35, 60 days. Apply minimum 1 week ahead.`,
+          'bali': `☐ Indians: Bali Visa on Arrival USD 35 OR e-Visa at molina.imigrasi.go.id — same cost, no queue.`,
+          'japan': `☐ Indians: Japan tourist visa required. Japanese Embassy/VFS. 4 weeks minimum.`,
+          'uk': `☐ Indians: UK Visitor Visa required (GBP 115). Apply VFS Global 3+ weeks ahead.`,
+          'france': `☐ Indians: French Schengen visa required (EUR 80). Apply at VFS Global 3+ weeks ahead.`,
+          'usa': `☐ Indians: US B-2 Tourist Visa required (USD 185, interview needed). Apply 6-8 weeks ahead.`,
+          'maldives': `☐ Indians: Visa-free 30 days on arrival at Velana International Airport.`,
+          'sri lanka': `☐ Indians: Sri Lanka ETA required — eta.gov.lk — USD 20. Apply 1-2 days ahead.`,
+          'nepal': `☐ Indians: No visa needed. Carry Aadhaar card or passport as ID.`,
+          'bhutan': `☐ Indians: No visa, but Sustainable Development Fee USD 100/day applies. Book via licensed tour operator.`,
+          'cambodia': `☐ Indians: Cambodia e-Visa — evisa.gov.kh — USD 36. Apply minimum 3 days ahead.`,
+          'vietnam': `☐ Indians: Vietnam e-Visa required — evisa.xuatnhapcanh.gov.vn — USD 25. Apply 3 days ahead.`,
+          'qatar': `☐ Indians: Qatar e-Visa — hayya.com or on arrival — free for most Indians.`
+        };
+        const visaReminder = Object.entries(visaMap).find(([k]) => destLower.includes(k));
+        if (visaReminder) checklistItems.push(visaReminder[1]);
+        else checklistItems.push(`☐ Verify visa requirements for ${destination} — check mea.gov.in`);
+
+        checklistItems.push(`☐ Book travel insurance (minimum INR 50 lakh / USD 50,000 medical coverage)`);
+        checklistItems.push(`☐ Exchange small amount of local currency — enough for Day 1 transport`);
+        checklistItems.push(`☐ Screenshot hotel address in local script — show to taxi driver on arrival`);
+        checklistItems.push(`☐ Save offline: local emergency number | Indian embassy number | your hotel number`);
+
+        // International destination-specific
+        if (destLower.includes('dubai')) {
+          checklistItems.push(`☐ Book Burj Khalifa online NOW — saves AED 80 per person. burjkhalifa.ae`);
+          checklistItems.push(`☐ Check UAE fines from previous visits — stops you at immigration. Dubai Police app.`);
+          checklistItems.push(`☐ Download Careem — 15-25% cheaper than metered taxis`);
+        } else if (destLower.includes('paris') || destLower.includes('france')) {
+          checklistItems.push(`☐ Download Citymapper — Paris metro fastest way to move, not taxis`);
+          checklistItems.push(`☐ Book Louvre/Musée d'Orsay timed entry — saves 1-2 hour queues. museedulouvre.fr`);
+          checklistItems.push(`☐ Carry EUR 20-30 cash — some neighbourhood cafés are cash only`);
+        } else if (destLower.includes('japan') || destLower.includes('tokyo')) {
+          checklistItems.push(`☐ Buy IC card (Suica/Pasmo) at airport — works on all trains, metro, buses, 7-Eleven`);
+          checklistItems.push(`☐ Carry JPY 5,000-10,000 cash — many restaurants are cash only`);
+          checklistItems.push(`☐ Download Google Translate with Japanese offline — camera mode works on menus`);
+        } else if (destLower.includes('bali')) {
+          checklistItems.push(`☐ Photograph every scratch on scooter rental before taking it`);
+          checklistItems.push(`☐ Use licensed money changers only — never street changers`);
+          checklistItems.push(`☐ Pack sarong for temple visits — required`);
+        } else if (destLower.includes('singapore')) {
+          checklistItems.push(`☐ Download Grab app — most reliable ride-hailing in Singapore`);
+          checklistItems.push(`☐ Get EZ-Link card at airport — works on MRT, buses, 7-Eleven`);
+        } else if (destLower.includes('bangkok') || destLower.includes('thailand')) {
+          checklistItems.push(`☐ Download Grab — fixed prices, no meter overcharging`);
+          checklistItems.push(`☐ Carry THB 1,000-2,000 cash — street food and tuk-tuks cash only`);
+        } else if (destLower.includes('london') || destLower.includes('uk')) {
+          checklistItems.push(`☐ Download Citymapper — London tube and bus navigation`);
+          checklistItems.push(`☐ Get Oyster card at airport — cheaper than single tickets every journey`);
+        } else if (destLower.includes('maldives')) {
+          checklistItems.push(`☐ Confirm resort transfer type — speedboat vs seaplane — different terminals at Velana`);
+          checklistItems.push(`☐ Carry USD cash — many resort activities are cash only`);
+        } else {
+          checklistItems.push(`☐ Download Google Maps with offline maps for ${destination}`);
+        }
       }
 
       const checklistContent = `☑ BEFORE YOU LEAVE FOR ${destination.toUpperCase()}\n\n${checklistItems.join('\n')}\n\n${travelerName}, every item above is specific to your trip. The checklist took 30 seconds to read. The consequences of missing any item can take days to fix.\n\n— ${agentFirst}, SKYmora Travel Team`;

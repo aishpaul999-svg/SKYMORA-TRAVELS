@@ -83,11 +83,38 @@ function analyzeSeason(destination, departureDate) {
 // ==========================================================
 // 3. DESTINATION TIERS
 // ==========================================================
+const INDIA_DOMESTIC_CITIES = [
+  "rishikesh","haridwar","mussoorie","nainital","jim corbett","auli","kedarnath","badrinath",
+  "valley of flowers","manali","shimla","dharamshala","mcleod ganj","spiti","kasol","bir billing",
+  "jaipur","jodhpur","udaipur","jaisalmer","pushkar","bikaner","ranthambore","mount abu","kumbhalgarh","chittorgarh",
+  "kochi","munnar","alleppey","thekkady","varkala","wayanad","kovalam","kumarakom",
+  "bangalore","mysore","coorg","hampi","gokarna","kabini","chikmagalur",
+  "mumbai","pune","lonavala","mahabaleshwar","nasik","aurangabad","ajanta","ellora",
+  "goa","panaji","calangute","palolem",
+  "varanasi","agra","lucknow","prayagraj","ayodhya","mathura","vrindavan",
+  "delhi","new delhi",
+  "leh","ladakh","nubra","pangong","zanskar","srinagar","gulmarg","pahalgam",
+  "kolkata","darjeeling","gangtok","sikkim","shillong","cherrapunji","kaziranga","majuli",
+  "puri","bhubaneswar","konark","chilika",
+  "ahmedabad","rann of kutch","gir","diu","dwarka","somnath","palitana",
+  "amritsar","chandigarh","wagah",
+  "khajuraho","orchha","bhopal","indore","pachmarhi","ujjain",
+  "hyderabad","vizag","tirupati","araku",
+  "chennai","madurai","ooty","kodaikanal","pondicherry","mahabalipuram","rameswaram","kanyakumari",
+  "havelock island","andaman","port blair","neil island",
+  "rishikesh","haridwar"
+];
+
 const DESTINATION_TIERS = {
+  india_domestic: {
+    cities: INDIA_DOMESTIC_CITIES,
+    // No international flight — train/bus within India
+    flightFromIndia: 30, flightFromUS: 0, flightFromEurope: 0, // INR 2,500 avg domestic flight or train ₹400-1200
+    hotelBudget: 6, hotelMid: 18, hotelLuxury: 80,  // USD equivalent: budget ₹500, mid ₹1500, luxury ₹6500/night
+    foodBudget: 4, foodMid: 10, transport: 3, activities: 8  // INR ~300 food/day budget tier
+  },
   budget: {
-    cities: ["rishikesh","goa","jaipur","agra","udaipur","varanasi","bangkok","bali",
-             "kathmandu","hanoi","colombo","kochi","munnar","ooty","pushkar","hampi",
-             "mysore","pondicherry","mcleod ganj","spiti"],
+    cities: ["bangkok","bali","kathmandu","hanoi","colombo","ho chi minh"],
     flightFromIndia: 120, flightFromUS: 700, flightFromEurope: 500,
     hotelBudget: 18, hotelMid: 55, hotelLuxury: 180,
     foodBudget: 10, foodMid: 25, transport: 7, activities: 20
@@ -339,8 +366,12 @@ function calculateCost(trip) {
   const adultCount = Number(adults);
   const childCount = Number(children);
 
+  // Detect India domestic trip — departure from India + destination is Indian city
+  const isDomesticIndia = tierName === 'india_domestic' && region === 'india';
+
   const flightKey = region === "india" ? "flightFromIndia" : region === "us" ? "flightFromUS" : "flightFromEurope";
-  const flightPerAdult = tier[flightKey] * multiplier;
+  // Domestic India: use train/bus cost not international flight
+  const flightPerAdult = isDomesticIndia ? tier.flightFromIndia * 0.5 : tier[flightKey] * multiplier;
   const flights = flightPerAdult * adultCount + (flightPerAdult * 0.75 * childCount);
 
   let hotelType = "hotelBudget";
@@ -508,15 +539,35 @@ function buildWarmMessage(validation, trip) {
       type: "not_feasible",
       headline: `${destination} in ${tripDays} Days — Let Me Be Your Honest Friend 💛`,
       intro: `${travelerName}, I could generate a ${destination} itinerary right now — but it would be built on numbers that simply do not add up, and that would be a disservice to you. So let me be completely honest, and then show you something extraordinary.`,
-      honestBreakdown: [
-        `Here is the transparent reality of ${tripDays} days in ${destination} for ${adults} adult(s):`,
-        `✈️ Return flights: approximately $${analysis.breakdown.flights}${analysis.breakdown.flights > analysis.budgetUSD ? " — this alone exceeds your entire budget" : ""}`,
-        `🏨 Budget accommodation (${tripDays} nights): approximately $${analysis.breakdown.hotels}`,
-        `🍜 Meals (budget-conscious): approximately $${analysis.breakdown.food}`,
-        `🚇 Local transport: approximately $${analysis.breakdown.transport}`,
-        `📊 Minimum realistic total: approximately $${analysis.absoluteMinimum}`,
-        `💰 Your current budget: ${budgetDisplay} (approximately $${Math.round(analysis.budgetUSD)})`
-      ],
+      honestBreakdown: (()=>{
+        // India domestic — show INR not USD
+        const isDomestic = INDIA_DOMESTIC_CITIES.some(c => destination.toLowerCase().includes(c));
+        if (isDomestic && (currency==='INR'||currency==='inr')) {
+          const flightINR = Math.round(analysis.breakdown.flights * 83);
+          const hotelINR = Math.round(analysis.breakdown.hotels * 83);
+          const foodINR = Math.round(analysis.breakdown.food * 83);
+          const transportINR = Math.round(analysis.breakdown.transport * 83);
+          const totalINR = Math.round(analysis.absoluteMinimum * 83);
+          return [
+            `Here is the realistic cost of ${tripDays} days in ${destination} for ${adults} person(s):`,
+            `🚂 Train/bus to ${destination}: approximately ₹${flightINR.toLocaleString('en-IN')}`,
+            `🏨 Budget accommodation (${tripDays} nights): approximately ₹${hotelINR.toLocaleString('en-IN')}`,
+            `🍽️ Meals (dhaba/local food): approximately ₹${foodINR.toLocaleString('en-IN')}`,
+            `🛺 Local transport & auto: approximately ₹${transportINR.toLocaleString('en-IN')}`,
+            `📊 Minimum realistic total: approximately ₹${totalINR.toLocaleString('en-IN')}`,
+            `💰 Your current budget: ${budgetDisplay}`
+          ];
+        }
+        return [
+          `Here is the transparent reality of ${tripDays} days in ${destination} for ${adults} adult(s):`,
+          `✈️ Return flights: approximately $${analysis.breakdown.flights}${analysis.breakdown.flights > analysis.budgetUSD ? " — this alone exceeds your entire budget" : ""}`,
+          `🏨 Budget accommodation (${tripDays} nights): approximately $${analysis.breakdown.hotels}`,
+          `🍜 Meals (budget-conscious): approximately $${analysis.breakdown.food}`,
+          `🚇 Local transport: approximately $${analysis.breakdown.transport}`,
+          `📊 Minimum realistic total: approximately $${analysis.absoluteMinimum}`,
+          `💰 Your current budget: ${budgetDisplay} (approximately $${Math.round(analysis.budgetUSD)})`
+        ];
+      })(),
       savingTips: buildSavingTips(trip, analysis, persona),
       alternatives: buildAlternatives(trip, analysis),
       encouragement: `${travelerName}, your desire to travel is your greatest asset. With the same ${budgetDisplay} and the same passion, I can build you an experience that will genuinely take your breath away — in destinations where your budget creates something extraordinary. Tell me to proceed and I build it immediately. 💛`,
