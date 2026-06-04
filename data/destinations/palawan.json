@@ -1,0 +1,268 @@
+{
+  "destination": "Palawan",
+  "country": "Philippines",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Palawan",
+    "palawan",
+    "philippines"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "adventure seekers",
+      "snorkelers",
+      "nature enthusiasts",
+      "island hoppers"
+    ],
+    "notFor": [
+      "party-goers",
+      "city dwellers",
+      "shopping enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h via Manila",
+    "flightFromMumbai": "8h 15m via Manila (Philippine Airlines, Cebu Pacific)",
+    "visaForIndians": "Visa-free 30 days",
+    "currency": "Philippine Peso (1 INR = 0.67 PHP)",
+    "timezone": "UTC+8",
+    "language": "Filipino and English",
+    "bestMonthToVisit": "December - February due to dry weather and pleasant temperatures.",
+    "avoidMonth": "July - September due to heavy rainfall and typhoons.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving 10% is appreciated."
+  },
+  "whyPeopleFallInLove": "As you kayak through the emerald lagoons of El Nido, the sun casts golden rays that dance on the water's surface, and the scent of saltwater mingles with the rich aroma of grilled seafood wafting from nearby islands, luring you to indulge in a beachside feast.",
+  "honestTruth": "Many travelers leave thinking they've seen all of El Nido, but the real magic often lies in the local islands that don't appear on tourist maps—exploring these can lead to encounters with locals and a deeper appreciation for the area.",
+  "localTruths": [
+    "Most visitors think El Nido is just about island hopping. Locals think it's about experiencing the diverse marine life and the stories behind each island.",
+    "Most visitors flock to the main beaches. The best version of Palawan is found at sunrise when you can enjoy the tranquility of lesser-known spots like Nacpan Beach.",
+    "Most visitors miss the local markets. The real Palawan starts at the Coron Town Market, where the local flavors and community vibe come alive."
+  ],
+  "neighborhoodPersonalities": {
+    "El Nido": {
+      "tags": [
+        "beach",
+        "adventure",
+        "food"
+      ],
+      "bestFor": "island hopping and snorkeling",
+      "avoid": "overcrowded tours that can spoil the serene experience"
+    },
+    "Coron": {
+      "tags": [
+        "diving",
+        "history",
+        "relaxation"
+      ],
+      "bestFor": "divers and history buffs",
+      "avoid": "the rush to see every dive site in one day"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h via Manila",
+        "airlines": [
+          "Philippine Airlines",
+          "Cebu Pacific"
+        ],
+        "priceRange": "₹30,000 - ₹45,000 return",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h 15m via Manila",
+        "airlines": [
+          "Philippine Airlines",
+          "Cebu Pacific"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "₱500 (₹335) for a 30-minute ride to El Nido town.",
+      "recommended": "For first-timers, pre-arranging a van transfer from the airport to your accommodation is advisable for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 30 days",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Carry a return ticket and proof of accommodation to ensure smooth entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Art Café in El Nido - order the Banana Pancakes with Coconut Syrup.",
+    "sunset": "Corong Corong Beach at 6:00 PM, where the sky transforms into a palette of orange and pink.",
+    "meal": "Kalamias Restaurant in Coron - try the grilled fish with a side of jackfruit salad.",
+    "memory": "The moment you first step into the water at Shimizu Island and feel the vibrant marine life surround you.",
+    "secret": "Only locals know that the best street food is at the small stall opposite El Nido's town plaza after sunset."
+  },
+  "residentSunday": "A Palawan resident might spend their Sunday snorkeling at a nearby reef, enjoying a fresh seafood lunch at a local eatery, and then unwinding at the beach with friends while sharing stories and laughter over a few drinks until sunset.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and feel the warm island breeze hit your face, setting the tone for relaxation.",
+    "peak": "The peak day memory target is when you swim in the lagoons of El Nido and discover a hidden spot with no other tourists in sight.",
+    "departure": "Leaving Palawan should feel like a bittersweet farewell, with the urge to return ever stronger."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "highlights of El Nido including island hopping and a sunset cruise",
+      "misses": "the deeper cultural experiences and hidden beaches."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of both El Nido and Coron, including snorkeling and local cuisine",
+      "sweetSpot": true
+    },
+    "five-to-seven-days": {
+      "focus": "in-depth exploration of the island, including lesser-known beaches and diving spots",
+      "whoFor": "adventure seekers and nature lovers"
+    },
+    "recommended": "Five days is ideal for a comprehensive experience of Palawan's beauty and activities."
+  },
+  "antiPatterns": [
+    "Planning too many activities in a single day can lead to burnout and missing out on the enjoyment of each experience.",
+    "Skipping local eateries for international chain restaurants misses the authentic flavors of Palawan.",
+    "Visiting tourist hotspots during peak hours can result in overcrowded and rushed experiences."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the time to explore the local markets and experience the community atmosphere.",
+    "Most visitors regret not booking a private island tour for a more personalized experience.",
+    "Most visitors regret underestimating the time needed for travel between islands."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December - February",
+      "weather": "warm and dry, 25-30°C",
+      "crowds": "high, especially around holidays",
+      "verdict": "Best time for beach lovers."
+    },
+    "shoulderSeason": {
+      "months": "March - May",
+      "why": "ideal for fewer crowds and still pleasant weather."
+    },
+    "offSeason": {
+      "months": "June - November",
+      "reality": "rainy season with potential typhoons, but offers lower prices and fewer tourists.",
+      "reason": "Some prefer it for the lush green landscapes post-rain."
+    },
+    "bestMonth": "February - fewer tourists and optimal weather for outdoor activities.",
+    "currentSeason": "June 2026 is experiencing mild temperatures but increased rainfall, making certain activities less reliable."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Hidden Beach early in the morning to avoid crowds and enjoy a peaceful swim.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local delicacy, Tamilok (woodworm), at a local restaurant in Coron, known for its unique taste.",
+      "category": "food"
+    },
+    {
+      "tip": "Book island-hopping tours with local operators for a more authentic experience and better rates.",
+      "category": "timing"
+    },
+    {
+      "tip": "Carry cash; many places do not accept cards, especially outside major tourist areas.",
+      "category": "transport"
+    },
+    {
+      "tip": "Bring snorkeling gear from home to avoid rental fees and ensure you have the right fit.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish Sinigang at a local eatery for ₱150 (₹100)",
+    "midRangeMeal": "Seafood platter at a mid-range restaurant for ₱600 (₹400)",
+    "luxuryMeal": "Fine dining at The Nesting Table for ₱2,500 (₹1,675)",
+    "localTransportPerDay": "₱300 (₹200) for tricycle rides around town.",
+    "budgetHotelPerNight": "₱1,200 (₹800) for a basic guesthouse with shared facilities.",
+    "midRangeHotelPerNight": "₱3,000 (₹2,000) for a comfortable hotel with breakfast included.",
+    "luxuryHotelPerNight": "₱8,000 (₹5,350) for a beachfront resort with premium amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "dormitory beds for ₱500 (₹335)",
+      "food": "local eateries for ₱150 (₹100) per meal",
+      "transport": "tricycle rides for ₱50 (₹35)"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "mid-range hotels for ₱3,000 (₹2,000)",
+      "food": "mix of local and mid-range dining"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options are available, but the prices can be steep for exclusive experiences and services."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting local churches and communities.",
+    "Respect local customs and be mindful when taking photographs of people.",
+    "Always ask for permission before entering private properties."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial tour guides; always book through established companies.",
+      "Watch out for overcharging at local transport; confirm prices beforehand."
+    ],
+    "emergencyContacts": {
+      "police": "117",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Embassy in Manila, 63-2-8887-8620"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Big Lagoon",
+        "what": "the vivid greens of the limestone cliffs against the turquoise water",
+        "bestTime": "early morning for soft light",
+        "tip": "Use a polarizing filter to enhance colors."
+      }
+    ],
+    "goldenHour": "Around 6:00 PM during the dry season.",
+    "tip": "Capture the local fishermen at work during dawn for authentic shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "island hopping in El Nido",
+        "snorkeling at Shimizu Island",
+        "sunset at Corong Corong Beach"
+      ],
+      "emotionalArc": "This sequence builds anticipation through adventure, leading to a serene and reflective end of the day.",
+      "bestFor": [
+        "adventure seekers",
+        "photographers",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Coron",
+      "travelTime": "1 hour by ferry",
+      "how": "ferry service",
+      "whyCombine": "to explore world-renowned dive sites and historic WWII wrecks."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in most areas; many beaches have stairs and uneven paths.",
+    "majorChallenges": "Some island hopping tours may not accommodate mobility devices.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan for extra travel time and choose accommodations with accessibility features."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is characterized by occasional rain showers, making mornings ideal for activities, but be prepared for sudden weather changes.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indians remains in effect, alongside standard health checks."
+  }
+}

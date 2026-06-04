@@ -1,0 +1,267 @@
+{
+  "destination": "Valencia",
+  "country": "Spain",
+  "region": "Europe",
+  "aliases": [
+    "Valencia",
+    "valencia",
+    "spain"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "beach enthusiasts",
+      "art and architecture fans",
+      "history buffs",
+      "city explorers"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "mountain adventurers",
+      "high-end luxury travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h",
+    "flightFromMumbai": "9h 30m on airlines like Air India and Emirates",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Spanish",
+    "bestMonthToVisit": "September, when the weather is warm but not scorching and the crowds are fewer post-summer.",
+    "avoidMonth": "August, as temperatures can exceed 35°C and many locals go on vacation.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving 5-10% for good service is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine sitting at a seaside café, the aroma of freshly made paella wafting through the air, while the sun sets over the Mediterranean, painting the sky in hues of orange and pink. You take your first bite of the paella, savoring the blend of seafood and saffron, and feel an overwhelming sense of contentment.",
+  "honestTruth": "Valencia's beaches can be crowded, especially during the summer, and many visitors overlook the charm of its less popular, quieter beaches like La Patacona and Albufera.",
+  "localTruths": [
+    "Most visitors think Valencia is just about the City of Arts and Sciences. Locals think it's equally about the small, traditional bars and the local market where the true flavors of the city are found.",
+    "Most visitors flock to the main beaches. The best version of Valencia is to explore the quieter, more local spots like Playa de la Malvarrosa during off-peak hours.",
+    "Most visitors miss the early morning Mercado Central. The real Valencia starts at 7 AM when the market comes alive with fresh produce and local chatter."
+  ],
+  "neighborhoodPersonalities": {
+    "Ruzafa": {
+      "tags": [
+        "artsy",
+        "trendy",
+        "foodie"
+      ],
+      "bestFor": "Exploring local art galleries and enjoying culinary delights.",
+      "avoid": "It can get quite busy during weekends, making it less enjoyable."
+    },
+    "Carmen": {
+      "tags": [
+        "historical",
+        "cultural",
+        "nightlife"
+      ],
+      "bestFor": "Engaging with Valencia's history and nightlife.",
+      "avoid": "Some areas can feel overly touristy."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air India",
+          "Emirates"
+        ],
+        "priceRange": "[₹50,000 - ₹80,000 return]",
+        "note": "Book in advance for better deals, especially during peak seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m",
+        "airlines": [
+          "Air India",
+          "Emirates"
+        ],
+        "priceRange": "[₹45,000 - ₹75,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line 3 connects the airport to the city center, costing around €4 and taking approximately 20 minutes.",
+      "taxi": "A taxi ride to the city center costs around €20 and takes about 15 minutes.",
+      "recommended": "For first-timers, the metro is efficient and offers a glimpse of local life."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global locations across major cities in India.",
+    "processingTime": "Typically takes about 15 days.",
+    "tip": "Apply early and make sure to have all documents in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café de las Horas - Order a 'Horchata' with 'Fartons' for a local twist.",
+    "sunset": "Turia Gardens - Find a spot near the bridges, especially around 8 PM in summer for a picturesque view.",
+    "meal": "Casa Roberto - Try the seafood paella, a local specialty that captures the essence of Valencia.",
+    "memory": "Sitting on Las Fallas, watching the fireworks light up the night sky, surrounded by locals celebrating.",
+    "secret": "Only locals know that the best paella is cooked over an open flame; seek out restaurants that still use this traditional method."
+  },
+  "residentSunday": "A Valencia resident might start their Sunday with brunch at 'Café Bendi', enjoying 'Tostada con Tomate' at around 11 AM, followed by a stroll through the Turia Gardens and then a visit to the Central Market for fresh produce and local treats, finishing the day with dinner at 'La Bulería' with friends over tapas.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm Mediterranean breeze against your skin.",
+    "peak": "The peak day memory target is the Las Fallas Festival, experiencing the fireworks and the burning of the Fallas, an iconic sight.",
+    "departure": "How the departure should feel is like leaving a piece of your heart behind, wishing to return soon."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring the City of Arts and Sciences and sampling local cuisine.",
+      "misses": "You miss the deeper cultural experiences and the vibrant neighborhoods."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of major attractions and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of local markets, cuisine, and day trips to nearby areas like Albufera.",
+      "whoFor": "Culinary and cultural enthusiasts."
+    },
+    "recommended": "Four days is ideal to experience both the highlights and some local flavor."
+  },
+  "antiPatterns": [
+    "Visiting only the City of Arts and Sciences without exploring local neighborhoods fails to capture Valencia's true essence.",
+    "Dining only at tourist trap restaurants instead of seeking out local eateries misses out on authentic Valencian cuisine.",
+    "Not planning around the siesta hours can ruin your experience, as many shops and attractions may close in the afternoon."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the paella until their last day.",
+    "Most visitors regret not exploring the less touristy beaches.",
+    "Most visitors regret not visiting the Central Market earlier in their trip."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot and dry, with temperatures reaching up to 35°C.",
+      "crowds": "Very crowded, especially at tourist spots.",
+      "verdict": "It's best to avoid unless you enjoy the heat and crowds."
+    },
+    "shoulderSeason": {
+      "months": "April to May and September",
+      "why": "Ideal weather and fewer tourists make for a more pleasant experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Colder and wetter, with temperatures dropping to around 10°C in winter.",
+      "one reason some prefer it": "The quiet atmosphere allows for a more intimate experience of the city."
+    },
+    "bestMonth": "September, as you can enjoy the warm weather while avoiding the summer crowds.",
+    "currentSeason": "June 2026 is warm with occasional rainfall, moderate crowds due to the ongoing festival season."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Mercado Central early in the morning to see locals shopping for fresh produce and experience the true pulse of the city.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best paella, head to 'La Albufera' for authentic flavors and a scenic view of the lagoon.",
+      "category": "food"
+    },
+    {
+      "tip": "Catch the sunrise at Albufera Natural Park; it's a serene experience unlike any in the city.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a bike ride through the Turia Gardens; it's the best way to see the city from a local's perspective.",
+      "category": "transport"
+    },
+    {
+      "tip": "Avoid dining on the beach during peak hours; instead, explore local tapas bars in Ruzafa for a more intimate experience.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A 'Bocadillo' (sandwich) at a local café costs around €3 (₹270).",
+    "midRangeMeal": "A three-course meal for two at a mid-range restaurant costs around €50 (₹4,500).",
+    "luxuryMeal": "Dining at 'La Sucursal' can cost around €100 (₹9,000) for a fine dining experience.",
+    "localTransportPerDay": "Typical daily local transport cost is about €5 (₹450).",
+    "budgetHotelPerNight": "A budget hotel can cost around €40 (₹3,600) for a basic room.",
+    "midRangeHotelPerNight": "A mid-range hotel averages around €90 (₹8,000) with comfortable amenities.",
+    "luxuryHotelPerNight": "Luxury accommodations start at €200 (₹18,000) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm beds for around €15 (₹1,350)",
+      "food": "Street food and inexpensive cafés.",
+      "transport": "Public transport and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels for around €50 (₹4,500)",
+      "food": "Mix of local restaurants and dining out."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury travelers can enjoy high-end dining and exclusive experiences, but they should book in advance."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and religious sites.",
+    "Always greet shopkeepers and locals with a polite 'Hola'.",
+    "Tipping is not customary but appreciated; leave small change if service was good."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas; keep valuables secure.",
+      "Some street performers may ask for money aggressively."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "061",
+      "indianEmbassy": "Phone: +34 91 423 01 00, Address: C/ de Jose Abascal, 45, 28003 Madrid"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "City of Arts and Sciences",
+        "what": "The iconic architecture reflecting in the water.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Visit on weekdays to avoid crowds."
+      }
+    ],
+    "goldenHour": "About 8 PM during the summer months.",
+    "tip": "Experiment with angles at the Turia Gardens for a unique perspective of the city."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Central Market",
+        "Lunch at a local tapas bar",
+        "Stroll through the Turia Gardens"
+      ],
+      "emotionalArc": "This sequence allows you to experience the local flavors and relax in nature, providing a full day of sensory delights.",
+      "bestFor": [
+        "food lovers",
+        "nature enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Albufera",
+      "travelTime": "30m",
+      "how": "Bus or bike",
+      "whyCombine": "For its beautiful lagoon and the chance to try authentic paella."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, although some older attractions may lack ramps.",
+    "majorChallenges": "Cobblestone streets in the old town can be difficult for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Public transport is generally accessible, but check specific routes for wheelchair options."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 30°C, moderate crowds due to ongoing festivals and events.",
+    "currentAlerts": [],
+    "entryRequirements": "Current visa requirements remain the same; ensure to check for any updates before traveling."
+  }
+}

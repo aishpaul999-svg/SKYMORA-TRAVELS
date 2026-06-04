@@ -1,0 +1,267 @@
+{
+  "destination": "Gyeongju",
+  "country": "South Korea",
+  "region": "East Asia",
+  "aliases": [
+    "Gyeongju",
+    "gyeongju",
+    "south korea"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History enthusiasts",
+      "Cultural travelers",
+      "Nature lovers",
+      "Art lovers",
+      "Foodies"
+    ],
+    "notFor": [
+      "Party seekers",
+      "Luxury resort-goers",
+      "Beach lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h to Seoul + 2h KTX",
+    "flightFromMumbai": "8h to Seoul + 2h KTX",
+    "visaForIndians": "Korea visa required",
+    "currency": "South Korean Won (KRW), 1 INR = 16.5 KRW",
+    "timezone": "UTC+9",
+    "language": "Korean (English is spoken in tourist areas)",
+    "bestMonthToVisit": "April - Cherry blossoms bloom, enhancing the beauty of historical sites.",
+    "avoidMonth": "August - High humidity and heat can be uncomfortable for outdoor activities.",
+    "tipping": "Tipping is not customary; rounding up the bill is appreciated."
+  },
+  "whyPeopleFallInLove": "As you approach the serene Anapji Pond at dusk, the reflection of the ancient pavilions glistens against the water, while the scent of blooming lotus fills the air, creating a moment that captures Gyeongju's historical essence in a single breath.",
+  "honestTruth": "Many visitors underestimate the travel time between attractions; a well-planned itinerary is crucial to maximize your experience without feeling rushed.",
+  "localTruths": [
+    "Most visitors think Gyeongju is just about ancient relics. Locals think it's also about the modern cafés and vibrant art scene that thrive alongside the history.",
+    "Most visitors rush through the historical sites. The best version of Gyeongju is experienced slowly, with time to savor each moment in its parks and streets.",
+    "Most visitors miss the early morning tranquility at Gyeongju's royal tombs. The real Gyeongju starts at dawn when the mist rises over the ancient burial mounds."
+  ],
+  "neighborhoodPersonalities": {
+    "Downtown Gyeongju": {
+      "tags": [
+        "shopping",
+        "local food",
+        "nightlife"
+      ],
+      "bestFor": "Exploring local markets and trying street food.",
+      "avoid": "Nighttime can be quieter than expected."
+    },
+    "Historic Area": {
+      "tags": [
+        "temples",
+        "museums",
+        "parks"
+      ],
+      "bestFor": "History enthusiasts and peaceful walks.",
+      "avoid": "May feel crowded during peak tourist seasons."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h to Seoul + 2h KTX",
+        "airlines": [
+          "Korean Air",
+          "Asiana Airlines"
+        ],
+        "priceRange": "₹35,000 - ₹55,000",
+        "note": "Book in advance and check for seasonal discounts."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h to Seoul + 2h KTX",
+        "airlines": [
+          "Korean Air",
+          "Asiana Airlines"
+        ],
+        "priceRange": "₹40,000 - ₹60,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "Seoul Incheon Airport to Seoul Station (cost: KRW 10,000, duration: 1h), then KTX to Gyeongju (cost: KRW 50,000, duration: 2h).",
+      "taxi": "Taxi from Gyeongju station to city center costs around KRW 10,000 (15 mins).",
+      "recommended": "For first-timers, take the KTX train for a comfortable and scenic ride."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Korea visa required",
+    "applyAt": "VFS Global in India or the Korean Embassy website.",
+    "processingTime": "Typically 5-7 working days.",
+    "tip": "Ensure all documents are complete to avoid delays; a travel itinerary can strengthen your application."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to Café Jirisan and order their homemade rice cake with a side of traditional Korean tea.",
+    "sunset": "Watch the sunset at Donggung Palace and Wolji Pond around 7:30 PM for a picturesque view.",
+    "meal": "Dine at Gyeongju Hanjungsil for their famous bibimbap, a Korean rice dish with a variety of vegetables.",
+    "memory": "The moment you lay eyes on the ancient Silla tombs at sunrise, surrounded by dewdrops and silence, is what you’ll remember.",
+    "secret": "Locals often visit the small tea houses tucked away in alleyways for the best traditional teas."
+  },
+  "residentSunday": "A typical Sunday for a Gyeongju resident starts with a morning hike at Namsan Mountain, followed by brunch at Café Jirisan, and an afternoon spent visiting the Gyeongju National Museum. They often end the day with a quiet stroll along the historic sites illuminated at night, perhaps with a bowl of hot tteokbokki from a street vendor.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the KTX train and take in the fresh air filled with hints of pine and history.",
+    "peak": "The peak day memory target is a visit to Bulguksa Temple during the morning prayer session, feeling the serene atmosphere.",
+    "departure": "Departure should feel like leaving an old friend, with the promise of returning."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key historical sites like Bulguksa and Seokguram Grotto.",
+      "misses": "The depth of local cuisine and the surrounding nature."
+    },
+    "three_to_four_days": {
+      "focus": "Balanced exploration of cultural sites, museums, and leisure activities.",
+      "sweetSpot": true
+    },
+    "five-to-seven days": {
+      "focus": "In-depth exploration of Gyeongju and nearby attractions like Pohang.",
+      "whoFor": "History and culture enthusiasts."
+    },
+    "recommended": "Three to four days is ideal to appreciate Gyeongju’s diverse offerings."
+  },
+  "antiPatterns": [
+    "Rushing through Bulguksa Temple without enough time to explore its intricate details fails to appreciate its significance.",
+    "Skipping local food experiences for international chains misses the essence of Gyeongju's culinary landscape.",
+    "Visiting Seokguram Grotto during peak hours can ruin the serene experience; go early in the morning."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying local specialties like ssambap (rice wrapped in leaves).",
+    "Most visitors regret not spending enough time in the peaceful parks.",
+    "Most visitors regret not learning a few basic Korean phrases to enhance interactions."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, October",
+      "weather": "Mild temperatures, around 15-20°C.",
+      "crowds": "Significant tourist influx during cherry blossom and autumn foliage seasons.",
+      "verdict": "Ideal for experiencing Gyeongju’s beauty."
+    },
+    "shoulderSeason": {
+      "months": "March, September",
+      "why": "Fewer tourists and pleasant weather make for a more enjoyable visit."
+    },
+    "offSeason": {
+      "months": "January, August",
+      "reality": "Cold winters can be harsh; summer heat is oppressive.",
+      "reason": "Fewer tourists lead to more personalized experiences."
+    },
+    "bestMonth": "April - The cherry blossoms create a picturesque backdrop for historical sites.",
+    "currentSeason": "June 2026 is warm and lively with occasional rain, ideal for outdoor events and festivals."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Gyeongju National Museum on Wednesdays for free entry; plan your visit around lunch to enjoy the nearby street food stalls.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local makgeolli (rice wine) at a traditional tavern for an authentic taste of Gyeongju.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend the Gyeongju World Culture Expo in October for unique cultural experiences.",
+      "category": "event"
+    },
+    {
+      "tip": "Take a bicycle tour around the historical sites in the early morning to avoid crowds.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join local workshops to learn traditional crafts; inquire at the Gyeongju Cultural Center for schedules.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Bibimbap at a local diner for KRW 8,000 (₹485)",
+    "midRangeMeal": "Korean BBQ meal for KRW 25,000 (₹1,515)",
+    "luxuryMeal": "Fine dining at a hotel restaurant for KRW 70,000 (₹4,240)",
+    "localTransportPerDay": "KRW 5,000 (₹300) for buses and local transport.",
+    "budgetHotelPerNight": "KRW 45,000 (₹2,700) for basic amenities.",
+    "midRangeHotelPerNight": "KRW 100,000 (₹6,060) for comfortable accommodation.",
+    "luxuryHotelPerNight": "KRW 200,000 (₹12,120) for premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Hostel dormitory for KRW 20,000",
+      "food": "Street food and local diners.",
+      "transport": "Buses and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotel for KRW 80,000",
+      "food": "Mix of local restaurants and occasional dining."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options are available but can be limited; plan ahead."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; avoid revealing clothing.",
+    "Remove shoes before entering traditional accommodations and certain restaurants.",
+    "Respect local customs during festivals and ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly aggressive street vendors; politely decline and walk away.",
+      "Watch out for counterfeit souvenirs; buy from established retailers."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "119",
+      "indianEmbassy": "Korea Indian Embassy: 02-3424-1300"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Bulguksa Temple",
+        "what": "Capture the intricate architecture and surrounding nature.",
+        "bestTime": "Early morning light.",
+        "tip": "Use a wide-angle lens to capture the entire structure."
+      }
+    ],
+    "goldenHour": "Sunset around 7:30 PM during summer.",
+    "tip": "Bring a tripod for low-light shots, especially around temples at dusk."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning at Bulguksa Temple",
+        "Lunch at a local eatery",
+        "Afternoon bike ride around historic sites"
+      ],
+      "emotionalArc": "This sequence allows for a deep dive into history followed by relaxation and culinary exploration, enhancing overall enjoyment.",
+      "bestFor": [
+        "History buffs",
+        "Cultural enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Pohang",
+      "travelTime": "1h",
+      "how": "Bus or train",
+      "whyCombine": "Known for its beautiful beaches and seafood."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility at historical sites due to uneven terrain.",
+    "majorChallenges": "Some attractions require stairs or steep walks.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using a mobility aid for easier navigation."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 25°C and moderate crowds due to school holidays; various cultural festivals are taking place.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa regulations remain unchanged; ensure all documentation is ready."
+  }
+}

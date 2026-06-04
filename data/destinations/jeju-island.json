@@ -1,0 +1,274 @@
+{
+  "destination": "Jeju Island",
+  "country": "South Korea",
+  "region": "East Asia",
+  "aliases": [
+    "Jeju Island",
+    "jeju island",
+    "south korea"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Nature lovers",
+      "Adventure seekers",
+      "Cultural enthusiasts",
+      "Foodies",
+      "Beachgoers"
+    ],
+    "notFor": [
+      "Nightlife lovers",
+      "Shopping enthusiasts",
+      "Business travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h to Seoul + 1h flight",
+    "flightFromMumbai": "8h to Seoul + 1h flight",
+    "visaForIndians": "Visa-free for Jeju",
+    "currency": "South Korean Won (KRW), 1 INR = 16.5 KRW",
+    "timezone": "UTC+9",
+    "language": "Korean (English is commonly spoken in tourist areas)",
+    "bestMonthToVisit": "October - The weather is mild and the autumn foliage enhances the island's beauty.",
+    "avoidMonth": "August - The humidity and heat can be uncomfortable for outdoor activities.",
+    "tipping": "Tipping is not common; rounding up the bill is appreciated but not expected."
+  },
+  "whyPeopleFallInLove": "Imagine standing at the edge of Seongsan Ilchulbong at dawn, the sky painted in soft pastels as the sun rises over the volcanic crater. The fresh sea breeze carries the scent of salt and wildflowers, making you feel alive and connected to nature like never before.",
+  "honestTruth": "While many think Jeju is just a beach destination, the island's volcanic landscape offers a range of hiking trails that are more rewarding than lounging on the sand.",
+  "localTruths": [
+    "Most visitors think Jeju is only about beaches. Locals think the real beauty is in the volcanic landscapes and hiking trails that provide stunning views.",
+    "Most visitors rush to tourist hotspots. The best version of Jeju Island is experienced through leisurely drives along the coastal roads and stopping at local farms.",
+    "Most visitors miss the sunrise at Seongsan Ilchulbong. The real Jeju Island starts at the top of the crater, where the expansive ocean view takes your breath away."
+  ],
+  "neighborhoodPersonalities": {
+    "Seogwipo": {
+      "tags": [
+        "waterfalls",
+        "local culture",
+        "relaxation"
+      ],
+      "bestFor": "Those looking for a laid-back atmosphere with access to beautiful waterfalls and local markets.",
+      "avoid": "The town can feel quiet at night, limiting entertainment options after dark."
+    },
+    "Jeju City": {
+      "tags": [
+        "nightlife",
+        "shopping",
+        "food"
+      ],
+      "bestFor": "Travelers wanting a mix of urban experiences, including shopping and dining.",
+      "avoid": "It can get crowded during weekends, especially at popular dining spots."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h to Seoul + 1h flight",
+        "airlines": [
+          "Korean Air",
+          "Asiana Airlines"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 return",
+        "note": "Book in advance and consider off-peak travel for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h to Seoul + 1h flight",
+        "airlines": [
+          "Korean Air",
+          "Asiana Airlines"
+        ],
+        "priceRange": "₹40,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; consider taking a bus for about 1,500 KRW (₹90) and a 50-minute ride.",
+      "taxi": "Around 30,000 KRW (₹1,800) to Jeju City, taking about 30 minutes.",
+      "recommended": "For first-timers, using a taxi is the most convenient way to get to your accommodation."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free for Jeju",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport is valid for at least six months from your arrival date."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Café Aewol' for their signature 'Jeju Orange Juice' and fluffy pancakes topped with local honey.",
+    "sunset": "Head to 'Hyeopjae Beach' at 7:20 PM during summer for a mesmerizing view as the sun sets over Hallasan.",
+    "meal": "At 'Myeongjin Jeonbok', order the Abalone Porridge for an authentic local experience.",
+    "memory": "The moment you first see the Hallasan mountain peak shrouded in clouds during your hike.",
+    "secret": "Locals often picnic at small beaches away from the main tourist spots; ask for recommendations."
+  },
+  "residentSunday": "A typical Sunday for a Jeju resident involves hiking Hallasan in the morning, enjoying a lunch of fresh seafood at a local market, followed by a leisurely afternoon at the beach with family or friends, and wrapping up with a BBQ dinner at home.",
+  "dayMemoryTargets": {
+    "arrival": "The first whiff of the fresh ocean air as you step outside the airport, filling you with excitement for the adventures ahead.",
+    "peak": "The peak day memory target is standing atop Hallasan, feeling the cool breeze and taking in the panoramic views.",
+    "departure": "Leaving with a heavy heart, already planning your next visit while glancing back at the island from the plane."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like Hallasan and a beach visit.",
+      "misses": "Deeper exploration of local villages and hidden waterfalls."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of nature, culture, and local food experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including lesser-known trails and cultural sites.",
+      "whoFor": "Nature enthusiasts and culture seekers."
+    },
+    "recommended": "Four days is ideal to experience both the natural beauty and local culture of Jeju."
+  },
+  "antiPatterns": [
+    "Visiting only the main tourist spots without hiking leads to missing the island's true character.",
+    "Trying to cram too many activities into a single day can result in exhaustion rather than enjoyment.",
+    "Skipping local markets in favor of chain restaurants means losing out on authentic Jeju cuisine."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local seafood at the markets.",
+    "Most visitors regret not hiking Hallasan when the weather was perfect.",
+    "Most visitors regret sticking to tourist traps instead of exploring the island's hidden corners."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Hot and humid, 25-30°C",
+      "crowds": "Very crowded, especially at popular beaches and attractions.",
+      "verdict": "Expect long lines and higher prices."
+    },
+    "shoulderSeason": {
+      "months": "April, May, September, October",
+      "why": "Milder weather and fewer tourists make for a more relaxed experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cool temperatures, with some attractions closed.",
+      "oneReason": "Some travelers enjoy the tranquility and lower prices."
+    },
+    "bestMonth": "October - Great weather and beautiful autumn foliage.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the 'Jeju Black Pork' at 'Dombedon' for an authentic taste; expect to pay around 30,000 KRW (₹1,800) for a meal.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit 'Manjanggul Cave' early in the morning to avoid crowds; it's a hidden marvel.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use local buses for an affordable way to explore the island; a day pass costs about 5,000 KRW (₹300).",
+      "category": "transport"
+    },
+    {
+      "tip": "Join a local cooking class in Seogwipo to learn how to prepare traditional dishes with seasonal ingredients.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the 'Jeju Stone Park' at sunset for a magical atmosphere; entry is about 3,000 KRW (₹180).",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Gimbap at 'Gimbap Cheonguk', around 5,000 KRW (₹300).",
+    "midRangeMeal": "Bibimbap at 'Jeju Samgyetang', approximately 12,000 KRW (₹720).",
+    "luxuryMeal": "Dining at 'The Lounge & Bar' at the Shilla Hotel can range from 50,000 KRW (₹3,000) for a full course.",
+    "localTransportPerDay": "Expect to spend about 10,000 KRW (₹600) on local transport.",
+    "budgetHotelPerNight": "A guesthouse can cost around 30,000 KRW (₹1,800) for a dorm bed.",
+    "midRangeHotelPerNight": "A decent hotel room averages about 80,000 KRW (₹4,800).",
+    "luxuryHotelPerNight": "Luxury hotels average around 200,000 KRW (₹12,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm beds for around 30,000 KRW (₹1,800).",
+      "food": "Street food and budget meals.",
+      "transport": "Public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels for about 80,000 KRW (₹4,800).",
+      "food": "Mix of local restaurants and some fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury experiences can be quite lavish, but prices vary widely based on season and availability."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and traditional sites.",
+    "Always remove your shoes before entering someone's home.",
+    "Respect local customs, especially during festivals or ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxi drivers; always agree on a fare beforehand.",
+      "Some street vendors may charge tourists higher prices; ask locals for fair prices."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "119",
+      "indianEmbassy": "Korean Indian Embassy, Seoul: +82 2-2023-1200"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Seongsan Ilchulbong",
+        "what": "The sunrise over the volcanic crater.",
+        "bestTime": "Early morning, around 5:30 AM.",
+        "tip": "Arrive at least 30 minutes before sunrise for the best angle."
+      },
+      {
+        "name": "Cheonjiyeon Waterfall",
+        "what": "The waterfall framed by lush greenery.",
+        "bestTime": "Midday for optimal light.",
+        "tip": "Use a polarizer filter to enhance colors."
+      }
+    ],
+    "goldenHour": "Approximately 7:00 PM in summer.",
+    "tip": "Always carry a lightweight tripod for low-light conditions."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike Hallasan",
+        "Visit the Dongmun Market",
+        "Sunset at Hyeopjae Beach"
+      ],
+      "emotionalArc": "This combination offers a full day of adventure, local culture, and relaxation, creating a well-rounded experience.",
+      "bestFor": [
+        "Adventure seekers",
+        "Cultural enthusiasts",
+        "Foodies"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Busan",
+      "travelTime": "1h by flight",
+      "how": "Direct flights available.",
+      "whyCombine": "Known for its beaches and vibrant food scene, a great contrast to Jeju's natural beauty."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most urban areas are accessible, but some natural sites may have limitations.",
+    "majorChallenges": "Steep paths and uneven surfaces in hiking areas can pose challenges.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider using mobility aids for hiking trails."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 25°C, occasional rain, and moderate crowds. Local festivals may be happening.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indians; check for any health advisories."
+  }
+}

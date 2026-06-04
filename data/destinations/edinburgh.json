@@ -1,0 +1,288 @@
+{
+  "destination": "Edinburgh",
+  "country": "UK",
+  "region": "Europe",
+  "aliases": [
+    "Edinburgh",
+    "edinburgh",
+    "uk"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "whisky lovers",
+      "festival goers",
+      "outdoor adventurers",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "party seekers",
+      "beach lovers",
+      "those avoiding cold weather"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to London + 1h 20min",
+    "flightFromMumbai": "9h 30min to London + 1h 20min, airlines include British Airways and Virgin Atlantic",
+    "visaForIndians": "UK visa GBP 115, separate from Schengen",
+    "currency": "GBP (1 INR = 0.01 GBP)",
+    "timezone": "UTC+0",
+    "language": "English",
+    "bestMonthToVisit": "August, during the Edinburgh Festival Fringe, when the city transforms with performances and art.",
+    "avoidMonth": "January, as it tends to be very cold and many attractions may have limited hours.",
+    "tipping": "10-15% is customary in restaurants, but it’s not mandatory. Round up in pubs."
+  },
+  "whyPeopleFallInLove": "Walking up Arthur's Seat at dawn, feeling the cool breeze and watching the city wake up underneath a blanket of mist is a moment that ignites a deep connection to Edinburgh's landscape and history.",
+  "honestTruth": "Many tourists overlook the fact that Edinburgh's weather can change rapidly, so it's wise to carry an umbrella and wear layers even in summer.",
+  "localTruths": [
+    "Most visitors think they should only tour the Royal Mile. Locals think exploring Leith offers a more authentic taste of Edinburgh's cuisine and culture.",
+    "Most visitors flock to the castle. The best version of Edinburgh is experienced by wandering the less crowded streets of Stockbridge, where quaint shops and local cafés abound.",
+    "Most visitors miss the chance to join a whisky tasting. The real Edinburgh starts at a local distillery like the Edinburgh Gin Distillery, where you can learn the art of crafting this iconic spirit."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Town": {
+      "tags": [
+        "historic",
+        "touristy",
+        "cobbled streets"
+      ],
+      "bestFor": "Exploring medieval architecture and lively pubs.",
+      "avoid": "It can get overly crowded, especially during peak tourist season."
+    },
+    "New Town": {
+      "tags": [
+        "elegant",
+        "shopping",
+        "cultural"
+      ],
+      "bestFor": "Shopping and enjoying fine dining.",
+      "avoid": "Some parts feel too commercialized compared to the Old Town."
+    },
+    "Leith": {
+      "tags": [
+        "waterfront",
+        "local",
+        "foodie"
+      ],
+      "bestFor": "Discovering a diverse food scene and waterfront walks.",
+      "avoid": "It’s a bit further from the main attractions, which may not suit everyone."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to London + 1h 20min",
+        "airlines": [
+          "British Airways",
+          "Virgin Atlantic"
+        ],
+        "priceRange": "₹45,000 - ₹75,000 return",
+        "note": "Book well in advance, especially during festival seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30min to London + 1h 20min",
+        "airlines": [
+          "British Airways",
+          "Virgin Atlantic"
+        ],
+        "priceRange": "₹50,000 - ₹80,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; airport bus costs approximately £4.50 and takes 30 minutes.",
+      "taxi": "A taxi to the city center costs around £25 and takes about 30 minutes.",
+      "recommended": "The airport bus is cost-effective for first-timers and offers a direct route to the city."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "UK visa GBP 115, separate from Schengen",
+    "applyAt": "UK Visa Application Centre or online at the UK government's visa website.",
+    "processingTime": "Typically around 15 working days.",
+    "tip": "Ensure all documents are in order, especially proof of accommodation and return flights."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to The Pantry in Stockbridge for their delicious avocado toast and freshly brewed coffee.",
+    "sunset": "Watch the sunset from Calton Hill at around 9 PM during summer, when the city glows in the golden light.",
+    "meal": "Enjoy haggis at The Kitchin, a Michelin-starred restaurant where the dish is prepared with locally sourced ingredients.",
+    "memory": "Feeling the thrill of the Edinburgh Festival Fringe, with street performers and crowds all around, encapsulates the city's spirit.",
+    "secret": "Many locals visit the Water of Leith walkway for a peaceful escape, a stark contrast to the busy city."
+  },
+  "residentSunday": "An Edinburgh resident often starts their Sunday with brunch at The Scran & Scallie by 11 AM, followed by a stroll through the Royal Botanic Garden. They may spend the afternoon at a local pub, enjoying a Sunday roast and perhaps catching a live music act in the evening.",
+  "dayMemoryTargets": {
+    "arrival": "The first whiff of haggis and whisky as you step into a local pub, igniting an anticipation for the flavors of Edinburgh.",
+    "peak": "Savoring the exhilaration of the Edinburgh Festival Fringe, where the streets are alive with performances and laughter.",
+    "departure": "Leaving with a heart full of stories and a promise to return, feeling a sense of belonging even after a short visit."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring key attractions like Edinburgh Castle and the Royal Mile, along with a whisky tasting.",
+      "misses": "The deeper cultural experiences and local neighborhoods."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced exploration of the main sights and some hidden places, perfect for getting a feel of the city.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including day trips to the Highlands or nearby coastal areas.",
+      "whoFor": "Cultural enthusiasts and adventure seekers."
+    },
+    "recommended": "Four days allow for a satisfying experience, balancing sightseeing with relaxation."
+  },
+  "antiPatterns": [
+    "Skipping Arthur's Seat on a clear day means missing out on a panoramic view that defines the city's skyline.",
+    "Trying to see everything in one day leads to fatigue and a lack of appreciation for what Edinburgh has to offer.",
+    "Visiting during the festival but not booking accommodations in advance often results in overpriced options or no availability."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local delicacies like haggis and cranachan.",
+    "Most visitors regret not taking the time to hike up Arthur's Seat for the views.",
+    "Most visitors regret rushing through the Royal Mile and missing out on the smaller, interesting shops."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Temperatures range from 15-20°C with occasional rain.",
+      "crowds": "Extremely crowded due to the festivals.",
+      "verdict": "A lively atmosphere, but prepare for crowds and higher prices."
+    },
+    "shoulderSeason": {
+      "months": "April, May, September, October",
+      "why": "Milder weather and fewer tourists make it ideal for exploring."
+    },
+    "offSeason": {
+      "months": "November, December, January, February, March",
+      "reality": "Cold and often wet, but you can experience the city with fewer crowds.",
+      "hiddenGem": "The Christmas markets in December are a delightful experience."
+    },
+    "bestMonth": "August for the Edinburgh Festival Fringe, when the city is alive with performances.",
+    "currentSeason": "June 2026 is mild with temperatures around 18°C and the city is preparing for the festival season."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit The Scotch Whisky Experience for an immersive whisky journey, including tastings starting at £15.",
+      "category": "experience"
+    },
+    {
+      "tip": "For a quiet escape, check out the Secret Herb Garden located just outside the city; they have a lovely café and garden shop.",
+      "category": "food"
+    },
+    {
+      "tip": "During summer, the Meadows park is perfect for a picnic; it’s a local favorite for enjoying the sun.",
+      "category": "experience"
+    },
+    {
+      "tip": "Catch a free comedy show during the Fringe at the Underbelly, but arrive early for good seats.",
+      "category": "entertainment"
+    },
+    {
+      "tip": "For a truly local meal, head to the Broughton Deli for fresh sandwiches and homemade soups.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish & Chips at a local pub for around £10 (approximately ₹1,000)",
+    "midRangeMeal": "A three-course meal for two at a mid-range restaurant costs about £50 (₹5,000).",
+    "luxuryMeal": "Dining at The Kitchin can set you back around £80 per person (₹8,000).",
+    "localTransportPerDay": "A day pass for local buses costs £4.50 (₹450).",
+    "budgetHotelPerNight": "Dormitory beds in hostels start at £20 (₹2,000) with shared facilities.",
+    "midRangeHotelPerNight": "A decent hotel room costs around £100 (₹10,000) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like the Balmoral start at £300 (₹30,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorm beds for around ₹2,000.",
+      "food": "Street food and budget meals at pubs.",
+      "transport": "Public transport day passes."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotels or B&Bs for around ₹5,000.",
+      "food": "Dining at casual restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury options offer a high level of service, but be prepared for premium prices."
+    }
+  },
+  "culturalRules": [
+    "Always queue patiently in lines; cutting in is frowned upon.",
+    "Wear appropriate attire when visiting religious sites, like St. Giles' Cathedral.",
+    "Respect local customs during festivals and events, which may include unique traditions."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Street performers asking for money can be persistent; enjoy the show but don’t feel obligated to donate.",
+      "Be cautious of people asking for donations; always verify the legitimacy of the cause."
+    ],
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "999",
+      "indianEmbassy": "Indian High Commission, 17-19, Regent's Park, London, NW1 4PG"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Arthur's Seat",
+        "what": "Panoramic views of the city and beyond.",
+        "bestTime": "Early morning for the sunrise.",
+        "tip": "Bring a wide-angle lens to capture the vastness."
+      },
+      {
+        "name": "Victoria Street",
+        "what": "Colorful storefronts and iconic architecture.",
+        "bestTime": "Late afternoon when the light is soft.",
+        "tip": "Try different angles to capture the street's curves."
+      }
+    ],
+    "goldenHour": "Approximately 9 PM during summer months.",
+    "tip": "Experiment with long exposure shots at night for the cityscape."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Edinburgh Castle",
+        "Stroll down the Royal Mile",
+        "Enjoy a whisky tasting"
+      ],
+      "emotionalArc": "This sequence allows you to soak in the history, experience the local culture, and indulge in a quintessential Scottish experience.",
+      "bestFor": [
+        "history buffs",
+        "whisky lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Stirling",
+      "travelTime": "1 hour",
+      "how": "Train from Edinburgh Waverley Station.",
+      "whyCombine": "Home to Stirling Castle and the Wallace Monument, it offers a deeper dive into Scotland's history."
+    },
+    {
+      "city": "Glasgow",
+      "travelTime": "1 hour",
+      "how": "Train from Edinburgh.",
+      "whyCombine": "Enjoy a contrasting urban experience with art galleries and vibrant nightlife."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions are accessible, but some historic sites have limitations.",
+    "majorChallenges": "Cobblestone streets can be difficult to navigate for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using accessible transport options and plan routes in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is mild with occasional rain; tourists are starting to arrive for the festival season, making it lively yet manageable.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa regulations remain the same as of 2026; ensure all documentation is current."
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "destination": "Banff",
+  "country": "Canada",
+  "region": "Americas",
+  "aliases": [
+    "Banff",
+    "banff",
+    "canada"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Nature Lovers",
+      "Adventure Seekers",
+      "Wildlife Enthusiasts",
+      "Skiers",
+      "Photography Buffs"
+    ],
+    "notFor": [
+      "Budget Travelers",
+      "Party Seekers",
+      "Those Uninterested in Nature"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h to Calgary + 1.5h",
+    "flightFromMumbai": "16h to Calgary + 1.5h (common airlines include Air Canada and British Airways)",
+    "visaForIndians": "Canada visa required",
+    "currency": "Canadian Dollar (CAD); 1 INR = 0.017 CAD",
+    "timezone": "UTC-7",
+    "language": "English and French",
+    "bestMonthToVisit": "September, as the weather is pleasant and the fall foliage adds colors to the landscape.",
+    "avoidMonth": "May, due to unpredictable weather and lingering snow in some areas.",
+    "tipping": "Tipping is customary, typically 15-20% in restaurants. Some places may add a service charge."
+  },
+  "whyPeopleFallInLove": "Imagine standing on the shores of Lake Louise at sunrise, the stillness of the water reflecting the mountains, the air crisp with the scent of pine and fresh earth. That moment of serene beauty, where nature feels untouched, ignites a deep connection to the landscape that you won't want to leave.",
+  "honestTruth": "Many travelers overlook the fact that Banff can be quite expensive, especially when it comes to dining and accommodation, which can surprise those expecting a budget-friendly experience in nature.",
+  "localTruths": [
+    "Most visitors think they can see everything in one day. Locals think the best experiences are found over several days, allowing for deeper exploration.",
+    "Most visitors rush to Lake Louise. The best version of Banff is found in the lesser-known trails like the Bow Valley Loop.",
+    "Most visitors miss the chance to experience the local wildlife at dawn or dusk. The real Banff starts when you venture out early to spot elk and bears."
+  ],
+  "neighborhoodPersonalities": {
+    "Banff Town": {
+      "tags": [
+        "touristy",
+        "restaurants",
+        "shopping"
+      ],
+      "bestFor": "a lively atmosphere with plenty of dining options",
+      "avoid": "can be crowded and pricey during peak season"
+    },
+    "Lake Louise": {
+      "tags": [
+        "majestic views",
+        "outdoor activities",
+        "serenity"
+      ],
+      "bestFor": "hiking and photography enthusiasts",
+      "avoid": "limited dining options; plan ahead"
+    },
+    "Canmore": {
+      "tags": [
+        "local vibe",
+        "affordable",
+        "art scene"
+      ],
+      "bestFor": "those looking for a more laid-back, local experience",
+      "avoid": "may feel less touristy for those wanting high-end amenities"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h to Calgary + 1.5h",
+        "airlines": [
+          "Air Canada",
+          "British Airways"
+        ],
+        "priceRange": "₹60,000 - ₹90,000 return",
+        "note": "Book in advance for better deals and check for layover options."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "16h to Calgary + 1.5h",
+        "airlines": [
+          "Air Canada",
+          "Lufthansa"
+        ],
+        "priceRange": "₹70,000 - ₹1,00,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available; public transit options are limited.",
+      "taxi": "Around CAD 50 (₹2,900) and takes about 1.5 hours to reach Banff.",
+      "recommended": "For first-timers, booking a shuttle service is a convenient option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Canada visa required",
+    "applyAt": "Apply at the official Canadian government website or VFS Global.",
+    "processingTime": "Typically 15-20 days.",
+    "tip": "Ensure all documents are meticulously organized to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at 'Wild Flour Bakery' with a freshly baked cinnamon bun and a latte.",
+    "sunset": "Catch the sunset at Tunnel Mountain viewpoint around 9:30 PM in June for a gorgeous panoramic view.",
+    "meal": "Dine at 'The Bison Restaurant' and try the elk burger for a local flavor.",
+    "memory": "The moment you hear the quiet rustle of leaves as a deer walks by you on a trail is unforgettable.",
+    "secret": "Locals often hike the less-traveled trails at dusk for a chance to see wildlife up close."
+  },
+  "residentSunday": "A Banff resident would start their Sunday with brunch at 'Tooloulou's' around 10 AM, followed by a hike up Sulphur Mountain. They might take a dip in the Banff Upper Hot Springs post-hike before winding down with dinner at 'Three Ravens Restaurant' with a view of the mountains.",
+  "dayMemoryTargets": {
+    "arrival": "The first time you step out of your hotel and see the towering peaks surrounding you, feeling the fresh mountain air hit your face.",
+    "peak": "The peak day memory target would be hiking to the top of Johnston Canyon and witnessing the waterfalls in full flow.",
+    "departure": "Departure should feel like leaving a piece of your heart behind amidst the mountains."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Main attractions like Lake Louise and a quick hike to Tunnel Mountain.",
+      "misses": "Deeper experiences like the lesser-known trails and local dining."
+    },
+    "three_to_four_days": {
+      "focus": "Balanced coverage of iconic spots and some hidden trails.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of Banff and nearby Canmore.",
+      "whoFor": "Adventure seekers and nature enthusiasts."
+    },
+    "recommended": "Four days are ideal to experience the highlights without rushing."
+  },
+  "antiPatterns": [
+    "Trying to hike all major trails in one day leads to exhaustion instead of enjoyment.",
+    "Focusing solely on Lake Louise without exploring surrounding areas results in missing out on quieter yet rewarding experiences.",
+    "Visiting in peak tourist season without prior bookings can lead to long queues and crowded experiences."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not exploring the trails earlier in the morning when wildlife is most active.",
+    "Most visitors regret not trying local dishes, opting instead for chain restaurants.",
+    "Most visitors regret not spending time at the hot springs after a long day of hiking."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 20°C to 30°C, generally sunny.",
+      "crowds": "Expect heavy crowds at popular sites.",
+      "verdict": "Ideal for hiking but be prepared for busy trails."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "Fewer crowds and beautiful fall foliage make it great for photography."
+    },
+    "offSeason": {
+      "months": "November to early December and April to May",
+      "reality": "Weather can be unpredictable with snow or rain, but fewer tourists are present.",
+      "reason": "Some travelers prefer it for quieter experiences."
+    },
+    "bestMonth": "September for pleasant weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm with daytime temperatures around 25°C, ideal for hiking."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Banff Farmers' Market on Thursdays for local produce and artisan goods from 10 AM to 1:30 PM.",
+      "category": "food"
+    },
+    {
+      "tip": "Consider taking a guided wildlife tour at dawn for the best chance to see bears and elk in their natural habitat.",
+      "category": "experience"
+    },
+    {
+      "tip": "Book accommodations well in advance, especially during peak season, to avoid exorbitant last-minute prices.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the local craft beers at 'Banff Ave Brewing Co.' for a taste of the region's flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the scenic route along the Bow Valley Parkway, especially at sunset for phenomenal views.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A cheeseburger at a diner for CAD 15 (₹870).",
+    "midRangeMeal": "A pasta dish at a local Italian restaurant for CAD 30 (₹1,740).",
+    "luxuryMeal": "Dinner at 'The Maple Leaf' featuring Canadian cuisine for CAD 70 (₹4,070).",
+    "localTransportPerDay": "Approx. CAD 10 (₹580) for public transport.",
+    "budgetHotelPerNight": "Around CAD 100 (₹5,800) for a basic motel with minimal amenities.",
+    "midRangeHotelPerNight": "CAD 200 (₹11,600) for a 3-star hotel with breakfast included.",
+    "luxuryHotelPerNight": "CAD 500 (₹29,000) for a high-end resort with mountain views."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dorm beds for ₹1,200",
+      "food": "Cooking your own meals saves costs.",
+      "transport": "Using public transport or walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel at ₹4,000",
+      "food": "Dining at casual restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury options can be pricey, but the experiences often justify the cost."
+    }
+  },
+  "culturalRules": [
+    "Maintain a respectful distance from wildlife; approaching them can be dangerous.",
+    "Dress in layers as mountain weather can change rapidly.",
+    "Be courteous on hiking trails; yield to those ascending or descending."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of fake guides offering tours; always book through reputable companies.",
+      "Parking scams in busy areas; ensure you park in designated spots."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Embassy of India, Ottawa (contact number: +1 613-744-3751)"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Moraine Lake",
+        "what": "Capture the turquoise waters and surrounding peaks.",
+        "bestTime": "Early morning for calm waters.",
+        "tip": "Arrive early to avoid crowds."
+      }
+    ],
+    "goldenHour": "Around 7 AM - 8 AM and 8 PM - 9 PM in summer.",
+    "tip": "Use a polarizing filter to enhance the colors of the lakes."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hiking to Johnston Canyon",
+        "Lunch at The Bison",
+        "Relaxing at the Banff Hot Springs"
+      ],
+      "emotionalArc": "This sequence provides a blend of adventure, culinary delight, and relaxation, making for a fulfilling day.",
+      "bestFor": [
+        "Families",
+        "Couples",
+        "Adventure Seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Canmore",
+      "travelTime": "20 minutes",
+      "how": "By car or shuttle",
+      "whyCombine": "Canmore offers a more local vibe with unique shops and restaurants."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many trails are accessible, but not all viewpoints are.",
+    "majorChallenges": "Uneven terrain can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Some accommodations offer accessibility features; inquire in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures averaging 25°C, ideal for hiking and outdoor activities. Crowds are moderate as summer visitors are arriving.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa and valid passport required for entry into Canada."
+  }
+}

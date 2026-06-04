@@ -1,0 +1,273 @@
+{
+  "destination": "Amman",
+  "country": "Jordan",
+  "region": "Middle East",
+  "aliases": [
+    "Amman",
+    "amman",
+    "jordan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "cultural explorers",
+      "adventure seekers",
+      "photographers"
+    ],
+    "notFor": [
+      "party-goers",
+      "beach lovers",
+      "shopping addicts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h",
+    "flightFromMumbai": "5h 30m (Air India, Oman Air)",
+    "visaForIndians": "Jordan visa required",
+    "currency": "Jordanian Dinar (1 JOD = 138.40 INR)",
+    "timezone": "UTC+3",
+    "language": "Arabic (English widely spoken)",
+    "bestMonthToVisit": "March (pleasant weather for exploration)",
+    "avoidMonth": "August (extreme heat can be uncomfortable)",
+    "tipping": "10% is customary in restaurants; rounding up for taxis is appreciated."
+  },
+  "whyPeopleFallInLove": "Standing atop the Citadel at sunset, with the golden hues reflecting off the Roman ruins, one truly understands Amman's historical depth. The aroma of freshly baked mana'eesh wafts through the streets, inviting you to indulge in local flavors that linger in your memory long after you leave.",
+  "honestTruth": "Many travelers underestimate the importance of local customs; showing respect for traditions can open doors to richer experiences that guidebooks often overlook.",
+  "localTruths": [
+    "Most visitors think Amman is just a stopover for Petra. Locals think the city has its own stories worth telling, from ancient ruins to modern art.",
+    "Most visitors rush through the street food scene. The best version of Amman is enjoying a slow meal at a local café, engaging with the owners and savoring each bite.",
+    "Most visitors miss the vibrant art scene in Jabal Al-Weibdeh. The real Amman starts at the galleries and street murals that tell the stories of its people."
+  ],
+  "neighborhoodPersonalities": {
+    "Jabal Al-Weibdeh": {
+      "tags": [
+        "art",
+        "café culture",
+        "local life"
+      ],
+      "bestFor": "art enthusiasts and those looking for a local vibe.",
+      "avoid": "be wary of parking; it can be quite challenging."
+    },
+    "Rainbow Street": {
+      "tags": [
+        "food",
+        "nightlife",
+        "shopping"
+      ],
+      "bestFor": "those wanting to experience Amman's lively atmosphere.",
+      "avoid": "it can get crowded during weekends, which might dampen your experience."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h",
+        "airlines": [
+          "Air India",
+          "Jordanian Airlines"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 (economy return)",
+        "note": "Book in advance to secure better prices."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 30m",
+        "airlines": [
+          "Oman Air",
+          "Air India"
+        ],
+        "priceRange": "₹40,000 - ₹55,000 (economy return)"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; taxis are readily available.",
+      "taxi": "Approximately 25 JOD, taking around 30 minutes.",
+      "recommended": "For first-timers, pre-book a taxi through your hotel for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Jordan visa required",
+    "applyAt": "Jordanian Embassy or online via the e-visa portal.",
+    "processingTime": "3-5 working days.",
+    "tip": "Apply well in advance and check for any specific requirements based on your travel itinerary."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Hashem Restaurant for their famous falafel and a cup of mint tea.",
+    "sunset": "Watch the sunset from the Citadel, around 7 PM in June.",
+    "meal": "Eat at Sufra for their mansaf, the national dish of Jordan.",
+    "memory": "The moment you share stories with a local over a meal, feeling the sense of community.",
+    "secret": "Most locals head to the lesser-known cafes in the alleys of Jabal Al-Weibdeh after dark to enjoy live music."
+  },
+  "residentSunday": "An Amman resident might spend their Sunday visiting the local souks, grabbing breakfast at a small bakery in Jabal Amman, exploring art galleries, and enjoying a leisurely lunch at a family-run restaurant before heading to a public park to relax with friends.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and feel the warm desert air while the sun sets over the city.",
+    "peak": "The peak day memory target is standing in awe at the Roman Theater during a live performance, feeling the energy of history come alive.",
+    "departure": "Departure should feel bittersweet, with a promise to return to explore more of the rich history and flavors."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "quick visits to the Citadel and Roman Theater, along with sampling street food.",
+      "misses": "You miss the depth of local culture found in the neighborhoods."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of history, food, and local interactions.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "deeper exploration into nearby sites like Jerash and the Dead Sea.",
+      "whoFor": "adventure seekers and history buffs."
+    },
+    "recommended": "Four days is recommended for a fulfilling experience of Amman and its surroundings."
+  },
+  "antiPatterns": [
+    "Rushing from the Citadel to the Roman Theater without exploring Jabal Al-Weibdeh; you miss the art and local life.",
+    "Only sticking to Rainbow Street for dining; you will miss authentic local flavors found in smaller neighborhoods.",
+    "Visiting during the mid-afternoon heat; it makes exploring uncomfortable and less enjoyable."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food scene more.",
+    "Most visitors regret not taking a day trip to Jerash or the Dead Sea.",
+    "Most visitors regret not engaging more with locals."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to May",
+      "weather": "mild temperatures around 20-25°C",
+      "crowds": "moderate to high, especially at major sites.",
+      "verdict": "Great for sightseeing but be prepared for some crowds."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "The weather is pleasant, and crowds are fewer, making it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "December to February",
+      "reality": "cool to cold with occasional rain; fewer tourists.",
+      "reason": "Some prefer the tranquility and lower prices during this time."
+    },
+    "bestMonth": "March (ideal weather for exploration without extreme heat).",
+    "currentSeason": "June 2026 is warm, with temperatures around 30-35°C during the day, making hydration essential."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets early in the morning for the freshest produce; prices drop as the day progresses.",
+      "category": "food"
+    },
+    {
+      "tip": "Try to attend a local music event at the Royal Cultural Center for a taste of Jordanian performances.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a taxi instead of a private car; it’s cheaper and gives you a chance to chat with locals.",
+      "category": "transport"
+    },
+    {
+      "tip": "Explore the back alleys of downtown Amman for street art that tells the stories of the city.",
+      "category": "experience"
+    },
+    {
+      "tip": "Always carry small change in JOD for street vendors as they might not have change for larger bills.",
+      "category": "practical"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Falafel sandwich at a local vendor for 1 JOD (138.40 INR)",
+    "midRangeMeal": "Grilled chicken meal at a mid-range restaurant for 10 JOD (1,384 INR)",
+    "luxuryMeal": "Dinner at the Four Seasons for around 50 JOD (6,920 INR)",
+    "localTransportPerDay": "Around 5 JOD (692 INR) for taxis throughout the day.",
+    "budgetHotelPerNight": "Around 30 JOD (4,152 INR) for basic accommodation with essential amenities.",
+    "midRangeHotelPerNight": "Around 70 JOD (9,688 INR) for a comfortable hotel with good services.",
+    "luxuryHotelPerNight": "Around 200 JOD (27,680 INR) for high-end hotels with all amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dormitory for around 10 JOD",
+      "food": "Street food and local eateries for about 10 JOD",
+      "transport": "Public transport and occasional taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹6,000",
+      "accommodation": "Mid-range hotel for about 40 JOD",
+      "food": "Mix of local restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury in Amman includes exquisite dining and high-end accommodations, with prices reflecting quality and service."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially when visiting religious sites.",
+    "Ask for permission before taking photos of people.",
+    "Be respectful during prayer times; avoid loud conversations."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of overly friendly strangers offering unsolicited help; they may expect a tip.",
+      "Some taxi drivers may not use the meter; insist on it or agree on a fare beforehand."
+    ],
+    "emergencyContacts": {
+      "police": "191",
+      "ambulance": "911",
+      "indianEmbassy": "Jordanian Embassy in Amman, +962 6 593 1744"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Roman Theater",
+        "what": "Capture the grandeur of the ancient structure against the backdrop of the city.",
+        "bestTime": "Early morning or late afternoon.",
+        "tip": "Visit during a performance for a lively shot."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM in June.",
+    "tip": "Always ask locals if it's okay to photograph them; it enhances your experience."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Citadel",
+        "Lunch at a local restaurant",
+        "Explore the Roman Theater"
+      ],
+      "emotionalArc": "This sequence allows you to immerse in history, enjoy local flavors, and culminate with awe at the Roman ruins.",
+      "bestFor": [
+        "history enthusiasts",
+        "foodies"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Jerash",
+      "travelTime": "1 hour",
+      "how": "By taxi or guided tour",
+      "whyCombine": "The ancient ruins are among the best-preserved Roman sites outside Italy."
+    },
+    {
+      "city": "Dead Sea",
+      "travelTime": "1.5 hours",
+      "how": "By taxi or shuttle",
+      "whyCombine": "Experience floating in the mineral-rich waters and enjoy spa treatments."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public spaces are not fully accessible; some tourist sites have ramps.",
+    "majorChallenges": "Cobblestone streets and uneven surfaces in older areas.",
+    "seniorFriendlyScore": 7,
+    "note": "It's advisable to plan ahead for mobility needs, especially in historical sites."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm, with daytime temperatures around 32°C and evening coolness. Tourist attractions are moderately crowded.",
+    "currentAlerts": [],
+    "entryRequirements": "Jordan visa required for Indian passport holders as of June 2026."
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "destination": "Yangon",
+  "country": "Myanmar",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Yangon",
+    "yangon",
+    "myanmar"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "cultural explorers",
+      "urban adventurers",
+      "photographers"
+    ],
+    "notFor": [
+      "party-goers",
+      "luxury seekers",
+      "adventure sports enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "3h",
+    "flightFromMumbai": "3h 15m - Airlines: IndiGo, Myanmar Airways International, Air India - INR 20,000 - 28,000 return (book in advance for better rates)",
+    "visaForIndians": "e-Visa USD 50",
+    "currency": "Kyat (MMK), 1 INR = 22 MMK",
+    "timezone": "UTC +6:30",
+    "language": "Burmese (English widely understood in tourist areas)",
+    "bestMonthToVisit": "November - The weather is cooler and ideal for exploring the city comfortably.",
+    "avoidMonth": "April - The heat can be extreme, making outdoor activities uncomfortable.",
+    "tipping": "Tipping is appreciated but not mandatory; rounding up the bill or giving 1,000 MMK (approx. ₹45) in restaurants is common."
+  },
+  "whyPeopleFallInLove": "Standing in front of the Shwedagon Pagoda at sunset, you can feel the weight of history in the air as the golden stupa glows against the deepening blue sky, while the scent of incense wafts through the crowd, transporting you to a moment of serene reflection amidst the city's pulse.",
+  "honestTruth": "Many travelers underestimate the complexity of local politics and culture, which can affect your interactions and understanding of the city beyond its tourist sights.",
+  "localTruths": [
+    "Most visitors think Yangon is all about its colonial buildings and temples. Locals think it's about the daily life unfolding in the markets and neighborhoods that reflect true Myanmar.",
+    "Most visitors rush through the markets for souvenirs. The best version of Yangon is to sit with a local vendor, savoring street food while engaging in conversation about their craft.",
+    "Most visitors miss the charm of Kandawgyi Lake at dawn. The real Yangon starts when you take an early morning walk around the lake, watching locals practice Tai Chi."
+  ],
+  "neighborhoodPersonalities": {
+    "Downtown": {
+      "tags": [
+        "colonial architecture",
+        "business hub",
+        "cultural melting pot"
+      ],
+      "bestFor": "exploring historical sites and enjoying coffee in quaint cafés.",
+      "avoid": "Be cautious of traffic, which can be quite chaotic during peak hours."
+    },
+    "Chinatown": {
+      "tags": [
+        "street food",
+        "markets",
+        "nightlife"
+      ],
+      "bestFor": "food adventures, especially late-night eats.",
+      "avoid": "Be prepared for crowded streets; it can feel overwhelming on weekends."
+    },
+    "Botahtaung": {
+      "tags": [
+        "waterfront",
+        "temples",
+        "local life"
+      ],
+      "bestFor": "visiting the Botahtaung Pagoda and enjoying riverside views.",
+      "avoid": "The area can be quite quiet at night; plan your visit accordingly."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "3h",
+        "airlines": [
+          "IndiGo",
+          "Air India"
+        ],
+        "priceRange": "₹20,000 - 28,000 return",
+        "note": "Book early for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3h 15m",
+        "airlines": [
+          "Myanmar Airways International",
+          "IndiGo"
+        ],
+        "priceRange": "₹22,000 - 30,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro available; taxi is recommended.",
+      "taxi": "Approx. 15,000 MMK (₹700), 30 minutes to downtown.",
+      "recommended": "For first-timers, using a taxi booked through Grab is the safest and most efficient."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 50",
+    "applyAt": "https://evisa.moip.gov.mm/",
+    "processingTime": "3 business days",
+    "tip": "Apply at least a week in advance to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Cafe 1920' for their Mohinga (fish noodle soup) - a local breakfast staple.",
+    "sunset": "Watch the sunset from Shwedagon Pagoda around 6:15 PM; the golden colors reflect off the stupa beautifully.",
+    "meal": "Dine at 'Mandalay Restaurant' and order the Burmese curry with rice.",
+    "memory": "The moment you sit with a local over a bowl of Mohinga, sharing stories and laughter.",
+    "secret": "Local vendors often have the best tips on where to find traditional crafts away from tourist traps."
+  },
+  "residentSunday": "A Yangon resident might spend their Sunday morning at 'Yangon Circular Railway', enjoying a leisurely ride while grabbing breakfast from a vendor selling rice noodles. In the afternoon, they might visit Kandawgyi Lake for a stroll and end the day with dinner at 'Shan Yoe Yoe,' savoring traditional Shan cuisine.",
+  "dayMemoryTargets": {
+    "arrival": "The feeling of stepping out of the airport into the warm, humid air and hearing the sounds of the city waking up.",
+    "peak": "The peak day memory target is watching the Shwedagon Pagoda lit up at night after a day of exploration.",
+    "departure": "The departure should feel bittersweet, leaving with a sense of having experienced something profound."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covering the main attractions like Shwedagon Pagoda and Botahtaung Pagoda.",
+      "misses": "You miss the deeper insights into local life and markets."
+    },
+    "three_to_four_days": {
+      "focus": "A sweet spot coverage that includes exploring colonial architecture, markets, and local dining.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration including day trips to nearby attractions like Bago and Hpa-an.",
+      "whoFor": "cultural enthusiasts and history buffs."
+    },
+    "recommended": "4 days - It allows for a relaxed pace to absorb the city's essence."
+  },
+  "antiPatterns": [
+    "Rushing from one temple to another without engaging with locals fails to capture the true spirit of Yangon.",
+    "Choosing only to eat in tourist restaurants can lead to missing the authentic flavors of street food.",
+    "Visiting the Shwedagon Pagoda during peak hours without planning can lead to a crowded and overwhelming experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local food from street vendors.",
+    "Most visitors regret not spending enough time at Kandawgyi Lake during their visit.",
+    "Most visitors regret not engaging more with local people to learn about their stories."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "Cool, dry with temperatures averaging 25°C.",
+      "crowds": "Moderate to high, especially around festivals.",
+      "verdict": "Great time to visit, but expect more tourists."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "Fewer tourists and decent weather, but can get hot."
+    },
+    "offSeason": {
+      "months": "May to October",
+      "reality": "Monsoon season with heavy rains, but hotel prices drop significantly.",
+      "hiddenGem": "Some travelers enjoy the tranquility and lush greenery during this time."
+    },
+    "bestMonth": "November - Perfect weather for exploring without the humidity.",
+    "currentSeason": "June 2026 is warm with occasional rain, temperatures averaging 30°C."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Shwedagon Pagoda' on a full moon night for fewer crowds and a magical atmosphere.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local cooking class at 'Monsoon Restaurant' for a hands-on experience with traditional dishes.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the Yangon Circular Railway on a Sunday morning for a glimpse into local life and scenic views.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'Tea Leaf Salad' at 'Aung Thukha' for an authentic taste of Burmese flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the street art scene in the downtown area; the murals tell stories of the city's history.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Mohinga at a local eatery for 1,000 MMK (₹45)",
+    "midRangeMeal": "Dinner at 'Mandalay Restaurant' for 12,000 MMK (₹550)",
+    "luxuryMeal": "Dinner at 'Rangoon Tea House' for 30,000 MMK (₹1,350)",
+    "localTransportPerDay": "Approx. 5,000 MMK (₹230) using taxis and public transport.",
+    "budgetHotelPerNight": "15,000 MMK (₹700) for basic accommodation with a fan and shared bathroom.",
+    "midRangeHotelPerNight": "50,000 MMK (₹2,300) for a comfortable hotel with breakfast included.",
+    "luxuryHotelPerNight": "150,000 MMK (₹6,800) for a high-end hotel in downtown."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500 - ₹2,000",
+      "accommodation": "Dormitory bed in hostels for 10,000 MMK (₹450)",
+      "food": "Street food and local markets are very affordable.",
+      "transport": "Use public transport or shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,000 - ₹5,000",
+      "accommodation": "Mid-range hotels for 30,000 MMK (₹1,350)",
+      "food": "Mix of local dining and occasional upscale restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹8,000+",
+      "note": "Luxury options are available, but they often lack the local character found in mid-range accommodations."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples, covering shoulders and knees.",
+    "Remove shoes and socks before entering any religious site.",
+    "Ask permission before taking photos of people, especially in rural areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Avoid unsolicited offers for guided tours; many are overpriced and not reliable.",
+      "Beware of taxi drivers who quote high prices upfront; always negotiate or use a ride-hailing app."
+    ],
+    "emergencyContacts": {
+      "police": "199",
+      "ambulance": "192",
+      "indianEmbassy": "Myanmar, 49, Pyidaungsu Yeiktha Road, Kamayut Township"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Shwedagon Pagoda",
+        "what": "Capture the stupa at dusk when it is illuminated.",
+        "bestTime": "Evening, around 6:00 PM.",
+        "tip": "Use a wide-angle lens to capture the full grandeur of the pagoda."
+      }
+    ],
+    "goldenHour": "Golden hour is approximately 6:00 PM to 6:30 PM.",
+    "tip": "The early morning light at Kandawgyi Lake offers excellent opportunities for reflection shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Shwedagon Pagoda",
+        "Lunch at local food market",
+        "Explore Downtown"
+      ],
+      "emotionalArc": "This sequence builds excitement with a spiritual experience, followed by the warmth of local cuisine, and concludes with the charm of colonial architecture.",
+      "bestFor": [
+        "cultural explorers",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bago",
+      "travelTime": "1h 30m",
+      "how": "By bus or private taxi",
+      "whyCombine": "Bago offers historical sites like the Shwemawdaw Pagoda and the reclining Buddha."
+    },
+    {
+      "city": "Hpa-an",
+      "travelTime": "4h",
+      "how": "By bus",
+      "whyCombine": "Hpa-an features stunning limestone mountains and caves."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Public transport is not wheelchair-friendly; many streets are uneven.",
+    "majorChallenges": "Lack of ramps and elevators in most public buildings.",
+    "seniorFriendlyScore": 7,
+    "note": "A local guide can help navigate accessibility issues."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with intermittent rain, temperatures around 30°C with humidity; outdoor plans should be flexible.",
+    "currentAlerts": [],
+    "entryRequirements": "e-Visa is required for entry, check for any updates on regulations before traveling."
+  }
+}

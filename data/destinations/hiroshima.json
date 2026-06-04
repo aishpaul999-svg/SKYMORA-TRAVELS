@@ -1,0 +1,273 @@
+{
+  "destination": "Hiroshima",
+  "country": "Japan",
+  "region": "East Asia",
+  "aliases": [
+    "Hiroshima",
+    "hiroshima",
+    "japan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "peace advocates",
+      "culinary explorers",
+      "nature lovers",
+      "cultural learners"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "party-goers",
+      "those avoiding history"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Tokyo + Shinkansen",
+    "flightFromMumbai": "9h 30m to Tokyo + Shinkansen",
+    "visaForIndians": "Japan visa required",
+    "currency": "Japanese Yen (JPY), 1 INR = 1.5 JPY",
+    "timezone": "UTC+9",
+    "language": "Japanese (English is spoken in tourist areas)",
+    "bestMonthToVisit": "April for cherry blossoms and pleasant weather",
+    "avoidMonth": "August due to high humidity and potential typhoons",
+    "tipping": "Tipping is not customary; rounding up is appreciated."
+  },
+  "whyPeopleFallInLove": "Standing in the Peace Memorial Park, feeling the weight of history as you watch cherry blossoms fluttering in the gentle breeze, it's a moment that connects you to the resilience of the human spirit.",
+  "honestTruth": "Despite its serene appearance, Hiroshima's history can be overwhelming and may challenge your understanding of war and peace.",
+  "localTruths": [
+    "Most visitors think Hiroshima is just about the atomic bomb. Locals think it’s a thriving city of hope and recovery.",
+    "Most visitors rush to the Peace Memorial. The best version of Hiroshima is experienced through its local cuisine and heartfelt conversations with residents.",
+    "Most visitors miss the local markets. The real Hiroshima starts at the morning market in the Hondori shopping arcade."
+  ],
+  "neighborhoodPersonalities": {
+    "Hondori": {
+      "tags": [
+        "shopping",
+        "food",
+        "history"
+      ],
+      "bestFor": "exploring local shops and tasting street food",
+      "avoid": "it can get crowded during weekends."
+    },
+    "Naka-ku": {
+      "tags": [
+        "culture",
+        "peace",
+        "art"
+      ],
+      "bestFor": "visiting museums and parks",
+      "avoid": "some museums close early, check timings."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Tokyo + Shinkansen",
+        "airlines": [
+          "Air India",
+          "All Nippon Airways"
+        ],
+        "priceRange": "₹45,000 - ₹65,000 return",
+        "note": "Book 3 months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m to Tokyo + Shinkansen",
+        "airlines": [
+          "Japan Airlines",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹50,000 - ₹70,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro from Hiroshima Airport; bus costs around 1,700 JPY (₹1,150) and takes 50 minutes.",
+      "taxi": "Taxis cost approximately 20,000 JPY (₹13,500) and take about 45 minutes.",
+      "recommended": "For first-timers, the airport bus is economical and provides a comfortable ride."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Japan visa required",
+    "applyAt": "VFS Global in India or the official Japanese embassy website.",
+    "processingTime": "7 to 10 days typically.",
+    "tip": "Apply for a tourist visa with a detailed itinerary to increase your chances of approval."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at 'Kuro Café' and order the Hiroshima-style okonomiyaki for a hearty breakfast.",
+    "sunset": "Watch the sunset from the Hiroshima Peace Memorial Park at 6:45 PM for a reflective experience.",
+    "meal": "Dine at 'Kushiyaki Shiro' for their grilled chicken skewers, a local favorite.",
+    "memory": "The moment you place a paper crane at the Children’s Peace Monument, connecting with the stories of loss and hope.",
+    "secret": "Only locals know that the best time to experience the peace park is early morning when it’s quiet and serene."
+  },
+  "residentSunday": "A Hiroshima resident spends a Sunday at the Hiroshima City Museum of Contemporary Art, enjoying brunch at 'Café K' nearby, followed by a stroll along the river, and ends the day with sushi at 'Sushi Katsu' around 7 PM.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the Peace Memorial Park, feeling the solemnity of its history.",
+    "peak": "The peak day memory is during the lantern floating ceremony at the Motoyasu River.",
+    "departure": "Departure should feel reflective, carrying the lessons of peace with you."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Visiting the Peace Memorial Park and Museum, and sampling local cuisine.",
+      "misses": "The depth of local culture and the nearby Miyajima Island."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of historical sites, local food, and a day trip to Miyajima.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of local neighborhoods, and day trips to nearby attractions.",
+      "whoFor": "Cultural explorers and history buffs."
+    },
+    "recommended": "Three to four days — it allows for a meaningful exploration of Hiroshima and its surroundings."
+  },
+  "antiPatterns": [
+    "Visiting only the Peace Memorial Park without understanding its significance fails to grasp Hiroshima's resilience.",
+    "Traveling during the summer heat without planning indoor activities can lead to discomfort.",
+    "Ignoring local train schedules can ruin your day trips to Miyajima."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local oysters at the Hiroshima Oyster Festival.",
+    "Most visitors regret overscheduling and missing quiet moments in the parks.",
+    "Most visitors regret not taking time to speak with locals about their experiences."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, May",
+      "weather": "Mild temperatures between 15-20°C, mostly clear.",
+      "crowds": "High due to cherry blossom season.",
+      "verdict": "A beautiful time but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "September, October",
+      "why": "Ideal for fewer tourists and pleasant weather."
+    },
+    "offSeason": {
+      "months": "January, February",
+      "reality": "Cold with temperatures around 5°C, but fewer tourists.",
+      "hiddenGem": "The peace parks look serene under a blanket of snow."
+    },
+    "bestMonth": "April for the cherry blossoms and pleasant weather.",
+    "currentSeason": "June 2026 is warm with occasional rain, temperatures around 25°C, ideal for exploring."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Misen Mountain early in the morning for fewer crowds and stunning views over the Seto Inland Sea.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local momiji manju (maple leaf-shaped cake) from 'Nihonbashi' — it’s a delicious treat.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the streetcar system; it's the most efficient way to navigate the city.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a local festival if you can; it’s a glimpse into the heart of Hiroshima's traditions.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the backstreets of Hondori for local artisans and their crafts.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Ramen at 'Hiroshima Ramen' for 900 JPY (₹600)",
+    "midRangeMeal": "Sushi platter at 'Sushiro' for 3,500 JPY (₹2,300)",
+    "luxuryMeal": "Teppanyaki dinner at 'Miyuki' for 10,000 JPY (₹6,700)",
+    "localTransportPerDay": "Around 1,000 JPY (₹670) for unlimited streetcar usage.",
+    "budgetHotelPerNight": "Hostel bed for 3,000 JPY (₹2,000) with shared facilities.",
+    "midRangeHotelPerNight": "Business hotel for 10,000 JPY (₹6,700) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotel for 30,000 JPY (₹20,000)"
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostels at around ₹2,000 with shared facilities.",
+      "food": "Budget meals at local eateries for ₹600.",
+      "transport": "Use local streetcars for around ₹670."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Business hotels around ₹6,700 with breakfast.",
+      "food": "Mix of street food and mid-range restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury stays offer exceptional service but can be pricey."
+    }
+  },
+  "culturalRules": [
+    "Remove shoes when entering homes or certain traditional establishments.",
+    "Speak in low tones while in public spaces, especially near memorial sites.",
+    "Be mindful of not taking photos in certain sacred areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overcharging at tourist traps; always check prices before ordering.",
+      "Some taxi drivers may not speak English well; confirm your destination."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "119",
+      "indianEmbassy": "New Delhi: 011-2419-8000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Hiroshima Peace Memorial Park",
+        "what": "Capture the Atomic Bomb Dome with cherry blossoms in the foreground.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a tripod for long exposure shots at night."
+      },
+      {
+        "name": "Miyajima Island",
+        "what": "Photograph the floating torii gate at high tide.",
+        "bestTime": "Sunset for dramatic colors.",
+        "tip": "Visit during low tide to walk to the gate for unique angles."
+      }
+    ],
+    "goldenHour": "Approximately one hour after sunrise and one hour before sunset.",
+    "tip": "Always ask for permission before photographing locals, especially in traditional areas."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Peace Memorial Park",
+        "Enjoy lunch in Hondori",
+        "Take the ferry to Miyajima"
+      ],
+      "emotionalArc": "This sequence creates a day of reflection, cultural immersion, and natural beauty.",
+      "bestFor": [
+        "history lovers",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Miyajima",
+      "travelTime": "1h",
+      "how": "Ferry from Hiroshima",
+      "whyCombine": "To see the iconic floating torii gate and enjoy beautiful hiking trails."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, but some historical sites have limited access.",
+    "majorChallenges": "Navigating older buildings can be difficult due to steps.",
+    "seniorFriendlyScore": 8,
+    "note": "Consider using rental wheelchairs available at major tourist sites."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 25°C, occasional rain, and pleasant crowds; perfect for exploring.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa is required; ensure your passport has at least 6 months validity."
+  }
+}

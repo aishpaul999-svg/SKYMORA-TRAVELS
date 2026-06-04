@@ -1,0 +1,268 @@
+{
+  "destination": "Guilin",
+  "country": "China",
+  "region": "East Asia",
+  "aliases": [
+    "Guilin",
+    "guilin",
+    "china"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature enthusiasts",
+      "photographers",
+      "adventure seekers",
+      "cultural explorers",
+      "foodies"
+    ],
+    "notFor": [
+      "urban dwellers",
+      "party-goers",
+      "luxury seekers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h via Shanghai",
+    "flightFromMumbai": "6h 30m via Guangzhou",
+    "visaForIndians": "China visa required",
+    "currency": "Renminbi (CNY), 1 INR = 0.087 CNY",
+    "timezone": "UTC+8",
+    "language": "Mandarin",
+    "bestMonthToVisit": "April - the weather is mild, ideal for outdoor activities.",
+    "avoidMonth": "July - the region experiences heavy rainfall and high humidity.",
+    "tipping": "Tipping is not customary; however, rounding up is appreciated in tourist areas."
+  },
+  "whyPeopleFallInLove": "As you glide down the Li River at dawn, the mist rises off the water revealing limestone peaks that pierce the sky, while the sound of fishing boats echoes softly, creating an immersive experience that lingers long after you leave.",
+  "honestTruth": "Many travelers overlook the cultural significance of rice terraces and how they still sustain local livelihoods, focusing instead on just the scenery.",
+  "localTruths": [
+    "Most visitors think Guilin is only about the scenery. Locals think it’s a living landscape that feeds their families and preserves traditions.",
+    "Most visitors rush to the famous spots. The best version of Guilin is found in the quieter villages where life moves at a slower pace.",
+    "Most visitors miss the early morning market at Yangshuo. The real Guilin starts at the crack of dawn when vendors set up and locals begin their day."
+  ],
+  "neighborhoodPersonalities": {
+    "Yangshuo": {
+      "tags": [
+        "adventure",
+        "nature",
+        "cuisine"
+      ],
+      "bestFor": "outdoor activities like cycling and rock climbing.",
+      "avoid": "It can get crowded during peak tourist season."
+    },
+    "Guilin City": {
+      "tags": [
+        "urban",
+        "cultural",
+        "historical"
+      ],
+      "bestFor": "exploring local culture and cuisine.",
+      "avoid": "Traffic congestion can be frustrating."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h via Shanghai",
+        "airlines": [
+          "Air India",
+          "China Eastern"
+        ],
+        "priceRange": "[INR 20,000 - 35,000 return]",
+        "note": "Book in advance to secure better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 30m via Guangzhou",
+        "airlines": [
+          "China Southern",
+          "Air India"
+        ],
+        "priceRange": "[INR 22,000 - 30,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; taxis are the primary mode of transport.",
+      "taxi": "Taxi from Guilin Liangjiang International Airport to city center costs around CNY 100 and takes about 30 minutes.",
+      "recommended": "For first-timers, booking a hotel that offers airport pickup is highly recommended for ease."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "China visa required",
+    "applyAt": "VFS Global in New Delhi or Mumbai.",
+    "processingTime": "Typically takes 4-7 working days.",
+    "tip": "Apply for the visa well in advance, especially during travel seasons."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Cafe de Guangxi + try the rice noodles with pork.",
+    "sunset": "Xianggong Mountain + best seen around 6:30 PM during the summer.",
+    "meal": "Bamboo House in Yangshuo + order the beer fish, a local specialty.",
+    "memory": "The moment when you first see the karst mountains reflected in the Li River at sunrise.",
+    "secret": "Locals often visit the lesser-known Moon Hill for a quiet hike and stunning views."
+  },
+  "residentSunday": "A Guilin resident might start their Sunday with a simple breakfast of rice noodles from the street vendor near Seven Star Park, then spend the afternoon cycling along the Yulong River, followed by a dinner of spicy grilled fish at a local eatery in Yangshuo.",
+  "dayMemoryTargets": {
+    "arrival": "The first whiff of the earthy scent from the rice paddies and the sight of the karst mountains looming as you exit the airport.",
+    "peak": "The peak day memory target is the serene boat ride down the Li River, where the early morning fog adds a mystical quality to the landscape.",
+    "departure": "Departure should feel like a bittersweet farewell with a promise to return, highlighted by the sight of the mountains fading into the distance."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "covering the Li River cruise and Yangshuo's highlights.",
+      "misses": "the cultural depth of local villages."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of nature and local culture.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration of surrounding areas and activities like hiking and cycling.",
+      "whoFor": "active travelers who appreciate nature."
+    },
+    "recommended": "Four days are ideal to soak in both the stunning landscapes and local culture."
+  },
+  "antiPatterns": [
+    "Rushing to see the Li River without taking the time to enjoy the scenic stops along the way fails to capture the experience's essence.",
+    "Visiting only during the peak tourist season and expecting an authentic experience often leads to disappointment.",
+    "Starting the day too late means missing the best light for photography and the charm of morning markets."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the smaller villages around Guilin.",
+    "Most visitors regret skipping the rice terraces due to lack of information.",
+    "Most visitors regret not trying local dishes at smaller eateries."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, October",
+      "weather": "mild temperatures ranging from 15°C to 25°C and minimal rain.",
+      "crowds": "highly crowded with tourists.",
+      "verdict": "Best weather but expect busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "March, November",
+      "why": "Weather is still pleasant and crowds are manageable."
+    },
+    "offSeason": {
+      "months": "July, August",
+      "reality": "heavy rain and humidity make outdoor activities challenging.",
+      "reason": "Some still enjoy it for the lush green scenery and fewer tourists."
+    },
+    "bestMonth": "April - ideal weather for outdoor activities and scenic views.",
+    "currentSeason": "June 2026 is hot and humid with occasional showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets early in the day for the freshest produce and an authentic shopping experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a bike ride on the outskirts of Yangshuo during the late afternoon to avoid the heat and enjoy the sunset.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the local guilin rice noodles at a small eatery called 'Lao Gan Ma' for an authentic taste at a low price.",
+      "category": "food"
+    },
+    {
+      "tip": "Consider booking a bamboo raft ride in the quieter months for a more serene experience on the Yulong River.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the Longji Rice Terraces during sunrise for fewer crowds and magical lighting.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of rice noodles at a street vendor for CNY 10 (~₹115).",
+    "midRangeMeal": "A meal at a local restaurant with multiple dishes for CNY 80 (~₹920).",
+    "luxuryMeal": "Dining at a high-end restaurant like the Shangri-La Hotel for CNY 500 (~₹5,750).",
+    "localTransportPerDay": "CNY 30 (~₹345) for buses and local taxis.",
+    "budgetHotelPerNight": "CNY 150 (~₹1,730) for basic accommodation with shared facilities.",
+    "midRangeHotelPerNight": "CNY 600 (~₹6,900) for a comfortable hotel with amenities.",
+    "luxuryHotelPerNight": "CNY 1,500 (~₹17,250) for a luxury hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "hostel dorm beds at CNY 80 (~₹920)",
+      "food": "street food and local markets",
+      "transport": "buses and shared taxis"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "mid-range hotels at CNY 300 (~₹3,450)",
+      "food": "mix of local restaurants and occasional splurge"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury accommodations provide excellent service but are expensive compared to local standards."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting rural areas and temples.",
+    "Be respectful when taking photos, especially of people and their homes.",
+    "Learn a few basic Mandarin phrases as a courtesy to locals."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly friendly locals trying to guide you for a fee, always agree on prices beforehand.",
+      "Watch out for overpriced taxi rides; use official taxis or ride-sharing apps."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "120",
+      "indianEmbassy": "Consulate General of India in Guangzhou, +86 20 8755 0500"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Li River",
+        "what": "Capture the karst mountains reflected in the water.",
+        "bestTime": "Early morning around sunrise.",
+        "tip": "Use a polarizer filter to enhance colors."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 AM to 7:30 AM in the summer.",
+    "tip": "Focus on capturing the interplay of light and shadow on the mountains during different times of the day."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning boat ride on the Li River",
+        "Lunch at a riverside café",
+        "Cycling through Yangshuo's countryside"
+      ],
+      "emotionalArc": "This sequence creates a day that flows seamlessly from relaxation to adventure, showcasing the best of Guilin's nature.",
+      "bestFor": [
+        "nature lovers",
+        "photographers",
+        "adventure seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Longsheng",
+      "travelTime": "2 hours",
+      "how": "By bus or private taxi",
+      "whyCombine": "To explore the famous rice terraces and local minority cultures."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility at many outdoor attractions.",
+    "majorChallenges": "Steep paths and uneven terrain in rural areas can pose difficulties.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider planning ahead for transportation options that accommodate mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is hot with temperatures around 30°C, occasional afternoon rains, and moderate tourist traffic.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa required, check for any additional health regulations."
+  }
+}

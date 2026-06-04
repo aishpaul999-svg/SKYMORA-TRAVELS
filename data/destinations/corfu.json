@@ -1,0 +1,273 @@
+{
+  "destination": "Corfu",
+  "country": "Greece",
+  "region": "Europe",
+  "aliases": [
+    "Corfu",
+    "corfu",
+    "greece"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Beach lovers",
+      "History enthusiasts",
+      "Foodies",
+      "Nature explorers",
+      "Couples"
+    ],
+    "notFor": [
+      "Party seekers",
+      "Fast-paced travelers",
+      "Shopping lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Athens + 1h",
+    "flightFromMumbai": "10h to Athens + 1h, airlines: Emirates, Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.012 EUR)",
+    "timezone": "UTC +2",
+    "language": "Greek (English widely spoken)",
+    "bestMonthToVisit": "September - favorable weather and fewer tourists",
+    "avoidMonth": "August - peak tourist season with high prices and crowded spots",
+    "tipping": "10% is standard in restaurants; locals usually round up the bill"
+  },
+  "whyPeopleFallInLove": "As you stroll through the narrow streets of Corfu Town, the aroma of freshly baked olive oil pastries from a local bakery wafts through the air, inviting you to stop and savor a bite. The moment you taste that warm pastry, with its flaky crust and rich filling, you'll understand why this island leaves a lasting impression.",
+  "honestTruth": "Many guides won't tell you that Corfu can feel overly touristy in certain areas; it's essential to venture beyond the main attractions to find the true essence of the island.",
+  "localTruths": [
+    "Most visitors think Corfu is just about the beaches. Locals think the real beauty lies in the ancient olive groves and the historic architecture that tells the island's storied past.",
+    "Most visitors rush through their days at the beach. The best version of Corfu is enjoyed leisurely, sipping a coffee at a taverna while watching life unfold.",
+    "Most visitors miss the local markets. The real Corfu starts at the Corfu Town market on a Saturday morning, where locals shop for fresh produce and homemade goods."
+  ],
+  "neighborhoodPersonalities": {
+    "Corfu Town": {
+      "tags": [
+        "historic",
+        "cultural",
+        "cosmopolitan"
+      ],
+      "bestFor": "those seeking a blend of history and modern life.",
+      "avoid": "Be cautious of tourist traps in the main square."
+    },
+    "Paleokastritsa": {
+      "tags": [
+        "beach",
+        "scenic",
+        "relaxing"
+      ],
+      "bestFor": "beachgoers and nature lovers.",
+      "avoid": "Avoid during peak hours to sidestep the crowds."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Athens + 1h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹55,000 - ₹85,000",
+        "note": "Book at least two months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h to Athens + 1h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹60,000 - ₹90,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approximately EUR 25-30 (₹2,000-2,500) and takes around 15-20 minutes.",
+      "recommended": "For first-timers, a taxi is recommended for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global offices in India",
+    "processingTime": "15-20 days",
+    "tip": "Ensure all your documents are in order; incomplete applications can lead to delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Paxos Café' for their homemade feta and spinach pie, paired with fresh Greek yogurt and honey.",
+    "sunset": "Head to the 'Old Fortress' for an incredible sunset view around 8:30 PM in June.",
+    "meal": "Dine at 'Taverna Agni' and order the grilled octopus, a local specialty.",
+    "memory": "The moment you find a quiet spot on a rocky beach, away from the crowds, and listen to the waves crashing while enjoying a local wine.",
+    "secret": "Local fishermen often sell fresh catch near the Old Town; it's a great way to buy seafood at a reasonable price."
+  },
+  "residentSunday": "A Corfu resident might start their Sunday with breakfast at 'Kafeneio Ouzeri', enjoying a traditional Greek coffee and some spanakopita. They might then head to the Palaiokastritsa Monastery for a peaceful walk, followed by lunch at 'Taverna Nikolas' with a view of the sea. In the afternoon, they could relax at one of the quieter beaches, reading a book or simply enjoying the tranquility before heading back home for a family dinner with local dishes.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport, feeling the warm Mediterranean breeze and the anticipation of exploring an island with so much history.",
+    "peak": "The peak day memory target is when you take a boat trip to the nearby islands and discover secluded beaches that feel like your own private paradise.",
+    "departure": "Departure should feel like a bittersweet farewell, with a sense of satisfaction from having uncovered the many layers of Corfu."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Corfu Town and a beach visit.",
+      "misses": "Deeper exploration of the island's interior and local dining experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary including beaches, history, and local food.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Exploring the lesser-known areas and enjoying multiple beach days.",
+      "whoFor": "Travelers wanting a comprehensive experience."
+    },
+    "recommended": "Four days is ideal for a fulfilling experience without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting only Corfu Town and ignoring the beaches fails to capture the essence of the island.",
+    "Rushing through meals in taverna leads to missing out on the authentic dining experience.",
+    "Trying to fit too many activities in one day can lead to exhaustion and missing the real moments."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not renting a car to explore the island at their own pace.",
+    "Most visitors regret not trying local dishes at smaller tavernas, opting instead for touristy restaurants.",
+    "Most visitors regret not taking the time to enjoy a sunset at the Old Fortress."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Hot, averaging 30°C, crowded with tourists.",
+      "crowds": "Very high, especially at popular beaches and attractions.",
+      "verdict": "Expect long waits and high prices."
+    },
+    "shoulderSeason": {
+      "months": "May, June, September",
+      "why": "Better weather with fewer crowds makes it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "October, November, March, April",
+      "reality": "Cooler temperatures and some attractions may be closed.",
+      "one reason some prefer it": "Peaceful atmosphere and lower prices."
+    },
+    "bestMonth": "September - pleasant weather and fewer tourists make it an ideal time to visit.",
+    "currentSeason": "June 2026 is warm with temperatures reaching 28°C, and the island is busy with tourists enjoying summer activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local vineyards in the evening for a wine tasting; the sunset over the vineyards is spectacular.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'Pastitsada' (a local pasta dish) at 'To Kafeneio' for an authentic taste of Corfu.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a boat to the nearby island of Paxos for a day trip; it's less crowded and offers incredible swimming spots.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the olive groves early in the morning; the light is perfect for photography.",
+      "category": "timing"
+    },
+    {
+      "tip": "Attend the local festivals in August for a taste of traditional music and dance.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Souvlaki at a local taverna for around €5 (₹420)",
+    "midRangeMeal": "Three-course meal at a mid-range restaurant for around €20 (₹1,680)",
+    "luxuryMeal": "Dinner at a high-end restaurant like 'The Venetian Well' for around €50 (₹4,200)",
+    "localTransportPerDay": "Approximately €5 (₹420) for buses or local transport.",
+    "budgetHotelPerNight": "Hostel stay for around €25 (₹2,100) with shared facilities.",
+    "midRangeHotelPerNight": "Comfortable hotel for around €80 (₹6,700) offering breakfast and good amenities.",
+    "luxuryHotelPerNight": "Luxury hotel for around €250 (₹21,000) with sea views and all-inclusive options."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel at ₹2,100",
+      "food": "Street food and budget meals",
+      "transport": "Public buses and walking"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "Mid-range hotel at ₹6,700",
+      "food": "Mix of local tavernas and restaurants"
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury accommodations are available, but be prepared for high prices during peak season."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shoulders and knees should be covered.",
+    "It's customary to greet shopkeepers and tavern owners when entering their establishments.",
+    "Tipping is appreciated but not mandatory; rounding up the bill is common."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly friendly locals offering unsolicited help; they may expect a tip.",
+      "Some taxi drivers may not use meters; always confirm the fare before starting."
+    ],
+    "emergencyContacts": {
+      "police": "100",
+      "ambulance": "166",
+      "indianEmbassy": "Contact information available online."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Old Fortress",
+        "what": "The panoramic view of the town and sea.",
+        "bestTime": "Sunset",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "About an hour after sunrise and an hour before sunset.",
+    "tip": "Use a polarizing filter to enhance the colors of the sea and skies."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Old Fortress",
+        "Stroll through the Liston",
+        "Relax at the nearby beach"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate the history and beauty of Corfu Town before unwinding at the beach.",
+      "bestFor": [
+        "Couples",
+        "History enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Paxos",
+      "travelTime": "1 hour by boat",
+      "how": "Ferry",
+      "whyCombine": "For its serene beaches and charming villages."
+    },
+    {
+      "city": "Lefkada",
+      "travelTime": "1.5 hours by car",
+      "how": "Car",
+      "whyCombine": "To explore its stunning beaches and local tavernas."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Corfu Town has some accessible areas, but many old streets are cobbled and uneven.",
+    "majorChallenges": "Limited accessibility in rural areas and certain beaches.",
+    "seniorFriendlyScore": 6,
+    "note": "Some attractions may require assistance for those with mobility issues."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 28°C, lively with tourists, and local festivals happening throughout the month.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa regulations remain the same as of 2026, ensuring Schengen compliance."
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "destination": "York",
+  "country": "UK",
+  "region": "Europe",
+  "aliases": [
+    "York",
+    "york",
+    "uk"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History enthusiasts",
+      "Architecture lovers",
+      "Culinary explorers",
+      "Nature seekers",
+      "Family travelers"
+    ],
+    "notFor": [
+      "Nightlife seekers",
+      "Beach lovers",
+      "Budget backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to London + 2h train",
+    "flightFromMumbai": "9h 30m to London + 2h train via British Airways or Virgin Atlantic, INR 45,000 - 60,000 return",
+    "visaForIndians": "UK visa GBP 115",
+    "currency": "GBP (1 INR = 0.011 GBP)",
+    "timezone": "UTC +0",
+    "language": "English",
+    "bestMonthToVisit": "September - pleasant weather and fewer tourists",
+    "avoidMonth": "January - cold and less outdoor activity",
+    "tipping": "10-15% in restaurants; rounding up is common in pubs"
+  },
+  "whyPeopleFallInLove": "Walking along the medieval walls at dusk, you can hear the faint echoes of history while watching the sun set behind the majestic York Minster, casting a golden glow over the ancient stones.",
+  "honestTruth": "Many travelers underestimate the time needed to genuinely appreciate York's historical depth; rushing through just the highlights means missing the city's real essence.",
+  "localTruths": [
+    "Most visitors think York is just a quick stop for the Minster. Locals think it's a city best explored on foot, uncovering layers of history in every corner.",
+    "Most visitors flock to the Shambles for photos. The best version of York is found in the lesser-known alleyways, where you can sip tea and chat with shop owners.",
+    "Most visitors miss the hidden gardens around the Minster. The real York starts in the tranquility of these spaces, where you can reflect on the city's past."
+  ],
+  "neighborhoodPersonalities": {
+    "City Centre": {
+      "tags": [
+        "historical",
+        "commercial",
+        "cultural"
+      ],
+      "bestFor": "Exploring iconic landmarks and local shops.",
+      "avoid": "Be cautious of peak tourist times which can make it overcrowded."
+    },
+    "Micklegate": {
+      "tags": [
+        "nightlife",
+        "food",
+        "historic"
+      ],
+      "bestFor": "Enjoying the local food scene and nightlife.",
+      "avoid": "Late-night noise can be an issue for nearby residents."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to London + 2h train",
+        "airlines": [
+          "British Airways",
+          "Virgin Atlantic"
+        ],
+        "priceRange": "INR 45,000 - 60,000 return",
+        "note": "Book at least a month in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m to London + 2h train",
+        "airlines": [
+          "British Airways",
+          "Virgin Atlantic"
+        ],
+        "priceRange": "INR 45,000 - 60,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No direct metro; train from London to York costs around GBP 30 and takes about 2 hours.",
+      "taxi": "Taxi from York train station to the city center costs about GBP 10-15 and takes 10 minutes.",
+      "recommended": "First-timers should take the train from London; it's scenic and hassle-free."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "UK visa GBP 115",
+    "applyAt": "UK Visas and Immigration website or VFS Global in Delhi or Mumbai.",
+    "processingTime": "15 working days on average.",
+    "tip": "Apply for your visa well in advance, especially during peak travel seasons."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Betty's Cafe Tea Rooms - order the Yorkshire Breakfast with tea for a true taste of the region.",
+    "sunset": "Clifford's Tower at dusk for a panoramic view of the city bathed in golden light.",
+    "meal": "The Star Inn The City - order the roasted lamb with seasonal vegetables for a taste of local cuisine.",
+    "memory": "Standing atop the city walls as the sun sets, feeling the history of York envelop you.",
+    "secret": "Only locals know that the best views of the Minster can be found from the roof of the nearby Museum Gardens."
+  },
+  "residentSunday": "A York resident might spend Sunday morning at the local market in the Shambles, enjoying fresh pastries from a local bakery, followed by a leisurely stroll through the Yorkshire Museum Gardens, and ending the afternoon with a pint at a historic pub like The Kings Arms.",
+  "dayMemoryTargets": {
+    "arrival": "The first moment stepping through the medieval city gates and feeling the ancient atmosphere wrap around you.",
+    "peak": "Experiencing the York Minster's choir rehearsal, where the ethereal sound resonates through the grand architecture.",
+    "departure": "Leaving with a sense of connection to the city's history and a few local delicacies in hand."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions like the Minster and the Shambles.",
+      "misses": "The deeper stories of the Viking history and less touristy areas."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced exploration of history, culture, and cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of York's layers, including museums and guided history tours.",
+      "whoFor": "History buffs and cultural explorers."
+    },
+    "recommended": "Three to four days is ideal to truly absorb York's offerings."
+  },
+  "antiPatterns": [
+    "Rushing through the Minster tour and then visiting the Shambles; it creates a disjointed experience that misses York's narrative.",
+    "Trying to see everything in one day can lead to burnout; a more leisurely pace allows for discovery.",
+    "Visiting during peak hours at the Minster; it detracts from the peaceful atmosphere intended for the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the lesser-known gardens and open spaces.",
+    "Most visitors regret missing the chance to try local specialties in smaller eateries.",
+    "Most visitors regret not taking the time for a guided walking tour to grasp York's full history."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Temperatures around 20-25°C, occasional rain.",
+      "crowds": "High tourist volume, especially at popular attractions.",
+      "verdict": "Great weather but expect long queues."
+    },
+    "shoulderSeason": {
+      "months": "April, September, October",
+      "why": "Fewer tourists and pleasant weather make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "November, December, January, February",
+      "reality": "Cold and wet; a less appealing time for outdoor activities.",
+      "hiddenGem": "The festive season in December brings a cozy atmosphere with Christmas markets."
+    },
+    "bestMonth": "September - ideal for comfortable weather and less crowded attractions.",
+    "currentSeason": "June 2026 is warm with occasional rain, and the streets are alive with summer events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the National Railway Museum early in the morning; it's free and less crowded at that time.",
+      "category": "experience"
+    },
+    {
+      "tip": "Grab a takeaway coffee from Brew & Brownie and enjoy it in the Museum Gardens.",
+      "category": "food"
+    },
+    {
+      "tip": "Check local listings for 'York's Hidden Histories' walking tours; they often reveal lesser-known stories.",
+      "category": "experience"
+    },
+    {
+      "tip": "The best time to photograph the Minster is at sunrise when the light casts a beautiful glow on the stone.",
+      "category": "photography"
+    },
+    {
+      "tip": "Explore the back streets of the city centre for unique shops and local crafts that are often overlooked.",
+      "category": "shopping"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish & Chips at The Blue Bell for GBP 10 (approximately INR 900)",
+    "midRangeMeal": "A three-course meal at The Olive Tree for GBP 30 (approximately INR 2,700)",
+    "luxuryMeal": "Dinner at The Yorke Arms with tasting menu for GBP 75 (approximately INR 6,800)",
+    "localTransportPerDay": "Around GBP 5 (approximately INR 450) for buses and local trains.",
+    "budgetHotelPerNight": "GBP 60 at a budget hotel like Ibis York (basic amenities and central location).",
+    "midRangeHotelPerNight": "GBP 120 at a mid-range hotel like The Principal York (comfortable stay with amenities).",
+    "luxuryHotelPerNight": "GBP 250 at a luxury hotel like The Grand Hotel & Spa York."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm rooms around GBP 15-20 (approximately INR 1,350-1,800)",
+      "food": "Eat at local bakeries and pubs.",
+      "transport": "Use buses and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotels around GBP 80-120 (approximately INR 7,200-10,800)",
+      "food": "Mix of casual dining and occasional fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Expect high-quality service and amenities, especially in historic buildings."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites like York Minster.",
+    "Be respectful of local customs, especially in pubs; order and pay at the bar.",
+    "Always queue politely; it's a cultural norm in the UK."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of street performers asking for donations; it's best to enjoy without feeling pressured.",
+      "Avoid unlicensed taxis; always opt for official taxi services."
+    ],
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "999",
+      "indianEmbassy": "Indian High Commission in London: +44 20 7836 8484"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Clifford's Tower",
+        "what": "Panoramic view of York and the Minster.",
+        "bestTime": "Sunset for dramatic lighting.",
+        "tip": "Visit during off-peak hours for fewer crowds."
+      }
+    ],
+    "goldenHour": "Sunrise and sunset vary, but typically around 4:30 AM and 9:30 PM in summer.",
+    "tip": "Experiment with low angles near the river for interesting perspectives of the Minster."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit York Minster",
+        "Stroll through the Shambles",
+        "Enjoy a meal at a local pub"
+      ],
+      "emotionalArc": "This sequence allows you to connect with York's history, culture, and cuisine, providing a well-rounded experience.",
+      "bestFor": [
+        "Cultural travelers",
+        "Foodies"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Harrogate",
+      "travelTime": "30 minutes",
+      "how": "Train from York to Harrogate.",
+      "whyCombine": "Known for its elegant architecture and beautiful gardens."
+    },
+    {
+      "city": "Whitby",
+      "travelTime": "1 hour 20 minutes",
+      "how": "Train from York to Whitby.",
+      "whyCombine": "Famous for its dramatic coastline and association with Bram Stoker's Dracula."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions like the Minster and National Railway Museum are accessible, but some historic sites may have limitations.",
+    "majorChallenges": "Cobblestone streets can be difficult for mobility devices.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for the best routes and accessible facilities."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 20-24°C, moderate crowds due to summer events, and festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "UK visa required for Indian nationals; ensure all travel documents are in order."
+  }
+}

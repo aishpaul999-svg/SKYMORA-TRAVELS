@@ -1,0 +1,258 @@
+{
+  "destination": "Milford Sound",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "aliases": [
+    "Milford Sound",
+    "milford sound",
+    "new zealand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Nature Enthusiasts",
+      "Adventure Seekers",
+      "Photography Lovers",
+      "Wildlife Observers",
+      "Scenic Cruisers"
+    ],
+    "notFor": [
+      "Party-Goers",
+      "Urban Explorers",
+      "Shopping Enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h to Auckland + 2h + 4h",
+    "flightFromMumbai": "16h to Auckland + 2h + 4h",
+    "visaForIndians": "NZ ETA NZD 23",
+    "currency": "New Zealand Dollar (NZD), 1 INR = 0.018 NZD",
+    "timezone": "UTC +12:00",
+    "language": "English",
+    "bestMonthToVisit": "February - It offers the best weather conditions for outdoor activities.",
+    "avoidMonth": "June - The area experiences heavy rainfall, leading to frequent closures of activities.",
+    "tipping": "Tipping is not customary, but rounding up the bill is appreciated in restaurants."
+  },
+  "whyPeopleFallInLove": "As you glide through the fjord on a kayak, the sound of waterfalls cascades down rocky cliffs while the crisp air carries the scent of damp earth and pine, creating a sensory connection that's hard to forget.",
+  "honestTruth": "Many visitors leave thinking they’ve seen the best of Milford Sound from the boat, but the real magic happens when you hike the lesser-known trails that offer intimate views of nature's grandeur.",
+  "localTruths": [
+    "Most visitors think they can capture Milford Sound in a single boat cruise. Locals think the experience is incomplete without exploring the hiking trails that lead to breathtaking viewpoints.",
+    "Most visitors take the scenic cruise as their primary activity. The best version of Milford Sound is achieved by combining kayaking with a hike for a deeper connection to the landscape.",
+    "Most visitors miss the early morning tranquility. The real Milford Sound starts at 6 AM when the water is glassy and the wildlife is most active."
+  ],
+  "neighborhoodPersonalities": {
+    "Milford Sound Village": {
+      "tags": [
+        "Nature",
+        "Adventure",
+        "Relaxation"
+      ],
+      "bestFor": "Those looking to immerse themselves in the natural beauty of the fjord.",
+      "avoid": "The village can be crowded during peak hours, leading to a less intimate experience."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h to Auckland + 2h + 4h",
+        "airlines": [
+          "Air New Zealand",
+          "Qantas"
+        ],
+        "priceRange": "₹65,000 - ₹85,000 return",
+        "note": "Booking 3 months in advance can yield better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "16h to Auckland + 2h + 4h",
+        "airlines": [
+          "Singapore Airlines",
+          "Emirates"
+        ],
+        "priceRange": "₹70,000 - ₹90,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; however, a shuttle service is available for NZD 25, taking approximately 1 hour.",
+      "taxi": "A taxi ride costs around NZD 100 and takes about 1 hour.",
+      "recommended": "SKYmora recommends the shuttle service for a cost-effective and scenic ride into Milford Sound."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "NZ ETA NZD 23",
+    "applyAt": "https://www.immigration.govt.nz/eta",
+    "processingTime": "Typically 3 days, but can be instant.",
+    "tip": "Apply for your ETA at least a week before your travel to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at the 'Milford Sound Café' with a delicious Blueberry Muffin and freshly brewed coffee.",
+    "sunset": "Catch the sunset at the 'Milford Sound Lookout' around 7:30 PM for a serene view.",
+    "meal": "Dine at 'The Boat Shed' and try the local Green Lipped Mussels with a side of quinoa salad.",
+    "memory": "The moment you step into your kayak and glide silently past towering cliffs, with only the sound of the water and the distant roar of waterfalls.",
+    "secret": "Only locals know that the best time for wildlife spotting is early morning, when seals and dolphins are most active."
+  },
+  "residentSunday": "A Milford Sound resident typically starts the day with a hike to Key Summit, enjoying the panoramic views at sunrise. They then grab a coffee at 'Milford Sound Café' before heading out for a kayak trip in the afternoon, often returning to enjoy a homemade dinner of fresh fish caught in the fjord, often shared with friends at sunset by the shore.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first glimpse the fjord as you descend from the road, heart racing with anticipation.",
+    "peak": "The peak day memory target is standing on the deck of a kayak, surrounded by waterfalls, and feeling the spray on your face.",
+    "departure": "The departure should feel like a bittersweet farewell, with a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring the fjord on a scenic cruise and enjoying local hikes.",
+      "misses": "In-depth exploration of the surrounding wilderness."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of kayaking, hiking, and scenic drives through Fiordland National Park.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration including multiple hikes and wildlife tours.",
+      "whoFor": "Nature lovers and adventure seekers."
+    },
+    "recommended": "Three days is ideal for experiencing the essence of Milford Sound without feeling rushed."
+  },
+  "antiPatterns": [
+    "Taking only the boat tour and missing the hiking trails leads to a one-dimensional experience.",
+    "Visiting during peak hours can result in overcrowding, diminishing the natural beauty's impact.",
+    "Failing to check weather conditions can ruin outdoor plans and lead to disappointment."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending more time kayaking in the fjord.",
+    "Most visitors regret skipping the hike to Key Summit for panoramic views.",
+    "Most visitors regret not capturing the sunrise views with their cameras."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Temperature ranges from 15°C to 25°C, generally warm and dry.",
+      "crowds": "Very crowded, especially during holidays.",
+      "verdict": "Best for warm-weather activities, but expect large crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer tourists and mild weather make it ideal for hiking and kayaking."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Cold and wet, with high chances of rain leading to limited activities.",
+      "one reason some prefer it": "Some travelers enjoy the dramatic atmosphere created by heavy rain and low clouds."
+    },
+    "bestMonth": "February - Ideal weather for outdoor activities and fewer tourists.",
+    "currentSeason": "June 2026 is wet with temperatures around 8°C, leading to some road closures and limited activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Fiordland National Park Visitor Centre for up-to-date trail conditions and maps; it's free and invaluable.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to book your kayaking tour for the early morning to experience the fjord at its most serene.",
+      "category": "timing"
+    },
+    {
+      "tip": "Pack a light waterproof jacket; weather changes rapidly, and staying dry is essential.",
+      "category": "experience"
+    },
+    {
+      "tip": "If you can, stay overnight in the area to experience the fjord after the day tourists leave.",
+      "category": "experience"
+    },
+    {
+      "tip": "Carry a refillable water bottle; water is clean and drinkable from many streams around the hiking trails.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish and chips at 'Milford Sound Café' for NZD 15 (approx ₹850).",
+    "midRangeMeal": "A typical seafood platter at 'The Boat Shed' costs NZD 40 (approx ₹2,300).",
+    "luxuryMeal": "Dining at 'Milford Lodge' can range from NZD 100 (approx ₹5,700) for a multi-course meal.",
+    "localTransportPerDay": "Expect to spend around NZD 25 (approx ₹1,400) on local transport.",
+    "budgetHotelPerNight": "A basic room at 'Milford Sound Lodge' costs NZD 120 (approx ₹6,800) with shared facilities.",
+    "midRangeHotelPerNight": "A comfortable room at 'Milford Sound Hotel' is about NZD 250 (approx ₹14,200), offering private bathrooms and scenic views.",
+    "luxuryHotelPerNight": "Luxury accommodations at 'Fiordland Lodge' start at NZD 500 (approx ₹28,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Dormitory at a hostel for NZD 40 (approx ₹2,300)",
+      "food": "Cooking meals in shared kitchens.",
+      "transport": "Using shuttles or buses."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Private room in a guesthouse for NZD 120 (approx ₹6,800)",
+      "food": "Eating at mid-range cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Expect high prices for both accommodation and dining, reflecting the remote location."
+    }
+  },
+  "culturalRules": [
+    "Dress in layers; temperatures can change quickly due to the fjord's weather patterns.",
+    "Respect wildlife; keep a safe distance from animals, especially seals and dolphins.",
+    "Follow Leave No Trace principles when hiking to preserve the natural environment."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of unlicensed taxi services; always use reputable companies.",
+      "Avoid buying from vendors in crowded areas, as prices can be inflated."
+    ],
+    "emergencyContacts": {
+      "police": "111",
+      "ambulance": "111",
+      "indianEmbassy": "Indian High Commission in Wellington - +64 4-472-9534"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Milford Sound Lookout",
+        "what": "Capture the panoramic view of the fjord and surrounding mountains.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Bring a polarizing filter to reduce glare from the water."
+      }
+    ],
+    "goldenHour": "Around sunrise and sunset, especially in summer months.",
+    "tip": "Focus on the waterfalls after heavy rainfall; they transform into spectacular torrents."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning Kayaking",
+        "Hiking to Key Summit",
+        "Scenic Cruise in the Afternoon"
+      ],
+      "emotionalArc": "This combination allows for a deep immersion in the fjord, experiencing it from various angles and connecting with nature.",
+      "bestFor": [
+        "Nature Enthusiasts",
+        "Adventure Seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Te Anau",
+      "travelTime": "1 hour",
+      "how": "By bus or car",
+      "whyCombine": "Te Anau is the gateway to Fiordland and offers a variety of accommodation and dining options."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited; the majority of the hiking trails are not wheelchair accessible.",
+    "majorChallenges": "Steep paths and uneven terrains are common on most trails.",
+    "seniorFriendlyScore": 5,
+    "note": "Some areas can be accessed via shuttle services, but many experiences require mobility."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is characterized by heavy rainfall, with temperatures around 8°C and limited activities available due to weather.",
+    "currentAlerts": [],
+    "entryRequirements": "NZ ETA is required for Indian travelers, valid for multiple entries up to 90 days."
+  }
+}

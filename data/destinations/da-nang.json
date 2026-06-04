@@ -1,0 +1,276 @@
+{
+  "destination": "Da Nang",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Da Nang",
+    "da nang",
+    "vietnam"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "food enthusiasts",
+      "adventure seekers",
+      "cultural explorers",
+      "family travelers"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "shopping addicts",
+      "luxury-only travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h 30min",
+    "flightFromMumbai": "5h 45min, airlines: VietJet Air, Vietnam Airlines",
+    "visaForIndians": "e-Visa USD 25",
+    "currency": "Vietnamese Dong (VND), 1 INR = 320 VND",
+    "timezone": "UTC+7",
+    "language": "Vietnamese (English widely understood in tourist areas)",
+    "bestMonthToVisit": "March, as the weather is mild with less rain and comfortable temperatures.",
+    "avoidMonth": "September, due to the high likelihood of typhoons and heavy rainfall.",
+    "tipping": "Not customary but appreciated; small amounts (10,000 VND) for good service in restaurants."
+  },
+  "whyPeopleFallInLove": "As the sun sets over My Khe Beach, the sky turns a palette of oranges and purples, while the scent of grilled seafood wafts through the air, pulling you towards street vendors where you can enjoy fresh calamari for just a few dollars. It's a moment where the day's chaos melts away and you're left with simple pleasures.",
+  "honestTruth": "While many guides will tout Da Nang's beaches, the reality is that they can get quite crowded, and finding a quiet spot requires effort and some local knowledge.",
+  "localTruths": [
+    "Most visitors think Da Nang is just a beach destination. Locals think of it as a gateway to incredible heritage sites like Hoi An and My Son.",
+    "Most visitors flock to the beach during the day. The best version of Da Nang is to enjoy the vibrant nightlife along the Han River, especially during the weekend.",
+    "Most visitors miss the early morning market scenes in Han Market. The real Da Nang starts at dawn when local vendors sell fresh produce and street food."
+  ],
+  "neighborhoodPersonalities": {
+    "My Khe Beach": {
+      "tags": [
+        "beach",
+        "relaxation",
+        "water sports"
+      ],
+      "bestFor": "beach lovers looking for sun and surf",
+      "avoid": "crowded spots during peak hours"
+    },
+    "Han River": {
+      "tags": [
+        "nightlife",
+        "dining",
+        "views"
+      ],
+      "bestFor": "those wanting to experience local cuisine and nightlife",
+      "avoid": "areas without proper lighting at night"
+    },
+    "City Center": {
+      "tags": [
+        "shopping",
+        "culture",
+        "food"
+      ],
+      "bestFor": "urban explorers seeking local food and shopping",
+      "avoid": "overly touristy shops that inflate prices"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h 30min",
+        "airlines": [
+          "Air India",
+          "VietJet Air"
+        ],
+        "priceRange": "₹20,000 - ₹30,000",
+        "note": "Book at least 2 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 45min",
+        "airlines": [
+          "VietJet Air",
+          "Vietnam Airlines"
+        ],
+        "priceRange": "₹22,000 - ₹32,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Approx. 250,000 VND (₹780) and takes about 15-20 minutes.",
+      "recommended": "For first-timers, using a Grab taxi is advisable for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 25",
+    "applyAt": "https://evisa.xuatnhapcanh.gov.vn",
+    "processingTime": "3 working days",
+    "tip": "Apply for your e-Visa well ahead of your travel date as processing can be slow during peak seasons."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Bánh Mì Phượng' for their famous Bánh Mì, a Vietnamese sandwich, and try the pork-filled version.",
+    "sunset": "Head to the Golden Bridge at Ba Na Hills; aim to arrive by 5 PM for the best views.",
+    "meal": "Dine at 'Mì Quảng 1A' for their signature dish, Mì Quảng, a local noodle specialty.",
+    "memory": "The moment you stand on the Golden Bridge, with its giant stone hands holding the pathway, feeling like you're walking through the clouds.",
+    "secret": "Only locals know that the best coffee is served at 'Cà Phê Phin' in the Old Quarter, where you must try their egg coffee."
+  },
+  "residentSunday": "A typical Sunday for a Da Nang resident includes a morning visit to the local market around 7 AM for fresh ingredients, followed by brunch at 'Bánh Xèo Bà Dưỡng' for crispy pancakes. In the afternoon, they might relax at My Khe Beach and finish the day with a barbecue dinner at a riverside spot, enjoying live music and the sunset.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm ocean breeze mixed with the scent of street food.",
+    "peak": "The peak day memory target is when you first catch sight of the Dragon Bridge breathing fire at 9 PM.",
+    "departure": "Leaving with a heart full of memories after a leisurely walk along the Han River at dawn, watching the city wake up."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "A quick exploration of the beaches and a taste of local cuisine.",
+      "misses": "Miss out on the cultural experiences in nearby Hoi An."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering beaches, local food, and nearby attractions.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including day trips to Ba Na Hills and Hoi An.",
+      "whoFor": "adventure seekers and culture enthusiasts."
+    },
+    "recommended": "Four days is ideal to soak in the beaches and local culture without feeling rushed."
+  },
+  "antiPatterns": [
+    "Booking a hotel near the beach without checking for construction nearby can lead to noisy disturbances.",
+    "Skipping Hoi An for the sake of more beach time can lead to missing out on Vietnam's cultural heritage.",
+    "Trying to squeeze too many activities into one day without considering travel time can lead to frustration."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food, especially the seafood.",
+    "Most visitors regret not visiting the Marble Mountains, which offer stunning views and rich history.",
+    "Most visitors regret not taking a day trip to Hoi An for its famous lanterns and ancient streets."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot and humid with temperatures around 30-35°C.",
+      "crowds": "Tourist crowds peak, especially at beaches.",
+      "verdict": "Plan your beach visits early in the morning to avoid the heat."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Ideal weather with fewer crowds, perfect for outdoor activities."
+    },
+    "offSeason": {
+      "months": "September to November",
+      "reality": "Expect heavy rainfall, with occasional storms, impacting outdoor activities.",
+      "reason": "Some prefer this season for fewer tourists and lower prices."
+    },
+    "bestMonth": "March, as the weather is pleasant and suitable for both beach and exploration.",
+    "currentSeason": "June 2026 is hot with temperatures around 32°C, and moderate tourist presence."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Chợ Cồn' market in the early morning for the freshest local produce and breakfast options like Cao Lầu noodles.",
+      "category": "food"
+    },
+    {
+      "tip": "Rent a motorbike to explore the coastline; it's the best way to see less touristy beaches like Bai Da.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try the local craft beer at '29 Beer Garden' for a unique taste of Da Nang's brewing scene.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a cooking class at 'Vietnamese Home Cooking' to learn how to prepare local dishes yourself.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join the locals for a morning Tai Chi session at My Khe Beach around 6 AM for a refreshing start to the day.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pho at a street vendor for 30,000 VND (₹95)",
+    "midRangeMeal": "Grilled seafood platter at 'Owen's' for 200,000 VND (₹630)",
+    "luxuryMeal": "Fine dining at 'La Maison' for 800,000 VND (₹2,500)",
+    "localTransportPerDay": "Approx. 150,000 VND (₹475) for local transport via Grab.",
+    "budgetHotelPerNight": "300,000 VND (₹950) for a basic guesthouse with shared facilities.",
+    "midRangeHotelPerNight": "1,200,000 VND (₹3,800) for a comfortable hotel with breakfast included.",
+    "luxuryHotelPerNight": "3,000,000 VND (₹9,500) for a high-end resort with full amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel for 150,000 VND (₹475)",
+      "food": "Street food and local eateries.",
+      "transport": "Public transport and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Mid-range hotel for 1,200,000 VND (₹3,800)",
+      "food": "Mix of local restaurants and occasional upscale dining."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury experiences can be found but are less common compared to other Southeast Asian destinations."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and religious sites.",
+    "Always remove your shoes before entering someone's home.",
+    "It's polite to greet locals with a smile and a slight bow."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Watch out for overcharging at markets; always negotiate prices.",
+      "Beware of fake taxis; use Grab instead."
+    ],
+    "emergencyContacts": {
+      "police": "113",
+      "ambulance": "115",
+      "indianEmbassy": "Vietnam Embassy, New Delhi, Address: 50-N, Shantipath, Chanakyapuri, New Delhi, Delhi 110021"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Golden Bridge",
+        "what": "Capture the stunning architecture and the surrounding landscape.",
+        "bestTime": "Sunset for dramatic lighting.",
+        "tip": "Arrive early to avoid crowds."
+      }
+    ],
+    "goldenHour": "6:00 PM - 7:00 PM during the summer months.",
+    "tip": "Always carry a polarized filter to reduce glare from the sun, especially at the beach."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Relax at My Khe Beach",
+        "Visit the Marble Mountains",
+        "Enjoy dinner along the Han River"
+      ],
+      "emotionalArc": "This sequence allows for a transition from relaxation to exploration, ending with a serene dinner that encapsulates the beauty of the city.",
+      "bestFor": [
+        "beach lovers",
+        "culture enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Hoi An",
+      "travelTime": "30min",
+      "how": "By taxi or shuttle",
+      "whyCombine": "Famous for its well-preserved ancient town and lantern festival."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Generally, many places are not fully accessible due to uneven surfaces.",
+    "majorChallenges": "Limited ramps in older buildings and market areas.",
+    "seniorFriendlyScore": 7,
+    "note": "Most tourist attractions have some accessibility options, but plan ahead."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 32°C, with moderate tourist presence and a few local events like the Da Nang International Fireworks Festival.",
+    "currentAlerts": [],
+    "entryRequirements": "e-Visa remains valid and no additional vaccinations are required."
+  }
+}

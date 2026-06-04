@@ -1,0 +1,278 @@
+{
+  "destination": "Fukuoka",
+  "country": "Japan",
+  "region": "East Asia",
+  "aliases": [
+    "Fukuoka",
+    "fukuoka",
+    "japan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food enthusiasts",
+      "cultural explorers",
+      "nightlife seekers",
+      "nature lovers",
+      "family travelers"
+    ],
+    "notFor": [
+      "luxury-only travelers",
+      "beach fanatics",
+      "solo travelers looking for solitude"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Tokyo + 2h Shinkansen",
+    "flightFromMumbai": "9h to Tokyo + 2h Shinkansen",
+    "visaForIndians": "Japan visa required",
+    "currency": "Japanese Yen (JPY), 1 INR = 1.60 JPY",
+    "timezone": "UTC+9",
+    "language": "Japanese (basic English understood in tourist areas)",
+    "bestMonthToVisit": "October - pleasant weather and autumn foliage",
+    "avoidMonth": "August - extremely hot and humid, making outdoor activities uncomfortable",
+    "tipping": "Tipping is not customary in Japan; service is included. However, rounding up bills is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine slurping a steaming bowl of tonkotsu ramen at a vibrant yatai (street food stall), with the smoky aroma of grilled skewers wafting through the air, while the owner, an elderly gentleman, shares stories of Fukuoka's history as he serves you. The experience is a sensory delight that stays with you long after the meal.",
+  "honestTruth": "Many visitors overlook the fact that Fukuoka has its own distinct dialect, Fukuoka-ben, which can make communication challenging even for those who speak standard Japanese.",
+  "localTruths": [
+    "Most visitors think Fukuoka is just a transit point for Kyushu. Locals think it is the heart of Kyushu with its own rich traditions and cuisine.",
+    "Most visitors rush through the yatai experience. The best version of Fukuoka is to linger over your meal, savoring the food and conversations.",
+    "Most visitors miss the serene beauty of Ohori Park at dawn. The real Fukuoka starts here with its peaceful atmosphere and stunning reflections on the water."
+  ],
+  "neighborhoodPersonalities": {
+    "Tenjin": {
+      "tags": [
+        "shopping",
+        "nightlife",
+        "business"
+      ],
+      "bestFor": "nightlife and high-end shopping",
+      "avoid": "crowds during weekends can be overwhelming."
+    },
+    "Nakasu": {
+      "tags": [
+        "entertainment",
+        "food",
+        "nightlife"
+      ],
+      "bestFor": "food lovers seeking yatai experiences",
+      "avoid": "late-night visits if you’re not comfortable with a lively atmosphere."
+    },
+    "Ohori Park": {
+      "tags": [
+        "nature",
+        "relaxation",
+        "family-friendly"
+      ],
+      "bestFor": "morning strolls and picnics",
+      "avoid": "visits during the midday heat in summer."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Tokyo + 2h Shinkansen",
+        "airlines": [
+          "Air India",
+          "All Nippon Airways"
+        ],
+        "priceRange": "₹40,000 - ₹60,000",
+        "note": "Book at least a month in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h to Tokyo + 2h Shinkansen",
+        "airlines": [
+          "Japan Airlines",
+          "All Nippon Airways"
+        ],
+        "priceRange": "₹40,000 - ₹60,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "Fukuoka Airport to Tenjin Station, 260 JPY, 11 minutes.",
+      "taxi": "Around 1,500 JPY, 15 minutes.",
+      "recommended": "For first-timers, taking the subway is the quickest and most economical option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Japan visa required",
+    "applyAt": "VFS Global centers in India",
+    "processingTime": "7-10 days",
+    "tip": "Apply for a visa at least 3 weeks before your planned travel date to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Yoshida' for their famous mentaiko (spicy cod roe) rice bowl — a must-try local dish.",
+    "sunset": "Head to 'Fukuoka Tower' at 7:00 PM for a panoramic view of the city as the sun sets behind Hakata Bay.",
+    "meal": "Dine at 'Ikkousha' for their signature tonkotsu ramen, known for its rich broth and perfectly cooked noodles.",
+    "memory": "The moment you sit at a yatai, sharing a meal with locals, feeling the community spirit and warmth of the city.",
+    "secret": "Locals often visit small, family-run shops that don’t appear in guidebooks — ask for recommendations."
+  },
+  "residentSunday": "A typical Sunday for a Fukuoka resident might start with a morning jog around Ohori Park, followed by brunch at 'Le Mistral' for delicious pastries. In the afternoon, they might visit the Fukuoka Art Museum, before heading to a yatai in Nakasu for dinner with friends, enjoying skewers and local beer until late evening.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and are greeted by the fresh sea breeze and the sound of cicadas — a sensory welcome.",
+    "peak": "The peak day memory target is when you join locals for a summer festival, surrounded by vibrant yukata-clad people and food stalls.",
+    "departure": "Departure should feel like a bittersweet farewell, with fond memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "A quick exploration of Tenjin and Nakasu, with a focus on food and nightlife.",
+      "misses": "You miss the cultural depth and natural beauty of Ohori Park."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of food, culture, and leisure, including day trips to nearby attractions.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of Fukuoka and surrounding areas like Nagasaki and Kumamoto.",
+      "whoFor": "family travelers and cultural enthusiasts."
+    },
+    "recommended": "Four days — allows for a comprehensive experience of the city and its culinary delights."
+  },
+  "antiPatterns": [
+    "Skipping yatai for high-end restaurants can lead to missing the true essence of Fukuoka's food scene.",
+    "Rushing through Ohori Park without taking time to relax by the lake can diminish the experience.",
+    "Visiting Fukuoka Tower during the day instead of at sunset misses the spectacular views of the city."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local street food.",
+    "Most visitors regret not spending more time in natural spaces like Ohori Park.",
+    "Most visitors regret not learning a few basic Japanese phrases to connect with locals."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, October",
+      "weather": "Mild, 15-25°C, pleasant for outdoor activities.",
+      "crowds": "Busy, especially during festivals.",
+      "verdict": "Ideal for experiencing the city at its best."
+    },
+    "shoulderSeason": {
+      "months": "March, November",
+      "why": "Fewer tourists and still pleasant weather."
+    },
+    "offSeason": {
+      "months": "July, August",
+      "reality": "Hot and humid, making outdoor activities uncomfortable.",
+      "hiddenGem": "Fukuoka’s air-conditioned malls and cafes can be a respite."
+    },
+    "bestMonth": "October - the weather is perfect for exploring and enjoying food festivals.",
+    "currentSeason": "June 2026 is warm, with occasional rain, making it a good time for indoor activities and enjoying local cuisine."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the mentaiko at 'Yamamotoya' in Hakata for an authentic taste; it's a local favorite.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the ferry to Nokonoshima Island for a stunning view of Fukuoka from the water, best done at sunset.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit 'Canal City Hakata' during the evening when the fountain shows are on — it's a magical scene.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the local train to Dazaifu for a peaceful day trip to the ancient shrines.",
+      "category": "transport"
+    },
+    {
+      "tip": "Always carry a portable charger; the city has many photo-ops that will drain your phone's battery.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Takoyaki from a street vendor for around 500 JPY (₹800)",
+    "midRangeMeal": "A set meal at a local izakaya for about 3,000 JPY (₹4,800).",
+    "luxuryMeal": "A kaiseki meal at 'Kikufuji' for around 15,000 JPY (₹24,000).",
+    "localTransportPerDay": "Around 1,000 JPY (₹1,600) for a day pass on public transport.",
+    "budgetHotelPerNight": "2,500 JPY (₹4,000) for a capsule hotel with basic amenities.",
+    "midRangeHotelPerNight": "7,000 JPY (₹11,200) for a business hotel with breakfast included.",
+    "luxuryHotelPerNight": "20,000 JPY (₹32,000) at 'Hotel Nikko' for high-end accommodations."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Capsule hostel at about ₹1,000",
+      "food": "Street food and convenience store meals for ₹800",
+      "transport": "Public transport for ₹400"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,000",
+      "accommodation": "Business hotel at ₹3,500",
+      "food": "Mix of casual dining and some upscale experiences."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury experiences in Fukuoka are less about excess and more about quality service and unique culinary experiences."
+    }
+  },
+  "culturalRules": [
+    "Always bow slightly when greeting someone as a sign of respect.",
+    "Remove your shoes when entering someone’s home or certain traditional venues.",
+    "Be mindful of noise levels on public transport; speaking quietly is appreciated."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly friendly strangers leading you to bars that charge exorbitant fees; stick to recommended places.",
+      "Watch out for pickpockets in crowded areas."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "119",
+      "indianEmbassy": "Embassy of India, Tokyo - +81-3-2140-7000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Ohori Park",
+        "what": "Reflections of cherry blossoms on the lake",
+        "bestTime": "Early morning",
+        "tip": "Visit during cherry blossom season for stunning views."
+      }
+    ],
+    "goldenHour": "Around 6:00 PM in summer, providing soft lighting for photography.",
+    "tip": "Capture the lively atmosphere of yatai at night; the lights and busy stalls create a magical scene."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Breakfast at 'Yoshida'",
+        "Explore Ohori Park",
+        "Lunch at a yatai",
+        "Visit Fukuoka Tower"
+      ],
+      "emotionalArc": "This sequence allows for a relaxing start, immersing in nature, enjoying local food, and ending with a fantastic view.",
+      "bestFor": [
+        "food lovers",
+        "nature enthusiasts",
+        "first-time visitors"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Nagasaki",
+      "travelTime": "2 hours",
+      "how": "Train",
+      "whyCombine": "Famous for its historical significance and beautiful harbor views."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most public transport is accessible, but some older stations lack proper facilities.",
+    "majorChallenges": "Uneven pavements and narrow streets in certain areas can be difficult for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Many attractions offer assistance for seniors but it's advisable to plan ahead."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures averaging 25°C and occasional rain, ideal for indoor activities like visiting museums and enjoying local cuisine.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa is required for Indian travelers; ensure all documents are ready before arrival."
+  }
+}

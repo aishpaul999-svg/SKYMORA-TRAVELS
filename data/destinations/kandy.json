@@ -1,0 +1,267 @@
+{
+  "destination": "Kandy",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "aliases": [
+    "Kandy",
+    "kandy",
+    "sri lanka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "cultural enthusiasts",
+      "tea lovers",
+      "history buffs",
+      "spiritual seekers",
+      "nature lovers"
+    ],
+    "notFor": [
+      "party-goers",
+      "luxury resort seekers",
+      "beach lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "3h 30min to Colombo + 3h",
+    "flightFromMumbai": "3h 45min to Colombo + 3h",
+    "visaForIndians": "e-Visa USD 20",
+    "currency": "Sri Lankan Rupee (LKR), 1 INR = 2.50 LKR",
+    "timezone": "+5:30",
+    "language": "Sinhala and Tamil, English widely spoken",
+    "bestMonthToVisit": "December, when the weather is cooler and the annual Esala Perahera festival occurs.",
+    "avoidMonth": "May, as the monsoon season starts and heavy rains are frequent.",
+    "tipping": "Generally not expected, but rounding up the bill or leaving 10% for good service is appreciated."
+  },
+  "whyPeopleFallInLove": "Sipping a fresh cup of Ceylon tea while overlooking the lush hills, the aroma of jasmine flowers fills the air as you witness the sunset casting a golden glow on the Temple of the Tooth.",
+  "honestTruth": "Despite Kandy's reputation for hospitality, be prepared for the occasional hustle in touristy areas, which can be overwhelming for those used to quieter environments.",
+  "localTruths": [
+    "Most visitors think the Temple of the Tooth is just a religious site. Locals think it's a living testament to Sri Lankan resilience and identity.",
+    "Most visitors rush through the city in a day. The best version of Kandy is experienced over leisurely walks and interactions with locals at markets.",
+    "Most visitors miss the local tea plantations outside the city. The real Kandy starts at the lush hills of the tea estates, where you can walk among the tea bushes."
+  ],
+  "neighborhoodPersonalities": {
+    "City Center": {
+      "tags": [
+        "cultural",
+        "historical",
+        "shopping"
+      ],
+      "bestFor": "Exploring the city’s main attractions and local shops.",
+      "avoid": "Be cautious of overly aggressive souvenir vendors."
+    },
+    "Kandy Lake Area": {
+      "tags": [
+        "scenic",
+        "peaceful",
+        "nature"
+      ],
+      "bestFor": "Relaxing walks and picturesque views of the lake.",
+      "avoid": "Avoid visiting late at night when it can feel isolated."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "3h 30min to Colombo + 3h",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹18,000 - ₹30,000 return",
+        "note": "Book in advance for better rates, especially during peak season."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3h 45min to Colombo + 3h",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹20,000 - ₹35,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Approx. LKR 3,000 (₹1,200) and takes around 1 hour.",
+      "recommended": "For first-timers, a pre-booked taxi is recommended for ease and comfort."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 20",
+    "applyAt": "https://www.eta.gov.lk/",
+    "processingTime": "Typically processed within 24 hours.",
+    "tip": "Apply for your e-Visa at least a week before your travel date to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'The Empire Café' and order the traditional Sri Lankan breakfast with hoppers and sambol.",
+    "sunset": "Head to the viewpoint near the Temple of the Tooth exactly at 6:30 PM for incredible views over Kandy Lake.",
+    "meal": "Dine at 'The Kandy House' and try the jackfruit curry, a local delicacy.",
+    "memory": "Witnessing the ceremonial procession of the sacred tooth relic during the Esala Perahera festival, surrounded by traditional drummers and dancers.",
+    "secret": "Only locals know that the best tea is often sold in small roadside stalls, where you can grab a fresh cup for just LKR 50."
+  },
+  "residentSunday": "A Kandy resident often spends Sundays at the local botanical gardens, enjoying a picnic with family, followed by an afternoon of shopping at the Kandy market for fresh produce and local crafts, finishing off with a dinner at 'Slightly Chilled Lounge Bar' with views of the lake.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first catch sight of Kandy Lake, its mirrored surface reflecting the surrounding hills as you arrive in the city.",
+    "peak": "The peak day memory should be the first evening at the Temple of the Tooth, feeling the spiritual energy as the evening puja begins.",
+    "departure": "Leaving Kandy with a sense of fulfillment, having made personal connections with local vendors and enjoyed the city's pace."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Major attractions like the Temple of the Tooth and Kandy Lake.",
+      "misses": "The deeper cultural experiences and visits to tea plantations."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience of culture, tea, and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Exploring the outskirts, including tea estates and surrounding towns.",
+      "whoFor": "Cultural and nature enthusiasts."
+    },
+    "recommended": "Three days is ideal to appreciate Kandy's offerings and rhythms."
+  },
+  "antiPatterns": [
+    "Visiting the Temple of the Tooth during mid-afternoon can lead to overwhelming crowds and a rushed experience.",
+    "Trying to squeeze in too many attractions in one day can lead to exhaustion and missing the essence of Kandy.",
+    "Visiting tea plantations without booking a guided tour can result in a lack of context and understanding about tea production."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not attending the Esala Perahera festival if their visit coincided with it.",
+    "Most visitors regret skipping a day trip to the tea plantations to experience the countryside.",
+    "Most visitors regret not engaging more with locals, missing out on personal stories and insights."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Cooler temperatures around 20-25°C",
+      "crowds": "Busy with tourists, especially during festivals.",
+      "verdict": "Best time for pleasant weather, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "Good weather with fewer tourists, making it easier to explore."
+    },
+    "offSeason": {
+      "months": "May to August",
+      "reality": "Heavy monsoon rains can disrupt outdoor plans, but the scenery is lush.",
+      "reason": "Lower accommodation prices and a quieter experience."
+    },
+    "bestMonth": "December for the Esala Perahera festival and pleasant weather.",
+    "currentSeason": "June 2026 is warm and pleasant, with occasional rain showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try to catch the local drum performances at the Temple of the Tooth during the evening puja for an authentic cultural experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the local market early in the morning for the freshest produce and to see the city come alive.",
+      "category": "food"
+    },
+    {
+      "tip": "Check out the small tea shops in the back streets for the best local brews and to meet friendly vendors.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a walk around Kandy Lake in the early morning to enjoy a peaceful atmosphere and see local wildlife.",
+      "category": "timing"
+    },
+    {
+      "tip": "For a quiet escape, hike to the nearby Knuckles Mountain Range for breathtaking views and solitude.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Plate of Kottu Roti at a street vendor for LKR 200 (₹80)",
+    "midRangeMeal": "Traditional Sri Lankan buffet at a local restaurant for LKR 1,500 (₹600)",
+    "luxuryMeal": "Fine dining at 'The Kandy House' for LKR 4,000 (₹1,600)",
+    "localTransportPerDay": "Expect to spend around LKR 500 (₹200) on local transport.",
+    "budgetHotelPerNight": "Basic guesthouse for LKR 2,500 (₹1,000) including breakfast.",
+    "midRangeHotelPerNight": "Comfortable boutique hotel for LKR 7,500 (₹3,000) with amenities.",
+    "luxuryHotelPerNight": "High-end hotel for LKR 15,000 (₹6,000) with luxury services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory bed in a guesthouse for LKR 1,000",
+      "food": "Eating at local street stalls for LKR 500",
+      "transport": "Using public buses for LKR 300"
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Private room in a guesthouse for LKR 3,000",
+      "food": "Mix of local restaurants and some higher-end meals."
+    },
+    "luxury": {
+      "perDayINR": "₹12,000+",
+      "note": "Luxury accommodations can be found with exceptional service and amenities, but prices can vary significantly."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples, covering shoulders and knees.",
+    "Always remove shoes and hats before entering sacred places.",
+    "Be respectful of local customs and traditions, especially during religious ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of overzealous tuk-tuk drivers who may inflate prices. Always negotiate before the ride.",
+      "Watch out for fake guides near tourist sites; it's better to hire a guide through your hotel."
+    ],
+    "emergencyContacts": {
+      "police": "119",
+      "ambulance": "110",
+      "indianEmbassy": "Sri Lanka Indian High Commission, 36-38, 5th Lane, Colombo 3"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Kandy Lake",
+        "what": "Reflections of the Temple of the Tooth on the lake during sunset.",
+        "bestTime": "6:30 PM",
+        "tip": "Bring a tripod for long exposure shots."
+      }
+    ],
+    "goldenHour": "Between 6:00 PM and 7:00 PM.",
+    "tip": "Early mornings provide the best lighting for capturing the lush landscapes and local life."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Temple of the Tooth",
+        "Stroll around Kandy Lake",
+        "Enjoy a tea tasting at a local tea shop"
+      ],
+      "emotionalArc": "This sequence allows you to absorb the spiritual energy of Kandy, followed by peaceful reflection and a taste of local flavors.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "foodies"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Nuwara Eliya",
+      "travelTime": "2 hours",
+      "how": "By bus or taxi",
+      "whyCombine": "Famous for its tea plantations and cooler climate."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in most historical sites.",
+    "majorChallenges": "Narrow streets and uneven surfaces can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Travelers with mobility needs should plan routes carefully and consider hiring a local guide."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm and pleasant, with occasional rain showers; however, the landscapes are lush and green, perfect for photography.",
+    "currentAlerts": [],
+    "entryRequirements": "As of 2026, Indian passport holders require an e-Visa to enter Sri Lanka."
+  }
+}

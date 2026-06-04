@@ -1,0 +1,267 @@
+{
+  "destination": "Yogyakarta",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Yogyakarta",
+    "yogyakarta",
+    "indonesia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Enthusiasts",
+      "History Buffs",
+      "Food Lovers",
+      "Adventure Seekers",
+      "Art Aficionados"
+    ],
+    "notFor": [
+      "Luxury Travelers",
+      "Party Seekers",
+      "High-End Shoppers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h via Singapore",
+    "flightFromMumbai": "8h via Singapore or Jakarta",
+    "visaForIndians": "Visa on Arrival USD 35",
+    "currency": "Indonesian Rupiah (IDR), 1 INR = 210 IDR",
+    "timezone": "UTC+7",
+    "language": "Bahasa Indonesia, English in tourist areas",
+    "bestMonthToVisit": "April - ideal weather and fewer crowds",
+    "avoidMonth": "January - heavy rainfall could disrupt travel plans",
+    "tipping": "Not mandatory but appreciated; 10% at restaurants is common."
+  },
+  "whyPeopleFallInLove": "As you sip freshly brewed Javanese coffee at a local warung, the aroma of grilled tempeh wafts through the air, and the sound of gamelan music fills the street, providing a sensory feast that lingers in your memory long after you leave.",
+  "honestTruth": "Many travelers underestimate the time it takes to truly soak in the historical significance of Borobudur and Prambanan; rushing through these temples can lead to a superficial experience of their grandeur.",
+  "localTruths": [
+    "Most visitors think Yogyakarta is just about temples. Locals think it's also about the art scene and street food.",
+    "Most visitors flock to the famous attractions. The best version of Yogyakarta is exploring its lesser-known art galleries and local markets.",
+    "Most visitors miss the early morning tranquility of the Taman Sari Water Castle. The real Yogyakarta starts at sunrise when the light casts a magical glow on the ruins."
+  ],
+  "neighborhoodPersonalities": {
+    "Malioboro": {
+      "tags": [
+        "shopping",
+        "street food",
+        "cultural hub"
+      ],
+      "bestFor": "Shopping for batik and local crafts",
+      "avoid": "Crowds can make it overwhelming at peak hours."
+    },
+    "Kota Gede": {
+      "tags": [
+        "traditional",
+        "heritage",
+        "quiet"
+      ],
+      "bestFor": "Exploring silver workshops and traditional Javanese architecture",
+      "avoid": "Limited dining options in the area."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h via Singapore",
+        "airlines": [
+          "Singapore Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹30,000 - ₹50,000 return",
+        "note": "Book in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h via Singapore or Jakarta",
+        "airlines": [
+          "Singapore Airlines",
+          "Garuda Indonesia"
+        ],
+        "priceRange": "₹35,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available; airport taxis are the best option.",
+      "taxi": "Approx. IDR 150,000 (₹715) and takes about 30 minutes.",
+      "recommended": "For first-timers, pre-book a taxi through your hotel for a seamless arrival."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa on Arrival USD 35",
+    "applyAt": "At Yogyakarta International Airport",
+    "processingTime": "Immediate upon arrival",
+    "tip": "Keep a USD 35 bill ready to avoid delays at the airport."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Kopi Joss at the Alun-Alun Selatan and order their signature joss coffee with charcoal.",
+    "sunset": "Watch the sunset at the top of the Borobudur Temple, around 5:30 PM, for a magical view.",
+    "meal": "Dine at Bale Raos and try their Nasi Gudeg, a traditional Javanese dish.",
+    "memory": "The moment you witness the sunrise over Borobudur, with the silhouette of Mount Merapi in the background.",
+    "secret": "Locals often gather at Malioboro in the evening for street food; join them for the best local snacks."
+  },
+  "residentSunday": "On a free Sunday, a Yogyakarta resident might start their day with breakfast at the local street vendor, enjoying nasi uduk, followed by a leisurely stroll through the Taman Sari Water Castle and a visit to a nearby batik workshop in Kota Gede, ending the day at a local café for some live music.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm, humid air mixed with the scent of street food.",
+    "peak": "The peak day memory target is when you finally witness the intricate carvings of Prambanan at sunset.",
+    "departure": "The departure should feel bittersweet, with the taste of coconut ice cream still fresh on your lips."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covering Borobudur and Prambanan with a quick city tour.",
+      "misses": "Local art galleries and hidden cafes."
+    },
+    "three_to_four_days": {
+      "focus": "Balanced exploration of major temples and local culture, including batik workshops.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep dive into Yogyakarta's history, culture, and surrounding areas.",
+      "whoFor": "Cultural enthusiasts and history buffs."
+    },
+    "recommended": "Four days is ideal to enjoy both the cultural sites and the local vibe."
+  },
+  "antiPatterns": [
+    "Rushing through Borobudur and Prambanan without taking time to appreciate the intricate details.",
+    "Trying to do both sunrise and sunset at Borobudur in one day; it leads to exhaustion.",
+    "Visiting Malioboro only during the day; the night scene is where the real energy is."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local food specialties.",
+    "Most visitors regret not taking a guided tour of the temples for deeper insights.",
+    "Most visitors regret not dedicating time to explore the art scene in Ubud."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June - August",
+      "weather": "Warm, dry, and pleasant.",
+      "crowds": "High; expect long lines at attractions.",
+      "verdict": "Great weather but plan for crowds."
+    },
+    "shoulderSeason": {
+      "months": "April, September",
+      "why": "Fewer tourists and still good weather."
+    },
+    "offSeason": {
+      "months": "November - February",
+      "reality": "Heavy rains and occasional floods, making some areas inaccessible.",
+      "one reason some prefer it": "Quieter atmosphere and lower prices."
+    },
+    "bestMonth": "April - pleasant weather and fewer tourists.",
+    "currentSeason": "In June 2026, expect warm temperatures around 30°C with occasional showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets in the morning; the fresh produce and local snacks are best before noon.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the side alleys of Malioboro for unique batik pieces not found in main stores.",
+      "category": "shopping"
+    },
+    {
+      "tip": "Attend a gamelan performance at a local community center for an authentic experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Rent a bicycle to explore the outskirts of the city; it’s a great way to see the countryside.",
+      "category": "transport"
+    },
+    {
+      "tip": "Stay in a homestay to truly experience local life and cuisine.",
+      "category": "accommodation"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Nasi Goreng at a street vendor for IDR 25,000 (₹120)",
+    "midRangeMeal": "Ramen at a mid-range restaurant for IDR 75,000 (₹360)",
+    "luxuryMeal": "Dining at The Phoenix Hotel for a buffet at IDR 500,000 (₹2,380)",
+    "localTransportPerDay": "IDR 50,000 (₹240) for local taxis and public transport.",
+    "budgetHotelPerNight": "IDR 300,000 (₹1,430) for a basic guesthouse with shared facilities.",
+    "midRangeHotelPerNight": "IDR 800,000 (₹3,800) for a 3-star hotel with breakfast included.",
+    "luxuryHotelPerNight": "IDR 2,500,000 (₹12,000) for 5-star hotels."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostels for ₹500-₹800 per night",
+      "food": "Street food for ₹200-₹400 per day",
+      "transport": "Public transport and occasional taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Mid-range hotels for ₹1,500-₹2,000 per night",
+      "food": "Mix of street food and restaurants for ₹1,000 per day."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options are available but often come with an inflated price in a culturally rich area."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Always remove your shoes before entering someone's home or a temple.",
+    "Respect local customs during traditional ceremonies; observe quietly."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of taxi drivers who offer flat rates; always insist on the meter.",
+      "Watch out for street vendors who may charge higher prices for tourists."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India, Jakarta: +62 21 390 3000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Borobudur Temple",
+        "what": "Capturing the sunrise with the temple in silhouette.",
+        "bestTime": "5:30 AM",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Sunrise and sunset are the best times for photography.",
+    "tip": "Bring a tripod for low-light shots at the temples."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Borobudur at sunrise",
+        "Explore the local market",
+        "Lunch at a traditional restaurant"
+      ],
+      "emotionalArc": "Starting with the majestic sunrise at Borobudur sets a serene tone for the day, followed by the vibrant atmosphere of the market, culminating in a satisfying meal.",
+      "bestFor": [
+        "Cultural Enthusiasts",
+        "Food Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Borobudur",
+      "travelTime": "1h",
+      "how": "Taxi or private car",
+      "whyCombine": "The iconic temple complex is a short drive away and offers a profound historical experience."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility; most temples have uneven surfaces.",
+    "majorChallenges": "Stairs and uneven paths at temple sites can be challenging.",
+    "seniorFriendlyScore": 5,
+    "note": "Bring assistance if you have mobility issues; some attractions are not wheelchair accessible."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "In June, Yogyakarta experiences warm days with occasional showers, making it a good time to visit if you prefer fewer tourists.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa on Arrival is still valid for Indian travelers as of June 2026."
+  }
+}

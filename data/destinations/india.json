@@ -1,971 +1,974 @@
-{
-  "destination": "india",
-  "aliases": [
-    "india",
-    "delhi",
-    "new delhi",
-    "mumbai",
-    "bombay",
-    "bangalore",
-    "bengaluru",
-    "jaipur",
-    "rajasthan",
-    "kerala",
-    "varanasi",
-    "agra",
-    "taj mahal",
-    "rishikesh",
-    "manali",
-    "shimla",
-    "darjeeling",
-    "kolkata",
-    "hyderabad",
-    "chennai",
-    "ahmedabad",
-    "udaipur",
-    "jodhpur",
-    "amritsar",
-    "leh",
-    "ladakh",
-    "goa",
-    "andaman",
-    "mysore",
-    "hampi",
-    "coorg",
-    "munnar",
-    "alleppey",
-    "spiti"
-  ],
-  "lastUpdated": "2026-06",
-  "hardFacts": {
-    "size": "India is the 7th largest country in the world and the most populous. It is NOT one destination — it is 28 states and 8 union territories, each with distinct language, cuisine, architecture, and culture. Planning India as a single trip is a mistake. Plan by region.",
-    "transport": "India has the largest railway network in the world (67,000 km). Train travel between major cities is reliable, comfortable in AC classes, and significantly cheaper than flights for journeys under 8 hours. Always book on IRCTC minimum 2 weeks ahead.",
-    "currency": "Indian Rupee (INR). For foreign visitors: USD 1 = INR 84–87. EUR 1 = INR 90–95. GBP 1 = INR 108–115.",
-    "language": "22 official languages. Hindi is spoken across North India. English is widely understood in cities, tourism areas, and by educated population throughout India. South India (Tamil Nadu, Kerala, Karnataka, Andhra) uses regional languages more exclusively — English is the working language here.",
-    "seasons": "India has three main seasons: Summer (March–June): hot everywhere except the mountains. Monsoon (June–September): heavy rain, some areas inaccessible, others extraordinary. Winter (October–February): the correct time for most of India except mountains.",
-    "criticalRule": "Book train tickets on IRCTC (irctc.co.in) minimum 2 weeks ahead for AC classes. The berths that fill first are 3A (3-tier AC) and 2A (2-tier AC). Never buy train tickets from agents outside the station — the IRCTC website or app is the only reliable source. Tourist Quota is available at major stations for foreign visitors.",
-    "food": "India is the world's best destination for vegetarians. Every region has extraordinary vegetarian cuisine. Even non-vegetarians will eat less meat here than anywhere else and not miss it.",
-    "water": "NEVER drink tap water anywhere in India. Bottled water from sealed bottles only. Filter or boil when bottled water unavailable. This applies everywhere without exception."
-  },
-  "emergencyContacts": {
-    "police": "100",
-    "ambulance": "108",
-    "fire": "101",
-    "womenHelpline": "1091",
-    "touristHelpline": "1800 11 1363 (Ministry of Tourism, toll-free)",
-    "railwayEnquiry": "139",
-    "airportInquiry": "1800 180 1407",
-    "foreignerHelpline": "+91 11 2388 8888 (Foreigners Regional Registration Office)",
-    "nationalEmergency": "112 (unified emergency number)"
-  },
-  "cities": {
-    "delhi": {
-      "character": "India's capital. 30 million people containing 5,000 years of continuous history. The oldest mosque (Quwwat ul-Islam, 1193 AD), the newest metro, the best street food, and the worst air quality in any major city. Never understood in a single visit.",
-      "bestTime": "October–March. Avoid April–June (extreme heat 40–45°C) and July–September (monsoon + heat).",
-      "mustDo": [
-        "Chandni Chowk at 7am — before the shops open, wholesale traders working, temples doing morning puja, parathas at Paranthe Wali Gali being fried",
-        "Qutub Minar — UNESCO, 12th century, finest medieval minaret in Asia, morning before 9am",
-        "Humayun's Tomb — the prototype for the Taj Mahal, better proportions, a fraction of the tourists",
-        "Lodi Garden — free, 8am, where Delhi jogs among 15th-century tombs, extraordinary urban park",
-        "Karim's restaurant, Jama Masjid area — most famous Mughlai restaurant in India, open since 1913"
-      ],
-      "hiddenGem": "Mehrauli Archaeological Park — 20+ medieval monuments in a park that most Delhi residents have never visited. Free. Adjacent to Qutub Minar but completely separate and empty.",
-      "food": {
-        "mustEat": [
-          "Paranthe Wali Gali, Chandni Chowk — stuffed flatbreads with 30 fillings, INR 60–150",
-          "Karim's near Jama Masjid — mutton burra, seekh kebab, INR 200–400",
-          "Bengali Sweet House, Bengali Market — rasgolla, burfi, sandesh, INR 50–200",
-          "Chhole Bhature at Sita Ram Diwan Chand, Paharganj — since 1952, INR 120",
-          "Moti Mahal Delux, Daryaganj — butter chicken was invented here (claimed)"
-        ]
-      },
-      "policeStation": "Delhi Police Control Room: 100. Tourist Police: +91 11 2436 5358",
-      "hospital": "AIIMS Delhi: +91 11 2659 3737. Apollo Delhi: +91 11 2987 2222",
-      "transport": "Delhi Metro: INR 10–60 per trip, excellent coverage. Ola/Uber available. Auto-rickshaws: always use meter or prepaid.",
-      "accommodation": "Budget: Paharganj area (INR 500–1,500). Mid: Connaught Place (INR 3,000–8,000). Luxury: The Leela, The Imperial, The Lodhi (INR 15,000–50,000).",
-      "budgetPerDay": "INR 1,500–3,000 (budget to comfortable)"
-    },
-    "mumbai": {
-      "character": "India's financial and entertainment capital. More billionaires than Delhi and more slum dwellers than anywhere else simultaneously. The city that accepts everyone and asks nothing in return.",
-      "bestTime": "November–February. Avoid June–September (heavy monsoon, though the city itself has extraordinary monsoon energy).",
-      "mustDo": [
-        "Gateway of India at 6am — before tour boats and hawkers, the harbour and Taj Mahal Palace Hotel backdrop",
-        "Dharavi — Asia's most productive slum, guided tour INR 600–1,000 through leather, pottery, recycling workshops",
-        "Dhobi Ghat — world's largest outdoor laundry, view from Mahalaxmi bridge, free",
-        "CST (Chhatrapati Shivaji Terminus) — Victorian Gothic World Heritage station, interior as dramatic as exterior",
-        "Juhu Beach at 6pm — the city's living room, chaat vendors, cricket, extraordinary cross-section of Mumbai life"
-      ],
-      "hiddenGem": "Khotachi Wadi — a pocket of East Indian Catholic heritage in the middle of the city, wooden bungalows, Christmas stars year-round, no tourists.",
-      "food": {
-        "mustEat": [
-          "Vada pav from any street stall — the Mumbai breakfast, INR 15–25",
-          "Britannia & Co, Ballard Estate — Parsi Irani café since 1923, berry pulao, INR 300–500",
-          "Bade Miya, Colaba Causeway — seekh kebabs under a tree since 1947, INR 200–400",
-          "Prithvi Café, Juhu — theatre café, excellent coffee, INR 100–300",
-          "Khau Galli night food streets — Mohammed Ali Road, Crawford Market area"
-        ]
-      },
-      "policeStation": "Mumbai Police Control Room: 100. Tourist Police: +91 22 2262 0111",
-      "hospital": "Lilavati Hospital: +91 22 2656 8888. KEM Hospital: +91 22 2413 6051",
-      "transport": "Local trains: INR 10–50, essential and efficient. Metro: limited but growing. Uber/Ola available.",
-      "accommodation": "Budget: Fort/Colaba area (INR 800–2,000). Mid: Bandra (INR 4,000–10,000). Luxury: Taj Mahal Palace, Four Seasons (INR 20,000–80,000).",
-      "budgetPerDay": "INR 2,000–4,000 (Mumbai is India's most expensive city)"
-    },
-    "kolkata": {
-      "character": "India's cultural capital. The city of Tagore, Subhas Chandra Bose, and Mother Teresa. Intellectual, artistic, politically passionate. The finest street food in India. Decaying colonial grandeur that is currently being re-evaluated.",
-      "bestTime": "October–March. Durga Puja (October) is the most extraordinary festival in India.",
-      "mustDo": [
-        "Victoria Memorial at dawn — the finest colonial building in Asia, free gardens",
-        "Howrah Bridge at 5am — 100,000 vehicles and pedestrians cross daily, the engineering is extraordinary",
-        "College Street book market — the largest second-hand book market in the world",
-        "Kumartuli — the neighbourhood where the clay idols for Durga Puja are made year-round",
-        "Evening at a adda (tea stall intellectual gathering) in North Kolkata"
-      ],
-      "hiddenGem": "Tiretti Bazaar, Chinatown — the oldest Chinatown in India, the Chinese morning dim sum breakfast at 5am.",
-      "food": {
-        "mustEat": [
-          "Kathi rolls from Nizam's, New Market — invented here in 1932, INR 80–150",
-          "Mishti doi and rosogolla from any sweet shop — the Bengali originals, INR 20–60",
-          "Mutton biryani from Arsalan, Park Circus — the best biryani in India (contested), INR 250–400",
-          "Phuchka (Kolkata's pani puri) — different from North Indian version, must compare, INR 30–60",
-          "Fish curry and rice from any Bengali dhaba — the city's soul food"
-        ]
-      },
-      "transport": "Metro: INR 5–25. Yellow taxis (metered). Trams (historic, still operating). Rickshaws in some areas.",
-      "budgetPerDay": "INR 1,200–2,500"
-    },
-    "bangalore": {
-      "character": "India's Silicon Valley. A garden city transformed by IT money. The best microbrewery culture in India. A comfortable, cosmopolitan base for South India exploration.",
-      "bestTime": "Year-round (1,000m elevation keeps it pleasant). Peak summer 28–33°C.",
-      "mustDo": [
-        "Cubbon Park morning walk — 300 acres in the city centre, birdwatching, free",
-        "Tipu Sultan's Summer Palace — 18th-century wooden palace, INR 15",
-        "Bangalore Palace — the Wadiyar royal palace in Gothic-Tudor style, INR 230",
-        "Commercial Street for shopping — the real Bangalore shopping strip",
-        "IISc campus — India's finest research institution, free to walk the grounds"
-      ],
-      "food": {
-        "mustEat": [
-          "Masala dosa at MTR (Mavalli Tiffin Rooms) — since 1924, INR 120–200",
-          "Benne dosa (butter dosa) at Vidyarthi Bhavan — since 1943, INR 60–100",
-          "Craft beer at Arbor or Toit brewery — Bangalore's microbrewery culture, INR 300–500",
-          "Coorgi pork curry at any Coorg restaurant — specific to this region"
-        ]
-      },
-      "budgetPerDay": "INR 1,500–3,000"
-    },
-    "hyderabad": {
-      "character": "The city of the Nizams, biryani, and new technology. The old city (Charminar area) and the new city (Hi-Tech City) are literally different countries 15km apart.",
-      "bestTime": "October–March.",
-      "mustDo": [
-        "Charminar at sunset — the 1591 monument, the evening market around it is extraordinary",
-        "Golconda Fort — the Qutb Shahi dynasty fortress, acoustic demonstration (a clap at the main gate heard 1km away)",
-        "Salar Jung Museum — one of the largest single-person art collections in the world, INR 50",
-        "Hyderabadi dum biryani cooking class — learn the original recipe"
-      ],
-      "hiddenGem": "Paigah Tombs — the mausoleum of the Paigah nobles, extraordinary Mughal architecture, almost no tourists, free.",
-      "food": {
-        "mustEat": [
-          "Paradise Biryani — the most famous biryani restaurant in India, INR 250–400",
-          "Haleem at Shah Ghouse near Charminar — the definitive Hyderabadi haleem, INR 150–250",
-          "Double ka meetha (bread pudding) — specific to Hyderabad, INR 80–120",
-          "Irani chai at any Irani café near Charminar — the specific Hyderabadi tea culture"
-        ]
-      },
-      "budgetPerDay": "INR 1,200–2,500"
-    },
-    "chennai": {
-      "character": "India's gateway to South India. The most culturally Tamil city. Classical music and dance (Carnatic music season December). The Marina Beach (second longest in the world). The Kapaleeshwarar Temple.",
-      "bestTime": "November–February. Avoid May–June (extreme humidity and heat).",
-      "mustDo": [
-        "Kapaleeshwarar Temple, Mylapore — active 7th-century Dravidian temple, free",
-        "Marina Beach at 6am — 13km beach, the morning is extraordinary (hawkers, children, fishermen)",
-        "Fort St. George — the first English fortress in India (1644), museum, INR 5",
-        "Mahabalipuram day trip — UNESCO rock-cut temples, 60km south"
-      ],
-      "food": {
-        "mustEat": [
-          "Filter coffee and idli-sambar from any Saravana Bhavan — the South Indian standard",
-          "Chettinad chicken curry — the most complex South Indian cuisine, any Chettinad restaurant",
-          "Fish curry rice — the Tamil Nadu daily meal",
-          "Murukku and sundal from street vendors on Marina Beach"
-        ]
-      },
-      "budgetPerDay": "INR 1,200–2,500"
-    }
-  },
-  "regions": {
-    "rajasthan": {
-      "overview": "The most visually extraordinary state in India. Every city is a different colour — Blue City (Jodhpur), Pink City (Jaipur), White City (Udaipur), Golden City (Jaisalmer). The palaces were built by kings who competed for aesthetic supremacy.",
-      "bestTime": "October–March. Avoid April–June (extreme heat 40–45°C). July–September: monsoon brings green but some roads flood.",
-      "jaipur": {
-        "character": "The Pink City. The most organised tourist infrastructure in Rajasthan. Gateway to the Golden Triangle.",
-        "mustDo": [
-          "Amber Fort (Amer Fort) — arrive 8am before tour groups. The finest Mughal-Rajput fort in India. INR 500 foreigners.",
-          "Hawa Mahal exterior at golden hour — best photograph at 5:30pm from the street across",
-          "Johri Bazaar — the silver jewellery market, best Rajasthani silver in India",
-          "City Palace — still occupied by the Jaipur royal family, INR 700"
-        ],
-        "food": "Dal baati churma (INR 200–350), Ghewar sweet (INR 100–200), Kulfi at Rawat Mishtan Bhandar",
-        "hiddenGem": "Panna Meena ka Kund — an extraordinary 16th-century stepwell in Amer town, almost no tourists, free.",
-        "accommodation": "Budget: INR 800–2,000. Heritage haveli hotels: INR 3,000–10,000. Luxury: Rambagh Palace (INR 30,000+).",
-        "policeStation": "+91 141 266 5816"
-      },
-      "jodhpur": {
-        "character": "The Blue City. The most dramatic fort in India. The most atmospheric old city in Rajasthan.",
-        "mustDo": [
-          "Mehrangarh Fort — the finest fort in Rajasthan. On a hill 122m above the city. INR 600 foreigners.",
-          "Blue city rooftop at sunrise — from the fort battlements, the blue houses below",
-          "Ghantaghar (Clock Tower) market — the most vibrant local market in Jodhpur"
-        ],
-        "food": "Makhaniya lassi (saffron lassi), Mawa kachori (sweet-stuffed fried bread), Mirchi vada (chilli fritters). Best at On the Rocks restaurant or any haveli café.",
-        "hiddenGem": "The old city lanes below Mehrangarh at night — navigated by the sound of the fort above, every turn reveals a different angle of the same wall. Free.",
-        "accommodation": "Budget: INR 700–1,500. Heritage: Raas Haveli, RAAS (INR 8,000–20,000)."
-      },
-      "udaipur": {
-        "character": "The White City. The Lake City. The most romantic city in India. The lakes, the City Palace, the boat rides.",
-        "mustDo": [
-          "City Palace — the largest palace complex in Rajasthan, INR 300. The museum and the rooftop views are extraordinary.",
-          "Boat ride at sunset on Lake Pichola — the Lake Palace visible, INR 400–700",
-          "Jagdish Temple — active 17th-century Vishnu temple in the middle of the city, free",
-          "Bagore Ki Haveli cultural show — traditional Rajasthani folk performance, INR 150"
-        ],
-        "food": "Daal baati churma, Laal maas (red mutton curry), Mawa kachori. Best restaurants on the rooftops overlooking Lake Pichola.",
-        "hiddenGem": "Eklingji Temple 22km north — the Maharana's personal temple, open for morning puja at 4am, most spiritually atmospheric place in Rajasthan. Almost no tourists.",
-        "accommodation": "Budget: INR 800–2,000. Lake view heritage: INR 4,000–15,000. The Oberoi Udaivilas: INR 40,000+."
-      },
-      "jaisalmer": {
-        "character": "The Golden City. A living fort city in the Thar Desert. The most extraordinary overnight experience in India — desert camping.",
-        "mustDo": [
-          "Jaisalmer Fort (Sonar Quila) — a UNESCO living fort, still inhabited. The best-preserved medieval fort in Asia.",
-          "Patwon ki Haveli — the most elaborate carved merchant mansion in Rajasthan, INR 100",
-          "Sam sand dunes sunrise — arrive before any other tourist at 5am. INR 0 to access the dunes.",
-          "Desert overnight camping — at least one night in the dunes, watching the stars with no light pollution"
-        ],
-        "food": "Ker sangri (desert bean and berry curry), Bajre ki roti (millet bread), Mutton biryani at the fort base restaurants.",
-        "hiddenGem": "Kuldhara abandoned village — a whole Paliwal Brahmin village abandoned overnight in 1825, preserved as it was, ghost town feel, INR 50.",
-        "accommodation": "In-fort guesthouses: INR 600–1,500. Desert camps: INR 1,500–5,000 (basic to luxury tents)."
-      }
-    },
-    "kerala": {
-      "overview": "India's most literate state. The backwaters, the Malabar cuisine, Kathakali, spice country, tea estates. The least aggressive tourist culture in India. The best food in India by most serious measures.",
-      "bestTime": "October–May. June–September: monsoon — beautiful but most houseboat services limited.",
-      "kochi": {
-        "character": "Fort Kochi is India's most photogenic colonial quarter — Portuguese, Dutch, and British layers in one street. Chinese fishing nets at sunrise. The Jew Town spice market.",
-        "mustDo": [
-          "Chinese fishing nets (cheena vala) at sunrise — the symbol of Kerala, best before 7am when fishermen are working",
-          "Mattancherry Palace (Dutch Palace) — 16th century, extraordinary Kerala murals, INR 5",
-          "Jew Town and Paradesi Synagogue — the 450-year-old synagogue, the spice warehouse district, INR 5",
-          "Kathakali performance — traditional dance-drama, evening shows at Kerala Kathakali Centre, INR 300–500"
-        ],
-        "food": "Kerala fish curry (the coconut-based version), Appam with stew, Parotta and beef curry, Puttu and kadala curry. Best at Dhe Puttu or any local toddy shop.",
-        "hiddenGem": "Kumbalangi Integrated Tourism Village — a genuine working fishing village 12km from Kochi, traditional coir and fish curing, free to walk.",
-        "accommodation": "Fort Kochi heritage guesthouses: INR 1,500–6,000. Malabar House: INR 8,000+."
-      },
-      "alleppey_backwaters": {
-        "character": "The Venice of the East. 1,500km of canals, lakes, rivers, and lagoons. Houseboat stays are the correct way to experience this.",
-        "mustDo": [
-          "Houseboat overnight stay — at least 24 hours on the backwaters. INR 8,000–15,000 for 2-person boat.",
-          "Nehru Trophy Boat Race (second Saturday August) — the largest snake boat race in India",
-          "Village tour by country boat — smaller, quieter canals inaccessible to houseboats, INR 300–500",
-          "Sunrise on the backwaters — the best hour of the backwater experience"
-        ],
-        "food": "Karimeen pollichathu (pearl spot fish in banana leaf) — the signature backwater dish, INR 350–500. Prawn moilee (coconut curry).",
-        "hiddenGem": "Kumarakom Bird Sanctuary — the best birdwatching in Kerala, dawn canoe tours, INR 300.",
-        "accommodation": "Budget: Alleppey town guesthouses INR 800–2,000. Houseboat INR 8,000–15,000/night."
-      },
-      "munnar": {
-        "character": "The finest tea estate landscape in India at 1,600m elevation. Misty mornings. The Eravikulam National Park with Nilgiri tahr.",
-        "mustDo": [
-          "Tea estate walk at dawn — the KDHP tea estates allow walking. The mist in the tea gardens at 6am.",
-          "Eravikulam National Park — home to the Nilgiri tahr (mountain goat), INR 200 foreigners",
-          "Top Station viewpoint — the highest point in Munnar with views into Tamil Nadu",
-          "Tea Museum, Nallathanni Estate — how tea is made, INR 75"
-        ],
-        "food": "Kerala sadya (banana leaf feast of 25 dishes), parotta and beef, toddy from a local shop.",
-        "accommodation": "Tea estate stays: INR 3,000–10,000. Budget guesthouses in town: INR 800–2,000."
-      },
-      "varkala": {
-        "character": "A beach town on red laterite cliffs. The alternative to Kovalam. Better food, fewer crowds, the natural spring on the beach.",
-        "mustDo": [
-          "North Cliff at sunset — the cliffside walk with the beach 30 metres below",
-          "Janardhana Swami Temple — 2,000-year-old Vishnu temple on the cliff edge, free"
-        ],
-        "food": "Seafood at cliff restaurants — tiger prawns, fish curry, coconut rice.",
-        "accommodation": "Cliff guesthouses: INR 1,000–3,000."
-      }
-    },
-    "rajasthan_golden_triangle": {
-      "overview": "Delhi–Agra–Jaipur is India's most visited circuit. Can be done in 5–7 days by train.",
-      "agra": {
-        "character": "The city of the Taj Mahal. Agra itself is chaotic and polluted but the monuments justify everything.",
-        "mustDo": [
-          "Taj Mahal at sunrise — CRITICAL. Arrive at gate opening 30 minutes before sunrise. The most photographed building in human history looks different at 6am from 2pm. INR 1,100 foreigners.",
-          "Agra Fort — Akbar's red sandstone fort, 2km from Taj. The view of the Taj from Musamman Burj where Shah Jahan died captive. INR 650 foreigners.",
-          "Mehtab Bagh garden — directly across the river from the Taj, sunset view of the Taj from the opposite bank, almost no tourists, INR 300."
-        ],
-        "food": "Petha sweet (translucent pumpkin candy specific to Agra), dal moth, biryani at Pinch of Spice restaurant.",
-        "hiddenGem": "Itmad-ud-Daulah tomb (Baby Taj) — the Taj Mahal's prototype, marble inlay as fine as the Taj, almost no visitors, INR 310 foreigners.",
-        "accommodation": "Budget: INR 800–2,500. Luxury: The Oberoi Amarvilas (Taj view from every room, INR 35,000+).",
-        "policeStation": "+91 562 246 0105"
-      }
-    },
-    "ladakh": {
-      "overview": "The highest accessible plateau in India. Buddhist monasteries 1,000 years old. Mountains above 6,000m. The Indus River. The clearest sky in Asia. A different country inside India.",
-      "bestTime": "June–September. Passes open late May. October: first snow on passes. November–May: many passes closed, limited activities.",
-      "acclimatisation": "CRITICAL. Leh is at 3,524m. Arrive by flight (not road) and rest for 48 hours before any activity. Altitude sickness is real and dangerous — headache, nausea, shortness of breath. Ascend slowly.",
-      "mustDo": [
-        "Pangong Lake — 4,225m, the blue-green lake extending into China, 5 hours from Leh, camping on the shore",
-        "Diskit Monastery, Nubra Valley — ancient monastery with enormous Maitreya Buddha statue",
-        "Khardung La pass — 5,359m (one of the world's highest motorable roads), accessible by shared taxi from Leh",
-        "Lamayuru Monastery — oldest monastery in Ladakh, stark moonscape landscape, genuine living monastery",
-        "The Zanskar River trek — one of the finest multi-day treks in India"
-      ],
-      "food": "Thukpa (noodle soup), Momos, Tsampa (roasted barley), Butter tea (acquired taste). Tibetan and Ladakhi cuisine.",
-      "hiddenGem": "Turtuk village — near the Pakistan border, only opened to tourists in 2010. The northernmost village accessible in India. Balti culture and apricot orchards.",
-      "accommodation": "Budget homestays: INR 800–1,500 (includes dinner and breakfast). Mid guesthouses: INR 2,000–5,000. Hotel Grand Dragon (luxury): INR 8,000+.",
-      "transport": "Shared taxis between Leh and major sites: INR 300–800/person. Private taxis: INR 3,000–8,000/day. Own vehicle essential for Nubra and Pangong.",
-      "permits": "Inner Line Permit required for Pangong, Nubra, and border areas. Available online (ladakhadventure.com) or at Leh DC office. INR 200–400 per area."
-    },
-    "himachal_pradesh": {
-      "overview": "The Himalayan state. Shimla, Manali, Dharamshala, and the extraordinary Spiti Valley. The mountains accessible from Delhi.",
-      "shimla": {
-        "character": "The former summer capital of British India. A hill station at 2,205m with Victorian architecture, the Ridge, Christ Church, and the Jakhu Temple.",
-        "bestTime": "April–June (pleasant hill station summer). October–November (apple harvest). December–January (snow, if that's the goal).",
-        "mustDo": [
-          "The Ridge evening walk — the central spine of Shimla, Christ Church, the Mall",
-          "Jakhu Temple — 2.5km walk or shared taxi, monkey-infested Hanuman temple above the city, extraordinary views",
-          "Toy Train (Kalka-Shimla Railway) — UNESCO World Heritage narrow-gauge railway, 5 hours from Kalka, INR 50–400"
-        ],
-        "food": "Himachali dham (traditional feast), Siddu (steamed bread with walnut paste), Trout fish from Beas River.",
-        "accommodation": "Budget: Mall Road guesthouses INR 800–2,000. Wildflower Hall: INR 18,000+ (finest mountain hotel)."
-      },
-      "manali": {
-        "character": "The adventure capital of North India. 2,050m altitude. Gateway to Rohtang Pass, Spiti, and the Leh-Manali Highway.",
-        "bestTime": "May–October. Rohtang Pass open June–October.",
-        "mustDo": [
-          "Rohtang Pass (3,978m) — snow year-round, extraordinary mountain scenery, INR 500 permit + taxi",
-          "Old Manali village — the genuine village above tourist Manali, apple orchards, Hadimba Temple",
-          "Hadimba Devi Temple — a 1553 wooden temple in a deodar cedar forest, free",
-          "River rafting on the Beas — Grade 2–4 rapids, INR 600–1,200"
-        ],
-        "food": "Sidu, trout, Himachali dham, Tibetan momos at Old Manali cafés.",
-        "hiddenGem": "Naggar Castle — a 16th-century castle 22km from Manali, breathtaking views, almost no tourists, INR 50."
-      },
-      "dharamshala_mcleod_ganj": {
-        "character": "The seat of the Tibetan government-in-exile. The Dalai Lama's residence. Tibetan Buddhism, monasteries, and the best momos in India.",
-        "bestTime": "March–June, September–November. Avoid July–August (monsoon).",
-        "mustDo": [
-          "Tsuglagkhang Temple Complex — the Dalai Lama's residence, main temple, museum, free",
-          "Dharamkot village walk — the village above McLeod Ganj, Israeli-influenced cafés, mountain views",
-          "Norbulingka Institute — Tibetan arts and crafts preservation, extraordinary architecture, INR 50"
-        ],
-        "food": "Tibetan momos (the best in India), Thukpa, butter tea, bakeries in McLeod Ganj."
-      },
-      "spiti_valley": {
-        "character": "The most dramatic mountain valley accessible by road in India. At 3,800–4,500m. Monasteries, the Spiti River, moonscapes.",
-        "bestTime": "June–September only. Completely closed in winter.",
-        "mustDo": [
-          "Key Monastery (Ki Gompa) — the most dramatically sited monastery in India, above the Spiti River",
-          "Kibber village — one of the highest villages in the world accessible by road (4,200m)",
-          "Dhankar Lake — 4,200m trek above Dhankar village, extraordinary views"
-        ],
-        "hiddenGem": "Pin Valley National Park — snow leopard territory, the best chance of snow leopard sighting in India with a local guide.",
-        "accommodation": "Homestays in villages: INR 800–1,500 including meals. No luxury options."
-      }
-    },
-    "uttarakhand": {
-      "overview": "Devbhoomi — the Land of the Gods. Rishikesh, Haridwar, the Char Dham pilgrimage, Jim Corbett, the Nanda Devi massif.",
-      "rishikesh": {
-        "character": "The Yoga Capital of the World. Where the Beatles came in 1968. The Ganga emerging from the Himalayas. The adventure sports capital of North India.",
-        "bestTime": "October–April. Avoid June–August (monsoon — river too high for rafting).",
-        "mustDo": [
-          "Laxman Jhula suspension bridge at dawn — the Ganga in morning light, temples on both banks",
-          "Ganga Aarti at Triveni Ghat — evening ceremony, free, extraordinary atmosphere",
-          "River rafting on the Ganga — Grade 2–4 rapids, INR 800–1,500",
-          "Yoga class at one of the ashrams — Parmarth Niketan or Sivananda Ashram"
-        ],
-        "food": "The vegetarian food in Rishikesh is extraordinary — the Israeli, Tibetan, and South Indian restaurants along the ghats. Chole bhature, banana pancakes, thali.",
-        "hiddenGem": "Neelkanth Mahadev Temple — 34km above Rishikesh, the most sacred Shiva temple in the region, set against the Garhwal Himalayas, almost no foreign tourists.",
-        "accommodation": "Budget: INR 400–1,200 (ashram stays from INR 200). Mid: INR 2,000–5,000. Luxury: Ananda in the Himalayas (INR 30,000+)."
-      },
-      "haridwar": {
-        "character": "One of the four sacred cities of Hindu pilgrimage. The Ganga after descending from the Himalayas. The Ganga Aarti at Har Ki Pauri is the most famous religious evening in India.",
-        "mustDo": [
-          "Ganga Aarti at Har Ki Pauri ghat — every evening at sunset, the most photographed religious ceremony in India",
-          "Har Ki Pauri ghat at 5am — when devotees take their sacred bath before sunrise"
-        ]
-      },
-      "nainital": {
-        "character": "A lake town in the Kumaon hills. Colonial-era buildings, boat rides, the Mall Road.",
-        "mustDo": [
-          "Nainital Lake boat ride",
-          "Naini Devi Temple",
-          "Snow View Point via cable car (INR 175)"
-        ],
-        "accommodation": "Budget: INR 800–2,000. The Naini Retreat: INR 5,000+."
-      }
-    },
-    "northeast_india": {
-      "overview": "India's most overlooked region. Eight states with distinct languages, cuisines, and cultures. Meghalaya, Assam, Nagaland, Sikkim, Arunachal Pradesh, Manipur, Mizoram, Tripura. Requires Inner Line Permit for most states.",
-      "meghalaya": {
-        "character": "The wettest place on earth. Living root bridges (grown from rubber tree roots over 500 years). Cherrapunji and Mawsynram. The cleanest rivers in Asia.",
-        "mustDo": [
-          "Double Decker Living Root Bridge, Nongriat village — 3,000-step descent into rainforest. The most extraordinary natural structure in India. Free.",
-          "Nohkalikai Falls — the tallest plunge waterfall in India (340m), near Cherrapunji",
-          "Dawki river and its transparent water — the most transparent natural water in India"
-        ],
-        "permits": "No ILP required for Indian citizens. Foreign nationals: Restricted Area Permit for some areas.",
-        "bestTime": "October–May. June–September: extreme monsoon (Mawsynram receives the most rainfall on earth)."
-      },
-      "assam": {
-        "character": "Tea country. One-horned rhinoceros. The Brahmaputra River. Kaziranga National Park.",
-        "mustDo": [
-          "Kaziranga National Park — highest density of one-horned rhinoceroses in the world. Jeep safari INR 3,500. UNESCO World Heritage.",
-          "Majuli Island — largest river island in the world, neo-Vaishnavite culture, accessible by ferry",
-          "Kamakhya Temple, Guwahati — one of the most important Shakti temples in India"
-        ],
-        "food": "Assamese thali, tenga (sour fish curry), pitha (rice cakes), Assam tea from source.",
-        "bestTime": "November–April."
-      },
-      "sikkim": {
-        "character": "India's smallest state and first organic state. Buddhist monasteries, the Himalayas, rhododendron forests. Kanchenjunga (world's third highest mountain) visible from Gangtok.",
-        "mustDo": [
-          "Rumtek Monastery — the most important Karma Kagyu monastery outside Tibet",
-          "Nathula Pass (4,310m) — the India-China border pass, accessible from Gangtok with permit",
-          "Yumthang Valley — the Valley of Flowers, 3,564m, INR 200 permit"
-        ],
-        "permits": "ILP required for Indian citizens. Protected Area Permit for foreign nationals.",
-        "bestTime": "March–May (rhododendrons), October–November (clear skies, mountain views)."
-      }
-    },
-    "andaman_islands": {
-      "overview": "The finest islands in India. The Andaman Sea. Havelock (Radhanagar Beach — Asia's best beach), Neil Island (more secluded), Port Blair (the capital).",
-      "bestTime": "November–April. May–October: monsoon, rough sea.",
-      "permits": "Indian citizens: no permit needed. Foreign nationals: Restricted Area Permit (issued on arrival at Port Blair airport).",
-      "mustDo": [
-        "Radhanagar Beach, Havelock — consistently ranked Asia's best beach",
-        "Elephant Beach snorkelling — coral reefs, sea turtles, INR 500 boat",
-        "Cellular Jail, Port Blair — the British colonial prison where freedom fighters were held, INR 30",
-        "Scuba diving — one of the best diving in India, visibility 25–30m, Indian Ocean marine life"
-      ],
-      "food": "Seafood: grilled tuna, lobster, prawn curry. The fish here was caught that morning.",
-      "transport": "Port Blair to Havelock: government ferry INR 420 or speedboat INR 1,000–1,500 each way.",
-      "accommodation": "Havelock: Beach No. 5 guesthouses INR 1,500–4,000. Eco resort on Radhanagar: INR 5,000–15,000.",
-      "bestTime_detail": "February–April for best diving visibility. November–January: pleasant weather and relatively uncrowded."
-    },
-    "varanasi": {
-      "overview": "The oldest continuously inhabited city in the world. The spiritual capital of Hinduism. Witnessing life and death simultaneously on the same ghats. Not for everyone.",
-      "bestTime": "October–March. Avoid April–June (extreme heat). Dev Diwali (November) is extraordinary.",
-      "mustDo": [
-        "Ganga Aarti at Dashashwamedh Ghat — every evening at sunset, 20+ priests performing fire ceremony in synchrony",
-        "Morning boat ride at 5am — before sunrise, the ghats being used for yoga, bathing, laundry, prayer, cremation simultaneously",
-        "Manikarnika Ghat — the cremation ghat burning 24 hours. Witnessing respectfully from distance.",
-        "Narrow lanes of the old city — getting lost is mandatory. Every turn reveals a temple, a sweet shop, a silk weaver.",
-        "Sarnath — 10km from Varanasi, where the Buddha gave his first sermon, INR 200"
-      ],
-      "food": "Kachori sabzi (INR 30), Malaiyo (winter morning sweet, INR 50), Banarasi paan, Lassi at Blue Lassi shop.",
-      "hiddenGem": "Tulsi Ghat at 5am — quieter than Dashashwamedh, a fishing community also lives here. The combination of fishing boats, temple bells, and river is the most genuine Varanasi experience.",
-      "important": "Touts at Varanasi are aggressive — boat touts especially. Fix price before boarding any boat. Authorised rate: INR 200–400/hour for the full boat.",
-      "accommodation": "Heritage ghats guesthouses: INR 800–3,000. Luxury: Brijrama Palace (on the Ganga, INR 15,000+)."
-    },
-    "karnataka": {
-      "overview": "Bangalore, Mysore, Hampi, Coorg, and the extraordinary Hoysala temples.",
-      "mysore": {
-        "character": "India's cleanest city. Mysore Palace (most visited monument after the Taj), silk, sandalwood, Dussehra festival.",
-        "mustDo": [
-          "Mysore Palace — the maharaja's palace lit with 100,000 lights on Sunday evenings and during Dussehra, INR 200 foreigners",
-          "Chamundi Hill — the hill above Mysore with Chamundeshwari Temple, city view",
-          "Devaraja Market — 19th-century covered market, largest flower market in South India",
-          "Silk weaving factory — Karnataka Silk Industries Corporation, see silk made"
-        ],
-        "food": "Mysore pak (the original), Mysore masala dosa, set dosa.",
-        "hiddenGem": "Somnathpur Hoysala Temple — 13km from Mysore, the most perfectly preserved Hoysala temple, extraordinary star-shaped sculpture, almost no tourists, INR 25.",
-        "bestTime": "October–March. Dussehra festival (October) — the most spectacular public festival in South India."
-      },
-      "hampi": {
-        "character": "UNESCO World Heritage ruins of the Vijayanagara Empire across a boulder landscape unlike anywhere else on earth. The ruins of a city that was once the second largest in the world.",
-        "mustDo": [
-          "Virupaksha Temple — still active, 7th century, the sunrise view from the gopuram (INR 0 to enter)",
-          "Vittala Temple — the famous stone chariot and musical pillars, INR 600 foreigners",
-          "Matanga Hill sunrise — 30-minute climb, 360° view of ruins, boulders, and paddy fields",
-          "Hippie Island (Virupapur Gaddi) across the river — the bohemian community across the Tungabhadra"
-        ],
-        "food": "Unlimited thali restaurants (INR 100–150), banana pancakes, filter coffee.",
-        "hiddenGem": "Anegundi — the village across the river, the ancient capital before Hampi, almost no tourists, traditional pottery and crafts.",
-        "accommodation": "Guesthouses in Hampi Bazaar: INR 400–1,500. Across the river: INR 600–2,000.",
-        "bestTime": "October–February."
-      },
-      "coorg": {
-        "character": "India's Scotland. Coffee and cardamom estates in the Western Ghats. Misty hills, waterfalls, home-stays in plantation houses.",
-        "mustDo": [
-          "Coffee plantation walk — walk through an estate picking and learning coffee processing",
-          "Abbey Falls — in the middle of coffee and spice plantations, free",
-          "Raja's Seat, Madikeri — the sunset viewpoint of Coorg",
-          "Dubare Elephant Camp — elephant bathing in the Cauvery River, INR 150"
-        ],
-        "food": "Coorg pork curry (unique to this community), Pandi curry, Kadambuttu (rice dumplings), Akki roti.",
-        "accommodation": "Plantation homestays: INR 3,000–8,000 including meals. Orange County Resort: INR 12,000+.",
-        "bestTime": "October–May."
-      }
-    },
-    "tamil_nadu": {
-      "overview": "The heartland of Dravidian culture. The most extraordinary temple architecture in India. Excellent food. The Chettinad cuisine region.",
-      "madurai": {
-        "character": "The temple city. The Meenakshi Amman Temple is the most extraordinary active temple in India.",
-        "mustDo": [
-          "Meenakshi Amman Temple — active temple complex with 14 gopurams, the most impressive Hindu temple architecture in existence. Free entry (INR 50 for camera). Go at 5am when the morning puja begins.",
-          "Thirumalai Nayakkar Palace — the 17th-century Nayaka ruler's palace, INR 50"
-        ],
-        "food": "Jigarthanda (local cold drink unique to Madurai), Kari dosa, Chettinad cuisine (30km away in Karaikudi).",
-        "hiddenGem": "Gandhi Memorial Museum, Madurai — the museum where Gandhi's blood-stained dhoti is preserved from his assassination. Free. Deeply moving.",
-        "bestTime": "October–March."
-      },
-      "mahabalipuram": {
-        "character": "UNESCO World Heritage coastal temple town. Shore Temple, the Five Rathas (rock-cut chariots), the enormous bas-relief of Arjuna's Penance.",
-        "mustDo": [
-          "Shore Temple at sunrise — 7th-8th century, on the Bay of Bengal, INR 600 foreigners",
-          "Arjuna's Penance — the world's largest bas-relief, 9x27m, carved in the 7th century, free",
-          "Five Rathas — monolithic rock-cut temples, INR 600"
-        ],
-        "bestTime": "October–March. 60km from Chennai."
-      }
-    },
-    "gujarat": {
-      "overview": "The land of Gandhi, the Rann of Kutch, the last Asiatic lions, and the most extraordinary salt desert in the world.",
-      "ahmedabad": {
-        "character": "India's first UNESCO World Heritage city. The walled city has 600 years of continuous habitation, extraordinary pol neighbourhoods, and excellent food.",
-        "mustDo": [
-          "Old City pol walk — the traditional neighbourhood system of Ahmedabad, the finest surviving urban heritage in Gujarat",
-          "Sabarmati Ashram — Mahatma Gandhi's home, from which the Dandi Salt March began, free",
-          "Adalaj Vav stepwell — one of the finest carved stepwells in India, free",
-          "Swaminarayan Akshardham — the BAPS temple (one of 3 in the world), free"
-        ],
-        "food": "Dhokla, khandvi, fafda-jalebi, Gujarati thali (unlimited). Best at Agashiye (rooftop restaurant in heritage haveli), Gordhan Thal for thali.",
-        "hiddenGem": "Modhera Sun Temple — the finest sun temple in India, 102km from Ahmedabad, almost no tourists, INR 100.",
-        "bestTime": "October–March."
-      },
-      "rann_of_kutch": {
-        "character": "The largest salt desert in the world. The Great Rann stretches 7,500 sq km. The white salt flats at sunset and sunrise are among the most extraordinary landscapes on earth.",
-        "mustDo": [
-          "Rann Utsav — the cultural festival November–February, with the white salt flats under a full moon",
-          "Kalo Dungar (Black Hill) — the highest point in Kutch, views of the Rann",
-          "Bhuj Aina Mahal — the palace of mirrors"
-        ],
-        "bestTime": "November–February (dry season, the Rann Utsav).",
-        "accommodation": "Rann Utsav tent city: INR 5,000–15,000 including meals."
-      }
-    },
-    "punjab": {
-      "overview": "The heartland of Sikh culture. Amritsar and the Golden Temple. The land of mustard fields in winter.",
-      "amritsar": {
-        "character": "The holiest city for Sikhs. The Golden Temple (Harmandir Sahib) is the most spiritually overwhelming and most generous place in India — the langar (community kitchen) feeds 100,000 people daily for free.",
-        "mustDo": [
-          "Golden Temple (Harmandir Sahib) — open 24 hours, free entry, free langar (community meal). The most peaceful hour: 4am when the first prayers begin.",
-          "Langar — eat the free community meal alongside Sikhs, pilgrims, and travellers. The largest free kitchen in the world.",
-          "Wagah Border ceremony — 30km from Amritsar, the daily flag-lowering ceremony at the India-Pakistan border, free",
-          "Jallianwala Bagh — the memorial garden where the British Massacre of 1919 occurred, free"
-        ],
-        "food": "Amritsari kulcha (stuffed bread with chickpeas), lassi at Gurdas Ram, fish tikka at famous restaurants on Lawrence Road.",
-        "hiddenGem": "Akal Takht inside the Golden Temple complex — the highest Sikh temporal seat, more architecturally extraordinary than the Golden Temple itself and completely overlooked by most visitors.",
-        "accommodation": "Budget: near Golden Temple INR 600–1,500. Heritage: Mrs. Bhandari's Guesthouse (colonial home, INR 3,000+).",
-        "transport": "Amritsar has good rail connections from Delhi (5–6 hours). From Chandigarh (3 hours). The city is small — walk or auto-rickshaw everywhere."
-      }
-    },
-    "odisha": {
-      "overview": "The most undervisited major state in India. Puri, Konark Sun Temple, Chilika Lake (Asia's largest brackish water lagoon), and the Jagannath Temple.",
-      "mustDo": [
-        "Konark Sun Temple — the 13th-century UNESCO temple in the shape of a massive chariot, INR 600 foreigners",
-        "Puri Jagannath Temple — one of the four sacred dhams of Hinduism (non-Hindus cannot enter the inner sanctum)",
-        "Chilika Lake — the pink flamingos, Irrawaddy dolphins, migratory birds"
-      ],
-      "bestTime": "November–March.",
-      "hiddenGem": "Udayagiri and Khandagiri Caves — 2,000-year-old Jain caves carved into rock, almost no tourists, INR 25 foreigners."
-    }
-  },
-  "budgetTravelIndia": {
-    "philosophy": "India is the world's finest destination for intelligent budget travel. The secret: eat where locals eat, use public transport, stay in locally-owned guesthouses rather than hotel chains.",
-    "trainTravel": {
-      "whyTrain": "The Indian Railways network connects 7,000+ stations. For journeys under 8 hours, trains are faster than flights when airport time is factored in, and dramatically cheaper.",
-      "classes": {
-        "sleeper_SL": "INR 200–400 for most long journeys. Basic but functional. AC compartments exist for the privileged few.",
-        "3A": "3-tier AC, INR 500–1,200. The best value for comfort. Curtain privacy.",
-        "2A": "2-tier AC, INR 800–2,000. More privacy.",
-        "1A": "Equivalent to business class. INR 2,000–5,000."
-      },
-      "booking": "IRCTC.co.in is the official site. Download the IRCTC Rail Connect app. Tourist Quota (5–10 seats per train reserved for foreign tourists, available at major station PRS counters). Tatkal quota: emergency booking 1 day before at 30% premium.",
-      "bestRoutes": {
-        "delhi_jaipur": "4.5 hours, 14 trains daily. Shatabdi Express best.",
-        "delhi_agra": "2 hours, Gatimaan Express is fastest.",
-        "mumbai_goa": "8–12 hours, Konkan Railway is the most scenic railway in India.",
-        "chennai_madurai": "6 hours",
-        "kolkata_darjeeling": "NJP to Darjeeling by Toy Train (UNESCO) — 8 hours on the narrow-gauge",
-        "delhi_varanasi": "8–12 hours, overnight sleeper"
-      }
-    },
-    "food": {
-      "strategy": "Eat at dhabas (roadside restaurants) for most meals. Order thali whenever available. Never eat at restaurants attached to tourist sites.",
-      "budgetPerMeal": {
-        "dhaba_thali": "INR 80–200 — complete meal",
-        "street_breakfast": "INR 20–60 (poha, idli, paratha, vada pav by region)",
-        "railway_platform_food": "INR 30–100 — surprisingly good quality",
-        "temple_langar": "Free — Sikh gurdwaras, Krishna temples",
-        "tourist_restaurant": "INR 300–600 for inferior version of same food"
-      },
-      "freeFood": "Sikh Gurudwaras serve free langar (community meal) to anyone regardless of religion, nationality, or wealth. The langar at Golden Temple Amritsar feeds 100,000 people daily. Always accept if offered.",
-      "regionalGuide": {
-        "north": "Butter chicken (Punjab), dal makhani (Delhi), rogan josh (Kashmir), momos (Himachal/Uttarakhand)",
-        "south": "Masala dosa, idli-sambar, Kerala fish curry, Chettinad chicken, Hyderabadi biryani",
-        "west": "Pav bhaji (Mumbai), vada pav (Maharashtra), dhokla (Gujarat), Rajasthani dal baati churma, Goan fish curry",
-        "east": "Macher jhol (Bengali fish curry), rosogolla (Bengali sweet origin), momos (Northeast)"
-      }
-    },
-    "accommodation": {
-      "budgetRange": "INR 500–1,500 for a clean room in most cities",
-      "bestValue": [
-        "Heritage havelis converted to guesthouses in Rajasthan — same historic architecture as expensive hotels at 20% of the price",
-        "Homestays in Kerala and Himachal Pradesh — family homes, home-cooked meals included, INR 800–1,500",
-        "Railway retiring rooms at major stations — clean, functional, INR 400–1,200, operated by Indian Railways",
-        "YMCA/YWCA in major cities — reliable quality, central locations, INR 800–1,800"
-      ],
-      "tip": "Never pay full rack rate at any Indian hotel — walk-in rate is always 20–40% more than Booking.com or calling directly. Always compare before paying."
-    },
-    "savingsByCity": {
-      "delhi": "Metro vs Uber: saves INR 100–200/trip. Chandni Chowk breakfast vs hotel breakfast: saves INR 200–300.",
-      "jaipur": "Local thali vs tourist thali: saves INR 300–400. Official guide (INR 500 at Amber Fort) vs tout: saves INR 300–500.",
-      "varanasi": "Fixed-price boat (INR 200–400) vs negotiating without knowledge (INR 1,500 is default ask): saves INR 1,100.",
-      "goa": "Scooter hire (INR 400/day) vs taxis (INR 300–500/trip): saves INR 800–1,500/day for multi-destination days.",
-      "kerala": "Sadya at local restaurant vs tourist hotel: saves INR 600–900."
-    }
-  },
-  "topBudgetDestinations": {
-    "rishikesh": "INR 1,200–2,500/day including accommodation, food, yoga class, adventure activity",
-    "hampi": "INR 800–2,000/day — ruins, cycling, river crossing. The most extraordinary archaeological site for the price.",
-    "mcleod_ganj": "INR 1,000–2,500/day — Tibetan culture, Himalayan setting, good cafés",
-    "varanasi": "INR 1,000–2,500/day — ghats, temples, spiritual atmosphere",
-    "mysore": "INR 1,000–2,500/day — palaces, markets, excellent food, Dussehra festival",
-    "pondicherry": "INR 1,500–3,000/day — French colonial architecture, ashram, beach, cafés",
-    "ooty_kodaikanal": "INR 1,000–2,500/day — Nilgiri hill station, tea estates, toy train"
-  },
-  "indianFestivals": {
-    "diwali": "October–November. The Festival of Lights. Most spectacular in Varanasi (River of Lights on the Ganga), Jaipur, and Amritsar. Book accommodation 2–3 months ahead for Varanasi Diwali.",
-    "holi": "March. The Festival of Colours. Most intense in Mathura-Vrindavan (INR 300–1,000 for organised events) and Rajasthan. Wear clothes you can discard.",
-    "dussehra": "October. Victory of good over evil. Mysore celebrates most grandly — the Mysore Palace illuminated with 100,000 lights for 10 nights.",
-    "navratri_garba": "September–October. Nine nights of garba dancing. Most extraordinary in Gujarat — Navratri in Ahmedabad and Baroda is the finest garba in the world.",
-    "kumbh_mela": "Every 4 years in rotation between Prayagraj, Haridwar, Nashik, and Ujjain. The world's largest human gathering. 100 million people at Prayagraj Maha Kumbh (2025). Free. Life-altering for those with the stamina.",
-    "onam": "August–September. Kerala's harvest festival. The sadya (banana leaf feast) at its most elaborate. The snake boat race at Alleppey.",
-    "pushkar_camel_fair": "November. The world's largest camel fair. Pushkar, Rajasthan. 50,000 camels, traders, musicians, acrobats, and tourists.",
-    "hornbill_festival": "December 1–10. Nagaland. All Naga tribes gather for cultural performances, tribal games, and traditional music. The most extraordinary cultural festival accessible in India."
-  },
-  "visaIntelligence": {
-    "foreignNationals": "e-Visa available for 150+ nationalities at indianvisaonline.gov.in. Tourist e-Visa: USD 25 (30 days) or USD 80 (1 year multiple entry). Apply minimum 4 days before travel.",
-    "important": "e-Visa is linked to your passport biometrically. Carry the printed e-Visa approval at all times. The 1-year multiple entry e-Visa (USD 80) is dramatically better value for anyone visiting twice in a year.",
-    "innerLinePermits": "Required for Indian citizens visiting: Arunachal Pradesh, Nagaland, Manipur, and Mizoram. Available online at most state government portals.",
-    "restrictedAreaPermit": "Required for foreign nationals in Sikkim inner areas, Andaman restricted areas, and areas near international borders. Check with tourism department of each state."
-  },
-  "pricingBenchmarks": {
-    "auto_rickshaw_short": "INR 30–80 (metered) or INR 50–150 (negotiated)",
-    "ola_uber_short": "INR 80–200",
-    "train_sleeper_per_hour": "INR 25–40",
-    "train_3ac_per_hour": "INR 60–100",
-    "budget_dhaba_meal": "INR 80–200",
-    "mid_restaurant": "INR 300–700/person",
-    "fine_dining_india": "INR 800–3,000/person",
-    "hotel_budget": "INR 500–1,500/night",
-    "hotel_mid": "INR 2,000–7,000/night",
-    "hotel_heritage_luxury": "INR 8,000–50,000/night",
-    "taj_mahal_entry_foreigner": "INR 1,100",
-    "amber_fort_foreigner": "INR 500",
-    "kerala_houseboat_2person": "INR 8,000–15,000/night",
-    "desert_camping_jaisalmer": "INR 1,500–5,000/night",
-    "rajasthan_camel_safari": "INR 500–2,000/hour"
-  },
-  "savingsIntelligence": [
-    "Book all trains minimum 2 weeks ahead on IRCTC — Tatkal (emergency) booking adds 30% premium",
-    "Eat thali at local restaurants (INR 120–200 unlimited) vs tourist restaurant equivalent (INR 450–800)",
-    "Take shared tempo/auto in hill stations vs private taxi — saves INR 800–1,500/day",
-    "Golden Temple langar (free) for any meal in Amritsar vs restaurant (INR 150–300/meal)",
-    "Government-approved guides at heritage sites (fixed fee) vs touts (2–3x price for same tour)",
-    "Museum combined tickets (Delhi museums, Rajasthan forts) vs individual entry — saves 20–30%",
-    "Stay in heritage havelis converted to guesthouses in Rajasthan — same architecture as expensive heritage hotels at 15% of the price",
-    "Local bus between towns in Rajasthan (INR 50–150) vs AC bus (INR 300–500) vs private taxi (INR 1,500–3,000)"
-  ],
-  "practical": {
-    "electricity": "Type C and D plugs. 230V 50Hz. Indian standard plug (Type D, 3 round pins) is universal throughout India.",
-    "bestExchange": "ATMs in major cities. Never exchange at airports — 8–12% worse rates. State Bank of India and HDFC ATMs most reliable for foreign cards.",
-    "simCard": "Jio or Airtel prepaid SIM — available at airport and any mobile shop. Requires passport copy and photo. INR 200–500 for 1–2GB daily data. Jio has best 4G coverage.",
-    "water": "Never drink tap water. Sealed bottled water INR 20 (1 litre) everywhere.",
-    "tipping": "Not mandatory but appreciated. INR 20–50 at restaurants. Auto-rickshaws: round up. Hotels: INR 50–100 for good service.",
-    "apps": "Ola/Uber (auto and cab), IRCTC (trains), Zomato (food delivery and restaurants), MakeMyTrip (hotels and flights), Google Maps (works excellently in India)"
-  },
-  "insiderIntelligence": [
-    "India is not one destination — it is a continent's worth of culture, cuisine, and landscape within national borders. A person who has visited Delhi and Goa has not seen India. They have seen two very different pieces of it.",
-    "The golden rule of Indian street food: eat from the stall with the most local customers and the highest turnover. Food safety in India is about freshness and volume — the busy stall is always safer than the quiet one.",
-    "Indian railways is the world's most complex ticketing system. Use only the IRCTC website or app. Never buy from touts outside the station.",
-    "The most extraordinary free experiences in India: Golden Temple langar (Amritsar), sunrise at the Taj Mahal from Mehtab Bagh (across the river), morning at the Ganga ghats in Varanasi, dawn at the Living Root Bridge in Meghalaya.",
-    "Hindi is NOT spoken everywhere. In Tamil Nadu, Karnataka, and Kerala, locals may not respond to Hindi and may find it presumptuous. English is the working language in South India.",
-    "Indian time (IST) is also known as 'Indian Standard Time' but informally stands for 'Indian Stretchable Time'. Meetings, events, and trains run late. Build buffer time into any schedule.",
-    "The Indian head wobble (bobbing from side to side) means 'yes', 'OK', or 'I understand'. It does NOT mean 'no'.",
-    "Most Indian temples have strict dress codes. Carry a dupatta/scarf for women and wear full-length trousers for men. Many temples do not allow leather items inside.",
-    "Bargaining is expected at markets, souvenir shops, and with auto-rickshaws where meters are not used. Start at 50% of asking price. Never bargain at restaurants or in shops with fixed prices displayed.",
-    "The best months to visit most of India are October and November — after the monsoon when everything is green and before the peak tourist season. October pricing is lower, crowds are thinner, and the landscape is at its most beautiful."
-  ],
-  "whyPeopleFallInLove": "People arrive for the Taj Mahal. They stay when they witness something they were not expecting — a morning puja at a ghat they found by accident, an invitation to a family home for chai, the call to prayer and temple bells happening simultaneously from adjacent buildings. They return because India is the only country that simultaneously overwhelms you and makes you feel that you have not understood it yet, and both feelings are correct. India does not reveal itself to the person who rushes. It reveals itself to the person who accepts that they will not understand it today and comes back anyway.",
-  "localTruths": [
-    "Most visitors think India is chaotic. India runs on a logic that takes three days to begin to read — the traffic that moves without signals, the negotiation that sounds like an argument, the hospitality that appears from nowhere. The apparent chaos is organised. The visitor who accepts this stops being frustrated and starts being amazed.",
-    "Most visitors think India is one country. India is 28 countries with one passport, one currency, and one railway system. The person who visits Delhi and Goa has visited two places that share a flag and almost nothing else. The food, language, architecture, culture, and pace are completely different. India requires more than one trip.",
-    "Most visitors think India is the ancient monuments. The ancient monuments are real and extraordinary. But the living traditions — the artisan weaving in Varanasi, the morning aarti at the ghats, the temple ceremony in a Bali-equivalent village in Tamil Nadu — are the India that cannot be found in photographs and cannot be adequately described. It requires presence."
-  ],
-  "ifYouOnlyHadOneChance": {
-    "breakfast": "Chandni Chowk at 7am before the shops open — the wholesale traders working, the temples doing morning puja, the parathas at Paranthe Wali Gali being fried in clarified butter. The oldest market street in India at its most honest hour.",
-    "sunrise": "Taj Mahal at opening, 30 minutes before sunrise — the most photographed building in human history, at the one hour when it belongs to almost no one. The mist on the Yamuna behind it. The marble changing colour as the sun rises. The version of this monument that exists in no travel photograph.",
-    "neighbourhood": "Varanasi ghats at 5am — the morning boat ride before the tour boats arrive, watching the city use the river for yoga, bathing, laundry, prayer, and cremation simultaneously. The oldest continuously inhabited city in the world being itself.",
-    "meal": "Thali at any local restaurant with locals eating — unlimited, regional, INR 120–200, every dish placed simultaneously on the banana leaf or steel plate. The meal that tells you more about where you are than any monument.",
-    "memory": "Being invited somewhere you were not expecting — into a home for chai, to watch a ceremony from the outer courtyard, to join a family at the ghat. India's hospitality is not a tourism product. It is a cultural practice that has existed longer than most countries.",
-    "secret": "The 5:30am on any Indian train — the chai vendor walking the platform, the fields appearing pale blue in the first light, your fellow passengers sharing food without being asked. The Indian railway at dawn is the most honest portrait of the country available to anyone with INR 200 and a willingness to be awake."
-  },
-  "neighborhoodPersonalities": {
-    "rajasthan": [
-      "Royal",
-      "Colourful",
-      "Desert",
-      "Majestic"
-    ],
-    "kerala": [
-      "Lush",
-      "Culinary",
-      "Backwater",
-      "Quiet"
-    ],
-    "varanasi": [
-      "Ancient",
-      "Spiritual",
-      "Confronting",
-      "Sacred"
-    ],
-    "mumbai": [
-      "Ambitious",
-      "Cinematic",
-      "Relentless",
-      "Contradictory"
-    ],
-    "delhi": [
-      "Historical",
-      "Political",
-      "Street Food",
-      "Layered"
-    ],
-    "himachal_ladakh": [
-      "Mountain",
-      "Buddhist",
-      "Clean Air",
-      "High"
-    ],
-    "northeast": [
-      "Tribal",
-      "Green",
-      "Overlooked",
-      "Extraordinary"
-    ]
-  },
-  "residentSunday": "A Delhi resident with one free Sunday: 6am Lodi Garden walk before the joggers arrive — the 15th-century tombs in morning mist, free, extraordinary. 8am Paranthe Wali Gali in Chandni Chowk for breakfast — the stuffed parathas being fried in clarified butter, INR 80-120. 10am Humayun's Tomb before the tour groups — the prototype for the Taj Mahal with a fraction of the crowd, INR 10 for Indians. 1pm Karim's near Jama Masjid — the mutton burra, the seekh kebab, open since 1913. Afternoon rest. 4pm Mehrauli Archaeological Park — 20+ medieval monuments in a park that most Delhi residents have never visited. Free. 7pm back home. This is the Delhi that the city's residents describe when they say they love where they live.",
-  "dayMemoryTargets": {
-    "arrival": "The specific moment India makes itself known — the heat, the density, the simultaneity of ancient and modern, the smell of spices and diesel and marigolds and incense all at once. Then the first act of hospitality from a stranger: a chai offered without request, directions given with genuine investment, an invitation extended without expectation of return. The memory is the first evidence that India operates on human terms that no other country has quite matched.",
-    "peak": "The Taj Mahal at sunrise — but not the standard photograph. The walk through the Great Gate at 6am when the monument appears framed by the arch, and then the 20-minute walk across the garden as the light changes on the marble. OR the Ganga Aarti in Varanasi at dusk — the fire, the chanting, the river, the simultaneous life and death of the same waterfront. The memory is the moment India became irreducible to any single explanation.",
-    "departure": "The train station before departure — the chai wallahs, the families, the vendors, the noise, the extraordinary human density that is somehow organised. Then the specific quality of Indian light from a train window at dawn — the fields pale blue, the villages beginning their day, the sense of a country starting over every morning. The memory is the realisation that India is too large to have visited but exactly the right size to have experienced."
-  },
-  "tripLengthGuide": {
-    "two_days": {
-      "must_include": [
-        "Taj Mahal at sunrise (if Agra)",
-        "OR Golden Temple langar in Amritsar",
-        "OR one genuine local meal wherever you are"
-      ],
-      "skip": [
-        "Multiple cities",
-        "Multiple monuments in same day"
-      ],
-      "note": "Two days in India should go deep in one place. The Taj Mahal deserves a full day. The Golden Temple deserves a full day. One thing done properly is infinitely better than three things rushed."
-    },
-    "three_to_four_days": {
-      "must_include": [
-        "Delhi-Agra Golden Triangle (3 days)",
-        "OR Rajasthan single city (Jaipur, Jodhpur, or Udaipur)",
-        "OR Kerala backwaters (3 nights minimum)"
-      ],
-      "skip": [
-        "Multi-state itinerary at this length"
-      ],
-      "note": "Three to four days in India: one region, done properly. India punishes the traveller who tries to see too much too quickly."
-    },
-    "five_to_six_days": {
-      "must_include": [
-        "Golden Triangle (Delhi-Agra-Jaipur)",
-        "OR Kerala (Kochi-Alleppey-Munnar)",
-        "OR Rajasthan (Jaipur-Jodhpur-Udaipur)"
-      ],
-      "skip": [
-        "Cross-country combinations that require 3+ flights"
-      ],
-      "note": "Five to six days: one circuit done properly. Now depth is possible within a region."
-    },
-    "seven_plus_days": {
-      "must_include": [
-        "One full region with day trips",
-        "Varanasi (minimum 2 nights)",
-        "At least one overnight train journey"
-      ],
-      "skip": [],
-      "note": "At 7+ days India begins to reveal itself. The overnight train is mandatory — not for efficiency but for experience. The train IS the India."
-    }
-  },
-  "antiPatterns": [
-    "Agra Fort AND Taj Mahal AND Fatehpur Sikri in a single day — each requires 2-3 hours of genuine attention. The Taj deserves its own morning. Agra Fort can follow. Fatehpur Sikri is a separate half-day.",
-    "Multiple Rajasthan cities in a single day — Jaipur to Jodhpur to Udaipur as a 1-day drive is a travel day disguised as a sightseeing day. Each city deserves a minimum of 2 nights.",
-    "Kerala houseboat AND Munnar hill station on the same day — they are 4-5 hours apart and represent completely different landscapes and experiences. Each deserves at least 2 nights.",
-    "Varanasi ghat walk AND Sarnath on the same morning — Varanasi ghats at dawn require 2-3 hours of unhurried presence. Sarnath (10km away) is a separate half-day.",
-    "Golden Temple in Amritsar AND Wagah Border ceremony on the same day without sufficient time — the Wagah ceremony is 30km from Amritsar. Attempting the Golden Temple morning AND the Wagah afternoon is physically possible but leaves neither done with full attention."
-  ],
-  "meta": {
-    "_schemaVersion": "3.0",
-    "lastUpdated": "2026-06",
-    "lastVerified": "2026-06",
-    "nextReviewDue": "2026-12",
-    "dataQualityScore": 9,
-    "note": "Overview file — individual state files being built separately"
-  },
-  "geography": {
-    "mapCenter": {
-      "lat": 20.5937,
-      "lng": 78.9629
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=India",
-    "timezone": "IST UTC+5:30",
-    "note": "India has one time zone for the entire country despite its enormous size"
-  },
-  "languageIntelligence": {
-    "officialLanguages": "22 recognised languages. Hindi and English official at national level.",
-    "workingLanguage": "Hindi in North India. English in cities throughout India. South India: English more reliable than Hindi.",
-    "usefulHindiPhrases": {
-      "thank_you": "Dhanyavaad",
-      "how_much": "Kitna hai?",
-      "where_is": "Kahan hai?",
-      "please": "Kripaya",
-      "good": "Accha"
-    }
-  },
-  "safetyIntelligence": {
-    "overallRating": "Varies significantly by region — research specific destination",
-    "safetyScore": 7,
-    "generalNote": "India is overwhelmingly safe for tourists but requires regional awareness.",
-    "highRiskAreas": "Manipur, parts of Jharkhand and Chhattisgarh — check MEA advisories specifically",
-    "safestDestinations": "Rajasthan, Kerala, Himachal Pradesh, Goa, Tamil Nadu generally very safe",
-    "scamsToKnow": [
-      "Auto-rickshaw meter refusal — use Ola/Uber everywhere",
-      "Tourist restaurant vs local restaurant: identical food 3-5x price difference",
-      "Fake government tourist offices — only use India Tourism official offices"
-    ],
-    "emergencyProtocol": "Police: 100. Ambulance: 108. Women Helpline: 1091. Railway Emergency: 139."
-  },
-  "healthIntelligence": {
-    "vaccinesRecommended": [
-      "Hepatitis A",
-      "Typhoid",
-      "Malaria prophylaxis for some regions — consult doctor"
-    ],
-    "waterSafety": "NEVER drink tap water anywhere in India. Sealed bottled water only. Check seal before opening.",
-    "stomachNote": "First-time India visitors often experience digestive adjustment for 2-3 days. Carry ORS packets and loperamide.",
-    "pharmacyAvailability": "Pharmacies on every street in cities. MedPlus and Apollo nationwide chain."
-  },
-  "gettingHere": {
-    "forForeignNationals": {
-      "eVisa": "Available for 150+ nationalities at indianvisaonline.gov.in. USD 25 (30 days) or USD 80 (1 year multiple entry). Apply minimum 4 days ahead.",
-      "majorAirports": "Delhi (DEL), Mumbai (BOM), Bangalore (BLR), Chennai (MAA), Kolkata (CCU), Hyderabad (HYD)"
-    }
-  },
-  "nearbyDestinations": [
-    {
-      "city": "Sri Lanka",
-      "travelTime": "1 hour by flight from Chennai/Bangalore",
-      "cost": "INR 12,000-25,000 return flights",
-      "whyCombine": "8 UNESCO sites, pristine beaches, extraordinary wildlife. Easy visa. Complementary to South India.",
-      "suggestIf": "Visiting South India for 7+ days"
-    },
-    {
-      "city": "Nepal",
-      "travelTime": "2-3 hours by flight from Delhi/Mumbai",
-      "cost": "INR 8,000-18,000 return",
-      "whyCombine": "Everest base camp, Kathmandu temples, Pokhara lakeside. No visa for Indian passport holders.",
-      "suggestIf": "Visiting North India/Himalayas"
-    }
-  ],
-  "liveIntelligence": {
-    "lastChecked": "2026-06",
-    "seasonalNow": "June 2026 — monsoon beginning across most of India. Rajasthan: hot and dry. Kerala: full monsoon, houseboat limited. Ladakh/Spiti: BEST season. Goa: full monsoon, beaches mostly closed.",
-    "currentAlerts": "Always check specific state situation — India is a continent in complexity.",
-    "strikesDisruptions": "Bandhs (general strikes) occur periodically. Check local news before travel.",
-    "entryRequirements": "Indian citizens: domestic travel, no visa. Foreign nationals: e-Visa at indianvisaonline.gov.in.",
-    "indianAdvisoryNote": "For Indian citizens travelling domestically: no advisory needed. For international visitors to India: check home country advisory for India."
-  },
-  "combinationIntelligence": [
-    {
-      "sequence": [
-        "Taj Mahal sunrise from Mehtab Bagh (across river)",
-        "Agra Fort (9am)",
-        "Return Delhi afternoon"
-      ],
-      "emotionalArc": "The most photographed building at its most honest → the fort where its builder was imprisoned within sight of it → the context the capital gives everything. History as a continuous story.",
-      "bestFor": [
-        "firstTimer",
-        "couple",
-        "culture"
-      ]
-    },
-    {
-      "sequence": [
-        "Varanasi ghats (5am boat)",
-        "Local chai and breakfast",
-        "Evening Ganga Aarti (sunset)"
-      ],
-      "emotionalArc": "Life and death witnessed simultaneously at dawn → the simplest possible meal → fire ceremony at the sacred river. The Varanasi full register.",
-      "bestFor": [
-        "solo",
-        "culture",
-        "recovering"
-      ]
-    }
-  ],
-  "photographyIntelligence": {
-    "bestShotLocations": [
-      {
-        "name": "Taj Mahal from Mehtab Bagh at sunrise",
-        "what": "The Taj from the opposite bank, almost no tourists",
-        "bestTime": "30 mins before sunrise"
-      },
-      {
-        "name": "Varanasi ghats at dawn",
-        "what": "Life and death on the same waterfront in first light",
-        "bestTime": "5:00-7:00am"
-      },
-      {
-        "name": "Jaisalmer fort at golden hour",
-        "what": "The golden fort glowing, the desert behind it",
-        "bestTime": "5:00-6:30pm"
-      },
-      {
-        "name": "Amber Fort, Jaipur",
-        "what": "The finest Mughal-Rajput fort, elephant processions, hilltop setting",
-        "bestTime": "8:00-9:30am"
-      }
-    ],
-    "goldenHour": "Season and region dependent. Rajasthan winter: 6:30-8:00am and 4:30-6:00pm. South India: similar timing.",
-    "droneRules": "India DGCA requires permit for drone use near airports, monuments (within 3km of heritage sites), and government areas. The Taj Mahal area has strict no-fly zone."
-  },
-  "accessibility": {
-    "wheelchairFriendly": "Challenging in most heritage and traditional areas",
-    "metroAccessibility": "Delhi Metro, Mumbai Metro, Bangalore Metro all have lifts at major stations",
-    "challengingAreas": "Most monument sites have uneven surfaces, temples have steps, market areas very difficult",
-    "seniorFriendlyScore": 5.5,
-    "note": "Indian Railways has accessible coaches on major routes. Book through IRCTC indicating disability."
-  }
+﻿{
+    "destination":  "india",
+    "aliases":  [
+                    "india",
+                    "delhi",
+                    "new delhi",
+                    "mumbai",
+                    "bombay",
+                    "bangalore",
+                    "bengaluru",
+                    "jaipur",
+                    "rajasthan",
+                    "kerala",
+                    "varanasi",
+                    "agra",
+                    "taj mahal",
+                    "rishikesh",
+                    "manali",
+                    "shimla",
+                    "darjeeling",
+                    "kolkata",
+                    "hyderabad",
+                    "chennai",
+                    "ahmedabad",
+                    "udaipur",
+                    "jodhpur",
+                    "amritsar",
+                    "leh",
+                    "ladakh",
+                    "goa",
+                    "andaman",
+                    "mysore",
+                    "hampi",
+                    "coorg",
+                    "munnar",
+                    "alleppey",
+                    "spiti"
+                ],
+    "hardFacts":  {
+                      "size":  "India is the 7th largest country in the world and the most populous. It is NOT one destination â€” it is 28 states and 8 union territories, each with distinct language, cuisine, architecture, and culture. Planning India as a single trip is a mistake. Plan by region.",
+                      "transport":  "India has the largest railway network in the world (67,000 km). Train travel between major cities is reliable, comfortable in AC classes, and significantly cheaper than flights for journeys under 8 hours. Always book on IRCTC minimum 2 weeks ahead.",
+                      "currency":  "Indian Rupee (INR). For foreign visitors: USD 1 = INR 84â€“87. EUR 1 = INR 90â€“95. GBP 1 = INR 108â€“115.",
+                      "language":  "22 official languages. Hindi is spoken across North India. English is widely understood in cities, tourism areas, and by educated population throughout India. South India (Tamil Nadu, Kerala, Karnataka, Andhra) uses regional languages more exclusively â€” English is the working language here.",
+                      "seasons":  "India has three main seasons: Summer (Marchâ€“June): hot everywhere except the mountains. Monsoon (Juneâ€“September): heavy rain, some areas inaccessible, others extraordinary. Winter (Octoberâ€“February): the correct time for most of India except mountains.",
+                      "criticalRule":  "Book train tickets on IRCTC (irctc.co.in) minimum 2 weeks ahead for AC classes. The berths that fill first are 3A (3-tier AC) and 2A (2-tier AC). Never buy train tickets from agents outside the station â€” the IRCTC website or app is the only reliable source. Tourist Quota is available at major stations for foreign visitors.",
+                      "food":  "India is the world\u0027s best destination for vegetarians. Every region has extraordinary vegetarian cuisine. Even non-vegetarians will eat less meat here than anywhere else and not miss it.",
+                      "water":  "NEVER drink tap water anywhere in India. Bottled water from sealed bottles only. Filter or boil when bottled water unavailable. This applies everywhere without exception."
+                  },
+    "emergencyContacts":  {
+                              "police":  "100",
+                              "ambulance":  "108",
+                              "fire":  "101",
+                              "womenHelpline":  "1091",
+                              "touristHelpline":  "1800 11 1363 (Ministry of Tourism, toll-free)",
+                              "railwayEnquiry":  "139",
+                              "airportInquiry":  "1800 180 1407",
+                              "foreignerHelpline":  "+91 11 2388 8888 (Foreigners Regional Registration Office)",
+                              "nationalEmergency":  "112 (unified emergency number)"
+                          },
+    "cities":  {
+                   "delhi":  {
+                                 "character":  "India\u0027s capital. 30 million people containing 5,000 years of continuous history. The oldest mosque (Quwwat ul-Islam, 1193 AD), the newest metro, the best street food, and the worst air quality in any major city. Never understood in a single visit.",
+                                 "bestTime":  "Octoberâ€“March. Avoid Aprilâ€“June (extreme heat 40â€“45Â°C) and Julyâ€“September (monsoon + heat).",
+                                 "mustDo":  [
+                                                "Chandni Chowk at 7am â€” before the shops open, wholesale traders working, temples doing morning puja, parathas at Paranthe Wali Gali being fried",
+                                                "Qutub Minar â€” UNESCO, 12th century, finest medieval minaret in Asia, morning before 9am",
+                                                "Humayun\u0027s Tomb â€” the prototype for the Taj Mahal, better proportions, a fraction of the tourists",
+                                                "Lodi Garden â€” free, 8am, where Delhi jogs among 15th-century tombs, extraordinary urban park",
+                                                "Karim\u0027s restaurant, Jama Masjid area â€” most famous Mughlai restaurant in India, open since 1913"
+                                            ],
+                                 "hiddenGem":  "Mehrauli Archaeological Park â€” 20+ medieval monuments in a park that most Delhi residents have never visited. Free. Adjacent to Qutub Minar but completely separate and empty.",
+                                 "food":  {
+                                              "mustEat":  [
+                                                              "Paranthe Wali Gali, Chandni Chowk â€” stuffed flatbreads with 30 fillings, INR 60â€“150",
+                                                              "Karim\u0027s near Jama Masjid â€” mutton burra, seekh kebab, INR 200â€“400",
+                                                              "Bengali Sweet House, Bengali Market â€” rasgolla, burfi, sandesh, INR 50â€“200",
+                                                              "Chhole Bhature at Sita Ram Diwan Chand, Paharganj â€” since 1952, INR 120",
+                                                              "Moti Mahal Delux, Daryaganj â€” butter chicken was invented here (claimed)"
+                                                          ]
+                                          },
+                                 "policeStation":  "Delhi Police Control Room: 100. Tourist Police: +91 11 2436 5358",
+                                 "hospital":  "AIIMS Delhi: +91 11 2659 3737. Apollo Delhi: +91 11 2987 2222",
+                                 "transport":  "Delhi Metro: INR 10â€“60 per trip, excellent coverage. Ola/Uber available. Auto-rickshaws: always use meter or prepaid.",
+                                 "accommodation":  "Budget: Paharganj area (INR 500â€“1,500). Mid: Connaught Place (INR 3,000â€“8,000). Luxury: The Leela, The Imperial, The Lodhi (INR 15,000â€“50,000).",
+                                 "budgetPerDay":  "INR 1,500â€“3,000 (budget to comfortable)"
+                             },
+                   "mumbai":  {
+                                  "character":  "India\u0027s financial and entertainment capital. More billionaires than Delhi and more slum dwellers than anywhere else simultaneously. The city that accepts everyone and asks nothing in return.",
+                                  "bestTime":  "Novemberâ€“February. Avoid Juneâ€“September (heavy monsoon, though the city itself has extraordinary monsoon energy).",
+                                  "mustDo":  [
+                                                 "Gateway of India at 6am â€” before tour boats and hawkers, the harbour and Taj Mahal Palace Hotel backdrop",
+                                                 "Dharavi â€” Asia\u0027s most productive slum, guided tour INR 600â€“1,000 through leather, pottery, recycling workshops",
+                                                 "Dhobi Ghat â€” world\u0027s largest outdoor laundry, view from Mahalaxmi bridge, free",
+                                                 "CST (Chhatrapati Shivaji Terminus) â€” Victorian Gothic World Heritage station, interior as dramatic as exterior",
+                                                 "Juhu Beach at 6pm â€” the city\u0027s living room, chaat vendors, cricket, extraordinary cross-section of Mumbai life"
+                                             ],
+                                  "hiddenGem":  "Khotachi Wadi â€” a pocket of East Indian Catholic heritage in the middle of the city, wooden bungalows, Christmas stars year-round, no tourists.",
+                                  "food":  {
+                                               "mustEat":  [
+                                                               "Vada pav from any street stall â€” the Mumbai breakfast, INR 15â€“25",
+                                                               "Britannia \u0026 Co, Ballard Estate â€” Parsi Irani cafÃ© since 1923, berry pulao, INR 300â€“500",
+                                                               "Bade Miya, Colaba Causeway â€” seekh kebabs under a tree since 1947, INR 200â€“400",
+                                                               "Prithvi CafÃ©, Juhu â€” theatre cafÃ©, excellent coffee, INR 100â€“300",
+                                                               "Khau Galli night food streets â€” Mohammed Ali Road, Crawford Market area"
+                                                           ]
+                                           },
+                                  "policeStation":  "Mumbai Police Control Room: 100. Tourist Police: +91 22 2262 0111",
+                                  "hospital":  "Lilavati Hospital: +91 22 2656 8888. KEM Hospital: +91 22 2413 6051",
+                                  "transport":  "Local trains: INR 10â€“50, essential and efficient. Metro: limited but growing. Uber/Ola available.",
+                                  "accommodation":  "Budget: Fort/Colaba area (INR 800â€“2,000). Mid: Bandra (INR 4,000â€“10,000). Luxury: Taj Mahal Palace, Four Seasons (INR 20,000â€“80,000).",
+                                  "budgetPerDay":  "INR 2,000â€“4,000 (Mumbai is India\u0027s most expensive city)"
+                              },
+                   "kolkata":  {
+                                   "character":  "India\u0027s cultural capital. The city of Tagore, Subhas Chandra Bose, and Mother Teresa. Intellectual, artistic, politically passionate. The finest street food in India. Decaying colonial grandeur that is currently being re-evaluated.",
+                                   "bestTime":  "Octoberâ€“March. Durga Puja (October) is the most extraordinary festival in India.",
+                                   "mustDo":  [
+                                                  "Victoria Memorial at dawn â€” the finest colonial building in Asia, free gardens",
+                                                  "Howrah Bridge at 5am â€” 100,000 vehicles and pedestrians cross daily, the engineering is extraordinary",
+                                                  "College Street book market â€” the largest second-hand book market in the world",
+                                                  "Kumartuli â€” the neighbourhood where the clay idols for Durga Puja are made year-round",
+                                                  "Evening at a adda (tea stall intellectual gathering) in North Kolkata"
+                                              ],
+                                   "hiddenGem":  "Tiretti Bazaar, Chinatown â€” the oldest Chinatown in India, the Chinese morning dim sum breakfast at 5am.",
+                                   "food":  {
+                                                "mustEat":  [
+                                                                "Kathi rolls from Nizam\u0027s, New Market â€” invented here in 1932, INR 80â€“150",
+                                                                "Mishti doi and rosogolla from any sweet shop â€” the Bengali originals, INR 20â€“60",
+                                                                "Mutton biryani from Arsalan, Park Circus â€” the best biryani in India (contested), INR 250â€“400",
+                                                                "Phuchka (Kolkata\u0027s pani puri) â€” different from North Indian version, must compare, INR 30â€“60",
+                                                                "Fish curry and rice from any Bengali dhaba â€” the city\u0027s soul food"
+                                                            ]
+                                            },
+                                   "transport":  "Metro: INR 5â€“25. Yellow taxis (metered). Trams (historic, still operating). Rickshaws in some areas.",
+                                   "budgetPerDay":  "INR 1,200â€“2,500"
+                               },
+                   "bangalore":  {
+                                     "character":  "India\u0027s Silicon Valley. A garden city transformed by IT money. The best microbrewery culture in India. A comfortable, cosmopolitan base for South India exploration.",
+                                     "bestTime":  "Year-round (1,000m elevation keeps it pleasant). Peak summer 28â€“33Â°C.",
+                                     "mustDo":  [
+                                                    "Cubbon Park morning walk â€” 300 acres in the city centre, birdwatching, free",
+                                                    "Tipu Sultan\u0027s Summer Palace â€” 18th-century wooden palace, INR 15",
+                                                    "Bangalore Palace â€” the Wadiyar royal palace in Gothic-Tudor style, INR 230",
+                                                    "Commercial Street for shopping â€” the real Bangalore shopping strip",
+                                                    "IISc campus â€” India\u0027s finest research institution, free to walk the grounds"
+                                                ],
+                                     "food":  {
+                                                  "mustEat":  [
+                                                                  "Masala dosa at MTR (Mavalli Tiffin Rooms) â€” since 1924, INR 120â€“200",
+                                                                  "Benne dosa (butter dosa) at Vidyarthi Bhavan â€” since 1943, INR 60â€“100",
+                                                                  "Craft beer at Arbor or Toit brewery â€” Bangalore\u0027s microbrewery culture, INR 300â€“500",
+                                                                  "Coorgi pork curry at any Coorg restaurant â€” specific to this region"
+                                                              ]
+                                              },
+                                     "budgetPerDay":  "INR 1,500â€“3,000"
+                                 },
+                   "hyderabad":  {
+                                     "character":  "The city of the Nizams, biryani, and new technology. The old city (Charminar area) and the new city (Hi-Tech City) are literally different countries 15km apart.",
+                                     "bestTime":  "Octoberâ€“March.",
+                                     "mustDo":  [
+                                                    "Charminar at sunset â€” the 1591 monument, the evening market around it is extraordinary",
+                                                    "Golconda Fort â€” the Qutb Shahi dynasty fortress, acoustic demonstration (a clap at the main gate heard 1km away)",
+                                                    "Salar Jung Museum â€” one of the largest single-person art collections in the world, INR 50",
+                                                    "Hyderabadi dum biryani cooking class â€” learn the original recipe"
+                                                ],
+                                     "hiddenGem":  "Paigah Tombs â€” the mausoleum of the Paigah nobles, extraordinary Mughal architecture, almost no tourists, free.",
+                                     "food":  {
+                                                  "mustEat":  [
+                                                                  "Paradise Biryani â€” the most famous biryani restaurant in India, INR 250â€“400",
+                                                                  "Haleem at Shah Ghouse near Charminar â€” the definitive Hyderabadi haleem, INR 150â€“250",
+                                                                  "Double ka meetha (bread pudding) â€” specific to Hyderabad, INR 80â€“120",
+                                                                  "Irani chai at any Irani cafÃ© near Charminar â€” the specific Hyderabadi tea culture"
+                                                              ]
+                                              },
+                                     "budgetPerDay":  "INR 1,200â€“2,500"
+                                 },
+                   "chennai":  {
+                                   "character":  "India\u0027s gateway to South India. The most culturally Tamil city. Classical music and dance (Carnatic music season December). The Marina Beach (second longest in the world). The Kapaleeshwarar Temple.",
+                                   "bestTime":  "Novemberâ€“February. Avoid Mayâ€“June (extreme humidity and heat).",
+                                   "mustDo":  [
+                                                  "Kapaleeshwarar Temple, Mylapore â€” active 7th-century Dravidian temple, free",
+                                                  "Marina Beach at 6am â€” 13km beach, the morning is extraordinary (hawkers, children, fishermen)",
+                                                  "Fort St. George â€” the first English fortress in India (1644), museum, INR 5",
+                                                  "Mahabalipuram day trip â€” UNESCO rock-cut temples, 60km south"
+                                              ],
+                                   "food":  {
+                                                "mustEat":  [
+                                                                "Filter coffee and idli-sambar from any Saravana Bhavan â€” the South Indian standard",
+                                                                "Chettinad chicken curry â€” the most complex South Indian cuisine, any Chettinad restaurant",
+                                                                "Fish curry rice â€” the Tamil Nadu daily meal",
+                                                                "Murukku and sundal from street vendors on Marina Beach"
+                                                            ]
+                                            },
+                                   "budgetPerDay":  "INR 1,200â€“2,500"
+                               }
+               },
+    "regions":  {
+                    "rajasthan":  {
+                                      "overview":  "The most visually extraordinary state in India. Every city is a different colour â€” Blue City (Jodhpur), Pink City (Jaipur), White City (Udaipur), Golden City (Jaisalmer). The palaces were built by kings who competed for aesthetic supremacy.",
+                                      "bestTime":  "Octoberâ€“March. Avoid Aprilâ€“June (extreme heat 40â€“45Â°C). Julyâ€“September: monsoon brings green but some roads flood.",
+                                      "jaipur":  {
+                                                     "character":  "The Pink City. The most organised tourist infrastructure in Rajasthan. Gateway to the Golden Triangle.",
+                                                     "mustDo":  [
+                                                                    "Amber Fort (Amer Fort) â€” arrive 8am before tour groups. The finest Mughal-Rajput fort in India. INR 500 foreigners.",
+                                                                    "Hawa Mahal exterior at golden hour â€” best photograph at 5:30pm from the street across",
+                                                                    "Johri Bazaar â€” the silver jewellery market, best Rajasthani silver in India",
+                                                                    "City Palace â€” still occupied by the Jaipur royal family, INR 700"
+                                                                ],
+                                                     "food":  "Dal baati churma (INR 200â€“350), Ghewar sweet (INR 100â€“200), Kulfi at Rawat Mishtan Bhandar",
+                                                     "hiddenGem":  "Panna Meena ka Kund â€” an extraordinary 16th-century stepwell in Amer town, almost no tourists, free.",
+                                                     "accommodation":  "Budget: INR 800â€“2,000. Heritage haveli hotels: INR 3,000â€“10,000. Luxury: Rambagh Palace (INR 30,000+).",
+                                                     "policeStation":  "+91 141 266 5816"
+                                                 },
+                                      "jodhpur":  {
+                                                      "character":  "The Blue City. The most dramatic fort in India. The most atmospheric old city in Rajasthan.",
+                                                      "mustDo":  [
+                                                                     "Mehrangarh Fort â€” the finest fort in Rajasthan. On a hill 122m above the city. INR 600 foreigners.",
+                                                                     "Blue city rooftop at sunrise â€” from the fort battlements, the blue houses below",
+                                                                     "Ghantaghar (Clock Tower) market â€” the most vibrant local market in Jodhpur"
+                                                                 ],
+                                                      "food":  "Makhaniya lassi (saffron lassi), Mawa kachori (sweet-stuffed fried bread), Mirchi vada (chilli fritters). Best at On the Rocks restaurant or any haveli cafÃ©.",
+                                                      "hiddenGem":  "The old city lanes below Mehrangarh at night â€” navigated by the sound of the fort above, every turn reveals a different angle of the same wall. Free.",
+                                                      "accommodation":  "Budget: INR 700â€“1,500. Heritage: Raas Haveli, RAAS (INR 8,000â€“20,000)."
+                                                  },
+                                      "udaipur":  {
+                                                      "character":  "The White City. The Lake City. The most romantic city in India. The lakes, the City Palace, the boat rides.",
+                                                      "mustDo":  [
+                                                                     "City Palace â€” the largest palace complex in Rajasthan, INR 300. The museum and the rooftop views are extraordinary.",
+                                                                     "Boat ride at sunset on Lake Pichola â€” the Lake Palace visible, INR 400â€“700",
+                                                                     "Jagdish Temple â€” active 17th-century Vishnu temple in the middle of the city, free",
+                                                                     "Bagore Ki Haveli cultural show â€” traditional Rajasthani folk performance, INR 150"
+                                                                 ],
+                                                      "food":  "Daal baati churma, Laal maas (red mutton curry), Mawa kachori. Best restaurants on the rooftops overlooking Lake Pichola.",
+                                                      "hiddenGem":  "Eklingji Temple 22km north â€” the Maharana\u0027s personal temple, open for morning puja at 4am, most spiritually atmospheric place in Rajasthan. Almost no tourists.",
+                                                      "accommodation":  "Budget: INR 800â€“2,000. Lake view heritage: INR 4,000â€“15,000. The Oberoi Udaivilas: INR 40,000+."
+                                                  },
+                                      "jaisalmer":  {
+                                                        "character":  "The Golden City. A living fort city in the Thar Desert. The most extraordinary overnight experience in India â€” desert camping.",
+                                                        "mustDo":  [
+                                                                       "Jaisalmer Fort (Sonar Quila) â€” a UNESCO living fort, still inhabited. The best-preserved medieval fort in Asia.",
+                                                                       "Patwon ki Haveli â€” the most elaborate carved merchant mansion in Rajasthan, INR 100",
+                                                                       "Sam sand dunes sunrise â€” arrive before any other tourist at 5am. INR 0 to access the dunes.",
+                                                                       "Desert overnight camping â€” at least one night in the dunes, watching the stars with no light pollution"
+                                                                   ],
+                                                        "food":  "Ker sangri (desert bean and berry curry), Bajre ki roti (millet bread), Mutton biryani at the fort base restaurants.",
+                                                        "hiddenGem":  "Kuldhara abandoned village â€” a whole Paliwal Brahmin village abandoned overnight in 1825, preserved as it was, ghost town feel, INR 50.",
+                                                        "accommodation":  "In-fort guesthouses: INR 600â€“1,500. Desert camps: INR 1,500â€“5,000 (basic to luxury tents)."
+                                                    }
+                                  },
+                    "kerala":  {
+                                   "overview":  "India\u0027s most literate state. The backwaters, the Malabar cuisine, Kathakali, spice country, tea estates. The least aggressive tourist culture in India. The best food in India by most serious measures.",
+                                   "bestTime":  "Octoberâ€“May. Juneâ€“September: monsoon â€” beautiful but most houseboat services limited.",
+                                   "kochi":  {
+                                                 "character":  "Fort Kochi is India\u0027s most photogenic colonial quarter â€” Portuguese, Dutch, and British layers in one street. Chinese fishing nets at sunrise. The Jew Town spice market.",
+                                                 "mustDo":  [
+                                                                "Chinese fishing nets (cheena vala) at sunrise â€” the symbol of Kerala, best before 7am when fishermen are working",
+                                                                "Mattancherry Palace (Dutch Palace) â€” 16th century, extraordinary Kerala murals, INR 5",
+                                                                "Jew Town and Paradesi Synagogue â€” the 450-year-old synagogue, the spice warehouse district, INR 5",
+                                                                "Kathakali performance â€” traditional dance-drama, evening shows at Kerala Kathakali Centre, INR 300â€“500"
+                                                            ],
+                                                 "food":  "Kerala fish curry (the coconut-based version), Appam with stew, Parotta and beef curry, Puttu and kadala curry. Best at Dhe Puttu or any local toddy shop.",
+                                                 "hiddenGem":  "Kumbalangi Integrated Tourism Village â€” a genuine working fishing village 12km from Kochi, traditional coir and fish curing, free to walk.",
+                                                 "accommodation":  "Fort Kochi heritage guesthouses: INR 1,500â€“6,000. Malabar House: INR 8,000+."
+                                             },
+                                   "alleppey_backwaters":  {
+                                                               "character":  "The Venice of the East. 1,500km of canals, lakes, rivers, and lagoons. Houseboat stays are the correct way to experience this.",
+                                                               "mustDo":  [
+                                                                              "Houseboat overnight stay â€” at least 24 hours on the backwaters. INR 8,000â€“15,000 for 2-person boat.",
+                                                                              "Nehru Trophy Boat Race (second Saturday August) â€” the largest snake boat race in India",
+                                                                              "Village tour by country boat â€” smaller, quieter canals inaccessible to houseboats, INR 300â€“500",
+                                                                              "Sunrise on the backwaters â€” the best hour of the backwater experience"
+                                                                          ],
+                                                               "food":  "Karimeen pollichathu (pearl spot fish in banana leaf) â€” the signature backwater dish, INR 350â€“500. Prawn moilee (coconut curry).",
+                                                               "hiddenGem":  "Kumarakom Bird Sanctuary â€” the best birdwatching in Kerala, dawn canoe tours, INR 300.",
+                                                               "accommodation":  "Budget: Alleppey town guesthouses INR 800â€“2,000. Houseboat INR 8,000â€“15,000/night."
+                                                           },
+                                   "munnar":  {
+                                                  "character":  "The finest tea estate landscape in India at 1,600m elevation. Misty mornings. The Eravikulam National Park with Nilgiri tahr.",
+                                                  "mustDo":  [
+                                                                 "Tea estate walk at dawn â€” the KDHP tea estates allow walking. The mist in the tea gardens at 6am.",
+                                                                 "Eravikulam National Park â€” home to the Nilgiri tahr (mountain goat), INR 200 foreigners",
+                                                                 "Top Station viewpoint â€” the highest point in Munnar with views into Tamil Nadu",
+                                                                 "Tea Museum, Nallathanni Estate â€” how tea is made, INR 75"
+                                                             ],
+                                                  "food":  "Kerala sadya (banana leaf feast of 25 dishes), parotta and beef, toddy from a local shop.",
+                                                  "accommodation":  "Tea estate stays: INR 3,000â€“10,000. Budget guesthouses in town: INR 800â€“2,000."
+                                              },
+                                   "varkala":  {
+                                                   "character":  "A beach town on red laterite cliffs. The alternative to Kovalam. Better food, fewer crowds, the natural spring on the beach.",
+                                                   "mustDo":  [
+                                                                  "North Cliff at sunset â€” the cliffside walk with the beach 30 metres below",
+                                                                  "Janardhana Swami Temple â€” 2,000-year-old Vishnu temple on the cliff edge, free"
+                                                              ],
+                                                   "food":  "Seafood at cliff restaurants â€” tiger prawns, fish curry, coconut rice.",
+                                                   "accommodation":  "Cliff guesthouses: INR 1,000â€“3,000."
+                                               }
+                               },
+                    "rajasthan_golden_triangle":  {
+                                                      "overview":  "Delhiâ€“Agraâ€“Jaipur is India\u0027s most visited circuit. Can be done in 5â€“7 days by train.",
+                                                      "agra":  {
+                                                                   "character":  "The city of the Taj Mahal. Agra itself is chaotic and polluted but the monuments justify everything.",
+                                                                   "mustDo":  [
+                                                                                  "Taj Mahal at sunrise â€” CRITICAL. Arrive at gate opening 30 minutes before sunrise. The most photographed building in human history looks different at 6am from 2pm. INR 1,100 foreigners.",
+                                                                                  "Agra Fort â€” Akbar\u0027s red sandstone fort, 2km from Taj. The view of the Taj from Musamman Burj where Shah Jahan died captive. INR 650 foreigners.",
+                                                                                  "Mehtab Bagh garden â€” directly across the river from the Taj, sunset view of the Taj from the opposite bank, almost no tourists, INR 300."
+                                                                              ],
+                                                                   "food":  "Petha sweet (translucent pumpkin candy specific to Agra), dal moth, biryani at Pinch of Spice restaurant.",
+                                                                   "hiddenGem":  "Itmad-ud-Daulah tomb (Baby Taj) â€” the Taj Mahal\u0027s prototype, marble inlay as fine as the Taj, almost no visitors, INR 310 foreigners.",
+                                                                   "accommodation":  "Budget: INR 800â€“2,500. Luxury: The Oberoi Amarvilas (Taj view from every room, INR 35,000+).",
+                                                                   "policeStation":  "+91 562 246 0105"
+                                                               }
+                                                  },
+                    "ladakh":  {
+                                   "overview":  "The highest accessible plateau in India. Buddhist monasteries 1,000 years old. Mountains above 6,000m. The Indus River. The clearest sky in Asia. A different country inside India.",
+                                   "bestTime":  "Juneâ€“September. Passes open late May. October: first snow on passes. Novemberâ€“May: many passes closed, limited activities.",
+                                   "acclimatisation":  "CRITICAL. Leh is at 3,524m. Arrive by flight (not road) and rest for 48 hours before any activity. Altitude sickness is real and dangerous â€” headache, nausea, shortness of breath. Ascend slowly.",
+                                   "mustDo":  [
+                                                  "Pangong Lake â€” 4,225m, the blue-green lake extending into China, 5 hours from Leh, camping on the shore",
+                                                  "Diskit Monastery, Nubra Valley â€” ancient monastery with enormous Maitreya Buddha statue",
+                                                  "Khardung La pass â€” 5,359m (one of the world\u0027s highest motorable roads), accessible by shared taxi from Leh",
+                                                  "Lamayuru Monastery â€” oldest monastery in Ladakh, stark moonscape landscape, genuine living monastery",
+                                                  "The Zanskar River trek â€” one of the finest multi-day treks in India"
+                                              ],
+                                   "food":  "Thukpa (noodle soup), Momos, Tsampa (roasted barley), Butter tea (acquired taste). Tibetan and Ladakhi cuisine.",
+                                   "hiddenGem":  "Turtuk village â€” near the Pakistan border, only opened to tourists in 2010. The northernmost village accessible in India. Balti culture and apricot orchards.",
+                                   "accommodation":  "Budget homestays: INR 800â€“1,500 (includes dinner and breakfast). Mid guesthouses: INR 2,000â€“5,000. Hotel Grand Dragon (luxury): INR 8,000+.",
+                                   "transport":  "Shared taxis between Leh and major sites: INR 300â€“800/person. Private taxis: INR 3,000â€“8,000/day. Own vehicle essential for Nubra and Pangong.",
+                                   "permits":  "Inner Line Permit required for Pangong, Nubra, and border areas. Available online (ladakhadventure.com) or at Leh DC office. INR 200â€“400 per area."
+                               },
+                    "himachal_pradesh":  {
+                                             "overview":  "The Himalayan state. Shimla, Manali, Dharamshala, and the extraordinary Spiti Valley. The mountains accessible from Delhi.",
+                                             "shimla":  {
+                                                            "character":  "The former summer capital of British India. A hill station at 2,205m with Victorian architecture, the Ridge, Christ Church, and the Jakhu Temple.",
+                                                            "bestTime":  "Aprilâ€“June (pleasant hill station summer). Octoberâ€“November (apple harvest). Decemberâ€“January (snow, if that\u0027s the goal).",
+                                                            "mustDo":  [
+                                                                           "The Ridge evening walk â€” the central spine of Shimla, Christ Church, the Mall",
+                                                                           "Jakhu Temple â€” 2.5km walk or shared taxi, monkey-infested Hanuman temple above the city, extraordinary views",
+                                                                           "Toy Train (Kalka-Shimla Railway) â€” UNESCO World Heritage narrow-gauge railway, 5 hours from Kalka, INR 50â€“400"
+                                                                       ],
+                                                            "food":  "Himachali dham (traditional feast), Siddu (steamed bread with walnut paste), Trout fish from Beas River.",
+                                                            "accommodation":  "Budget: Mall Road guesthouses INR 800â€“2,000. Wildflower Hall: INR 18,000+ (finest mountain hotel)."
+                                                        },
+                                             "manali":  {
+                                                            "character":  "The adventure capital of North India. 2,050m altitude. Gateway to Rohtang Pass, Spiti, and the Leh-Manali Highway.",
+                                                            "bestTime":  "Mayâ€“October. Rohtang Pass open Juneâ€“October.",
+                                                            "mustDo":  [
+                                                                           "Rohtang Pass (3,978m) â€” snow year-round, extraordinary mountain scenery, INR 500 permit + taxi",
+                                                                           "Old Manali village â€” the genuine village above tourist Manali, apple orchards, Hadimba Temple",
+                                                                           "Hadimba Devi Temple â€” a 1553 wooden temple in a deodar cedar forest, free",
+                                                                           "River rafting on the Beas â€” Grade 2â€“4 rapids, INR 600â€“1,200"
+                                                                       ],
+                                                            "food":  "Sidu, trout, Himachali dham, Tibetan momos at Old Manali cafÃ©s.",
+                                                            "hiddenGem":  "Naggar Castle â€” a 16th-century castle 22km from Manali, breathtaking views, almost no tourists, INR 50."
+                                                        },
+                                             "dharamshala_mcleod_ganj":  {
+                                                                             "character":  "The seat of the Tibetan government-in-exile. The Dalai Lama\u0027s residence. Tibetan Buddhism, monasteries, and the best momos in India.",
+                                                                             "bestTime":  "Marchâ€“June, Septemberâ€“November. Avoid Julyâ€“August (monsoon).",
+                                                                             "mustDo":  [
+                                                                                            "Tsuglagkhang Temple Complex â€” the Dalai Lama\u0027s residence, main temple, museum, free",
+                                                                                            "Dharamkot village walk â€” the village above McLeod Ganj, Israeli-influenced cafÃ©s, mountain views",
+                                                                                            "Norbulingka Institute â€” Tibetan arts and crafts preservation, extraordinary architecture, INR 50"
+                                                                                        ],
+                                                                             "food":  "Tibetan momos (the best in India), Thukpa, butter tea, bakeries in McLeod Ganj."
+                                                                         },
+                                             "spiti_valley":  {
+                                                                  "character":  "The most dramatic mountain valley accessible by road in India. At 3,800â€“4,500m. Monasteries, the Spiti River, moonscapes.",
+                                                                  "bestTime":  "Juneâ€“September only. Completely closed in winter.",
+                                                                  "mustDo":  [
+                                                                                 "Key Monastery (Ki Gompa) â€” the most dramatically sited monastery in India, above the Spiti River",
+                                                                                 "Kibber village â€” one of the highest villages in the world accessible by road (4,200m)",
+                                                                                 "Dhankar Lake â€” 4,200m trek above Dhankar village, extraordinary views"
+                                                                             ],
+                                                                  "hiddenGem":  "Pin Valley National Park â€” snow leopard territory, the best chance of snow leopard sighting in India with a local guide.",
+                                                                  "accommodation":  "Homestays in villages: INR 800â€“1,500 including meals. No luxury options."
+                                                              }
+                                         },
+                    "uttarakhand":  {
+                                        "overview":  "Devbhoomi â€” the Land of the Gods. Rishikesh, Haridwar, the Char Dham pilgrimage, Jim Corbett, the Nanda Devi massif.",
+                                        "rishikesh":  {
+                                                          "character":  "The Yoga Capital of the World. Where the Beatles came in 1968. The Ganga emerging from the Himalayas. The adventure sports capital of North India.",
+                                                          "bestTime":  "Octoberâ€“April. Avoid Juneâ€“August (monsoon â€” river too high for rafting).",
+                                                          "mustDo":  [
+                                                                         "Laxman Jhula suspension bridge at dawn â€” the Ganga in morning light, temples on both banks",
+                                                                         "Ganga Aarti at Triveni Ghat â€” evening ceremony, free, extraordinary atmosphere",
+                                                                         "River rafting on the Ganga â€” Grade 2â€“4 rapids, INR 800â€“1,500",
+                                                                         "Yoga class at one of the ashrams â€” Parmarth Niketan or Sivananda Ashram"
+                                                                     ],
+                                                          "food":  "The vegetarian food in Rishikesh is extraordinary â€” the Israeli, Tibetan, and South Indian restaurants along the ghats. Chole bhature, banana pancakes, thali.",
+                                                          "hiddenGem":  "Neelkanth Mahadev Temple â€” 34km above Rishikesh, the most sacred Shiva temple in the region, set against the Garhwal Himalayas, almost no foreign tourists.",
+                                                          "accommodation":  "Budget: INR 400â€“1,200 (ashram stays from INR 200). Mid: INR 2,000â€“5,000. Luxury: Ananda in the Himalayas (INR 30,000+)."
+                                                      },
+                                        "haridwar":  {
+                                                         "character":  "One of the four sacred cities of Hindu pilgrimage. The Ganga after descending from the Himalayas. The Ganga Aarti at Har Ki Pauri is the most famous religious evening in India.",
+                                                         "mustDo":  [
+                                                                        "Ganga Aarti at Har Ki Pauri ghat â€” every evening at sunset, the most photographed religious ceremony in India",
+                                                                        "Har Ki Pauri ghat at 5am â€” when devotees take their sacred bath before sunrise"
+                                                                    ]
+                                                     },
+                                        "nainital":  {
+                                                         "character":  "A lake town in the Kumaon hills. Colonial-era buildings, boat rides, the Mall Road.",
+                                                         "mustDo":  [
+                                                                        "Nainital Lake boat ride",
+                                                                        "Naini Devi Temple",
+                                                                        "Snow View Point via cable car (INR 175)"
+                                                                    ],
+                                                         "accommodation":  "Budget: INR 800â€“2,000. The Naini Retreat: INR 5,000+."
+                                                     }
+                                    },
+                    "northeast_india":  {
+                                            "overview":  "India\u0027s most overlooked region. Eight states with distinct languages, cuisines, and cultures. Meghalaya, Assam, Nagaland, Sikkim, Arunachal Pradesh, Manipur, Mizoram, Tripura. Requires Inner Line Permit for most states.",
+                                            "meghalaya":  {
+                                                              "character":  "The wettest place on earth. Living root bridges (grown from rubber tree roots over 500 years). Cherrapunji and Mawsynram. The cleanest rivers in Asia.",
+                                                              "mustDo":  [
+                                                                             "Double Decker Living Root Bridge, Nongriat village â€” 3,000-step descent into rainforest. The most extraordinary natural structure in India. Free.",
+                                                                             "Nohkalikai Falls â€” the tallest plunge waterfall in India (340m), near Cherrapunji",
+                                                                             "Dawki river and its transparent water â€” the most transparent natural water in India"
+                                                                         ],
+                                                              "permits":  "No ILP required for Indian citizens. Foreign nationals: Restricted Area Permit for some areas.",
+                                                              "bestTime":  "Octoberâ€“May. Juneâ€“September: extreme monsoon (Mawsynram receives the most rainfall on earth)."
+                                                          },
+                                            "assam":  {
+                                                          "character":  "Tea country. One-horned rhinoceros. The Brahmaputra River. Kaziranga National Park.",
+                                                          "mustDo":  [
+                                                                         "Kaziranga National Park â€” highest density of one-horned rhinoceroses in the world. Jeep safari INR 3,500. UNESCO World Heritage.",
+                                                                         "Majuli Island â€” largest river island in the world, neo-Vaishnavite culture, accessible by ferry",
+                                                                         "Kamakhya Temple, Guwahati â€” one of the most important Shakti temples in India"
+                                                                     ],
+                                                          "food":  "Assamese thali, tenga (sour fish curry), pitha (rice cakes), Assam tea from source.",
+                                                          "bestTime":  "Novemberâ€“April."
+                                                      },
+                                            "sikkim":  {
+                                                           "character":  "India\u0027s smallest state and first organic state. Buddhist monasteries, the Himalayas, rhododendron forests. Kanchenjunga (world\u0027s third highest mountain) visible from Gangtok.",
+                                                           "mustDo":  [
+                                                                          "Rumtek Monastery â€” the most important Karma Kagyu monastery outside Tibet",
+                                                                          "Nathula Pass (4,310m) â€” the India-China border pass, accessible from Gangtok with permit",
+                                                                          "Yumthang Valley â€” the Valley of Flowers, 3,564m, INR 200 permit"
+                                                                      ],
+                                                           "permits":  "ILP required for Indian citizens. Protected Area Permit for foreign nationals.",
+                                                           "bestTime":  "Marchâ€“May (rhododendrons), Octoberâ€“November (clear skies, mountain views)."
+                                                       }
+                                        },
+                    "andaman_islands":  {
+                                            "overview":  "The finest islands in India. The Andaman Sea. Havelock (Radhanagar Beach â€” Asia\u0027s best beach), Neil Island (more secluded), Port Blair (the capital).",
+                                            "bestTime":  "Novemberâ€“April. Mayâ€“October: monsoon, rough sea.",
+                                            "permits":  "Indian citizens: no permit needed. Foreign nationals: Restricted Area Permit (issued on arrival at Port Blair airport).",
+                                            "mustDo":  [
+                                                           "Radhanagar Beach, Havelock â€” consistently ranked Asia\u0027s best beach",
+                                                           "Elephant Beach snorkelling â€” coral reefs, sea turtles, INR 500 boat",
+                                                           "Cellular Jail, Port Blair â€” the British colonial prison where freedom fighters were held, INR 30",
+                                                           "Scuba diving â€” one of the best diving in India, visibility 25â€“30m, Indian Ocean marine life"
+                                                       ],
+                                            "food":  "Seafood: grilled tuna, lobster, prawn curry. The fish here was caught that morning.",
+                                            "transport":  "Port Blair to Havelock: government ferry INR 420 or speedboat INR 1,000â€“1,500 each way.",
+                                            "accommodation":  "Havelock: Beach No. 5 guesthouses INR 1,500â€“4,000. Eco resort on Radhanagar: INR 5,000â€“15,000.",
+                                            "bestTime_detail":  "Februaryâ€“April for best diving visibility. Novemberâ€“January: pleasant weather and relatively uncrowded."
+                                        },
+                    "varanasi":  {
+                                     "overview":  "The oldest continuously inhabited city in the world. The spiritual capital of Hinduism. Witnessing life and death simultaneously on the same ghats. Not for everyone.",
+                                     "bestTime":  "Octoberâ€“March. Avoid Aprilâ€“June (extreme heat). Dev Diwali (November) is extraordinary.",
+                                     "mustDo":  [
+                                                    "Ganga Aarti at Dashashwamedh Ghat â€” every evening at sunset, 20+ priests performing fire ceremony in synchrony",
+                                                    "Morning boat ride at 5am â€” before sunrise, the ghats being used for yoga, bathing, laundry, prayer, cremation simultaneously",
+                                                    "Manikarnika Ghat â€” the cremation ghat burning 24 hours. Witnessing respectfully from distance.",
+                                                    "Narrow lanes of the old city â€” getting lost is mandatory. Every turn reveals a temple, a sweet shop, a silk weaver.",
+                                                    "Sarnath â€” 10km from Varanasi, where the Buddha gave his first sermon, INR 200"
+                                                ],
+                                     "food":  "Kachori sabzi (INR 30), Malaiyo (winter morning sweet, INR 50), Banarasi paan, Lassi at Blue Lassi shop.",
+                                     "hiddenGem":  "Tulsi Ghat at 5am â€” quieter than Dashashwamedh, a fishing community also lives here. The combination of fishing boats, temple bells, and river is the most genuine Varanasi experience.",
+                                     "important":  "Touts at Varanasi are aggressive â€” boat touts especially. Fix price before boarding any boat. Authorised rate: INR 200â€“400/hour for the full boat.",
+                                     "accommodation":  "Heritage ghats guesthouses: INR 800â€“3,000. Luxury: Brijrama Palace (on the Ganga, INR 15,000+)."
+                                 },
+                    "karnataka":  {
+                                      "overview":  "Bangalore, Mysore, Hampi, Coorg, and the extraordinary Hoysala temples.",
+                                      "mysore":  {
+                                                     "character":  "India\u0027s cleanest city. Mysore Palace (most visited monument after the Taj), silk, sandalwood, Dussehra festival.",
+                                                     "mustDo":  [
+                                                                    "Mysore Palace â€” the maharaja\u0027s palace lit with 100,000 lights on Sunday evenings and during Dussehra, INR 200 foreigners",
+                                                                    "Chamundi Hill â€” the hill above Mysore with Chamundeshwari Temple, city view",
+                                                                    "Devaraja Market â€” 19th-century covered market, largest flower market in South India",
+                                                                    "Silk weaving factory â€” Karnataka Silk Industries Corporation, see silk made"
+                                                                ],
+                                                     "food":  "Mysore pak (the original), Mysore masala dosa, set dosa.",
+                                                     "hiddenGem":  "Somnathpur Hoysala Temple â€” 13km from Mysore, the most perfectly preserved Hoysala temple, extraordinary star-shaped sculpture, almost no tourists, INR 25.",
+                                                     "bestTime":  "Octoberâ€“March. Dussehra festival (October) â€” the most spectacular public festival in South India."
+                                                 },
+                                      "hampi":  {
+                                                    "character":  "UNESCO World Heritage ruins of the Vijayanagara Empire across a boulder landscape unlike anywhere else on earth. The ruins of a city that was once the second largest in the world.",
+                                                    "mustDo":  [
+                                                                   "Virupaksha Temple â€” still active, 7th century, the sunrise view from the gopuram (INR 0 to enter)",
+                                                                   "Vittala Temple â€” the famous stone chariot and musical pillars, INR 600 foreigners",
+                                                                   "Matanga Hill sunrise â€” 30-minute climb, 360Â° view of ruins, boulders, and paddy fields",
+                                                                   "Hippie Island (Virupapur Gaddi) across the river â€” the bohemian community across the Tungabhadra"
+                                                               ],
+                                                    "food":  "Unlimited thali restaurants (INR 100â€“150), banana pancakes, filter coffee.",
+                                                    "hiddenGem":  "Anegundi â€” the village across the river, the ancient capital before Hampi, almost no tourists, traditional pottery and crafts.",
+                                                    "accommodation":  "Guesthouses in Hampi Bazaar: INR 400â€“1,500. Across the river: INR 600â€“2,000.",
+                                                    "bestTime":  "Octoberâ€“February."
+                                                },
+                                      "coorg":  {
+                                                    "character":  "India\u0027s Scotland. Coffee and cardamom estates in the Western Ghats. Misty hills, waterfalls, home-stays in plantation houses.",
+                                                    "mustDo":  [
+                                                                   "Coffee plantation walk â€” walk through an estate picking and learning coffee processing",
+                                                                   "Abbey Falls â€” in the middle of coffee and spice plantations, free",
+                                                                   "Raja\u0027s Seat, Madikeri â€” the sunset viewpoint of Coorg",
+                                                                   "Dubare Elephant Camp â€” elephant bathing in the Cauvery River, INR 150"
+                                                               ],
+                                                    "food":  "Coorg pork curry (unique to this community), Pandi curry, Kadambuttu (rice dumplings), Akki roti.",
+                                                    "accommodation":  "Plantation homestays: INR 3,000â€“8,000 including meals. Orange County Resort: INR 12,000+.",
+                                                    "bestTime":  "Octoberâ€“May."
+                                                }
+                                  },
+                    "tamil_nadu":  {
+                                       "overview":  "The heartland of Dravidian culture. The most extraordinary temple architecture in India. Excellent food. The Chettinad cuisine region.",
+                                       "madurai":  {
+                                                       "character":  "The temple city. The Meenakshi Amman Temple is the most extraordinary active temple in India.",
+                                                       "mustDo":  [
+                                                                      "Meenakshi Amman Temple â€” active temple complex with 14 gopurams, the most impressive Hindu temple architecture in existence. Free entry (INR 50 for camera). Go at 5am when the morning puja begins.",
+                                                                      "Thirumalai Nayakkar Palace â€” the 17th-century Nayaka ruler\u0027s palace, INR 50"
+                                                                  ],
+                                                       "food":  "Jigarthanda (local cold drink unique to Madurai), Kari dosa, Chettinad cuisine (30km away in Karaikudi).",
+                                                       "hiddenGem":  "Gandhi Memorial Museum, Madurai â€” the museum where Gandhi\u0027s blood-stained dhoti is preserved from his assassination. Free. Deeply moving.",
+                                                       "bestTime":  "Octoberâ€“March."
+                                                   },
+                                       "mahabalipuram":  {
+                                                             "character":  "UNESCO World Heritage coastal temple town. Shore Temple, the Five Rathas (rock-cut chariots), the enormous bas-relief of Arjuna\u0027s Penance.",
+                                                             "mustDo":  [
+                                                                            "Shore Temple at sunrise â€” 7th-8th century, on the Bay of Bengal, INR 600 foreigners",
+                                                                            "Arjuna\u0027s Penance â€” the world\u0027s largest bas-relief, 9x27m, carved in the 7th century, free",
+                                                                            "Five Rathas â€” monolithic rock-cut temples, INR 600"
+                                                                        ],
+                                                             "bestTime":  "Octoberâ€“March. 60km from Chennai."
+                                                         }
+                                   },
+                    "gujarat":  {
+                                    "overview":  "The land of Gandhi, the Rann of Kutch, the last Asiatic lions, and the most extraordinary salt desert in the world.",
+                                    "ahmedabad":  {
+                                                      "character":  "India\u0027s first UNESCO World Heritage city. The walled city has 600 years of continuous habitation, extraordinary pol neighbourhoods, and excellent food.",
+                                                      "mustDo":  [
+                                                                     "Old City pol walk â€” the traditional neighbourhood system of Ahmedabad, the finest surviving urban heritage in Gujarat",
+                                                                     "Sabarmati Ashram â€” Mahatma Gandhi\u0027s home, from which the Dandi Salt March began, free",
+                                                                     "Adalaj Vav stepwell â€” one of the finest carved stepwells in India, free",
+                                                                     "Swaminarayan Akshardham â€” the BAPS temple (one of 3 in the world), free"
+                                                                 ],
+                                                      "food":  "Dhokla, khandvi, fafda-jalebi, Gujarati thali (unlimited). Best at Agashiye (rooftop restaurant in heritage haveli), Gordhan Thal for thali.",
+                                                      "hiddenGem":  "Modhera Sun Temple â€” the finest sun temple in India, 102km from Ahmedabad, almost no tourists, INR 100.",
+                                                      "bestTime":  "Octoberâ€“March."
+                                                  },
+                                    "rann_of_kutch":  {
+                                                          "character":  "The largest salt desert in the world. The Great Rann stretches 7,500 sq km. The white salt flats at sunset and sunrise are among the most extraordinary landscapes on earth.",
+                                                          "mustDo":  [
+                                                                         "Rann Utsav â€” the cultural festival Novemberâ€“February, with the white salt flats under a full moon",
+                                                                         "Kalo Dungar (Black Hill) â€” the highest point in Kutch, views of the Rann",
+                                                                         "Bhuj Aina Mahal â€” the palace of mirrors"
+                                                                     ],
+                                                          "bestTime":  "Novemberâ€“February (dry season, the Rann Utsav).",
+                                                          "accommodation":  "Rann Utsav tent city: INR 5,000â€“15,000 including meals."
+                                                      }
+                                },
+                    "punjab":  {
+                                   "overview":  "The heartland of Sikh culture. Amritsar and the Golden Temple. The land of mustard fields in winter.",
+                                   "amritsar":  {
+                                                    "character":  "The holiest city for Sikhs. The Golden Temple (Harmandir Sahib) is the most spiritually overwhelming and most generous place in India â€” the langar (community kitchen) feeds 100,000 people daily for free.",
+                                                    "mustDo":  [
+                                                                   "Golden Temple (Harmandir Sahib) â€” open 24 hours, free entry, free langar (community meal). The most peaceful hour: 4am when the first prayers begin.",
+                                                                   "Langar â€” eat the free community meal alongside Sikhs, pilgrims, and travellers. The largest free kitchen in the world.",
+                                                                   "Wagah Border ceremony â€” 30km from Amritsar, the daily flag-lowering ceremony at the India-Pakistan border, free",
+                                                                   "Jallianwala Bagh â€” the memorial garden where the British Massacre of 1919 occurred, free"
+                                                               ],
+                                                    "food":  "Amritsari kulcha (stuffed bread with chickpeas), lassi at Gurdas Ram, fish tikka at famous restaurants on Lawrence Road.",
+                                                    "hiddenGem":  "Akal Takht inside the Golden Temple complex â€” the highest Sikh temporal seat, more architecturally extraordinary than the Golden Temple itself and completely overlooked by most visitors.",
+                                                    "accommodation":  "Budget: near Golden Temple INR 600â€“1,500. Heritage: Mrs. Bhandari\u0027s Guesthouse (colonial home, INR 3,000+).",
+                                                    "transport":  "Amritsar has good rail connections from Delhi (5â€“6 hours). From Chandigarh (3 hours). The city is small â€” walk or auto-rickshaw everywhere."
+                                                }
+                               },
+                    "odisha":  {
+                                   "overview":  "The most undervisited major state in India. Puri, Konark Sun Temple, Chilika Lake (Asia\u0027s largest brackish water lagoon), and the Jagannath Temple.",
+                                   "mustDo":  [
+                                                  "Konark Sun Temple â€” the 13th-century UNESCO temple in the shape of a massive chariot, INR 600 foreigners",
+                                                  "Puri Jagannath Temple â€” one of the four sacred dhams of Hinduism (non-Hindus cannot enter the inner sanctum)",
+                                                  "Chilika Lake â€” the pink flamingos, Irrawaddy dolphins, migratory birds"
+                                              ],
+                                   "bestTime":  "Novemberâ€“March.",
+                                   "hiddenGem":  "Udayagiri and Khandagiri Caves â€” 2,000-year-old Jain caves carved into rock, almost no tourists, INR 25 foreigners."
+                               }
+                },
+    "budgetTravelIndia":  {
+                              "philosophy":  "India is the world\u0027s finest destination for intelligent budget travel. The secret: eat where locals eat, use public transport, stay in locally-owned guesthouses rather than hotel chains.",
+                              "trainTravel":  {
+                                                  "whyTrain":  "The Indian Railways network connects 7,000+ stations. For journeys under 8 hours, trains are faster than flights when airport time is factored in, and dramatically cheaper.",
+                                                  "classes":  {
+                                                                  "sleeper_SL":  "INR 200â€“400 for most long journeys. Basic but functional. AC compartments exist for the privileged few.",
+                                                                  "3A":  "3-tier AC, INR 500â€“1,200. The best value for comfort. Curtain privacy.",
+                                                                  "2A":  "2-tier AC, INR 800â€“2,000. More privacy.",
+                                                                  "1A":  "Equivalent to business class. INR 2,000â€“5,000."
+                                                              },
+                                                  "booking":  "IRCTC.co.in is the official site. Download the IRCTC Rail Connect app. Tourist Quota (5â€“10 seats per train reserved for foreign tourists, available at major station PRS counters). Tatkal quota: emergency booking 1 day before at 30% premium.",
+                                                  "bestRoutes":  {
+                                                                     "delhi_jaipur":  "4.5 hours, 14 trains daily. Shatabdi Express best.",
+                                                                     "delhi_agra":  "2 hours, Gatimaan Express is fastest.",
+                                                                     "mumbai_goa":  "8â€“12 hours, Konkan Railway is the most scenic railway in India.",
+                                                                     "chennai_madurai":  "6 hours",
+                                                                     "kolkata_darjeeling":  "NJP to Darjeeling by Toy Train (UNESCO) â€” 8 hours on the narrow-gauge",
+                                                                     "delhi_varanasi":  "8â€“12 hours, overnight sleeper"
+                                                                 }
+                                              },
+                              "food":  {
+                                           "strategy":  "Eat at dhabas (roadside restaurants) for most meals. Order thali whenever available. Never eat at restaurants attached to tourist sites.",
+                                           "budgetPerMeal":  {
+                                                                 "dhaba_thali":  "INR 80â€“200 â€” complete meal",
+                                                                 "street_breakfast":  "INR 20â€“60 (poha, idli, paratha, vada pav by region)",
+                                                                 "railway_platform_food":  "INR 30â€“100 â€” surprisingly good quality",
+                                                                 "temple_langar":  "Free â€” Sikh gurdwaras, Krishna temples",
+                                                                 "tourist_restaurant":  "INR 300â€“600 for inferior version of same food"
+                                                             },
+                                           "freeFood":  "Sikh Gurudwaras serve free langar (community meal) to anyone regardless of religion, nationality, or wealth. The langar at Golden Temple Amritsar feeds 100,000 people daily. Always accept if offered.",
+                                           "regionalGuide":  {
+                                                                 "north":  "Butter chicken (Punjab), dal makhani (Delhi), rogan josh (Kashmir), momos (Himachal/Uttarakhand)",
+                                                                 "south":  "Masala dosa, idli-sambar, Kerala fish curry, Chettinad chicken, Hyderabadi biryani",
+                                                                 "west":  "Pav bhaji (Mumbai), vada pav (Maharashtra), dhokla (Gujarat), Rajasthani dal baati churma, Goan fish curry",
+                                                                 "east":  "Macher jhol (Bengali fish curry), rosogolla (Bengali sweet origin), momos (Northeast)"
+                                                             }
+                                       },
+                              "accommodation":  {
+                                                    "budgetRange":  "INR 500â€“1,500 for a clean room in most cities",
+                                                    "bestValue":  [
+                                                                      "Heritage havelis converted to guesthouses in Rajasthan â€” same historic architecture as expensive hotels at 20% of the price",
+                                                                      "Homestays in Kerala and Himachal Pradesh â€” family homes, home-cooked meals included, INR 800â€“1,500",
+                                                                      "Railway retiring rooms at major stations â€” clean, functional, INR 400â€“1,200, operated by Indian Railways",
+                                                                      "YMCA/YWCA in major cities â€” reliable quality, central locations, INR 800â€“1,800"
+                                                                  ],
+                                                    "tip":  "Never pay full rack rate at any Indian hotel â€” walk-in rate is always 20â€“40% more than Booking.com or calling directly. Always compare before paying."
+                                                },
+                              "savingsByCity":  {
+                                                    "delhi":  "Metro vs Uber: saves INR 100â€“200/trip. Chandni Chowk breakfast vs hotel breakfast: saves INR 200â€“300.",
+                                                    "jaipur":  "Local thali vs tourist thali: saves INR 300â€“400. Official guide (INR 500 at Amber Fort) vs tout: saves INR 300â€“500.",
+                                                    "varanasi":  "Fixed-price boat (INR 200â€“400) vs negotiating without knowledge (INR 1,500 is default ask): saves INR 1,100.",
+                                                    "goa":  "Scooter hire (INR 400/day) vs taxis (INR 300â€“500/trip): saves INR 800â€“1,500/day for multi-destination days.",
+                                                    "kerala":  "Sadya at local restaurant vs tourist hotel: saves INR 600â€“900."
+                                                }
+                          },
+    "topBudgetDestinations":  {
+                                  "rishikesh":  "INR 1,200â€“2,500/day including accommodation, food, yoga class, adventure activity",
+                                  "hampi":  "INR 800â€“2,000/day â€” ruins, cycling, river crossing. The most extraordinary archaeological site for the price.",
+                                  "mcleod_ganj":  "INR 1,000â€“2,500/day â€” Tibetan culture, Himalayan setting, good cafÃ©s",
+                                  "varanasi":  "INR 1,000â€“2,500/day â€” ghats, temples, spiritual atmosphere",
+                                  "mysore":  "INR 1,000â€“2,500/day â€” palaces, markets, excellent food, Dussehra festival",
+                                  "pondicherry":  "INR 1,500â€“3,000/day â€” French colonial architecture, ashram, beach, cafÃ©s",
+                                  "ooty_kodaikanal":  "INR 1,000â€“2,500/day â€” Nilgiri hill station, tea estates, toy train"
+                              },
+    "indianFestivals":  {
+                            "diwali":  "Octoberâ€“November. The Festival of Lights. Most spectacular in Varanasi (River of Lights on the Ganga), Jaipur, and Amritsar. Book accommodation 2â€“3 months ahead for Varanasi Diwali.",
+                            "holi":  "March. The Festival of Colours. Most intense in Mathura-Vrindavan (INR 300â€“1,000 for organised events) and Rajasthan. Wear clothes you can discard.",
+                            "dussehra":  "October. Victory of good over evil. Mysore celebrates most grandly â€” the Mysore Palace illuminated with 100,000 lights for 10 nights.",
+                            "navratri_garba":  "Septemberâ€“October. Nine nights of garba dancing. Most extraordinary in Gujarat â€” Navratri in Ahmedabad and Baroda is the finest garba in the world.",
+                            "kumbh_mela":  "Every 4 years in rotation between Prayagraj, Haridwar, Nashik, and Ujjain. The world\u0027s largest human gathering. 100 million people at Prayagraj Maha Kumbh (2025). Free. Life-altering for those with the stamina.",
+                            "onam":  "Augustâ€“September. Kerala\u0027s harvest festival. The sadya (banana leaf feast) at its most elaborate. The snake boat race at Alleppey.",
+                            "pushkar_camel_fair":  "November. The world\u0027s largest camel fair. Pushkar, Rajasthan. 50,000 camels, traders, musicians, acrobats, and tourists.",
+                            "hornbill_festival":  "December 1â€“10. Nagaland. All Naga tribes gather for cultural performances, tribal games, and traditional music. The most extraordinary cultural festival accessible in India."
+                        },
+    "visaIntelligence":  {
+                             "foreignNationals":  "e-Visa available for 150+ nationalities at indianvisaonline.gov.in. Tourist e-Visa: USD 25 (30 days) or USD 80 (1 year multiple entry). Apply minimum 4 days before travel.",
+                             "important":  "e-Visa is linked to your passport biometrically. Carry the printed e-Visa approval at all times. The 1-year multiple entry e-Visa (USD 80) is dramatically better value for anyone visiting twice in a year.",
+                             "innerLinePermits":  "Required for Indian citizens visiting: Arunachal Pradesh, Nagaland, Manipur, and Mizoram. Available online at most state government portals.",
+                             "restrictedAreaPermit":  "Required for foreign nationals in Sikkim inner areas, Andaman restricted areas, and areas near international borders. Check with tourism department of each state."
+                         },
+    "pricingBenchmarks":  {
+                              "auto_rickshaw_short":  "INR 30â€“80 (metered) or INR 50â€“150 (negotiated)",
+                              "ola_uber_short":  "INR 80â€“200",
+                              "train_sleeper_per_hour":  "INR 25â€“40",
+                              "train_3ac_per_hour":  "INR 60â€“100",
+                              "budget_dhaba_meal":  "INR 80â€“200",
+                              "mid_restaurant":  "INR 300â€“700/person",
+                              "fine_dining_india":  "INR 800â€“3,000/person",
+                              "hotel_budget":  "INR 500â€“1,500/night",
+                              "hotel_mid":  "INR 2,000â€“7,000/night",
+                              "hotel_heritage_luxury":  "INR 8,000â€“50,000/night",
+                              "taj_mahal_entry_foreigner":  "INR 1,100",
+                              "amber_fort_foreigner":  "INR 500",
+                              "kerala_houseboat_2person":  "INR 8,000â€“15,000/night",
+                              "desert_camping_jaisalmer":  "INR 1,500â€“5,000/night",
+                              "rajasthan_camel_safari":  "INR 500â€“2,000/hour"
+                          },
+    "savingsIntelligence":  [
+                                "Book all trains minimum 2 weeks ahead on IRCTC â€” Tatkal (emergency) booking adds 30% premium",
+                                "Eat thali at local restaurants (INR 120â€“200 unlimited) vs tourist restaurant equivalent (INR 450â€“800)",
+                                "Take shared tempo/auto in hill stations vs private taxi â€” saves INR 800â€“1,500/day",
+                                "Golden Temple langar (free) for any meal in Amritsar vs restaurant (INR 150â€“300/meal)",
+                                "Government-approved guides at heritage sites (fixed fee) vs touts (2â€“3x price for same tour)",
+                                "Museum combined tickets (Delhi museums, Rajasthan forts) vs individual entry â€” saves 20â€“30%",
+                                "Stay in heritage havelis converted to guesthouses in Rajasthan â€” same architecture as expensive heritage hotels at 15% of the price",
+                                "Local bus between towns in Rajasthan (INR 50â€“150) vs AC bus (INR 300â€“500) vs private taxi (INR 1,500â€“3,000)"
+                            ],
+    "practical":  {
+                      "electricity":  "Type C and D plugs. 230V 50Hz. Indian standard plug (Type D, 3 round pins) is universal throughout India.",
+                      "bestExchange":  "ATMs in major cities. Never exchange at airports â€” 8â€“12% worse rates. State Bank of India and HDFC ATMs most reliable for foreign cards.",
+                      "simCard":  "Jio or Airtel prepaid SIM â€” available at airport and any mobile shop. Requires passport copy and photo. INR 200â€“500 for 1â€“2GB daily data. Jio has best 4G coverage.",
+                      "water":  "Never drink tap water. Sealed bottled water INR 20 (1 litre) everywhere.",
+                      "tipping":  "Not mandatory but appreciated. INR 20â€“50 at restaurants. Auto-rickshaws: round up. Hotels: INR 50â€“100 for good service.",
+                      "apps":  "Ola/Uber (auto and cab), IRCTC (trains), Zomato (food delivery and restaurants), MakeMyTrip (hotels and flights), Google Maps (works excellently in India)"
+                  },
+    "insiderIntelligence":  [
+                                "India is not one destination â€” it is a continent\u0027s worth of culture, cuisine, and landscape within national borders. A person who has visited Delhi and Goa has not seen India. They have seen two very different pieces of it.",
+                                "The golden rule of Indian street food: eat from the stall with the most local customers and the highest turnover. Food safety in India is about freshness and volume â€” the busy stall is always safer than the quiet one.",
+                                "Indian railways is the world\u0027s most complex ticketing system. Use only the IRCTC website or app. Never buy from touts outside the station.",
+                                "The most extraordinary free experiences in India: Golden Temple langar (Amritsar), sunrise at the Taj Mahal from Mehtab Bagh (across the river), morning at the Ganga ghats in Varanasi, dawn at the Living Root Bridge in Meghalaya.",
+                                "Hindi is NOT spoken everywhere. In Tamil Nadu, Karnataka, and Kerala, locals may not respond to Hindi and may find it presumptuous. English is the working language in South India.",
+                                "Indian time (IST) is also known as \u0027Indian Standard Time\u0027 but informally stands for \u0027Indian Stretchable Time\u0027. Meetings, events, and trains run late. Build buffer time into any schedule.",
+                                "The Indian head wobble (bobbing from side to side) means \u0027yes\u0027, \u0027OK\u0027, or \u0027I understand\u0027. It does NOT mean \u0027no\u0027.",
+                                "Most Indian temples have strict dress codes. Carry a dupatta/scarf for women and wear full-length trousers for men. Many temples do not allow leather items inside.",
+                                "Bargaining is expected at markets, souvenir shops, and with auto-rickshaws where meters are not used. Start at 50% of asking price. Never bargain at restaurants or in shops with fixed prices displayed.",
+                                "The best months to visit most of India are October and November â€” after the monsoon when everything is green and before the peak tourist season. October pricing is lower, crowds are thinner, and the landscape is at its most beautiful."
+                            ],
+    "whyPeopleFallInLove":  "People arrive for the Taj Mahal. They stay when they witness something they were not expecting â€” a morning puja at a ghat they found by accident, an invitation to a family home for chai, the call to prayer and temple bells happening simultaneously from adjacent buildings. They return because India is the only country that simultaneously overwhelms you and makes you feel that you have not understood it yet, and both feelings are correct. India does not reveal itself to the person who rushes. It reveals itself to the person who accepts that they will not understand it today and comes back anyway.",
+    "localTruths":  [
+                        "Most visitors think India is chaotic. India runs on a logic that takes three days to begin to read â€” the traffic that moves without signals, the negotiation that sounds like an argument, the hospitality that appears from nowhere. The apparent chaos is organised. The visitor who accepts this stops being frustrated and starts being amazed.",
+                        "Most visitors think India is one country. India is 28 countries with one passport, one currency, and one railway system. The person who visits Delhi and Goa has visited two places that share a flag and almost nothing else. The food, language, architecture, culture, and pace are completely different. India requires more than one trip.",
+                        "Most visitors think India is the ancient monuments. The ancient monuments are real and extraordinary. But the living traditions â€” the artisan weaving in Varanasi, the morning aarti at the ghats, the temple ceremony in a Bali-equivalent village in Tamil Nadu â€” are the India that cannot be found in photographs and cannot be adequately described. It requires presence."
+                    ],
+    "ifYouOnlyHadOneChance":  {
+                                  "breakfast":  "Chandni Chowk at 7am before the shops open â€” the wholesale traders working, the temples doing morning puja, the parathas at Paranthe Wali Gali being fried in clarified butter. The oldest market street in India at its most honest hour.",
+                                  "sunrise":  "Taj Mahal at opening, 30 minutes before sunrise â€” the most photographed building in human history, at the one hour when it belongs to almost no one. The mist on the Yamuna behind it. The marble changing colour as the sun rises. The version of this monument that exists in no travel photograph.",
+                                  "neighbourhood":  "Varanasi ghats at 5am â€” the morning boat ride before the tour boats arrive, watching the city use the river for yoga, bathing, laundry, prayer, and cremation simultaneously. The oldest continuously inhabited city in the world being itself.",
+                                  "meal":  "Thali at any local restaurant with locals eating â€” unlimited, regional, INR 120â€“200, every dish placed simultaneously on the banana leaf or steel plate. The meal that tells you more about where you are than any monument.",
+                                  "memory":  "Being invited somewhere you were not expecting â€” into a home for chai, to watch a ceremony from the outer courtyard, to join a family at the ghat. India\u0027s hospitality is not a tourism product. It is a cultural practice that has existed longer than most countries.",
+                                  "secret":  "The 5:30am on any Indian train â€” the chai vendor walking the platform, the fields appearing pale blue in the first light, your fellow passengers sharing food without being asked. The Indian railway at dawn is the most honest portrait of the country available to anyone with INR 200 and a willingness to be awake."
+                              },
+    "neighborhoodPersonalities":  {
+                                      "rajasthan":  [
+                                                        "Royal",
+                                                        "Colourful",
+                                                        "Desert",
+                                                        "Majestic"
+                                                    ],
+                                      "kerala":  [
+                                                     "Lush",
+                                                     "Culinary",
+                                                     "Backwater",
+                                                     "Quiet"
+                                                 ],
+                                      "varanasi":  [
+                                                       "Ancient",
+                                                       "Spiritual",
+                                                       "Confronting",
+                                                       "Sacred"
+                                                   ],
+                                      "mumbai":  [
+                                                     "Ambitious",
+                                                     "Cinematic",
+                                                     "Relentless",
+                                                     "Contradictory"
+                                                 ],
+                                      "delhi":  [
+                                                    "Historical",
+                                                    "Political",
+                                                    "Street Food",
+                                                    "Layered"
+                                                ],
+                                      "himachal_ladakh":  [
+                                                              "Mountain",
+                                                              "Buddhist",
+                                                              "Clean Air",
+                                                              "High"
+                                                          ],
+                                      "northeast":  [
+                                                        "Tribal",
+                                                        "Green",
+                                                        "Overlooked",
+                                                        "Extraordinary"
+                                                    ]
+                                  },
+    "residentSunday":  "A Delhi resident with one free Sunday: 6am Lodi Garden walk before the joggers arrive â€” the 15th-century tombs in morning mist, free, extraordinary. 8am Paranthe Wali Gali in Chandni Chowk for breakfast â€” the stuffed parathas being fried in clarified butter, INR 80-120. 10am Humayun\u0027s Tomb before the tour groups â€” the prototype for the Taj Mahal with a fraction of the crowd, INR 10 for Indians. 1pm Karim\u0027s near Jama Masjid â€” the mutton burra, the seekh kebab, open since 1913. Afternoon rest. 4pm Mehrauli Archaeological Park â€” 20+ medieval monuments in a park that most Delhi residents have never visited. Free. 7pm back home. This is the Delhi that the city\u0027s residents describe when they say they love where they live.",
+    "dayMemoryTargets":  {
+                             "arrival":  "The specific moment India makes itself known â€” the heat, the density, the simultaneity of ancient and modern, the smell of spices and diesel and marigolds and incense all at once. Then the first act of hospitality from a stranger: a chai offered without request, directions given with genuine investment, an invitation extended without expectation of return. The memory is the first evidence that India operates on human terms that no other country has quite matched.",
+                             "peak":  "The Taj Mahal at sunrise â€” but not the standard photograph. The walk through the Great Gate at 6am when the monument appears framed by the arch, and then the 20-minute walk across the garden as the light changes on the marble. OR the Ganga Aarti in Varanasi at dusk â€” the fire, the chanting, the river, the simultaneous life and death of the same waterfront. The memory is the moment India became irreducible to any single explanation.",
+                             "departure":  "The train station before departure â€” the chai wallahs, the families, the vendors, the noise, the extraordinary human density that is somehow organised. Then the specific quality of Indian light from a train window at dawn â€” the fields pale blue, the villages beginning their day, the sense of a country starting over every morning. The memory is the realisation that India is too large to have visited but exactly the right size to have experienced."
+                         },
+    "tripLengthGuide":  {
+                            "two_days":  {
+                                             "must_include":  [
+                                                                  "Taj Mahal at sunrise (if Agra)",
+                                                                  "OR Golden Temple langar in Amritsar",
+                                                                  "OR one genuine local meal wherever you are"
+                                                              ],
+                                             "skip":  [
+                                                          "Multiple cities",
+                                                          "Multiple monuments in same day"
+                                                      ],
+                                             "note":  "Two days in India should go deep in one place. The Taj Mahal deserves a full day. The Golden Temple deserves a full day. One thing done properly is infinitely better than three things rushed."
+                                         },
+                            "three_to_four_days":  {
+                                                       "must_include":  [
+                                                                            "Delhi-Agra Golden Triangle (3 days)",
+                                                                            "OR Rajasthan single city (Jaipur, Jodhpur, or Udaipur)",
+                                                                            "OR Kerala backwaters (3 nights minimum)"
+                                                                        ],
+                                                       "skip":  [
+                                                                    "Multi-state itinerary at this length"
+                                                                ],
+                                                       "note":  "Three to four days in India: one region, done properly. India punishes the traveller who tries to see too much too quickly."
+                                                   },
+                            "five_to_six_days":  {
+                                                     "must_include":  [
+                                                                          "Golden Triangle (Delhi-Agra-Jaipur)",
+                                                                          "OR Kerala (Kochi-Alleppey-Munnar)",
+                                                                          "OR Rajasthan (Jaipur-Jodhpur-Udaipur)"
+                                                                      ],
+                                                     "skip":  [
+                                                                  "Cross-country combinations that require 3+ flights"
+                                                              ],
+                                                     "note":  "Five to six days: one circuit done properly. Now depth is possible within a region."
+                                                 },
+                            "seven_plus_days":  {
+                                                    "must_include":  [
+                                                                         "One full region with day trips",
+                                                                         "Varanasi (minimum 2 nights)",
+                                                                         "At least one overnight train journey"
+                                                                     ],
+                                                    "skip":  [
+
+                                                             ],
+                                                    "note":  "At 7+ days India begins to reveal itself. The overnight train is mandatory â€” not for efficiency but for experience. The train IS the India."
+                                                }
+                        },
+    "antiPatterns":  [
+                         "Agra Fort AND Taj Mahal AND Fatehpur Sikri in a single day â€” each requires 2-3 hours of genuine attention. The Taj deserves its own morning. Agra Fort can follow. Fatehpur Sikri is a separate half-day.",
+                         "Multiple Rajasthan cities in a single day â€” Jaipur to Jodhpur to Udaipur as a 1-day drive is a travel day disguised as a sightseeing day. Each city deserves a minimum of 2 nights.",
+                         "Kerala houseboat AND Munnar hill station on the same day â€” they are 4-5 hours apart and represent completely different landscapes and experiences. Each deserves at least 2 nights.",
+                         "Varanasi ghat walk AND Sarnath on the same morning â€” Varanasi ghats at dawn require 2-3 hours of unhurried presence. Sarnath (10km away) is a separate half-day.",
+                         "Golden Temple in Amritsar AND Wagah Border ceremony on the same day without sufficient time â€” the Wagah ceremony is 30km from Amritsar. Attempting the Golden Temple morning AND the Wagah afternoon is physically possible but leaves neither done with full attention."
+                     ],
+    "meta":  {
+                 "_schemaVersion":  "3.0",
+                 "lastUpdated":  "2026-06",
+                 "lastVerified":  "2026-06",
+                 "nextReviewDue":  "2026-12",
+                 "dataQualityScore":  9,
+                 "note":  "Overview file â€” individual state files being built separately"
+             },
+    "geography":  {
+                      "mapCenter":  {
+                                        "lat":  20.5937,
+                                        "lng":  78.9629
+                                    },
+                      "googleMapsUrl":  "https://maps.google.com/?q=India",
+                      "timezone":  "IST UTC+5:30",
+                      "note":  "India has one time zone for the entire country despite its enormous size"
+                  },
+    "languageIntelligence":  {
+                                 "officialLanguages":  "22 recognised languages. Hindi and English official at national level.",
+                                 "workingLanguage":  "Hindi in North India. English in cities throughout India. South India: English more reliable than Hindi.",
+                                 "usefulHindiPhrases":  {
+                                                            "thank_you":  "Dhanyavaad",
+                                                            "how_much":  "Kitna hai?",
+                                                            "where_is":  "Kahan hai?",
+                                                            "please":  "Kripaya",
+                                                            "good":  "Accha"
+                                                        }
+                             },
+    "safetyIntelligence":  {
+                               "overallRating":  "Varies significantly by region â€” research specific destination",
+                               "safetyScore":  7,
+                               "generalNote":  "India is overwhelmingly safe for tourists but requires regional awareness.",
+                               "highRiskAreas":  "Manipur, parts of Jharkhand and Chhattisgarh â€” check MEA advisories specifically",
+                               "safestDestinations":  "Rajasthan, Kerala, Himachal Pradesh, Goa, Tamil Nadu generally very safe",
+                               "scamsToKnow":  [
+                                                   "Auto-rickshaw meter refusal â€” use Ola/Uber everywhere",
+                                                   "Tourist restaurant vs local restaurant: identical food 3-5x price difference",
+                                                   "Fake government tourist offices â€” only use India Tourism official offices"
+                                               ],
+                               "emergencyProtocol":  "Police: 100. Ambulance: 108. Women Helpline: 1091. Railway Emergency: 139."
+                           },
+    "healthIntelligence":  {
+                               "vaccinesRecommended":  [
+                                                           "Hepatitis A",
+                                                           "Typhoid",
+                                                           "Malaria prophylaxis for some regions â€” consult doctor"
+                                                       ],
+                               "waterSafety":  "NEVER drink tap water anywhere in India. Sealed bottled water only. Check seal before opening.",
+                               "stomachNote":  "First-time India visitors often experience digestive adjustment for 2-3 days. Carry ORS packets and loperamide.",
+                               "pharmacyAvailability":  "Pharmacies on every street in cities. MedPlus and Apollo nationwide chain."
+                           },
+    "gettingHere":  {
+                        "forForeignNationals":  {
+                                                    "eVisa":  "Available for 150+ nationalities at indianvisaonline.gov.in. USD 25 (30 days) or USD 80 (1 year multiple entry). Apply minimum 4 days ahead.",
+                                                    "majorAirports":  "Delhi (DEL), Mumbai (BOM), Bangalore (BLR), Chennai (MAA), Kolkata (CCU), Hyderabad (HYD)"
+                                                }
+                    },
+    "nearbyDestinations":  [
+                               {
+                                   "city":  "Sri Lanka",
+                                   "travelTime":  "1 hour by flight from Chennai/Bangalore",
+                                   "cost":  "INR 12,000-25,000 return flights",
+                                   "whyCombine":  "8 UNESCO sites, pristine beaches, extraordinary wildlife. Easy visa. Complementary to South India.",
+                                   "suggestIf":  "Visiting South India for 7+ days"
+                               },
+                               {
+                                   "city":  "Nepal",
+                                   "travelTime":  "2-3 hours by flight from Delhi/Mumbai",
+                                   "cost":  "INR 8,000-18,000 return",
+                                   "whyCombine":  "Everest base camp, Kathmandu temples, Pokhara lakeside. No visa for Indian passport holders.",
+                                   "suggestIf":  "Visiting North India/Himalayas"
+                               }
+                           ],
+    "liveIntelligence":  {
+                             "lastChecked":  "2026-06",
+                             "seasonalNow":  "June 2026 â€” monsoon beginning across most of India. Rajasthan: hot and dry. Kerala: full monsoon, houseboat limited. Ladakh/Spiti: BEST season. Goa: full monsoon, beaches mostly closed.",
+                             "currentAlerts":  "Always check specific state situation â€” India is a continent in complexity.",
+                             "strikesDisruptions":  "Bandhs (general strikes) occur periodically. Check local news before travel.",
+                             "entryRequirements":  "Indian citizens: domestic travel, no visa. Foreign nationals: e-Visa at indianvisaonline.gov.in.",
+                             "indianAdvisoryNote":  "For Indian citizens travelling domestically: no advisory needed. For international visitors to India: check home country advisory for India."
+                         },
+    "combinationIntelligence":  [
+                                    {
+                                        "sequence":  [
+                                                         "Taj Mahal sunrise from Mehtab Bagh (across river)",
+                                                         "Agra Fort (9am)",
+                                                         "Return Delhi afternoon"
+                                                     ],
+                                        "emotionalArc":  "The most photographed building at its most honest â†’ the fort where its builder was imprisoned within sight of it â†’ the context the capital gives everything. History as a continuous story.",
+                                        "bestFor":  [
+                                                        "firstTimer",
+                                                        "couple",
+                                                        "culture"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Varanasi ghats (5am boat)",
+                                                         "Local chai and breakfast",
+                                                         "Evening Ganga Aarti (sunset)"
+                                                     ],
+                                        "emotionalArc":  "Life and death witnessed simultaneously at dawn â†’ the simplest possible meal â†’ fire ceremony at the sacred river. The Varanasi full register.",
+                                        "bestFor":  [
+                                                        "solo",
+                                                        "culture",
+                                                        "recovering"
+                                                    ]
+                                    }
+                                ],
+    "photographyIntelligence":  {
+                                    "bestShotLocations":  [
+                                                              {
+                                                                  "name":  "Taj Mahal from Mehtab Bagh at sunrise",
+                                                                  "what":  "The Taj from the opposite bank, almost no tourists",
+                                                                  "bestTime":  "30 mins before sunrise"
+                                                              },
+                                                              {
+                                                                  "name":  "Varanasi ghats at dawn",
+                                                                  "what":  "Life and death on the same waterfront in first light",
+                                                                  "bestTime":  "5:00-7:00am"
+                                                              },
+                                                              {
+                                                                  "name":  "Jaisalmer fort at golden hour",
+                                                                  "what":  "The golden fort glowing, the desert behind it",
+                                                                  "bestTime":  "5:00-6:30pm"
+                                                              },
+                                                              {
+                                                                  "name":  "Amber Fort, Jaipur",
+                                                                  "what":  "The finest Mughal-Rajput fort, elephant processions, hilltop setting",
+                                                                  "bestTime":  "8:00-9:30am"
+                                                              }
+                                                          ],
+                                    "goldenHour":  "Season and region dependent. Rajasthan winter: 6:30-8:00am and 4:30-6:00pm. South India: similar timing.",
+                                    "droneRules":  "India DGCA requires permit for drone use near airports, monuments (within 3km of heritage sites), and government areas. The Taj Mahal area has strict no-fly zone."
+                                },
+    "accessibility":  {
+                          "wheelchairFriendly":  "Challenging in most heritage and traditional areas",
+                          "metroAccessibility":  "Delhi Metro, Mumbai Metro, Bangalore Metro all have lifts at major stations",
+                          "challengingAreas":  "Most monument sites have uneven surfaces, temples have steps, market areas very difficult",
+                          "seniorFriendlyScore":  5.5,
+                          "note":  "Indian Railways has accessible coaches on major routes. Book through IRCTC indicating disability."
+                      },
+    "_schemaVersion":  "3.0-intl",
+    "lastUpdated":  "2026-06"
 }

@@ -1,0 +1,276 @@
+{
+  "destination": "Chiang Mai",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Chiang Mai",
+    "chiang mai",
+    "thailand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Enthusiasts",
+      "Adventure Seekers",
+      "Food Lovers",
+      "Wellness Travelers",
+      "Nature Explorers"
+    ],
+    "notFor": [
+      "Beach Lovers",
+      "Luxury Shoppers",
+      "Party Goers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "4h 30min via Bangkok",
+    "flightFromMumbai": "4h 15min via Bangkok with Thai Airways and Air India",
+    "visaForIndians": "Thailand e-Visa USD 35, 60 days",
+    "currency": "Thai Baht (THB), 1 INR = 0.43 THB",
+    "timezone": "UTC+7",
+    "language": "Thai (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "November - January, due to cooler weather and festive events like Loy Krathong.",
+    "avoidMonth": "April, as it experiences extreme heat with temperatures often exceeding 40°C.",
+    "tipping": "Tipping is not mandatory but appreciated; rounding up the bill or leaving 20-50 THB is common."
+  },
+  "whyPeopleFallInLove": "The moment you step into a local café and inhale the aroma of freshly brewed Thai coffee mixed with the scent of grilled street food wafting from nearby stalls, you realize this place has a personality that lingers long after you leave.",
+  "honestTruth": "Many travelers underestimate the complexity of Chiang Mai's public transport system, leading to unexpected delays and frustrations when trying to navigate the city.",
+  "localTruths": [
+    "Most visitors think Chiang Mai is just about temples. Locals think it’s also about the thriving arts scene and the importance of night markets.",
+    "Most visitors rush through their itineraries. The best version of Chiang Mai is savored slowly, allowing time for spontaneous explorations.",
+    "Most visitors miss the early morning street food scene. The real Chiang Mai starts at dawn when local vendors prepare breakfast for the community."
+  ],
+  "neighborhoodPersonalities": {
+    "Old City": {
+      "tags": [
+        "historical",
+        "cultural",
+        "temples"
+      ],
+      "bestFor": "Exploring ancient temples and local street food.",
+      "avoid": "Can be crowded during the day, making it difficult to appreciate the temples."
+    },
+    "Nimmanhaemin": {
+      "tags": [
+        "trendy",
+        "artsy",
+        "modern"
+      ],
+      "bestFor": "Art galleries, cafes, and shopping.",
+      "avoid": "Prices can be higher compared to other areas, especially in trendy cafes."
+    },
+    "Night Bazaar": {
+      "tags": [
+        "shopping",
+        "nightlife",
+        "food"
+      ],
+      "bestFor": "Souvenir shopping and sampling local snacks.",
+      "avoid": "It can get overwhelming due to the number of vendors; plan your visit to avoid peak hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "4h 30min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Air India"
+        ],
+        "priceRange": "₹15,000 - ₹25,000 return",
+        "note": "Book in advance for better rates, especially during peak season."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "4h 15min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Bangkok Airways"
+        ],
+        "priceRange": "₹16,000 - ₹26,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; taxi fares range from 150-250 THB (₹65-110) depending on destination.",
+      "taxi": "Taxi costs around 200-300 THB (₹90-130) and takes about 15-30 minutes.",
+      "recommended": "For first-timers, booking a Grab taxi is recommended for ease and reliability."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Thailand e-Visa USD 35, 60 days",
+    "applyAt": "https://www.thaievisa.go.th",
+    "processingTime": "Typically 3-5 business days",
+    "tip": "Apply for your e-Visa at least a week before your travel dates to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Ristr8to for their signature 'Ristr8to Latte' made with locally sourced coffee beans.",
+    "sunset": "Head to Wat Phra That Doi Suthep, arrive by 5 PM to enjoy the sunset over the city.",
+    "meal": "Dinner at Khao Soi Khun Yai for their authentic Khao Soi, a traditional Northern Thai noodle soup.",
+    "memory": "The moment you release a lantern during Yi Peng festival, watching it float into the night sky, symbolizes hopes and dreams.",
+    "secret": "Locals know that the best time to visit the Sunday Walking Street Market is just before it opens to avoid the crowds."
+  },
+  "residentSunday": "A Chiang Mai resident spends their Sunday at Huai Kha Khaeng Wildlife Sanctuary, hiking with friends in the morning, enjoying a picnic lunch followed by a visit to the local farmers market for fresh produce, and ending the day at a riverside café watching the sunset with a cold drink.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm breeze mixed with the fragrant smell of jasmine from the nearby flower stalls.",
+    "peak": "The peak day memory target is participating in a traditional cooking class, where you create your own Pad Thai and enjoy a meal you've prepared yourself.",
+    "departure": "Departure should feel like a gentle farewell, with a lingering taste of mango sticky rice and the warmth of friendly smiles from the locals."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covers major temples and a night market experience.",
+      "misses": "Misses out on trekking and deeper cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "Covers major sights plus a day trip to surrounding villages and nature.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Allows for deeper exploration of local culture, temples, and nature.",
+      "whoFor": "Ideal for cultural enthusiasts and nature lovers."
+    },
+    "recommended": "4 days is ideal for a balanced experience of culture, food, and nature."
+  },
+  "antiPatterns": [
+    "Rushing through the Old City without stopping to experience local cafes leads to missing authentic flavors.",
+    "Planning to visit every temple in one day can lead to burnout; it's better to savor a few.",
+    "Visiting during the hottest part of the day without hydration can ruin the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a cooking class to learn about the local cuisine.",
+    "Most visitors regret not exploring the local markets in the morning when they are less crowded.",
+    "Most visitors regret missing the opportunity to visit a local hill tribe village."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November - February",
+      "weather": "Cooler temperatures ranging from 15°C to 25°C.",
+      "crowds": "High; popular with tourists for festivals.",
+      "verdict": "Best time for comfortable exploration."
+    },
+    "shoulderSeason": {
+      "months": "March - May",
+      "why": "Milder crowds and lower prices before the peak season."
+    },
+    "offSeason": {
+      "months": "June - October",
+      "reality": "Monsoon season brings heavy rain; however, some enjoy the lush scenery.",
+      "reason": "This is when you can enjoy quieter attractions and lower accommodation rates."
+    },
+    "bestMonth": "November, as the weather is pleasant and the Loy Krathong festival adds excitement.",
+    "currentSeason": "June 2026 sees warm temperatures around 30°C with occasional rain showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Saturday Night Market for a more local experience; try the grilled pork skewers (Moo Ping) for 20 THB (₹9).",
+      "category": "food"
+    },
+    {
+      "tip": "Join a meditation retreat at Wat Umong; it’s donation-based and offers a peaceful escape from city life.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a bike tour through the rice fields in the outskirts; it costs around 800 THB (₹350) and offers a unique perspective of rural life.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best local breakfast, try the 'Jok' (rice porridge) at Jok Sompet near the Old City for around 40 THB (₹18).",
+      "category": "food"
+    },
+    {
+      "tip": "Use the local songthaew (red truck) for cheap transport; fares typically range from 20-50 THB (₹9-22) depending on distance.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A plate of Pad Thai at a local eatery costs around 40 THB (₹18).",
+    "midRangeMeal": "A dinner for two at a mid-range restaurant costs about 800 THB (₹350).",
+    "luxuryMeal": "Dining at a high-end restaurant like David's Kitchen can cost around 3,000 THB (₹1,300) for a multi-course meal.",
+    "localTransportPerDay": "Typical daily local transport cost is around 200 THB (₹90).",
+    "budgetHotelPerNight": "Budget hotels start at around 500 THB (₹220) for basic amenities and a shared bathroom.",
+    "midRangeHotelPerNight": "Mid-range hotels range from 1,500 THB (₹650) for a comfortable room.",
+    "luxuryHotelPerNight": "Luxury hotels like the Four Seasons start at around 10,000 THB (₹4,400)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,000",
+      "accommodation": "Hostels start at ₹500 for a dormitory bed.",
+      "food": "Street food and local eateries can be enjoyed for under ₹400.",
+      "transport": "Local transport costs around ₹100 daily."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Mid-range hotels range from ₹1,000 to ₹1,500.",
+      "food": "Mix of street food and sit-down restaurants for around ₹1,000."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury options provide a high standard of accommodation and dining, but expect to pay for exclusivity."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Always remove your shoes before entering someone's home or a temple.",
+    "Avoid touching someone on the head, as it's considered disrespectful."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers may try to overcharge; always agree on a price beforehand or use ride-hailing apps.",
+      "Be cautious of gem scams; never buy gemstones from street vendors."
+    ],
+    "emergencyContacts": {
+      "police": "191",
+      "ambulance": "1669",
+      "indianEmbassy": "Embassy of India, Bangkok - +66 2 263 5555"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Wat Phra That Doi Suthep",
+        "what": "Capture the temple with the city as a backdrop.",
+        "bestTime": "Early morning for soft light and fewer crowds.",
+        "tip": "Climb the 306 steps for a higher vantage point."
+      }
+    ],
+    "goldenHour": "Approximately 6 AM - 7 AM and 5 PM - 6 PM.",
+    "tip": "Use a polarizing filter to enhance the colors of the sky during the day."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit a temple",
+        "Attend a cooking class",
+        "Explore local markets"
+      ],
+      "emotionalArc": "This sequence allows travelers to immerse in spirituality, learn about local cuisine, and enjoy the social aspect of markets.",
+      "bestFor": [
+        "Cultural Enthusiasts",
+        "Food Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Pai",
+      "travelTime": "3 hours",
+      "how": "Bus or car rental",
+      "whyCombine": "Known for its scenic beauty and relaxed atmosphere, ideal for a contrasting experience."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many temples and markets are not wheelchair accessible due to stairs and uneven surfaces.",
+    "majorChallenges": "Limited public transport options can make navigating difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Some attractions offer assistance for seniors, but plan visits according to their physical capabilities."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with occasional rain showers; expect temperatures around 30°C and moderate tourist traffic.",
+    "currentAlerts": [],
+    "entryRequirements": "Thailand e-Visa is currently required for Indian nationals."
+  }
+}

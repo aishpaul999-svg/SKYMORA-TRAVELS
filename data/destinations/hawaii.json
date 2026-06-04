@@ -1,0 +1,277 @@
+{
+  "destination": "Hawaii",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "Hawaii",
+    "hawaii",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.5,
+    "bestFor": [
+      "adventure seekers",
+      "beach lovers",
+      "food enthusiasts",
+      "nature admirers",
+      "culture explorers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "those seeking urban experiences",
+      "short stay travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "20h",
+    "flightFromMumbai": "18h, airlines: Air India, United Airlines",
+    "visaForIndians": "US B-2 visa",
+    "currency": "Hawaiian Dollar (USD), 1 INR = 0.012 USD",
+    "timezone": "UTC-10",
+    "language": "English, Hawaiian",
+    "bestMonthToVisit": "April, as the weather is mild and the crowds are manageable.",
+    "avoidMonth": "September, due to the high humidity and potential hurricanes.",
+    "tipping": "Tipping is customary; 15-20% for restaurants and bars."
+  },
+  "whyPeopleFallInLove": "Imagine sitting on a beach, the sun dipping below the horizon, with a fresh poke bowl in hand while the sound of gentle waves creates a rhythmic symphony. The scent of saltwater mingles with fragrant plumeria blossoms, creating a sensory overload that compels you to return again and again.",
+  "honestTruth": "While many travel guides tout Hawaii as a paradise, the reality is that prices can be shockingly high, from groceries to accommodations, which can catch first-time visitors off-guard.",
+  "localTruths": [
+    "Most visitors think they can just show up and enjoy the beaches. Locals think you should explore the less commercialized beaches for a more authentic experience.",
+    "Most visitors stick to the main islands like Oahu. The best version of Hawaii is found in the hidden valleys and lesser-known islands, like Molokai or Lanai.",
+    "Most visitors miss the local farmers' markets. The real Hawaii starts at the community market, where you can taste the freshest local produce and connect with residents."
+  ],
+  "neighborhoodPersonalities": {
+    "Oahu": {
+      "tags": [
+        "beaches",
+        "surfing",
+        "nightlife"
+      ],
+      "bestFor": "surfing enthusiasts and nightlife seekers.",
+      "avoid": "crowds during peak tourist season."
+    },
+    "Maui": {
+      "tags": [
+        "luxury",
+        "nature",
+        "scenic drives"
+      ],
+      "bestFor": "honeymooners and nature lovers.",
+      "avoid": "high-end resorts if looking for local experiences."
+    },
+    "The Big Island": {
+      "tags": [
+        "volcanoes",
+        "nature",
+        "adventure"
+      ],
+      "bestFor": "adventurers eager to explore volcanoes.",
+      "avoid": "underestimating the size of the island when planning travel."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "20h",
+        "airlines": [
+          "Air India",
+          "United Airlines"
+        ],
+        "priceRange": "[INR 60,000 - 80,000 return]",
+        "note": "Book 2-3 months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "18h",
+        "airlines": [
+          "Air India",
+          "United Airlines"
+        ],
+        "priceRange": "[INR 55,000 - 75,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; shuttle services cost around $20 and take about 30 minutes.",
+      "taxi": "$40-60, approximately 30 minutes to Waikiki.",
+      "recommended": "For first-timers, a shuttle service is more economical and gives you a chance to meet other travelers."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa",
+    "applyAt": "VFS Global Centers in India.",
+    "processingTime": "10-15 days.",
+    "tip": "Schedule your visa interview as early as possible, especially during peak travel seasons."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Kono's Northshore in Oahu, order the pulled pork breakfast burrito.",
+    "sunset": "Haleakalā National Park, arrive by 6:00 PM for the best views.",
+    "meal": "Mama's Fish House in Maui, order the Mahi Mahi with coconut sauce.",
+    "memory": "Watching a traditional hula performance under the stars while feeling the ocean breeze.",
+    "secret": "Locals often gather at lesser-known beaches, like Makena Beach, to escape the crowds."
+  },
+  "residentSunday": "A Hawaii resident might spend their Sunday at the farmers' market in Kapiolani Park around 8 AM, enjoying fresh local fruits and homemade pastries, followed by a hike up Diamond Head for panoramic views, and ending the day with a sunset picnic on the beach with poke and fresh fruit juices from the market.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and are greeted by the scent of tropical flowers and the sound of ukuleles playing.",
+    "peak": "The peak day memory target – snorkeling alongside sea turtles in Molokini Crater.",
+    "departure": "How the departure should feel is bittersweet: a longing to return as you take one last look at the beautiful coastline."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "A brief introduction to Oahu with visits to Pearl Harbor and Waikiki.",
+      "misses": "The chance to explore the natural beauty of the other islands."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering Oahu and Maui's highlights.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration including the Big Island's volcanoes and Kauai's lush landscapes.",
+      "whoFor": "travelers who love adventure and nature."
+    },
+    "recommended": "A week — it allows you to explore multiple islands and fully immerse yourself in the local lifestyle."
+  },
+  "antiPatterns": [
+    "Trying to visit all islands in one trip fails due to travel time; it's better to focus on one or two.",
+    "Booking hotel rooms without checking for resort fees can lead to unexpected high costs.",
+    "Starting your day too late can ruin your chances of enjoying sunrise at Haleakalā."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not renting a car, limiting their ability to explore.",
+    "Most visitors regret skipping traditional Hawaiian luaus for cultural experiences.",
+    "Most visitors regret not trying local food trucks for authentic Hawaiian cuisine."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "75-82°F, mild and pleasant",
+      "crowds": "very high",
+      "verdict": "Expect higher prices and crowded attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "The weather is still lovely, and crowds are significantly reduced, making it ideal for most travelers."
+    },
+    "offSeason": {
+      "months": "September to November",
+      "reality": "Hurricane season can lead to unpredictable weather, but prices drop significantly.",
+      "reason": "Some travelers prefer it for lower costs and fewer tourists."
+    },
+    "bestMonth": "April, when the trade winds are mild and whale watching is at its peak.",
+    "currentSeason": "June 2026 conditions in Hawaii show warm temperatures with occasional showers, great for beachgoers and outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the loco moco at Rainbow Drive-In for a taste of local comfort food, around $10.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the North Shore during the weekdays to avoid crowds at famous beaches like Waimea Bay.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check out local surf competitions in the winter months for an authentic Hawaiian experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "For sunset, go to Tantalus Lookout for panoramic views of Honolulu without the crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Purchase a Go Oahu Card for discounts on attractions and activities if you plan to do multiple things.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Spam musubi from a local deli, around $3 (₹250).",
+    "midRangeMeal": "Dinner at Duke's Waikiki, around $25 (₹2,000) for a plate of fresh fish.",
+    "luxuryMeal": "Dinner at Alan Wong's, expect to pay around $75 (₹6,000) per person.",
+    "localTransportPerDay": "$25 (₹2,000) for a rental car.",
+    "budgetHotelPerNight": "$120 (₹10,000) for a basic hotel room with essential amenities.",
+    "midRangeHotelPerNight": "$250 (₹20,000) for a comfortable room with a pool and beach access.",
+    "luxuryHotelPerNight": "$600 (₹50,000) for a top-tier beachfront resort."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹4,000",
+      "accommodation": "Hostels for ₹1,000-1,500",
+      "food": "Street food and local markets.",
+      "transport": "Public buses are affordable."
+    },
+    "comfortable": {
+      "perDayINR": "₹15,000",
+      "accommodation": "3-star hotels for ₹5,000-7,000",
+      "food": "Mix of local restaurants and occasional fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹50,000+",
+      "note": "Luxury experiences can be expensive, but the value lies in the unique offerings and unmatched views."
+    }
+  },
+  "culturalRules": [
+    "Respect the land; do not take rocks or sand from the beaches.",
+    "Wear a swimsuit when at the beach, but cover up when leaving.",
+    "Always ask for permission before photographing locals, especially during cultural ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unsolicited help at the airport; they may ask for tips.",
+      "Watch out for timeshare sales presentations that promise free gifts."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Embassy of India in Washington, D.C."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Waimea Bay",
+        "what": "Sunrise over the waves",
+        "bestTime": "6:00 AM",
+        "tip": "Arrive early to avoid crowds."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM during summer months.",
+    "tip": "Use a polarizing filter to enhance colors and reduce glare from the ocean."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Snorkeling at Hanauma Bay",
+        "Lunch at a local food truck",
+        "Sunset at Waikiki Beach"
+      ],
+      "emotionalArc": "This combination offers adventure, local flavors, and a perfect ending to your day.",
+      "bestFor": [
+        "families",
+        "couples",
+        "adventure travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Maui",
+      "travelTime": "30 min by plane",
+      "how": "Short domestic flight",
+      "whyCombine": "Maui offers a more tranquil experience and diverse landscapes."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many tourist attractions are accessible, but some natural sites may have limited access.",
+    "majorChallenges": "Some beaches have rocky paths; look for designated accessible areas.",
+    "seniorFriendlyScore": 8,
+    "note": "Many resorts offer rentals for mobility aids."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional showers; expect fewer tourists than in peak months.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, US B-2 visa is required for Indian travelers."
+  }
+}

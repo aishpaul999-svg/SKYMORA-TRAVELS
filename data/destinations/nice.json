@@ -1,0 +1,282 @@
+{
+  "destination": "Nice",
+  "country": "France",
+  "region": "Europe",
+  "aliases": [
+    "Nice",
+    "nice",
+    "france"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "food enthusiasts",
+      "art aficionados",
+      "market shoppers",
+      "luxury seekers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "nightlife seekers",
+      "adventure sports fans"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h",
+    "flightFromMumbai": "9h 30m, airlines: Air France, Emirates",
+    "visaForIndians": "Schengen EUR 80, VFS 3 weeks",
+    "currency": "Euro (1 INR = 0.012 EUR)",
+    "timezone": "UTC+2",
+    "language": "French (English spoken in tourist areas)",
+    "bestMonthToVisit": "May, due to pleasant weather and fewer tourists before peak season.",
+    "avoidMonth": "August, when the heat can be intense and tourist crowds peak.",
+    "tipping": "Tipping is not mandatory; rounding up the bill or leaving small change is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine strolling along the Promenade des Anglais, as the sound of waves crashing against the pebbly beach fills the air, and the aroma of freshly baked Socca wafts from nearby kiosks. It's the perfect moment to sip a chilled rosé while watching the sunset over the Mediterranean.",
+  "honestTruth": "Most travel guides highlight the glamour, but many tourists overlook the fact that Nice can feel overcrowded and commercialized during peak summer months.",
+  "localTruths": [
+    "Most visitors think Nice is just about luxury. Locals think it offers a mix of everyday life and elegance that is often missed.",
+    "Most visitors flock to the main beaches. The best version of Nice is found by exploring the quieter coves along the coast.",
+    "Most visitors miss the old markets. The real Nice starts at Cours Saleya, where you can experience local produce and flowers in the morning."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Town (Vieux Nice)": {
+      "tags": [
+        "historic",
+        "colorful",
+        "lively"
+      ],
+      "bestFor": "exploring narrow streets and enjoying local cuisine",
+      "avoid": "it can get very crowded, especially during summer."
+    },
+    "Promenade des Anglais": {
+      "tags": [
+        "beachfront",
+        "scenic",
+        "touristy"
+      ],
+      "bestFor": "daytime strolls and people-watching",
+      "avoid": "the prices at beachfront cafes can be inflated."
+    },
+    "Cimiez": {
+      "tags": [
+        "quieter",
+        "artsy",
+        "cultural"
+      ],
+      "bestFor": "visiting museums and parks",
+      "avoid": "not ideal for nightlife."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air France",
+          "Emirates"
+        ],
+        "priceRange": "[₹35,000 - ₹50,000 return]",
+        "note": "Book 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m",
+        "airlines": [
+          "Air France",
+          "Emirates"
+        ],
+        "priceRange": "[₹30,000 - ₹45,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; bus service available for €1.50, approximately 30 minutes.",
+      "taxi": "Around €30, taking about 20 minutes.",
+      "recommended": "For first-timers, a taxi is more convenient, especially with luggage."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80, VFS 3 weeks",
+    "applyAt": "VFS Global, Connaught Place, New Delhi.",
+    "processingTime": "Approximately 15 days.",
+    "tip": "Apply early and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café de Turin, order the fresh oysters and a café au lait.",
+    "sunset": "Castle Hill at 8:30 PM during summer for panoramic views.",
+    "meal": "La Merenda, try the Ratatouille.",
+    "memory": "Sitting on the beach, feeling the soft Mediterranean breeze while the sun sets.",
+    "secret": "Locals know that the best Socca can be found at the market on Thursdays."
+  },
+  "residentSunday": "A Nice resident might spend a Sunday at Parc Phoenix, enjoying a morning picnic with friends, followed by lunch at La Table Alziari, indulging in local dishes, and wrapping up with a stroll along the beach.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and breathe in the salty sea air.",
+    "peak": "Exploring the Cours Saleya market and sampling fresh produce and local specialties.",
+    "departure": "Leaving with a sense of having touched the Mediterranean lifestyle."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring Old Town and the Promenade des Anglais.",
+      "misses": "The local markets and museums."
+    },
+    "three_to_four_days": {
+      "focus": "Balancing beach time with cultural experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "A deeper exploration of surrounding towns like Villefranche and Antibes.",
+      "whoFor": "travelers wanting a comprehensive experience."
+    },
+    "recommended": "4 days — it allows for a perfect mix of relaxation and exploration."
+  },
+  "antiPatterns": [
+    "Trying to do Nice in one day — it leads to an overwhelming experience and missed opportunities.",
+    "Staying exclusively on the Promenade des Anglais — it neglects the authentic local experiences in the Old Town.",
+    "Visiting during peak hours at the market — it can be chaotic and not enjoyable."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local food.",
+    "Most visitors regret skipping the lesser-known beaches.",
+    "Most visitors regret not taking the time to explore the surrounding areas."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot, 25-35°C",
+      "crowds": "Very crowded, especially in tourist areas.",
+      "verdict": "Expect higher prices and wait times."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Better weather and fewer tourists make for a more enjoyable experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Chilly and rainy, but some prefer the quieter atmosphere.",
+      "one reason some prefer it": "Lower accommodation prices and a chance to see the city without crowds."
+    },
+    "bestMonth": "May, when the weather is warm but not too hot and the crowds are manageable.",
+    "currentSeason": "June 2026 is warm, with temperatures around 28°C, and the city is lively with summer events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Cours Saleya market early for the freshest produce; arrive by 7 AM for the best selection.",
+      "category": "timing"
+    },
+    {
+      "tip": "Take the bus to Eze Village for breathtaking views and less touristy charm; it's only €1.50.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try the local ice cream at Fenocchio in Old Town; they have over 90 flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend the Nice Jazz Festival in July; it's a highlight for music lovers.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a cooking class at La Petite Cuisine to learn how to make authentic Niçoise dishes.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A slice of pizza at La Focaccia, costing €5 (₹420).",
+    "midRangeMeal": "A three-course meal at Le Café de l'Opera for €25 (₹2,100).",
+    "luxuryMeal": "Dinner at Le Chantecler for around €100 (₹8,400) per person.",
+    "localTransportPerDay": "Around €5 for unlimited bus and tram rides.",
+    "budgetHotelPerNight": "€80 (₹6,700) at a hostel with shared dorms.",
+    "midRangeHotelPerNight": "€150 (₹12,600) for a comfortable 3-star hotel.",
+    "luxuryHotelPerNight": "€300 (₹25,200) for a 5-star luxury hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm room for ₹675",
+      "food": "Street food and bakeries for ₹800",
+      "transport": "Buses for ₹300"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,000",
+      "accommodation": "3-star hotel for ₹6,000",
+      "food": "Mid-range restaurants for ₹2,000"
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury in Nice means exceptional dining and high-end accommodations, but expect to pay a premium."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; it's respectful to cover shoulders and knees.",
+    "Always greet locals with a polite 'Bonjour' before starting a conversation.",
+    "Dining etiquette includes waiting for the host to invite you to start eating."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas; keep bags close.",
+      "Be cautious of overly friendly strangers offering unsolicited help."
+    ],
+    "emergencyContacts": {
+      "police": "17",
+      "ambulance": "15",
+      "indianEmbassy": "Embassy of India in Paris, 3 Rue de la Faisanderie, 75116 Paris"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Castle Hill",
+        "what": "Panoramic views of Nice and the coastline",
+        "bestTime": "Early morning or golden hour",
+        "tip": "Climb the steps for the best angles."
+      }
+    ],
+    "goldenHour": "Around 8 PM in summer.",
+    "tip": "Experiment with the contrast of old buildings against the vibrant flowers in Cours Saleya."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Matisse Museum",
+        "Walk through Cimiez's olive groves",
+        "Finish at a café on the Promenade"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate art, nature, and relaxation in one day.",
+      "bestFor": [
+        "art lovers",
+        "nature seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Cannes",
+      "travelTime": "30 minutes",
+      "how": "Train",
+      "whyCombine": "Famous for its film festival and luxury shopping."
+    },
+    {
+      "city": "Monaco",
+      "travelTime": "20 minutes",
+      "how": "Train",
+      "whyCombine": "To experience high-end casinos and stunning views."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many areas are accessible, but cobblestone streets can be challenging.",
+    "majorChallenges": "Old Town has steep streets and steps.",
+    "seniorFriendlyScore": 7,
+    "note": "Public transport is generally accommodating, but plan for some uneven surfaces."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm with temperatures around 28°C, beaches are lively, and outdoor events are in full swing.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain the same; ensure all paperwork is in order."
+  }
+}

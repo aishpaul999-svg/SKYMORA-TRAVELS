@@ -1,0 +1,267 @@
+{
+  "destination": "Kota Kinabalu",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Kota Kinabalu",
+    "kota kinabalu",
+    "malaysia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "wildlife enthusiasts",
+      "divers",
+      "food lovers",
+      "beachgoers",
+      "nature adventurers"
+    ],
+    "notFor": [
+      "party seekers",
+      "shopping enthusiasts",
+      "city dwellers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h via KL",
+    "flightFromMumbai": "5h 30m via KL with AirAsia and Malaysia Airlines",
+    "visaForIndians": "Visa-free 30 days",
+    "currency": "Malaysian Ringgit (MYR), 1 INR = 0.057 MYR",
+    "timezone": "UTC+8",
+    "language": "Malay (English widely understood)",
+    "bestMonthToVisit": "March, as it offers pleasant weather and fewer crowds",
+    "avoidMonth": "November, due to heavy monsoon rains",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or a small tip (MYR 5-10) for good service is appreciated."
+  },
+  "whyPeopleFallInLove": "The moment you step off the plane, the scent of frangipani mingling with the ocean breeze instantly transports you to a tropical paradise. Enjoying a sunset beer at the Tanjung Aru Beach while watching the sky morph into a canvas of colors is an experience that embeds itself in your memory.",
+  "honestTruth": "Many visitors underestimate the humidity, which can be intense, so prepare for steamy days even in the cooler months.",
+  "localTruths": [
+    "Most visitors think Kota Kinabalu is all about beaches. Locals think it’s the wildlife and mountains that define their identity.",
+    "Most visitors rush through the city. The best version of Kota Kinabalu is a leisurely exploration of its local markets and food stalls.",
+    "Most visitors miss the significance of the local Kadazan-Dusun culture. The real Kota Kinabalu starts at the cultural villages where traditional practices flourish."
+  ],
+  "neighborhoodPersonalities": {
+    "Likas": {
+      "tags": [
+        "families",
+        "nature",
+        "peaceful"
+      ],
+      "bestFor": "Families looking for a quiet retreat with access to parks and the waterfront.",
+      "avoid": "Limited nightlife options; not ideal for party-goers."
+    },
+    "Gaya Street": {
+      "tags": [
+        "shopping",
+        "food",
+        "local culture"
+      ],
+      "bestFor": "Those seeking authentic local food and market experiences.",
+      "avoid": "Can get crowded on Sundays due to the market."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h via KL",
+        "airlines": [
+          "Malaysia Airlines",
+          "AirAsia"
+        ],
+        "priceRange": "₹25,000 - ₹35,000 for economy return",
+        "note": "Book in advance to get better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 30m via KL",
+        "airlines": [
+          "Malaysia Airlines",
+          "AirAsia"
+        ],
+        "priceRange": "₹22,000 - ₹32,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; taxi costs MYR 30-50 and takes about 15-20 minutes.",
+      "taxi": "Cost MYR 30-50 to reach the city center; travel time is approximately 15-20 minutes.",
+      "recommended": "For first-timers, a taxi is the easiest option to navigate to your accommodation."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 30 days",
+    "applyAt": "No application needed; visa-free entry as of 2026.",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport is valid for at least 6 months from the date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Yee Fung Laksa and order their signature Laksa for a local breakfast experience.",
+    "sunset": "Watch the sunset at Tanjung Aru Beach at 6:30 PM for a spectacular view.",
+    "meal": "Dine at Sri Latha for their Banana Leaf Rice, a local favorite.",
+    "memory": "The one moment that defines this city is the exhilaration felt while snorkeling in the clear waters of Tunku Abdul Rahman Marine Park, surrounded by vibrant marine life.",
+    "secret": "Only locals know that the best seafood is found at the night market near the waterfront, where you can select fresh catches."
+  },
+  "residentSunday": "A Kota Kinabalu resident spends their Sunday at the Gaya Street Sunday Market for local crafts and food, followed by a leisurely lunch at D’Place Kinabalu, enjoying local Kadazan dishes. In the afternoon, they might head to the beach for relaxation or a swim, before ending the day with a sunset at Tanjung Aru Beach, sipping on fresh coconut water.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first feel the warm breeze off the South China Sea upon arrival, signaling a departure from the mundane.",
+    "peak": "The peak day memory target is when you hike up to the summit of Mount Kinabalu, feeling the sense of achievement as you watch the sunrise from the top.",
+    "departure": "Departure should feel like a reluctant goodbye, with a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covers city highlights and a quick visit to Tunku Abdul Rahman Marine Park.",
+      "misses": "Misses the deeper exploration of local culture and surrounding natural parks."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage including diving and a day hike.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of the wildlife and surrounding areas, including Danum Valley and Sepilok.",
+      "whoFor": "Nature lovers and adventure seekers."
+    },
+    "recommended": "Four days is ideal to embrace the essence of Kota Kinabalu."
+  },
+  "antiPatterns": [
+    "Rushing through Tunku Abdul Rahman Marine Park and not taking time to snorkel or dive; it leads to a missed opportunity to experience the underwater life.",
+    "Trying to do Mount Kinabalu in one day without overnighting; it leads to exhaustion and missed views.",
+    "Visiting during the monsoon season for beach activities; it ruins the experience due to heavy rains."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food fare at Gaya Street.",
+    "Most visitors regret skipping the cultural villages to learn about the indigenous tribes.",
+    "Most visitors regret not spending enough time at Tunku Abdul Rahman Marine Park."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Warm and dry, average 29°C",
+      "crowds": "High; expect busy attractions",
+      "verdict": "Best for those who enjoy a lively atmosphere."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer tourists, pleasant weather, and good diving conditions."
+    },
+    "offSeason": {
+      "months": "June to November",
+      "reality": "Heavy rainfall, especially in November; some attractions may close.",
+      "one reason some prefer it": "Lower accommodation prices and fewer crowds."
+    },
+    "bestMonth": "March, for the ideal combination of good weather and lower tourist numbers.",
+    "currentSeason": "June 2026 is warm with intermittent rain, ideal for indoor attractions and local food experiences."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local market at 6 AM for the freshest seafood and local produce; prices are lower and selections are best.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a day trip to the nearby islands but book a local boatman rather than a tour; you’ll save money and get a more authentic experience.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join a local cooking class to connect with the culture; it’s usually held in the evenings and offers the best insights into local dishes.",
+      "category": "experience"
+    },
+    {
+      "tip": "Plan your hiking to Mount Kinabalu during the weekdays to avoid large crowds; it makes for a more serene experience.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check out the local art scene at the Sabah Art Gallery; it’s often overlooked but showcases local talent.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Nasi Lemak at a local stall for MYR 7 (₹122)",
+    "midRangeMeal": "Dinner with seafood platter at a local restaurant for MYR 60 (₹1,050)",
+    "luxuryMeal": "Fine dining at the Waterfront for MYR 150 (₹2,600)",
+    "localTransportPerDay": "Typical local transport cost is MYR 30 (₹525) for taxis or public transport.",
+    "budgetHotelPerNight": "MYR 80 (₹1,400) for basic accommodations with essential amenities.",
+    "midRangeHotelPerNight": "MYR 250 (₹4,400) for comfortable stays with good service.",
+    "luxuryHotelPerNight": "MYR 600 (₹10,500) for high-end hotels with premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel dorms at MYR 30 (₹525)",
+      "food": "Street food approach, budget MYR 20 (₹350)",
+      "transport": "Use local buses and shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹4,000",
+      "accommodation": "Mid-range hotels at MYR 120 (₹2,100)",
+      "food": "Mix of street and casual dining."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury in Kota Kinabalu is more affordable compared to other Southeast Asian destinations, offering good value."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially when visiting places of worship.",
+    "Always ask before taking photographs of local people.",
+    "Respect local customs and traditions, particularly during festivals."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of taxi drivers overcharging tourists; always agree on a fare before getting in.",
+      "Watch out for fake tour guides at popular attractions."
+    ],
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "994",
+      "indianEmbassy": "Kuala Lumpur, +603-2148-1818"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Tanjung Aru Beach",
+        "what": "Sunset views with silhouettes of palm trees",
+        "bestTime": "6:30 PM",
+        "tip": "Get there early to secure a good spot."
+      }
+    ],
+    "goldenHour": "6:00 PM - 7:00 PM is ideal for capturing the sunset.",
+    "tip": "Use a polarizing filter to enhance the colors of the sea and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike Mount Kinabalu",
+        "Relax at Tanjung Aru Beach",
+        "Explore the local markets"
+      ],
+      "emotionalArc": "This sequence allows for a rewarding adventure followed by relaxation and cultural immersion.",
+      "bestFor": [
+        "Adventure seekers",
+        "Nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Sandakan",
+      "travelTime": "5 hours",
+      "how": "Bus or private transfer",
+      "whyCombine": "Known for its wildlife, including orangutans and sun bears."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited; some attractions may not have proper facilities.",
+    "majorChallenges": "High terrain in national parks can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Make sure to check the accessibility of specific accommodations in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with occasional rain showers; expect fewer tourists as school holidays are over.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indians; ensure your passport meets the validity requirements."
+  }
+}

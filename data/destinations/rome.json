@@ -1,0 +1,279 @@
+{
+  "destination": "Rome",
+  "country": "Italy",
+  "region": "Europe",
+  "aliases": [
+    "Rome",
+    "rome",
+    "italy"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History Buffs",
+      "Food Lovers",
+      "Art Enthusiasts",
+      "Couples",
+      "Cultural Explorers"
+    ],
+    "notFor": [
+      "Nightlife Seekers",
+      "Beachgoers",
+      "Budget Backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "10h with airlines like Air India and Emirates",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC +1",
+    "language": "Italian (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "April - The weather is mild, and the crowds are manageable.",
+    "avoidMonth": "August - Many locals go on vacation, and it can get very hot.",
+    "tipping": "10% is appreciated; rounding up the bill is common."
+  },
+  "whyPeopleFallInLove": "Imagine sipping a freshly brewed espresso at a sidewalk café while watching the sun set behind the Colosseum, the aroma of freshly baked pizza wafting through the air, making you realize you are truly in the heart of history and culinary delight.",
+  "honestTruth": "While many guidebooks paint a romantic picture of Rome, the reality is that it can feel chaotic at times, especially around major tourist sites, and not all restaurants treat tourists with the same care as locals.",
+  "localTruths": [
+    "Most visitors think they can see everything in three days. Locals think a week is just enough to scratch the surface of what Rome offers.",
+    "Most visitors flock to the tourist traps. The best version of Rome is often found in the lesser-known trattorias and local markets.",
+    "Most visitors miss the true essence of Rome at dawn. The real Rome starts at the Pantheon just after sunrise, when the streets are empty and the city feels alive."
+  ],
+  "neighborhoodPersonalities": {
+    "Trastevere": {
+      "tags": [
+        "bohemian",
+        "cultural",
+        "lively"
+      ],
+      "bestFor": "Exploring artisan shops and enjoying local cuisine in a lively atmosphere.",
+      "avoid": "It can get overcrowded at night, making it hard to find a good table."
+    },
+    "Testaccio": {
+      "tags": [
+        "authentic",
+        "culinary",
+        "local"
+      ],
+      "bestFor": "Food enthusiasts looking for traditional Roman dishes.",
+      "avoid": "Limited nightlife options; better suited for food-focused visits."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "Emirates"
+        ],
+        "priceRange": "[INR 35,000 - 55,000 for economy return]",
+        "note": "Book 3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "[INR 40,000 - 60,000 for economy return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Leonardo Express train to Termini; approx. EUR 14, 32 mins.",
+      "taxi": "Approx. EUR 48 and takes about 45 mins depending on traffic.",
+      "recommended": "The Leonardo Express train is efficient and comfortable for first-timers."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in New Delhi or Mumbai.",
+    "processingTime": "Typically 15 days.",
+    "tip": "Apply well in advance and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Pasticceria Regoli' for a cornetto and cappuccino, the perfect start to your Roman day.",
+    "sunset": "At the Pincio Terrace in Villa Borghese, around 8:30 PM in June, offering panoramic views over the city.",
+    "meal": "Dine at 'Da Enzo al 29' and try the Cacio e Pepe, a simple yet exquisite Roman dish.",
+    "memory": "Standing in front of the Colosseum at night, illuminated softly, feeling the weight of history around you.",
+    "secret": "Locals know to visit the Church of Santa Maria in Trastevere during evening hours for a peaceful escape from the crowds."
+  },
+  "residentSunday": "On a free Sunday, a Roman might start with brunch at 'Cafè Propaganda' around 11 AM, then stroll through the Borghese Gardens, enjoy a gelato at 'Giolitti' by 2 PM, and finish with a leisurely dinner at 'Trattoria Da Teo' by 8 PM, enjoying the relaxed pace of life.",
+  "dayMemoryTargets": {
+    "arrival": "Feeling the warm Italian sun on your face as you step out of the airport and into a new world.",
+    "peak": "The moment you first lay eyes on the Colosseum, standing in awe of its grandeur and history.",
+    "departure": "Leaving with a heavy heart but a camera full of memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Essential highlights like the Colosseum and Vatican Museums.",
+      "misses": "Local neighborhoods and authentic dining experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of major sites and some local flavors.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including day trips to nearby sites like Tivoli.",
+      "whoFor": "History and art enthusiasts."
+    },
+    "recommended": "Four days is ideal to explore the main attractions and enjoy some local experiences."
+  },
+  "antiPatterns": [
+    "Visiting the Vatican in the middle of the day; it’s overcrowded and the experience is diluted.",
+    "Eating at restaurants near major tourist attractions; prices are inflated and quality is often poor.",
+    "Trying to see all major attractions in one day; it leads to exhaustion and missing the joy of exploration."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a guided tour of the Vatican, missing out on rich historical context.",
+    "Most visitors regret skipping the local markets, where authentic food experiences await.",
+    "Most visitors regret not exploring Trastevere, missing the heart of Roman life."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot and dry, average temperatures around 30°C.",
+      "crowds": "Extremely crowded, especially at major attractions.",
+      "verdict": "Best avoided unless you enjoy the hustle."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Milder weather and fewer tourists, making for a more pleasant experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and rainy, but fewer tourists and lower hotel prices.",
+      "one reason some prefer it": "The city feels more authentic without the crowds."
+    },
+    "bestMonth": "April - Mild temperatures and blooming flowers, enhancing the beauty of Rome.",
+    "currentSeason": "June 2026 in Rome is warm with temperatures averaging 28°C, and crowds are high as tourists flock to popular sites."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "For an authentic Roman breakfast, try a cornetto at 'Pasticceria Regoli' before 11 AM; it’s a local favorite.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the Vatican Museums on Friday evenings when entry is limited and crowds are lighter.",
+      "category": "timing"
+    },
+    {
+      "tip": "Explore the Testaccio Market for fresh produce and local snacks, it’s where many Romans shop.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a stroll through the Jewish Ghetto for excellent fried artichokes, especially at 'Da Enzo al 29'.",
+      "category": "food"
+    },
+    {
+      "tip": "Use public transport; a day pass is EUR 7 and covers buses and trams, allowing you to explore like a local.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pasta at 'Trattoria Da Teo' for EUR 10 (approx. INR 900)",
+    "midRangeMeal": "Pizza and beer at 'Pizzeria Ai Marmi' for EUR 25 (approx. INR 2,250)",
+    "luxuryMeal": "Dinner at 'La Pergola' starting from EUR 200 (approx. INR 18,000)",
+    "localTransportPerDay": "EUR 7 for a day pass on public transport.",
+    "budgetHotelPerNight": "EUR 70 for a basic hotel with breakfast (approx. INR 6,300).",
+    "midRangeHotelPerNight": "EUR 150 for a comfortable hotel with amenities (approx. INR 13,500).",
+    "luxuryHotelPerNight": "EUR 400 for a five-star hotel (approx. INR 36,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostels starting at ₹1,000.",
+      "food": "Street food and budget eateries.",
+      "transport": "Public transport and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotels starting at ₹4,000.",
+      "food": "Mix of restaurants and local eateries."
+    },
+    "luxury": {
+      "perDayINR": "₹36,000+",
+      "note": "Expect high prices for fine dining and premium experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shoulders and knees should be covered.",
+    "Always greet shopkeepers with 'Buongiorno' or 'Buonasera' upon entering.",
+    "It’s considered rude to eat or drink on public transport."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets, especially in crowded areas like Termini Station; keep valuables secure.",
+      "Some street vendors may pressure you to buy; it's best to politely decline."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India in Rome - Via XX Settembre, 5, 00187 Roma, Italy."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Ponte Sant'Angelo",
+        "what": "Capture the bridge with the Castel Sant'Angelo in the background.",
+        "bestTime": "Golden hour during sunset.",
+        "tip": "Arrive early to secure a good spot."
+      },
+      {
+        "name": "The Spanish Steps",
+        "what": "Photograph the steps filled with flowers.",
+        "bestTime": "Morning before the crowds arrive.",
+        "tip": "Try to include the Trinità dei Monti church at the top."
+      }
+    ],
+    "goldenHour": "Around 8 PM in June.",
+    "tip": "Early mornings provide the best light and the fewest tourists."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Colosseum",
+        "Stroll through the Roman Forum",
+        "End with a meal in Trastevere"
+      ],
+      "emotionalArc": "This sequence allows you to experience the grandeur of ancient Rome and culminates in a relaxing evening filled with local flavors.",
+      "bestFor": [
+        "History Buffs",
+        "Cultural Explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Tivoli",
+      "travelTime": "1h",
+      "how": "Train from Termini Station",
+      "whyCombine": "Famous for its stunning villas like Villa d'Este and Hadrian's Villa."
+    },
+    {
+      "city": "Ostia Antica",
+      "travelTime": "30 mins",
+      "how": "Train from Ostiense Station",
+      "whyCombine": "Explore ancient ruins that rival Pompeii, but without the crowds."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, but ancient sites can be challenging.",
+    "majorChallenges": "Cobblestone streets can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider guided tours that cater to mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 28°C. Crowds are high, especially at the Vatican and Colosseum, but outdoor events and festivals are vibrant.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, a valid Schengen visa is required for entry."
+  }
+}

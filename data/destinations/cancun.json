@@ -1,0 +1,274 @@
+{
+  "destination": "Cancun",
+  "country": "Mexico",
+  "region": "Americas",
+  "aliases": [
+    "Cancun",
+    "cancun",
+    "mexico"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Beach lovers",
+      "History enthusiasts",
+      "Nightlife seekers",
+      "Adventure travelers",
+      "Foodies"
+    ],
+    "notFor": [
+      "Budget backpackers",
+      "Travelers seeking solitude",
+      "Less active travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h",
+    "flightFromMumbai": "19h with airlines like Air France, Lufthansa, and American Airlines.",
+    "visaForIndians": "Visa-free with valid US/EU visa",
+    "currency": "Mexican Peso (MXN), 1 INR = 0.17 MXN",
+    "timezone": "UTC-5",
+    "language": "Spanish (English is commonly spoken in tourist areas)",
+    "bestMonthToVisit": "November - perfect weather for beach activities, with less rainfall.",
+    "avoidMonth": "September - typically the peak of the rainy season with possible hurricanes.",
+    "tipping": "It is customary to tip 10-15% in restaurants; rounding up the fare is common in taxis."
+  },
+  "whyPeopleFallInLove": "The moment you plunge into the crystal-clear waters of a cenote, surrounded by lush greenery, the scent of damp earth fills the air as you realize this is nature's private oasis.",
+  "honestTruth": "While Cancun is known for its resorts, many miss out on the authentic local food scene just a few blocks away from the tourist hotspots.",
+  "localTruths": [
+    "Most visitors think Cancun is just about beaches. Locals think it offers a vibrant food culture and rich history waiting to be explored.",
+    "Most visitors stick to the hotel zone. The best version of Cancun is exploring the local markets and street food.",
+    "Most visitors miss the local nightlife at smaller bars. The real Cancun starts at the local taquerías after dark."
+  ],
+  "neighborhoodPersonalities": {
+    "Hotel Zone": {
+      "tags": [
+        "beaches",
+        "luxury",
+        "nightlife"
+      ],
+      "bestFor": "Luxury resorts and nightlife.",
+      "avoid": "Expect high prices and large crowds."
+    },
+    "Downtown Cancun": {
+      "tags": [
+        "authentic",
+        "local",
+        "food"
+      ],
+      "bestFor": "Experiencing local culture and cuisine.",
+      "avoid": "It's not as polished as the tourist areas."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h",
+        "airlines": [
+          "Air France",
+          "Lufthansa"
+        ],
+        "priceRange": "₹60,000 - ₹80,000 return",
+        "note": "Booking in advance can yield better deals, especially during peak season."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "19h",
+        "airlines": [
+          "American Airlines",
+          "British Airways"
+        ],
+        "priceRange": "₹65,000 - ₹85,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approx. 450 MXN (₹75) and 30 minutes to the Hotel Zone.",
+      "recommended": "For first-timers, pre-booking a shuttle is recommended for ease."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free with valid US/EU visa",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Ensure your US/EU visa is valid for at least six months upon entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'La Casa de los Abuelos' for a traditional Mexican breakfast; order the chilaquiles.",
+    "sunset": "Head to Playa Delfines around 6:30 PM for breathtaking ocean views.",
+    "meal": "Dine at 'El Fogón' for their famous tacos al pastor.",
+    "memory": "The moment you dive into a cenote, feeling the cool water envelop you amidst nature's tranquility.",
+    "secret": "Locals love to visit the 'Parque de las Palapas' for authentic street food and live music."
+  },
+  "residentSunday": "A Cancun resident typically starts with breakfast at 'Café Nader' around 9 AM, enjoying huevos rancheros. They might then spend the afternoon at 'Playa Tortugas' for sunbathing, followed by tacos at 'Los de Pescado' for dinner and an evening stroll at 'Mercado 28' for crafts and souvenirs.",
+  "dayMemoryTargets": {
+    "arrival": "The first time you step onto the soft sands of Cancun, feeling the warm sun and the ocean breeze against your skin.",
+    "peak": "The peak day memory target is exploring Chichen Itza at sunrise, standing in awe of the ancient architecture.",
+    "departure": "Departure should feel bittersweet, with a promise to return to this paradise."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Cenote visits and beach relaxation.",
+      "misses": "Local markets and Chichen Itza."
+    },
+    "three_to_four_days": {
+      "focus": "Ideal for a balance of beach time and cultural experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Allows for deeper exploration of nearby Mayan ruins and cenotes.",
+      "whoFor": "Adventurous travelers."
+    },
+    "recommended": "Four days is ideal for experiencing the highlights without feeling rushed."
+  },
+  "antiPatterns": [
+    "Doing Chichen Itza on a weekend + crowds can make it less enjoyable.",
+    "Staying only in the Hotel Zone + limits access to local culture and food.",
+    "Visiting cenotes in the middle of the day + the sun can be harsh, making it less pleasant."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local food.",
+    "Most visitors regret not visiting cenotes.",
+    "Most visitors regret spending too much time in the Hotel Zone."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to April",
+      "weather": "Warm, 25-30°C, minimal rain.",
+      "crowds": "High crowds, especially around holidays.",
+      "verdict": "Book accommodations well in advance."
+    },
+    "shoulderSeason": {
+      "months": "May to June",
+      "why": "Better prices and fewer tourists while still enjoying pleasant weather."
+    },
+    "offSeason": {
+      "months": "August to October",
+      "reality": "Hot and humid, with a higher chance of rain.",
+      "reason": "Some prefer this for lower prices and fewer crowds."
+    },
+    "bestMonth": "November - The weather is pleasant, and the tourist rush has subsided.",
+    "currentSeason": "June 2026 is warm with occasional rain, ideal for beach lovers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Tacos de Pescado' for the best fish tacos at around 30 MXN each (₹5).",
+      "category": "food"
+    },
+    {
+      "tip": "Take a day trip to Isla Mujeres for a quieter beach experience; take the ferry from Puerto Juárez.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore 'Cenote Ik Kil' early in the morning to avoid crowds.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check out 'Mercado 28' on a Sunday for local crafts and food at reasonable prices.",
+      "category": "experience"
+    },
+    {
+      "tip": "Always negotiate prices when shopping at markets; it’s expected and part of the experience.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Tacos at 'El Foggón' for 80 MXN (₹14)",
+    "midRangeMeal": "Dinner at 'La Habichuela' for 400 MXN (₹70)",
+    "luxuryMeal": "Fine dining at 'Cenote Grill' for approximately 1500 MXN (₹250)",
+    "localTransportPerDay": "Approx. 100 MXN (₹17) for bus rides.",
+    "budgetHotelPerNight": "Hostel dorms starting at 300 MXN (₹50) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotels around 2000 MXN (₹340) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury resorts starting at 6000 MXN (₹1000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Hostel dorms at 300 MXN (₹50).",
+      "food": "Eating at local markets and street vendors.",
+      "transport": "Using local buses for travel."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels at around 2000 MXN (₹340).",
+      "food": "Dining at casual restaurants and trying local dishes."
+    },
+    "luxury": {
+      "perDayINR": "₹12,000+",
+      "note": "Expect high-end resorts and gourmet dining with excellent service."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches or local neighborhoods.",
+    "Always greet locals with a friendly 'Hola' to show respect.",
+    "Avoid discussing politics or sensitive topics with strangers."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of taxi drivers offering fixed rates; always ask for the meter.",
+      "Watch for individuals offering tours at inflated prices."
+    ],
+    "emergencyContacts": {
+      "police": "066",
+      "ambulance": "911",
+      "indianEmbassy": "Embassy of India in Mexico City, Address: C/ Calle de la Paz 35, Mexico City."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Cenote Dos Ojos",
+        "what": "Stunning underwater shots and natural light filtering through.",
+        "bestTime": "Late morning for optimal lighting.",
+        "tip": "Bring a waterproof camera or case for the best shots."
+      }
+    ],
+    "goldenHour": "Around 6:30 PM.",
+    "tip": "Use sunrise for less crowded beach shots and vibrant colors."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Chichen Itza",
+        "Swim in a cenote",
+        "Dinner at a local restaurant"
+      ],
+      "emotionalArc": "This sequence allows for a blend of history, relaxation, and local cuisine, making for a fulfilling day.",
+      "bestFor": [
+        "History enthusiasts",
+        "Food lovers",
+        "Adventure seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Playa del Carmen",
+      "travelTime": "1h",
+      "how": "By bus or taxi.",
+      "whyCombine": "Known for its beaches and nightlife, it's a great day trip."
+    },
+    {
+      "city": "Tulum",
+      "travelTime": "1.5h",
+      "how": "By bus.",
+      "whyCombine": "Famous for its ruins and eco-chic vibe."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some areas in the hotel zone are accessible, but many local attractions are not.",
+    "majorChallenges": "Cenotes often lack wheelchair access.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for accommodations and attractions that cater to mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain, beach activities are popular, and local festivals are happening.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry with valid US/EU visa."
+  }
+}

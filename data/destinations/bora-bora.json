@@ -1,0 +1,268 @@
+{
+  "destination": "Bora Bora",
+  "country": "French Polynesia",
+  "region": "Pacific",
+  "aliases": [
+    "Bora Bora",
+    "bora bora",
+    "french polynesia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Luxury travelers",
+      "Honeymooners",
+      "Adventure seekers",
+      "Water sports enthusiasts",
+      "Nature lovers"
+    ],
+    "notFor": [
+      "Budget travelers",
+      "Cultural explorers",
+      "Fast-paced travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "20h via Los Angeles",
+    "flightFromMumbai": "22h via Los Angeles",
+    "visaForIndians": "Visa-free with French visa/EU visa",
+    "currency": "CFP Franc (XPF), 1 INR = 1.35 XPF",
+    "timezone": "UTC-10",
+    "language": "French and Tahitian",
+    "bestMonthToVisit": "September - ideal weather with minimal rainfall",
+    "avoidMonth": "January - peak of the rainy season",
+    "tipping": "Tipping is not customary; however, rounding up the bill is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine stepping off a small boat onto your private overwater bungalow, the warm breeze carrying the scent of tropical flowers, and the gentle sound of waves lapping beneath you as you sip a fresh coconut, feeling the luxury of your surroundings envelop you completely.",
+  "honestTruth": "Despite its reputation for luxury, many resorts can feel overly commercialized, losing the authenticity of local Polynesian culture in favor of opulence.",
+  "localTruths": [
+    "Most visitors think Bora Bora is only about luxury resorts. Locals think the real beauty lies in the untouched nature and vibrant marine life that can be explored off the beaten track.",
+    "Most visitors stick to their resort pools. The best version of Bora Bora is diving into the crystal-clear waters and swimming with manta rays at the coral gardens.",
+    "Most visitors miss the local food markets. The real Bora Bora starts at the Vaitape market on weekends, where fresh fruits, local crafts, and Tahitian cuisine bring the island to life."
+  ],
+  "neighborhoodPersonalities": {
+    "Vaitape": {
+      "tags": [
+        "Market",
+        "Local life",
+        "Food stalls"
+      ],
+      "bestFor": "Experiencing authentic local life and food.",
+      "avoid": "Avoid visiting in the late afternoon when many stalls close early."
+    },
+    "Matira Beach": {
+      "tags": [
+        "Beach",
+        "Water sports",
+        "Sunsets"
+      ],
+      "bestFor": "Enjoying picturesque sunsets and water activities.",
+      "avoid": "Avoid peak hours to escape the crowd."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "20h via Los Angeles",
+        "airlines": [
+          "Air France",
+          "American Airlines"
+        ],
+        "priceRange": "₹80,000 - ₹120,000 return",
+        "note": "Book at least 3 months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "22h via Los Angeles",
+        "airlines": [
+          "Air France",
+          "United Airlines"
+        ],
+        "priceRange": "₹85,000 - ₹130,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approximately 2,500 XPF (₹1,850) for a 20-minute ride to Vaitape.",
+      "recommended": "For first-timers, pre-booking a transfer through your resort is advisable for a seamless arrival experience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free with French visa/EU visa",
+    "applyAt": "French consulate or VFS for Schengen visa",
+    "processingTime": "Approximately 15 days for a Schengen visa",
+    "tip": "Ensure your French visa is valid for at least 3 months beyond your intended stay."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to Café Matira for a fresh fruit smoothie bowl and locally baked croissants.",
+    "sunset": "Watch the sunset from the Matira Beach at around 6:30 PM, where the sky ignites with colors.",
+    "meal": "Dine at Bloody Mary's and try the fresh catch of the day, paired with local poisson cru.",
+    "memory": "The moment your toes touch the warm, shallow water while watching the sun dip below the horizon, painting the sky.",
+    "secret": "Locals know that the best snorkeling is just off the shore at Matira Beach—it's less crowded and teeming with life."
+  },
+  "residentSunday": "On a free Sunday, a Bora Bora resident might start with breakfast at Le Pahonu, enjoying a plate of taro pancakes, followed by a morning swim at Matira Beach. In the afternoon, they might head to the local market to pick up fresh produce and finish the day with a BBQ at home with family and friends.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the turquoise lagoon as your plane descends, with the lush peaks of Mount Otemanu rising in the background.",
+    "peak": "The peak day memory target is a private boat tour around the island, where you can stop to swim in secluded spots and enjoy a picnic on a sandbank.",
+    "departure": "Departure should feel like a bittersweet farewell, with lingering memories of the island's beauty and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Essential relaxation and exploring Matira Beach and Vaitape.",
+      "misses": "Diving or snorkeling experiences and cultural insights."
+    },
+    "three_to_four_days": {
+      "focus": "A combination of relaxation and adventure, including a lagoon tour.",
+      "sweetSpot": true
+    },
+    "five-to-seven days": {
+      "focus": "Deep exploration of the island's natural beauty and underwater experiences.",
+      "whoFor": "Adventure seekers and nature lovers."
+    },
+    "recommended": "Four days is ideal to experience both relaxation and adventure without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting only popular beaches and missing out on local eateries that offer authentic flavors of Bora Bora.",
+    "Staying exclusively at resorts without exploring the local markets and cultural sites, leading to a lack of connection with the island.",
+    "Trying to pack too many activities into one day, which can lead to exhaustion rather than enjoyment."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not pre-booking a lagoon tour, which can fill up quickly.",
+    "Most visitors regret not exploring the local food scene beyond their resorts.",
+    "Most visitors regret not taking time to relax and simply enjoy the views."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August, December",
+      "weather": "Warm temperatures averaging 28°C, minimal rain.",
+      "crowds": "High tourist volume.",
+      "verdict": "Great for vibrant activity but crowded."
+    },
+    "shoulderSeason": {
+      "months": "April, May, September, October",
+      "why": "Better prices and fewer crowds, with pleasant weather."
+    },
+    "offSeason": {
+      "months": "November, January, February",
+      "reality": "Rainy season with higher humidity, but it can be quieter and more affordable.",
+      "one reason some prefer it": "Lower prices and the chance to experience the island without large crowds."
+    },
+    "bestMonth": "September - ideal weather for outdoor activities and fewer tourists.",
+    "currentSeason": "June 2026 is experiencing mild weather with occasional showers, perfect for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the local beer, Hinano, which is best enjoyed cold at the beachside local bars, typically costing around 400 XPF (₹300).",
+      "category": "food"
+    },
+    {
+      "tip": "For the best snorkeling, rent gear from a local shop in Vaitape and explore the coral gardens on your own.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the small island of Tupai, just north of Bora Bora, for an unmatched picnic experience; ask locals for boat rentals.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the local craft market for handwoven hats and bags, priced between 1,500 - 3,000 XPF (₹1,100 - ₹2,200).",
+      "category": "food"
+    },
+    {
+      "tip": "Plan your activities for the early morning to avoid the heat and make the most of your time.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish burger at a local food truck for 1,200 XPF (₹890)",
+    "midRangeMeal": "Seafood platter at a casual restaurant for 4,500 XPF (₹3,300)",
+    "luxuryMeal": "Tasting menu at Le Tahiti for around 12,000 XPF (₹8,800)",
+    "localTransportPerDay": "Typical daily local transport cost is around 1,000 XPF (₹740) for a taxi.",
+    "budgetHotelPerNight": "Stay at a guesthouse for about 9,000 XPF (₹6,600), including breakfast.",
+    "midRangeHotelPerNight": "A 3-star hotel will cost around 24,000 XPF (₹18,000) for a double room.",
+    "luxuryHotelPerNight": "Overwater bungalows start at 60,000 XPF (₹44,000) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹4,000",
+      "accommodation": "Dormitory in a guesthouse for around 9,000 XPF (₹6,600)",
+      "food": "Eating at local food trucks and markets, about 1,500 XPF (₹1,100)",
+      "transport": "Using local buses or hitchhiking."
+    },
+    "comfortable": {
+      "perDayINR": "₹20,000",
+      "accommodation": "Mid-range hotel for about 24,000 XPF (₹18,000)",
+      "food": "Dining at local restaurants for around 4,500 XPF (₹3,300)"
+    },
+    "luxury": {
+      "perDayINR": "₹1,00,000+",
+      "note": "Luxury comes at a premium, especially for overwater bungalows, but the experiences are curated and exceptional."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting local markets and villages, avoiding swimwear outside of beach areas.",
+    "Respect local customs and traditions, especially during ceremonies or events.",
+    "Always ask for permission before taking photographs of people or their homes."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of unlicensed taxi drivers; always opt for official taxis.",
+      "Watch out for overly aggressive vendors at markets."
+    ],
+    "emergencyContacts": {
+      "police": "17",
+      "ambulance": "15",
+      "indianEmbassy": "Contact information available through official channels."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Matira Beach",
+        "what": "Capture the sunset with the mountains in the background.",
+        "bestTime": "Around 6:30 PM",
+        "tip": "Arrive early to secure a good spot on the beach."
+      }
+    ],
+    "goldenHour": "Around sunrise and sunset, ideal for capturing the lagoon's colors.",
+    "tip": "Bring a polarizing filter to reduce glare and enhance the colors of the water."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning snorkeling at Coral Gardens",
+        "Lunch at a local eatery in Vaitape",
+        "Sunset at Matira Beach"
+      ],
+      "emotionalArc": "This sequence allows you to start your day with adventure, enjoy local flavors for lunch, and wind down with a serene sunset.",
+      "bestFor": [
+        "Adventure seekers",
+        "Food lovers",
+        "Nature enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Taha'a",
+      "travelTime": "1 hour by boat",
+      "how": "Regular ferry services available.",
+      "whyCombine": "Known for vanilla plantations and beautiful motus."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility; many resorts have facilities, but public areas can be challenging.",
+    "majorChallenges": "Uneven terrain and lack of ramps in many outdoor areas.",
+    "seniorFriendlyScore": 7,
+    "note": "Ensure to communicate mobility needs to your resort for tailored assistance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is experiencing mild weather with occasional showers, perfect for outdoor activities.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa rules remain unchanged; ensure your French visa is valid for travel."
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "destination": "Lyon",
+  "country": "France",
+  "region": "Europe",
+  "aliases": [
+    "Lyon",
+    "lyon",
+    "france"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food enthusiasts",
+      "history buffs",
+      "art lovers",
+      "shopping aficionados",
+      "architecture admirers"
+    ],
+    "notFor": [
+      "party seekers",
+      "beach lovers",
+      "hikers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h",
+    "flightFromMumbai": "9h 30m, Air France, Emirates",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (EUR), 1 INR = 0.012 EUR",
+    "timezone": "UTC+1",
+    "language": "French (English spoken in tourist areas)",
+    "bestMonthToVisit": "September - mild weather and the start of the harvest season for local wines.",
+    "avoidMonth": "August - many local businesses close for summer holidays.",
+    "tipping": "Tipping is appreciated; rounding up the bill or leaving around 5-10% is common."
+  },
+  "whyPeopleFallInLove": "Walking through the traboules of Croix-Rousse, you can smell fresh bread from a nearby boulangerie while local artisans demonstrate their crafts. The experience of enjoying a 'quenelle' at a traditional bouchon, surrounded by the laughter of locals, creates a connection to the heart of Lyon.",
+  "honestTruth": "Many travelers expect Lyon to be just a hub for tourists, but locals often say it feels more like a well-kept secret among those who truly appreciate its culinary and historical depth.",
+  "localTruths": [
+    "Most visitors think Lyon is just about the food. Locals think it's also about the stories behind every street and building.",
+    "Most visitors rush to the main sights. The best version of Lyon is found when you take the time to explore its lesser-known streets and parks.",
+    "Most visitors miss the traboules. The real Lyon starts at sunrise when you can wander through these hidden passageways without the crowds."
+  ],
+  "neighborhoodPersonalities": {
+    "Vieux Lyon": {
+      "tags": [
+        "historic",
+        "cultural",
+        "cobblestone"
+      ],
+      "bestFor": "exploring Renaissance architecture and quaint cafés.",
+      "avoid": "becoming too focused on the main tourist spots."
+    },
+    "Croix-Rousse": {
+      "tags": [
+        "artistic",
+        "bohemian",
+        "local"
+      ],
+      "bestFor": "discovering local artists and unique shops.",
+      "avoid": "the overly commercialized parts during peak hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air France",
+          "Emirates"
+        ],
+        "priceRange": "₹45,000 - ₹65,000 return",
+        "note": "Book 2-3 months in advance for better prices."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m",
+        "airlines": [
+          "Air France",
+          "Lufthansa"
+        ],
+        "priceRange": "₹40,000 - ₹60,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line Rhônexpress, €16.30, takes 30 minutes.",
+      "taxi": "Approximately €50-€70, takes about 30 minutes.",
+      "recommended": "For first-timers, the Rhônexpress is convenient and gives a quick view of the city."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global (specific location in major cities)",
+    "processingTime": "10-15 business days",
+    "tip": "Book an appointment early and prepare all paperwork to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café du Soleil - order a 'tarte au praline' and a café crème.",
+    "sunset": "Parc de la Tête d'Or - arrive by 8 pm in summer to catch the sunset over the lake.",
+    "meal": "Bouchon Les Lyonnais - order 'coq au vin' for a traditional experience.",
+    "memory": "The moment you enter a tiny bouchon and the owner greets you by name, sharing stories of the dishes.",
+    "secret": "The traboules are open to all, but only locals know the best routes to take through them."
+  },
+  "residentSunday": "A Lyon resident might start their Sunday with a leisurely breakfast at Café des Fédérations, enjoying a 'pâté en croûte'. They would then stroll through the Parc de la Tête d'Or, perhaps enjoying a boat ride on the lake, followed by lunch at a local market, sampling cheeses and charcuterie before ending the day with dinner at a favorite local bistro.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping off the Rhônexpress, the smell of freshly baked baguettes fills the air as you enter the city.",
+    "peak": "The peak day memory target is the evening at the Festival of Lights, when the city illuminates with thousands of candles.",
+    "departure": "Leaving with the taste of local wine on your palate and the melodies of street musicians."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "the main attractions like Vieux Lyon and a wine tasting.",
+      "misses": "the depth of local cuisine and the experience of traboules."
+    },
+    "three_to_four_days": {
+      "focus": "a balance of history, gastronomy, and local neighborhoods.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration of art, history, and gastronomy.",
+      "whoFor": "foodies and history enthusiasts."
+    },
+    "recommended": "Three to four days is ideal to soak in the essence of Lyon."
+  },
+  "antiPatterns": [
+    "Rushing through Vieux Lyon and missing the smaller alleys leads to a superficial experience.",
+    "Dining only at touristy restaurants without trying local bouchons results in missing authentic flavors.",
+    "Visiting during peak hours can make the traboules overcrowded, diminishing their allure."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a guided food tour to truly appreciate Lyon's culinary scene.",
+    "Most visitors regret missing out on the local markets in the mornings.",
+    "Most visitors regret not spending time in the Parc de la Tête d'Or."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "hot, averaging 30°C",
+      "crowds": "high foot traffic makes some areas congested.",
+      "verdict": "Best enjoyed if you plan early and book restaurants."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "more manageable crowds and beautiful fall colors."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "cold and sometimes rainy, but fewer tourists make it pleasant.",
+      "one reason some prefer it": "lower prices and more authentic interactions."
+    },
+    "bestMonth": "September - perfect weather for walking tours and wine tastings.",
+    "currentSeason": "June 2026 is warm, with occasional rain. Festivals are ongoing, making it lively."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Marché de la Croix-Rousse on Sundays for the freshest local produce and artisanal goods, around 9 am.",
+      "category": "food"
+    },
+    {
+      "tip": "Try the 'cervelle de canut' at a local bouchon; it's a unique herbed cheese spread.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a walking tour of the traboules at dawn to appreciate their history without tourists.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use the TCL app for navigating public transport efficiently; it’s a lifesaver.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join a cooking class to learn about Lyonnaise cuisine from a local chef, usually held in the afternoon.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A 'sandwich baguette' from a local boulangerie, €5 (₹415)",
+    "midRangeMeal": "'Salmon with ratatouille' at a bistro, around €20 (₹1,660)",
+    "luxuryMeal": "'Tasting menu' at a Michelin-starred restaurant, €120 (₹9,960)",
+    "localTransportPerDay": "Around €5 (₹415) for a day pass.",
+    "budgetHotelPerNight": "€50 (₹4,150) for a basic hotel with breakfast included.",
+    "midRangeHotelPerNight": "€100 (₹8,300) for a comfortable hotel with amenities.",
+    "luxuryHotelPerNight": "€250 (₹20,750) for a top-rated hotel with full services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "hostel dorms €20 (₹1,660)",
+      "food": "self-catering or street food",
+      "transport": "public transport or walking"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "mid-range hotels €80 (₹6,640)",
+      "food": "mix of casual and mid-range dining"
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury options can be quite high-end, but the quality of service and cuisine justifies the cost."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and ensure shoulders are covered.",
+    "Always greet shopkeepers with 'Bonjour' when entering shops.",
+    "Tipping is appreciated but not mandatory; rounding up is sufficient."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of street performers asking for donations — enjoy the performance, but don't feel pressured to give.",
+      "Scams involving fake charity collectors are rare but can occur."
+    ],
+    "emergencyContacts": {
+      "police": "17",
+      "ambulance": "15",
+      "indianEmbassy": "Indian Embassy in Paris, Phone: +33 1 40 50 70 00"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Basilique Notre-Dame de Fourvière",
+        "what": "Panoramic views of Lyon.",
+        "bestTime": "Sunrise",
+        "tip": "Get there early to capture the soft light."
+      }
+    ],
+    "goldenHour": "Approximately 8 pm in June.",
+    "tip": "The traboules offer unique perspectives, so bring a wide-angle lens."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Basilica",
+        "Walk through the traboules",
+        "Enjoy dinner at a local bouchon"
+      ],
+      "emotionalArc": "This sequence captures the historical depth and culinary richness of Lyon, creating a memorable day.",
+      "bestFor": [
+        "history buffs",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Beaujolais",
+      "travelTime": "1h",
+      "how": "Train",
+      "whyCombine": "Famous for its wine, it's a quick getaway for wine enthusiasts."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, but some older buildings may not be.",
+    "majorChallenges": "Cobblestone streets can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Public transport is mostly accessible, but plan ahead for specific routes."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with occasional rain and bustling with festivals such as the Fête de la Musique.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa rules remain unchanged; Schengen visa is still required."
+  }
+}

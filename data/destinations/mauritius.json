@@ -1,0 +1,276 @@
+{
+  "destination": "Mauritius",
+  "country": "Mauritius",
+  "region": "Africa",
+  "aliases": [
+    "Mauritius",
+    "mauritius",
+    "mauritius"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "snorkeling enthusiasts",
+      "luxury travelers",
+      "cultural explorers",
+      "foodies"
+    ],
+    "notFor": [
+      "backpackers",
+      "party seekers",
+      "budget travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h",
+    "flightFromMumbai": "6h 30m on Air Mauritius and Indigo (prices range from ₹25,000 to ₹40,000 return; book at least three months in advance for best rates)",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Mauritian Rupee (MUR); 1 INR = 0.57 MUR",
+    "timezone": "UTC+4",
+    "language": "English and French are widely understood.",
+    "bestMonthToVisit": "October, when the weather is pleasantly warm and ideal for beach activities.",
+    "avoidMonth": "January, due to the heightened risk of cyclones.",
+    "tipping": "10% is customary in restaurants; however, some establishments may include service charges."
+  },
+  "whyPeopleFallInLove": "Imagine standing on the pristine sands of Le Morne, the scent of fresh coconut wafting through the air, as you dive into crystal-clear waters surrounded by colorful marine life. It's the kind of moment that lingers in your memory long after you've left.",
+  "honestTruth": "While many promote the luxury resorts, the reality is that the local street food scene offers some of the most authentic and delicious flavors of Mauritius, often overlooked by travelers focused on high-end dining.",
+  "localTruths": [
+    "Most visitors think they can only enjoy Mauritius at luxury resorts. Locals think the best experiences come from exploring street markets and local food stalls.",
+    "Most visitors spend their days lounging on the beach. The best version of Mauritius is found in the lively markets of Port Louis and in the charming coastal villages.",
+    "Most visitors miss the vibrant nightlife of Grand Baie. The real Mauritius starts at the local taverns during the evening when the music and laughter fill the air."
+  ],
+  "neighborhoodPersonalities": {
+    "Grand Baie": {
+      "tags": [
+        "beach",
+        "nightlife",
+        "shopping"
+      ],
+      "bestFor": "nightlife and shopping lovers.",
+      "avoid": "the overly commercialized spots that lack local charm."
+    },
+    "Port Louis": {
+      "tags": [
+        "culture",
+        "history",
+        "markets"
+      ],
+      "bestFor": "cultural immersion and local cuisine seekers.",
+      "avoid": "the busy hours to appreciate the local market without the crowds."
+    },
+    "Le Morne": {
+      "tags": [
+        "nature",
+        "water sports",
+        "luxury"
+      ],
+      "bestFor": "water sports enthusiasts and luxury seekers.",
+      "avoid": "the peak tourist season to enjoy a more tranquil experience."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h",
+        "airlines": [
+          "Air Mauritius",
+          "IndiGo"
+        ],
+        "priceRange": "₹25,000 - ₹40,000",
+        "note": "Book early to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 30m",
+        "airlines": [
+          "Air Mauritius",
+          "IndiGo"
+        ],
+        "priceRange": "₹25,000 - ₹40,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "A taxi from the airport to Port Louis costs around ₹1,200 and takes about 45 minutes.",
+      "recommended": "For first-timers, a pre-booked taxi service from the airport is recommended for a hassle-free arrival."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application needed; visa is granted on arrival.",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport has at least six months of validity from your date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Cafe de la Presse in Port Louis, and order the traditional Mauritian breakfast of ‘dholl puri’ with chutney.",
+    "sunset": "Watch the sunset at the public beach in Flic en Flac around 6:30 PM for a breathtaking view of the sun dipping into the ocean.",
+    "meal": "Dine at La Table du Château for the local fish curry – it's a culinary delight that captures the essence of Mauritian flavors.",
+    "memory": "The moment you feel the warm sand between your toes and the cool breeze on your face as you walk along the beach at dusk.",
+    "secret": "Only locals know that the best time to visit markets is just before closing when vendors offer discounts on fresh produce."
+  },
+  "residentSunday": "On a free Sunday, a local may head to the beach at Tamarin Bay, enjoy a seafood barbecue with family, and spend the afternoon surfing or swimming. They often end the day with a sunset picnic, savoring ‘gateaux piments’ (spicy lentil cakes) from a nearby stall.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and are hit with the fresh scent of tropical flowers and the sound of waves crashing nearby.",
+    "peak": "The peak day memory is the exhilarating experience of snorkeling at Blue Bay Marine Park, surrounded by colorful coral and fish.",
+    "departure": "Departure should feel like leaving a piece of paradise behind, with a heart full of memories and a longing to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Port Louis and a beach day at Flic en Flac.",
+      "misses": "The lush interior and cultural richness of the island."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of beach relaxation and cultural experiences, including a visit to Chamarel and its colored earth.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including the north, south, and central regions of the island.",
+      "whoFor": "travelers wanting a comprehensive experience."
+    },
+    "recommended": "A week is ideal to explore and savor the diverse offerings of Mauritius."
+  },
+  "antiPatterns": [
+    "Booking a luxury resort without exploring local neighborhoods fails to capture the essence of the island.",
+    "Over-scheduling activities leads to missing the laid-back lifestyle that Mauritius promotes.",
+    "Trying to see all attractions in a single day can exhaust you and diminish the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying street food, missing out on authentic flavors.",
+    "Most visitors regret not renting a car to explore the island at their own pace.",
+    "Most visitors regret not spending more time in local villages to understand the culture."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "Warm and humid, 25-35°C",
+      "crowds": "Very crowded, especially at popular beaches.",
+      "verdict": "Great for beach activities but expect high prices and crowded attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Great weather and fewer tourists, making it an ideal time for exploration."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Cooler temperatures, ideal for hiking and exploring, but rain can be frequent.",
+      "one reason some prefer it": "Lower accommodation rates and less crowded attractions."
+    },
+    "bestMonth": "October, as it combines pleasant weather and lower tourist traffic.",
+    "currentSeason": "June 2026 is cooler, with occasional rain but still pleasant for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the ‘alouda’ drink at local stalls for a refreshing treat after a beach day; it costs around 30MUR (₹52).",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the local markets early in the morning for the freshest produce and best prices.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a bus from Port Louis to Grand Baie for a local experience; it costs around 30MUR (₹52) and is much cheaper than taxis.",
+      "category": "transport"
+    },
+    {
+      "tip": "Participate in a ‘sega’ dance session at local festivals to fully immerse yourself in the culture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the hiking trails at Black River Gorges National Park during weekdays to avoid crowds and enjoy nature.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A plate of ‘dholl puri’ at a street vendor for around 90MUR (₹158).",
+    "midRangeMeal": "A three-course meal at a mid-range restaurant for about 1,200MUR (₹2,100).",
+    "luxuryMeal": "A fine dining experience at Le Saint Géran for approximately 3,500MUR (₹6,100).",
+    "localTransportPerDay": "Around 200MUR (₹350) for daily bus fares.",
+    "budgetHotelPerNight": "Around 1,500MUR (₹2,600) for a basic guesthouse with breakfast included.",
+    "midRangeHotelPerNight": "Approximately 4,000MUR (₹7,000) for a comfortable hotel with amenities.",
+    "luxuryHotelPerNight": "Starts at 10,000MUR (₹17,500) for a top-tier resort."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Dormitory in a guesthouse for around ₹800",
+      "food": "Street food and casual dining for about ₹600",
+      "transport": "Buses and shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Budget hotel or Airbnb for around ₹2,500",
+      "food": "Mix of street food and restaurant meals."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury can be incredibly indulgent, with top resorts offering spas and gourmet dining options."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites.",
+    "Always greet locals with a polite 'bonjour' or 'salut'.",
+    "Respect local customs, especially during festivals and ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of unofficial taxi drivers at the airport; always opt for pre-booked or recognized services.",
+      "Watch out for overly persistent vendors at tourist spots."
+    ],
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "114",
+      "indianEmbassy": "Indian High Commission, Port Louis, +230 212 0250"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Chamarel Seven Colored Earth",
+        "what": "Capture the stunning hues of the earth formations.",
+        "bestTime": "Midday for vibrant colors.",
+        "tip": "Visit during the week to avoid crowds."
+      }
+    ],
+    "goldenHour": "Around 6:30 PM for the best sunset shots.",
+    "tip": "Carry a polarizing filter to enhance colors and reduce glare from the water."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning hike at Black River Gorges",
+        "Beach time at Flic en Flac",
+        "Dinner at a local seafood restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to start with adventure, relax at the beach, and culminate with a delicious meal, creating a well-rounded day.",
+      "bestFor": [
+        "Adventure seekers",
+        "Food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Rodrigues Island",
+      "travelTime": "1h by flight",
+      "how": "Direct flights from Mauritius",
+      "whyCombine": "For a more secluded island experience with stunning beaches."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many tourist attractions are not fully accessible, but some hotels cater to guests with mobility needs.",
+    "majorChallenges": "Uneven sidewalks in towns and limited wheelchair access at public transport.",
+    "seniorFriendlyScore": 7,
+    "note": "Travelers with mobility needs may want to plan ahead for easier access to attractions."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is cool with occasional showers, perfect for exploring without the heat.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indian passport holders for up to 90 days."
+  }
+}

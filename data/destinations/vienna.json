@@ -1,0 +1,267 @@
+{
+  "destination": "Vienna",
+  "country": "Austria",
+  "region": "Europe",
+  "aliases": [
+    "Vienna",
+    "vienna",
+    "austria"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Music lovers",
+      "History enthusiasts",
+      "Foodies",
+      "Art aficionados",
+      "Coffee connoisseurs"
+    ],
+    "notFor": [
+      "Nightlife seekers",
+      "Adrenaline junkies",
+      "Budget backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "9h 30m with airlines like Lufthansa or Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "German (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "September - Ideal weather and fewer tourists after the summer rush",
+    "avoidMonth": "August - Extremely crowded due to peak tourist season",
+    "tipping": "10-15% is customary in restaurants; rounding up is appreciated in cafes"
+  },
+  "whyPeopleFallInLove": "Imagine taking a leisurely stroll through the historic streets of Vienna, the aroma of freshly brewed coffee from a nearby café enveloping you as you pause to listen to a street musician playing Mozart's serenade. This moment captures the essence of Vienna, where every corner invites you to indulge your senses.",
+  "honestTruth": "Vienna's public transport is efficient but can be overwhelming for first-timers; many tourists miss out on the convenience of a one-day travel pass that grants unlimited travel for a small fee.",
+  "localTruths": [
+    "Most visitors think Vienna is just about the classical music. Locals think it's also a hub for contemporary art and innovation.",
+    "Most visitors rush through the museums. The best version of Vienna is experienced slowly, savoring each exhibit and engaging with the stories behind them.",
+    "Most visitors miss the local coffee houses. The real Vienna starts at Café Central, where intellectuals once gathered and where you can still taste the legacy in every sip."
+  ],
+  "neighborhoodPersonalities": {
+    "Innere Stadt": {
+      "tags": [
+        "Historic",
+        "Cultural",
+        "Touristy"
+      ],
+      "bestFor": "Exploring grand architecture and iconic landmarks.",
+      "avoid": "Can feel overly commercialized, especially in peak season."
+    },
+    "Margareten": {
+      "tags": [
+        "Hip",
+        "Local",
+        "Artistic"
+      ],
+      "bestFor": "Experiencing Vienna's contemporary art scene.",
+      "avoid": "Less public transport connectivity; plan accordingly."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Lufthansa",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹40,000 - ₹60,000 return",
+        "note": "Book in advance for better prices, especially during festivals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m",
+        "airlines": [
+          "Lufthansa",
+          "Emirates"
+        ],
+        "priceRange": "₹45,000 - ₹65,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line S7 connects the airport to the city center, costs €4.20 and takes about 25 minutes.",
+      "taxi": "Approximately €40 and takes about 30 minutes depending on traffic.",
+      "recommended": "For first-timers, the S7 train is the most efficient and economical option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in major cities like Delhi, Mumbai, Bangalore.",
+    "processingTime": "15 days on average.",
+    "tip": "Apply at least a month in advance to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Central - Order the Melange and a slice of Sachertorte.",
+    "sunset": "Belvedere Palace Gardens around 8 PM for a serene view of the city.",
+    "meal": "Gasthaus Pöschl - Try the Wiener Schnitzel, a local favorite.",
+    "memory": "Sipping coffee at a historic café while listening to a live classical performance encapsulates the spirit of Vienna.",
+    "secret": "Locals know that the best pastries can be found at the small bakery just off Naschmarkt, often missed by tourists."
+  },
+  "residentSunday": "A Vienna resident might start their Sunday at Naschmarkt for fresh produce, followed by brunch at a local café like Café Sperl. In the afternoon, they may attend a matinee at the Vienna State Opera, followed by a walk in Stadtpark, ending the day with a casual dinner at a heuriger, enjoying local wine and food.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and breathe in the crisp Vienna air, feeling a mix of excitement and anticipation.",
+    "peak": "The peak day memory target is when you stand in front of the Vienna State Opera, hearing the captivating sound of a live performance echoing through the streets.",
+    "departure": "Departure should feel like leaving a piece of your heart behind, with a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions such as Schönbrunn Palace and St. Stephen's Cathedral.",
+      "misses": "Cafés and local neighborhoods that add depth to the experience."
+    },
+    "three_to_four_days": {
+      "focus": "A sweet spot coverage of major sights, museums, and coffee culture.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of Vienna's historic and cultural layers.",
+      "whoFor": "History buffs and art lovers."
+    },
+    "recommended": "Four days is ideal to balance sightseeing with leisure, allowing time to enjoy the café culture."
+  },
+  "antiPatterns": [
+    "Rushing through the museums without taking the time to appreciate the art leads to missed deeper connections.",
+    "Trying to cover too many attractions in one day can result in exhaustion rather than enjoyment.",
+    "Visiting during peak hours at popular sites like Schönbrunn can spoil the experience due to long lines and crowds."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the coffee houses.",
+    "Most visitors regret skipping the smaller, local museums that offer unique insights.",
+    "Most visitors regret not trying more local dishes beyond the typical offerings."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Warm temperatures averaging 25°C to 30°C.",
+      "crowds": "Very crowded due to tourists flocking to popular spots.",
+      "verdict": "Expect long lines and higher prices."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Ideal for pleasant weather and reduced crowds."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold with temperatures often below 5°C; fewer tourists.",
+      "reason": "Some may prefer this season for a quieter experience."
+    },
+    "bestMonth": "September - Mild weather, fewer crowds, and local events.",
+    "currentSeason": "June 2026 in Vienna is warm with occasional rain and busy tourist spots."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Secession Building on a Wednesday; the entry fee is reduced and it's less crowded.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local wine at a heuriger; most serve their own wine and traditional food at reasonable prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the tram to see the Ringstrasse; it's inexpensive and offers a great overview of the city's architecture.",
+      "category": "transport"
+    },
+    {
+      "tip": "If you're a fan of art, the MuseumsQuartier is best explored during evening events when the crowds thin out.",
+      "category": "timing"
+    },
+    {
+      "tip": "Book tickets for the Vienna State Opera in advance; last-minute tickets often have limited availability and higher prices.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Wiener Würstel (sausage) at a street stand for €3 (approx. ₹275)",
+    "midRangeMeal": "Traditional Austrian meal at a mid-range restaurant for €20 (approx. ₹1,800)",
+    "luxuryMeal": "Fine dining at Steirereck for about €150 (approx. ₹13,500) per person.",
+    "localTransportPerDay": "Approx. €5.80 (₹525) for unlimited travel within the city.",
+    "budgetHotelPerNight": "Hostel dormitory for €15 (approx. ₹1,350) with basic amenities.",
+    "midRangeHotelPerNight": "3-star hotel around €100 (approx. ₹9,000) with breakfast included.",
+    "luxuryHotelPerNight": "5-star hotel like Hotel Sacher starting at €300 (approx. ₹27,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorms at €15 (approx. ₹1,350)",
+      "food": "Street food and budget meals, around €10 (approx. ₹900)",
+      "transport": "Public transport pass €5.80 (approx. ₹525)"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "3-star hotels around €100 (approx. ₹9,000)",
+      "food": "Mix of mid-range restaurants and cafes, around €40 (approx. ₹3,600)"
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Expect high standards and exceptional service, particularly in dining and accommodations."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and cultural sites; it's a sign of respect.",
+    "Be punctual; arriving late to events or reservations is frowned upon.",
+    "When in a café, it's customary to wait for your order to be taken rather than ordering at the counter."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas like museums and markets; keep your belongings secure.",
+      "Tourist traps with inflated prices near major attractions; always check menus before ordering."
+    ],
+    "emergencyContacts": {
+      "police": "133",
+      "ambulance": "144",
+      "indianEmbassy": "A-3, 50, M. R. C. Road, Vienna."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "St. Stephen's Cathedral",
+        "what": "Gothic architecture and city views from the tower.",
+        "bestTime": "Early morning during sunrise.",
+        "tip": "Use a wide-angle lens to capture the grandeur."
+      }
+    ],
+    "goldenHour": "Around 5 PM in summer months.",
+    "tip": "Experiment with different angles at Schönbrunn Palace to capture its vast gardens."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Belvedere Palace",
+        "Stroll through the gardens",
+        "Enjoy a coffee at a nearby café"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate both art and nature, culminating in a relaxing break with coffee.",
+      "bestFor": [
+        "Art enthusiasts",
+        "Nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bratislava",
+      "travelTime": "1h",
+      "how": "Train or boat along the Danube River.",
+      "whyCombine": "A quick day trip to experience a different culture just across the border."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public transport options are accessible, but some historic sites may present challenges.",
+    "majorChallenges": "Old buildings may have limited access; check in advance.",
+    "seniorFriendlyScore": 7,
+    "note": "Most public places have seating available, but uneven surfaces can be an issue."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, averaging 25°C, with festivals and outdoor events attracting visitors; expect crowds at major attractions.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen Visa required for Indian travelers; check latest travel advisories before your trip."
+  }
+}

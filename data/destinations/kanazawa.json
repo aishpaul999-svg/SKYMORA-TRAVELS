@@ -1,0 +1,268 @@
+{
+  "destination": "Kanazawa",
+  "country": "Japan",
+  "region": "East Asia",
+  "aliases": [
+    "Kanazawa",
+    "kanazawa",
+    "japan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "craft lovers",
+      "foodies",
+      "nature seekers",
+      "art aficionados"
+    ],
+    "notFor": [
+      "partygoers",
+      "budget backpackers",
+      "beach lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Tokyo + 2.5h Shinkansen",
+    "flightFromMumbai": "9h 15min to Tokyo + 2.5h Shinkansen",
+    "visaForIndians": "Japan visa required",
+    "currency": "Japanese Yen (JPY), 1 INR = 1.5 JPY",
+    "timezone": "UTC+9",
+    "language": "Japanese, English spoken in tourist areas",
+    "bestMonthToVisit": "April, for cherry blossoms and pleasant weather",
+    "avoidMonth": "August, due to high humidity and heat",
+    "tipping": "Not customary; service charges included in bills."
+  },
+  "whyPeopleFallInLove": "Strolling through the well-preserved samurai district, the scent of yakitori grilling wafts through the air as you watch artisans meticulously crafting gold leaf, capturing the essence of tradition and skill.",
+  "honestTruth": "Many travel guides overlook that Kanazawa's public transport can be confusing, making it crucial to plan routes in advance to avoid wasting time.",
+  "localTruths": [
+    "Most visitors think Kanazawa is a small city. Locals think it has all the amenities of a larger city while maintaining a local charm.",
+    "Most visitors rush through the Kenroku-en Garden. The best version of Kanazawa is experiencing it at dawn when it's tranquil and ethereal.",
+    "Most visitors miss the chance to try local seafood at Omicho Market. The real Kanazawa starts at the market where you can taste the freshness of the region."
+  ],
+  "neighborhoodPersonalities": {
+    "Higashi Chaya District": {
+      "tags": [
+        "historical",
+        "traditional",
+        "cultural"
+      ],
+      "bestFor": "Exploring tea houses and experiencing traditional Japanese crafts.",
+      "avoid": "Can be crowded during peak hours, limiting the authentic experience."
+    },
+    "Nishi Chaya District": {
+      "tags": [
+        "quiet",
+        "artistic",
+        "scenic"
+      ],
+      "bestFor": "A peaceful stroll among art galleries and boutiques.",
+      "avoid": "Limited dining options in the area; plan meals accordingly."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Tokyo + 2.5h Shinkansen",
+        "airlines": [
+          "Air India",
+          "Japan Airlines"
+        ],
+        "priceRange": "₹45,000 - ₹65,000 return",
+        "note": "Book at least 2 months in advance for the best fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 15min to Tokyo + 2.5h Shinkansen",
+        "airlines": [
+          "Jet Airways",
+          "All Nippon Airways"
+        ],
+        "priceRange": "₹50,000 - ₹70,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "From Kanazawa Station, city buses cost around ¥200 (₹30) and take 30 minutes.",
+      "taxi": "Taxis from Kanazawa Station to central areas cost approximately ¥1,500 (₹225) and take about 15 minutes.",
+      "recommended": "For first-timers, using the Kanazawa Loop Bus is convenient and covers major attractions."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Japan visa required",
+    "applyAt": "Japanese Embassy or VFS Global offices in India",
+    "processingTime": "5-10 business days",
+    "tip": "Include a detailed itinerary and proof of accommodation to streamline your visa application."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "For breakfast, visit 'Cafe de Lune' and order the matcha latte paired with a fresh melon bun.",
+    "sunset": "Watch the sunset at Kenroku-en Garden at around 6:30 PM, where the light falls perfectly on the cherry trees.",
+    "meal": "Dine at 'Sushi Katsu' and try the seasonal nigiri for a true taste of Kanazawa's seafood.",
+    "memory": "The moment you stand in Kenroku-en Garden, surrounded by the vibrant colors of cherry blossoms and the sound of a gentle stream.",
+    "secret": "Locals know that the best time to visit the 21st Century Museum of Contemporary Art is on Wednesdays when entry is free."
+  },
+  "residentSunday": "A Kanazawa resident spends their Sunday at the Omicho Market buying fresh seafood, followed by a leisurely afternoon at Kenroku-en, capping the day with dinner at a local izakaya enjoying sashimi and sake.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out onto the streets of Kanazawa and the aroma of grilled seafood fills the air, signaling the start of your adventure.",
+    "peak": "The peak day memory target is the serene experience of walking through Kenroku-en at dawn, devoid of crowds.",
+    "departure": "Departure should feel like leaving a friend behind, filled with the warmth of the experiences shared."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covers the samurai district and Kenroku-en Garden.",
+      "misses": "Misses deeper dives into local crafts and markets."
+    },
+    "three_to_four_days": {
+      "focus": "Perfect sweet spot covering major attractions, local cuisine, and cultural experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Allows deeper exploration into Kanazawa's arts, crafts, and surrounding areas like Noto Peninsula.",
+      "whoFor": "Ideal for culture enthusiasts and those who want to relax."
+    },
+    "recommended": "Four days — enough to soak in the history and craftsmanship without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing through Kenroku-en and skipping the tea houses fails to appreciate the city's tranquil essence.",
+    "Visiting during summer without planning for the heat and humidity can lead to discomfort.",
+    "Neglecting to try local seafood at the market leads to missing a key aspect of Kanazawa's culinary identity."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time at the 21st Century Museum of Contemporary Art.",
+    "Most visitors regret skipping the traditional craft workshops that offer hands-on experiences.",
+    "Most visitors regret not trying more local dishes beyond sushi."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, October",
+      "weather": "Temperatures around 15-20°C, pleasant conditions.",
+      "crowds": "Higher during cherry blossom season and autumn foliage.",
+      "verdict": "Best for experiencing Kanazawa's beauty, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "March, November",
+      "why": "Fewer tourists yet favorable weather for exploration."
+    },
+    "offSeason": {
+      "months": "December, January, February",
+      "reality": "Cold and sometimes snowy; be prepared for winter conditions.",
+      "hiddenGem": "The lack of tourists allows for a more intimate experience of the city."
+    },
+    "bestMonth": "April, for witnessing cherry blossoms in full bloom.",
+    "currentSeason": "June 2026 is warm, with temperatures around 25°C, occasional rain showers, and lush greenery."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Kanazawa Castle early in the morning for a quiet experience before the crowds arrive.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the local Kanazawa curry at 'GoGo Curry' — it's a unique twist on traditional Japanese curry.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a gold leaf workshop at 'Kamakura' for an authentic hands-on experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the local events calendar — Kanazawa often hosts seasonal festivals not widely advertised.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the back alleys of Higashi Chaya at night to find intimate sake bars frequented by locals.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Karaage at a local izakaya for ¥700 (₹105)",
+    "midRangeMeal": "Tempura set at 'Katsuya' for ¥3,000 (₹450)",
+    "luxuryMeal": "Kaiseki dinner at 'Kagura' for ¥15,000 (₹2,250)",
+    "localTransportPerDay": "Daily transport costs about ¥1,000 (₹150) for buses.",
+    "budgetHotelPerNight": "Hostel stay for around ¥3,500 (₹525) with shared facilities.",
+    "midRangeHotelPerNight": "Comfortable business hotel for ¥10,000 (₹1,500) with breakfast.",
+    "luxuryHotelPerNight": "Luxury hotel stay at 'Hotel Nikko Kanazawa' for ¥30,000 (₹4,500)"
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dormitory at ₹525",
+      "food": "Convenience store meals and street food.",
+      "transport": "Public transport using daily passes."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel for ₹1,500",
+      "food": "Dining at local restaurants for fresh seafood."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury comes at a premium, particularly for kaiseki experiences and exclusive stays."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and traditional sites.",
+    "Always remove shoes when entering homes or traditional accommodations.",
+    "Respect the quiet atmosphere in gardens and public transport."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxis at night; use rideshare apps for fair pricing.",
+      "Some tourist shops may inflate prices for foreign visitors; always compare."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "119",
+      "indianEmbassy": "Indian Embassy in Tokyo: 03-4140-7900"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Kenroku-en Garden",
+        "what": "Capture the reflection of cherry blossoms in the pond.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a wide-angle lens for the best perspective."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM in June.",
+    "tip": "Experiment with angles at the 21st Century Museum to capture unique architectural details."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Samurai District Walk",
+        "Kenroku-en Garden",
+        "Dinner at Omicho Market"
+      ],
+      "emotionalArc": "This sequence allows for a day of exploration, reflection, and indulgence, perfectly capturing Kanazawa's essence.",
+      "bestFor": [
+        "history enthusiasts",
+        "foodies",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Noto Peninsula",
+      "travelTime": "1.5 hours",
+      "how": "By rental car or bus.",
+      "whyCombine": "Offers a chance to explore rural Japan and its coastal beauty."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most major attractions are accessible, but some traditional sites may have limitations.",
+    "majorChallenges": "Public transport can be difficult without prior planning.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring a local guide for a more comfortable experience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm but can be rainy; expect temperatures around 25°C with occasional showers.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa required; ensure all documentation is in order before travel."
+  }
+}

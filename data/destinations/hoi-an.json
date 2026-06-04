@@ -1,0 +1,268 @@
+{
+  "destination": "Hoi An",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Hoi An",
+    "hoi an",
+    "vietnam"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "culture enthusiasts",
+      "food lovers",
+      "photographers",
+      "history buffs",
+      "shopaholics"
+    ],
+    "notFor": [
+      "party seekers",
+      "adrenaline junkies",
+      "large group tours"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h via Hanoi",
+    "flightFromMumbai": "6h 30m via Hanoi, airlines: Vietnam Airlines, IndiGo",
+    "visaForIndians": "e-Visa USD 25",
+    "currency": "Vietnamese Dong (VND), 1 INR = 320 VND",
+    "timezone": "UTC+7",
+    "language": "Vietnamese, English widely spoken",
+    "bestMonthToVisit": "February - pleasant weather with minimal rainfall",
+    "avoidMonth": "September - heavy rains and potential flooding",
+    "tipping": "Tipping is not customary but appreciated; rounding up the bill is common."
+  },
+  "whyPeopleFallInLove": "As you stroll through the lantern-lit streets at dusk, the aroma of grilled pork banh mi fills the air, enticing you to pause and savor a bite. The moment you watch the sun dip below the riverbank, reflected in the shimmering water, you can't help but feel connected to this timeless town.",
+  "honestTruth": "While many appreciate the beautiful streets and tailor shops, few realize that the local economy is heavily reliant on tourism, making authentic experiences harder to find amidst the commercialized offerings.",
+  "localTruths": [
+    "Most visitors think Hoi An is just about its lanterns. Locals think the real charm lies in the quiet mornings by the riverside, where the town wakes up slowly.",
+    "Most visitors rush through the tailor shops. The best version of Hoi An is found in the local markets where you can taste authentic street food.",
+    "Most visitors miss the early morning ambiance. The real Hoi An starts at sunrise, when the market is alive with locals and the aroma of fresh produce fills the air."
+  ],
+  "neighborhoodPersonalities": {
+    "Ancient Town": {
+      "tags": [
+        "historic",
+        "cultural",
+        "touristy"
+      ],
+      "bestFor": "Exploring the unique blend of architecture and history.",
+      "avoid": "Can be crowded during peak hours."
+    },
+    "Cam Pho": {
+      "tags": [
+        "local",
+        "authentic",
+        "quiet"
+      ],
+      "bestFor": "Experiencing real local life and food.",
+      "avoid": "Limited tourist amenities."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h via Hanoi",
+        "airlines": [
+          "Vietnam Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹25,000 - ₹35,000 return",
+        "note": "Book early for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 30m via Hanoi",
+        "airlines": [
+          "Vietnam Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹30,000 - ₹40,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Cost: 400,000 VND (approx. ₹1,250), time: 30 minutes",
+      "recommended": "For first-timers, a taxi is the easiest option to navigate directly to your accommodation."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 25",
+    "applyAt": "https://evisa.xuatnhapcanh.gov.vn/",
+    "processingTime": "3 working days",
+    "tip": "Apply for your e-Visa at least a week before your trip to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Mrs. Phuong's Banh Mi for a crispy baguette stuffed with grilled pork and fresh herbs.",
+    "sunset": "Head to the riverside at 6:15 PM to catch the sky's colors reflecting off the water.",
+    "meal": "Dine at Morning Glory for their Cao Lau (a local noodle dish) that captures the essence of Hoi An.",
+    "memory": "The one moment that defines this city is watching the lanterns glow to life at night, illuminating the smiling faces of locals and travelers alike.",
+    "secret": "Only locals know that the best coffee is found at a small stall in the market, where you can enjoy a cup of egg coffee for just 20,000 VND."
+  },
+  "residentSunday": "A Hoi An resident starts their Sunday with a stroll at An Bang Beach, enjoying a hearty breakfast of pho at a local eatery. They then visit the farmer's market at 8 AM, picking up fresh produce and chatting with vendors before heading home to prepare a family meal.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm, humid air on your skin, signaling the start of your adventure.",
+    "peak": "The peak day memory target is the Lantern Festival when the whole town lights up and the river is filled with floating candles.",
+    "departure": "Departure should feel like leaving a piece of your heart behind, with memories of lanterns and delicious food lingering in your mind."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring the Ancient Town and trying local cuisine.",
+      "misses": "Experience of the beaches and deeper cultural insights."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of culture, food, and relaxation at the beaches.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of Hoi An and nearby attractions like My Son and Da Nang.",
+      "whoFor": "Cultural enthusiasts and families."
+    },
+    "recommended": "Three to four days – gives a balanced experience of the town's offerings."
+  },
+  "antiPatterns": [
+    "Rushing through tailor shops without taking the time to understand the craft; it results in poorly fitted clothes.",
+    "Visiting the Ancient Town only at night; the daytime offers a different perspective and fewer crowds.",
+    "Skipping the local markets; missing these means missing the heart of Hoi An."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a cooking class to learn about local food preparations.",
+    "Most visitors regret not exploring the countryside outside the town.",
+    "Most visitors regret not spending enough time at the beach."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Cool and dry, temperatures range from 20-25°C.",
+      "crowds": "High, but manageable.",
+      "verdict": "Best time for pleasant weather."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Warmer temperatures and fewer crowds, ideal for exploring and beach time."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Hot and humid with occasional rain; however, beaches are enjoyable.",
+      "one reason some prefer it": "Fewer tourists and better deals on accommodations."
+    },
+    "bestMonth": "February - ideal weather conditions and fewer tourists.",
+    "currentSeason": "June 2026 is hot and humid with occasional afternoon showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local market at 6 AM for the freshest produce and a vibrant local atmosphere.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'Com ga' (chicken rice) at a small stall on Phan Chu Trinh Street for an authentic taste.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a lantern-making workshop at the Hoi An Lantern Festival Center to create your own souvenir.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the countryside by renting a bicycle; the rice fields at sunrise are incredible.",
+      "category": "experience"
+    },
+    {
+      "tip": "Don't miss the local art galleries scattered throughout the Ancient Town for unique handmade crafts.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pho at a local vendor for 50,000 VND (approx. ₹160)",
+    "midRangeMeal": "Dinner at Morning Glory for 250,000 VND (approx. ₹800)",
+    "luxuryMeal": "Fine dining at Mango Mango for 800,000 VND (approx. ₹2,500)",
+    "localTransportPerDay": "Rent a bicycle for 30,000 VND (approx. ₹100) or a motorbike for 150,000 VND (approx. ₹500).",
+    "budgetHotelPerNight": "Guesthouse with basic amenities for 400,000 VND (approx. ₹1,250).",
+    "midRangeHotelPerNight": "Comfortable hotel with a pool for 1,200,000 VND (approx. ₹3,750).",
+    "luxuryHotelPerNight": "Five-star hotel for 3,000,000 VND (approx. ₹9,375)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel dorm bed for around 200,000 VND (approx. ₹625)",
+      "food": "Street food for meals, max 150,000 VND (approx. ₹450)",
+      "transport": "Bicycle rentals."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Decent hotel for around 1,200,000 VND (approx. ₹3,750)",
+      "food": "Mix of local restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury accommodations provide excellent service, but they can be isolated from local experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and pagodas; shoulders and knees should be covered.",
+    "Remove shoes before entering someone's home or a temple.",
+    "Always greet locals with a smile and a polite 'Xin chào'."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxi fares; use ride-hailing apps like Grab instead.",
+      "Street vendors may quote higher prices to tourists; always ask for the price before ordering."
+    ],
+    "emergencyContacts": {
+      "police": "113",
+      "ambulance": "115",
+      "indianEmbassy": "Consulate General of India, Ho Chi Minh City. Phone: +84-28-3822-1950"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Japanese Covered Bridge",
+        "what": "The unique architecture and surrounding streets.",
+        "bestTime": "Early morning to avoid crowds.",
+        "tip": "Use a wide-angle lens for the best perspective."
+      }
+    ],
+    "goldenHour": "Around 6:30 PM during sunset.",
+    "tip": "Capture the locals going about their daily life for authentic moments."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Ancient Town",
+        "Take a cooking class",
+        "Relax at An Bang Beach"
+      ],
+      "emotionalArc": "This combination allows you to experience Hoi An's history, learn its culinary secrets, and unwind by the sea, creating a well-rounded experience.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers",
+        "relaxation seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "My Son",
+      "travelTime": "1 hour",
+      "how": "By taxi or bus",
+      "whyCombine": "For its ancient Cham ruins and contrasting experiences."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "The Ancient Town has cobblestone streets with some ramps, but many areas may be difficult to navigate.",
+    "majorChallenges": "Narrow streets and uneven surfaces can pose challenges for mobility.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider a guided tour for seniors to ensure a comfortable experience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot with temperatures around 32°C, occasional rain in the afternoons, and moderate tourist crowds.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa on arrival is currently not valid; ensure you have your e-Visa before arrival."
+  }
+}

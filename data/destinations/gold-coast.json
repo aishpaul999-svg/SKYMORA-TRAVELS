@@ -1,0 +1,276 @@
+{
+  "destination": "Gold Coast",
+  "country": "Australia",
+  "region": "Oceania",
+  "aliases": [
+    "Gold Coast",
+    "gold coast",
+    "australia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "families",
+      "adventure seekers",
+      "beach lovers",
+      "theme park enthusiasts",
+      "surfing aficionados"
+    ],
+    "notFor": [
+      "city explorers",
+      "cultural tourists",
+      "budget backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "12h",
+    "flightFromMumbai": "12h 30m, airlines include Qantas and Singapore Airlines, price range ₹45,000 - ₹60,000 return",
+    "visaForIndians": "Australia e-Visa",
+    "currency": "Australian Dollar (AUD), 1 INR = 0.018 AUD",
+    "timezone": "UTC+10",
+    "language": "English",
+    "bestMonthToVisit": "September, as it provides mild weather perfect for beach activities and fewer crowds",
+    "avoidMonth": "January, due to sweltering heat and peak tourist season leading to overcrowded attractions",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving 10% for excellent service is appreciated"
+  },
+  "whyPeopleFallInLove": "Picture yourself taking your first surfing lesson at Snapper Rocks, the salty sea breeze on your face, and the thrill of catching your first wave. The feeling of triumph as you ride it to shore is something you'll cherish forever.",
+  "honestTruth": "While Gold Coast is known for its beaches and theme parks, many miss out on the local dining scene that offers exquisite seafood at small, unassuming venues off the tourist trail.",
+  "localTruths": [
+    "Most visitors think Gold Coast is just about theme parks. Locals think it's about the beautiful beaches and the laid-back lifestyle that visitors often overlook.",
+    "Most visitors flock to the crowded Surfers Paradise. The best version of Gold Coast is in the more tranquil areas like Burleigh Heads where you can enjoy a more authentic beach experience.",
+    "Most visitors miss the local food markets. The real Gold Coast starts at the Miami Marketta on a Friday night, where you can indulge in local cuisines and artisanal products."
+  ],
+  "neighborhoodPersonalities": {
+    "Surfers Paradise": {
+      "tags": [
+        "touristy",
+        "nightlife",
+        "beachfront"
+      ],
+      "bestFor": "Those looking to party and enjoy beachfront activities.",
+      "avoid": "Can be overwhelming during peak season with noise and crowds."
+    },
+    "Burleigh Heads": {
+      "tags": [
+        "laid-back",
+        "surfing",
+        "local"
+      ],
+      "bestFor": "Surf enthusiasts and families wanting a quieter beach experience.",
+      "avoid": "Limited nightlife options compared to Surfers Paradise."
+    },
+    "Broadbeach": {
+      "tags": [
+        "shopping",
+        "dining",
+        "beach"
+      ],
+      "bestFor": "Visitors looking for a mix of beach and urban amenities.",
+      "avoid": "Can be pricier than other areas for dining and accommodation."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "12h",
+        "airlines": [
+          "Qantas",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹45,000 - ₹60,000 return",
+        "note": "Book 2-3 months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "12h 30m",
+        "airlines": [
+          "Qantas",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹45,000 - ₹60,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; taxi is the best option.",
+      "taxi": "Around AUD 50 (₹2,750) and takes about 30 minutes to Surfers Paradise.",
+      "recommended": "For first-timers, a taxi or rideshare service is recommended for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Australia e-Visa",
+    "applyAt": "www.immi.gov.au",
+    "processingTime": "Typically 3-5 working days",
+    "tip": "Ensure that all documents are in order and apply well in advance to avoid delays, especially during peak travel seasons."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Bumbles Cafe' for their famous smashed avocado toast and a flat white coffee.",
+    "sunset": "Watch the sunset at Burleigh Heads National Park at 5:30 PM for panoramic views of the coastline.",
+    "meal": "Dine at 'The Fish House' for their grilled barramundi with a side of local vegetables.",
+    "memory": "The moment you catch your first wave at a local surf school, feeling the adrenaline and joy as you ride it to the shore.",
+    "secret": "Locals know that the best fish and chips can be found at 'Hurricane's Grill', not the tourist traps."
+  },
+  "residentSunday": "A Gold Coast resident typically spends their Sunday relaxing at Burleigh Heads Beach, enjoying a brisk morning walk followed by brunch at 'The Pantry', and then possibly visiting the local farmers market in the afternoon for fresh produce and handmade goods.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step onto the soft sand of Burleigh Heads and feel the warmth of the sun.",
+    "peak": "The peak day memory is catching the sunset while lounging on the beach with friends, sharing laughter and stories.",
+    "departure": "Departure should feel like a bittersweet farewell, with the sun setting behind you as you reminisce about the memories made."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights including a day at a theme park and beach relaxation.",
+      "misses": "Deep exploration of local dining and hidden beaches."
+    },
+    "three_to_four_days": {
+      "focus": "A mix of theme parks, beaches, and local dining experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Full exploration including day trips to nearby attractions like the Hinterland.",
+      "whoFor": "Families and adventure seekers."
+    },
+    "recommended": "Four to five days are ideal for a balanced experience of relaxation and adventure."
+  },
+  "antiPatterns": [
+    "Spending all days at theme parks leads to burnout without experiencing the local culture.",
+    "Staying only in Surfers Paradise can result in missing the beautiful, less crowded beaches.",
+    "Trying to fit too many attractions in one day can ruin the experience and lead to exhaustion."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not exploring the local dining scene beyond the tourist traps.",
+    "Most visitors regret not trying surfing lessons while they had the chance.",
+    "Most visitors regret spending too much time in crowded areas instead of enjoying the quieter beaches."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to January",
+      "weather": "Hot and humid, average temperature around 30°C",
+      "crowds": "Very high, especially around Christmas and New Year",
+      "verdict": "Not ideal for those seeking a relaxed experience."
+    },
+    "shoulderSeason": {
+      "months": "February to May",
+      "why": "Pleasant weather with fewer tourists, perfect for beach activities."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Cooler temperatures averaging 20°C, occasional rain, but great for budget travelers.",
+      "one reason some prefer it": "Fewer crowds allow for a more personal experience at attractions."
+    },
+    "bestMonth": "September, as it offers ideal weather and fewer tourists.",
+    "currentSeason": "June 2026 is mild with average temperatures around 20°C, perfect for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Tallebudgera Creek for stunning waters perfect for paddleboarding, especially during the early morning.",
+      "category": "experience"
+    },
+    {
+      "tip": "For fresh seafood, try the 'Fisho's' fish market on Thursdays for the best prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Join a local yoga class on the beach at sunrise for a refreshing start to your day.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the local art scene at the 'Home of the Arts' for free exhibitions.",
+      "category": "experience"
+    },
+    {
+      "tip": "Look for happy hour specials at local bars like 'The Collective' for affordable drinks.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish and chips at 'The Fish Shack' for AUD 15 (₹833)",
+    "midRangeMeal": "A burger and fries at 'Betty's Burgers' for AUD 25 (₹1,389)",
+    "luxuryMeal": "Fine dining at 'Nineteen at The Star' for AUD 80 (₹4,444)",
+    "localTransportPerDay": "AUD 15 (₹833) for bus and tram travel.",
+    "budgetHotelPerNight": "AUD 100 (₹5,556) for a basic hotel with amenities.",
+    "midRangeHotelPerNight": "AUD 200 (₹11,111) for a comfortable hotel with a pool.",
+    "luxuryHotelPerNight": "AUD 400 (₹22,222) for a luxury resort experience."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorm beds at ₹1,200",
+      "food": "Self-catering or street food options",
+      "transport": "Public transport daily pass"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels at ₹3,500",
+      "food": "Mix of local dining and casual eats"
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury comes at a premium, but the experience is often worth it for the amenities and service."
+    }
+  },
+  "culturalRules": [
+    "Dress appropriately when visiting places of worship or upscale establishments.",
+    "Respect local wildlife; do not feed or disturb animals.",
+    "Follow beach safety flags and signage to ensure personal safety."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxi fares; always ask for a meter or use rideshare apps.",
+      "Watch out for beach vendors selling overpriced items."
+    ],
+    "emergencyContacts": {
+      "police": "000",
+      "ambulance": "000",
+      "indianEmbassy": "Embassy of India, Canberra, contact +61 2 6279 7700"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Snapper Rocks",
+        "what": "Surfers catching waves",
+        "bestTime": "Early morning for soft light",
+        "tip": "Use a zoom lens to capture the action from a distance."
+      }
+    ],
+    "goldenHour": "5:30 PM during summer months",
+    "tip": "Bring a polarizing filter to enhance the colors of the ocean and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Surf lesson at Burleigh Heads",
+        "Lunch at a local café",
+        "Visit to a theme park"
+      ],
+      "emotionalArc": "Starting with a thrilling surf lesson, followed by relaxation and excitement at the park creates a balanced day.",
+      "bestFor": [
+        "adventure seekers",
+        "families"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Byron Bay",
+      "travelTime": "1.5 hours",
+      "how": "Car or bus",
+      "whyCombine": "Famous for its lighthouse and laid-back vibe."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most major attractions are wheelchair accessible.",
+    "majorChallenges": "Some beach areas may not have full accessibility due to natural terrain.",
+    "seniorFriendlyScore": 8,
+    "note": "Many local transport options accommodate seniors and those with mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is mild with temperatures around 20°C, less crowded, ideal for relaxed beach days.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, travelers must have an e-Visa approved prior to entry."
+  }
+}

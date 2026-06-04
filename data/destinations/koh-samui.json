@@ -1,0 +1,276 @@
+{
+  "destination": "Koh Samui",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Koh Samui",
+    "koh samui",
+    "thailand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "luxury seekers",
+      "beach lovers",
+      "wellness enthusiasts",
+      "couples",
+      "families"
+    ],
+    "notFor": [
+      "budget travelers",
+      "party-goers looking for nightlife",
+      "adventure seekers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h 30min via Bangkok",
+    "flightFromMumbai": "5h 30min via Bangkok (Thai Airways, Bangkok Airways)",
+    "visaForIndians": "Thailand e-Visa USD 35",
+    "currency": "Thai Baht (1 INR = 0.43 THB)",
+    "timezone": "+7 UTC",
+    "language": "Thai (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "December, as the weather is dry and pleasant with less humidity.",
+    "avoidMonth": "September, due to heavy monsoon rains affecting outdoor activities.",
+    "tipping": "Tipping is not compulsory but appreciated; rounding up the bill or leaving 20-50 THB is common."
+  },
+  "whyPeopleFallInLove": "Imagine walking along Chaweng Beach at sunset, the smell of grilled seafood wafting through the air from nearby beach shacks, as you sip on a fresh coconut, feeling the soft sand beneath your feet. This is the moment that compels travelers to return.",
+  "honestTruth": "Many travelers underestimate the cost of living here; while the beaches are inviting, dining and accommodation in prime areas can be surprisingly pricey.",
+  "localTruths": [
+    "Most visitors think Koh Samui is just about the beaches. Locals think the real appeal lies in its waterfalls and dense jungle hiking trails.",
+    "Most visitors flock to Chaweng for nightlife. The best version of Koh Samui is found in the tranquil beaches of Lipa Noi and the cultural experiences in Fisherman’s Village.",
+    "Most visitors miss the local markets in the early morning. The real Koh Samui starts at the Bophut Fisherman’s Village every Friday night with its vibrant walking street market."
+  ],
+  "neighborhoodPersonalities": {
+    "Chaweng": {
+      "tags": [
+        "beach",
+        "shopping",
+        "nightlife"
+      ],
+      "bestFor": "those looking for a lively atmosphere with plenty of dining and entertainment options.",
+      "avoid": "It may feel overly commercialized and noisy at night."
+    },
+    "Lipa Noi": {
+      "tags": [
+        "quiet",
+        "family-friendly",
+        "relaxation"
+      ],
+      "bestFor": "families and travelers seeking a peaceful retreat.",
+      "avoid": "Limited dining options nearby, requiring a short drive to reach more restaurants."
+    },
+    "Fisherman’s Village": {
+      "tags": [
+        "culture",
+        "shopping",
+        "food"
+      ],
+      "bestFor": "cultural enthusiasts and food lovers.",
+      "avoid": "Can be crowded during the Friday night market."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h 30min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Bangkok Airways"
+        ],
+        "priceRange": "INR 25,000 - 35,000 return",
+        "note": "Booking a round trip in advance can save costs."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 30min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Bangkok Airways"
+        ],
+        "priceRange": "INR 25,000 - 35,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "There is no metro service; taxis are the main transport.",
+      "taxi": "Cost is around 400 THB (₹860) to Chaweng, taking about 15-20 minutes.",
+      "recommended": "For first-timers, pre-booking a taxi through your hotel is advised for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Thailand e-Visa USD 35",
+    "applyAt": "Thailand e-Visa official website",
+    "processingTime": "Typically 3-5 business days.",
+    "tip": "Apply at least a week in advance to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Cafe 69, order the Thai-style omelette with crab.",
+    "sunset": "Big Buddha Temple, around 6:30 PM for a serene view.",
+    "meal": "Coco Tam’s in Bophut, try their BBQ seafood platter.",
+    "memory": "The moment you first dip your toes into the clear, warm waters of the Gulf of Thailand.",
+    "secret": "Only locals know that the best moonlit beach parties are at quieter beaches like Maenam."
+  },
+  "residentSunday": "On a free Sunday, a Koh Samui resident might start the day with a breakfast of khao pad (Thai fried rice) at the local market, followed by a morning stroll at Lamai Beach. In the afternoon, they might indulge in a traditional Thai massage at a local spa and enjoy a relaxed dinner at The Cliff Bar & Grill, watching the sunset over the ocean.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm, tropical air hit your skin, signaling the start of your holiday.",
+    "peak": "The peak day memory target would be a day spent island-hopping, snorkeling in the clear waters, and enjoying a beachside lunch on Koh Phangan.",
+    "departure": "Departure should feel bittersweet, with the sun setting behind you as you reflect on a week filled with joyous memories."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Chaweng and a day trip to Ang Thong National Marine Park.",
+      "misses": "Diving experiences and the cultural depth of the island."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary covering beaches, cultural sites, and adventure activities.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of Koh Samui, including lesser-known beaches and wellness retreats.",
+      "whoFor": "Ideal for travelers seeking relaxation and a mix of adventure."
+    },
+    "recommended": "Five days is ideal to fully immerse in the island's offerings."
+  },
+  "antiPatterns": [
+    "Visiting only Chaweng and missing the cultural experiences in Fisherman’s Village fails to show the island's diversity.",
+    "Trying to do all the beaches in one day leads to rushed experiences and exhaustion.",
+    "Ignoring local dining spots in favor of international chains detracts from understanding Thai cuisine."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not renting a motorbike to explore the island on their own.",
+    "Most visitors regret not experiencing a traditional Thai cooking class.",
+    "Most visitors regret not spending enough time at the quieter beaches."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Temperatures around 25-30°C with low humidity.",
+      "crowds": "Expect higher tourist numbers, especially around Christmas and New Year.",
+      "verdict": "This is the best time for pleasant weather but be prepared for crowded beaches."
+    },
+    "shoulderSeason": {
+      "months": "March to June",
+      "why": "Fewer tourists, reasonable weather, and better accommodation rates."
+    },
+    "offSeason": {
+      "months": "September to October",
+      "reality": "Expect heavy rains, with some outdoor activities being limited.",
+      "one reason some prefer it": "Fewer tourists make for a more relaxed atmosphere."
+    },
+    "bestMonth": "December, for perfect weather and festive celebrations.",
+    "currentSeason": "June 2026 is warm with occasional rain; still a good time for beach activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "For the freshest seafood, visit the market in Bophut around 7 AM; prices are lower and quality is at its peak.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a local bus (songthaew) for an authentic experience and to save money on transport.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit the Secret Buddha Garden in the afternoon for a peaceful retreat away from the crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check the local event calendar for free beach yoga sessions that happen on Sundays.",
+      "category": "experience"
+    },
+    {
+      "tip": "For a thrilling experience, rent a kayak and explore the coastline at sunrise.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pad Thai at a local street vendor for around 50 THB (₹110).",
+    "midRangeMeal": "Dinner at The Cliff Bar & Grill for a three-course meal costing about 1,200 THB (₹2,600).",
+    "luxuryMeal": "Dining at Zazen Restaurant can cost around 3,000 THB (₹6,500) for a multi-course tasting menu.",
+    "localTransportPerDay": "Approximately 300 THB (₹650) for songthaew rides and local taxis.",
+    "budgetHotelPerNight": "Hostel accommodation starts at around 500 THB (₹1,100), including basic amenities.",
+    "midRangeHotelPerNight": "Comfortable hotels range from 2,500-4,000 THB (₹5,500-8,800) per night with good facilities.",
+    "luxuryHotelPerNight": "Luxury resorts like Four Seasons can range from 15,000 THB (₹32,500) onwards."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds from 500 THB (₹1,100).",
+      "food": "Street food meals averaging 50-100 THB (₹110-220).",
+      "transport": "Local transport via songthaew or walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels around 2,500-4,000 THB (₹5,500-8,800).",
+      "food": "Mix of local and occasional fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options offer top-notch amenities, but plan for higher dining and activity costs."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Remove shoes before entering homes or temples.",
+    "Always be respectful towards the local customs and traditions."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Tuk-tuk drivers may inflate prices; always negotiate before getting in.",
+      "Beware of counterfeit goods in markets; stick to reputable shops."
+    ],
+    "emergencyContacts": {
+      "police": "191",
+      "ambulance": "1669",
+      "indianEmbassy": "Indian Embassy in Bangkok: +66 2 263 5555"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Big Buddha Temple",
+        "what": "The iconic statue against the backdrop of the sky.",
+        "bestTime": "Early morning for less crowd and soft lighting.",
+        "tip": "Use a wide-angle lens to capture the grandeur."
+      }
+    ],
+    "goldenHour": "Approximately 6:00 PM for sunset shots.",
+    "tip": "Capture the local markets in the evening; the lights create a magical atmosphere."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning yoga on the beach",
+        "Brunch at a beachfront café",
+        "Afternoon snorkeling at the Ang Thong National Marine Park"
+      ],
+      "emotionalArc": "This sequence flows from a peaceful start to an adventurous afternoon, creating a satisfying blend of relaxation and thrill.",
+      "bestFor": [
+        "wellness seekers",
+        "adventure lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Koh Phangan",
+      "travelTime": "30 minutes by ferry",
+      "how": "Ferry from Nathon Pier.",
+      "whyCombine": "Famous for its Full Moon Party and pristine beaches."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many tourist areas are accessible, but some beaches have limited access.",
+    "majorChallenges": "Steep paths and uneven surfaces in certain natural attractions.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan for accessible transport options in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain; still a good time for beach activities, but expect some thunderstorms.",
+    "currentAlerts": [],
+    "entryRequirements": "Thailand e-Visa is still required for Indian passport holders."
+  }
+}

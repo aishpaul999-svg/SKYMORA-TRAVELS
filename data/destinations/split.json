@@ -1,0 +1,283 @@
+{
+  "destination": "Split",
+  "country": "Croatia",
+  "region": "Europe",
+  "aliases": [
+    "Split",
+    "split",
+    "croatia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "beach lovers",
+      "foodies",
+      "island hoppers",
+      "adventure seekers"
+    ],
+    "notFor": [
+      "budget backpackers",
+      "party-goers",
+      "those seeking large metropolitan experiences"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "10h with one stop via airlines like Lufthansa and Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Croatian Kuna (HRK), 1 INR = 0.14 HRK",
+    "timezone": "UTC+1",
+    "language": "Croatian, English widely spoken",
+    "bestMonthToVisit": "September - great weather, fewer tourists than July and August",
+    "avoidMonth": "January - cold and many attractions closed",
+    "tipping": "10-15% in restaurants; rounding up is also acceptable"
+  },
+  "whyPeopleFallInLove": "Walking through the Diocletian's Palace, the scent of fresh seafood grilling wafts through the air, mingling with the salty sea breeze, setting the perfect backdrop for your culinary adventure along the Riva promenade.",
+  "honestTruth": "While many visitors flock to the tourist hotspots, a significant part of Split's charm lies in the everyday life unfolding in quiet alleys, often overlooked by tourists focused on the major sights.",
+  "localTruths": [
+    "Most visitors think Split is just about the beaches. Locals think it’s about the stories hidden within the ancient walls of the palace.",
+    "Most visitors rush through their itinerary. The best version of Split is found when you take the time to engage with local fishermen at the morning fish market.",
+    "Most visitors miss the magic of Marjan Hill. The real Split starts at dawn when the city awakens and locals jog or bike along the paths."
+  ],
+  "neighborhoodPersonalities": {
+    "Diocletian's Palace": {
+      "tags": [
+        "historical",
+        "touristy",
+        "cultural"
+      ],
+      "bestFor": "History buffs wanting to explore ancient architecture",
+      "avoid": "The crowds during peak hours can be overwhelming."
+    },
+    "Marjan Hill": {
+      "tags": [
+        "nature",
+        "active",
+        "local"
+      ],
+      "bestFor": "Those seeking tranquility and outdoor activities",
+      "avoid": "The steep paths can be challenging for those with mobility issues."
+    },
+    "Riva": {
+      "tags": [
+        "waterfront",
+        "dining",
+        "social"
+      ],
+      "bestFor": "Dining with a view of the harbor",
+      "avoid": "Higher prices due to tourist traffic."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "Lufthansa"
+        ],
+        "priceRange": "₹40,000 - ₹60,000 return",
+        "note": "Book at least two months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Qatar Airways",
+          "Lufthansa"
+        ],
+        "priceRange": "₹45,000 - ₹70,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro available; bus costs around 40 HRK (~₹280) and takes about 30 minutes.",
+      "taxi": "A taxi ride costs approximately 250 HRK (~₹1,750) and takes around 30 minutes.",
+      "recommended": "For first-timers, the bus is a cost-effective option with direct routes to the city center."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in major Indian cities.",
+    "processingTime": "15-20 working days.",
+    "tip": "Ensure all your travel documents are in order and book an appointment well in advance."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café Pizzeria Pivnica, order the 'Burek' with yogurt for a local flavor.",
+    "sunset": "Watch the sunset from the top of Marjan Hill around 8 PM during summer for a panoramic view of the city.",
+    "meal": "Dine at Konoba Matejuska and try the 'Grilled Fish Platter' for an authentic taste of the Adriatic.",
+    "memory": "The moment you sit on the steps of the Diocletian's Palace as the sun sets, locals and tourists laughing and mingling around you.",
+    "secret": "Locals often enjoy evening walks along the Riva, where you can discover impromptu music performances."
+  },
+  "residentSunday": "A Split resident usually starts their Sunday with coffee at Café Bačvice, followed by a swim at Bačvice Beach. They might enjoy lunch at a local konoba before taking a leisurely stroll up Marjan Hill to enjoy the views, finishing the day with dinner at a family-run restaurant in Veli Varoš.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you catch your first glimpse of the turquoise waters of the Adriatic as you approach the city.",
+    "peak": "The peak day memory is when you discover the hidden coves around the islands during a boat tour.",
+    "departure": "Departure should feel like a bittersweet farewell, with a promise to return to your newfound favorite coastal escape."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Basic exploration of Diocletian's Palace and the waterfront",
+      "misses": "The islands and deeper local experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of sightseeing, beach time, and local dining",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of Split and day trips to nearby islands like Hvar and Brač",
+      "whoFor": "Travelers wanting a leisurely pace with ample exploration."
+    },
+    "recommended": "Four days is ideal to soak in both the historical and natural beauty of Split."
+  },
+  "antiPatterns": [
+    "Rushing from Diocletian's Palace directly to the beach fails to capture the essence of the city.",
+    "Dining only at touristy spots leads to missing out on authentic Croatian cuisine.",
+    "Visiting popular attractions without checking opening times can leave you disappointed."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local seafood dishes at smaller restaurants.",
+    "Most visitors regret skipping the hike up Marjan Hill for the views.",
+    "Most visitors regret not taking a boat trip to the nearby islands."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "hot, average 30°C",
+      "crowds": "very crowded, especially at beaches and restaurants",
+      "verdict": "Best for beach lovers but expect queues and full accommodations."
+    },
+    "shoulderSeason": {
+      "months": "May, June, September",
+      "why": "Ideal for moderate weather and fewer crowds."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold, with temperatures averaging around 5°C and many attractions closed.",
+      "reason": "Some prefer the quiet and lower prices during this time."
+    },
+    "bestMonth": "September - ideal weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm, averaging 27°C, with a lively atmosphere as summer begins."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the fish market early in the morning for the freshest catch of the day at local prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the ferry to Čiovo Island for a less crowded beach experience.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join a local cooking class to learn how to make traditional Dalmatian dishes.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local wines at a konoba in the old town; they are often family-owned and have great selections.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the back alleys of the old town; many have fascinating history and fewer tourists.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A 'Pizza Margherita' at a local pizzeria costs around 50 HRK (~₹350).",
+    "midRangeMeal": "A seafood risotto at a mid-range restaurant costs around 150 HRK (~₹1,050).",
+    "luxuryMeal": "Dinner at 'Restaurant Dvor' with a tasting menu can cost around 600 HRK (~₹4,200).",
+    "localTransportPerDay": "Typical daily local transport costs around 50 HRK (~₹350).",
+    "budgetHotelPerNight": "A budget hotel room costs around 400 HRK (~₹2,800) for basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel costs around 800 HRK (~₹5,600) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels start from 2,000 HRK (~₹14,000) with extensive amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm beds around 150 HRK (~₹1,050)",
+      "food": "Street food and budget eateries",
+      "transport": "Buses and walking"
+    },
+    "comfortable": {
+      "perDayINR": "₹6,500",
+      "accommodation": "Mid-range hotels around 800 HRK (~₹5,600)",
+      "food": "Mix of local restaurants and occasional splurges"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury comes with spectacular views and high-end dining options, but it's advisable to book in advance."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and religious sites.",
+    "Tipping is appreciated, but not obligatory; round up the bill.",
+    "Respect local customs, such as greeting locals with a friendly 'Dobar dan' (Good day)."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxi rides; always ask for the fare beforehand.",
+      "Watch out for pickpockets in crowded areas."
+    ],
+    "emergencyContacts": {
+      "police": "192",
+      "ambulance": "194",
+      "indianEmbassy": "Embassy of India, Zagreb -  +385-1-460-1500"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Diocletian's Palace",
+        "what": "The ancient architecture and bustling atmosphere",
+        "bestTime": "Early morning or late afternoon",
+        "tip": "Use a wide-angle lens to capture the full scale of the architecture."
+      }
+    ],
+    "goldenHour": "Around 8 PM in summer for the best light.",
+    "tip": "Experiment with low angles at the Riva promenade for stunning reflections of the sunset."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning coffee at Riva",
+        "Explore Diocletian's Palace",
+        "Lunch at a local konoba"
+      ],
+      "emotionalArc": "This sequence creates a leisurely day that allows you to engage with the city both culturally and socially.",
+      "bestFor": [
+        "food lovers",
+        "history buffs",
+        "relaxers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Hvar",
+      "travelTime": "1h by ferry",
+      "how": "Ferry from Split",
+      "whyCombine": "Famous for its nightlife and beaches."
+    },
+    {
+      "city": "Brač",
+      "travelTime": "50min by ferry",
+      "how": "Ferry from Split",
+      "whyCombine": "Known for Zlatni Rat beach."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some areas, particularly in the old town, can be challenging due to cobblestones.",
+    "majorChallenges": "Limited ramps in historic areas may pose difficulties.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan visits to less crowded attractions during off-peak hours for a more comfortable experience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with average temperatures around 27°C. The city is lively with tourists, and outdoor events are in full swing.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain the same, ensure you have all necessary documentation ready."
+  }
+}

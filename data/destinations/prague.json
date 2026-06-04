@@ -1,0 +1,289 @@
+{
+  "destination": "Prague",
+  "country": "Czech Republic",
+  "region": "Europe",
+  "aliases": [
+    "Prague",
+    "prague",
+    "czech republic"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "beer lovers",
+      "literature fans",
+      "art aficionados",
+      "urban explorers"
+    ],
+    "notFor": [
+      "party seekers",
+      "shopping addicts",
+      "beach lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "9h 30m with airlines like Emirates and Qatar Airways typically ranging from ₹35,000 to ₹50,000 for a round trip.",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Czech Koruna (CZK); 1 INR = 0.56 CZK",
+    "timezone": "UTC+1",
+    "language": "Czech (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "September; the weather is mild and there are fewer tourists than in summer.",
+    "avoidMonth": "December; heavy tourist crowds and higher prices for accommodations.",
+    "tipping": "10% is customary in restaurants, but check if service charge is included."
+  },
+  "whyPeopleFallInLove": "As you sip a freshly poured Pilsner at a local beer garden, the sun setting behind the magnificent Prague Castle casts a warm glow over the cobblestone streets, wrapping you in a moment that feels timeless.",
+  "honestTruth": "Many guides overlook that while Prague is stunning, it can feel overly commercialized in peak tourist season, especially around Old Town Square.",
+  "localTruths": [
+    "Most visitors think they can only enjoy the Old Town. Locals think the best cafes and bars are in neighborhoods like Žižkov and Vinohrady.",
+    "Most visitors rush through the Charles Bridge. The best version of Prague is when you take your time to truly appreciate the street performers and artists lining the bridge.",
+    "Most visitors miss the intimate experience of Kafka's Museum. The real Prague starts at a quiet café nearby where you can reflect on his works."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Town": {
+      "tags": [
+        "historical",
+        "touristy",
+        "cultural"
+      ],
+      "bestFor": "immersing in medieval architecture and vibrant street life.",
+      "avoid": "be cautious of pickpockets in crowded areas."
+    },
+    "Malá Strana": {
+      "tags": [
+        "romantic",
+        "scenic",
+        "artistic"
+      ],
+      "bestFor": "strolling along picturesque streets and enjoying views of the castle.",
+      "avoid": "dining at overpriced tourist traps; seek local bistros instead."
+    },
+    "Žižkov": {
+      "tags": [
+        "bohemian",
+        "lively",
+        "local"
+      ],
+      "bestFor": "experiencing Prague's nightlife and craft beer scene.",
+      "avoid": "the overly commercial bars; go for the small, independent pubs."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹35,000 - ₹50,000",
+        "note": "Book at least two months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m",
+        "airlines": [
+          "Emirates",
+          "Lufthansa"
+        ],
+        "priceRange": "₹35,000 - ₹55,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line AE; costs about 40 CZK (₹22) and takes 30 minutes.",
+      "taxi": "Approximately 800 CZK (₹450) and takes around 30 minutes depending on traffic.",
+      "recommended": "For first-timers, taking the airport shuttle is economical and efficient."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global center or the Czech Embassy in New Delhi.",
+    "processingTime": "15 working days on average.",
+    "tip": "Apply at least a month in advance to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Cafe Savoy; order the traditional Czech breakfast with eggs, ham, and fresh bread.",
+    "sunset": "Petrin Hill; aim to be there around 8 PM in September for a panoramic view of the city.",
+    "meal": "Lokál Dlouhááá; try the svíčková (marinated beef) with freshly brewed Pilsner.",
+    "memory": "Sitting on the Charles Bridge at dawn, watching the city wake up with you.",
+    "secret": "The best view of the city is from the rooftop of the Dancing House; it’s less crowded than the castle."
+  },
+  "residentSunday": "A Prague resident might start their Sunday with brunch at Café Louvre at 10 AM, followed by a stroll through Letná Park. They'd grab a beer at Letna Beer Garden around noon, before heading to an art exhibition at DOX Centre for Contemporary Art in the afternoon. Dinner would be at a local pub in Vinohrady, enjoying traditional Czech dishes.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the cool breeze, realizing you are in a totally new country.",
+    "peak": "The peak day memory target is walking through the Old Town Square as the Astronomical Clock strikes noon.",
+    "departure": "How the departure should feel is a mix of nostalgia and satisfaction, leaving with a sense of connection to the city."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "highlights like Old Town, Prague Castle, and Charles Bridge.",
+      "misses": "deeper cultural experiences and the neighborhoods outside the city center."
+    },
+    "three_to_four_days": {
+      "focus": "a balance of main attractions and lesser-known spots, along with local dining.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration of the city, including day trips to nearby places like Český Krumlov.",
+      "whoFor": "culture and history enthusiasts who want to immerse themselves."
+    },
+    "recommended": "Four days is ideal to explore Prague without rushing through its treasures."
+  },
+  "antiPatterns": [
+    "Trying to see everything in one day fails because it leads to fatigue and missing genuine local experiences.",
+    "Dining at tourist-heavy restaurants in Old Town fails because the food quality and service can be poor.",
+    "Visiting during peak hours at famous attractions ruins the experience due to overcrowding."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local beers and traditional food.",
+    "Most visitors regret not taking a guided tour to understand the history behind the landmarks.",
+    "Most visitors regret skipping the lesser-known neighborhoods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "warm (20-30°C), occasional showers",
+      "crowds": "very high, with long queues at attractions",
+      "verdict": "Expect higher prices and crowded spaces but great weather."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "fewer crowds, pleasant weather, and local festivals."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "cold (below 0°C); fewer tourists but some attractions might close early.",
+      "oneReasonSomePreferIt": "Lower accommodation prices and the beauty of Christmas markets in December."
+    },
+    "bestMonth": "September; it combines pleasant weather with fewer tourists.",
+    "currentSeason": "June 2026 conditions are warm with occasional rain, vibrant outdoor events are happening."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Vyšehrad Cemetery for a peaceful stroll among famous Czech figures, it's less crowded than other tourist spots.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local bakery, Trdelník, but avoid tourist traps; find a local vendor for an authentic taste.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a classical music concert at St. Nicholas Church – tickets are often available at the door for a lower price.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use the city bike-sharing system for a fun and efficient way to explore; it’s cheap and convenient.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit the Prague Beer Museum for a tasting session; it provides insight into Czech brewing culture.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Svíčková at a local diner for 150 CZK (₹84)",
+    "midRangeMeal": "Three-course meal for two at a mid-range restaurant for around 1,200 CZK (₹670)",
+    "luxuryMeal": "Fine dining at La Degustation for about 3,000 CZK (₹1,680)",
+    "localTransportPerDay": "Around 100 CZK (₹56) for unlimited transport.",
+    "budgetHotelPerNight": "1,200 CZK (₹670) for a hostel bed in a dormitory with shared facilities.",
+    "midRangeHotelPerNight": "2,500 CZK (₹1,400) for a standard double room in a 3-star hotel.",
+    "luxuryHotelPerNight": "5,000 CZK (₹2,800) for a 5-star hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,800",
+      "accommodation": "hostel dormitory for around ₹670",
+      "food": "street food and budget diners for around ₹600",
+      "transport": "using public transport for ₹56"
+    },
+    "comfortable": {
+      "perDayINR": "₹4,000",
+      "accommodation": "mid-range hotel for around ₹1,400",
+      "food": "mix of local restaurants for ₹1,200"
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury in Prague offers great value compared to other European cities, but be ready to book in advance."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and religious sites.",
+    "Always greet shopkeepers and waitstaff with a polite 'Dobrý den' (Good day).",
+    "Do not take photos in galleries or museums unless permitted."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly friendly strangers asking for help; they might be trying to distract you while an accomplice picks your pocket.",
+      "Watch out for unofficial taxi services that might overcharge; always use official taxis or rideshare apps."
+    ],
+    "emergencyContacts": {
+      "police": "158",
+      "ambulance": "155",
+      "indianEmbassy": "Indian Embassy in Prague, address: 5 Náměstí 4. července 1860/1, 160 00 Praha 6, Czech Republic."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Charles Bridge",
+        "what": "Capture the sunrise with minimal crowds.",
+        "bestTime": "Around 5 AM in summer.",
+        "tip": "Look out for the statues along the bridge for unique frames."
+      },
+      {
+        "name": "Prague Castle from the Golden Lane",
+        "what": "The castle looks majestic against the evening sky.",
+        "bestTime": "Just before sunset.",
+        "tip": "Use a zoom lens to capture details of the architecture."
+      }
+    ],
+    "goldenHour": "Around 8 PM in summer.",
+    "tip": "Always carry a small tripod for night shots; Prague's night lights are captivating."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Old Town Square",
+        "Explore the Jewish Quarter",
+        "Enjoy dinner at a local restaurant in Malá Strana"
+      ],
+      "emotionalArc": "This sequence builds excitement as you delve deeper into the city's history and culture, culminating in a relaxing dinner with local flavors.",
+      "bestFor": [
+        "history buffs",
+        "foodies",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Český Krumlov",
+      "travelTime": "2h 30m",
+      "how": "by bus or train",
+      "whyCombine": "Its medieval architecture and stunning castle provide a perfect contrast to Prague."
+    },
+    {
+      "city": "Karlovy Vary",
+      "travelTime": "2h",
+      "how": "by bus or car",
+      "whyCombine": "Famous for its thermal springs and spa culture, offering a different side of Czechia."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most public transport is accessible, but some older attractions may pose challenges.",
+    "majorChallenges": "Cobblestone streets can be difficult for wheelchair users.",
+    "seniorFriendlyScore": 8,
+    "note": "Many museums offer discounts for seniors and have facilities for easier access."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with a mix of sunshine and occasional rain, perfect for outdoor activities and festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen Visa required for entry."
+  }
+}

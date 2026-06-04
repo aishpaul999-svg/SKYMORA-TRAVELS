@@ -1,0 +1,276 @@
+{
+  "destination": "Muscat",
+  "country": "Oman",
+  "region": "Middle East",
+  "aliases": [
+    "Muscat",
+    "muscat",
+    "oman"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Enthusiasts",
+      "Beach Lovers",
+      "Foodies",
+      "History Buffs",
+      "Adventure Seekers"
+    ],
+    "notFor": [
+      "Party Seekers",
+      "Extreme Budget Travelers",
+      "Nightlife Enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "4h",
+    "flightFromMumbai": "3h 30m with airlines like Oman Air and IndiGo, prices range from ₹15,000 to ₹25,000 for a return ticket.",
+    "visaForIndians": "e-Visa USD 20",
+    "currency": "Omani Rial (1 INR = 0.0052 OMR)",
+    "timezone": "UTC+4",
+    "language": "Arabic (English is widely spoken)",
+    "bestMonthToVisit": "November - March, as temperatures are mild and ideal for outdoor activities.",
+    "avoidMonth": "June - August, due to extreme heat with temperatures often exceeding 40°C.",
+    "tipping": "Tipping is appreciated; rounding up the bill or providing 5-10% is common."
+  },
+  "whyPeopleFallInLove": "Walking through the Mutrah Souq, the aroma of frankincense fills the air as you navigate through vibrant stalls selling handicrafts and spices. The sunlight glints off the turquoise waters of the Gulf as you sip traditional Omani coffee, experiencing the blend of past and present in every moment.",
+  "honestTruth": "Many travelers underestimate the cultural significance of the Sultan Qaboos Grand Mosque, thinking it's just another mosque, but the intricate details and serene atmosphere reveal the heart of Omani identity.",
+  "localTruths": [
+    "Most visitors think Muscat is just a stopover. Locals think it’s a city with a deep connection to its maritime heritage and traditions.",
+    "Most visitors head straight to the beach. The best version of Muscat is experienced through its forts and museums that tell stories of resilience.",
+    "Most visitors miss the local cuisine. The real Muscat starts at the food stalls in the alleys of Mutrah after sunset."
+  ],
+  "neighborhoodPersonalities": {
+    "Mutrah": {
+      "tags": [
+        "markets",
+        "history",
+        "culture"
+      ],
+      "bestFor": "Exploring traditional handicrafts and experiencing local life.",
+      "avoid": "It can get crowded, especially on weekends."
+    },
+    "Qurum": {
+      "tags": [
+        "beaches",
+        "modernity",
+        "dining"
+      ],
+      "bestFor": "Relaxing by the beach and enjoying upscale dining.",
+      "avoid": "Parking can be challenging during peak hours."
+    },
+    "Old Muscat": {
+      "tags": [
+        "forts",
+        "heritage",
+        "views"
+      ],
+      "bestFor": "Discovering Oman's history through forts and palaces.",
+      "avoid": "Limited dining options, so plan meals accordingly."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "4h",
+        "airlines": [
+          "Oman Air",
+          "IndiGo"
+        ],
+        "priceRange": "₹15,000 - ₹25,000",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3h 30m",
+        "airlines": [
+          "Oman Air",
+          "IndiGo"
+        ],
+        "priceRange": "₹15,000 - ₹25,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available; consider taxis or ride-sharing.",
+      "taxi": "Approx OMR 5 (₹1,000) and takes about 30 minutes.",
+      "recommended": "For first-timers, arrange a taxi through your hotel for a hassle-free experience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 20",
+    "applyAt": "https://evisa.rop.gov.om",
+    "processingTime": "Typically 3-5 business days.",
+    "tip": "Apply at least a week before your travel date to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Kargeen Cafe and order the traditional Omani breakfast, featuring eggs, cheese, and fresh bread.",
+    "sunset": "Watch the sunset from the Sultan Qaboos Grand Mosque at around 6:15 PM for a serene experience.",
+    "meal": "Dine at Bait Al Luban and try Shuwa, a traditional Omani lamb dish marinated with spices and wrapped in banana leaves.",
+    "memory": "The moment you gaze at the intricate mosaics of the Sultan Qaboos Grand Mosque, feeling the weight of history and artistry.",
+    "secret": "Only locals know that the best time to visit the Mutrah Corniche is late at night when the sea breeze cools down the heat."
+  },
+  "residentSunday": "On a typical Sunday, a Muscat resident might start with breakfast at the Marina Bandar Al Rowdha at 9 AM, followed by a stroll along the beach. They would then head to the Royal Opera House for a guided tour around noon, and finish the day at a family gathering where they enjoy traditional Omani dishes like Majboos for dinner.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the turquoise sea as you exit the airport, with the scent of salty air filling your lungs.",
+    "peak": "Standing atop the Al Jalali Fort, taking in the panoramic views of the city, feeling a sense of connection to its history.",
+    "departure": "Leaving with a heavy heart, the taste of mint lemonade still fresh on your palate, promising to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like the Grand Mosque, Mutrah Souq, and a beach visit.",
+      "misses": "In-depth exploration of the forts and local cuisine."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of cultural sites, beach time, and local dining experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration including day trips to nearby mountains and desert, museums, and local markets.",
+      "whoFor": "Cultural enthusiasts and adventure seekers."
+    },
+    "recommended": "4 days allows you to soak in the essence of Muscat without feeling rushed."
+  },
+  "antiPatterns": [
+    "Trying to see everything in one day fails as it leads to exhaustion and missing the nuances of each place.",
+    "Spending all your time in shopping malls misses the authentic experiences that Muscat has to offer.",
+    "Visiting the Grand Mosque during midday can ruin the experience due to the heat and crowds."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food in Mutrah.",
+    "Most visitors regret not visiting the forts and museums that showcase Oman's history.",
+    "Most visitors regret missing the sunset views from the beaches."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November - March",
+      "weather": "Pleasant temperatures between 20-30°C.",
+      "crowds": "High, with tourists flocking to the city for mild weather.",
+      "verdict": "Ideal for outdoor activities, but expect more crowds."
+    },
+    "shoulderSeason": {
+      "months": "April - May",
+      "why": "Milder temperatures and fewer tourists make it easier to explore."
+    },
+    "offSeason": {
+      "months": "June - September",
+      "reality": "Very hot, with temperatures often above 40°C, making outdoor activities challenging.",
+      "advantage": "Less crowded attractions, allowing for a more personal experience."
+    },
+    "bestMonth": "November - The weather is ideal for both sightseeing and outdoor activities.",
+    "currentSeason": "June 2026 is hot, with temperatures exceeding 40°C, making outdoor activities challenging."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the fish market at Mutrah early in the morning for the freshest catch and an authentic local experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local dates – they are not just a snack but a part of Omani culture and can be found in various flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a local festival if you can; it offers insights into Omani traditions that most tourists miss.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a guided tour of the forts to truly understand their historical significance beyond the architecture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Learn a few Arabic phrases; it goes a long way in connecting with locals.",
+      "category": "culture"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Shawarma at a street vendor for OMR 1.5 (₹290)",
+    "midRangeMeal": "Traditional Omani meal at Al Makan restaurant costs around OMR 5 (₹1,000).",
+    "luxuryMeal": "Dinner at The Chedi costs OMR 20 (₹4,000) per person.",
+    "localTransportPerDay": "Using taxis and local transport can range around OMR 5 (₹1,000) per day.",
+    "budgetHotelPerNight": "A budget hotel can cost around OMR 15 (₹2,900) for basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel typically costs OMR 40 (₹7,800) and includes breakfast and Wi-Fi.",
+    "luxuryHotelPerNight": "Luxury stays start at OMR 100 (₹19,500) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dorm beds for ₹800",
+      "food": "Street food for about ₹500",
+      "transport": "Using local buses and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,000",
+      "accommodation": "Mid-range hotels for ₹3,000",
+      "food": "Mix of street and mid-range dining."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options can be more expensive but offer exceptional service and experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, covering shoulders and knees, especially in religious sites.",
+    "Public displays of affection are frowned upon; maintain decorum.",
+    "Always ask for permission before photographing locals."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unlicensed taxis; always use the official taxi stand.",
+      "Some vendors may inflate prices for tourists; always negotiate."
+    ],
+    "emergencyContacts": {
+      "police": "9999",
+      "ambulance": "9999",
+      "indianEmbassy": "Tel: 2460 7801, Address: 197, Bait Al Falaj, Muscat."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Sultan Qaboos Grand Mosque",
+        "what": "The stunning architecture and intricate details.",
+        "bestTime": "Early morning or late afternoon for soft lighting.",
+        "tip": "Use a wide-angle lens to capture the grandeur."
+      }
+    ],
+    "goldenHour": "Approximately 6:10 PM.",
+    "tip": "Bring a polarizing filter to reduce reflections when shooting near water."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Sultan Qaboos Grand Mosque",
+        "Explore Mutrah Souq",
+        "Relax at Qurum Beach"
+      ],
+      "emotionalArc": "This sequence allows you to absorb the cultural richness of Muscat before unwinding at the beach, creating a fulfilling day.",
+      "bestFor": [
+        "Cultural Enthusiasts",
+        "Leisure Travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Nizwa",
+      "travelTime": "1.5h",
+      "how": "By car or bus",
+      "whyCombine": "To explore the ancient forts and the vibrant souq."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most main attractions have ramps, but some older sites may lack facilities.",
+    "majorChallenges": "Limited public transport options can make getting around difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan your itinerary to include rest periods, especially in the heat."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot, with temperatures around 40°C. Crowds are low as many avoid the heat. There are fewer events, but evening markets offer a local experience.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, e-visa requirements remain the same; ensure all documents are in order prior to arrival."
+  }
+}

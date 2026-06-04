@@ -1,0 +1,276 @@
+{
+  "destination": "Buenos Aires",
+  "country": "Argentina",
+  "region": "Americas",
+  "aliases": [
+    "Buenos Aires",
+    "buenos aires",
+    "argentina"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food enthusiasts",
+      "cultural explorers",
+      "nightlife lovers",
+      "art aficionados",
+      "dance enthusiasts"
+    ],
+    "notFor": [
+      "budget backpackers",
+      "short-stay tourists",
+      "those seeking beach vacations"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "20h",
+    "flightFromMumbai": "22h, airlines include Emirates and Air France with layovers in Dubai and Paris respectively.",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Argentine Peso (ARS), 1 INR = 0.048 ARS",
+    "timezone": "UTC-3",
+    "language": "Spanish (English is spoken in tourist areas)",
+    "bestMonthToVisit": "October, as the weather is mild and the city's parks are in full bloom.",
+    "avoidMonth": "January, due to the intense heat and many locals being on holiday.",
+    "tipping": "10% is appreciated in restaurants; rounding up taxi fares is common."
+  },
+  "whyPeopleFallInLove": "The moment you step into a traditional milonga, the air thick with the scent of leather shoes and tobacco, and watch couples glide across the floor in perfect sync, you realize this city pulses with passion. The first bite of a perfectly grilled asado, with chimichurri dripping off the meat, ignites your senses and makes you crave more.",
+  "honestTruth": "While many rave about the steak, what you don't hear is that the quality can vary significantly; finding a truly excellent parrilla requires local knowledge and recommendations.",
+  "localTruths": [
+    "Most visitors think Buenos Aires is all about tango shows. Locals think the best tango is experienced in informal milongas where the atmosphere is relaxed and authentic.",
+    "Most visitors flock to well-known tourist spots. The best version of Buenos Aires is found in its hidden neighborhoods, where street art and local eateries flourish.",
+    "Most visitors miss the early morning coffee culture. The real Buenos Aires starts at 7 AM at a local café, sipping on a cortado while watching the city awaken."
+  ],
+  "neighborhoodPersonalities": {
+    "San Telmo": {
+      "tags": [
+        "historic",
+        "artistic",
+        "lively"
+      ],
+      "bestFor": "exploring antique shops and street markets",
+      "avoid": "beware of pickpockets, especially in crowded areas."
+    },
+    "Palermo": {
+      "tags": [
+        "trendy",
+        "green",
+        "fashionable"
+      ],
+      "bestFor": "enjoying chic cafes and boutique shopping",
+      "avoid": "can be overpriced during peak tourist seasons."
+    },
+    "Recoleta": {
+      "tags": [
+        "elegant",
+        "cultural",
+        "sophisticated"
+      ],
+      "bestFor": "visiting museums and upscale dining",
+      "avoid": "the expensive tourist traps near the cemetery."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "20h",
+        "airlines": [
+          "Air India",
+          "Lufthansa"
+        ],
+        "priceRange": "₹60,000 - ₹85,000 for a return ticket",
+        "note": "Book at least two months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "22h",
+        "airlines": [
+          "Emirates",
+          "Air France"
+        ],
+        "priceRange": "₹70,000 - ₹95,000 for a return ticket"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; an express bus costs ARS 500 and takes about 30 minutes.",
+      "taxi": "A taxi ride costs around ARS 1,500 and takes approximately 30-40 minutes.",
+      "recommended": "For first-timers, using a taxi or a ride-sharing app like Uber is safest and most convenient."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application needed, but check with the Argentine embassy for updates.",
+    "processingTime": "N/A",
+    "tip": "Always carry a printed copy of your return flight and hotel bookings to show authorities if requested."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Tortoni – order a medialuna and a café con leche for an authentic experience.",
+    "sunset": "Puerto Madero waterfront at around 6 PM for a perfect view of the sunset over the docks.",
+    "meal": "Don Julio - order the bife de chorizo, which is a local favorite.",
+    "memory": "The moment you sway to the rhythm of tango in the streets, feeling the music flow through you.",
+    "secret": "The best empanadas are actually found in small bakeries like El Sanjuanino, not in tourist spots."
+  },
+  "residentSunday": "A Buenos Aires resident takes a leisurely stroll through the San Telmo Market in the morning, sampling homemade choripán and sipping on a mate. They might catch a street performance before heading to a late lunch at a parrilla in Palermo, followed by an afternoon in the parks of Bosques de Palermo, ending the day with a movie at a local cinema.",
+  "dayMemoryTargets": {
+    "arrival": "The moment when you step out of the airport and feel the city's warm breeze against your skin.",
+    "peak": "The peak day memory target is experiencing a live tango show in a local milonga, where the energy and passion are palpable.",
+    "departure": "Departure should feel like a bittersweet farewell, with a lingering taste of asado and the sound of tango echoing in your mind."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "key highlights like Plaza de Mayo and a night of tango",
+      "misses": "deeper experiences in local neighborhoods and the culinary scene."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of culture, food, and leisure",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "exploring lesser-known areas and enjoying more immersive culinary experiences",
+      "whoFor": "cultural explorers and food lovers"
+    },
+    "recommended": "Five days is ideal to really soak in the atmosphere and explore various neighborhoods."
+  },
+  "antiPatterns": [
+    "Rushing through tourist attractions like La Boca without experiencing the local street life fails to capture the essence of the city.",
+    "Dining only at chain restaurants limits your exposure to the authentic flavors of Argentine cuisine.",
+    "Trying to see Buenos Aires in one day often leads to exhaustion and frustration, missing the charm of leisurely exploration."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the time to learn a few basic Spanish phrases.",
+    "Most visitors regret sticking to tourist traps instead of venturing into local eateries.",
+    "Most visitors regret not spending enough time in the city's parks, where locals relax and socialize."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "hot and humid, averaging 30°C",
+      "crowds": "high, especially around Christmas and New Year.",
+      "verdict": "Though lively, the heat and crowds can be overwhelming."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "milder weather and fewer tourists provide a more enjoyable experience."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "cold, averaging 10°C, and occasional rain",
+      "one reason some prefer it": "cheaper accommodation and fewer crowds."
+    },
+    "bestMonth": "October, as the weather is pleasant and there are numerous cultural events.",
+    "currentSeason": "June 2026 is cool, around 12°C, with occasional rain and fewer tourists."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Mercado de San Telmo on Sundays for the best street food and artisan goods, but arrive early to beat the crowds.",
+      "category": "food"
+    },
+    {
+      "tip": "For authentic tango, go to La Catedral Tango, where beginners and experts alike dance in a relaxed atmosphere.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the helado at Persicco; it’s made with natural ingredients and is considered the best in the city.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the 'Subte' (metro) for quicker travel across the city; it’s inexpensive and connects major areas.",
+      "category": "transport"
+    },
+    {
+      "tip": "Check local listings for pop-up events and smaller art shows that don’t typically get advertised widely.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A slice of pizza at Guerrin for ARS 800 (approx ₹380)",
+    "midRangeMeal": "A traditional asado meal at El Pobre Luis for ARS 3,500 (approx ₹1,670)",
+    "luxuryMeal": "Dinner at D.O.C. for ARS 8,000 (approx ₹3,800) with a wine pairing.",
+    "localTransportPerDay": "Daily subway pass costs ARS 300 (approx ₹140).",
+    "budgetHotelPerNight": "Hostel beds from ARS 2,000 (approx ₹950) with shared amenities.",
+    "midRangeHotelPerNight": "3-star hotels like Hotel Boca Juniors from ARS 8,000 (approx ₹3,800) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury stays at Alvear Palace from ARS 30,000 (approx ₹14,250)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorms at ₹950",
+      "food": "Street food and budget meals at ₹500",
+      "transport": "Subway and buses at ₹200"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "3-star hotels at ₹3,800",
+      "food": "Dining at mid-range restaurants at ₹2,000"
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury options provide exceptional service and access to exclusive experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress smart-casual when dining out; locals take pride in their appearance.",
+    "Do not interrupt tango performances; clapping is appreciated but talking is frowned upon.",
+    "When invited to a local's home, it’s customary to bring a small gift, like wine or flowers."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of 'fake' police asking for your documents; always ask for ID.",
+      "Be cautious of street performers who may ask for money after performing."
+    ],
+    "emergencyContacts": {
+      "police": "101",
+      "ambulance": "107",
+      "indianEmbassy": "Embassy of India, Buenos Aires: +54 11 4515 6000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Caminito Street",
+        "what": "Colorful houses and street art",
+        "bestTime": "Morning for the best light",
+        "tip": "Visit early to avoid crowds."
+      }
+    ],
+    "goldenHour": "Around 6 PM in summer and 5 PM in winter.",
+    "tip": "Capture the essence of tango in the streets; the spontaneous performances are often the best shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit a local mercado",
+        "Enjoy a tango lesson",
+        "Dine at a parrilla"
+      ],
+      "emotionalArc": "This sequence allows you to connect with local life, then engage physically with the culture, and finally indulge in the culinary delights.",
+      "bestFor": [
+        "Food enthusiasts",
+        "Cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Colonia del Sacramento",
+      "travelTime": "1h",
+      "how": "Ferry from Buenos Aires",
+      "whyCombine": "A charming day trip with historic sites and picturesque streets."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public places are accessible, but some old neighborhoods have cobblestone streets that can be challenging.",
+    "majorChallenges": "Narrow sidewalks and public transport can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using taxis or private transport for easier mobility."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is cool, averaging 12°C with occasional rain; the city is less crowded, perfect for exploring museums and cafes.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free travel for Indian passport holders; ensure your passport is valid for at least six months upon entry."
+  }
+}

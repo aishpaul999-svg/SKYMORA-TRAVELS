@@ -1,0 +1,276 @@
+{
+  "destination": "Pokhara",
+  "country": "Nepal",
+  "region": "South Asia",
+  "aliases": [
+    "Pokhara",
+    "pokhara",
+    "nepal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Adventure seekers",
+      "Nature lovers",
+      "Cultural explorers",
+      "Outdoor enthusiasts",
+      "Relaxation seekers"
+    ],
+    "notFor": [
+      "Party-goers",
+      "High-end luxury travelers",
+      "Fast-paced travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "1h 30min to KTM + 25min flight",
+    "flightFromMumbai": "2h 15min to KTM + 25min flight via airlines like Indigo and Nepal Airlines",
+    "visaForIndians": "No visa",
+    "currency": "Nepalese Rupee (NPR), 1 INR = 1.60 NPR",
+    "timezone": "NPT (UTC +5:45)",
+    "language": "Nepali and English",
+    "bestMonthToVisit": "October - Clear skies and mild temperatures make it ideal for trekking and outdoor activities.",
+    "avoidMonth": "July - Heavy monsoon rains can disrupt travel plans and outdoor activities.",
+    "tipping": "Tipping is appreciated; 10% is standard in restaurants, but small change is often enough in casual places."
+  },
+  "whyPeopleFallInLove": "Imagine soaring through the air while paragliding over Phewa Lake, the cool breeze carrying the scent of pine and wildflowers, as you gaze down at the shimmering waters reflecting the Annapurna range. That rush of adrenaline combined with the serene views is what makes Pokhara an experience worth booking immediately.",
+  "honestTruth": "Many travelers overlook that despite its scenic beauty, Pokhara can be quite touristy, especially during peak season, and local prices can be inflated in popular areas.",
+  "localTruths": [
+    "Most visitors think Pokhara is just a stopover for trekking. Locals think it’s a full-fledged destination with its own unique experiences beyond the mountains.",
+    "Most visitors rush to Pokhara for paragliding. The best version of Pokhara is actually exploring the local markets and trying authentic Nepali food at family-run eateries.",
+    "Most visitors miss the early morning tranquility at Phewa Lake. The real Pokhara starts at 5 AM when the lake is still, and the mountains are reflected like a mirror."
+  ],
+  "neighborhoodPersonalities": {
+    "Lakeside": {
+      "tags": [
+        "touristy",
+        "lively",
+        "convenient"
+      ],
+      "bestFor": "easy access to restaurants, shops, and lake activities.",
+      "avoid": "It can get crowded, especially in the evenings."
+    },
+    "Old Pokhara": {
+      "tags": [
+        "authentic",
+        "quiet",
+        "local"
+      ],
+      "bestFor": "experiencing local life and culture.",
+      "avoid": "Limited amenities for tourists compared to Lakeside."
+    },
+    "Sarangkot": {
+      "tags": [
+        "viewpoint",
+        "adventurous",
+        "serene"
+      ],
+      "bestFor": "panoramic views and sunrise hikes.",
+      "avoid": "The road is steep and can be challenging to navigate."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "1h 30min to KTM + 25min flight",
+        "airlines": [
+          "IndiGo",
+          "Nepal Airlines"
+        ],
+        "priceRange": "₹8,000 - ₹15,000 return",
+        "note": "Book flights early to secure the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "2h 15min to KTM + 25min flight",
+        "airlines": [
+          "IndiGo",
+          "Nepal Airlines"
+        ],
+        "priceRange": "₹10,000 - ₹18,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available.",
+      "taxi": "Around NPR 700 (₹440) for a 15-minute ride to Lakeside.",
+      "recommended": "For first-timers, pre-book a taxi through your hotel for a hassle-free experience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "No visa",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Always carry a copy of your ID and keep your original passport safe."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to 'Café Concerto' and order the 'Nepali Breakfast Set' for a hearty start to your day.",
+    "sunset": "Visit the viewpoint at Sarangkot at around 6 PM for an unobstructed view of the sunset illuminating the Annapurna range.",
+    "meal": "Dine at 'Moondance Restaurant' and try the 'Chicken Thukpa' for a comforting taste of local cuisine.",
+    "memory": "The moment you take off from the paragliding platform, feeling the rush of wind and seeing the world below you.",
+    "secret": "Locals often visit the hidden waterfalls near Kahun Danda; it's a peaceful spot for a picnic."
+  },
+  "residentSunday": "A Pokhara resident would start their Sunday with a hike to the Peace Pagoda at 7 AM, enjoy a simple breakfast of Sel Roti and tea at a local stall, spend the afternoon at Phewa Lake renting a boat, and end the day with friends at a lakeside café enjoying local music and snacks.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the Annapurna range peeking through the clouds as you land in Pokhara.",
+    "peak": "The exhilarating feeling of gliding through the air during your paragliding flight.",
+    "departure": "A sense of fulfillment and tranquility as you reflect on your experiences while waiting for your flight back."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covering the highlights like Phewa Lake and a quick trek to the Peace Pagoda.",
+      "misses": "The deeper cultural experiences and adventure opportunities."
+    },
+    "three_to_four_days": {
+      "focus": "Ideal for a good balance of adventure and relaxation, including paragliding and local market visits.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Exploring nearby trekking routes and engaging in more local experiences.",
+      "whoFor": "Adventure seekers and those wanting to immerse in Nepali culture."
+    },
+    "recommended": "Three to four days is ideal to experience both the adventure and serenity of Pokhara."
+  },
+  "antiPatterns": [
+    "Trying to do too much in one day like trekking and paragliding can lead to exhaustion rather than enjoyment.",
+    "Skipping local eateries for international chains; it misses the essence of Pokhara's culinary scene.",
+    "Visiting Phewa Lake in the afternoon can lead to disappointment due to the crowds and harsh lighting for photography."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying paragliding or adventure sports.",
+    "Most visitors regret not exploring local markets and trying traditional foods.",
+    "Most visitors regret not taking a day trip to the nearby villages."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October, November",
+      "weather": "Mild temperatures, clear skies",
+      "crowds": "High, especially during festivals",
+      "verdict": "Best for clear views and outdoor activities."
+    },
+    "shoulderSeason": {
+      "months": "March, April, September",
+      "why": "Fewer tourists, pleasant weather and blooming flowers."
+    },
+    "offSeason": {
+      "months": "June, July, August",
+      "reality": "Monsoon rains can limit activities but offer lush scenery.",
+      "reason": "Fewer tourists and lower prices on accommodations."
+    },
+    "bestMonth": "October - Perfect weather for trekking and lake activities.",
+    "currentSeason": "June 2026 is warm with occasional rain, making it lush but less ideal for trekking."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "For the best local food, visit 'The Olive Cafe' for their homemade pasta at around NPR 700 (₹440).",
+      "category": "food"
+    },
+    {
+      "tip": "Join a local yoga class at 'The Yoga Retreat' for a morning session at NPR 1,000 (₹640).",
+      "category": "experience"
+    },
+    {
+      "tip": "When booking paragliding, ask if they have a GoPro option for photos for an extra NPR 3,000 (₹1,900).",
+      "category": "experience"
+    },
+    {
+      "tip": "Take an early morning boat ride on Phewa Lake before 8 AM for a peaceful experience.",
+      "category": "timing"
+    },
+    {
+      "tip": "Visit the local markets in the afternoon to see the community in action and find unique souvenirs.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Dal Bhat at a local eatery for NPR 300 (₹190)",
+    "midRangeMeal": "A set meal at a mid-range restaurant for NPR 800 (₹510)",
+    "luxuryMeal": "Dining at 'The Old Blues Café' can cost around NPR 2,500 (₹1,600)",
+    "localTransportPerDay": "Typical daily local transport cost is about NPR 400 (₹250)",
+    "budgetHotelPerNight": "NPR 1,200 (₹760) for a basic room with amenities.",
+    "midRangeHotelPerNight": "NPR 3,500 (₹2,200) for a comfortable hotel with breakfast.",
+    "luxuryHotelPerNight": "NPR 10,000 (₹6,400) for a luxury hotel experience."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel dorms for NPR 500 (₹320)",
+      "food": "Street food and local eateries.",
+      "transport": "Walking or local buses."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotels for NPR 2,000 (₹1,280)",
+      "food": "Dining at mid-range restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury comes at a fraction of what you’d pay in India, with beautiful views and excellent service."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and respect local customs.",
+    "Always remove your shoes before entering someone's home.",
+    "Use your right hand for giving and receiving items, as the left is considered impolite."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of inflated prices in touristy areas; always negotiate.",
+      "Watch for unofficial guides offering tours."
+    ],
+    "emergencyContacts": {
+      "police": "100",
+      "ambulance": "102",
+      "indianEmbassy": "Kathmandu, Tel: +977-1-441-0410"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Sarangkot",
+        "what": "Panoramic views of Pokhara and the surrounding mountains.",
+        "bestTime": "Early morning before sunrise.",
+        "tip": "Bring a tripod for the best shots."
+      }
+    ],
+    "goldenHour": "Approximately 6 AM to 7 AM and 5 PM to 6 PM depending on the season.",
+    "tip": "Experiment with different angles at Phewa Lake to capture reflections and the surrounding landscape."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Phewa Lake",
+        "Have lunch at a lakeside café",
+        "Paragliding from Sarangkot"
+      ],
+      "emotionalArc": "This sequence allows you to enjoy the tranquility of the lake before experiencing the thrill of paragliding, creating a perfect blend of relaxation and adventure.",
+      "bestFor": [
+        "Adventure seekers",
+        "Nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Ghorepani",
+      "travelTime": "1.5 hours",
+      "how": "By jeep or bus",
+      "whyCombine": "Famous for its stunning views of the Annapurna mountains."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in most areas due to uneven terrain.",
+    "majorChallenges": "Steep paths and stairs in many tourist areas.",
+    "seniorFriendlyScore": 6,
+    "note": "Plan visits to more accessible sites like Lakeside and ensure to book accommodations that cater to mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with occasional rain making it lush but less ideal for trekking. Expect fewer tourists and lower prices.",
+    "currentAlerts": [],
+    "entryRequirements": "No visa required for Indian passport holders."
+  }
+}

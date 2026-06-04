@@ -1,0 +1,285 @@
+{
+  "destination": "Las Vegas",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "Las Vegas",
+    "las vegas",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.5,
+    "bestFor": [
+      "Casinos",
+      "Shows",
+      "Gastronomy",
+      "Adventure seekers",
+      "Nightlife enthusiasts"
+    ],
+    "notFor": [
+      "Budget travelers",
+      "Family vacations",
+      "Cultural explorers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "17h",
+    "flightFromMumbai": "17h 30m, airlines: Air India, Emirates, Qatar Airways, priceRange: ₹55,000 - ₹85,000 (return)",
+    "visaForIndians": "US B-2 visa",
+    "currency": "US Dollar (1 INR = 0.012 USD)",
+    "timezone": "UTC-8",
+    "language": "English",
+    "bestMonthToVisit": "October, for mild weather and plenty of events.",
+    "avoidMonth": "July, as the heat can exceed 40°C, making outdoor activities uncomfortable.",
+    "tipping": "Generally, 15-20% is expected in restaurants. For taxis, rounding up to the nearest dollar is common."
+  },
+  "whyPeopleFallInLove": "Imagine stepping into the Bellagio lobby, where the sweet scent of fresh flowers greets you, and a mesmerizing fountain show dances to classical music, leaving you awe-struck. This sensory overload makes you realize why Las Vegas holds such allure.",
+  "honestTruth": "While Las Vegas is often seen as a party city, many visitors underestimate the city's capacity for genuine moments of connection, especially during quiet early mornings when the Strip is still waking up.",
+  "localTruths": [
+    "Most visitors think Las Vegas is all about the casinos. Locals think the true heart of the city lies in its diverse dining scene and hidden local spots.",
+    "Most visitors rush to catch every big show. The best version of Las Vegas is taking time to explore smaller venues that showcase local talent.",
+    "Most visitors miss the sunrise over the Red Rock Canyon. The real Las Vegas starts at dawn when you can see the desert come alive."
+  ],
+  "neighborhoodPersonalities": {
+    "The Strip": {
+      "tags": [
+        "Casinos",
+        "Entertainment",
+        "Dining"
+      ],
+      "bestFor": "Non-stop entertainment and iconic attractions.",
+      "avoid": "The crowds can be overwhelming, especially on weekends."
+    },
+    "Downtown Las Vegas": {
+      "tags": [
+        "Arts",
+        "History",
+        "Local"
+      ],
+      "bestFor": "A peek into the city’s vintage charm through its artsy vibe.",
+      "avoid": "Some areas can feel sketchy at night."
+    },
+    "Summerlin": {
+      "tags": [
+        "Suburb",
+        "Nature",
+        "Family"
+      ],
+      "bestFor": "Family-friendly activities and outdoor adventures.",
+      "avoid": "Limited nightlife options."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "17h",
+        "airlines": [
+          "Air India",
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹55,000 - ₹85,000 (return)",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "17h 30m",
+        "airlines": [
+          "Air India",
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹55,000 - ₹85,000 (return)"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available; consider rideshare options or shuttle buses.",
+      "taxi": "Approximately $25 (₹2,100) and takes around 20 minutes.",
+      "recommended": "For first-timers, rideshare apps like Uber or Lyft are convenient and often more economical."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa",
+    "applyAt": "US Embassy or VFS Global centers in India.",
+    "processingTime": "3-5 weeks.",
+    "tip": "Schedule your visa interview during the off-peak season to avoid long waits."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "The Egg & I, order the 'Southwestern Scramble' for a hearty start.",
+    "sunset": "Red Rock Canyon, arrive by 6:30 PM to catch the golden hour reflecting off the rocks.",
+    "meal": "Lotus of Siam, try the 'Northern Thai Curry' for an authentic taste.",
+    "memory": "Witnessing the Bellagio fountains dance at night while sipping a cocktail at a nearby bar.",
+    "secret": "The best happy hours can be found at off-Strip bars, offering great drinks and food at half the price."
+  },
+  "residentSunday": "A Las Vegas resident typically spends a Sunday hiking at Red Rock Canyon in the morning, enjoying brunch at Blueberry Hill, and capping off the day with a local band performance at a nearby pub.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and see the neon lights of the Strip lighting up the night sky.",
+    "peak": "Experiencing a Cirque du Soleil show, where the combination of acrobatics and music leaves you speechless.",
+    "departure": "Leaving with a feeling of having experienced a whirlwind of excitement and a longing to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like The Strip and a show.",
+      "misses": "The cultural and local experiences in Downtown."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of shows, dining, and a day trip to the Grand Canyon.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including day trips to nearby attractions like Hoover Dam and Lake Mead.",
+      "whoFor": "Adventure seekers and food enthusiasts."
+    },
+    "recommended": "Three days is ideal for a well-rounded experience."
+  },
+  "antiPatterns": [
+    "Booking a hotel on the Strip and purely relying on it for all activities often leads to missing the authentic experiences off the Strip.",
+    "Trying to do too many shows in one night leaves you exhausted and unable to enjoy any of them.",
+    "Visiting the Grand Canyon without booking a guided tour can lead to confusion about the best spots to see."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not exploring the local food scene and sticking to chain restaurants.",
+    "Most visitors regret not taking a day trip to the Grand Canyon.",
+    "Most visitors regret underestimating the distance between attractions and end up exhausted."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March, April, October, November",
+      "weather": "Mild with temperatures between 20-30°C.",
+      "crowds": "High, especially during major events.",
+      "verdict": "Great for outdoor activities but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "February, May, September",
+      "why": "Fewer crowds and more manageable weather."
+    },
+    "offSeason": {
+      "months": "June, July, August",
+      "reality": "Extremely hot, with temperatures often exceeding 40°C, leading to a decline in outdoor activities.",
+      "reason": "Some prefer this due to lower hotel rates."
+    },
+    "bestMonth": "October, for pleasant weather and numerous events.",
+    "currentSeason": "June 2026 is hot, with temperatures around 41°C, leading to a quieter Strip and many indoor events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Pinball Hall of Fame for a unique experience; entry is free, and games cost as little as $0.25.",
+      "category": "experience"
+    },
+    {
+      "tip": "Happy hours at the Downtown Container Park offer local craft beers at discounted prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Check out the Secret Pizza for a late-night slice; it's hidden in an unmarked area in The Cosmopolitan.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a free concert at Fremont Street Experience; check the schedule for local artists.",
+      "category": "experience"
+    },
+    {
+      "tip": "The Neon Boneyard is best visited at dusk for stunning photography opportunities.",
+      "category": "photography"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A slice of cheese pizza at Little Caesars, costs $5 (₹420).",
+    "midRangeMeal": "A three-course meal for two at The Cheesecake Factory, costs around $70 (₹5,880).",
+    "luxuryMeal": "Dinner at Joël Robuchon, costs around $400 (₹33,600).",
+    "localTransportPerDay": "Around $10 (₹840) for bus passes.",
+    "budgetHotelPerNight": "$60 (₹5,040) for basic accommodation with essential amenities.",
+    "midRangeHotelPerNight": "$150 (₹12,600) for a comfortable stay in a decent location.",
+    "luxuryHotelPerNight": "$500 (₹42,000) for top-tier hotels with extensive amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dormitory beds starting at $20 (₹1,680)",
+      "food": "Street food and budget diners like In-N-Out Burger.",
+      "transport": "Using public transport and rideshares."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels starting at $100 (₹8,400).",
+      "food": "Mix of local diners and occasional fine dining.",
+      "transport": "Combination of public transport and occasional taxi."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury experiences can skyrocket; expect premium prices for exclusive experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress code is more casual in restaurants but upscale places may require smart casual attire.",
+    "Tipping 15-20% is customary in restaurants and bars.",
+    "Public displays of affection are generally accepted, but maintain decorum in family-friendly areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Watch out for 'free' offers that require you to attend a timeshare presentation; always read the fine print.",
+      "Beware of street performers asking for tips after taking photos; it's best to ask before engaging."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Consulate in San Francisco: +1 415-668-0683"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "The High Roller",
+        "what": "Capturing panoramic views of the Strip especially at sunset.",
+        "bestTime": "Dusk.",
+        "tip": "Book your tickets ahead of time for sunset slots."
+      }
+    ],
+    "goldenHour": "Approximately one hour after sunrise and one hour before sunset.",
+    "tip": "The Strip offers great photo ops, but consider early mornings for fewer crowds."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Grand Canyon day trip",
+        "Dinner at a local favorite",
+        "Late-night show on The Strip"
+      ],
+      "emotionalArc": "This sequence allows you to experience the natural beauty of the canyon, enjoy a relaxed meal, and then immerse yourself in the vibrant nightlife.",
+      "bestFor": [
+        "Adventure seekers",
+        "Couples"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Hoover Dam",
+      "travelTime": "1h",
+      "how": "Drive or bus",
+      "whyCombine": "Stunning engineering marvel and picturesque views."
+    },
+    {
+      "city": "Red Rock Canyon",
+      "travelTime": "30m",
+      "how": "Car rental or rideshare",
+      "whyCombine": "Perfect for a nature escape and hiking."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many hotels and casinos are wheelchair accessible, with ramps and elevators.",
+    "majorChallenges": "Some outdoor attractions may have uneven terrain.",
+    "seniorFriendlyScore": 8,
+    "note": "Service animals are allowed, and medical services are readily available."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot, typically around 41°C with low crowds on the Strip due to the heat. Indoor attractions are more popular now.",
+    "currentAlerts": [],
+    "entryRequirements": "Currently, the US B-2 visa is required for Indian travelers."
+  }
+}

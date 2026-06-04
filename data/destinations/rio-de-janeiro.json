@@ -1,0 +1,282 @@
+{
+  "destination": "Rio de Janeiro",
+  "country": "Brazil",
+  "region": "Americas",
+  "aliases": [
+    "Rio de Janeiro",
+    "rio de janeiro",
+    "brazil"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "carnival enthusiasts",
+      "foodies",
+      "nightlife seekers",
+      "adventure travelers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "those seeking tranquility",
+      "travelers avoiding crowds"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h via Doha/Dubai",
+    "flightFromMumbai": "20h via Doha/Dubai, airlines: Qatar Airways, Emirates",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Brazilian Real (BRL), 1 INR = 0.067 BRL",
+    "timezone": "UTC-3",
+    "language": "Portuguese",
+    "bestMonthToVisit": "February, for the Carnival experience.",
+    "avoidMonth": "March, as the crowds disperse and many attractions close for maintenance.",
+    "tipping": "10% is customary in restaurants; rounding up the fare for taxi drivers is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine dancing samba on the famous Copacabana Beach at sunset, the salty breeze mixing with the sound of live percussion, while you taste a fresh caipirinha made from local cachaça. That moment encapsulates the spirit of Rio and beckons you to return.",
+  "honestTruth": "Despite its allure, Rio has significant safety concerns, especially at night, and many tourists are caught off guard by the stark contrast between affluent neighborhoods and favelas just a few blocks away.",
+  "localTruths": [
+    "Most visitors think Rio's charm lies solely in its beaches. Locals think it's the food and music that truly define the city, especially in the less commercialized neighborhoods.",
+    "Most visitors flock to the Sugarloaf Mountain and Christ the Redeemer. The best version of Rio de Janeiro is found in the spontaneous samba sessions at Praça Tiradentes.",
+    "Most visitors miss the authentic local feasts. The real Rio de Janeiro starts at the Sunday markets in Santa Teresa."
+  ],
+  "neighborhoodPersonalities": {
+    "Copacabana": {
+      "tags": [
+        "beach",
+        "nightlife",
+        "tourist"
+      ],
+      "bestFor": "beach lovers looking for lively atmosphere and entertainment.",
+      "avoid": "Expect high prices and tourist traps."
+    },
+    "Santa Teresa": {
+      "tags": [
+        "artistic",
+        "cultural",
+        "historic"
+      ],
+      "bestFor": "those seeking local art and music experiences.",
+      "avoid": "Steep hills may be challenging for some."
+    },
+    "Lapa": {
+      "tags": [
+        "nightlife",
+        "samba",
+        "historic"
+      ],
+      "bestFor": "night owls wanting to experience Rio's samba culture.",
+      "avoid": "Can be unsafe late at night."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h via Doha/Dubai",
+        "airlines": [
+          "Qatar Airways",
+          "Emirates"
+        ],
+        "priceRange": "[₹50,000 - ₹80,000 return]",
+        "note": "Book well in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "20h via Doha/Dubai",
+        "airlines": [
+          "Qatar Airways",
+          "Emirates"
+        ],
+        "priceRange": "[₹55,000 - ₹85,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro directly from the airport; taxis are available.",
+      "taxi": "Approx. BRL 70 (₹1,050) to Copacabana, taking about 30-40 minutes.",
+      "recommended": "For first-timers, taking a taxi is the safest and most convenient option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application necessary; ensure your passport is valid for at least 6 months.",
+    "processingTime": "N/A for visa-free travel.",
+    "tip": "Always carry a copy of your passport and a local emergency contact number."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Confeitaria Colombo; order the pão de queijo with a fresh cup of Brazilian coffee.",
+    "sunset": "Watch the sunset at Arpoador Beach, precisely at 5:45 PM during summer.",
+    "meal": "Dine at Oro in Leblon for a tasting menu featuring contemporary Brazilian dishes.",
+    "memory": "The moment you step onto the top of Sugarloaf Mountain and see the sprawling city beneath you.",
+    "secret": "Locals know that the best caipirinhas are found at small beach kiosks, not fancy bars."
+  },
+  "residentSunday": "A Rio de Janeiro resident might spend their Sunday at Ipanema Beach, enjoying a leisurely brunch at Pérgula, followed by a stroll through the Feira Hippie de Ipanema market, and ending the day with a sunset viewing at Arpoador with friends and a cooler full of beer.",
+  "dayMemoryTargets": {
+    "arrival": "The sense of excitement as you first view the Christ the Redeemer statue emerging from the clouds.",
+    "peak": "The peak memory is dancing samba with locals at a street party during Carnival, surrounded by colorful costumes and pulsating music.",
+    "departure": "Leaving with a bittersweet feeling as you reflect on the samba rhythms and vibrant colors, promising to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like Christ the Redeemer and Copacabana Beach.",
+      "misses": "Cultural experiences in Santa Teresa and local dining."
+    },
+    "three_to_four_days": {
+      "focus": "A deeper dive into beaches, cultural sites, and nightlife.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Exploration of the favelas, day trips to nearby islands, and a full experience of local cuisine.",
+      "whoFor": "adventure travelers and those wanting a thorough experience."
+    },
+    "recommended": "Four days is ideal to balance relaxation and exploration."
+  },
+  "antiPatterns": [
+    "Visiting Christ the Redeemer and Sugarloaf Mountain on the same day — it can lead to exhaustion and missing out on local experiences in between.",
+    "Staying only in tourist areas like Copacabana — you’ll miss authentic local culture and cuisine.",
+    "Trying to see all major attractions in one day — results in a rushed and unsatisfactory experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying local street food like pastel and açaí.",
+    "Most visitors regret not visiting the favelas with a guided tour to understand local life.",
+    "Most visitors regret skipping the lesser-known beaches like Prainha for the crowded ones."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Average temperature 28°C, humid with occasional rain.",
+      "crowds": "Tourist hotspots are crowded, especially during Carnival.",
+      "verdict": "Best for vibrant experiences but be prepared for high prices."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer tourists and pleasant weather make it ideal for exploring."
+    },
+    "offSeason": {
+      "months": "June to November",
+      "reality": "Mild temperatures but can be rainy, especially in June and July.",
+      "reason": "Some prefer this time for lower prices and fewer tourists."
+    },
+    "bestMonth": "February, for the Carnival festivities and lively atmosphere.",
+    "currentSeason": "June 2026 is typically mild with occasional rain, fewer crowds, and good opportunities to explore local attractions."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Feira de São Cristóvão for an authentic taste of Northeastern Brazilian food and culture; try the baião de dois for BRL 20 (₹300).",
+      "category": "food"
+    },
+    {
+      "tip": "For the best views without the crowds, hike to Pedra Bonita early in the morning; it’s a challenging ascent but worth it.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the local bus instead of taxis whenever possible; it’s a great way to mingle with locals and costs less than BRL 5 (₹75).",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a samba class at Ginga Tropical in Copacabana; it’s an interactive way to immerse yourself in local culture.",
+      "category": "experience"
+    },
+    {
+      "tip": "If you're in Rio during football season, catch a local game at Maracanã Stadium for an exhilarating experience; tickets range from BRL 50 to BRL 200 (₹750 - ₹3,000).",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A plate of feijoada at a local restaurant for BRL 25 (₹375)",
+    "midRangeMeal": "A seafood platter at a mid-range restaurant for BRL 150 (₹2,250)",
+    "luxuryMeal": "Dining at Oro with a tasting menu for BRL 600 (₹9,000)",
+    "localTransportPerDay": "BRL 30 (₹450) for buses and occasional taxis.",
+    "budgetHotelPerNight": "BRL 150 (₹2,250) for a basic hotel with breakfast included.",
+    "midRangeHotelPerNight": "BRL 400 (₹6,000) for a comfortable hotel in Ipanema.",
+    "luxuryHotelPerNight": "BRL 1,200 (₹18,000) for a top-tier beachfront hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dormitory bed for BRL 50 (₹750)",
+      "food": "Street food and local eateries for BRL 20 (₹300)",
+      "transport": "Public transport and occasional Uber for BRL 15 (₹225)"
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotel for BRL 400 (₹6,000)",
+      "food": "Mix of local restaurants and occasional fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury in Rio can be extravagant, especially during peak season, but unparalleled experiences await."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and cultural sites.",
+    "It's polite to greet with a kiss on the cheek when meeting someone.",
+    "Avoid discussing politics or local crime in casual conversations."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Exercise Caution",
+    "scamsToKnow": [
+      "Beware of 'pigeon' scams in tourist areas where people may distract you while stealing belongings.",
+      "Be cautious of street vendors who may overcharge or sell fake products."
+    ],
+    "emergencyContacts": {
+      "police": "190",
+      "ambulance": "192",
+      "indianEmbassy": "Embassy of India, Brasília - +55 61 3224 2636"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Selarón Steps",
+        "what": "Capture the colorful tiles and the artistry of Jorge Selarón.",
+        "bestTime": "Early morning for fewer crowds.",
+        "tip": "Visit during sunrise for softer light."
+      }
+    ],
+    "goldenHour": "Around 5:45 PM during summer months.",
+    "tip": "Always ask locals before photographing them; it's a sign of respect."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike to Pedra Bonita",
+        "Lunch at a local restaurant",
+        "Relax at Ipanema Beach"
+      ],
+      "emotionalArc": "This combination offers a balance of adventure, culinary delight, and relaxation, ensuring a fulfilling day.",
+      "bestFor": [
+        "active travelers",
+        "food enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Petrópolis",
+      "travelTime": "1.5 hours",
+      "how": "Bus",
+      "whyCombine": "For a historical escape into the mountains with cooler weather and imperial architecture."
+    },
+    {
+      "city": "Búzios",
+      "travelTime": "2.5 hours",
+      "how": "Bus or car",
+      "whyCombine": "To experience beautiful beaches and upscale dining."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited; many attractions have uneven surfaces and steep areas.",
+    "majorChallenges": "Public transport can be difficult to navigate for those with mobility challenges.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider private transport options for easier access."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is mild, with average temperatures around 22°C, occasional rain, and fewer tourists, making it a great time to explore.",
+    "currentAlerts": [],
+    "entryRequirements": "No visa required for Indian passport holders; ensure your passport is valid for at least 6 months."
+  }
+}

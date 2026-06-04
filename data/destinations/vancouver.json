@@ -1,0 +1,276 @@
+{
+  "destination": "Vancouver",
+  "country": "Canada",
+  "region": "Americas",
+  "aliases": [
+    "Vancouver",
+    "vancouver",
+    "canada"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "adventure seekers",
+      "food lovers",
+      "film enthusiasts",
+      "nature explorers",
+      "cultural enthusiasts"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "beach bums",
+      "shopping addicts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "15h",
+    "flightFromMumbai": "19h via direct flights by Air Canada and multiple options with stopovers",
+    "visaForIndians": "Canada visa required",
+    "currency": "Canadian Dollar (CAD), 1 INR = 0.016 CAD",
+    "timezone": "UTC-7",
+    "language": "English and French",
+    "bestMonthToVisit": "September - mild weather and fewer tourists",
+    "avoidMonth": "December - heavy rainfall and cold weather",
+    "tipping": "Standard is 15-20% at restaurants; rounding up for taxi drivers is common."
+  },
+  "whyPeopleFallInLove": "Imagine standing on the edge of Stanley Park, the salty ocean breeze mixing with the sweet scent of cedar trees, as the sun sets behind the North Shore mountains. You hear laughter from a nearby picnic, and suddenly, the day's stress feels miles away.",
+  "honestTruth": "While Vancouver is often portrayed as eco-conscious, many locals express frustration over the city's high cost of living and housing crisis, making it tough for residents to enjoy their own city.",
+  "localTruths": [
+    "Most visitors think Vancouver is a laid-back city. Locals think it's a fast-paced race to keep up with the cost of living.",
+    "Most visitors flock to Granville Island for local food. The best version of Vancouver is actually found at the less crowded Lonsdale Quay Market across the water.",
+    "Most visitors miss the depth of the city's film history. The real Vancouver starts at the Vancouver International Film Festival in late September."
+  ],
+  "neighborhoodPersonalities": {
+    "Gastown": {
+      "tags": [
+        "historic",
+        "artistic",
+        "café culture"
+      ],
+      "bestFor": "a blend of heritage and modernity with great dining options.",
+      "avoid": "parking can be a hassle, especially during weekends."
+    },
+    "Kitsilano": {
+      "tags": [
+        "beach",
+        "family-friendly",
+        "fitness"
+      ],
+      "bestFor": "outdoor activities and beach access.",
+      "avoid": "the area can get crowded in summer months."
+    },
+    "Commercial Drive": {
+      "tags": [
+        "multicultural",
+        "indie",
+        "foodie"
+      ],
+      "bestFor": "exploring diverse cuisines from around the world.",
+      "avoid": "traffic can be heavy during peak hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "15h",
+        "airlines": [
+          "Air Canada",
+          "Lufthansa"
+        ],
+        "priceRange": "[₹60,000 - ₹90,000]",
+        "note": "Booking in advance can often yield better fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "19h",
+        "airlines": [
+          "Air Canada",
+          "Emirates"
+        ],
+        "priceRange": "[₹70,000 - ₹1,00,000]"
+      }
+    },
+    "airportToCity": {
+      "metro": "The Canada Line takes you to downtown for CAD 9.75 in about 25 minutes.",
+      "taxi": "Approximately CAD 40-50 and takes around 30 minutes.",
+      "recommended": "For first-timers, the Canada Line metro is convenient and cost-effective."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Canada visa required",
+    "applyAt": "VFS Global locations or the official Government of Canada website.",
+    "processingTime": "Typically 15-30 days.",
+    "tip": "Apply well in advance, especially during peak travel season."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Artigiano in downtown - try the flat white paired with a fresh pastry.",
+    "sunset": "English Bay Beach - arrive by 8 PM in summer for a spectacular sunset view.",
+    "meal": "Miku Restaurant for their signature Aburi sushi - a must-try dish.",
+    "memory": "The moment you first see the mountains framing the city as you step off the SkyTrain.",
+    "secret": "Locals often enjoy the secret beach at Jericho Park, away from the crowded spots."
+  },
+  "residentSunday": "A Vancouver resident might start their Sunday with brunch at the Blue Parrot Café in Kitsilano at 10 AM, followed by a stroll along Kitsilano Beach. In the afternoon, they could catch an indie film at the Rio Theatre, and later unwind with dinner at a local food truck, savoring a delicious banh mi sandwich.",
+  "dayMemoryTargets": {
+    "arrival": "The first glimpse of the mountains as you exit the airport, feeling the cool Pacific breeze.",
+    "peak": "Standing at the Capilano Suspension Bridge, heart racing as you take in the forest canopy below.",
+    "departure": "Feeling a mix of nostalgia and anticipation as you look back at the skyline from the airplane window."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "key landmarks like Stanley Park and Granville Island",
+      "misses": "the depth of local neighborhoods and cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience including nature, food, and culture.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "deeper exploration into the surrounding nature and local events.",
+      "whoFor": "nature lovers and cultural enthusiasts."
+    },
+    "recommended": "Four days is ideal to capture the essence of Vancouver."
+  },
+  "antiPatterns": [
+    "Booking accommodations in busy areas during peak season can lead to inflated prices and less availability.",
+    "Attempting to see all major attractions in one day often leads to exhaustion and a rushed experience.",
+    "Visiting Stanley Park during peak hours without planning your route can lead to heavy foot traffic and frustration."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not exploring the local food scene beyond mainstream restaurants.",
+    "Most visitors regret not experiencing the local art galleries and theaters.",
+    "Most visitors regret skipping the hike to Grouse Mountain for the view."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 20-30°C, generally dry.",
+      "crowds": "Very crowded, especially at popular attractions.",
+      "verdict": "Great for outdoor activities but expect queues."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Fewer tourists and pleasant weather make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and rainy, but fewer crowds and lower prices.",
+      "reason": "Some travelers prefer fewer tourists and enjoy winter sports nearby."
+    },
+    "bestMonth": "September - perfect weather and less crowded attractions.",
+    "currentSeason": "June 2026 is pleasantly warm, with temperatures around 22°C and a mix of sun and clouds."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Richmond Night Market on weekends for authentic Asian street food experiences; entry is CAD 4.",
+      "category": "food"
+    },
+    {
+      "tip": "Check out the local indie music scene at The Biltmore Cabaret for up-and-coming bands, especially on Thursday nights.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a bike ride around Stanley Park - rentals are about CAD 10 per hour.",
+      "category": "transport"
+    },
+    {
+      "tip": "Head to the Vancouver Art Gallery on Tuesdays for discounted entry and fewer crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Look out for the local farmers' markets on Wednesdays for fresh produce and artisanal goods.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Poutine at La Belle Patate for CAD 6 (₹375)",
+    "midRangeMeal": "Dinner at The Fish Shack for about CAD 25 (₹1,560)",
+    "luxuryMeal": "Fine dining at Hawksworth Restaurant for around CAD 150 (₹9,375)",
+    "localTransportPerDay": "Around CAD 10 (₹625) for unlimited transit within the city.",
+    "budgetHotelPerNight": "CAD 80 (₹5,000) for a hostel bed with shared amenities.",
+    "midRangeHotelPerNight": "CAD 180 (₹11,250) for a three-star hotel in downtown.",
+    "luxuryHotelPerNight": "CAD 350 (₹21,875) for a five-star hotel with ocean views."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorm bed for ₹1,500",
+      "food": "Street food and casual dining, approx ₹1,000",
+      "transport": "Public transport, around ₹500"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel for ₹5,000",
+      "food": "Mix of casual dining and occasional splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Expect high-end amenities and fine dining but be aware of additional taxes and tips."
+    }
+  },
+  "culturalRules": [
+    "Dress in layers as the weather can change quickly.",
+    "Be respectful of bike lanes; they are heavily used by cyclists.",
+    "Always greet shopkeepers when entering stores, as it's considered polite."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Avoid overpriced taxi services at the airport by using the designated taxi line.",
+      "Watch out for pickpockets in crowded tourist areas."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Consulate General of India, 3003 - 30th Ave, Vancouver, BC V5R 6A8"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Stanley Park",
+        "what": "The breathtaking views of the city skyline framed by trees.",
+        "bestTime": "Golden hour during sunset.",
+        "tip": "Use a telephoto lens for best results."
+      }
+    ],
+    "goldenHour": "Approximately 8 PM in summer.",
+    "tip": "Early mornings at Granville Island provide the best light and fewer crowds."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Capilano Suspension Bridge",
+        "Explore Grouse Mountain",
+        "Dine at a local restaurant"
+      ],
+      "emotionalArc": "This sequence offers a thrilling mix of adventure, stunning views, and culinary delights, creating a fulfilling day.",
+      "bestFor": [
+        "adventure seekers",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Whistler",
+      "travelTime": "2 hours",
+      "how": "Car or bus",
+      "whyCombine": "It's a world-renowned skiing and mountain biking destination."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most public transport is wheelchair accessible, but some older buildings might pose challenges.",
+    "majorChallenges": "Older streets and sidewalks in some neighborhoods can be uneven.",
+    "seniorFriendlyScore": 7,
+    "note": "Many attractions offer senior discounts and are accommodating."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm with occasional rain, the city is bustling with outdoor festivals and activities.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa and proof of vaccination may still be required as per current regulations."
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "destination": "Marrakech",
+  "country": "Morocco",
+  "region": "Africa",
+  "aliases": [
+    "Marrakech",
+    "marrakech",
+    "morocco"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Enthusiasts",
+      "Food Lovers",
+      "Shopaholics",
+      "Adventure Seekers",
+      "History Buffs"
+    ],
+    "notFor": [
+      "Luxury Travelers",
+      "Beach Seekers",
+      "Nightlife Enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h",
+    "flightFromMumbai": "8h; airlines include Air Arabia and Royal Air Maroc",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Moroccan Dirham (MAD); 1 INR = 0.56 MAD",
+    "timezone": "UTC+1",
+    "language": "Arabic and French",
+    "bestMonthToVisit": "April; mild weather and fewer tourists.",
+    "avoidMonth": "August; temperatures can rise above 40°C.",
+    "tipping": "Common to tip around 10% in restaurants; rounding up taxi fares is also appreciated."
+  },
+  "whyPeopleFallInLove": "Walking through the souks, the aroma of spices fills the air, and as you sip mint tea in a riad, the sound of distant musicians playing gnawa music creates a moment that lingers in your memory long after you leave.",
+  "honestTruth": "Many guides overlook the fact that the souks can be overwhelming, and the persistent sellers can lead to fatigue rather than enjoyment for some travelers.",
+  "localTruths": [
+    "Most visitors think Marrakech is just about the souks. Locals think the real pulse of the city is felt in the lesser-known neighborhoods, away from the tourist crowds.",
+    "Most visitors rush through Jemaa el-Fna during the day. The best version of Marrakech is experienced at night when the square transforms into a hub of food stalls and storytellers.",
+    "Most visitors miss the authentic experience of a traditional hammam. The real Marrakech starts at the local bathhouses, where you can unwind like a local."
+  ],
+  "neighborhoodPersonalities": {
+    "Medina": {
+      "tags": [
+        "historic",
+        "marketplace",
+        "cultural"
+      ],
+      "bestFor": "immersing in local life and shopping for crafts.",
+      "avoid": "Be cautious of pickpockets, especially in crowded areas."
+    },
+    "Gueliz": {
+      "tags": [
+        "modern",
+        "artistic",
+        "dining"
+      ],
+      "bestFor": "contemporary cafes and art galleries.",
+      "avoid": "It can feel less authentic compared to the Medina."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air India",
+          "Royal Air Maroc"
+        ],
+        "priceRange": "₹40,000 - ₹60,000",
+        "note": "Booking in advance can lead to better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h",
+        "airlines": [
+          "Air Arabia",
+          "Royal Air Maroc"
+        ],
+        "priceRange": "₹35,000 - ₹55,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; consider taking a bus for around 30 MAD (₹17) taking approximately 30 minutes.",
+      "taxi": "Taxis cost around 100 MAD (₹56) and take about 15 minutes to reach the city center.",
+      "recommended": "For first-timers, pre-book a taxi or a shuttle service to avoid confusion upon arrival."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application required; visa-free entry.",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport is valid for at least six months from your date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café de France in Jemaa el-Fna and order a traditional Moroccan breakfast with msemen and mint tea.",
+    "sunset": "Head to the rooftop terrace at Le Foundouk for sunset views over the Medina at around 7:30 PM.",
+    "meal": "Dine at Al Fassia and try the lamb tagine with prunes, a local favorite.",
+    "memory": "Witnessing the mesmerizing street performances at Jemaa el-Fna as the sun sets is a moment that defines Marrakech.",
+    "secret": "Only locals know that the best spices can be found at the small stalls in the back alleys of the souks, often at half the price of the main street vendors."
+  },
+  "residentSunday": "On a free Sunday, a Marrakech resident might start the day at Café des Épices for breakfast, followed by a visit to the Marrakech Museum. In the afternoon, they might enjoy a leisurely stroll through the Jardin Majorelle, followed by dinner at a local 'slow food' restaurant, savoring a traditional Moroccan meal.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the bustling atmosphere of Jemaa el-Fna, with street performers captivating your attention.",
+    "peak": "The peak day memory target is watching the sunset from a rooftop while enjoying local cuisine.",
+    "departure": "Departure should feel like a nostalgic farewell, with the scent of spices lingering as you leave."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Quick exploration of the Medina and a taste of local cuisine.",
+      "misses": "Neglecting the outskirts and cultural sites like the Saadian Tombs."
+    },
+    "three_to_four_days": {
+      "focus": "Balanced coverage of major sights, including the souks, palaces, and gardens.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including day trips to the Atlas Mountains and Essaouira.",
+      "whoFor": "Adventure Seekers and Culture Enthusiasts."
+    },
+    "recommended": "Three to four days is ideal to genuinely absorb the essence of Marrakech."
+  },
+  "antiPatterns": [
+    "Rushing through the souks without engaging can lead to a superficial experience; instead, take time to interact with artisans.",
+    "Eating only at touristy restaurants can leave you missing the authentic flavors of local cuisine; explore street food options.",
+    "Visiting major attractions without a plan can lead to wasted time; map out a route to maximize your experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the souks, missing out on unique finds.",
+    "Most visitors regret not trying more local dishes, especially traditional tagines.",
+    "Most visitors regret not exploring the surrounding countryside, particularly the Atlas Mountains."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to May",
+      "weather": "Temperatures range from 15°C to 28°C, pleasant for exploring.",
+      "crowds": "Expect larger crowds, especially at major attractions.",
+      "verdict": "Ideal for those who enjoy a lively atmosphere."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "Milder weather and fewer tourists, making it easier to navigate."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Very hot with temperatures often exceeding 40°C, which can be uncomfortable for many.",
+      "hiddenGem": "Some travelers prefer this season for lower accommodation costs."
+    },
+    "bestMonth": "April; the weather is pleasant and the city is not overcrowded.",
+    "currentSeason": "June 2026 is warm with temperatures averaging 35°C, and the city is experiencing moderate tourist traffic."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local spice market early in the morning to get the freshest ingredients and avoid crowds; prices are negotiable.",
+      "category": "food"
+    },
+    {
+      "tip": "Engage a local guide for a souk tour; they can help you navigate the maze and negotiate better prices.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to learn a few phrases in Arabic or French; locals appreciate it and it can enhance your interactions.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a cooking class with a local chef to learn the secrets of Moroccan cuisine; classes are available weekly.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the lesser-known neighborhoods like the Mellah for a different perspective of the city.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of harira soup at a local eatery for 20 MAD (₹11).",
+    "midRangeMeal": "A three-course meal at a mid-range restaurant for about 200 MAD (₹112).",
+    "luxuryMeal": "Dinner at Le Jardin for around 600 MAD (₹336).",
+    "localTransportPerDay": "Around 50 MAD (₹28) for local bus fares.",
+    "budgetHotelPerNight": "Hostel accommodation for approximately 150 MAD (₹84), includes basic amenities.",
+    "midRangeHotelPerNight": "A comfortable riad for about 800 MAD (₹448), featuring traditional decor and breakfast.",
+    "luxuryHotelPerNight": "High-end hotels like La Mamounia starting from 2500 MAD (₹1400)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2000",
+      "accommodation": "Hostel beds for around ₹800",
+      "food": "Street food options at ₹200 per meal.",
+      "transport": "Using local buses for about ₹50 per day."
+    },
+    "comfortable": {
+      "perDayINR": "₹7000",
+      "accommodation": "Mid-range hotels for about ₹3000",
+      "food": "Dining at local restaurants for ₹1000."
+    },
+    "luxury": {
+      "perDayINR": "₹15000+",
+      "note": "Luxury is available, but it can be significantly more expensive compared to local options."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially in religious sites; women should cover their shoulders and knees.",
+    "When visiting a local's home, it's customary to bring a small gift, such as pastries or sweets.",
+    "Avoid public displays of affection; it is frowned upon in Moroccan culture."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial guides offering tours; always opt for licensed ones.",
+      "Be cautious of overly persistent street vendors."
+    ],
+    "emergencyContacts": {
+      "police": "19",
+      "ambulance": "15",
+      "indianEmbassy": "Address: 1 Avenue des Nations Unies, Marrakech"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Jemaa el-Fna",
+        "what": "Capture the street performers at dusk.",
+        "bestTime": "Around 7 PM.",
+        "tip": "Use a zoom lens to capture candid moments without intruding."
+      }
+    ],
+    "goldenHour": "The golden hour is approximately 30 minutes before sunset.",
+    "tip": "Be respectful when photographing locals; ask for permission first."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Saadian Tombs",
+        "Explore the Bahia Palace",
+        "Stroll through the Jardin Majorelle"
+      ],
+      "emotionalArc": "This sequence enhances appreciation for the historical and artistic richness of Marrakech, leading to a reflective mood.",
+      "bestFor": [
+        "History Buffs",
+        "Cultural Enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Essaouira",
+      "travelTime": "2.5 hours",
+      "how": "By bus or shared taxi.",
+      "whyCombine": "Famous for its coastal fortifications and arts scene."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions in the Medina are not wheelchair accessible due to narrow streets.",
+    "majorChallenges": "Cobblestone streets and uneven surfaces can pose challenges for those with mobility needs.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring a private guide who can accommodate specific needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 35°C, and there are fewer tourists compared to peak season.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indian passport holders as of 2026."
+  }
+}

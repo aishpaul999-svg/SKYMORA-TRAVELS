@@ -1,0 +1,282 @@
+{
+  "destination": "San Sebastian",
+  "country": "Spain",
+  "region": "Europe",
+  "aliases": [
+    "San Sebastian",
+    "san sebastian",
+    "spain"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "beach enthusiasts",
+      "Michelin-star seekers",
+      "culture buffs",
+      "adventure travelers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "nightlife seekers",
+      "those averse to crowds"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Madrid + 5h",
+    "flightFromMumbai": "12h to Madrid + 5h",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (EUR), 1 INR = 0.011 EUR",
+    "timezone": "UTC+1",
+    "language": "Spanish, Basque",
+    "bestMonthToVisit": "September - pleasant weather and fewer tourists after the summer rush.",
+    "avoidMonth": "August - peak tourist season with crowded beaches and higher prices.",
+    "tipping": "10% is appreciated in restaurants, but not mandatory."
+  },
+  "whyPeopleFallInLove": "As you stroll through the Old Town, the aroma of sizzling pintxos wafts from every bar, inviting you to indulge in a culinary journey. The first bite of a perfectly crafted txangurro (spider crab) paired with a local cider is an experience that makes you instantly fall for the city's gastronomic allure.",
+  "honestTruth": "Despite its reputation, San Sebastian can feel touristy and expensive, especially during the summer months, which can take away from the local experience if you're not careful about where you dine and drink.",
+  "localTruths": [
+    "Most visitors think they can only find pintxos in the Old Town. Locals think the best pintxos are often at lesser-known bars in Gros.",
+    "Most visitors spend their evenings along the La Concha beach. The best version of San Sebastian is enjoying the sunset at the less crowded Zurriola beach while savoring local tapas.",
+    "Most visitors miss the chance to explore the markets. The real San Sebastian starts at Mercado de la Bretxa, where locals shop for fresh produce and ingredients."
+  ],
+  "neighborhoodPersonalities": {
+    "Parte Vieja": {
+      "tags": [
+        "pintxos",
+        "historic",
+        "lively"
+      ],
+      "bestFor": "food enthusiasts looking for the best tapas bars.",
+      "avoid": "it can be overly crowded, especially during late evenings."
+    },
+    "Gros": {
+      "tags": [
+        "surfing",
+        "beach",
+        "young crowd"
+      ],
+      "bestFor": "surf lovers and a more laid-back beach vibe.",
+      "avoid": "the area can be quieter at night, lacking in nightlife options."
+    },
+    "Antiguo": {
+      "tags": [
+        "local",
+        "residential",
+        "traditional"
+      ],
+      "bestFor": "experiencing local life and traditional Basque culture.",
+      "avoid": "it’s a bit far from the main tourist attractions."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Madrid + 5h",
+        "airlines": [
+          "Air India",
+          "Iberia"
+        ],
+        "priceRange": "[INR 60,000 - 90,000 return]",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "12h to Madrid + 5h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "[INR 70,000 - 1,00,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No direct metro; bus costs around EUR 2 and takes about 1 hour.",
+      "taxi": "Costs around EUR 40 and takes approximately 30 minutes.",
+      "recommended": "For first-timers, consider taking a taxi for convenience after a long journey."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in India.",
+    "processingTime": "15 working days typically.",
+    "tip": "Apply at least a month in advance and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Try Café de la Concha for their Spanish omelette and a café con leche.",
+    "sunset": "Watch the sunset from Monte Igueldo around 9 PM; the view over the bay is mesmerizing.",
+    "meal": "Dine at Bar Nestor for their famous chuleta (steak) - a true local delicacy.",
+    "memory": "The sound of waves crashing against the shore as you enjoy a glass of txakoli (local wine) at the beach.",
+    "secret": "Only locals know that the best time for pintxos is after 8 PM, when the bars are less crowded."
+  },
+  "residentSunday": "A local would start their Sunday with a leisurely breakfast at La Viña, enjoying their famed cheesecake. Then, they would stroll through the Mercado de la Bretxa to pick up fresh ingredients for lunch, followed by a leisurely afternoon at Zurriola beach, and end the day with pintxos hopping in the Parte Vieja with friends.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the fresh sea breeze hit your face, signaling the start of your adventure.",
+    "peak": "The peak day memory target is when you join a local cooking class and learn to make traditional Basque dishes.",
+    "departure": "As you board your flight, reflecting on the flavors and experiences that will linger long after your visit."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "highlights like pintxos in Parte Vieja and a visit to La Concha beach.",
+      "misses": "many local experiences and day trips to nearby towns."
+    },
+    "three_to_four_days": {
+      "focus": "a good mix of culinary experiences, beach time, and exploring local neighborhoods.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "deeper exploration of Basque culture, day trips to nearby towns like Getaria and Zumaia.",
+      "whoFor": "foodies and culture enthusiasts."
+    },
+    "recommended": "Four days is ideal to enjoy both the beach and the culinary scene without feeling rushed."
+  },
+  "antiPatterns": [
+    "Dining only in touristy areas like the Old Town can lead to overpriced and less authentic meals.",
+    "Rushing through pintxos bars without taking the time to savor each dish and enjoy the atmosphere.",
+    "Trying to see too many attractions in one day can lead to exhaustion and missing the essence of the city."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local dishes and relying on international cuisine.",
+    "Most visitors regret not exploring the surrounding areas of the Basque Country.",
+    "Most visitors regret not taking the time to relax at the beach."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "average 25°C, warm and sunny",
+      "crowds": "very busy with tourists, especially at the beach",
+      "verdict": "not ideal for those seeking a quieter experience."
+    },
+    "shoulderSeason": {
+      "months": "May, June, September",
+      "why": "more pleasant weather and fewer crowds provide a better experience for most travelers."
+    },
+    "offSeason": {
+      "months": "October, November, December",
+      "reality": "the weather can be rainy and cool, but some enjoy the tranquility.",
+      "hiddenGem": "fewer tourists mean you can interact more with locals."
+    },
+    "bestMonth": "September - the weather is still warm, and the summer crowds have thinned out.",
+    "currentSeason": "June 2026 is warm with occasional showers, perfect for beach activities and enjoying outdoor dining."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local fish market at 7 AM for the freshest seafood and to see the daily catch.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'pintxos de autor' at La Cuchara de San Telmo; they change daily based on the chef's inspiration.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a walking tour with a local guide to discover hidden stories behind the city's landmarks.",
+      "category": "experience"
+    },
+    {
+      "tip": "Don't miss the annual San Sebastian Day in January, a local festival with food, music, and fireworks.",
+      "category": "event"
+    },
+    {
+      "tip": "For a quiet escape, check out the small beach at Ondarreta; it’s less crowded than La Concha.",
+      "category": "beach"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Bocadillo (sandwich) at a local café for around EUR 5 (₹450)",
+    "midRangeMeal": "Three-course meal at a mid-range restaurant for EUR 30 (₹2,700)",
+    "luxuryMeal": "Dinner at Akelarre (three Michelin stars) for around EUR 200 (₹18,000)",
+    "localTransportPerDay": "Around EUR 5 (₹450) for bus transport.",
+    "budgetHotelPerNight": "Hostel dormitory bed for around EUR 25 (₹2,250), including breakfast.",
+    "midRangeHotelPerNight": "Comfortable hotel room for around EUR 100 (₹9,000), including breakfast.",
+    "luxuryHotelPerNight": "Luxury hotel room for around EUR 300 (₹27,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dorm at ₹2,250",
+      "food": "Street food and budget meals, ₹750",
+      "transport": "Local buses, ₹300"
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotel at ₹9,000",
+      "food": "Mix of casual dining and some fine dining, ₹3,000"
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury comes at a premium, but the culinary experiences and service make it worth the splurge."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when entering churches or religious sites.",
+    "It's customary to greet with a handshake or a kiss on both cheeks when meeting someone.",
+    "Avoid discussing politics or personal finances with locals unless you know them well."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas, particularly in tourist spots.",
+      "Some bars may charge higher prices for drinks than listed; always confirm before ordering."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "061",
+      "indianEmbassy": "Embassy of India, Madrid - +34 91 423 1133"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Monte Igueldo",
+        "what": "Panoramic view of the city and beaches",
+        "bestTime": "Late afternoon before sunset",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Approximately 9 PM in summer.",
+    "tip": "Experiment with long exposure shots at the beach during sunset for stunning effects."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit La Concha beach",
+        "Have lunch at a beachfront restaurant",
+        "Explore the Old Town for pintxos"
+      ],
+      "emotionalArc": "This sequence allows you to enjoy leisure time at the beach, savor a delicious meal, and immerse yourself in the local culinary scene, creating a perfect day.",
+      "bestFor": [
+        "food lovers",
+        "beach enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Getaria",
+      "travelTime": "30 mins",
+      "how": "Bus",
+      "whyCombine": "Famous for its seafood and wine, making it a perfect day trip."
+    },
+    {
+      "city": "Zumaia",
+      "travelTime": "40 mins",
+      "how": "Train",
+      "whyCombine": "Spectacular cliffs and beaches, ideal for hiking and photography."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some areas are accessible, but cobblestone streets can be challenging.",
+    "majorChallenges": "Public transport may not accommodate all mobility devices.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using taxis for easier navigation around the city."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, averaging around 24°C with occasional summer showers; outdoor dining is enjoyable, and local festivals are lively.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain the same; ensure all documents are current and apply in advance."
+  }
+}

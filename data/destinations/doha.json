@@ -1,0 +1,276 @@
+{
+  "destination": "Doha",
+  "country": "Qatar",
+  "region": "Middle East",
+  "aliases": [
+    "Doha",
+    "doha",
+    "qatar"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Enthusiasts",
+      "Sports Fans",
+      "Food Lovers",
+      "Art Aficionados",
+      "Luxury Seekers"
+    ],
+    "notFor": [
+      "Budget Travelers",
+      "Adventure Seekers",
+      "Backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "4h",
+    "flightFromMumbai": "3h 30m, airlines: Qatar Airways, IndiGo, Air India",
+    "visaForIndians": "Visa-free on arrival most Indians",
+    "currency": "Qatari Rial (QAR), 1 INR = 0.045 QAR",
+    "timezone": "UTC+3",
+    "language": "Arabic (English widely spoken)",
+    "bestMonthToVisit": "November, as the weather is pleasantly cool, ideal for outdoor activities.",
+    "avoidMonth": "August, due to extreme heat and humidity making outdoor exploration uncomfortable.",
+    "tipping": "Tipping is not mandatory; however, rounding up the bill or leaving 10-15% is appreciated in restaurants."
+  },
+  "whyPeopleFallInLove": "Standing in the Museum of Islamic Art, the scent of fresh Arabic coffee fills the air as you gaze at a centuries-old artifact that whispers stories of a rich heritage. You can feel the pulse of the city through the artworks, and suddenly, the past feels intimately close.",
+  "honestTruth": "Many travelers underestimate the cost of dining out in Doha; high-quality local cuisine often comes at a premium, especially in popular areas.",
+  "localTruths": [
+    "Most visitors think Doha is just a stopover. Locals think it’s a dynamic city where history and modernity coalesce beautifully.",
+    "Most visitors rush through Souq Waqif. The best version of Doha is experiencing it at night when the market comes alive with music and light.",
+    "Most visitors miss the serene beauty of Katara Cultural Village. The real Doha starts at sunset by the beach, where art meets the ocean."
+  ],
+  "neighborhoodPersonalities": {
+    "Corniche": {
+      "tags": [
+        "Waterfront",
+        "Scenic",
+        "Relaxation"
+      ],
+      "bestFor": "Morning jogs with a view of the skyline and the Arabian Gulf.",
+      "avoid": "It can get crowded during weekends, which might diminish the peaceful experience."
+    },
+    "Souq Waqif": {
+      "tags": [
+        "Shopping",
+        "Food",
+        "Culture"
+      ],
+      "bestFor": "Exploring local crafts and tasting traditional food.",
+      "avoid": "Don’t visit during mid-afternoon heat; the experience is much better in the evening."
+    },
+    "West Bay": {
+      "tags": [
+        "Business",
+        "Luxury",
+        "Modern"
+      ],
+      "bestFor": "High-end shopping and dining experiences.",
+      "avoid": "It lacks the local flavor compared to other neighborhoods."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "4h",
+        "airlines": [
+          "Qatar Airways",
+          "Air India"
+        ],
+        "priceRange": "[₹20,000 - ₹30,000 return]",
+        "note": "Book in advance to get the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3h 30m",
+        "airlines": [
+          "Qatar Airways",
+          "IndiGo"
+        ],
+        "priceRange": "[₹18,000 - ₹28,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available yet, but a taxi costs around 40 QAR and takes about 20 minutes.",
+      "taxi": "40 QAR, approximately 20 minutes to city center.",
+      "recommended": "Opt for a taxi as it’s the most straightforward way for first-timers to reach their accommodation."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free on arrival most Indians",
+    "applyAt": "No prior application needed for visa-on-arrival.",
+    "processingTime": "Not applicable for visa-on-arrival.",
+    "tip": "Ensure your passport is valid for at least six months from the arrival date."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Café Sara in Souq Waqif for a traditional breakfast of Shakshuka and Arabic coffee.",
+    "sunset": "The Corniche at around 6:30 PM offers an incredible view of the skyline against the setting sun.",
+    "meal": "Dine at Al Tawash for their signature Machboos, a spiced rice dish with chicken.",
+    "memory": "The moment you sip fresh mint lemonade while watching the boats glide by on the Corniche."
+  },
+  "residentSunday": "On a free Sunday, a Doha resident might start the day with breakfast at The Pearl-Qatar, enjoying pancakes at a cafe overlooking the marina, followed by a stroll at Katara Cultural Village, and ending with a family lunch at a local restaurant where they would savor a plate of grilled kebabs.",
+  "dayMemoryTargets": {
+    "arrival": "The first whiff of spice-laden air at Souq Waqif upon stepping out of the taxi, drawing you into the heart of the city.",
+    "peak": "The peak day memory targets standing on the rooftop of the Museum of Islamic Art, absorbing the panoramic views during the golden hour.",
+    "departure": "The feeling of leaving with a treasure trove of memories, as you watch the skyline fade from the airplane window."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Cultural highlights like the Museum of Islamic Art and Souq Waqif.",
+      "misses": "In-depth exploration of the nearby desert and the cultural villages."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering culture, food, and leisure activities.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of art, culture, and local life.",
+      "whoFor": "Cultural enthusiasts and families."
+    },
+    "recommended": "3-4 days is ideal for a comprehensive experience of Doha."
+  },
+  "antiPatterns": [
+    "Spending all your time in Souq Waqif without venturing to the Museum of Islamic Art; it shortchanges the cultural experience.",
+    "Planning outdoor activities during the afternoon heat, which can lead to exhaustion and missed opportunities.",
+    "Rushing through meals; savoring local cuisine is essential for a genuine taste of Doha."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the traditional Qatari dishes at local restaurants.",
+    "Most visitors regret skipping the desert safari, which provides a real taste of Qatar’s landscape.",
+    "Most visitors regret not spending enough time in cultural areas like Katara."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to March",
+      "weather": "Temperatures range from 20°C to 25°C, pleasant and suitable for outdoor activities.",
+      "crowds": "It can get busy as many tourists flock during this time.",
+      "verdict": "Perfect for outdoor exploration and events."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Weather starts to heat up but still manageable for those who prefer fewer tourists."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Very hot, with temperatures often exceeding 40°C; not ideal for outdoor activities.",
+      "one reason some prefer it": "Fewer crowds and lower hotel prices."
+    },
+    "bestMonth": "November, as temperatures are comfortable for exploring the city.",
+    "currentSeason": "June 2026 is sweltering with temperatures around 40°C, making outdoor activities challenging."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Check out the local fish market in the early morning for the freshest catch and a chance to see local fishermen at work.",
+      "category": "experience"
+    },
+    {
+      "tip": "For authentic Qatari cuisine, seek out the hidden gems around the outskirts of Souq Waqif, where locals eat.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the Museum of Islamic Art on a Saturday for free guided tours.",
+      "category": "experience"
+    },
+    {
+      "tip": "Local taxis rarely use meters; agree on a fare before getting in to avoid misunderstandings.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a cultural event at Katara Cultural Village; they often have free exhibitions and performances.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Shawarma at a street vendor for around 15 QAR (₹330).",
+    "midRangeMeal": "Lunch at a local restaurant for around 50 QAR (₹1,100) for a mixed grill platter.",
+    "luxuryMeal": "Dinner at Nobu for around 450 QAR (₹10,000) per person.",
+    "localTransportPerDay": "Approximately 20 QAR (₹440) for metro and taxi rides.",
+    "budgetHotelPerNight": "Around 200 QAR (₹4,400) for a basic hotel with essential amenities.",
+    "midRangeHotelPerNight": "About 500 QAR (₹11,000) for a comfortable hotel with decent facilities.",
+    "luxuryHotelPerNight": "Starting at 1,200 QAR (₹26,000) for high-end hotels with luxury services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Dormitory in a hostel for around ₹1,000",
+      "food": "Eating at local eateries for about ₹800",
+      "transport": "Using public transport for about ₹400."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "3-star hotel for around ₹4,000",
+      "food": "Dining at a mix of local and mid-range restaurants for about ₹2,000."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Expect to pay a premium for luxury experiences, especially dining and accommodation."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting public places and religious sites.",
+    "Public displays of affection are frowned upon and should be avoided.",
+    "Always ask for permission before photographing locals, especially women."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Overcharging for taxi rides; always confirm the fare beforehand.",
+      "Scams related to unlicensed tour operators; book through reputable agencies."
+    ],
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "999",
+      "indianEmbassy": "Indian Embassy in Doha: +974 4466 9555"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Museum of Islamic Art",
+        "what": "The stunning architecture against the skyline.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a polarizing filter to reduce glare off the water."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM during winter months.",
+    "tip": "Capture the local life at Souq Waqif during evenings for vibrant street scenes."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Museum of Islamic Art",
+        "Stroll along the Corniche",
+        "Dinner at a waterfront restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate art, enjoy the sea breeze, and conclude with a delightful meal overlooking the water.",
+      "bestFor": [
+        "Cultural Enthusiasts",
+        "Couples",
+        "Families"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Al Khor",
+      "travelTime": "1h",
+      "how": "By car or bus",
+      "whyCombine": "To explore the Al Khor Park and the nearby mangroves."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most public places are accessible, but some older areas may have challenges.",
+    "majorChallenges": "Some sidewalks and public transport may not be fully wheelchair-friendly.",
+    "seniorFriendlyScore": 7,
+    "note": "Cabs are generally available, but pre-booking accessible transport is advisable."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is extremely hot, with temperatures around 40°C and high humidity. It's less crowded, with many locals staying indoors during the day; however, evenings are more pleasant for outdoor dining and activities.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free for Indian passport holders; ensure your passport is valid for at least six months."
+  }
+}

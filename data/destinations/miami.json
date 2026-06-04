@@ -1,0 +1,277 @@
+{
+  "destination": "Miami",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "Miami",
+    "miami",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nightlife enthusiasts",
+      "beach lovers",
+      "art aficionados",
+      "foodies",
+      "culture seekers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "solitude seekers",
+      "those averse to heat"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "16h",
+    "flightFromMumbai": "16h 30m via Emirates or Qatar Airways, prices range from ₹65,000 to ₹90,000 for return flights",
+    "visaForIndians": "US B-2 visa",
+    "currency": "USD, 1 INR = 0.012 USD",
+    "timezone": "UTC-5",
+    "language": "English and Spanish widely spoken",
+    "bestMonthToVisit": "December, for pleasant weather and fewer crowds",
+    "avoidMonth": "August, as it's extremely humid and the chance of rain is high",
+    "tipping": "Tipping is customary; 15-20% is standard in restaurants and bars"
+  },
+  "whyPeopleFallInLove": "As you stroll along Ocean Drive, the aroma of fresh Cuban coffee wafts through the air, and the iconic pastel Art Deco buildings stand tall, beckoning you to explore their history. The moment you watch the sunset over the Atlantic from South Beach, you realize this city is alive with energy and passion.",
+  "honestTruth": "Many visitors underestimate the heat; Miami can be oppressively hot, and spending all day outdoors without breaks can lead to exhaustion.",
+  "localTruths": [
+    "Most visitors think Miami is just about the beaches. Locals think it's a hub for art, food, and music that often gets overlooked.",
+    "Most visitors flock to South Beach. The best version of Miami is found in neighborhoods like Little Havana and Wynwood, where you can enjoy the local pulse.",
+    "Most visitors miss the cultural impact of the Calle Ocho festival. The real Miami starts at the heart of Little Havana during this vibrant celebration."
+  ],
+  "neighborhoodPersonalities": {
+    "South Beach": {
+      "tags": [
+        "beach",
+        "nightlife",
+        "Art Deco"
+      ],
+      "bestFor": "beachgoers and party lovers",
+      "avoid": "crowds during peak season can be overwhelming."
+    },
+    "Little Havana": {
+      "tags": [
+        "Cuban culture",
+        "food",
+        "art"
+      ],
+      "bestFor": "cultural exploration and culinary delights",
+      "avoid": "touristy traps on Calle Ocho."
+    },
+    "Wynwood": {
+      "tags": [
+        "street art",
+        "food",
+        "trendy"
+      ],
+      "bestFor": "art lovers and foodies",
+      "avoid": "high prices at some trendy restaurants."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "16h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹65,000 - ₹90,000",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "16h 30m",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹65,000 - ₹90,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; use Metrorail to reach downtown at around $2 and 30 minutes.",
+      "taxi": "Around $35-50 and 20-30 minutes depending on traffic.",
+      "recommended": "Using a rideshare service like Uber is recommended for first-timers, as it is often cheaper and more convenient."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa",
+    "applyAt": "VFS Global in multiple cities across India.",
+    "processingTime": "Approximately 7-10 business days.",
+    "tip": "Schedule your visa interview at a time when the consulate is less busy, typically mid-week."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Versailles Restaurant in Little Havana, order the Cuban toast and a café con leche.",
+    "sunset": "South Beach at 7:45 PM, grab a seat on the sand with a cocktail from a nearby beach bar.",
+    "meal": "La Mar by Gastón Acurio, try the ceviche for a true taste of Peru.",
+    "memory": "The moment you dance at a salsa club, surrounded by locals, feeling the rhythm of Miami.",
+    "secret": "Locals know that the best time to experience Little Havana is during the weekly Domino Park gatherings on Sundays."
+  },
+  "residentSunday": "On a free Sunday, a Miami resident might start with brunch at The Local House in South Beach, followed by a walk through the Art Deco Historic District. Later, they would head to a park to enjoy live music and Cuban sandwiches from a local food truck, wrapping up the day with a sunset at Key Biscayne.",
+  "dayMemoryTargets": {
+    "arrival": "Feeling the heat and humidity hit you as you step out of the airport, a sensory reminder that you're in the tropics.",
+    "peak": "Dancing the night away at one of the popular nightclubs, surrounded by both locals and travelers, sharing laughter and a sense of community.",
+    "departure": "Leaving with a sun-kissed glow and a heart full of music, knowing that Miami has left its mark."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "highlights of South Beach and a taste of Little Havana",
+      "misses": "deeper cultural experiences and local neighborhoods"
+    },
+    "three_to_four_days": {
+      "focus": "a balanced coverage of beaches, art districts, and nightlife",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration of Miami’s food scene, art, and nearby attractions",
+      "whoFor": "cultural enthusiasts and food lovers"
+    },
+    "recommended": "Four days is ideal to soak in the essence of Miami while still allowing for leisure."
+  },
+  "antiPatterns": [
+    "Spending a whole day on South Beach and missing out on cultural neighborhoods leads to a one-dimensional trip.",
+    "Rushing through meals at tourist traps can ruin the culinary experience, as authentic dining is often found off the main roads.",
+    "Visiting during the middle of the day without hydration plans can lead to fatigue and a less enjoyable experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local food, especially in Little Havana.",
+    "Most visitors regret not taking a day trip to the nearby Everglades.",
+    "Most visitors regret skipping the local art galleries in Wynwood."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to April",
+      "weather": "Average temperatures between 20-25°C, mostly dry",
+      "crowds": "Very high, especially during spring break",
+      "verdict": "Great weather, but plan for crowds."
+    },
+    "shoulderSeason": {
+      "months": "May and November",
+      "why": "Perfect for avoiding crowds while still enjoying pleasant weather."
+    },
+    "offSeason": {
+      "months": "June to October",
+      "reality": "Hot and humid with a risk of hurricanes, but fewer tourists.",
+      "one reason some prefer it": "Significantly lower accommodation costs."
+    },
+    "bestMonth": "December, for the best balance of weather and activities.",
+    "currentSeason": "June 2026 is hot, with temperatures around 30°C and occasional thunderstorms."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Wynwood Walls on a weekday to avoid crowds and truly appreciate the art.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best Cuban sandwich, try El Rey de las Fritas, known for its authentic flavor.",
+      "category": "food"
+    },
+    {
+      "tip": "Catch a local artist's performance at Ball & Chain in Little Havana for a more intimate experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the scenic route along the Venetian Causeway for stunning views of the Miami skyline.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join a food tour in the Little Havana area to discover hidden culinary delights.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A Cuban sandwich at El Rey de las Fritas for $7 (₹580)",
+    "midRangeMeal": "Dinner at La Mar for around $50 (₹4,100) per person.",
+    "luxuryMeal": "Dining at Joe's Stone Crab can cost upwards of $80 (₹6,600) per person.",
+    "localTransportPerDay": "Around $10 (₹820) for buses and metro.",
+    "budgetHotelPerNight": "$90 (₹7,400) at a basic hotel with free breakfast.",
+    "midRangeHotelPerNight": "$200 (₹16,500) at a hotel with good amenities in South Beach.",
+    "luxuryHotelPerNight": "$500 (₹41,000) at a luxury hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dormitory for ₹1,500",
+      "food": "Street food and casual dining for ₹1,000",
+      "transport": "Public transport for ₹500"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel for ₹5,000",
+      "food": "Mix of mid-range dining and street food."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury options are plentiful but can be pricey; reservations are advised."
+    }
+  },
+  "culturalRules": [
+    "Dress code can be casual but avoid beachwear outside of beach areas.",
+    "Respect the local Cuban culture, especially in Little Havana.",
+    "Be mindful of noise levels, particularly in residential neighborhoods."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly aggressive street performers; politely decline if you are not interested.",
+      "Check your taxi meter before starting your ride, as some may try to overcharge."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Consulate in Miami, 1000 Brickell Ave #720"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Ocean Drive",
+        "what": "Art Deco architecture and beach scenes",
+        "bestTime": "Golden hour before sunset",
+        "tip": "Use a wide-angle lens to capture the vibrant buildings."
+      }
+    ],
+    "goldenHour": "Around 7:30 PM during summer months.",
+    "tip": "Always ask permission before photographing people, especially in cultural neighborhoods."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Explore Wynwood Walls",
+        "Lunch at a local food truck",
+        "Sunset at South Beach"
+      ],
+      "emotionalArc": "This sequence builds from artistic inspiration to culinary delight and finally a reflective moment by the ocean.",
+      "bestFor": [
+        "art lovers",
+        "foodies",
+        "sunset seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Everglades National Park",
+      "travelTime": "1 hour",
+      "how": "Car or guided tour",
+      "whyCombine": "To experience Florida's unique ecosystem and wildlife."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are wheelchair accessible, but some beach locations may lack proper access.",
+    "majorChallenges": "Limited accessible transport options during peak hours.",
+    "seniorFriendlyScore": 7,
+    "note": "Many attractions offer senior discounts; check in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot and humid, with sporadic thunderstorms and fewer tourists than peak season.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa required; ensure your passport is valid for at least six months beyond your planned stay."
+  }
+}

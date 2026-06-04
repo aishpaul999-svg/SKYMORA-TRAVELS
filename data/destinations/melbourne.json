@@ -1,0 +1,283 @@
+{
+  "destination": "Melbourne",
+  "country": "Australia",
+  "region": "Oceania",
+  "aliases": [
+    "Melbourne",
+    "melbourne",
+    "australia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food enthusiasts",
+      "art lovers",
+      "coffee aficionados",
+      "sports fans",
+      "urban explorers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "nightlife seekers",
+      "hiking enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "13h",
+    "flightFromMumbai": "14h via Singapore Airlines or Qantas, around INR 50,000 return",
+    "visaForIndians": "Australia e-Visa AUD 20",
+    "currency": "Australian Dollar (AUD), 1 INR = 0.018 AUD",
+    "timezone": "UTC+10",
+    "language": "English",
+    "bestMonthToVisit": "March - warm weather and numerous festivals like the Melbourne International Comedy Festival.",
+    "avoidMonth": "July - winter chill can be harsh, making outdoor activities less enjoyable.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving 10% is appreciated in restaurants."
+  },
+  "whyPeopleFallInLove": "Imagine sipping a flat white at a laneway café, the aroma of fresh coffee wafting in the air while street artists showcase their latest work just a few steps away. It's the kind of moment that makes you feel like a local, not just a tourist, as you soak in the city’s artistic pulse.",
+  "honestTruth": "Many international travelers overlook that Melbourne can get quite cold and windy, even in summer, so packing layers is a necessity that locals know well.",
+  "localTruths": [
+    "Most visitors think Melbourne is just about coffee. Locals think it's actually about the experience of discovering new cafes in hidden laneways.",
+    "Most visitors flock to popular attractions. The best version of Melbourne is found in quiet moments, like enjoying a pie from a bakery on a rainy day.",
+    "Most visitors miss the street art that covers the city. The real Melbourne starts at Hosier Lane, where art is alive around every corner."
+  ],
+  "neighborhoodPersonalities": {
+    "Fitzroy": {
+      "tags": [
+        "bohemian",
+        "artistic",
+        "quirky"
+      ],
+      "bestFor": "Exploring innovative cafes and eclectic boutiques.",
+      "avoid": "Be mindful of the parking rules; fines can be hefty."
+    },
+    "Southbank": {
+      "tags": [
+        "riverfront",
+        "dining",
+        "entertainment"
+      ],
+      "bestFor": "Enjoying fine dining with beautiful views of the Yarra River.",
+      "avoid": "It can be touristy and crowded during weekends."
+    },
+    "St Kilda": {
+      "tags": [
+        "beachside",
+        "relaxed",
+        "nightlife"
+      ],
+      "bestFor": "Relaxing on the beach and enjoying seaside eateries.",
+      "avoid": "Parking can be a challenge during peak summer months."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "13h",
+        "airlines": [
+          "Air India",
+          "Singapore Airlines"
+        ],
+        "priceRange": "INR 45,000 - 55,000 return",
+        "note": "Book 3-4 months in advance for better fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "14h",
+        "airlines": [
+          "Qantas",
+          "Emirates"
+        ],
+        "priceRange": "INR 50,000 - 60,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "SkyBus costs AUD 19.75, taking approximately 30-40 minutes to reach the city center.",
+      "taxi": "Approximately AUD 60-80 with a travel time of 30 minutes depending on traffic.",
+      "recommended": "SkyBus is efficient and economical for first-timers, providing direct service to major city locations."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Australia e-Visa AUD 20",
+    "applyAt": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/visit",
+    "processingTime": "Typically 5-7 days but can vary.",
+    "tip": "Ensure your passport is valid for at least six months from the date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Hardware Société and order the 'French Toast with caramelized banana and maple syrup'.",
+    "sunset": "Head to the Rooftop Bar at the Curtin House at 6:00 PM for panoramic views over the city.",
+    "meal": "Dine at Attica in Ripponlea and try the 'Potato Cooked in the Earth'.",
+    "memory": "The moment you find a street musician playing your favorite song as you stroll along the Yarra River.",
+    "secret": "Only locals know that some of the best coffee spots are tucked away in alleys behind larger establishments."
+  },
+  "residentSunday": "A Melbourne resident might start their Sunday at the South Melbourne Market for fresh produce, then head to Albert Park for a morning stroll, followed by brunch at D.O.C. Pizza & Mozzarella Bar. In the afternoon, they may explore the National Gallery of Victoria, finishing the day with dinner at a rooftop bar in the city.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step outside the airport and feel the cool breeze while spotting the city skyline in the distance.",
+    "peak": "Experiencing the electric atmosphere of the Australian Open in January as tennis fans gather.",
+    "departure": "Feeling a sense of nostalgia while looking back at the city from the plane as you leave."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of the city including coffee culture and street art.",
+      "misses": "Local neighborhoods like Fitzroy or St Kilda."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage including major attractions and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of surrounding areas like the Yarra Valley and Mornington Peninsula.",
+      "whoFor": "Food and wine lovers."
+    },
+    "recommended": "Four days is ideal to capture both the urban and natural beauty."
+  },
+  "antiPatterns": [
+    "Rushing through the laneways and cafes without pausing to appreciate the art and atmosphere. This fails because the essence of Melbourne is in its details.",
+    "Overlooking the local dining scene for international chains. This fails as Melbourne is known for its diverse and quality food offerings.",
+    "Timing your visit to popular cafes during peak hours can lead to long waits and a rushed experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the laneways to appreciate the street art.",
+    "Most visitors regret not trying the local brunch scene, often sticking to dinner options.",
+    "Most visitors regret missing out on local markets for authentic Melbourne experiences."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Average temperatures range from 20°C to 30°C, with occasional heat waves.",
+      "crowds": "High tourist traffic, especially during summer holidays.",
+      "verdict": "Expect vibrant events but be prepared for crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Milder weather and fewer tourists make it ideal for exploring."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Cold and rainy, not ideal for outdoor activities, but often cheaper rates.",
+      "one reason some prefer it": "Fewer tourists and a more local experience can be found in cafes and galleries."
+    },
+    "bestMonth": "March - perfect weather for outdoor festivals and events.",
+    "currentSeason": "In June 2026, expect cool temperatures around 10-15°C with occasional rain."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Head to Market Lane Coffee for a cup of the best single-origin brew; prices around AUD 4.50.",
+      "category": "food"
+    },
+    {
+      "tip": "Try to catch a tram on Swanston Street; it's free in the city center.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend an art exhibit at the Australian Centre for Contemporary Art on Fridays when entry is often free.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the local eateries during lunch hours for 'meal deals' that are not advertised; often around AUD 10.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the Royal Botanic Gardens early in the morning for a tranquil experience without the crowds.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A meat pie at a local bakery costs AUD 5 (approximately INR 275).",
+    "midRangeMeal": "A standard meal in an average restaurant costs around AUD 25 (approximately INR 1,375).",
+    "luxuryMeal": "Dinner at a high-end restaurant like Vue de Monde costs around AUD 120 (approximately INR 6,600).",
+    "localTransportPerDay": "AUD 10 for a Myki card, covering unlimited travel on trams and trains (approximately INR 550).",
+    "budgetHotelPerNight": "AUD 80 for a hostel bed (shared room) which includes basic amenities (approximately INR 4,400).",
+    "midRangeHotelPerNight": "AUD 180 for a 3-star hotel with breakfast included (approximately INR 9,900).",
+    "luxuryHotelPerNight": "AUD 500 for a 5-star hotel experience (approximately INR 27,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dormitory beds at around ₹1,500",
+      "food": "Street food and budget meals for ₹800",
+      "transport": "Public transport for ₹200"
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "3-star hotels at around ₹5,000",
+      "food": "Mix of casual dining and occasional splurges for ₹2,000"
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury experiences are exceptional but often come with a price tag reflecting the exclusivity."
+    }
+  },
+  "culturalRules": [
+    "Dress appropriately when visiting religious or formal venues; smart casual is often a good standard.",
+    "Be punctual; Australians value time and being late can be seen as disrespectful.",
+    "Respect local customs, such as removing shoes when entering someone's home."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of 'fake charities' asking for donations in public; always verify before giving.",
+      "Street performers may ask for money after their acts; it's okay to enjoy without tipping."
+    ],
+    "emergencyContacts": {
+      "police": "000",
+      "ambulance": "000",
+      "indianEmbassy": "High Commission of India, Melbourne - +61 3 9822 1655"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Hosier Lane",
+        "what": "Street art murals",
+        "bestTime": "Late afternoon for best light",
+        "tip": "Visit during weekdays for fewer crowds."
+      }
+    ],
+    "goldenHour": "Approximately one hour after sunrise and one hour before sunset.",
+    "tip": "Street photography is best in the early mornings when the streets are less crowded."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Brunch at a local café in Fitzroy",
+        "Visit the National Gallery of Victoria",
+        "Enjoy a sunset along the Yarra River"
+      ],
+      "emotionalArc": "This sequence flows from relaxation to cultural enrichment and ends with a peaceful moment, creating a fulfilling day.",
+      "bestFor": [
+        "art lovers",
+        "foodies",
+        "urban explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Great Ocean Road",
+      "travelTime": "1.5h",
+      "how": "By car or tour bus",
+      "whyCombine": "Famous for its scenic coastal views and the Twelve Apostles."
+    },
+    {
+      "city": "Yarra Valley",
+      "travelTime": "1h",
+      "how": "By car",
+      "whyCombine": "Ideal for wine tasting and gourmet food experiences."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public transport options are accessible, but some tram routes may have limitations.",
+    "majorChallenges": "Older buildings and some parks may have uneven surfaces.",
+    "seniorFriendlyScore": 7,
+    "note": "Most attractions have facilities for those with mobility issues, but always check in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is cool, averaging around 12°C with occasional rain. Crowds are minimal, making it a good time to explore indoor attractions.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa policies are subject to change; check the latest guidelines before travel."
+  }
+}

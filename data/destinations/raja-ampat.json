@@ -1,0 +1,267 @@
+{
+  "destination": "Raja Ampat",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Raja Ampat",
+    "raja ampat",
+    "indonesia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "divers",
+      "nature enthusiasts",
+      "photographers",
+      "adventure travelers",
+      "marine biologists"
+    ],
+    "notFor": [
+      "luxury shoppers",
+      "nightlife seekers",
+      "urban explorers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "12h+ via Makassar",
+    "flightFromMumbai": "12h+ via Makassar",
+    "visaForIndians": "Visa on Arrival USD 35",
+    "currency": "Indonesian Rupiah (IDR) - 1 INR = 190 IDR",
+    "timezone": "UTC+9",
+    "language": "Bahasa Indonesia",
+    "bestMonthToVisit": "October, as it offers calm seas and excellent visibility for diving.",
+    "avoidMonth": "January, due to heavy rainfall and strong currents.",
+    "tipping": "Tipping is not customary but appreciated; rounding up the bill or leaving IDR 10,000-20,000 is sufficient."
+  },
+  "whyPeopleFallInLove": "As the sun sets, the horizon explodes in hues of orange and pink while local fishermen return with their catch, filling the air with the scent of grilled fish wafting from the beachside warungs. It's a moment where time seems to stand still, and you realize you've stepped into a paradise untouched by modernity.",
+  "honestTruth": "While Raja Ampat is often portrayed as a pristine paradise, the reality is that the infrastructure can be lacking, and reaching remote dive sites requires patience and flexibility.",
+  "localTruths": [
+    "Most visitors think Raja Ampat is just about diving. Locals think it’s also about understanding the conservation efforts that keep this marine ecosystem alive.",
+    "Most visitors stick to popular dive sites. The best version of Raja Ampat is exploring lesser-known spots that offer incredible marine life without the crowds.",
+    "Most visitors miss the early morning tranquility. The real Raja Ampat starts at dawn when the islands wake up, and the water is glassy calm."
+  ],
+  "neighborhoodPersonalities": {
+    "Wayag": {
+      "tags": [
+        "island",
+        "scenic",
+        "remote"
+      ],
+      "bestFor": "photographers and nature lovers looking for iconic landscapes.",
+      "avoid": "the long boat ride can be tiring and may not be worth it for those short on time."
+    },
+    "Misool": {
+      "tags": [
+        "diving",
+        "marine life",
+        "resort"
+      ],
+      "bestFor": "divers eager to see pristine reefs and abundant marine life.",
+      "avoid": "the high-end resorts might feel disconnected for those wanting a local experience."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "12h+ via Makassar",
+        "airlines": [
+          "Garuda Indonesia",
+          "Sriwijaya Air"
+        ],
+        "priceRange": "[INR 30,000 - 45,000 round trip]",
+        "note": "Book well in advance to secure the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "12h+ via Makassar",
+        "airlines": [
+          "Garuda Indonesia",
+          "Lion Air"
+        ],
+        "priceRange": "[INR 30,000 - 45,000 round trip]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Private taxis cost about IDR 100,000 (₹500) and take around 30 minutes to major resorts.",
+      "recommended": "For first-timers, hiring a local guide can enhance the experience significantly."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa on Arrival USD 35",
+    "applyAt": "Visa on Arrival can be obtained at the airport upon arrival in Indonesia.",
+    "processingTime": "Immediate upon arrival.",
+    "tip": "Ensure your passport has at least 6 months validity and a return ticket to avoid any issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "At Café Mutiara, order the Nasi Goreng with a side of fresh fruit.",
+    "sunset": "Head to the viewpoint at Piaynemo at around 5:30 PM for the best view of the islands bathed in golden light.",
+    "meal": "Dine at the local seafood warung in Waisai and try the grilled snapper served with sambal.",
+    "memory": "The moment you first plunge into the crystal-clear waters and are surrounded by schools of vibrant fish is unforgettable.",
+    "secret": "Locals often fish at dawn using traditional methods, which is a beautiful sight to witness."
+  },
+  "residentSunday": "A Raja Ampat resident typically spends the day fishing from a traditional boat, enjoying a simple meal of grilled fish and rice, and gathering with family for a picnic on one of the nearby beaches, savoring the tranquility away from the tourist spots.",
+  "dayMemoryTargets": {
+    "arrival": "The scent of saltwater and the sound of waves crashing greet you as you step off the boat, marking the beginning of a new adventure.",
+    "peak": "The peak day memory target is the moment you dive into a coral garden teeming with life, feeling completely immersed in nature.",
+    "departure": "Departure should feel like leaving a piece of your heart behind, with a longing to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "This covers basic diving and a brief exploration of nearby islands.",
+      "misses": "You'll miss the deeper marine experiences and cultural interactions."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage for diving, snorkeling, and visiting key islands.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of remote islands and multiple diving experiences.",
+      "whoFor": "Serious divers and nature enthusiasts."
+    },
+    "recommended": "Four days is ideal to soak in the beauty and experience the diverse marine life."
+  },
+  "antiPatterns": [
+    "Rushing through the trip with only one dive a day; it results in missing out on the magical underwater world.",
+    "Staying only in one resort; you miss the varied experiences that different islands offer.",
+    "Diving without proper acclimatization; it can lead to discomfort and less enjoyment of the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a liveaboard diving trip to explore more remote sites.",
+    "Most visitors regret not learning a few basic phrases in Bahasa Indonesia to connect with locals.",
+    "Most visitors regret underestimating the need for a good underwater camera to capture the marine beauty."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to April",
+      "weather": "Temperatures around 28-30°C, dry and calm.",
+      "crowds": "Moderate to high, especially during holidays.",
+      "verdict": "Best time for diving and outdoor activities."
+    },
+    "shoulderSeason": {
+      "months": "May to June",
+      "why": "Weather is still pleasant, and crowds are fewer."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Expect heavy rains and challenging sea conditions, but fewer tourists.",
+      "reason": "Some travelers prefer the peace and lower prices during this time."
+    },
+    "bestMonth": "October, as it presents calm seas and excellent conditions for diving.",
+    "currentSeason": "June 2026 is experiencing mild rains, with temperatures around 27°C, making it a pleasant time for diving."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "For the best fresh seafood, visit the local market in Waisai early in the morning.",
+      "category": "food"
+    },
+    {
+      "tip": "Hire a local boatman rather than a tour company to discover hidden coves and lesser-known dive spots.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring your own snorkeling gear, as rentals can be subpar at some resorts.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to engage with local conservation efforts, as they often welcome volunteers.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the Arborek Village for a cultural experience and to learn about their traditional fishing practices.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Nasi Goreng at a local warung for IDR 30,000 (₹150)",
+    "midRangeMeal": "Seafood Platter at a mid-range restaurant for IDR 150,000 (₹750)",
+    "luxuryMeal": "Fine dining at a resort restaurant for IDR 500,000 (₹2,500)",
+    "localTransportPerDay": "Typical local transport cost is IDR 50,000 (₹250) for a full day.",
+    "budgetHotelPerNight": "IDR 400,000 (₹2,000) for basic accommodation with shared facilities.",
+    "midRangeHotelPerNight": "IDR 1,000,000 (₹5,000) for a comfortable room in a guesthouse.",
+    "luxuryHotelPerNight": "IDR 3,000,000 (₹15,000) for a luxury resort with ocean views."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory beds for IDR 150,000 (₹750)",
+      "food": "Cheap local eateries and street food.",
+      "transport": "Public boats and shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,000",
+      "accommodation": "Guesthouses for IDR 400,000 (₹2,000)",
+      "food": "Local restaurants and occasional splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury here comes with beautiful views and personalized service, but it’s not over-the-top."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting local villages, covering shoulders and knees.",
+    "Always ask permission before taking photographs of local people.",
+    "Respect local customs during religious ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of inflated prices at resorts; always compare with local prices.",
+      "Avoid unlicensed boat operators."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India in Jakarta: +62-21-523-2525"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Piaynemo Viewpoint",
+        "what": "Stunning panoramic views of the islands.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Arrive early to avoid crowds."
+      }
+    ],
+    "goldenHour": "Approximately 6:00 PM, just before sunset.",
+    "tip": "Use a polarizing filter to enhance the colors of the water and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning dive at Cape Kri",
+        "Lunch at a local warung",
+        "Afternoon snorkeling at Blue Magic"
+      ],
+      "emotionalArc": "Starting with an exhilarating dive, followed by local cuisine, and ending with serene snorkeling creates a balanced and fulfilling day.",
+      "bestFor": [
+        "Diving enthusiasts",
+        "Nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Kaimana",
+      "travelTime": "2 hours by boat",
+      "how": "Regular boat services available.",
+      "whyCombine": "For additional diving opportunities and a chance to explore more of West Papua."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited options; many areas are not accessible without assistance.",
+    "majorChallenges": "Uneven terrain and lack of paved roads can pose challenges.",
+    "seniorFriendlyScore": 5,
+    "note": "Travelers with mobility needs should plan ahead and consult with local operators."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "In June 2026, expect mild temperatures around 27°C with occasional rain, making it suitable for diving but prepare for possible cancellations due to weather.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa on Arrival remains applicable; ensure all travel documents are in order."
+  }
+}

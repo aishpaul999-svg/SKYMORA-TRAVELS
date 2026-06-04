@@ -1,0 +1,267 @@
+{
+  "destination": "Reykjavik",
+  "country": "Iceland",
+  "region": "Europe",
+  "aliases": [
+    "Reykjavik",
+    "reykjavik",
+    "iceland"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Nature Enthusiasts",
+      "Adventure Seekers",
+      "Cultural Explorers",
+      "Food Lovers",
+      "Photography Buffs"
+    ],
+    "notFor": [
+      "Budget Travelers",
+      "Party Seekers",
+      "Those Seeking Traditional Indian Cuisine"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h via London/Amsterdam",
+    "flightFromMumbai": "14h 30m via London/Keflavik (British Airways, Icelandair)",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Icelandic Króna (ISK), 1 INR = 2.15 ISK",
+    "timezone": "UTC +0",
+    "language": "Icelandic, English widely spoken",
+    "bestMonthToVisit": "September - ideal for Northern Lights and mild weather.",
+    "avoidMonth": "January - extreme cold and limited daylight.",
+    "tipping": "Tipping is not customary; rounding up the bill is appreciated."
+  },
+  "whyPeopleFallInLove": "Standing under the night sky, feeling the chill as the Northern Lights dance overhead is a moment that captures the soul. The air is crisp, and the colors are alive, making it a memory etched in time.",
+  "honestTruth": "Many travelers underestimate the cold; even in summer, the weather can turn unexpectedly chilly, so always pack layers.",
+  "localTruths": [
+    "Most visitors think Reykjavik is just a party city. Locals think it's a hub for nature and quiet reflection.",
+    "Most visitors flock to the Blue Lagoon. The best version of Reykjavik is found in the geothermal pools scattered around the city.",
+    "Most visitors miss the charm of local bakeries. The real Reykjavik starts at Bakarí Sandholt, where the aroma of fresh bread fills the air."
+  ],
+  "neighborhoodPersonalities": {
+    "Downtown": {
+      "tags": [
+        "art",
+        "food",
+        "nightlife"
+      ],
+      "bestFor": "Exploring local art galleries and cafes.",
+      "avoid": "It can get crowded during weekends, which may not suit those seeking tranquility."
+    },
+    "Vesturbær": {
+      "tags": [
+        "residential",
+        "family-friendly",
+        "local life"
+      ],
+      "bestFor": "Experiencing a more authentic side of Reykjavik.",
+      "avoid": "Limited nightlife options, which may not appeal to party-goers."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h via London/Amsterdam",
+        "airlines": [
+          "British Airways",
+          "Icelandair"
+        ],
+        "priceRange": "₹45,000 - ₹60,000 return",
+        "note": "Book early for better deals, especially during peak seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "14h 30m via London/Keflavik",
+        "airlines": [
+          "British Airways",
+          "Icelandair"
+        ],
+        "priceRange": "₹48,000 - ₹65,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available; bus costs ISK 3,000 (₹1,300) and takes about 45 minutes.",
+      "taxi": "Costs around ISK 20,000 (₹9,300) and takes about 50 minutes.",
+      "recommended": "For first-timers, the Flybus is a convenient option that connects directly to hotels."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in major cities like Delhi and Mumbai.",
+    "processingTime": "Typically 15 days.",
+    "tip": "Apply well in advance; peak season applications can take longer."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Babalu - order the Icelandic pancakes with berries.",
+    "sunset": "Perlan - arrive by 10 PM for views of the sunset over the city.",
+    "meal": "Sjávargrillið - try the lobster soup, a local favorite.",
+    "memory": "Witnessing the Northern Lights while sipping hot cocoa outside a small guesthouse.",
+    "secret": "Locals often prefer the less crowded hot springs at Reykjadalur, just a short drive from the city."
+  },
+  "residentSunday": "A Reykjavik resident spends Sunday hiking up to the Esja Mountain. Afterward, they enjoy a homemade brunch at home, often featuring local ingredients. In the afternoon, they might visit the Harpa Concert Hall for a free public event or enjoy a leisurely stroll along the coastline.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping off the plane and feeling the crisp Icelandic air hit your face, mixed with the smell of the ocean.",
+    "peak": "Experiencing the thrill of seeing the geysers erupt at Geysir, a moment that truly represents Iceland's natural beauty.",
+    "departure": "Leaving with a heart full of memories and a promise to return, feeling the warmth of the locals even as you head back into the cold."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Reykjavik and a day trip to the Golden Circle.",
+      "misses": "The chance to explore the South Coast and the Blue Lagoon."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary including city highlights, the Golden Circle, and a day for the Blue Lagoon.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration including the Snæfellsnes Peninsula and South Coast.",
+      "whoFor": "Nature lovers and adventure seekers."
+    },
+    "recommended": "4 days — it allows for a thorough exploration without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting the Blue Lagoon on the same day as the Golden Circle; it leads to a rushed experience.",
+    "Trying to see the Northern Lights without checking forecasts; it often ends in disappointment.",
+    "Overpacking for the weather; layers are key, and bulky items should be avoided."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not booking a whale watching tour when they had the chance.",
+    "Most visitors regret skipping the local food scene for international cuisine.",
+    "Most visitors regret not allowing enough time for the hot springs experience."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Average temperatures of 10-15°C, with long daylight hours.",
+      "crowds": "Very busy, especially in tourist hotspots.",
+      "verdict": "Ideal for those wanting to experience all outdoor activities."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "Fewer tourists, milder weather, and a good chance to see the Northern Lights."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold with limited daylight; not ideal for everyone.",
+      "hiddenGem": "The chance to see icy landscapes that are less crowded can be appealing."
+    },
+    "bestMonth": "September - the perfect blend of weather and Northern Lights visibility.",
+    "currentSeason": "June 2026 conditions in Reykjavik are mild, with temperatures around 12°C and occasional rain showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local bakery at Bakarí Sandholt on a Saturday morning for freshly baked cinnamon rolls, costing ISK 600 (₹275).",
+      "category": "food"
+    },
+    {
+      "tip": "For the best views of the Northern Lights, drive out of the city to Þingvellir National Park, away from light pollution.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the daily weather forecast on vedur.is for the best days to explore outdoors.",
+      "category": "timing"
+    },
+    {
+      "tip": "Bring a reusable water bottle; Reykjavik's tap water is some of the cleanest in the world.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local tour for the Golden Circle; they often have insider knowledge about less-known sights.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Hot dog from Bæjarins Beztu Pylsur - ISK 500 (₹230)",
+    "midRangeMeal": "Traditional lamb soup at Icelandic Street Food - ISK 2,500 (₹1,150)",
+    "luxuryMeal": "Dinner at Grillmarkaðurinn - ISK 12,000 (₹5,500) for a tasting menu.",
+    "localTransportPerDay": "ISK 1,500 (₹700) for bus travel.",
+    "budgetHotelPerNight": "ISK 12,000 (₹5,500) for a hostel with shared facilities.",
+    "midRangeHotelPerNight": "ISK 24,000 (₹11,000) for a three-star hotel with breakfast.",
+    "luxuryHotelPerNight": "ISK 45,000 (₹20,500) for a five-star hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Hostel dorm beds at ISK 6,000 (₹2,800)",
+      "food": "Cooking in hostels or eating budget meals.",
+      "transport": "Using buses for intercity travel."
+    },
+    "comfortable": {
+      "perDayINR": "₹15,000",
+      "accommodation": "Mid-range hotels at ISK 20,000 (₹9,300)",
+      "food": "Mix of dining out and self-catering."
+    },
+    "luxury": {
+      "perDayINR": "₹50,000+",
+      "note": "Expect high-quality service but be prepared for high prices across the board."
+    }
+  },
+  "culturalRules": [
+    "Dress in layers; the weather changes rapidly and being warm is essential.",
+    "Be respectful of nature; stick to marked paths to protect the delicate ecosystem.",
+    "Avoid discussing politics or personal finance openly; it can be considered impolite."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be wary of unlicensed taxis; always use official taxi stands.",
+      "Watch out for overly aggressive tour operators; always read reviews."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "112",
+      "indianEmbassy": "Indian Embassy in Oslo, Norway - Phone: +47 23 10 90 00"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Hallgrímskirkja",
+        "what": "The iconic church against the skyline.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Get to the top for an aerial view of the city."
+      }
+    ],
+    "goldenHour": "Golden hour is around 11 PM in summer.",
+    "tip": "Always carry an extra battery and memory card; you will find endless photo opportunities."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Hallgrímskirkja",
+        "Explore the Harpa Concert Hall",
+        "Dine at Sægreifinn"
+      ],
+      "emotionalArc": "This sequence allows visitors to appreciate art, architecture, and local cuisine, creating a fulfilling day.",
+      "bestFor": [
+        "Cultural Explorers",
+        "Food Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Golden Circle",
+      "travelTime": "1 hour",
+      "how": "Car or bus",
+      "whyCombine": "To experience geysers, waterfalls, and national parks all in one trip."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public places have ramps; however, older buildings may lack full accessibility.",
+    "majorChallenges": "Public transport may not be fully equipped for wheelchair users.",
+    "seniorFriendlyScore": 8,
+    "note": "Most tourist attractions are accommodating, but advanced planning is recommended."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is mild, with temperatures around 12°C, occasional rain, and outdoor festivals happening.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa regulations remain consistent; ensure all documents are in order before travel."
+  }
+}

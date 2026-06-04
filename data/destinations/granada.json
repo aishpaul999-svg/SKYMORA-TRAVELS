@@ -1,0 +1,267 @@
+{
+  "destination": "Granada",
+  "country": "Spain",
+  "region": "Europe",
+  "aliases": [
+    "Granada",
+    "granada",
+    "spain"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "art aficionados",
+      "architecture buffs",
+      "nature seekers"
+    ],
+    "notFor": [
+      "party-goers",
+      "beach lovers",
+      "large group travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Madrid + 4h bus",
+    "flightFromMumbai": "12h to Madrid + 4h bus (Iberia, Air India)",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Spanish",
+    "bestMonthToVisit": "April (pleasant weather for exploring outdoor sites)",
+    "avoidMonth": "August (extreme heat makes walking uncomfortable)",
+    "tipping": "5-10% in restaurants; rounding up in cafes is common"
+  },
+  "whyPeopleFallInLove": "As you stand on the Mirador de San Nicolás, the golden glow of the Alhambra at sunset bathes the whitewashed buildings of the Albaicín in a warm hue, creating a moment that feels like stepping into a painting. The scent of blooming jasmine wafts through the cool evening air, wrapping you in the essence of Granada.",
+  "honestTruth": "Despite its popularity, many visitors overlook the authentic local experiences in favor of the more touristic attractions, often missing out on the true essence of daily life in Granada.",
+  "localTruths": [
+    "Most visitors think they should spend all their time at the Alhambra. Locals think exploring the lesser-known streets of the Albaicín reveals the soul of the city.",
+    "Most visitors rush through tapas bars for the free food. The best version of Granada is to sit and savor each dish, engaging with the locals and their stories.",
+    "Most visitors miss the traditional flamenco performances in Sacromonte. The real Granada starts at sunset when the sounds of guitar and clapping fill the caves."
+  ],
+  "neighborhoodPersonalities": {
+    "Albaicín": {
+      "tags": [
+        "historic",
+        "bohemian",
+        "cultural"
+      ],
+      "bestFor": "discovering narrow winding streets and Moorish architecture",
+      "avoid": "walking alone at night due to uneven paths"
+    },
+    "Sacromonte": {
+      "tags": [
+        "flamenco",
+        "local",
+        "caves"
+      ],
+      "bestFor": "experiencing authentic flamenco in unique cave venues",
+      "avoid": "visiting during non-performance days"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Madrid + 4h bus",
+        "airlines": [
+          "Iberia",
+          "Air India"
+        ],
+        "priceRange": "₹50,000 - ₹70,000 return",
+        "note": "Book 2-3 months in advance for the best deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "12h to Madrid + 4h bus",
+        "airlines": [
+          "Vistara",
+          "Iberia"
+        ],
+        "priceRange": "₹55,000 - ₹75,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; bus from Madrid Airport to Estación de Autobuses costs about €5 and takes 40 minutes.",
+      "taxi": "Taxi from Madrid Airport to the bus station costs around €30 and takes about 30 minutes.",
+      "recommended": "SKYmora recommends taking the bus directly from Madrid to Granada for a seamless transition."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in major cities for processing.",
+    "processingTime": "15 days, but apply at least a month in advance.",
+    "tip": "Ensure all documentation is complete to avoid delays; a detailed itinerary helps."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café 4 Gatos in Albaicín; order the tostada con tomate and a café con leche.",
+    "sunset": "Mirador de San Nicolás, arrive by 8:00 PM for the best views.",
+    "meal": "Bodegas Castañeda, try the jamón ibérico and local wine.",
+    "memory": "Hearing the passionate strumming of a flamenco guitar echoing through the caves as the sun sets.",
+    "secret": "Locals often gather at the Plaza de la Trinidad for impromptu music sessions after dinner."
+  },
+  "residentSunday": "A Granada resident spends Sunday exploring the Sacromonte caves, enjoying a leisurely lunch at Restaurante Jardines de Zoraya, followed by a flamenco show in the evening. They often picnic in the Generalife gardens, surrounded by locals.",
+  "dayMemoryTargets": {
+    "arrival": "Walking through the narrow streets of Albaicín, the sun setting over the Alhambra as you catch your first sight of it.",
+    "peak": "Experiencing a live flamenco performance in a cave, feeling the passion and energy of the dancers.",
+    "departure": "Feeling a sense of nostalgia while sipping coffee at a café, knowing that you've experienced the city's heart."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions including the Alhambra and Albaicín, but misses the local experiences in-depth.",
+      "misses": "The diverse neighborhoods and hidden gems of local culture."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced exploration of major sites and some local favorites.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration into local neighborhoods, history, and food culture.",
+      "whoFor": "Travelers who appreciate slow travel and cultural immersion."
+    },
+    "recommended": "4 days — it allows time to appreciate both the iconic and local aspects."
+  },
+  "antiPatterns": [
+    "Rushing through the Alhambra without pre-booking a timed entry, which leads to long wait times.",
+    "Trying to experience too many tapas bars in one night, leading to a frantic and unenjoyable pace.",
+    "Visiting the Alhambra in the middle of the day during peak summer, which can be unbearable due to heat."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time at the Alhambra gardens.",
+    "Most visitors regret not engaging with local guides for deeper insights.",
+    "Most visitors regret skipping the lesser-known tapas bars in favor of more commercial spots."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "30-40°C, very hot",
+      "crowds": "extremely crowded",
+      "verdict": "Not ideal for comfort during exploration."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Milder weather and fewer tourists create a more enjoyable atmosphere."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cool and sometimes rainy; fewer crowds but some attractions may have reduced hours.",
+      "reason": "Lower prices and a more relaxed experience."
+    },
+    "bestMonth": "April — ideal weather and fewer crowds.",
+    "currentSeason": "June 2026 is hot, temperatures reaching 35°C with many tourists."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Alhambra early in the morning when it opens for fewer crowds; breakfast at the café inside is worth it.",
+      "category": "timing"
+    },
+    {
+      "tip": "Take a guided walking tour of the Albaicín to learn about its Moorish history — many locals offer these.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local specialty, piononos, at Casa de los Piononos in Santa Fe — a small pastry worth the trip.",
+      "category": "food"
+    },
+    {
+      "tip": "For a panoramic view away from the crowds, hike up to the Cerro de la Sabika in the morning.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out local festivals like La Feria del Corpus Christi for an authentic cultural experience.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Tortilla Española at a local bar for around €5 (₹450)",
+    "midRangeMeal": "Paella at Restaurante Ruta del Azafrán for about €20 (₹1,800)",
+    "luxuryMeal": "Dinner at Restaurante El Claustro, around €50 (₹4,500)",
+    "localTransportPerDay": "About €5 (₹450) for bus fares.",
+    "budgetHotelPerNight": "Hostel dorm bed for €15 (₹1,350) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotel at €70 (₹6,300) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotel like Hotel Alhambra Palace at €200 (₹18,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm bed for €15",
+      "food": "Street food and budget tapas bars",
+      "transport": "Walking and occasional buses"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotel for €70",
+      "food": "Mix of local restaurants and casual dining"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Granada offers luxury at a fraction of the cost compared to major cities like Madrid."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and religious sites.",
+    "Always greet locals with a friendly 'Hola' and a smile.",
+    "Avoid loud conversations in quiet spaces, especially in cafes and museums."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas; keep valuables close.",
+      "Street performers may ask for money after performances."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "061",
+      "indianEmbassy": "Embassy of India, Madrid - +34 91 516 90 40"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Mirador de San Nicolás",
+        "what": "The Alhambra against the Sierra Nevada mountains.",
+        "bestTime": "Sunset",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Around 8 PM during summer months.",
+    "tip": "Always carry a zoom lens; you’ll want to capture the intricate details of the Alhambra."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Alhambra in the morning",
+        "Lunch at a local tapas bar",
+        "Explore Albaicín in the afternoon"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate the grandeur of the Alhambra, enjoy the local flavors, and wind down in the atmospheric streets of Albaicín.",
+      "bestFor": [
+        "history enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Sierra Nevada",
+      "travelTime": "1h",
+      "how": "Bus or car",
+      "whyCombine": "Perfect for a day of hiking or skiing in winter."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many historic areas have cobblestone streets which can be challenging.",
+    "majorChallenges": "Narrow and steep paths in Albaicín and Sacromonte.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using a mobility scooter for easier navigation."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot with temperatures around 35°C and an influx of tourists for summer activities.",
+    "currentAlerts": [],
+    "entryRequirements": "Standard Schengen visa requirements apply for Indian travelers."
+  }
+}

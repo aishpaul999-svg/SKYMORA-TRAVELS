@@ -1,0 +1,267 @@
+{
+  "destination": "Everest Base Camp",
+  "country": "Nepal",
+  "region": "South Asia",
+  "aliases": [
+    "Everest Base Camp",
+    "everest base camp",
+    "nepal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "adventure seekers",
+      "trekking enthusiasts",
+      "nature lovers",
+      "photographers",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "luxury travelers",
+      "those seeking urban nightlife",
+      "individuals with mobility issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "1h 30min to KTM + Lukla flight",
+    "flightFromMumbai": "2h 30min to KTM + Lukla flight",
+    "visaForIndians": "No visa + trekking permits",
+    "currency": "Nepalese Rupee (NPR), 1 INR = 1.60 NPR",
+    "timezone": "UTC +5:45",
+    "language": "Nepali and English",
+    "bestMonthToVisit": "October, due to clear skies and stable weather conditions.",
+    "avoidMonth": "July, as heavy monsoon rains can disrupt trekking plans.",
+    "tipping": "Tipping is appreciated; around 10% at restaurants and small amounts for guides and porters."
+  },
+  "whyPeopleFallInLove": "The moment you step onto the trail from Lukla, you can smell the pine trees mingling with the scent of yak dung, a true essence of the Himalayas. As you trek, the sound of rushing rivers and distant waterfalls fills the air, creating an immersive experience that draws you deeper into this majestic landscape.",
+  "honestTruth": "Many underestimate the physical and mental challenges of the trek to Everest Base Camp; it's not just the altitude, but the relentless nature of the terrain that tests your limits.",
+  "localTruths": [
+    "Most visitors think they will see Everest immediately from base camp. Locals think it’s the journey and the surrounding peaks that tell the true story of this area.",
+    "Most visitors rush through the trek. The best version of Everest Base Camp is when you take time to acclimatize and enjoy the local culture along the way.",
+    "Most visitors miss the authentic local experiences in Namche Bazaar. The real Everest Base Camp starts at the tea houses where the locals share their stories."
+  ],
+  "neighborhoodPersonalities": {
+    "Namche Bazaar": {
+      "tags": [
+        "market",
+        "cultural hub",
+        "acclimatization point"
+      ],
+      "bestFor": "Acclimatization and shopping for trekking gear.",
+      "avoid": "Avoid peak hours if you want to enjoy a quieter experience."
+    },
+    "Lukla": {
+      "tags": [
+        "airport town",
+        "starting point",
+        "small village"
+      ],
+      "bestFor": "Gearing up for the trek with last-minute supplies.",
+      "avoid": "Avoid staying too long; it’s primarily a transit hub."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "1h 30min to KTM + Lukla flight",
+        "airlines": [
+          "IndiGo",
+          "Air India"
+        ],
+        "priceRange": "₹15,000 - ₹25,000 return",
+        "note": "Book flights to Lukla in advance, as they fill up quickly during peak trekking seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "2h 30min to KTM + Lukla flight",
+        "airlines": [
+          "IndiGo",
+          "Air India"
+        ],
+        "priceRange": "₹20,000 - ₹30,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Taxis are available from KTM airport to the city center for around NPR 800 (INR 500) and take about 20-30 minutes.",
+      "recommended": "SKYmora recommends hiring a local guide for your trek to gain insights into the culture and terrain."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "No visa + trekking permits",
+    "applyAt": "Trekking permits can be obtained at the Nepal Tourism Board office or through local trekking agencies.",
+    "processingTime": "Instant at the office; plan for a few hours if busy.",
+    "tip": "Always carry extra passport-sized photos for permits; they can be required unexpectedly."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "At Namche Bazaar, visit the Everest Bakery Cafe and order their famous apple pie with a hot cup of Nepali tea.",
+    "sunset": "At Kala Patthar, arrive an hour before sunset to capture the golden hues lighting up Everest’s peak.",
+    "meal": "In Dingboche, try the local dal bhat at the Himalayan Lodge for an authentic taste of the region.",
+    "memory": "The moment you first glimpse Everest looming above you, with a backdrop of azure skies, is etched in your memory forever.",
+    "secret": "Only locals know the best times to view the sunrise from the ridge above Tengboche Monastery, which offers a peaceful and less crowded experience."
+  },
+  "residentSunday": "An Everest Base Camp resident spends Sunday hiking up to Tengboche Monastery for morning prayers, followed by a leisurely lunch at a local eatery. In the afternoon, they might visit local friends for tea and share stories of past expeditions while enjoying homemade yak cheese.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the dramatic mountain ranges as your plane descends into Lukla is a moment you will remember for years.",
+    "peak": "The peak day memory target is reaching Everest Base Camp and standing in awe at the foot of the world’s highest peak.",
+    "departure": "Departure should feel like a bittersweet farewell, with new friends made and memories of a lifetime created."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "This covers the flight to Lukla and a brief trek to Phakding.",
+      "misses": "You miss the real experience of the higher altitudes and iconic views."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage includes Namche Bazaar and acclimatization.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of the trail up to Everest Base Camp.",
+      "whoFor": "Adventure seekers wanting to push their limits."
+    },
+    "recommended": "10-12 days is ideal to acclimatize properly and enjoy the trek."
+  },
+  "antiPatterns": [
+    "Starting the trek without proper acclimatization leads to altitude sickness and regrets.",
+    "Carrying too much gear can slow you down and detract from the experience.",
+    "Attempting to rush through the trek to reach base camp quickly misses the beauty and culture along the way."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time acclimatizing in Namche Bazaar.",
+    "Most visitors regret underestimating the physical demands of the trek.",
+    "Most visitors regret not hiring a local guide for cultural insights."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to May, October to November",
+      "weather": "Temperatures range from -5°C to 15°C during the day.",
+      "crowds": "Expect moderate to high crowds, especially in October.",
+      "verdict": "These months offer the best weather for trekking."
+    },
+    "shoulderSeason": {
+      "months": "February, September",
+      "why": "Less crowded and more affordable, with decent weather."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Heavy monsoon rains make trekking difficult and dangerous.",
+      "hiddenGem": "Some prefer this time for solitude and lush greenery."
+    },
+    "bestMonth": "October, as the weather is stable and the views are clear.",
+    "currentSeason": "June 2026 is characterized by occasional rain, making the trails slippery but also bringing lush landscapes."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the bakery in Namche Bazaar early in the morning for freshly baked goods, around NPR 200 (INR 125).",
+      "category": "food"
+    },
+    {
+      "tip": "Bring your own water purification tablets to save costs on buying bottled water.",
+      "category": "experience"
+    },
+    {
+      "tip": "Start your trek early in the morning to enjoy tranquil trails before the crowds.",
+      "category": "timing"
+    },
+    {
+      "tip": "Always have a backup headlamp; power outages can be common in remote areas.",
+      "category": "experience"
+    },
+    {
+      "tip": "Familiarize yourself with local customs to enhance interactions with the Sherpa people.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Dal bhat at a local teahouse for NPR 500 (INR 312)",
+    "midRangeMeal": "Pasta with local vegetables at a mid-range lodge for NPR 1,200 (INR 750)",
+    "luxuryMeal": "Dinner at the Everest View Hotel for NPR 5,000 (INR 3,125)",
+    "localTransportPerDay": "Trekking costs can range from NPR 2,000 (INR 1,250) including meals and lodging.",
+    "budgetHotelPerNight": "Teahouses range from NPR 1,000 (INR 625) for basic accommodation with shared bathrooms.",
+    "midRangeHotelPerNight": "Mid-range lodges at NPR 3,000 (INR 1,875) with private bathrooms.",
+    "luxuryHotelPerNight": "Luxury lodges like the Everest View Hotel start at NPR 15,000 (INR 9,375)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Basic teahouses for ₹625",
+      "food": "Dal bhat and local snacks.",
+      "transport": "Trekking on foot."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range lodges for ₹1,875",
+      "food": "Variety of meals including western options."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury accommodations are limited and may require advance booking."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting local villages and monasteries.",
+    "Always ask before taking photos of locals or their property.",
+    "Respect local customs, especially during religious ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be wary of unlicensed trekking guides; always opt for reputable agencies.",
+      "Some shops inflate prices for tourists; compare prices before buying."
+    ],
+    "emergencyContacts": {
+      "police": "100",
+      "ambulance": "102",
+      "indianEmbassy": "Nepal Embassy in Kathmandu, Phone: +977-1-442-9900"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Gorak Shep",
+        "what": "The view of Everest at sunrise",
+        "bestTime": "Early morning",
+        "tip": "Use a wide-angle lens for panoramic shots."
+      }
+    ],
+    "goldenHour": "Sunrise and sunset provide the best lighting for landscape photography.",
+    "tip": "Keep your camera ready at all times; the Himalayas are unpredictable, and the light can change quickly."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Trek from Lukla to Phakding",
+        "Acclimatize in Namche Bazaar",
+        "Reach Everest Base Camp"
+      ],
+      "emotionalArc": "This sequence builds anticipation, culminating in standing at the foot of Everest, surrounded by towering peaks.",
+      "bestFor": [
+        "adventure seekers",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Gokyo Lake",
+      "travelTime": "2 days trek",
+      "how": "Trekking",
+      "whyCombine": "For stunning views and less crowded trails."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Not wheelchair-friendly due to rugged terrain and high altitude.",
+    "majorChallenges": "Steep trails and high altitude can pose challenges for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Consult with a doctor before attempting high-altitude treks; fitness level is crucial."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is experiencing moderate rainfall and cooler temperatures, making trails slippery but lush.",
+    "currentAlerts": [],
+    "entryRequirements": "No visa required for Indian passport holders; trekking permits are mandatory."
+  }
+}

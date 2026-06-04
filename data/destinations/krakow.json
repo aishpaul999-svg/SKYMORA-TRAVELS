@@ -1,0 +1,277 @@
+{
+  "destination": "Krakow",
+  "country": "Poland",
+  "region": "Europe",
+  "aliases": [
+    "Krakow",
+    "krakow",
+    "poland"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "cultural explorers",
+      "students",
+      "art aficionados"
+    ],
+    "notFor": [
+      "party-goers",
+      "short-stay travelers",
+      "beach lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "10h (Air India, LOT Polish Airlines, Turkish Airlines, approx. INR 35,000-50,000 return)",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Polish Zloty (PLN); 1 INR = 0.055 PLN",
+    "timezone": "UTC+1",
+    "language": "Polish, English widely spoken in tourist areas",
+    "bestMonthToVisit": "May, due to mild weather and fewer tourists compared to summer months.",
+    "avoidMonth": "January, as temperatures can drop significantly, often below -5°C.",
+    "tipping": "10-15% is customary in restaurants, round up taxi fares if possible."
+  },
+  "whyPeopleFallInLove": "As you walk through the Kazimierz district, the aroma of freshly baked bagels wafts through the air, mingling with the sound of traditional klezmer music from a nearby café, pulling you into a moment where history and flavor collide.",
+  "honestTruth": "Many tourists only scratch the surface of Krakow’s history, missing the deeper stories behind the buildings and streets, which often reveal the city's layered past more profoundly than any guidebook can convey.",
+  "localTruths": [
+    "Most visitors think Krakow is just about the Old Town. Locals think the real magic lies in the stories of the Jewish Quarter.",
+    "Most visitors rush through Auschwitz in a day. The best version of Krakow is to take time to reflect and absorb its significance, often best done by staying overnight in Oswiecim.",
+    "Most visitors miss the local vodka bars hidden in side streets. The real Krakow starts at these intimate spots where you can taste varieties not found in touristy places."
+  ],
+  "neighborhoodPersonalities": {
+    "Kazimierz": {
+      "tags": [
+        "Jewish history",
+        "art",
+        "food"
+      ],
+      "bestFor": "Exploring Jewish heritage and unique cafes.",
+      "avoid": "Evenings can get crowded, especially on weekends."
+    },
+    "Old Town": {
+      "tags": [
+        "historical",
+        "tourist hub",
+        "nightlife"
+      ],
+      "bestFor": "Admiring medieval architecture and enjoying nightlife.",
+      "avoid": "Overly touristy; prices can be inflated."
+    },
+    "Podgórze": {
+      "tags": [
+        "local life",
+        "art",
+        "parks"
+      ],
+      "bestFor": "Experiencing local life away from the crowds.",
+      "avoid": "Limited options for dining late at night."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "LOT Polish Airlines"
+        ],
+        "priceRange": "INR 35,000-50,000 return",
+        "note": "Book 2-3 months in advance for the best deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air India",
+          "LOT Polish Airlines",
+          "Turkish Airlines"
+        ],
+        "priceRange": "INR 35,000-50,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; bus services are available (approx. 30 PLN, 30 minutes).",
+      "taxi": "Around 100 PLN, 25-30 minutes depending on the traffic.",
+      "recommended": "For first-timers, using Uber or a local taxi service is preferable for ease and convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in Delhi or Mumbai.",
+    "processingTime": "Typically 15 days; apply at least a month in advance.",
+    "tip": "Include detailed travel itineraries and proof of accommodation to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Café Camelot' and order their famous scrambled eggs with herbs and a fresh pastry.",
+    "sunset": "Head to the Vistula Boulevards near Wawel Castle at around 8:30 PM for a picturesque view.",
+    "meal": "Dine at 'Pod Aniołami' and try their traditional Polish dumplings (pierogi).",
+    "memory": "The moment you stand in silence at Auschwitz, feeling the weight of history around you, is profoundly impactful.",
+    "secret": "Locals often enjoy their vodka in small, unmarked bars rather than the mainstream establishments."
+  },
+  "residentSunday": "A Krakow resident might start their Sunday with brunch at 'Alchemia', followed by a leisurely stroll through the Planty Park. They would then visit the local artisan market at Plac Nowy to pick up fresh produce and handmade goods before winding down over coffee at 'Bunkier Sztuki' gallery café, enjoying the fusion of art and relaxation.",
+  "dayMemoryTargets": {
+    "arrival": "Your first sight of the Wawel Castle illuminated at night, setting the tone for your journey.",
+    "peak": "The moment you start tasting the homemade vodka varieties in Kazimierz, connecting with locals and their stories.",
+    "departure": "Leaving with a heavy heart, yet enriched with stories and experiences that will linger long after."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring the highlights of the Old Town and a day trip to Auschwitz.",
+      "misses": "The depth of local neighborhoods and the full experience of Kazimierz."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary covering the Old Town, Kazimierz, and a day trip to the salt mines or Auschwitz.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of surrounding areas like Zakopane and immersing in local culture.",
+      "whoFor": "Cultural enthusiasts and history buffs."
+    },
+    "recommended": "Four days provide a satisfying blend of history, culture, and relaxation."
+  },
+  "antiPatterns": [
+    "Rushing through Auschwitz in a single day can lead to emotional detachment from the experience.",
+    "Staying only in the Old Town limits your understanding of Krakow's diverse neighborhoods.",
+    "Visiting during peak tourist season without reservations often results in missed opportunities at popular restaurants and sites."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a guided tour of Auschwitz for a deeper understanding.",
+    "Most visitors regret skipping the local food scene in Kazimierz for generic tourist food.",
+    "Most visitors regret not spending enough time in the lesser-known neighborhoods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Warm, averaging 20-30°C, with occasional rain.",
+      "crowds": "Very crowded; long lines at major attractions.",
+      "verdict": "Best for those who thrive in lively atmospheres but expect high prices."
+    },
+    "shoulderSeason": {
+      "months": "April to May and September to October",
+      "why": "Mild weather and fewer tourists make for a more enjoyable experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold, often below freezing; some attractions may close.",
+      "hiddenGem": "Fewer crowds allow for more intimate experiences with local life."
+    },
+    "bestMonth": "May, as the weather is pleasant and the city is less crowded compared to summer.",
+    "currentSeason": "June 2026 is warm, with temperatures around 25°C, and the city is buzzing with summer festivals."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Wódka Cafe Bar' for a tasting of different Polish vodkas, starting at around 10 PLN per shot.",
+      "category": "food"
+    },
+    {
+      "tip": "Take an early morning walk around the Old Town to experience it before the crowds arrive; around 7 AM is perfect.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check out 'Muzeum Inżynierii Miejskiej' for a fascinating look at Krakow's engineering history, usually less crowded.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local food tour to discover traditional dishes that are often overlooked, starting from around 200 PLN.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the 'Nowa Huta' district for a glimpse into communist architecture and local life; take tram 21.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Zapiekanka (Polish baguette sandwich) at 'Plac Nowy' for 15 PLN (approx. INR 275).",
+    "midRangeMeal": "Traditional Polish dinner at 'Kogel Mogel' for around 70 PLN (approx. INR 1,250).",
+    "luxuryMeal": "Fine dining at 'Pod Aniołami' with a full-course meal for around 250 PLN (approx. INR 4,500).",
+    "localTransportPerDay": "Around 15 PLN for unlimited tram and bus rides (approx. INR 275).",
+    "budgetHotelPerNight": "Hostel dorm bed for about 50 PLN (approx. INR 900), including basic amenities.",
+    "midRangeHotelPerNight": "A double room at a 3-star hotel for about 250 PLN (approx. INR 4,500), including breakfast.",
+    "luxuryHotelPerNight": "5-star hotel accommodation for around 800 PLN (approx. INR 14,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500-2,000",
+      "accommodation": "Hostel dorm bed for 50 PLN (approx. ₹900)",
+      "food": "Street food and budget cafes.",
+      "transport": "Public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500-5,000",
+      "accommodation": "Mid-range hotel for 250 PLN (approx. ₹4,500)",
+      "food": "Mix of local restaurants and some fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹12,000+",
+      "note": "Luxury options are available, but they can be quite expensive compared to local standards."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches, especially Wawel Cathedral.",
+    "Be respectful when discussing the Holocaust and related sites.",
+    "Try to learn a few basic Polish phrases, which locals appreciate."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overcharging at tourist-trap restaurants; check prices before ordering.",
+      "Some taxi drivers may not use meters; always confirm a fare before starting."
+    ],
+    "emergencyContacts": {
+      "police": "997",
+      "ambulance": "999",
+      "indianEmbassy": "Embassy of India in Poland, Warsaw - +48 22 621 57 26"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Wawel Castle",
+        "what": "The castle's facade and the view of the Vistula River.",
+        "bestTime": "Sunrise for soft lighting.",
+        "tip": "Use a wide-angle lens to capture the entire structure."
+      }
+    ],
+    "goldenHour": "Approximately 8:30 PM during summer months.",
+    "tip": "Use the early morning light for street photography in Kazimierz for authentic moments."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Auschwitz early in the morning",
+        "Enjoy lunch at a local café",
+        "Explore Kazimierz in the afternoon"
+      ],
+      "emotionalArc": "This sequence allows for reflection on history, followed by nourishment and cultural exploration.",
+      "bestFor": [
+        "history enthusiasts",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Zakopane",
+      "travelTime": "2h",
+      "how": "Bus or train",
+      "whyCombine": "For breathtaking mountain scenery and hiking opportunities."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas in Krakow are accessible, but some historical sites may have limitations.",
+    "majorChallenges": "Cobblestone streets can be difficult to navigate for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Many places have ramps, but planning ahead for specific sites is recommended."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with average temperatures of about 25°C, ideal for outdoor activities and festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, Schengen visa is required for Indian travelers."
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "destination": "Mykonos",
+  "country": "Greece",
+  "region": "Europe",
+  "aliases": [
+    "Mykonos",
+    "mykonos",
+    "greece"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "party enthusiasts",
+      "LGBTQ+ travelers",
+      "beach lovers",
+      "foodies",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "budget backpackers",
+      "families with young children",
+      "travelers seeking solitude"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Athens + 45min",
+    "flightFromMumbai": "11h to Athens + 45min, airlines: Aegean Airlines, Emirates",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+2",
+    "language": "Greek, English widely spoken",
+    "bestMonthToVisit": "September - pleasant weather and fewer crowds",
+    "avoidMonth": "August - peak tourist season with excessive crowds",
+    "tipping": "10% in restaurants, rounding up taxi fares is common"
+  },
+  "whyPeopleFallInLove": "The moment the sun sets over the iconic windmills, painting the sky in hues of orange and pink, while the sea breeze carries the scent of grilled octopus from nearby tavernas, you realize this is where summer truly lives.",
+  "honestTruth": "Many visitors underestimate the nightlife; while it’s famous, what they don’t see is how locals gather at their favorite hidden bars for a more authentic experience away from the touristy clubs.",
+  "localTruths": [
+    "Most visitors think Mykonos is just about partying. Locals think it’s more about the beautiful sunrises and local traditions that are often overlooked.",
+    "Most visitors flock to the beaches during the day. The best version of Mykonos is experiencing the quiet charm of the town in the early morning.",
+    "Most visitors miss the local markets. The real Mykonos starts at the Delos flea market where authentic Greek crafts and foods are sold."
+  ],
+  "neighborhoodPersonalities": {
+    "Mykonos Town": {
+      "tags": [
+        "historic",
+        "lively",
+        "shopping"
+      ],
+      "bestFor": "exploring local shops and enjoying nightlife",
+      "avoid": "the crowds during high season can be overwhelming"
+    },
+    "Psarou Beach": {
+      "tags": [
+        "luxurious",
+        "popular",
+        "beach clubs"
+      ],
+      "bestFor": "luxury beach experience",
+      "avoid": "the inflated prices for food and sunbeds"
+    },
+    "Super Paradise Beach": {
+      "tags": [
+        "gay-friendly",
+        "party",
+        "social"
+      ],
+      "bestFor": "party scene and socializing",
+      "avoid": "visiting too early in the day when the vibe is low"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Athens + 45min",
+        "airlines": [
+          "Aegean Airlines",
+          "Emirates"
+        ],
+        "priceRange": "₹40,000 - ₹70,000 (economy return)",
+        "note": "Booking in advance can secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "11h to Athens + 45min",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹45,000 - ₹75,000 (economy return)"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; airport transfer by bus costs approximately €5 and takes about 15 minutes.",
+      "taxi": "Taxi fare to Mykonos Town is around €15 and takes about 10-15 minutes.",
+      "recommended": "For first-timers, taking a taxi is more convenient and quicker."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in New Delhi or the official Greek consulate website",
+    "processingTime": "10-15 days",
+    "tip": "Apply well in advance, especially during peak travel seasons to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at 'Brew Bar' and order the Greek yogurt with honey and nuts.",
+    "sunset": "Watch the sunset from the 'Little Venice' area at exactly 8:10 PM for a magical view.",
+    "meal": "Dine at 'Kastro's' and try the seafood pasta, a local favorite.",
+    "memory": "The moment you find yourself dancing with locals at a traditional taverna, surrounded by laughter and joy.",
+    "secret": "Only locals know to visit the 'Agrari Beach' for a quieter beach experience with great food shacks nearby."
+  },
+  "residentSunday": "A typical Sunday for a Mykonos resident includes a morning stroll at the Old Port, brunch at 'M-eating' around 11 AM, followed by a relaxing afternoon at 'Agios Sostis Beach' and ending with dinner at 'Kikis Tavern' around sunset.",
+  "dayMemoryTargets": {
+    "arrival": "The first moment you step off the ferry and smell the salty sea air mixed with grilled souvlaki from nearby stalls.",
+    "peak": "The peak day memory target is dancing under the stars at Cavo Paradiso, where the energy is electric.",
+    "departure": "Leaving with a heart full of memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "basic exploration of Mykonos Town and a beach visit",
+      "misses": "the deeper cultural experiences and local dining spots"
+    },
+    "three_to_four_days": {
+      "focus": "a balanced mix of beaches, nightlife, and culture",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration including day trips to Delos",
+      "whoFor": "culture enthusiasts and social butterflies"
+    },
+    "recommended": "Four days is ideal for a well-rounded experience of Mykonos."
+  },
+  "antiPatterns": [
+    "Trying to cover both Delos and a party in one day fails due to exhaustion and missing the essence of both.",
+    "Staying only in the party areas without exploring Mykonos Town can lead to a shallow experience of the island.",
+    "Visiting beaches only during peak hours means missing the serene moments of sunrise or sunset."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not visiting Delos, the archaeological site that adds depth to their experience.",
+    "Most visitors regret overspending on clubs and missing out on local tavernas serving authentic cuisine.",
+    "Most visitors regret not renting a scooter to explore the island's hidden beaches."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Hot (30-35°C), dry",
+      "crowds": "Heavy crowds everywhere",
+      "verdict": "Expect long waits for dining and activities."
+    },
+    "shoulderSeason": {
+      "months": "May, June, September",
+      "why": "Fewer crowds and pleasant weather offer a better experience."
+    },
+    "offSeason": {
+      "months": "October to April",
+      "reality": "Weather can be unpredictable; many businesses close down.",
+      "hiddenGem": "The tranquility and chance to connect with locals is appealing."
+    },
+    "bestMonth": "September - ideal for pleasant weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm, with daytime temperatures around 28°C, and lively nightlife starting to pick up."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'JackieO' Beach Club on a Wednesday for their famous drag shows - vibrant and fun, entry is around €20.",
+      "category": "experience"
+    },
+    {
+      "tip": "Renting a scooter instead of a car is easier for navigating the narrow streets and costs about €15 per day.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try the local 'Louza' at 'Fokos Taverna' - a smoked pork delicacy that’s not widely known outside.",
+      "category": "food"
+    },
+    {
+      "tip": "Go to 'Scorpios' for sunset and stay for the after-party; it’s where locals and tourists mingle.",
+      "category": "experience"
+    },
+    {
+      "tip": "Get a local SIM card upon arrival for better connectivity; they are available at the airport for about €20.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Souvlaki from a local street vendor for €3 (₹273)",
+    "midRangeMeal": "Seafood pasta at Kastro for €15 (₹1,365)",
+    "luxuryMeal": "Dinner at Nobu Mykonos for €100 (₹9,100)",
+    "localTransportPerDay": "Bus tickets around €5 (₹455) for unlimited travel.",
+    "budgetHotelPerNight": "Hostel accommodation for €30 (₹2,730) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotel at €80 (₹7,280) with breakfast included.",
+    "luxuryHotelPerNight": "5-star hotels range from €300 (₹27,300) upwards."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dorms for around €30 (₹2,730)",
+      "food": "Eating street food and local bakeries",
+      "transport": "Using public buses and walking"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "3-star hotels at €80 (₹7,280)",
+      "food": "Dining at mid-range tavernas"
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury in Mykonos means indulging in high-end dining and private beach clubs."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; swimsuits are not acceptable.",
+    "Always greet shopkeepers with a friendly 'Kalimera' (Good Morning).",
+    "Tipping is appreciated but not obligatory; round up your bill or add 10%."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial taxi services; always use licensed taxis or rideshare apps.",
+      "Some vendors may overcharge tourists; always confirm prices before purchasing."
+    ],
+    "emergencyContacts": {
+      "police": "100",
+      "ambulance": "166",
+      "indianEmbassy": "New Delhi, 1-2, Chandragupta Marg, Chanakyapuri, New Delhi, 110021"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Little Venice",
+        "what": "Capturing the colorful houses against the sunset",
+        "bestTime": "8:10 PM",
+        "tip": "Arrive early to secure a good spot."
+      },
+      {
+        "name": "Windmills of Mykonos",
+        "what": "Iconic windmills with the sea in the background",
+        "bestTime": "Before noon for soft lighting",
+        "tip": "Use a wide-angle lens for best results."
+      }
+    ],
+    "goldenHour": "Around 8 PM during summer months.",
+    "tip": "Bring a polarizing filter to reduce glare from the sea when shooting at the beaches."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Delos",
+        "Lunch at a seaside taverna",
+        "Relax at Agios Sostis Beach"
+      ],
+      "emotionalArc": "This sequence offers a blend of culture, culinary delight, and relaxation, creating a fulfilling day.",
+      "bestFor": [
+        "history buffs",
+        "food lovers",
+        "relaxation seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Delos",
+      "travelTime": "30 minutes",
+      "how": "Ferry",
+      "whyCombine": "For a dose of ancient Greek history just a short ride away."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many beaches are not easily accessible; however, some restaurants and shops in Mykonos Town are.",
+    "majorChallenges": "Limited public transport options for those with mobility issues, and cobblestone streets can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan carefully and consider accommodations that are specifically designed for accessibility."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 28°C, moderate crowds, and local festivals starting to pick up.",
+    "currentAlerts": [],
+    "entryRequirements": "Standard Schengen visa requirements apply, check for any recent updates due to travel regulations."
+  }
+}

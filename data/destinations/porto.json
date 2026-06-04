@@ -1,0 +1,276 @@
+{
+  "destination": "Porto",
+  "country": "Portugal",
+  "region": "Europe",
+  "aliases": [
+    "Porto",
+    "porto",
+    "portugal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Wine Enthusiasts",
+      "Cultural Explorers",
+      "Food Lovers",
+      "History Buffs",
+      "Architecture Aficionados"
+    ],
+    "notFor": [
+      "Beach Seekers",
+      "Nightlife Fanatics",
+      "Budget Backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "11h",
+    "flightFromMumbai": "11h 30m with airlines like Qatar Airways and Air France",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+0",
+    "language": "Portuguese (English is widely spoken in tourist areas)",
+    "bestMonthToVisit": "September, when the weather is still warm and the grape harvest season offers wine festivals.",
+    "avoidMonth": "January, as it can be quite rainy and cold, impacting outdoor exploration.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving 5-10% is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine standing on the Dom Luís I Bridge at sunset, watching the golden light reflect off the Douro River while sipping a glass of port wine. The air is filled with the scent of grilled sardines wafting from nearby restaurants, making it a sensory experience that pulls you into the essence of Porto.",
+  "honestTruth": "Many travel guides overlook the fact that Porto can feel quite deserted in the winter months, which might be a letdown for those expecting a lively atmosphere year-round.",
+  "localTruths": [
+    "Most visitors think Porto is only about wine. Locals think it's equally about the food scene, especially the francesinha sandwich.",
+    "Most visitors hop on a river cruise. The best version of Porto is exploring the Ribeira District on foot, discovering local shops and cafés.",
+    "Most visitors miss the opportunity to visit the lesser-known wine cellars in Vila Nova de Gaia. The real Porto starts with a guided tour at one of these family-run establishments."
+  ],
+  "neighborhoodPersonalities": {
+    "Ribeira": {
+      "tags": [
+        "historic",
+        "waterfront",
+        "cultural"
+      ],
+      "bestFor": "Enjoying riverside dining and local nightlife",
+      "avoid": "Can get very crowded during weekends."
+    },
+    "Cedofeita": {
+      "tags": [
+        "artsy",
+        "bohemian",
+        "local"
+      ],
+      "bestFor": "Art galleries and independent shops",
+      "avoid": "Limited dining options late at night."
+    },
+    "Vila Nova de Gaia": {
+      "tags": [
+        "wine",
+        "scenic",
+        "relaxed"
+      ],
+      "bestFor": "Wine tasting with a view of Porto's skyline",
+      "avoid": "Less public transport access after hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "11h",
+        "airlines": [
+          "Qatar Airways",
+          "Air India"
+        ],
+        "priceRange": "[₹45,000 - ₹70,000 return]",
+        "note": "Book well in advance to secure better prices."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "11h 30m",
+        "airlines": [
+          "Qatar Airways",
+          "Air France"
+        ],
+        "priceRange": "[₹50,000 - ₹75,000]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Metro line E connects the airport to the city center, costing around €2 and taking about 30 minutes.",
+      "taxi": "Taxi fares range from €25 to €30 and take around 20-30 minutes depending on traffic.",
+      "recommended": "For first-timers, the metro is a convenient and economical option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in India or online at the Schengen visa website.",
+    "processingTime": "Typically 15 days, but apply at least a month in advance.",
+    "tip": "Ensure all documents, especially proof of accommodation and travel itinerary, are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Majestic - try the famous croissant with a side of galão (Portuguese milk coffee).",
+    "sunset": "Dom Luís I Bridge - aim for sunset around 8:45 PM in summer for a magical view.",
+    "meal": "Taberna da Ribeira - indulge in their francesinha, a local specialty.",
+    "memory": "Sipping port wine while watching the sunset over the Douro River, feeling the city's pulse.",
+    "secret": "Locals enjoy lesser-known wine bars like Wine Quay Bar, which offers a range of local selections and stunning views."
+  },
+  "residentSunday": "A Porto resident might start their Sunday with brunch at Rua das Flores, followed by a stroll through the Jardins do Palácio de Cristal. In the afternoon, they may visit a local market like Mercado do Bom Sucesso for fresh produce and snacks, ending the day with a relaxed dinner at a family-run taverna in the Cedofeita neighborhood.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out into the cool evening air, greeted by the aroma of grilled sardines from nearby stalls.",
+    "peak": "The peak memory would be watching the fireworks during the São João Festival, a local celebration in late June.",
+    "departure": "The feeling of longing as you look back at the colorful buildings of Ribeira while leaving, promising to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Major highlights like the Ribeira District and a port wine cellar visit.",
+      "misses": "Exploring the art scene in Cedofeita and deeper neighborhoods."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of cultural sites, wine tasting, and local cuisine; the sweet spot for many travelers.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of the Douro Valley and surrounding areas.",
+      "whoFor": "Wine enthusiasts and cultural explorers."
+    },
+    "recommended": "Four days is ideal to soak in Porto's essence without feeling rushed."
+  },
+  "antiPatterns": [
+    "Trying to see all major attractions in one day + it leads to exhaustion and overlooks the city's nuances.",
+    "Staying only in the city center + you miss the authentic experiences in neighborhoods like Cedofeita.",
+    "Visiting wine cellars without booking in advance, which can lead to wait times or missed opportunities."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local cuisine beyond pasteis de nata.",
+    "Most visitors regret skipping a day trip to the Douro Valley.",
+    "Most visitors regret not investing time in the art scene and street art around the city."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Warm temperatures averaging 25°C, with occasional rain.",
+      "crowds": "High, especially in tourist hotspots.",
+      "verdict": "Good for those who enjoy lively atmospheres."
+    },
+    "shoulderSeason": {
+      "months": "April to May and September to October",
+      "why": "Milder weather and fewer crowds make it pleasant for exploring."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and rainy, with many tourist attractions operating on reduced hours.",
+      "one reason some prefer it": "Lower accommodation prices and the chance to engage more with locals."
+    },
+    "bestMonth": "September, as it offers pleasant weather and the opportunity to enjoy the grape harvest festivities.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Mercado do Bolhão on a Saturday morning for fresh produce and local delicacies. Prices are reasonable and the atmosphere is lively.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the tram from the city center to Foz do Douro for a scenic coastal ride. It's a relaxing way to experience the ocean.",
+      "category": "transport"
+    },
+    {
+      "tip": "Explore the lesser-known Casa da Música for its architecture and possibly catch a free concert on Sundays.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best view of the sunset, go to Miradouro da Vitória, a viewpoint that is often overlooked.",
+      "category": "timing"
+    },
+    {
+      "tip": "Participate in a local cooking class to learn how to make traditional dishes like caldo verde and bacalhau à brás.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Bifana sandwich at a local café for around €4 (₹350).",
+    "midRangeMeal": "Dinner at a mid-range restaurant costs about €20 (₹1,750) for a three-course meal.",
+    "luxuryMeal": "Dining at D.O.M. restaurant costs approximately €75 (₹6,500) for a tasting menu.",
+    "localTransportPerDay": "Around €6 (₹525) for unlimited metro and bus travel.",
+    "budgetHotelPerNight": "Around €50 (₹4,375) for a dormitory bed in a hostel with shared facilities.",
+    "midRangeHotelPerNight": "Approximately €100 (₹8,750) for a comfortable hotel with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like The Yeatman start at €250 (₹21,875) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dormitory for ₹1,200",
+      "food": "Eating at local bakeries and cafés for ₹800",
+      "transport": "Using public transport for ₹500"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "Mid-range hotel for ₹4,000",
+      "food": "Mix of local restaurants and occasional splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury in Porto offers exceptional dining and high-end experiences at a fraction of Western European prices."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shorts and sleeveless tops are frowned upon.",
+    "Always greet with a polite 'Bom dia' (Good morning) when entering shops or restaurants.",
+    "It's common to share a table in busy cafés; don't be surprised if you're seated with others."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas like the Ribeira district; keep your belongings secure.",
+      "Be cautious of overly friendly strangers offering assistance; they might be looking for a tip."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "112",
+      "indianEmbassy": "Embassy of India in Lisbon: +351 213 979 490"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Dom Luís I Bridge",
+        "what": "Cityscape views with the Douro River below",
+        "bestTime": "Sunset",
+        "tip": "Arrive at least 30 minutes before sunset for the best lighting."
+      }
+    ],
+    "goldenHour": "Approximately one hour before sunset.",
+    "tip": "Bring a polarizing filter to enhance the colors of the Douro River."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit a local wine cellar",
+        "Stroll along the Douro River",
+        "Enjoy dinner at a riverside restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to immerse yourself in the wine culture before soaking in the stunning riverside views and enjoying the local cuisine.",
+      "bestFor": [
+        "Wine Enthusiasts",
+        "Food Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Douro Valley",
+      "travelTime": "1.5 hours",
+      "how": "Train or car",
+      "whyCombine": "Combining Porto with a day in the Douro Valley offers a chance to experience beautiful vineyards and wine tasting."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many areas in Porto have cobblestone streets, which can be challenging, but public transport is generally accessible.",
+    "majorChallenges": "Steep hills can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan your routes to avoid steep inclines, especially in older neighborhoods."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 25°C and occasional showers; tourists are enjoying outdoor dining and the lively atmosphere of street festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, a valid Schengen visa is required for Indian travelers."
+  }
+}

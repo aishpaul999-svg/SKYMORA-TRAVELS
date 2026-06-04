@@ -1,0 +1,267 @@
+{
+  "destination": "Zhangjiajie",
+  "country": "China",
+  "region": "East Asia",
+  "aliases": [
+    "Zhangjiajie",
+    "zhangjiajie",
+    "china"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Adventure seekers",
+      "Nature lovers",
+      "Photographers",
+      "Hikers",
+      "Cultural explorers"
+    ],
+    "notFor": [
+      "Luxury travelers",
+      "Visitors seeking nightlife",
+      "Travelers with mobility issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "8h via Shanghai",
+    "flightFromMumbai": "9h via Shanghai",
+    "visaForIndians": "China visa required",
+    "currency": "Chinese Yuan (CNY), 1 INR = 0.086 CNY",
+    "timezone": "UTC+8",
+    "language": "Mandarin, basic English understood in tourist areas",
+    "bestMonthToVisit": "September - pleasant weather and fewer tourists",
+    "avoidMonth": "July - peak summer heat and monsoon rains",
+    "tipping": "Not customary; rounding up is appreciated for exceptional service"
+  },
+  "whyPeopleFallInLove": "Walking across the Zhangjiajie Glass Bridge at sunrise, with the mist swirling below and the towering sandstone pillars emerging from the clouds, creates a surreal moment that feels like stepping into a movie scene — a perfect blend of nature and adventure.",
+  "honestTruth": "Many travelers overlook the local food scene, which is far less touristy and offers authentic flavors that define the region's culinary identity.",
+  "localTruths": [
+    "Most visitors think Zhangjiajie is just about the scenery. Locals think the food markets and street food stalls are where the real experience lies.",
+    "Most visitors take the cable car to explore the mountains. The best version of Zhangjiajie is hiking the lesser-known trails that offer solitude and stunning views.",
+    "Most visitors miss the early morning at Tianmen Mountain. The real Zhangjiajie starts at dawn, when the light reveals the dramatic landscapes."
+  ],
+  "neighborhoodPersonalities": {
+    "Wulingyuan Scenic Area": {
+      "tags": [
+        "nature",
+        "hiking",
+        "photography"
+      ],
+      "bestFor": "adventurous hikes and stunning landscapes",
+      "avoid": "crowds during peak tourist season"
+    },
+    "Zhangjiajie City": {
+      "tags": [
+        "urban",
+        "food",
+        "transport"
+      ],
+      "bestFor": "local dining and city life",
+      "avoid": "expecting high-end shopping"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "8h via Shanghai",
+        "airlines": [
+          "Air India",
+          "China Eastern"
+        ],
+        "priceRange": "₹30,000 - ₹45,000 return",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h via Shanghai",
+        "airlines": [
+          "Air India",
+          "China Eastern"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro available; taxi costs around 30 CNY (₹260) and takes about 30 minutes.",
+      "taxi": "Cost is approximately 30 CNY (₹260) and takes about 30 minutes.",
+      "recommended": "Pre-book a taxi for a hassle-free arrival experience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "China visa required",
+    "applyAt": "VFS Global locations in India",
+    "processingTime": "Typically 7-10 working days",
+    "tip": "Apply at least a month in advance to avoid any delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit the 'Zhangjiajie Breakfast Noodle Shop' for their famous beef noodles at 15 CNY (₹130).",
+    "sunset": "Head to the Zhangjiajie Grand Canyon at 7 PM for a spectacular sunset view over the mountains.",
+    "meal": "Dine at 'The Old Town Restaurant' for a local specialty, spicy fish hotpot, costing around 80 CNY (₹690).",
+    "memory": "The moment you step onto the glass bridge, feeling both exhilarated and terrified as you look down to the valley below.",
+    "secret": "Only locals know to visit the night markets for the best street food at lower prices."
+  },
+  "residentSunday": "A Zhangjiajie resident might spend their Sunday hiking the trails of Zhangjiajie National Forest Park, followed by lunch at a local dumpling shop, and relaxing at the riverside park with family in the evening, enjoying grilled skewers from street vendors.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the towering sandstone pillars as you drive from the airport, feeling an immediate sense of wonder.",
+    "peak": "Reaching the summit of Tianmen Mountain and taking in the panoramic views, feeling a rush of accomplishment.",
+    "departure": "Leaving with a sense of fulfillment, having experienced both the natural beauty and local life."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Zhangjiajie National Park and a visit to the Glass Bridge",
+      "misses": "Deeper trails and local experiences in the city."
+    },
+    "three_to_four_days": {
+      "focus": "Comprehensive exploration of major attractions and a taste of local cuisine",
+      "sweetSpot": true
+    },
+    "five-to-seven_days": {
+      "focus": "In-depth exploration including hikes, cultural experiences, and day trips to nearby attractions",
+      "whoFor": "adventurous travelers and nature enthusiasts."
+    },
+    "recommended": "Three to four days for a balanced experience of nature and culture."
+  },
+  "antiPatterns": [
+    "Rushing through the attractions in a day fails to capture the essence of the area, leading to frustration.",
+    "Visiting during peak tourist hours results in overcrowding at major sites, diminishing the experience.",
+    "Skipping the early morning hikes means missing the magical light and fewer crowds on trails."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local food options beyond the tourist restaurants.",
+    "Most visitors regret not booking their hikes in advance, leading to sold-out trails.",
+    "Most visitors regret not exploring the lesser-known areas of the park."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Hot and humid, temperatures around 30-35°C",
+      "crowds": "Very crowded, especially at major attractions",
+      "verdict": "Best to avoid unless you can handle the heat and crowds."
+    },
+    "shoulderSeason": {
+      "months": "April, May, September, October",
+      "why": "Milder weather and manageable crowds make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "November, December, January, February",
+      "reality": "Cold temperatures and occasional snow; many trails may be closed.",
+      "one reason some prefer it": "Fewer tourists and a chance to experience tranquility in nature."
+    },
+    "bestMonth": "September - ideal weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm with occasional rain; ideal for hiking with lush greenery."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the spicy tofu at 'Wulingyuan Tofu House' for just 20 CNY (₹170); it's a local favorite.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the Glass Bridge early in the morning to avoid the crowds and capture the perfect photos.",
+      "category": "timing"
+    },
+    {
+      "tip": "Utilize local transport apps to navigate easily; they provide real-time updates on buses.",
+      "category": "transport"
+    },
+    {
+      "tip": "Bring a reusable water bottle; water refill stations are available throughout the park.",
+      "category": "experience"
+    },
+    {
+      "tip": "Engage with local guides for hikes; they often know hidden trails and stories about the area.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of noodles at a local eatery for about 20 CNY (₹170).",
+    "midRangeMeal": "A three-course meal in a mid-range restaurant for around 150 CNY (₹1,290).",
+    "luxuryMeal": "Dining at 'The Old Town Restaurant' for a premium meal costing about 400 CNY (₹3,450).",
+    "localTransportPerDay": "Around 50 CNY (₹430) for local buses and taxis.",
+    "budgetHotelPerNight": "A hostel bed for 80 CNY (₹690) with basic amenities.",
+    "midRangeHotelPerNight": "A comfortable hotel room for 400 CNY (₹3,450) with good facilities.",
+    "luxuryHotelPerNight": "Five-star hotels start around 1,000 CNY (₹8,600) with luxury amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds for around 80 CNY (₹690)",
+      "food": "Street food and budget meals at 30 CNY (₹260)",
+      "transport": "Local buses and occasional taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotels for around 400 CNY (₹3,450)",
+      "food": "Mix of local restaurants and occasional splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury options are available but may not provide an exceptional experience compared to local stays."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites, avoiding overly revealing clothing.",
+    "Respect local customs, especially during festivals and public gatherings.",
+    "Avoid loud conversations in public transport; keep noise levels down."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial tour guides at the airport; always book through recognized agents.",
+      "Watch out for fake tickets sold near attractions."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "120",
+      "indianEmbassy": "Embassy of India in Beijing: 010-2685-2200"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Zhangjiajie Glass Bridge",
+        "what": "Capturing the bridge with the towering pillars in the background",
+        "bestTime": "Early morning after sunrise",
+        "tip": "Use a polarizing filter to reduce glare."
+      }
+    ],
+    "goldenHour": "Approximately 5:30 PM to 6:30 PM during summer months.",
+    "tip": "Experiment with different angles to capture the unique rock formations."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hiking the Golden Whip Stream",
+        "Visiting Tianmen Mountain",
+        "Exploring the local night market"
+      ],
+      "emotionalArc": "This combination creates a sense of adventure followed by relaxation and cultural immersion.",
+      "bestFor": [
+        "Adventure seekers",
+        "Cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Fenghuang",
+      "travelTime": "2h",
+      "how": "By bus or taxi",
+      "whyCombine": "A historic town with rich architecture and culture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited; many trails and attractions have steep paths and stairs.",
+    "majorChallenges": "Steep terrain in national parks can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider hiring a local guide for assistance in navigating less accessible areas."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with high humidity, occasional rains; expect some trails to be slippery.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa required; ensure all travel documents are in order before arrival."
+  }
+}

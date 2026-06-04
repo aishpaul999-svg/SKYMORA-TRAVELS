@@ -1,0 +1,282 @@
+{
+  "destination": "Shanghai",
+  "country": "China",
+  "region": "East Asia",
+  "aliases": [
+    "Shanghai",
+    "shanghai",
+    "china"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "art enthusiasts",
+      "architecture buffs",
+      "business travelers",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "nightlife seekers",
+      "people who dislike crowds"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h",
+    "flightFromMumbai": "6h 45m, airlines: Air India, China Eastern",
+    "visaForIndians": "China visa required",
+    "currency": "Chinese Yuan (CNY), 1 INR = 0.086 CNY",
+    "timezone": "UTC+8",
+    "language": "Mandarin Chinese, basic English in tourist areas",
+    "bestMonthToVisit": "October - pleasant weather and fewer tourists",
+    "avoidMonth": "July - high humidity and heavy rainfall",
+    "tipping": "Not customary; rounding up the bill is appreciated in restaurants, typically 10-20 CNY."
+  },
+  "whyPeopleFallInLove": "Walking along the Bund at twilight, the city's skyline illuminating as the sun dips below the horizon, and the aroma of street food wafting through the air makes you realize there's nowhere else like Shanghai.",
+  "honestTruth": "Many travelers underestimate the language barrier; without a translation app, finding your way can be a real challenge in less touristy areas.",
+  "localTruths": [
+    "Most visitors think Shanghai is just about the skyline. Locals think the soul of the city lies in its back alleys and local eateries.",
+    "Most visitors dine at high-end restaurants. The best version of Shanghai is experiencing street food at night markets like Yuyuan Garden.",
+    "Most visitors miss the Shanghai Museum. The real Shanghai starts at the lesser-known Propaganda Poster Art Centre."
+  ],
+  "neighborhoodPersonalities": {
+    "Puxi": {
+      "tags": [
+        "historic",
+        "artsy",
+        "diverse"
+      ],
+      "bestFor": "exploring art galleries and local markets",
+      "avoid": "the tourist traps in Nanjing Road"
+    },
+    "Pudong": {
+      "tags": [
+        "modern",
+        "skyscrapers",
+        "business"
+      ],
+      "bestFor": "skyscraper views and luxury shopping",
+      "avoid": "overpriced restaurants in tourist areas"
+    },
+    "French Concession": {
+      "tags": [
+        "quaint",
+        "green",
+        "café culture"
+      ],
+      "bestFor": "relaxing in parks and enjoying café culture",
+      "avoid": "crowded weekends when tourists flock here"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h",
+        "airlines": [
+          "Air India",
+          "China Eastern"
+        ],
+        "priceRange": "[INR 25,000 - 35,000 return]",
+        "note": "Book at least a month in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 45m",
+        "airlines": [
+          "Air India",
+          "China Eastern"
+        ],
+        "priceRange": "[INR 25,000 - 32,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line 2, 7 CNY, 40 minutes",
+      "taxi": "Approx. 150 CNY, 30 minutes depending on traffic",
+      "recommended": "The metro is efficient and avoids traffic delays, ideal for first-timers."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "China visa required",
+    "applyAt": "VFS Global centers in India or online at the Chinese visa application website.",
+    "processingTime": "5-10 working days",
+    "tip": "Apply at least a month before your travel date to account for any delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to Jian Guo Hotel's café for a traditional Chinese breakfast of soy milk and fried dough sticks.",
+    "sunset": "The Bund at 6:30 PM during autumn offers a beautiful view of the skyline.",
+    "meal": "Visit Din Tai Fung for their famous Xiaolongbao (soup dumplings).",
+    "memory": "Sharing laughs with locals over a steaming bowl of noodles in a hidden alley.",
+    "secret": "The rooftop of the Shanghai Tower offers the best panoramic view, but you need to arrive early to beat the crowds."
+  },
+  "residentSunday": "A typical Sunday for a Shanghai resident might start with brunch at a local café in the French Concession, followed by a stroll in Fuxing Park around 11 AM. Afterward, they might visit the Shanghai Museum at 2 PM, then enjoy street food along Huaihai Road in the evening, finishing the day at a jazz bar in Xintiandi around 8 PM.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping out of the airport and feeling the warm, humid breeze mixed with the scent of street food immediately reminds you you're in Shanghai.",
+    "peak": "Experiencing the first view of the skyline from the Bund after a day of exploring the local neighborhoods.",
+    "departure": "Leaving with a feeling of having seen not just a city, but a culture that lingers in your senses."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key landmarks like the Bund and Yuyuan Garden",
+      "misses": "Local experiences in neighborhoods like the French Concession and Puxi"
+    },
+    "three_to_four_days": {
+      "focus": "A mix of iconic sights and local experiences",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including museums, food tours, and day trips to nearby water towns",
+      "whoFor": "cultural explorers and food enthusiasts"
+    },
+    "recommended": "Four days allows for a well-rounded experience without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting only tourist spots like the Bund and Oriental Pearl Tower without exploring local neighborhoods fails to capture Shanghai's essence.",
+    "Rushing through meals at high-end restaurants instead of savoring street food leads to missing genuine culinary experiences.",
+    "Arriving during peak hours for the metro can ruin your first impression; plan your travel times wisely."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more street food and local dishes.",
+    "Most visitors regret not visiting the Shanghai Museum, missing out on its free exhibits.",
+    "Most visitors regret not allocating time to explore the French Concession."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, October",
+      "weather": "Mild and comfortable, 15-25°C",
+      "crowds": "High, especially during festivals",
+      "verdict": "Best weather but expect large crowds."
+    },
+    "shoulderSeason": {
+      "months": "March, May, September",
+      "why": "Pleasant weather and fewer tourists make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "January, February",
+      "reality": "Cold and sometimes rainy, but fewer tourists make it easier to explore attractions.",
+      "one reason some prefer it": "Lower hotel rates and less waiting time at attractions."
+    },
+    "bestMonth": "October - perfect weather for walking and dining out.",
+    "currentSeason": "June 2026 is warm and humid, with occasional showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local wet markets early in the morning for the freshest produce and a taste of daily life, around 7 AM.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'xiaolongbao' at Jia Jia Tang Bao, known for having the best in town, just 30 CNY for a serving.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the Didi app for taxis; it's cheaper and more convenient than traditional cabs.",
+      "category": "transport"
+    },
+    {
+      "tip": "Join a local tai chi class in the morning at People's Park to truly connect with the locals.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the art galleries along Moganshan Road, often overlooked by tourists.",
+      "category": "art"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Jianbing (Chinese crepe) at a street vendor for 10 CNY (approx. 12 INR).",
+    "midRangeMeal": "Dinner at a local restaurant (like Xiao Long Bao) for about 120 CNY (approx. 1,400 INR).",
+    "luxuryMeal": "Fine dining at Ultraviolet by Paul Pairet for around 3,000 CNY (approx. 35,000 INR).",
+    "localTransportPerDay": "Metro fare averages about 30 CNY per day (approx. 350 INR).",
+    "budgetHotelPerNight": "Hostel dorm bed for about 150 CNY (approx. 1,800 INR) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotel around 600 CNY (approx. 7,000 INR) including breakfast.",
+    "luxuryHotelPerNight": "5-star hotels like the Ritz Carlton starting at 1,500 CNY (approx. 17,500 INR)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm bed for 150 CNY (approx. 1,800 INR)",
+      "food": "Street food meals averaging 30 CNY (approx. 350 INR)",
+      "transport": "Daily metro costs about 30 CNY (approx. 350 INR)"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "3-star hotel for 600 CNY (approx. 7,000 INR)",
+      "food": "Mix of local restaurants and street food."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Expect high costs for 5-star amenities, but worth it for the experience."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and religious sites.",
+    "Avoid discussing sensitive political topics with locals.",
+    "Politeness is key; greet shopkeepers and waitstaff with a smile."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overcharging taxi drivers; always use metered taxis or rideshare apps.",
+      "Street vendors may sell counterfeit goods; inspect items carefully before purchasing."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "120",
+      "indianEmbassy": "Embassy of India in Beijing - 10,000 CNY, Chaoyang District, Beijing, China"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "The Bund",
+        "what": "Iconic skyline shots at dusk.",
+        "bestTime": "6:30 PM",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Approximately 6 PM to 7 PM during summer months.",
+    "tip": "Experiment with long-exposure shots of the skyline from the Huangpu River."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Shanghai Museum",
+        "Lunch at Yuyuan Garden",
+        "Explore the Bund"
+      ],
+      "emotionalArc": "This sequence allows you to start with cultural enrichment, enjoy authentic food, and wrap up with stunning views.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Suzhou",
+      "travelTime": "1h",
+      "how": "High-speed train",
+      "whyCombine": "Famous for its classical gardens and silk industry."
+    },
+    {
+      "city": "Hangzhou",
+      "travelTime": "1.5h",
+      "how": "High-speed train",
+      "whyCombine": "Known for its beautiful West Lake and tea culture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most metro stations have elevators, but some older attractions may not be accessible.",
+    "majorChallenges": "Navigating busy streets and public transport can be challenging for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Many public spaces are accommodating, but plan routes in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm and humid, with temperatures around 30°C. Expect occasional rain showers. Events include the Shanghai International Film Festival.",
+    "currentAlerts": [],
+    "entryRequirements": "Ensure your visa is valid and check for any health regulations before traveling."
+  }
+}

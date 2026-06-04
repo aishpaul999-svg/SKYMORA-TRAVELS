@@ -1,0 +1,282 @@
+{
+  "destination": "Krabi",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Krabi",
+    "krabi",
+    "thailand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "adventure seekers",
+      "family vacations",
+      "honeymooners",
+      "nature enthusiasts"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "shopping enthusiasts",
+      "urban explorers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h 30min via Bangkok",
+    "flightFromMumbai": "5h via Bangkok, airlines include Thai Airways, Air India, and Bangkok Airways",
+    "visaForIndians": "Thailand e-Visa USD 35",
+    "currency": "Thai Baht (1 INR = 0.43 THB)",
+    "timezone": "+7:00 UTC",
+    "language": "Thai, English widely spoken in tourist areas",
+    "bestMonthToVisit": "November, perfect weather with minimal rainfall.",
+    "avoidMonth": "September, as it experiences heavy monsoon rains.",
+    "tipping": "Tipping is appreciated but not mandatory; rounding up the bill or leaving 20-50 THB is common."
+  },
+  "whyPeopleFallInLove": "Imagine standing on Railay Beach, the limestone cliffs towering above you, the scent of salty sea air mingling with grilled seafood from nearby vendors, as the sun dips below the horizon, painting the sky with hues of pink and orange. It's a moment that makes the journey worthwhile.",
+  "honestTruth": "While many travel guides romanticize the beaches, they rarely mention that during peak season, some areas can feel overcrowded, detracting from the natural beauty.",
+  "localTruths": [
+    "Most visitors think Krabi is only about the beaches. Locals think it’s about the incredible hiking trails and the lesser-known waterfalls in the jungle.",
+    "Most visitors rush to island hop. The best version of Krabi is spending a day kayaking through the limestone caves at Ao Thalane.",
+    "Most visitors miss the local night markets. The real Krabi starts at 6 PM when the streets come alive with food stalls and crafts in Krabi Town."
+  ],
+  "neighborhoodPersonalities": {
+    "Ao Nang": {
+      "tags": [
+        "beach",
+        "restaurants",
+        "nightlife"
+      ],
+      "bestFor": "beachgoers wanting easy access to nightlife.",
+      "avoid": "can be touristy and crowded during peak hours."
+    },
+    "Railay Beach": {
+      "tags": [
+        "climbing",
+        "beach",
+        "relaxation"
+      ],
+      "bestFor": "rock climbers and those seeking a quieter beach experience.",
+      "avoid": "limited access during high tide."
+    },
+    "Krabi Town": {
+      "tags": [
+        "local culture",
+        "markets",
+        "food"
+      ],
+      "bestFor": "immersing in local life and tasting authentic Thai cuisine.",
+      "avoid": "lacks beach access."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h 30min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Bangkok Airways"
+        ],
+        "priceRange": "₹25,000-₹35,000 return",
+        "note": "Book in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Air India"
+        ],
+        "priceRange": "₹25,000-₹40,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; taxi costs approximately 600 THB (₹1,290) and takes about 30 minutes.",
+      "taxi": "Fixed fare of around 600 THB (₹1,290) to Ao Nang.",
+      "recommended": "SkyMora recommends pre-booking airport transfers through reliable services for a hassle-free arrival."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Thailand e-Visa USD 35",
+    "applyAt": "https://www.thaiembassy.com",
+    "processingTime": "3-5 business days",
+    "tip": "Apply for your e-Visa at least a week before your trip to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café 8, order the Thai-style omelette with rice and a side of fresh fruit.",
+    "sunset": "Head to the viewpoint at Phra Nang Cave Beach at 6:30 PM for the best sunset views.",
+    "meal": "Eat at the local seafood restaurant, Ruen Mai, and try their signature grilled squid.",
+    "memory": "The sound of waves crashing as you lie in a hammock, sipping a coconut drink, watching the world go by.",
+    "secret": "Only locals know that the best time to visit Hong Island is early morning to avoid crowds and enjoy the pristine waters."
+  },
+  "residentSunday": "On a free Sunday, a Krabi resident might start with breakfast at Ko Moo Daeng, enjoying a bowl of rice soup. Then, they would head to Klong Thom Hot Springs for a soak, followed by lunch at a local street vendor selling pad thai. In the afternoon, they might relax at Ao Nang Beach, and end the day with dinner at a night market, savoring grilled meats and fresh fruit smoothies.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping off the plane and feeling the warm, humid air hit your face, signaling the start of your adventure.",
+    "peak": "The peak day memory target involves a boat trip to the Phi Phi Islands, swimming in crystal-clear waters, and sharing laughs with friends over a beach picnic.",
+    "departure": "The departure should feel like a bittersweet farewell, with a lingering taste of coconut ice cream and the sound of waves in the distance."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "visiting key beaches and enjoying a day of island hopping.",
+      "misses": "deeper explorations of local culture and hidden waterfalls."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of relaxation and adventure, including climbing and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "a thorough exploration of the region's natural beauty and cultural experiences.",
+      "whoFor": "active travelers and families."
+    },
+    "recommended": "Four days is ideal for a comprehensive experience that balances relaxation and exploration."
+  },
+  "antiPatterns": [
+    "Rushing through island tours without savoring the local food stalls leads to missing out on Krabi's culinary delights.",
+    "Booking all activities in advance can lead to a rigid schedule; flexibility allows for spontaneous adventures.",
+    "Visiting beaches at noon means dealing with the harsh sun; plan for morning or late afternoon visits."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not experiencing the local night markets for authentic Thai food.",
+    "Most visitors regret skipping the hike to the viewpoint at Railay Beach.",
+    "Most visitors regret not taking a day to relax and enjoy just being by the beach."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "warm, dry with temperatures averaging 30°C",
+      "crowds": "high tourist traffic",
+      "verdict": "Great weather but expect crowded attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "fewer tourists and still pleasant weather for outdoor activities."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "heavy rains and potential flooding; some tours may close.",
+      "one reason some prefer it": "Lower prices and fewer tourists."
+    },
+    "bestMonth": "November, as the weather is pleasant and the beaches are less crowded.",
+    "currentSeason": "June 2026, experiencing warm temperatures, occasional rain showers, and moderate tourist activity."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Klong Thom Waterfall early in the morning; the entrance fee is only 200 THB (₹430) and it's less crowded.",
+      "category": "experience"
+    },
+    {
+      "tip": "Eat at the small stall next to Ao Nang's McDonald's for the best spring rolls at 30 THB (₹64) each.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a long-tail boat to Hong Island and pack a picnic; the experience is unforgettable with just a few tourists around.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try to learn a few Thai phrases; it goes a long way in enhancing your experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Book an evening kayak tour in Ao Thalane; the bioluminescent plankton here is magical.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pad Thai at a local eatery for around 60 THB (₹130).",
+    "midRangeMeal": "Thai curry at a mid-range restaurant costs about 300 THB (₹650).",
+    "luxuryMeal": "Dining at The Grotto costs around 2,500 THB (₹5,400) per person for a full-course meal.",
+    "localTransportPerDay": "Expect to spend about 150 THB (₹320) on local transport.",
+    "budgetHotelPerNight": "Hostels start at 400 THB (₹860) for a dormitory bed, including basic amenities.",
+    "midRangeHotelPerNight": "A good mid-range hotel costs about 1,500 THB (₹3,250) per night with breakfast included.",
+    "luxuryHotelPerNight": "Luxury resorts start around 6,000 THB (₹12,900) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel beds at ₹860",
+      "food": "Street food meals averaging ₹130 each.",
+      "transport": "Local transport costing around ₹320."
+    },
+    "comfortable": {
+      "perDayINR": "₹4,500",
+      "accommodation": "Mid-range hotel at ₹3,250",
+      "food": "Dining at casual restaurants for ₹650."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury in Krabi can mean private beaches and personalized experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Always remove your shoes when entering someone’s home or certain establishments.",
+    "Respect local customs, especially during religious festivals; be mindful of noise levels."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Tuk-tuk drivers may quote high fares; always negotiate or use a metered taxi.",
+      "Some tour operators may promise more than they deliver; research reviews before booking."
+    ],
+    "emergencyContacts": {
+      "police": "191",
+      "ambulance": "1669",
+      "indianEmbassy": "Indian Embassy in Bangkok at +66 2 263 3000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Railay Beach",
+        "what": "Capture the limestone cliffs and crystal waters.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a polarizing filter to enhance the colors."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM during high season.",
+    "tip": "Consider a drone for aerial shots of the islands for unique perspectives."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Railay Beach",
+        "Rock climbing",
+        "Dinner at a beachside restaurant"
+      ],
+      "emotionalArc": "This sequence lets you experience adventure followed by relaxation and good food, creating a fulfilling day.",
+      "bestFor": [
+        "adventure seekers",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Ao Nang",
+      "travelTime": "30 minutes",
+      "how": "Taxi or motorcycle taxi",
+      "whyCombine": "For vibrant nightlife and more dining options."
+    },
+    {
+      "city": "Phi Phi Islands",
+      "travelTime": "1 hour by boat",
+      "how": "Speedboat",
+      "whyCombine": "For iconic beaches and snorkeling."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in many areas, especially beaches.",
+    "majorChallenges": "Many attractions are not wheelchair accessible due to uneven terrain.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for activities; some places offer assistance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is moderately warm with occasional rains, with fewer tourists around, allowing for a more personal experience.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, an e-Visa is required for Indian travelers."
+  }
+}

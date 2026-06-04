@@ -1,0 +1,280 @@
+{
+  "destination": "Seville",
+  "country": "Spain",
+  "region": "Europe",
+  "aliases": [
+    "Seville",
+    "seville",
+    "spain"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "cultural enthusiasts",
+      "food lovers",
+      "history buffs",
+      "art aficionados",
+      "festival-goers"
+    ],
+    "notFor": [
+      "beach seekers",
+      "nightlife-only travelers",
+      "those avoiding crowds"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Madrid + 2.5h AVE",
+    "flightFromMumbai": "10h to Madrid + 2.5h AVE",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Spanish",
+    "bestMonthToVisit": "April - for the Feria de Abril and pleasant weather.",
+    "avoidMonth": "August - due to high temperatures averaging 35°C.",
+    "tipping": "Tipping is not compulsory, but rounding up the bill or leaving small change (5-10%) is appreciated."
+  },
+  "whyPeopleFallInLove": "As the sun sets behind the Giralda, the sounds of a passionate flamenco performance waft through the air, pulling you into a vibrant plaza filled with locals and laughter, an experience that feels like a heartbeat of the city itself.",
+  "honestTruth": "Seville can be overwhelmingly hot in the summer, and many locals avoid the midday sun, retreating indoors, which might surprise those expecting constant social activity.",
+  "localTruths": [
+    "Most visitors think they have to stick to touristy tapas bars. Locals think the best tapas are at family-run bars hidden in backstreets.",
+    "Most visitors flock to the Alcázar during the day. The best version of Seville is experiencing it after hours when the crowds dissipate and the ambiance changes.",
+    "Most visitors miss the early morning atmosphere at the Plaza de España. The real Seville starts with the sound of water and birds at dawn."
+  ],
+  "neighborhoodPersonalities": {
+    "Santa Cruz": {
+      "tags": [
+        "historic",
+        "touristy",
+        "cobbled streets"
+      ],
+      "bestFor": "exploring narrow streets and discovering quaint shops.",
+      "avoid": "It can get very crowded, especially during peak tourist seasons."
+    },
+    "Triana": {
+      "tags": [
+        "local",
+        "artistic",
+        "flamenco"
+      ],
+      "bestFor": "authentic flamenco shows and pottery shopping.",
+      "avoid": "While it’s less touristy, some areas can feel isolated at night."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Madrid + 2.5h AVE",
+        "airlines": [
+          "Iberia",
+          "Air India"
+        ],
+        "priceRange": "₹55,000 - ₹75,000 return",
+        "note": "Book at least two months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h to Madrid + 2.5h AVE",
+        "airlines": [
+          "Iberia",
+          "Air France"
+        ],
+        "priceRange": "₹55,000 - ₹80,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "There is no metro from Seville Airport; a bus costs around €4 (₹350) and takes 30 minutes.",
+      "taxi": "A taxi from the airport to the city center costs around €25 (₹2,200) and takes about 20 minutes.",
+      "recommended": "For first-timers, the bus is economical and gives a glimpse of the city on the way."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in Delhi or Mumbai.",
+    "processingTime": "15-20 days.",
+    "tip": "Always book your flight and hotel before applying; it strengthens your application."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café de Indias - order a tostada con tomate and café con leche.",
+    "sunset": "The Metropol Parasol at 8:30 PM, offering panoramic views.",
+    "meal": "Bar Alfalfa - try their salmorejo and fried fish.",
+    "memory": "Experiencing an intimate flamenco show in a local taberna, where the performers share their passion with raw emotion.",
+    "secret": "Many locals enjoy late-night walks along the Guadalquivir River, a serene experience after the day’s hustle."
+  },
+  "residentSunday": "A Seville resident typically starts with a late breakfast at Bar El Pintado, enjoying churros and hot chocolate. They then stroll through Parque de María Luisa, before meeting friends for lunch at Restaurante Casa Ricardo, where they savor traditional paella. The afternoon might be spent visiting the local artisan shops in Triana, followed by tapas in the evening at a hidden bar in La Alameda.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the bustling atmosphere of the Plaza de España and hear the distant strumming of a guitar.",
+    "peak": "The peak day memory target is witnessing the Semana Santa procession, where the entire city comes alive with emotion and tradition.",
+    "departure": "Leaving with the sense of having partaken in a deeper cultural experience, rather than just a tourist visit."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "covering the Alcázar, Cathedral, and a flamenco show.",
+      "misses": "the deeper local experiences in Triana and some lesser-known tapas bars."
+    },
+    "three_to_four_days": {
+      "focus": "including time for leisurely meals, local markets, and a day trip to Córdoba.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "a deeper exploration including nearby towns like Ronda and Jerez.",
+      "whoFor": "cultural enthusiasts and food lovers."
+    },
+    "recommended": "Four days is ideal to balance sightseeing with relaxation and local experiences."
+  },
+  "antiPatterns": [
+    "Trying to see all major attractions in one day fails because it leads to rushing and missing nuanced experiences.",
+    "Dining only at chain restaurants fails; it deprives you of authentic local flavors and experiences.",
+    "Visiting major sites during peak hours ruins the experience due to overcrowding."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not attending a flamenco show at a local venue, missing the true essence of the art.",
+    "Most visitors regret not exploring the less touristy neighborhoods like Macarena or Triana.",
+    "Most visitors regret not trying the local specialties beyond tapas, like espinacas con garbanzos."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot, typically over 35°C.",
+      "crowds": "Heavily crowded, especially at major tourist sites.",
+      "verdict": "Considered overwhelming for those not used to heat."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Ideal for pleasant weather and fewer tourists."
+    },
+    "offSeason": {
+      "months": "November to February",
+      "reality": "Cold and damp; not the best weather for outdoor activities.",
+      "hiddenGem": "This is when you can find quieter streets and lower accommodation prices."
+    },
+    "bestMonth": "April - for the Feria de Abril and comfortable climate.",
+    "currentSeason": "June 2026 in Seville is hot, with temperatures around 34°C and the city preparing for summer festivals."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit La Carbonería for a casual flamenco experience; the entry is free, and you can buy drinks for the performers.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to catch the sunset at the Torre del Oro; the views of the river are mesmerizing.",
+      "category": "timing"
+    },
+    {
+      "tip": "Avoid dining at the main squares; instead, seek out side streets for more authentic and cheaper meals.",
+      "category": "food"
+    },
+    {
+      "tip": "Join a local cooking class for an afternoon; it’s a fun way to meet people and learn about local cuisine.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the Mercado de Triana for fresh produce and local delicacies; it’s a favorite among locals.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Tortilla Española at a local bar for €5 (₹450)",
+    "midRangeMeal": "Paella at Restaurante La Cazuela for €20 (₹1,800)",
+    "luxuryMeal": "Dinner at Restaurante Abades Triana for €50 (₹4,500)",
+    "localTransportPerDay": "Around €5 (₹450) for bus and tram rides.",
+    "budgetHotelPerNight": "Hostel bed for €15 (₹1,350) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotel for €70 (₹6,300) with breakfast included.",
+    "luxuryHotelPerNight": "5-star hotel starting at €200 (₹18,000) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds at hostels around €15 (₹1,350)",
+      "food": "Local tapas and budget meals, around €20 (₹1,800)",
+      "transport": "Buses and trams, €5 (₹450)"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels around €70 (₹6,300)",
+      "food": "A mix of local restaurants and occasional splurges.",
+      "transport": "Public transport and occasional taxis."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Expect high-quality accommodations and fine dining options."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shoulders and knees should be covered.",
+    "Always greet with a friendly 'Hola' when entering shops or restaurants.",
+    "It's polite to say 'Gracias' when receiving service, even if it's minimal."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded tourist areas; keep bags secured.",
+      "Street performers may ask for money after a performance; it's best to enjoy and not feel obligated."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "061",
+      "indianEmbassy": "Embassy of India, Madrid, +34 91 369 1900"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Plaza de España",
+        "what": "The iconic building and surrounding water.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a wide-angle lens to capture the entire plaza."
+      },
+      {
+        "name": "Metropol Parasol",
+        "what": "The modern structure against the sunset.",
+        "bestTime": "At dusk when it lights up.",
+        "tip": "Climb to the top for panoramic shots."
+      }
+    ],
+    "goldenHour": "Approximately 8:30 PM in June.",
+    "tip": "Experiment with low angles in local markets for vibrant street life shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Alcázar",
+        "Enjoy a tapas lunch",
+        "Attend a flamenco show"
+      ],
+      "emotionalArc": "This sequence immerses you in Seville’s history, cuisine, and arts.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Córdoba",
+      "travelTime": "1h 45m",
+      "how": "Train (AVE)",
+      "whyCombine": "To see the stunning Mezquita and Jewish Quarter."
+    },
+    {
+      "city": "Ronda",
+      "travelTime": "2h",
+      "how": "Bus",
+      "whyCombine": "To experience the dramatic cliffside views and Puente Nuevo."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions have ramps, but some older areas are challenging.",
+    "majorChallenges": "Cobblestone streets in historic areas can be difficult for wheelchairs.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for transportation as some public transport may not be fully accessible."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot, with temperatures around 34°C, and the city is preparing for summer festivals like Feria de Agosto.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain the same; check for any current travel advisories."
+  }
+}
