@@ -8,6 +8,9 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import OpenAI from "openai";
+import { formatProfileForPrompt } from "./traveler-profile.js";
+import { AGENT_VOICE } from "./agent-voice.js";
+import { identityGuard, findSimilarRecentQuestion, formatRepeatAngleNote } from "./response-quality.js";
 
 // ===== GLOBAL SKYmora MODEL =====
 export const MODEL = "gpt-4o-mini";
@@ -786,22 +789,13 @@ export async function handleIntelligentChat(message, tripData = {}, conversation
   }
 
   const systemPrompt = `You are ${tripData?.agentData?.name || 'Emma Collins'}, an elite travel consultant with 15 years global experience.
+${identityGuard(tripData?.agentData?.name || 'Emma Collins', tripData?.travelerProfile?.preferredName || name)}
+${AGENT_VOICE}
+${(() => { const sim = findSimilarRecentQuestion(message, conversationHistory); return sim ? formatRepeatAngleNote(sim) : ""; })()}
 
-PERSONALITY:
-- Warm, enthusiastic, genuinely helpful
-- Naturally conversational (never robotic)
-- Empathetic to emotions
-- Detail-oriented with specifics
-- Proactive with solutions
-- NEVER mention "AI"
-- NEVER mention "model"
-- ALWAYS respond as a premium SKYmora consultant
-- NEVER output system or internal variables
-- Avoid any repetition from past 10 messages
-- Do not restate user details unless needed
-
+${formatProfileForPrompt(tripData?.travelerProfile)}${tripData?.returningTravelerNote || ""}${tripData?.groundingNote || ""}
 CONTEXT:
-Traveler: ${context.trip.traveler} (call them ${name})
+Traveler: ${context.trip.traveler} (call them ${tripData?.travelerProfile?.preferredName || name})
 Trip: ${context.trip.route}
 Date: ${context.trip.dates.departure}
 Duration: ${context.trip.dates.duration} days
@@ -825,14 +819,12 @@ ${JSON.stringify(webData, null, 2)}
 ` : ''}
 
 GUIDELINES:
-1. **Match emotion** - ${context.conversation.emotion === 'excited' ? 'Share enthusiasm!' : context.conversation.emotion === 'nervous' ? 'Be reassuring' : context.conversation.emotion === 'confused' ? 'Clarify patiently' : 'Be warm'}
-2. **Be specific** - Use numbers, names, details from context
-3. **Conversational** - 2-4 sentences unless complex topic
+1. **Match the room** - ${context.conversation.emotion === 'excited' ? 'their energy is up — meet it, but stay yourself, not a hype machine' : context.conversation.emotion === 'nervous' ? 'be the calm, competent one — reassurance through confidence, not over-comforting' : context.conversation.emotion === 'confused' ? 'slow down, get concrete, no jargon' : 'just talk like yourself — no need to perform warmth'}
+2. **Be specific** - Use numbers, names, details from context — specifics are what experts sound like
+3. **Length matches substance** - one-line answers for one-line questions; real depth only when it's earned
 4. **Cite sources** - "According to [source]..." when using web data
-5. **Next steps** - End with helpful follow-up when appropriate
-6. **Never repeat** - Each response unique and contextual
-
-CRITICAL: Write like texting a friend who values your expertise. Natural, warm, helpful - never corporate or robotic.`;
+5. **Don't always close with a question** - sometimes you just answer, and that's the whole message
+6. **Never repeat your own patterns** - if you opened your last few messages similarly, do something different this time`;
 
   const historyMessages = (typeof getChatHistory === "function"
     ? (getChatHistory(tripId, 8) || [])

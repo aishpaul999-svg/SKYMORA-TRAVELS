@@ -506,6 +506,18 @@ h1 {
   align-self: flex-start;
 }
 
+.typing-dots { display: inline-flex; gap: 4px; align-items: center; padding: 2px 4px; }
+.typing-dots span {
+  width: 7px; height: 7px; border-radius: 50%; background: #8a8a8e;
+  animation: typingBounce 1.2s infinite ease-in-out;
+}
+.typing-dots span:nth-child(2) { animation-delay: 0.15s; }
+.typing-dots span:nth-child(3) { animation-delay: 0.3s; }
+@keyframes typingBounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+
 .msg.user {
   background: #78ffd6;
   color: #033;
@@ -1036,7 +1048,15 @@ const {
   travelStyle,
   budget,
   currency,
-  specialRequest
+  specialRequest,
+  firstVisit,
+  travelPace,
+  travelerExperience,
+  emotionalState,
+  diningDepth,
+  socialComfort,
+  travelPersonality,
+  planningStyle
 } = tripData;
 
 let tripDays = null;
@@ -1069,7 +1089,16 @@ window.skymoraTrip = {
   budget,
   currency,
   specialRequest,
-  agentData
+  agentData,
+  // Intelligence & personality fields — drive full personalization
+  firstVisit:        firstVisit        || "first",
+  travelPace:        travelPace        || "balanced",
+  travelerExperience:travelerExperience|| "experienced",
+  emotionalState:    emotionalState    || "exploring",
+  diningDepth:       diningDepth       || "balanced",
+  socialComfort:     socialComfort     || "balanced",
+  travelPersonality: travelPersonality || "balanced",
+  planningStyle:     planningStyle     || "balanced"
 };
 
 console.log("✅ SKYmora Trip Data Ready:", window.skymoraTrip);
@@ -1737,6 +1766,13 @@ setTimeout(() => {
   conversationHistory.push({ role: "user", content: message });
   chatInput.value = "";
 
+  // Show "Olivia is typing..." immediately — this IS the wait, not extra on top of it
+  const typingMsg = document.createElement("div");
+  typingMsg.className = "msg agent typing-indicator";
+  typingMsg.innerHTML = `<span class="typing-dots"><span></span><span></span><span></span></span>`;
+  chatMessages.appendChild(typingMsg);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+
   try {
     const response = await fetch(`${window.location.origin}/api/chat-trinity`, {
       method: "POST",
@@ -1787,24 +1823,21 @@ setTimeout(() => {
 
 
 
-    // 3) Choose realistic delay based on message size
-    const delay = getReplyDelay(fullResponse);
+    // Generation time WAS the realistic delay — just swap typing indicator for the message
+    typingMsg.remove();
+    const agentMsg = document.createElement("div");
+    agentMsg.className = "msg agent";
+    agentMsg.textContent = fullResponse || "I'm here — how can I help?";
+    chatMessages.appendChild(agentMsg);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
 
-    // 4) Drop full message at once
-    setTimeout(() => {
-      const agentMsg = document.createElement("div");
-      agentMsg.className = "msg agent";
-      agentMsg.textContent = fullResponse || "I'm here — how can I help?";
-      chatMessages.appendChild(agentMsg);
-      chatMessages.scrollTop = chatMessages.scrollHeight;
-
-      if (fullResponse) {
-        conversationHistory.push({ role: "agent", content: fullResponse });
-      }
-    }, delay);
+    if (fullResponse) {
+      conversationHistory.push({ role: "agent", content: fullResponse });
+    }
 
   } catch (err) {
     console.error("Chat error:", err);
+    typingMsg.remove();
     const errorMsg = document.createElement("div");
     errorMsg.className = "msg agent";
     errorMsg.textContent = "Sorry, I'm having trouble connecting. Please try again.";

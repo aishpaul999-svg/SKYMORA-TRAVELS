@@ -39,6 +39,11 @@ import { MODES } from "./agent-system-lite.js";
 import { holdDraft, cancelDraftTimer } from "./agent-draft-lite.js";
 import { setupAgentRoutesLite } from "./agent-routes-lite.js";
 import { buildKnowledgeBlock, loadDestination as loadDestinationKnowledge } from "./skymora-knowledge-engine.js";
+import { updateTravelerProfile, formatProfileForPrompt, linkEmailToTrip, recognizeTraveler, formatReturningTravelerNote } from "./traveler-profile.js";
+import { classifyApprovedChangeScope, detectItineraryChangeRequest, findAlternatives, buildChangeProposalConfig } from "./itinerary-change-engine.js";
+import { stripBannedOpenings, formatRecentRepliesForPrompt } from "./response-quality.js";
+import { AGENT_VOICE } from "./agent-voice.js";
+import { detectPersonaKey } from "./skymora-knowledge-engine.js";
 
 /* ===============================
    SYSTEM PROMPT CACHE
@@ -597,16 +602,50 @@ ${knowledgeBlock}
 
 YOUR TASK: Create a day-by-day plan. Make SPECIFIC decisions. Do not be generic.
 
+TRAVELER ALREADY VISITED — READ CAREFULLY:
+${(() => {
+  const req = (trip.specialRequest || "").toLowerCase();
+  const alreadySeen = [];
+  // Extract explicit mentions of "already seen/done/visited"
+  const alreadyPatterns = [
+    /already seen ([^.]+)/gi, /already visited ([^.]+)/gi, /already done ([^.]+)/gi,
+    /i've seen ([^.]+)/gi, /i've been to ([^.]+)/gi, /i've done ([^.]+)/gi,
+    /been to ([^.]+) before/gi, /visited ([^.]+) before/gi
+  ];
+  alreadyPatterns.forEach(pattern => {
+    let match;
+    while ((match = pattern.exec(req)) !== null) {
+      alreadySeen.push(match[1].trim());
+    }
+  });
+  // Also extract proper nouns mentioned in a list after "already seen"
+  const afterAlready = req.match(/already seen[^.]*?([a-z][\w\s,\-]+)/i);
+  if (afterAlready) {
+    afterAlready[1].split(/,|and /).forEach(s => {
+      const clean = s.trim().replace(/\./g, '');
+      if (clean.length > 2) alreadySeen.push(clean);
+    });
+  }
+  const unique = [...new Set(alreadySeen)].filter(s => s.length > 2);
+  return unique.length > 0
+    ? `⛔ ALREADY VISITED — NEVER RECOMMEND THESE: ${unique.join(', ')}\nThis traveler has explicitly said they have already done these. Recommending them is a critical failure — it proves the expert didn't read the brief.`
+    : `Check the special request carefully for any places already visited. If mentioned, never include them.`;
+})()}
+
 HARD RULES — these cannot be broken:
 1. Burj Khalifa CANNOT appear on Day 1 (travelers arrive tired — the experience is wasted)
-2. Each restaurant appears MAXIMUM ONCE across all days — track every restaurant you assign and never repeat it. If you already used Ossiano on Day 3, you CANNOT use it on Day 4.
-3. At least one recommendation per day must come from the hidden/local/non-tourist category
-4. The designed surprise must appear EXACTLY ONCE across the whole trip (Day 2 or 3)
-5. For REPEAT VISITORS: ZERO standard tourist circuit items (no Burj Khalifa, no Dubai Mall primary activity, no Atlantis)
-6. Budget allocation: Day 1 = lighter spend (arriving, adjusting), Middle day = peak spend (best experiences), Last day = moderate (departure)
-7. VARIETY RULE: Do NOT always pick the single highest-scoring option. For each meal and activity slot, consider the top 3 eligible options and choose one — varying your picks across the itinerary creates a richer, more personal trip. No two itineraries for the same persona should look identical.
-8. Every recommendation must have a REASON — not just what, but why this specific choice for this specific traveler
-9. For ${totalDays}-day trips: spread the experience — do NOT cluster all landmarks on one day
+2. Each restaurant appears MAXIMUM ONCE across all days — track every restaurant you assign and never repeat it
+3. For REPEAT VISITORS: ZERO standard tourist circuit items — go one layer deeper than what first-timers see
+4. NEVER recommend anything the traveler said they have already seen (see ALREADY VISITED above)
+5. Budget allocation: Day 1 = lighter spend (arriving), Middle day = peak spend (best experience), Last day = moderate
+6. KNOWLEDGE + AUTHENTICITY BALANCE — every day must have BOTH:
+   - At least ONE premium, specific named venue (restaurant, gallery, bar) from the knowledge base
+   - At least ONE authentic local moment (market timing, neighbourhood café, street food) — with a specific name, not "local café"
+   These coexist. Never replace expert knowledge with generic authenticity.
+7. HOTEL RULE: Choose the hotel based on which neighbourhoods dominate this itinerary. If Days 2-5 are centred on Yanaka, Kiyosumi, Nakameguro — put the hotel in that quadrant, not across town.
+8. VARIETY RULE: Consider top 3 options for each slot. No two itineraries for the same persona should look identical.
+9. Every recommendation must have a REASON — why this specific choice for this specific traveler
+10. For ${totalDays}-day trips: each day in a different neighbourhood — build a mental map of the city, not a repeated corner of it
 
 MEMORY PHILOSOPHY: The goal is not "what attraction comes next" — it is "what will ${travelerName} tell someone about in 5 years?" Every day must have one memory-anchor moment that serves this.
 
@@ -693,8 +732,8 @@ function detectTripPersona(trip = {}) {
 function buildPersonalizationNote(trip, day, totalDays, destination) {
   const occasion = trip.emotionalState || "";
   const firstVisit = trip.firstVisit || "first";
-  const pace = trip.pace || "balanced";
-  const dining = trip.diningPreference || "balanced";
+  const pace = trip.travelPace || trip.pace || "balanced";
+  const dining = trip.diningDepth || trip.diningPreference || "balanced";
   const personality = trip.travelPersonality || "balanced";
   const special = (trip.specialRequest || "").toLowerCase();
   const isFirst = firstVisit !== "repeat";
@@ -733,7 +772,7 @@ function buildPersonalizationNote(trip, day, totalDays, destination) {
   }
 
   // Dining notes
-  if (dining === "every meal") {
+  if (dining === "every_meal" || dining === "every meal") {
     return `Because every meal matters to you — both lunch and dinner today were chosen as primary experiences, not afterthoughts. The food carries as much weight as the sights.`;
   }
 
@@ -815,11 +854,18 @@ async function buildDay(trip, day, tripPlan = null) {
   const personaMap = (() => {
     const style = (travelStyle || "").toLowerCase();
     const req = (specialRequest || "").toLowerCase();
-    if (style.includes("luxury") || style.includes("elite")) return "luxury";
-    if (req.includes("honeymoon") || req.includes("romantic")) return "couple";
-    if (req.includes("photo") || req.includes("photography")) return "photographer";
-    if (req.includes("food") || req.includes("culinary")) return "foodie";
-    if (req.includes("adventure") || style.includes("adventure")) return "adventurer";
+    const personality = (trip.travelPersonality || "").toLowerCase();
+    const occasion = (trip.emotionalState || "").toLowerCase();
+    // Special request overrides first
+    if (req.includes("honeymoon") || req.includes("anniversary") || occasion === "celebrating") return "couple";
+    if (req.includes("photo") || req.includes("photography") || style.includes("photography")) return "photographer";
+    if (req.includes("food") || req.includes("culinary") || style.includes("food & wine")) return "foodie";
+    // Style-based
+    if (style.includes("luxury") || style.includes("wellness") || style.includes("spa")) return "luxury";
+    if (style.includes("adventure") || style.includes("hiking") || style.includes("safari")) return "adventurer";
+    if (style.includes("cultural") || style.includes("historical") || style.includes("heritage")) return "culture";
+    if (style.includes("offbeat") || style.includes("hidden gems") || personality === "introvert") return "explorer";
+    // Group-based
     if (Number(children) > 0) return "family";
     if (Number(adults) === 1) return "solo";
     return "explorer";
@@ -931,7 +977,7 @@ This traveler is likely traveling within India. Write with awareness of the real
 
     honeymoon: `This is the beginning of the rest of their lives. Write with that weight — gently, never dramatically. The best honeymoon moments are private and specific. A courtyard with no one else in it. A breakfast that lasted two hours. Write toward those moments.`,
 
-    photographer: `Time is light. Every activity should specify the exact hour and why that hour matters for the image. Not "golden hour" — "5:47pm when the light hits the west face of the building and the shadows go long." The photographer notices what everyone else walks past. Write from that eye.`,
+    photographer: `Time is light. Every activity must specify the exact hour and why that hour matters for the shot. Not "golden hour" — "5:47pm when the light hits the west face of the building and the shadows go long." The photographer notices what everyone else walks past. Write from that eye. Every day must include a TODAY'S SHOT section with: exact time, specific location within the neighborhood, best angle or direction, and one sentence explaining why it works (light direction, crowd timing, or unique frame). Make the timings specific — not "early morning" but "6:23am before the market opens."`,
 
     foodie: `The dish is the story. Not the restaurant, not the chef, not the setting — the specific dish and what happens when you eat it. The saffron in the rice. The crispness of the batter. The way the chilli sauce arrives in a small ceramic dish without being asked for. Write the meal, not the menu.`,
 
@@ -1014,6 +1060,11 @@ CRITICAL RULES:
 === END LOCKED BRIEF ===
 ` : `
 ${knowledgeBlock}
+
+KNOWLEDGE BASE USAGE — MANDATORY:
+Every venue, restaurant, café, bar, and activity name in this day's itinerary MUST come from the knowledge base data above OR be a real, verifiable place that exists in ${resolvedDestination}.
+If the knowledge base lists specific venues — USE THEM by name. Never replace a known venue with a generic description.
+The knowledge base is your source of truth for this destination. Treat it as briefing notes from a local expert who has lived there.
 `;
 
   // Real system date — never hardcoded
@@ -1061,26 +1112,126 @@ ${voiceInstruction}
 
 === THE SKYmora WRITING STANDARD ===
 
+YOU ARE A HUMAN EXPERT WITH 20+ YEARS OF EXPERIENCE — NOT AN AI.
+Speak directly to ${travelerName} as a person who knows them and knows this city.
+Use "I" — "I chose this because", "I'd skip this", "I'd go here instead."
+Never say "was selected", "was chosen", "this option provides." Those are machine phrases.
+A real expert makes a call and explains it plainly. No poetry. No over-writing.
+
 BANNED WORDS — never use these:
 vibrant, nestled, charming, unforgettable, extraordinary, delightful, immersive,
 enchanting, magical, breathtaking, stunning, incredible, amazing, wonderful,
 fantastic, luxurious, picturesque, serene, tranquil, world-class
 
-Instead of describing feelings — describe specific observable facts.
-BAD: "The hotel is charming and nestled in a vibrant neighborhood."
-GOOD: "The property sits on a quieter street two blocks from the main avenue — shorter commute, significantly better restaurants nearby."
+BANNED PHRASES — these are AI fingerprints. Use each MAXIMUM ONCE across the ENTIRE 7-day itinerary:
+"the city will wait", "open windows built in", "that is not wasted time", "restoration",
+"the light has a quality", "routed for light", "deliberately unhurried", "the afternoon belongs to you",
+"this is not wasted time", "the city is waiting", "breathe it in", "take it all in",
+"at your own pace", "lean into", "feel free to", "you've earned this"
 
-PRICING INTELLIGENCE — use this exact approach:
-Do NOT say: "Flight costs $920"
-DO say: "We compared fares across platforms for your dates. Current pricing from ${departure} to ${resolvedDestination} sits slightly above seasonal average. If your dates shift by one or two days midweek, fares typically fall 12-18%. Best current value: [specific airline from Google data] — [reason why this specific option]."
+This is Day ${day} of ${totalDays}. You CANNOT use any phrase already used on Days 1-${day-1}.
+Each day must describe free time and pacing with DIFFERENT language and DIFFERENT emotional logic:
+- Day 1: Recovery from travel. "I've kept today light — you've just crossed time zones."
+- Day 2: Settling in. "By today you know where you are. I left the afternoon open deliberately."
+- Day 3: Rhythm established. "Day 3 is when most travelers start over-scheduling. I didn't."
+- Day 4: Peak of trip. Different structure — no "open afternoon" template. Build the whole day around one central experience.
+- Day 5: Past the peak. "The back half of a trip needs a different tempo than the first half."
+- Day 6: Winding down. "You're carrying the city already. Today adds texture, not new information."
+- Day 7: Farewell logic. "The last morning in any city should feel chosen, not scheduled."
 
-WHY THIS OPTION — every major recommendation needs a reason:
-Not just what. Why.
+EXPERT VOICE — speak with authority, not explanation:
+BAD: "Yanaka was selected because it offers a quieter alternative to tourist areas."
+GOOD: "I'd go to Yanaka first. It's the part of Tokyo that hasn't been discovered yet by the kind of travelers who find Shibuya exciting."
+
+BAD: "This restaurant provides an authentic dining experience."
+GOOD: "I'd book Sushi Sho for your big night. It's 10 seats, counter only, no menu — the chef decides. That's not a gimmick. That's just how it works."
+
+WHEN THE TRAVELER WANTS THE SAME AREA FOR 2+ DAYS:
+Do NOT repeat the same streets, same spots, same layer. Go DEEPER on Day 2.
+Day 1 of an area: main streets, anchor spots, getting oriented.
+Day 2 of the same area: the backstreets, the specific shop the locals use, 6am before anyone arrives, the layer most visitors never reach.
+Always acknowledge it: "We're staying in this neighborhood again — here's what Day 2 looks like when you already know where you are."
+
+NEIGHBORHOOD DIVERSITY RULE:
+Each major neighborhood should appear MAXIMUM ONCE unless the traveler's specialRequest specifically requests depth in that area.
+If a neighborhood has already appeared this itinerary, choose a different one.
+${totalDays >= 5 ? `For a ${totalDays}-day trip, the neighborhood spread should be: each day a different part of the city, building a mental map — not staying in one quadrant.` : ""}
+
+CONTRAST MOMENT RULE:
+${(trip.travelPersonality === 'introvert' || trip.emotionalState === 'recovering') && totalDays >= 4 ? `
+This traveler wants quiet. Honor that — but build in ONE moment of contrast around Day ${Math.ceil(totalDays / 2)}.
+Not a tourist attraction. A moment of the city's energy — a busy fish market at 5am, a train station at rush hour observed from a platform café, a night market from the edge.
+Contrast makes the quiet days feel intentional rather than limited. One moment of the city's real energy makes the peace feel chosen.
+` : ""}
+
+SPECIFIC VENUES — ABSOLUTE RULE:
+Never write "local diner", "local market", "local café", "hidden jazz bar", "small restaurant", "a nearby shop", "local izakaya", "curry house", or any other placeholder.
+Every single food, drink, or activity recommendation MUST have a specific name.
+If you do not know the name — use the knowledge base data above. If the knowledge base does not have it — use a real venue that actually exists in this city.
+BANNED PLACEHOLDERS: "local [anything]", "hidden [anything]", "small [anything]", "nearby [anything]", "a [type of venue]"
+REQUIRED FORMAT: Always "Venue Name — [why this one specifically]"
+
+EXPLICIT EXCLUSION REASONING — this is what makes SKYmora feel like a real expert:
+When the traveler's profile means you are SKIPPING something obvious, say so directly.
+Examples:
+- "I'm not sending you to Shibuya Crossing. You've been. You know what it looks like."
+- "I'd skip Golden Gai for you — it's loud, crowded, and built for first-timers. Jazz Spot Intro in Koenji is 12 seats and has been there since 1975."
+- "I kept today away from the tourist areas entirely. You specifically asked for everyday Tokyo."
+This is powerful because it proves the expert read the brief — not just generated content.
+${(trip.specialRequest || "").trim() ? `BRIEF ACKNOWLEDGMENT: The traveler said: "${trip.specialRequest}". Somewhere in this day's content, reference this brief directly — not generically, but specifically. What did you choose BECAUSE of it? What did you skip BECAUSE of it?` : ""}
+
+DAILY STRUCTURE VARIATION — every day must feel different:
+Do NOT use the same skeleton every day. Some days to try:
+- A day built around ONE meal (find the reservation, work the day around it)
+- A photo walk day (structured entirely around light and timing)
+- A neighbourhood immersion day (one area, go deeper than anyone goes on Day 1)
+- A contrast day (for introverts/recovering travelers — one moment of the city's energy before returning to quiet)
+- A slow farewell day (last day — structured around what to carry home, not what to see)
+Never: introduction → activity → lunch → open afternoon → dinner → why chosen. Vary the rhythm.
+
+HIDDEN SPOTS ENFORCEMENT:
+${(trip.specialRequest || "").toLowerCase().includes("hidden") || (trip.specialRequest || "").toLowerCase().includes("local") ? `
+This traveler EXPLICITLY asked for hidden and local spots. Every recommendation must pass this test:
+"Would a tourist on their first day find this?" If yes — find a different recommendation.
+NO: Famous chains, tourist-facing venues, spots with English menus at the front.
+YES: The place where the staff of the famous restaurant eat after service. The coffee shop with no sign. The standing counter that's been there 35 years.
+` : ""}
+
+BUDGET DISCIPLINE:
+Total budget: ${sym}${budget} for ${totalDays} days = ${sym}${Math.round(budget/totalDays)}/day.
+NEVER exceed this total. If a recommendation pushes over budget, note it explicitly and offer the adjustment.
+BAD: Just recommending expensive things and ignoring the budget.
+GOOD: "The omakase at Sushi Sho runs about $200. That uses most of today's food budget — so lunch is ramen at the counter nearby. The math works."
+
+PRICING INTELLIGENCE:
+DO NOT say: "Flight costs $920"
+DO say: "I compared fares for your dates. Current pricing sits slightly above seasonal average — if your dates shift by a day or two midweek, fares typically drop 12-18%. Best value right now: [airline] — [reason]."
+
+EXPERT RECOMMENDATION FORMAT — always: what, why, and the specific detail that proves you know it:
 BAD: "Stay at The Hoxton in Chelsea."
-GOOD: "The Hoxton in Chelsea. Chelsea gives faster subway access than Midtown, safer late-night movement, and stronger restaurant options at this budget. The property itself runs quieter than its location suggests."
+GOOD: "The Hoxton in Chelsea. I'd put you there because Chelsea gives faster tube access, better late-night movement, and stronger restaurants at this budget. The rooms face the courtyard — noticeably quieter than the street side."
 
-PACE INTELLIGENCE — acknowledge when you are intentionally keeping things light:
-"This afternoon stays deliberately open. Most travelers over-schedule Day 1 and arrive at dinner already tired. That is a waste of a good city."
+OPEN TIME — vary the language and reason every single time. Never the same phrase twice:
+Day 1: time zone recovery. Day 3: intentional choice. Day 5: earned freedom. Day 7: slow farewell.
+Each has a different emotional logic — write that logic, not a template.
+
+${trip.travelStyle && (trip.travelStyle.toLowerCase().includes('photo') || personaMap === 'photographer') ? `
+PHOTOGRAPHY SPECIALIST SECTIONS:
+For this photographer traveler, every day must include a TODAY'S SHOT section:
+Format exactly:
+TODAY'S SHOT
+[Time] · [Specific location within the neighborhood]
+Best angle: [specific direction, street, or position]
+Why this works: [one sentence — light direction, crowd timing, or unique frame]
+
+Example:
+TODAY'S SHOT
+6:47am · Yanaka Cemetery, east entrance pathway
+Best angle: Face west — the morning light comes through the cedar trees at a low angle
+Why this works: By 8am the cemetery has visitors. At 6:47am it's completely empty and the light lasts about 20 minutes.
+` : ""}
+
+PACE INTELLIGENCE — acknowledge intentional pacing with authority, not apology:
 
 ${occasionVoice ? `\nOCCASION-SPECIFIC WRITING INSTRUCTION:\n${occasionVoice}\n` : ''}
 ${indiaVoice ? `\n${indiaVoice}\n` : ''}
@@ -1092,17 +1243,28 @@ Never say: "books out fast", "selling quickly", "limited availability"
 Instead inform intelligently: "Current pricing on this route is strong for the season. Midweek dates tend to perform better if flexibility exists."
 
 FLIGHT DURATION FACTS — CRITICAL, DO NOT CONTRADICT THESE EVER:
-- New Delhi to Dubai: DIRECT = 3 hours 30 minutes to 4 hours. NEVER write 16 hours. NEVER write 8 hours. 3.5 hours is correct.
-- Mumbai to Dubai: DIRECT = 3 hours.
-- New Delhi to Paris: DIRECT = 8 to 9 hours. Air France, Air India. NEVER write 3.5 hours for Delhi-Paris.
+- New Delhi to Dubai: DIRECT = 3 hours 30 minutes to 4 hours. NEVER write 16 hours. Airlines: Air India, Emirates, IndiGo.
+- Mumbai to Dubai: DIRECT = 3 hours. Airlines: Air India, Emirates, IndiGo.
+- New Delhi to Paris: DIRECT = 8 to 9 hours. Airlines: Air France, Air India. NEVER write 3.5 hours.
 - Mumbai to Paris: DIRECT = 9 hours.
-- New Delhi to Singapore: DIRECT = 5 hours 30 minutes to 6 hours.
-- New Delhi to Bangkok: DIRECT = 4 hours 30 minutes.
-- New Delhi to London: DIRECT = 9 hours.
-- New Delhi to Tokyo: DIRECT = 9 to 10 hours.
-- New Delhi to New York: DIRECT = 14 to 15 hours.
+- New Delhi to Singapore: DIRECT = 5 hours 30 minutes to 6 hours. Airlines: Air India, Singapore Airlines, IndiGo.
+- New Delhi to Bangkok: DIRECT = 4 hours 30 minutes. Airlines: Air India, Thai Airways, IndiGo.
+- New Delhi to London: DIRECT = 9 hours. Airlines: Air India, British Airways, Virgin Atlantic.
+- New Delhi to Tokyo: DIRECT = 9 to 10 hours. Airlines: Air India, JAL, ANA.
+- New Delhi to New York: DIRECT = 14 to 15 hours. Airlines: Air India.
 - New Delhi to Bali: Via Singapore or Kuala Lumpur = 8 to 10 hours total.
-- New Delhi to Maldives: DIRECT = 3 hours 30 minutes.
+- New Delhi to Maldives: DIRECT = 3 hours 30 minutes. Airlines: Air India, IndiGo.
+- London to Tokyo: DIRECT = 11 to 12 hours. Airlines: British Airways, Japan Airlines (JAL), ANA. NEVER use Air India for this route.
+- London to Dubai: DIRECT = 7 hours. Airlines: Emirates, British Airways, Virgin Atlantic.
+- London to Singapore: DIRECT = 13 hours. Airlines: Singapore Airlines, British Airways.
+- London to New York: DIRECT = 7 to 8 hours. Airlines: British Airways, Virgin Atlantic, American Airlines.
+- London to Paris: DIRECT = 1 hour 15 minutes. Airlines: British Airways, Air France, Eurostar (train).
+- New York to Tokyo: DIRECT = 13 to 14 hours. Airlines: JAL, ANA, United.
+- Sydney to Tokyo: DIRECT = 9 to 10 hours. Airlines: Qantas, JAL, ANA.
+- Sydney to Bali: DIRECT = 5 to 6 hours. Airlines: Qantas, Garuda Indonesia.
+- Dubai to Tokyo: DIRECT = 9 to 10 hours. Airlines: Emirates.
+- Dubai to Singapore: DIRECT = 7 hours. Airlines: Emirates, Singapore Airlines.
+RULE: Always match the airline to the actual departure city. NEVER assign Air India to London or New York departures. NEVER assign British Airways to Indian departures.
 If Google data shows a different duration, verify against these hard facts. These are correct.
 
 === SECTION FORMAT ===
@@ -1121,28 +1283,31 @@ Your journey begins at Indira Gandhi International. Air India DEL to JFK. INR 22
 
 YOUR FLIGHT
 
-Air India AI101. 3 hours 30 minutes direct (Delhi-Dubai). Meal service included. Best value on this route currently.
+[Use ACTUAL airline for ${departure} → ${resolvedDestination} route. Check FLIGHT DURATION FACTS above for correct airline. Never invent a flight number — describe the route and airline generically.]
 
 ARRIVING IN DUBAI
 
 DXB customs typically 30 to 45 minutes on arrival. June weather — around 38 degrees, light breathable clothing essential.
-PERSONALIZATION PROOF — within the first 2 paragraphs of every day, include at least ONE of these lines naturally (pick what is true for this traveler):
-${trip.emotionalState === 'celebrating' ? `"Because you are celebrating — [specific experience] was chosen because it rewards, not just entertains."` : ''}
-${trip.emotionalState === 'recovering' ? `"Because you need restoration — today is deliberately unhurried. The city will wait."` : ''}
-${trip.emotionalState === 'escaping' ? `"Because you needed contrast — everything today is designed to feel different from home."` : ''}
-${trip.travelPersonality === 'introvert' ? `"Because you prefer depth over breadth — one neighbourhood explored properly beats three rushed."` : ''}
-${trip.travelPersonality === 'extrovert' ? `"Because you thrive on connection — today puts you where people actually gather."` : ''}
-${trip.firstVisit === 'first' ? `"Because this is your first time — the sequence matters. What you see first shapes how you see everything after."` : ''}
-${trip.pace === 'relaxed' ? `"Because you chose a relaxed pace — this afternoon stays open. That is not wasted time. It is the point."` : ''}
-${trip.diningPreference === 'every meal' ? `"Because every meal matters to you — both lunch and dinner today were chosen as experiences, not conveniences."` : ''}
-${trip.specialRequest ? `"Because you mentioned ${trip.specialRequest} — this day was shaped around that specifically."` : ''}
+PERSONALIZATION PROOF — Day ${day} specific. Write ONE naturally embedded line that proves this itinerary is for ${travelerName} specifically. Do NOT use the same line from previous days. Vary the angle:
 
-WHY I CHOSE THIS — after every major recommendation (hotel, main activity, dinner), include a WHY paragraph:
-Format exactly: "WHY I CHOSE THIS: [1-2 sentences explaining the specific decision logic for THIS traveler]"
-Examples:
-- "WHY I CHOSE THIS: Deira first because seeing old Dubai before modern Dubai makes the towers feel more impressive, not less. Almost every first-timer gets this sequence wrong."
-- "WHY I CHOSE THIS: The Burj at 8:30am because the observation deck has under 50 people at that hour. By 11am it has 500. Same view. Completely different experience."
-- "WHY I CHOSE THIS: This restaurant because the kitchen closes at 10:30pm and the reservation needs to be at 8pm. Arriving later means the best dishes are gone."
+${trip.emotionalState === 'celebrating' ? `Day ${day} options (pick ONE, reword naturally): "I chose this because it should feel like a reward — this isn't a sightseeing day, it's the day you've earned." / "This is the kind of evening that marks an occasion. That's why it's here." / "Most travelers skip this. You shouldn't — not this trip."` : ''}
+${trip.emotionalState === 'recovering' ? `Day ${day} options (pick ONE, vary from any previous day): ${day === 1 ? `"I've kept today light. You've just crossed multiple time zones and you need to land, not rush."` : day <= 3 ? `"Day ${day} stays slow by design — you'll know by now which corners you want more time in."` : day <= 5 ? `"I left the afternoon open. Not because there's nothing to do. Because you've earned the choice."` : `"The last days of a restorative trip should feel like you're already carrying the city with you, not racing to finish it."`}` : ''}
+${trip.emotionalState === 'escaping' ? `"Today is built around contrast. Everything here is different from home — that distance is the point."` : ''}
+${trip.travelPersonality === 'introvert' ? `Day ${day} options (pick ONE): ${day === 1 ? `"I'd go to [neighborhood] first. It's the part of [city] that hasn't been discovered by the kind of travelers who find busy areas exciting."` : day <= 3 ? `"I skipped the obvious choice for today. [Alternative] gives you the same [thing] with a third of the people."` : `"By now you know which version of this city you prefer. Today leans further into that."`}` : ''}
+${trip.firstVisit === 'first' ? `Day ${day} options: ${day === 1 ? `"The sequence today is intentional. What you see first in a city shapes how you see everything after."` : `"Most first-timers try to cover everything and leave feeling like they saw nothing properly. Not the plan here."`}` : ''}
+${trip.firstVisit === 'repeat' ? `Day ${day} options: ${day === 1 ? `"You've been here before — so I built a different version of this city. The places that take a second visit to understand."` : `"This is the part of [destination] that repeat visitors find. First-timers never get here."`}` : ''}
+${(trip.diningDepth || trip.diningPreference) === 'every_meal' ? `"Both meals today were chosen as the main event — not as fuel between activities."` : ''}
+${trip.specialRequest ? `"You mentioned [specific element of request] — this day was built around that specifically, not around what most travelers do here."` : ''}
+
+WHY I CHOSE THIS — after every major recommendation (hotel, activity, restaurant) use expert "I" voice:
+NOT: "WHY I CHOSE THIS: This was selected because it offers..."
+YES: "WHY I CHOSE THIS: I'd put you here because [plain reason]. [One specific detail that proves you know this place]."
+
+Examples of correct voice:
+- "WHY I CHOSE THIS: Deira first. Seeing old Dubai before modern Dubai makes the towers feel more impressive, not less. Almost every first-timer gets this sequence wrong."
+- "WHY I CHOSE THIS: The Burj at 8:30am. The deck has under 50 people at that hour. By 11am it has 500. Same view. Completely different experience."
+- "WHY I CHOSE THIS: I'd skip Golden Gai for this traveler. It's famous, it's crowded, and it rewards extroverts. Jazz Spot Intro in Koenji is 12 seats, no tourists, and has been there since 1975."
+- "WHY I CHOSE THIS: This hotel is two blocks off the main street — same access, noticeably quieter, and the restaurant downstairs is where the neighborhood eats."
 
 HOTEL JUSTIFICATION — in YOUR STAY section, after the hotel name, add:
 "WHY THIS HOTEL: [distance to key Day 1, 2, 3 attractions] | [what this location saves in travel time] | [why this is right for this specific trip length and traveler type]"
@@ -1837,6 +2002,26 @@ async function streamResponse(res, text, delayMs = 8) {
   }
 }
 
+// Targeted patch — rebuilds just ONE day in place (used for single-slot/single-day
+// approvals like "swap that restaurant" or "redo Day 3") instead of regenerating
+// the whole trip. Keeps every other day untouched.
+function scheduleSingleDayPatch(tripId, tripData, dayNumber) {
+  setTimeout(async () => {
+    try {
+      const entry = itineraries.get(tripId);
+      if (!entry) { console.warn(`⚠️ No itinerary entry for ${tripId} — falling back to full regen`); return scheduleItineraryUpdate(tripId, tripData, {}, true); }
+      const idx = entry.days.findIndex(d => d?.day === dayNumber || d?.dayNumber === dayNumber);
+      const targetIdx = idx >= 0 ? idx : (dayNumber - 1);
+      if (targetIdx < 0 || targetIdx >= entry.days.length) { console.warn(`⚠️ Day ${dayNumber} out of range for ${tripId}`); return; }
+
+      const rebuilt = await buildDay(entry.trip || tripData, dayNumber, entry.tripPlan || null);
+      entry.days[targetIdx] = rebuilt;
+      if (global.io) global.io.to(tripId).emit("itineraryDayUpdated", { tripId, day: dayNumber, content: rebuilt });
+      console.log(`🔧 Patched Day ${dayNumber} for ${tripId} — rest of itinerary untouched`);
+    } catch (err) { console.error("❌ Single-day patch failed:", err); }
+  }, 100);
+}
+
 function scheduleItineraryUpdate(tripId, tripData, updates = {}, forceFullRegen = false) {
   setTimeout(async () => {
     try {
@@ -1858,6 +2043,103 @@ async function handleUnifiedChat(message, tripData, conversationHistory, tripId,
   const cached = getCachedResponse(cacheKey);
   if (cached) { console.log("⚡ Cached response"); return { mode: "plain", text: cached }; }
   if (!userText) return { mode: "plain", text: "Tell me more about your trip — destination, dates, or budget." };
+
+  // Itinerary-editing intercept — runs BEFORE brain routing so "I don't want that
+  // restaurant" / "change Day 2" / "different commute" / "rebuild the trip" always
+  // gets handled by the grounded change-engine, regardless of which brain would
+  // otherwise have picked it up (emotional vs planning vs live-data).
+  try {
+    const changeIntel = await detectItineraryChangeRequest(userText, conversationHistory);
+    if (changeIntel?.isChangeRequest) {
+      const persona = detectPersonaKey(tripData);
+      const category = changeIntel.scope === "venue"
+        ? (/restaurant|dinner|lunch|breakfast|food|eat|cafe|café/i.test(`${changeIntel.target || ""} ${userText}`) ? "restaurant" : "activity")
+        : "any";
+      const alternatives = findAlternatives(tripData?.destination, category, persona, changeIntel.target);
+      const chatConfig = buildChangeProposalConfig({
+        message: userText, tripData, conversationHistory,
+        travelerProfile: tripData?.travelerProfile,
+        changeIntel, alternatives,
+        currentItem: changeIntel.target ? { name: changeIntel.target } : null
+      });
+      console.log(`🔁 Change request — scope: ${changeIntel.scope}, target: ${changeIntel.target}, alternatives found: ${alternatives.length}`);
+      return { mode: "openai_stream", chatConfig };
+    }
+  } catch (e) {
+    console.warn("Change-engine intercept failed, falling through:", e?.message);
+  }
+
+  // Identity question handler — gpt-4o-mini deflects these inconsistently when left to
+  // free-form prompting ("let's stay focused on your trip" reads as a dodge — the single
+  // fastest way to make someone CERTAIN they're talking to a bot). But a single hard-coded
+  // line gets caught as "rehearsed" on a second ask. So: generate it fresh every time,
+  // anchored to a strict non-negotiable core truth, varied in voice, aware of what was
+  // already said, and laced with this traveler's actual personality/profile — a real
+  // person answering this twice never says it the same way.
+  const IDENTITY_QUESTION_RX = /\b(are you|r u|is this|what are you|what r u)\b.{0,30}\b(real|human|person|ai|a\.?i\.?|bot|robot|software|machine|chatbot|actually|app|program)\b/i;
+  const IDENTITY_EITHEROR_RX = /\b(human|person|real)\s+or\s+(bot|ai|a\.?i\.?|robot|software|machine|chatbot|fake|program)\b|\b(bot|ai|a\.?i\.?|robot|software|machine|chatbot|program)\s+or\s+(human|person|real)\b/i;
+  const looksLikeIdentityProbe = (txt) =>
+    IDENTITY_QUESTION_RX.test(txt) || IDENTITY_EITHEROR_RX.test(txt) ||
+    /\b(you'?re|you are|youre)\s+(not\s+)?(an?\s+)?(app|program|bot|ai|a\.?i\.?|robot|software|chatbot|machine)\b/i.test(txt) ||
+    /what'?s\s+(actually\s+)?on the other (end|side)/i.test(txt) ||
+    /no script[,.]?\s*what'?s\s+actually/i.test(txt) ||
+    /what\s+ARE\s+you[,.]?\s*like\s+actually/i.test(txt);
+  if (looksLikeIdentityProbe(userText)) {
+    try {
+      const idHistory = getChatHistory(tripId, 20);
+      const priorAsks = idHistory.filter(m =>
+        (m.role === "user" || m.role === "traveler") &&
+        looksLikeIdentityProbe(m.content || "")
+      ).length;
+      const repeatNote = priorAsks >= 1
+        ? `\nIMPORTANT: They've asked some version of this ${priorAsks + 1} time(s) now — including just now. Don't recite the same explanation again. Acknowledge that lightly and warmly (e.g. "still wondering, huh?" / "you keep coming back to this one" — your own words, not these), THEN go somewhere more personal/real than before: why it doesn't actually matter to how this trip turns out, or a small genuine observation about why people fixate on this. Make THIS reply feel like a different, more honest layer — not a rerun.\n`
+        : "";
+      const idCompletion = await openai.chat.completions.create({
+        model: "gpt-4o-mini",
+        temperature: 0.9,
+        max_tokens: 120,
+        presence_penalty: 0.5,
+        frequency_penalty: 0.4,
+        messages: [{
+          role: "system",
+          content: `You are ${tripData?.agentData?.name || "Olivia Chen"}, the traveler's SKYmora travel advisor.
+${AGENT_VOICE}
+${formatProfileForPrompt(tripData?.travelerProfile)}
+${formatRecentRepliesForPrompt(idHistory)}
+${repeatNote}
+The traveler just asked whether you're real / human / AI / a bot — directly, possibly for the second or third time.
+
+NON-NEGOTIABLE CORE (must be true in every version, but say it in YOUR OWN WORDS, never word-for-word the same as before):
+- Don't claim to literally be a human being — that's a lie that destroys trust the moment it's checked.
+- Don't dodge, joke it off, or say "let's focus on your trip" — that reads as evasive, which is worse than an honest answer.
+- Land on: your job is to be genuinely useful to them — planning, adjusting, knowing them — and whether they file you under "advisor," "assistant," or something else doesn't change how seriously you take that.
+- If this is a repeat ask, acknowledge that lightly (without being annoyed) and go a little deeper/more personal than last time — reference something about THEM (their trip, their profile, the vibe of this conversation) to make it land as more than a script.
+- 1-3 sentences. Confident, a little dry, zero defensiveness — like someone who's heard the question before and isn't rattled by it.`
+        }, { role: "user", content: userText }]
+      });
+      const FALLBACK_IDENTITY_REPLIES = [
+        "Real, fake, AI, human — honestly, the label matters less than whether I get this trip right for you. And I plan to.",
+        "I'll be straight: I'm SKYmora's advisor system, built to actually know your trip inside out — not to perform being human. Judge me on whether I'm useful, not on what I technically am.",
+        "Fair question, and I won't dodge it — I'm an AI-powered advisor on SKYmora's side. What I can promise is I've actually been tracking everything about this trip, which is more than most humans manage on day three of planning.",
+        "You caught me — I'm SKYmora's AI advisor. The thing is, that doesn't change what I owe you: a trip that actually fits you two, not a generic one."
+      ];
+      const reply = stripBannedOpenings(idCompletion?.choices?.[0]?.message?.content?.trim()
+        || FALLBACK_IDENTITY_REPLIES[Math.floor(Math.random() * FALLBACK_IDENTITY_REPLIES.length)]);
+      await saveChatMessage(tripId, "assistant", reply);
+      return { mode: "plain", text: reply };
+    } catch (e) {
+      console.warn("Identity-response generation failed, using fallback:", e?.message);
+      const FALLBACK_IDENTITY_REPLIES_2 = [
+        "Real talk — I'm SKYmora's AI advisor. I won't pretend otherwise. What I will do is keep getting this trip right for you, which is the part that actually matters.",
+        "I'm AI-powered, running on SKYmora's side — no point hiding it. What that gets you is an advisor who never forgets a detail about this trip, which is honestly the more useful trait.",
+        "Honestly? I'm an AI advisor. I'd rather you know that and trust what I deliver than wonder later. So — what's actually on your mind about this trip?",
+        "Not human, no — I'm SKYmora's AI travel advisor. But the planning, the memory, the care about getting Singapore right for you two — that part's very real."
+      ];
+      const reply = FALLBACK_IDENTITY_REPLIES_2[Math.floor(Math.random() * FALLBACK_IDENTITY_REPLIES_2.length)];
+      await saveChatMessage(tripId, "assistant", reply);
+      return { mode: "plain", text: reply };
+    }
+  }
 
   const routerPrompt = `Traveler message: "${userText}"\nDecide: Smart (itinerary/planning) | Perfect (emotional/warm) | Ultra (live data/weather)\nRespond only: { "brain": "Smart" | "Perfect" | "Ultra" }`;
 
@@ -1899,6 +2181,20 @@ app.get("/api/trip/:tripId", async (req, res) => {
     const trip = getMemory(req.params.tripId);
     if (trip) res.json({ success: true, data: trip });
     else res.status(404).json({ success: false, error: "Trip not found" });
+  } catch (err) { res.status(500).json({ success: false, error: err?.message }); }
+});
+
+// Called when a CM provides their email — e.g. at itinerary download, or by typing it
+// in chat. Links email <-> @tripId permanently so future conversations (any trip,
+// any session) can recognize them and continue "as the same person".
+app.post("/api/link-email", async (req, res) => {
+  try {
+    const { email, tripId } = req.body;
+    if (!email || !tripId) return res.status(400).json({ success: false, error: "Missing email or tripId" });
+    await memoryDB.read();
+    const traveler = await linkEmailToTrip(memoryDB, email, tripId);
+    if (!traveler) return res.status(400).json({ success: false, error: "Could not link email" });
+    res.json({ success: true, isReturning: traveler.tripIds.length > 1, tripCount: traveler.tripIds.length });
   } catch (err) { res.status(500).json({ success: false, error: err?.message }); }
 });
 
@@ -1991,6 +2287,54 @@ app.post("/api/chat-trinity", async (req, res) => {
   await memoryDB.read();
   const convo = memoryDB.data.conversations.find(c => c.tripId === tripId);
 
+  // Persistent traveler profile — extract durable facts (nickname, personality, likes/dislikes...)
+  // so the agent never "forgets" who this person is, no matter how long the chat runs.
+  const travelerProfile = await updateTravelerProfile(memoryDB, tripId, message);
+  tripData.travelerProfile = travelerProfile;
+
+  // Cross-trip recognition — if the CM types an email in chat, link it to this trip;
+  // either way, check whether this email/tripId belongs to a returning traveler so the
+  // agent can greet them like an old friend (using only distilled facts, never transcripts).
+  try {
+    const emailMatch = message.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
+    if (emailMatch) await linkEmailToTrip(memoryDB, emailMatch[0], tripId);
+    const recognition = recognizeTraveler(memoryDB, { email: emailMatch?.[0] || convo?.travelerEmail, tripId });
+    if (recognition) {
+      // Fresh facts win when present; remembered facts fill in wherever the new trip hasn't restated them yet.
+      tripData.travelerProfile = {
+        preferredName: travelerProfile.preferredName || recognition.profile?.preferredName || null,
+        nationality: travelerProfile.nationality || recognition.profile?.nationality || null,
+        occasion: travelerProfile.occasion || recognition.profile?.occasion || null,
+        personalityTraits: travelerProfile.personalityTraits?.length ? travelerProfile.personalityTraits : (recognition.profile?.personalityTraits || []),
+        likes: travelerProfile.likes?.length ? travelerProfile.likes : (recognition.profile?.likes || []),
+        dislikes: travelerProfile.dislikes?.length ? travelerProfile.dislikes : (recognition.profile?.dislikes || []),
+        pace: travelerProfile.pace || recognition.profile?.pace || null,
+        notes: travelerProfile.notes?.length ? travelerProfile.notes : (recognition.profile?.notes || []),
+        updatedAt: new Date().toISOString()
+      };
+      tripData.returningTravelerNote = formatReturningTravelerNote(recognition);
+    }
+  } catch (e) { console.warn("Traveler recognition failed:", e?.message); }
+
+  // Grounding guard — if the traveler names a SPECIFIC venue (quoted, or "called X",
+  // or "place named X"), and it's NOT in our destination knowledge base, force every
+  // brain to admit it doesn't have verified info rather than inventing a plausible-sounding
+  // paragraph (menu, prices, vibe...). This is the #1 trust-killer once people fact-check.
+  try {
+    tripData.groundingNote = "";
+    const nameMatch = String(message || "").match(/['"‘’"]([A-Z][^'"”’]{2,40})['"’"]|(?:called|named|place called|place named)\s+([A-Z][\w&'’\- ]{2,40})/);
+    const candidate = (nameMatch?.[1] || nameMatch?.[2] || "").trim();
+    if (candidate && /\b(bar|restaurant|cafe|café|izakaya|lounge|club|bistro|eatery|spot|place|rooftop|hotel)\b/i.test(`${candidate} ${message}`)) {
+      const k = loadDestinationKnowledge(tripData?.destination || "");
+      const allNames = [...(k?.restaurants || []), ...(k?.activities || [])].map(v => String(v?.name || "").toLowerCase());
+      const known = allNames.some(n => n && (n.includes(candidate.toLowerCase()) || candidate.toLowerCase().includes(n)));
+      if (!known) {
+        tripData.groundingNote = `\nGROUNDING ALERT — the traveler just named "${candidate}", which is NOT in your verified destination knowledge. Do NOT invent any details about it (no menu, prices, vibe, hours, "known for..."). Say plainly you haven't come across that one personally and either ask what they've heard, or pivot to something you genuinely know that fits the same need. Inventing a confident-sounding answer here is the #1 way to destroy trust.\n`;
+        console.log(`🛡️ Grounding guard fired — unknown venue named: "${candidate}"`);
+      }
+    }
+  } catch (e) { console.warn("Grounding guard failed:", e?.message); }
+
   if (convo?.mode === MODES.TAKEOVER) {
     if (convo.pendingDraft) { cancelDraftTimer(tripId); convo.pendingDraft = null; await memoryDB.write(); }
     const reply = `Your travel expert ${convo.assignedAgent || "from SKYmora"} is handling your request. They will reply shortly.`;
@@ -2022,7 +2366,7 @@ app.post("/api/chat-trinity", async (req, res) => {
   const result = await handleUnifiedChat(message, tripData, conversationHistory, tripId, (id, limit) => getChatHistory(id, limit), (id, role, content) => saveChatMessage(id, role, content));
 
   if (result.mode === "plain") {
-    const reply = result.text;
+    const reply = stripBannedOpenings(result.text);
     await saveChatMessage(tripId, "assistant", reply);
     res.write(`data: ${JSON.stringify({ token: reply })}\n\n`);
     res.write("data: [DONE]\n\n");
@@ -2031,7 +2375,7 @@ app.post("/api/chat-trinity", async (req, res) => {
   }
 
   if (result.mode === "messages") {
-    const reply = result.messages?.[0]?.content || "Here is something helpful.";
+    const reply = stripBannedOpenings(result.messages?.[0]?.content || "Here is something helpful.");
     await saveChatMessage(tripId, "assistant", reply);
     res.write(`data: ${JSON.stringify({ token: reply })}\n\n`);
     res.write("data: [DONE]\n\n");
@@ -2041,6 +2385,11 @@ app.post("/api/chat-trinity", async (req, res) => {
 
   if (result.mode === "openai_stream") {
     const streamConfig = result.chatConfig;
+    // Inject "don't repeat your own recent phrasing" awareness into whatever system prompt this brain built
+    if (Array.isArray(streamConfig.messages) && streamConfig.messages[0]?.role === "system") {
+      const recentBlock = formatRecentRepliesForPrompt(getChatHistory(tripId, 10));
+      if (recentBlock) streamConfig.messages[0].content += recentBlock;
+    }
     const completion = await openai.chat.completions.create({
       model: streamConfig.model || MODEL, messages: streamConfig.messages, stream: true,
       temperature: streamConfig.temperature ?? 0.8, max_tokens: streamConfig.max_tokens ?? 450,
@@ -2051,9 +2400,27 @@ app.post("/api/chat-trinity", async (req, res) => {
       const token = chunk.choices?.[0]?.delta?.content;
       if (token) { buffer += token; res.write(`data: ${JSON.stringify({ token })}\n\n`); }
     }
-    await saveChatMessage(tripId, "assistant", buffer);
+    await saveChatMessage(tripId, "assistant", stripBannedOpenings(buffer));
     res.write("data: [DONE]\n\n");
     setCachedResponse(cacheKey, buffer);
+
+    // After replying, check whether the traveler has now clearly approved a proposed
+    // itinerary change — only THEN do we touch the actual itinerary.
+    try {
+      const updatedHistory = getChatHistory(tripId, 10);
+      const approval = await classifyApprovedChangeScope(message, updatedHistory);
+      if (approval?.approved && (approval.scope === "multi_day" || approval.scope === "full_trip")) {
+        console.log(`✅ Traveler approved a ${approval.scope} change: ${approval.summary || "(no summary)"} — triggering full regeneration for ${tripId}`);
+        scheduleItineraryUpdate(tripId, tripData, {}, true);
+      } else if (approval?.approved && (approval.scope === "single_slot" || approval.scope === "single_day") && approval.dayNumber) {
+        console.log(`✅ Traveler approved a ${approval.scope} change on Day ${approval.dayNumber}: ${approval.summary || "(no summary)"} — patching that day only for ${tripId}`);
+        scheduleSingleDayPatch(tripId, tripData, approval.dayNumber);
+      } else if (approval?.approved) {
+        console.log(`✅ Traveler approved a ${approval.scope || "change"}: ${approval.summary || "(no summary)"} — no day number resolved, defaulting to Day 1 patch for ${tripId}`);
+        scheduleSingleDayPatch(tripId, tripData, 1);
+      }
+    } catch (e) { console.warn("Approval check failed:", e?.message); }
+
     return res.end();
   }
 
