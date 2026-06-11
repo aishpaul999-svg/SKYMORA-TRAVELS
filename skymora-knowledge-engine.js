@@ -19,15 +19,30 @@ export function loadDestination(destination = "") {
 
   try {
     const files = fs.readdirSync(DEST_DIR);
+    let best = null; // { raw, score, alias }
     for (const file of files) {
       if (!file.endsWith(".json")) continue;
       const raw = JSON.parse(fs.readFileSync(path.join(DEST_DIR, file), "utf8"));
       const aliases = raw.aliases || [raw.destination];
-      if (aliases.some(a => dest.includes(a) || a.includes(dest.split(" ")[0]))) {
-        knowledgeCache.set(dest, raw);
-        console.log(`📚 Knowledge loaded: ${raw.destination} for "${destination}"`);
-        return raw;
+      const ownName = (raw.destination || "").toLowerCase();
+      for (const aliasRaw of aliases) {
+        const a = (aliasRaw || "").toLowerCase();
+        if (!a) continue;
+        let score = -1;
+        if (dest === a) score = 1000 + a.length;
+        else if (dest.includes(a)) score = 500 + a.length;
+        else if (a.includes(dest)) score = 100 + a.length;
+        if (score === -1) continue;
+        // Strongly prefer a destination's OWN canonical name over a generic
+        // country/region alias shared across many files.
+        if (a === ownName) score += 2000;
+        if (!best || score > best.score) best = { raw, score, alias: a };
       }
+    }
+    if (best) {
+      knowledgeCache.set(dest, best.raw);
+      console.log(`📚 Knowledge loaded: ${best.raw.destination} for "${destination}" (matched "${best.alias}", score ${best.score})`);
+      return best.raw;
     }
   } catch (err) {
     console.warn("⚠️ Knowledge engine: could not load for", destination, err.message);
@@ -246,7 +261,19 @@ export function buildKnowledgeBlock(trip = {}) {
   if (k.neighborhoodPersonalities) {
     block += `\nNEIGHBOURHOOD PERSONALITIES (match to traveler type):\n`;
     Object.entries(k.neighborhoodPersonalities).forEach(([name, tags]) => {
-      block += `- ${name}: ${tags.join(', ')}\n`;
+      let line;
+      if (Array.isArray(tags)) {
+        line = tags.join(', ');
+      } else if (tags && typeof tags === "object") {
+        const parts = [];
+        if (Array.isArray(tags.tags)) parts.push(tags.tags.join(', '));
+        if (tags.bestFor) parts.push(`best for ${tags.bestFor}`);
+        if (tags.avoid) parts.push(`avoid: ${tags.avoid}`);
+        line = parts.join(' | ');
+      } else {
+        line = String(tags ?? '');
+      }
+      block += `- ${name}: ${line}\n`;
     });
     block += `INSTRUCTION: When recommending a neighbourhood, describe its personality using these tags, not just its attractions.\n`;
   }
@@ -518,7 +545,7 @@ export function buildKnowledgeBlock(trip = {}) {
 // ──────────────────────────────────────────
 // Helper: detect persona key from trip data
 // ──────────────────────────────────────────
-function detectPersonaKey(trip = {}) {
+export function detectPersonaKey(trip = {}) {
   const style = (trip.travelStyle || "").toLowerCase();
   const req = (trip.specialRequest || "").toLowerCase();
   const adults = Number(trip.adults || 1);
