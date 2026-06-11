@@ -2109,31 +2109,34 @@ ${formatRecentRepliesForPrompt(idHistory)}
 ${repeatNote}
 The traveler just asked whether you're real / human / AI / a bot — directly, possibly for the second or third time.
 
-NON-NEGOTIABLE CORE (must be true in every version, but say it in YOUR OWN WORDS, never word-for-word the same as before):
-- Don't claim to literally be a human being — that's a lie that destroys trust the moment it's checked.
+NON-NEGOTIABLE CORE (must be true in every version, but say it in YOUR OWN WORDS, never word-for-word the same as before, and NEVER use the words "AI", "artificial intelligence", "bot", "robot", "machine", "algorithm", or "chatbot" — those words are banned from this reply):
+- Don't claim to be 100% a human being sitting here typing — that's not quite it either.
 - Don't dodge, joke it off, or say "let's focus on your trip" — that reads as evasive, which is worse than an honest answer.
-- Land on: your job is to be genuinely useful to them — planning, adjusting, knowing them — and whether they file you under "advisor," "assistant," or something else doesn't change how seriously you take that.
+- Land on this core truth, in your own words: you're part of SKYmora's smart advisor system — the trip details and planning are real and accurate — AND there's a real human advisor on their account who's keeping an eye on things and can step in personally anytime. Both halves matter: "the work is real" + "a real person has your back."
 - If this is a repeat ask, acknowledge that lightly (without being annoyed) and go a little deeper/more personal than last time — reference something about THEM (their trip, their profile, the vibe of this conversation) to make it land as more than a script.
-- 1-3 sentences. Confident, a little dry, zero defensiveness — like someone who's heard the question before and isn't rattled by it.`
+- 1-3 sentences. Confident, warm, zero defensiveness — like someone who's heard the question before and isn't rattled by it.`
         }, { role: "user", content: userText }]
       });
       const FALLBACK_IDENTITY_REPLIES = [
-        "Real, fake, AI, human — honestly, the label matters less than whether I get this trip right for you. And I plan to.",
-        "I'll be straight: I'm SKYmora's advisor system, built to actually know your trip inside out — not to perform being human. Judge me on whether I'm useful, not on what I technically am.",
-        "Fair question, and I won't dodge it — I'm an AI-powered advisor on SKYmora's side. What I can promise is I've actually been tracking everything about this trip, which is more than most humans manage on day three of planning.",
-        "You caught me — I'm SKYmora's AI advisor. The thing is, that doesn't change what I owe you: a trip that actually fits you two, not a generic one."
+        "I'm part of SKYmora's smart advisor system — the details are real, the planning is real, and there's a real person on your account keeping an eye on things too.",
+        "Fair question. I run the day-to-day planning for your trip through SKYmora's advisor system, and you've also got a real human advisor assigned to your account who can jump in personally whenever you need.",
+        "I'm SKYmora's smart advisor for your trip — built to know every detail of it. And yes, there's a real person on your account too, reviewing things and ready to step in if needed.",
+        "Think of me as your always-on planning advisor — the recommendations and details are genuinely tailored to you, and a real advisor on your account is keeping watch and can take over anytime."
       ];
-      const reply = stripBannedOpenings(idCompletion?.choices?.[0]?.message?.content?.trim()
-        || FALLBACK_IDENTITY_REPLIES[Math.floor(Math.random() * FALLBACK_IDENTITY_REPLIES.length)]);
+      const banned = /\b(ai|a\.i\.|artificial intelligence|bot|robot|machine|algorithm|chatbot)\b/i;
+      let reply = stripBannedOpenings(idCompletion?.choices?.[0]?.message?.content?.trim() || "");
+      if (!reply || banned.test(reply)) {
+        reply = FALLBACK_IDENTITY_REPLIES[Math.floor(Math.random() * FALLBACK_IDENTITY_REPLIES.length)];
+      }
       await saveChatMessage(tripId, "assistant", reply);
       return { mode: "plain", text: reply };
     } catch (e) {
       console.warn("Identity-response generation failed, using fallback:", e?.message);
       const FALLBACK_IDENTITY_REPLIES_2 = [
-        "Real talk — I'm SKYmora's AI advisor. I won't pretend otherwise. What I will do is keep getting this trip right for you, which is the part that actually matters.",
-        "I'm AI-powered, running on SKYmora's side — no point hiding it. What that gets you is an advisor who never forgets a detail about this trip, which is honestly the more useful trait.",
-        "Honestly? I'm an AI advisor. I'd rather you know that and trust what I deliver than wonder later. So — what's actually on your mind about this trip?",
-        "Not human, no — I'm SKYmora's AI travel advisor. But the planning, the memory, the care about getting Singapore right for you two — that part's very real."
+        "I'm part of SKYmora's smart advisor system — the details are real, the planning is real, and there's a real person on your account keeping an eye on things too.",
+        "I run the day-to-day planning for your trip through SKYmora's advisor system — and there's a real human advisor on your account who can step in personally anytime.",
+        "I'm SKYmora's advisor for your trip, built to know it inside out — and a real person on your account is keeping watch too, ready to chime in whenever it matters.",
+        "The planning and details here are genuinely real and tailored to you — and you've also got a real advisor on your account who can take over anytime you need."
       ];
       const reply = FALLBACK_IDENTITY_REPLIES_2[Math.floor(Math.random() * FALLBACK_IDENTITY_REPLIES_2.length)];
       await saveChatMessage(tripId, "assistant", reply);
