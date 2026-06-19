@@ -1,0 +1,267 @@
+{
+  "destination": "Tulum",
+  "country": "Mexico",
+  "region": "Americas",
+  "aliases": [
+    "Tulum",
+    "tulum",
+    "mexico"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History Enthusiasts",
+      "Beach Lovers",
+      "Eco-Conscious Travelers",
+      "Adventure Seekers",
+      "Foodies"
+    ],
+    "notFor": [
+      "Party Seekers",
+      "Budget Travelers",
+      "Those Seeking Fast-Paced Activities"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h to Cancun + 2h",
+    "flightFromMumbai": "approximately 22h with layovers, airlines include Air France, Lufthansa, and United Airlines",
+    "visaForIndians": "Visa-free with valid US/EU visa",
+    "currency": "Mexican Peso (MXN), 1 INR = 0.045 MXN",
+    "timezone": "UTC-5",
+    "language": "Spanish (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "December, as it offers pleasant weather and fewer crowds compared to peak season.",
+    "avoidMonth": "September, due to high humidity and potential hurricanes.",
+    "tipping": "Generally, 10-15% is appreciated in restaurants, and rounding up for taxis is common."
+  },
+  "whyPeopleFallInLove": "Imagine standing atop the ancient ruins of Tulum, the salty breeze tousling your hair as you gaze out at the turquoise Caribbean waters. The scent of fresh ceviche wafts from a nearby beachside shack, drawing you in for a culinary delight that perfectly complements the stunning view.",
+  "honestTruth": "Tulum's eco-luxury resorts often come with a hefty price tag, but many visitors are unaware that there are equally charming local stays just a short distance away that offer a more authentic experience at a fraction of the cost.",
+  "localTruths": [
+    "Most visitors think Tulum is all about Instagram spots. Locals think it's about genuine connections and sustainable living.",
+    "Most visitors rush to the beaches. The best version of Tulum is found in the cenotes that lie just inland, where the water is crystal clear and the surroundings serene.",
+    "Most visitors miss the local street food scene. The real Tulum starts at the food stalls in the town center, where you can find tacos de pescado that are fresher than any beachside restaurant."
+  ],
+  "neighborhoodPersonalities": {
+    "Beach Zone": {
+      "tags": [
+        "eco-luxury",
+        "beachfront",
+        "relaxation"
+      ],
+      "bestFor": "Those seeking an upscale beach experience with wellness options.",
+      "avoid": "Expect high prices and limited local culture."
+    },
+    "Tulum Town": {
+      "tags": [
+        "local",
+        "foodie",
+        "vibrant"
+      ],
+      "bestFor": "Travelers wanting authentic food and a local vibe.",
+      "avoid": "The nightlife can be overwhelming if you're looking for tranquility."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h to Cancun + 2h",
+        "airlines": [
+          "Air France",
+          "Lufthansa"
+        ],
+        "priceRange": "₹60,000-₹85,000 return",
+        "note": "Book at least 2-3 months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "approximately 22h",
+        "airlines": [
+          "Air France",
+          "United Airlines"
+        ],
+        "priceRange": "₹65,000-₹90,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available.",
+      "taxi": "Approximately 1500 MXN (₹6750) and takes about 1.5 hours.",
+      "recommended": "For first-timers, pre-booking a shuttle service is advisable for ease."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free with valid US/EU visa",
+    "applyAt": "Check with the U.S. or EU embassy for the latest visa regulations.",
+    "processingTime": "Usually granted on arrival when traveling with a valid US/EU visa.",
+    "tip": "Ensure your passport is valid for at least six months beyond your planned stay."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to 'El Café de la Playa' for their iconic chilaquiles verdes and a fresh, tropical juice.",
+    "sunset": "Catch the sunset at 'Cenote Dos Ojos'; the view from the cliffs is perfect at around 6:30 PM.",
+    "meal": "Dine at 'Hartwood' for their grilled octopus, which is a culinary highlight.",
+    "memory": "The moment you dive into a cenote and feel the cool water envelop you, surrounded by lush jungle.",
+    "secret": "Locals often gather for street food at 'Taquería La Nave' late at night; the al pastor tacos are a must-try."
+  },
+  "residentSunday": "A typical Sunday involves waking up early for a yoga class at 'Sanara', followed by brunch at 'The Real Coconut' with a coconut smoothie bowl. Later, a leisurely bike ride to 'Cenote Calavera' for a refreshing swim, and ending the day at 'Papaya Playa Project' for sunset drinks with friends.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport, feeling the warm Caribbean breeze hit your face.",
+    "peak": "The peak day memory target is when you explore the Tulum ruins at sunrise, capturing the first light hitting the ancient stones.",
+    "departure": "Departure should feel bittersweet, with a heart full of memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "A quick exploration of the ruins and beach time.",
+      "misses": "The cenotes and local town experience."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary covering beaches, ruins, and local food.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of nearby cenotes, eco-parks, and relaxation.",
+      "whoFor": "Families and adventure seekers."
+    },
+    "recommended": "Four days is ideal to soak in the beauty without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing to the beach first thing in the morning can lead to overcrowding. Instead, visit the ruins early then enjoy the beach later.",
+    "Booking only luxury accommodations can limit your authentic experiences. Consider mixing it up with local stays.",
+    "Trying to see every cenote in one day can lead to exhaustion—pace yourself and enjoy each one."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not visiting the cenotes, which offer a refreshing escape and stunning beauty.",
+    "Most visitors regret staying exclusively in the hotel zone and missing out on Tulum Town.",
+    "Most visitors regret not trying local street food, which often provides the best flavors."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to April",
+      "weather": "Average temperature around 25-30°C, mostly dry.",
+      "crowds": "High, especially during holidays.",
+      "verdict": "Book accommodations and activities well in advance."
+    },
+    "shoulderSeason": {
+      "months": "May to June",
+      "why": "Fewer crowds and good weather make this a pleasant time to visit."
+    },
+    "offSeason": {
+      "months": "July to October",
+      "reality": "Hot and humid, with potential for rain, but some enjoy lower prices and fewer people.",
+      "hiddenGem": "Cenotes are less crowded, offering a more personal experience."
+    },
+    "bestMonth": "December, as it combines pleasant weather with fewer visitors than January.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for cenote swimming."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Gran Cenote' early in the morning for less crowd and a serene atmosphere; entrance is around 200 MXN (₹900).",
+      "category": "experience"
+    },
+    {
+      "tip": "Try 'Tacos El Pescador' for the best fish tacos; they’re around 50 MXN (₹225) each.",
+      "category": "food"
+    },
+    {
+      "tip": "For a stunning beach, head to 'Las Palmas Beach'; it's lesser-known and has fewer tourists.",
+      "category": "beach"
+    },
+    {
+      "tip": "Join a guided tour for the Sian Ka'an Biosphere Reserve; prices start around 1500 MXN (₹6750).",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring cash; many places do not accept cards and ATMs can be limited.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Tacos de pescado at 'Los Aguachiles' for 60 MXN (₹270).",
+    "midRangeMeal": "Dinner at 'Trattoria Romana Tulum' with pasta and wine for about 700 MXN (₹3150).",
+    "luxuryMeal": "Dinner at 'Hartwood' with a multi-course tasting menu for around 3000 MXN (₹13,500).",
+    "localTransportPerDay": "Typical daily local transport cost is around 200 MXN (₹900) for bike rentals.",
+    "budgetHotelPerNight": "Hostels start at 500 MXN (₹2250) for shared dorms with basic amenities.",
+    "midRangeHotelPerNight": "Mid-range hotels average about 2000 MXN (₹9000) for a double room with breakfast.",
+    "luxuryHotelPerNight": "Luxury hotels range from 5000 MXN (₹22,500) upwards, offering high-end amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Hostel dorms at around 500 MXN (₹2250)",
+      "food": "Street food and local eateries for about 200 MXN (₹900)",
+      "transport": "Biking for around 200 MXN (₹900)"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels at about 2000 MXN (₹9000)",
+      "food": "Mix of local restaurants and occasional fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury in Tulum is often about the experience, with wellness and eco-luxury at the forefront."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting the ruins and cenotes; swimsuits should be covered by shorts or a dress.",
+    "Respect local customs, especially during festivals—participation is encouraged but be mindful.",
+    "Always use biodegradable sunscreen to protect the delicate marine ecosystem."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers may try to overcharge; always agree on a fare beforehand.",
+      "Watch out for overly aggressive street vendors."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Embassy of India in Mexico City, address: 15, Lote 23, 1st Floor, Avenida de la Paz, Mexico City"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Tulum Ruins",
+        "what": "Capture the iconic cliffside view of the ruins against the ocean.",
+        "bestTime": "Early morning for softer light.",
+        "tip": "Arrive before opening to avoid crowds."
+      }
+    ],
+    "goldenHour": "Sunset along the beach is around 6:30-7:00 PM.",
+    "tip": "Bring a polarizing filter to enhance the colors of the sea and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning at Tulum Ruins",
+        "Lunch at a local taco stand",
+        "Afternoon swimming in a cenote"
+      ],
+      "emotionalArc": "This sequence allows for cultural immersion followed by relaxation, creating a well-rounded day.",
+      "bestFor": [
+        "Culture Enthusiasts",
+        "Nature Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Coba",
+      "travelTime": "45 minutes",
+      "how": "By rental car or guided tour",
+      "whyCombine": "To explore ancient Mayan ruins less crowded than Tulum."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many beach areas and some restaurants are accessible, but not all cenotes are equipped for wheelchair access.",
+    "majorChallenges": "Uneven terrain at ruins and cenotes can make navigation difficult.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring a guide who can assist with mobility at the ruins."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain; events include local festivals celebrating the summer solstice, attracting both locals and travelers.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry with a valid US/EU visa remains unchanged."
+  }
+}

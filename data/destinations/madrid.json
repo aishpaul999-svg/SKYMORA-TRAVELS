@@ -1,0 +1,277 @@
+{
+  "destination": "Madrid",
+  "country": "Spain",
+  "region": "Europe",
+  "aliases": [
+    "Madrid",
+    "madrid",
+    "spain"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "art enthusiasts",
+      "nightlife seekers",
+      "history buffs",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "early risers",
+      "people seeking quiet retreats"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h",
+    "flightFromMumbai": "10h 30m via Emirates & Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Spanish",
+    "bestMonthToVisit": "April - Spring blossoms enhance the beauty of Retiro Park and outdoor dining is pleasant.",
+    "avoidMonth": "August - The heat can be extreme, making outdoor activities uncomfortable.",
+    "tipping": "10% is appreciated in restaurants, but it's not mandatory; rounding up is common."
+  },
+  "whyPeopleFallInLove": "As you stroll through the Prado Museum, the smell of fresh churros from a nearby café wafts in the air while you contemplate the masterpieces. Later, the strumming of a guitar and clapping fills the air in a flamenco bar where the dancers tell stories through their movements, making you feel alive.",
+  "honestTruth": "The nightlife can be overwhelming; locals often start their evenings late, and if you expect to party like you do in India, you might be caught off guard by the late dining hours and longer nights.",
+  "localTruths": [
+    "Most visitors think Madrid is just about tapas. Locals think it’s about the diversity of regional cuisines available in the city.",
+    "Most visitors rush through the museums. The best version of Madrid is enjoying a quiet stroll in Retiro Park after a museum visit.",
+    "Most visitors miss the local flamenco bars. The real Madrid starts at Casa Patas, where you can experience authentic flamenco performances."
+  ],
+  "neighborhoodPersonalities": {
+    "Malasaña": {
+      "tags": [
+        "hipster",
+        "artsy",
+        "nightlife"
+      ],
+      "bestFor": "young travelers looking for nightlife and vintage shops.",
+      "avoid": "Avoid if you prefer quieter evenings."
+    },
+    "Chueca": {
+      "tags": [
+        "LGBTQ+",
+        "trendy",
+        "gourmet"
+      ],
+      "bestFor": "food lovers and those interested in the local LGBTQ+ scene.",
+      "avoid": "Can be overly crowded during the weekend."
+    },
+    "Retiro": {
+      "tags": [
+        "relaxing",
+        "family-friendly",
+        "greenery"
+      ],
+      "bestFor": "families and those looking for a serene environment.",
+      "avoid": "It can be busy during weekends."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹45,000 - ₹65,000 return]",
+        "note": "Book 2-3 months in advance for the best deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h 30m",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹47,000 - ₹70,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Cost: €4.50, Time: 30 minutes to the city center.",
+      "taxi": "Cost: €30, Time: 20-30 minutes depending on traffic.",
+      "recommended": "The metro is the most efficient and cost-effective option for first-timers."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in Delhi or Mumbai.",
+    "processingTime": "15 days on average.",
+    "tip": "Apply at least a month in advance and ensure all documents are complete to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Chocolatería San Ginés - Order the churros with thick chocolate for an authentic experience.",
+    "sunset": "Temple of Debod at around 8:30 PM - The view of the sunset reflecting off the water is serene.",
+    "meal": "Sobrino de Botín - Try the cochinillo asado (roast suckling pig) for a taste of traditional cuisine.",
+    "memory": "Watching a spontaneous flamenco performance in a local bar where locals are just as captivated as the tourists.",
+    "secret": "Locals often gather at El Rastro flea market on Sundays for treasure hunting; it’s a cultural experience beyond the usual tourist spots."
+  },
+  "residentSunday": "On a free Sunday, a Madrid resident might start the day with brunch at Ouh Babbo in Malasaña, followed by a leisurely stroll through El Rastro flea market, and then head to Retiro Park to enjoy a picnic with friends. Dinner would likely be tapas at La Casa del Abuelo, followed by drinks in Chueca.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm Spanish sun welcoming you.",
+    "peak": "Experiencing the passionate energy of a flamenco show that lingers in your mind long after.",
+    "departure": "Feeling a bittersweet nostalgia as you take one last look at the city from the taxi."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions like the Prado Museum and Retiro Park.",
+      "misses": "In-depth culinary experiences and nightlife."
+    },
+    "three_to_four_days": {
+      "focus": "A well-rounded experience that includes local neighborhoods and cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of nearby towns and cultural immersion.",
+      "whoFor": "Culture enthusiasts and history buffs."
+    },
+    "recommended": "Four days is ideal to absorb the essence of Madrid without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing through the Prado without taking the time to appreciate the art can lead to disappointment.",
+    "Visiting popular tapas bars without making reservations can lead to long waits and missed experiences.",
+    "Attempting to see all major sights in one day often results in exhaustion and a lack of true appreciation."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying local delicacies at smaller eateries.",
+    "Most visitors regret not spending enough time in Retiro Park.",
+    "Most visitors regret leaving without experiencing an authentic flamenco show."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot, averaging 30°C",
+      "crowds": "High, with tourists flocking to major attractions.",
+      "verdict": "Best for those who enjoy a lively atmosphere."
+    },
+    "shoulderSeason": {
+      "months": "April to May",
+      "why": "Milder weather and fewer crowds make it enjoyable."
+    },
+    "offSeason": {
+      "months": "November to February",
+      "reality": "Cold temperatures, often below 10°C, but fewer tourists and lower prices exist.",
+      "oneReason": "Some prefer it for the peaceful ambiance and holiday decorations."
+    },
+    "bestMonth": "April - The weather is pleasant for outdoor activities.",
+    "currentSeason": "June 2026 is warm with temperatures around 32°C; tourists are everywhere."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Mercado de San Miguel for gourmet food; try the Iberico ham and local wines for authentic flavors at around €15.",
+      "category": "food"
+    },
+    {
+      "tip": "Catch a flamenco show at Casa Patas; reserve ahead for best seats and expect to pay around €30 per ticket.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore Lavapiés neighborhood for street art; it's an evolving canvas and less touristy.",
+      "category": "experience"
+    },
+    {
+      "tip": "Travel by bike along the Manzanares river; rent a bike for €10 per day.",
+      "category": "transport"
+    },
+    {
+      "tip": "Go to the rooftop of Círculo de Bellas Artes for a stunning view of the sunset; entry is around €5.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Tortilla Española at a café for around €5 (₹450)",
+    "midRangeMeal": "Paella at a local restaurant for around €20 (₹1,800).",
+    "luxuryMeal": "Dinner at DiverXO for around €300 (₹26,500) per person.",
+    "localTransportPerDay": "Around €5 (₹450) for unlimited metro rides.",
+    "budgetHotelPerNight": "Around €60 (₹5,400) for a hostel with shared facilities.",
+    "midRangeHotelPerNight": "Around €120 (₹10,800) for a 3-star hotel with breakfast included.",
+    "luxuryHotelPerNight": "Around €250 (₹22,500) for a 5-star hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Hostel dorms for around ₹500.",
+      "food": "Street food and budget cafes.",
+      "transport": "Metro and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "3-star hotels for around ₹3,000.",
+      "food": "Mix of casual dining and some mid-range restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Expect high-quality service and experiences, especially in dining and accommodation."
+    }
+  },
+  "culturalRules": [
+    "Dress conservatively when visiting churches; hats and sleeveless tops are discouraged.",
+    "Always greet with a handshake; personal space is less emphasized.",
+    "Tardiness is common, but as a visitor, it's best to be punctual."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Pickpocketing in crowded areas; keep belongings secure.",
+      "Fake taxi scams; always use official taxi ranks."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "061",
+      "indianEmbassy": "Embassy of India, Madrid: +34 91 440 45 00"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Prado Museum",
+        "what": "Capture the stunning façade and the sculptures outside.",
+        "bestTime": "Early morning when the light is soft.",
+        "tip": "Use a wide-angle lens for the best results."
+      }
+    ],
+    "goldenHour": "Around 8 PM in June.",
+    "tip": "Look for local street performers; they can add life to your photographs."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Retiro Park",
+        "Explore the Prado Museum",
+        "Dine at a tapas bar"
+      ],
+      "emotionalArc": "This sequence allows you to relax in nature before diving into art and ending with a delicious meal, creating a well-rounded day.",
+      "bestFor": [
+        "art lovers",
+        "foodies",
+        "families"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Toledo",
+      "travelTime": "1h",
+      "how": "Train",
+      "whyCombine": "Rich in history and architecture, it's a perfect day trip from Madrid."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many metro stations have elevators, but some older areas are challenging.",
+    "majorChallenges": "Cobblestone streets in historical areas can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Most museums and public buildings are equipped for accessibility."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures averaging 32°C; expect crowds at major attractions, especially during evenings.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain unchanged; ensure all documents are in order."
+  }
+}

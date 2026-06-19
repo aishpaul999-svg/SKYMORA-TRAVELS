@@ -1,0 +1,311 @@
+{
+  "destination": "Khajuraho",
+  "state": "Madhya Pradesh",
+  "type": "UNESCO/temples",
+  "aliases": [
+    "Khajuraho",
+    "khajuraho",
+    "Madhya Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "couples seeking romance",
+      "art lovers",
+      "spiritual seekers",
+      "cultural travelers"
+    ],
+    "notFor": [
+      "budget backpackers seeking nightlife",
+      "families with small children",
+      "adventurers looking for extreme sports"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the intricate carvings of the temples. They stay for the mesmerizing sound of the evening aarti at the local ghats — the scent of incense wafting through the air. They return because Khajuraho is the only city in India where ancient sculptures tell stories of love and life, effortlessly blending with the present-day vibrancy of local life.",
+  "honestTruth": "Most guides focus solely on the temples; they miss the fact that the vibrant local markets and village life are just as essential to understanding Khajuraho's spirit.",
+  "localTruths": [
+    "Most visitors think Khajuraho is only about the temples. Locals think the real magic happens at the local markets and during festivals, where the community comes alive.",
+    "Most visitors spend too much time at the Western Group of Temples. The real Khajuraho starts at the lesser-known Eastern Group, offering a quieter, more intimate experience.",
+    "Most visitors rush through their temple visits. The real connection to Khajuraho happens over a cup of chai with a local vendor, sharing stories and laughter."
+  ],
+  "neighborhoodPersonalities": {
+    "Temple Complex": {
+      "tags": [
+        "historic",
+        "cultural",
+        "touristy"
+      ],
+      "bestFor": "temple exploration and photography",
+      "avoid": "the crowds during peak hours."
+    },
+    "Local Market": {
+      "tags": [
+        "vibrant",
+        "authentic",
+        "cultural"
+      ],
+      "bestFor": "immersing in local culture and commerce",
+      "avoid": "overpriced tourist traps."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the Kandariya Mahadev Temple",
+        "Explore the Western Group of Temples",
+        "Attend the evening aarti at the local ghat"
+      ],
+      "avoid": [
+        "Rushing through the temples without taking time to appreciate the details",
+        "Ignoring the local market for souvenirs"
+      ],
+      "mindset": "Approach Khajuraho with an open heart and mind, ready to delve deeper than just the surface of its famous temples."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the Eastern Group of Temples",
+        "Engage with local artisans",
+        "Explore the nearby villages"
+      ],
+      "neighborhoods": [
+        "Local Market",
+        "Nearby Villages"
+      ],
+      "local": "Only locals know that the best time to visit the temples is just before sunset when the light casts a magical glow."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to February",
+      "weather": "pleasant temperatures around 15-25°C",
+      "crowds": "high, especially during festivals",
+      "prices": "20% premium",
+      "verdict": "Great weather, but be prepared for crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "Fewer crowds and pleasant weather, plus the local festivals add vibrancy."
+    },
+    "offSeason": {
+      "months": "May to September",
+      "reality": "Extreme heat in May-June, and monsoons from July-September can lead to cancellation of some events.",
+      "hiddenGem": "The lush greenery and fewer crowds can be a peaceful retreat."
+    },
+    "bestMonth": "November — Ideal weather for temple visits and local festivities.",
+    "worstMonth": "June — High temperatures can make outdoor activities uncomfortable."
+  },
+  "commonRegrets": [
+    "Most visitors regret not hiring a local guide to learn the intricacies of temple art.",
+    "Most visitors regret skipping the local market for souvenirs.",
+    "Most visitors regret not attending the evening aarti for a spiritual experience."
+  ],
+  "antiPatterns": [
+    "Rushing through temple visits leads to missing the intricate details and stories behind each sculpture.",
+    "Combining temple visits with long-distance travel on the same day can be exhausting and unfulfilling.",
+    "Visiting during the hottest hours of the day ruins the experience of appreciating the temples."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit the Western Group of Temples and attend a local market in the evening.",
+      "verdict": "One day is enough for a glimpse but not for a deep understanding."
+    },
+    "two_days": {
+      "focus": "Covers major temples and local experiences.",
+      "misses": "Lesser-known temples and village life."
+    },
+    "three_to_four_days": {
+      "focus": "Deep exploration of temples, markets, and surrounding villages.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth cultural immersion, including workshops and village visits.",
+      "whoFor": "Cultural travelers and history enthusiasts."
+    },
+    "recommended": "3 days — allows for both major sights and some local experiences."
+  },
+  "residentSunday": "A Khajuraho resident starts their Sunday with a morning jog around the temples, followed by breakfast at 'Raja Cafe' for their famous poha. In the afternoon, they visit the local market to catch up with friends and buy fresh produce. They wrap up the day watching the sunset at the Western Group of Temples, soaking in the serenity of the moment.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the temple complex and see the sun illuminating the intricate carvings.",
+    "peak": "The peak day memory target is the evening aarti, where the flickering candles create an ethereal atmosphere.",
+    "departure": "The last image should be the silhouette of the temples against the setting sun, leaving you with a profound sense of peace."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses are infrequent and can take 12-14 hours; not recommended.",
+      "flight": "No direct flights; nearest airport is in Khajuraho (HJR).",
+      "recommended": "We recommend the Shatabdi Express for its comfort and speed.",
+      "budgetTip": "Book your train tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Nandigram Express 11021, departs 12:15pm, 14 hours, ₹1,200 sleeper class",
+      "flight": "Direct flights available, around ₹4,500.",
+      "recommended": "The overnight train is more economical and offers a unique experience."
+    },
+    "fromBangalore": {
+      "train": "No direct trains; recommend taking a train to Jhansi and then a bus to Khajuraho.",
+      "flight": "Flights available to Khajuraho via Delhi or Varanasi.",
+      "recommended": "Fly to Khajuraho; it’s faster despite higher costs."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws are the most efficient and economical.",
+      "avoid": "Avoid unlicensed taxis for safety reasons.",
+      "appRecommendation": "Use Uber or Ola for reliable transport.",
+      "autoRickshaw": "They are affordable and plentiful, but be sure to negotiate fares.",
+      "cost": "Daily local transport budget is around ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Temple Donation Scam",
+      "howItWorks": "Scammers pose as temple staff asking for donations for maintenance.",
+      "prevention": "Only donate through official temple counters.",
+      "ifItHappens": "Politely refuse and inform local authorities."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Aloo Tikki at 'Gully Tikki'",
+      "Chaat at 'Chaat Corner'",
+      "Samosas from local vendors near the temples"
+    ],
+    "avoidList": [
+      "Raw salads and unpeeled fruits from roadside stalls due to hygiene concerns."
+    ],
+    "waterAdvice": "Drink only bottled water or use water purification tablets.",
+    "trustedDhabas": "Look for crowded dhabas, as locals flock to trustworthy places.",
+    "mustEat": [
+      "Paneer Tikka at 'Raja Cafe'",
+      "Khichdi at 'Kumar's Dhaba'",
+      "Butter Chicken at 'Shivam Restaurant'"
+    ],
+    "touristTrap": "Avoid 'Temptation' restaurant, known for overpriced and low-quality food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest attire is recommended when visiting temples; shoulders and knees should be covered.",
+    "photographyRules": "Photography is restricted in certain temple areas; look for signs.",
+    "templeEtiquette": "Remove shoes before entering temple premises.",
+    "timing": "Visit early morning or late afternoon to avoid crowds and heat.",
+    "localCustom": "It's customary to greet locals with a smile and 'Namaste'."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels around ₹500-700",
+      "food": "Street food and local restaurants for ₹300-500",
+      "transport": "Local transport budget of ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels around ₹1,500-2,500",
+      "food": "Mix of local dhabas and restaurants for ₹800-1,200",
+      "includes": "Guided tours and entry fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels such as 'The Lalit Temple View'",
+      "experience": "Includes guided tours, fine dining, and cultural experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "High-end resorts with spa services",
+      "note": "Luxury options are available but may not enhance the cultural experience significantly."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek nightlife will be disappointed because Khajuraho's charm lies in its temples and tranquil atmosphere.",
+    "If you want adventure sports, Khajuraho is the wrong choice — Rishikesh is better.",
+    "Anyone expecting a modern city vibe will find the slow-paced life here a stark contrast."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the temples at sunrise for stunning light and fewer crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join local festivals for a truly immersive experience of culture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the nearby waterfalls, especially during the monsoon season.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local sweet 'Gajar Ka Halwa' at 'Shivam Restaurant' — it's a must.",
+      "category": "food"
+    },
+    {
+      "tip": "Get a local guide to truly understand the stories behind the temple carvings.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Kandariya Mahadev Temple",
+        "Attend the evening aarti",
+        "Explore the local market"
+      ],
+      "emotionalArc": "This sequence allows you to absorb the historical significance, engage spiritually, and connect with the local culture.",
+      "bestFor": [
+        "cultural travelers",
+        "spiritual seekers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Kandariya Mahadev Temple",
+        "what": "The intricate carvings and architecture",
+        "bestTime": "Early morning or late afternoon",
+        "tip": "The soft light enhances the details beautifully."
+      }
+    ],
+    "goldenHour": "Just before sunrise and just before sunset.",
+    "restrictedAreas": [
+      "Inner sanctum of temples where photography is not permitted."
+    ],
+    "tip": "Capture the essence of daily life in the local market for a more authentic representation."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many temple steps can be challenging; however, some areas are accessible.",
+    "majorChallenges": "Uneven surfaces and steep steps at most temple complexes.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan ahead and consider hiring assistance."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Orchha",
+      "distance": "170km",
+      "travelTime": "3 hours",
+      "how": "Local bus or taxi",
+      "whyCombine": "Famous for its palaces and history."
+    },
+    {
+      "city": "Panna National Park",
+      "distance": "45km",
+      "travelTime": "1 hour",
+      "how": "Local taxi or rented vehicle",
+      "whyCombine": "Excellent wildlife spotting and nature experience."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "June — extreme heat makes exploration uncomfortable.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "300 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The weather is warm, with occasional rain expected in the coming weeks.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required; standard entry fees apply for temples."
+  }
+}

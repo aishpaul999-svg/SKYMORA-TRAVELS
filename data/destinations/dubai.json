@@ -1,0 +1,1918 @@
+﻿{
+    "destination":  "dubai",
+    "aliases":  [
+                    "dubai",
+                    "dxb",
+                    "uae",
+                    "united arab emirates"
+                ],
+    "hardFacts":  {
+                      "flightFromDelhi":  "New Delhi (DEL) to Dubai (DXB): DIRECT â€” 3 hours 30 minutes to 4 hours. Air India AI101, IndiGo, Emirates, flydubai. Return fare: INR 18,000â€“35,000 economy. NEVER say 16 hours â€” that is wrong.",
+                      "flightFromMumbai":  "Mumbai to Dubai: 3 hours direct. Multiple daily flights.",
+                      "timezone":  "GST (UTC+4). India is UTC+5:30. Dubai is 1.5 hours BEHIND India. 9am Delhi departure = 11am Dubai arrival.",
+                      "currency":  "UAE Dirham (AED). AED 1 = INR 22â€“24. USD 1 = AED 3.6725 (fixed peg since 1997, never fluctuates).",
+                      "visaIndia":  "Indians: visa-free 30 days since October 2024. No pre-application. Passport valid 6+ months required. Return ticket required. AED 200/day overstay fine.",
+                      "temperatureJune":  "38â€“42Â°C daytime, 28â€“32Â°C night. Very humid Julyâ€“August. Outdoor activities only before 9am or after 7pm in summer.",
+                      "burjKhalifa":  "828m, world\u0027s tallest. At The Top 124F: AED 149 online (AED 200â€“400 walk-up). At The Top SKY 148F: AED 379. Book minimum 3 days ahead.",
+                      "electricity":  "Type G British 3-pin plugs. 220V. Indian 2-pin fits without adapter. Indian 3-pin needs adapter.",
+                      "water":  "Tap water is technically safe but desalinated. Bottled water: AED 1â€“2 at Baqala convenience store vs AED 15â€“20 hotel minibar.",
+                      "jaywalking":  "AED 400 fine. Actively enforced in tourist areas."
+                  },
+    "emergencyContacts":  {
+                              "police":  "999",
+                              "ambulance":  "998",
+                              "fire":  "997",
+                              "touristPolice":  "800 4438 (English, 24/7)",
+                              "dubaiPoliceHQ":  "04 229 2222",
+                              "indianConsulateEmergency":  "+971 50 451 7774 (24/7 for Indian nationals)",
+                              "indianConsulateMain":  "04 397 1333",
+                              "americanHospital":  "04 336 7777 (best for tourists, accepts travel insurance)",
+                              "asterDMHealthcare":  "04 440 0500 (Hindi-speaking staff, multiple branches)",
+                              "rashidHospital":  "04 219 1000 (main government trauma centre)",
+                              "dubaiTaxi":  "04 208 0808",
+                              "rtaLostFound":  "800 90 90",
+                              "airportLostFound":  "04 224 5383",
+                              "dubaiTourism":  "600 55 5559",
+                              "policeApp":  "Dubai Police app â€” file accident reports, check fines, contact tourist police without visiting station"
+                          },
+    "policeStations":  [
+                           {
+                               "name":  "Bur Dubai",
+                               "area":  "Bur Dubai, Karama, Mankhool",
+                               "phone":  "04 398 0000"
+                           },
+                           {
+                               "name":  "Deira",
+                               "area":  "Deira, Gold Souk, Muteena",
+                               "phone":  "04 229 2222"
+                           },
+                           {
+                               "name":  "Al Barsha",
+                               "area":  "Al Barsha, Mall of Emirates",
+                               "phone":  "04 347 7111"
+                           },
+                           {
+                               "name":  "Dubai Marina",
+                               "area":  "Marina, JBR, JLT",
+                               "phone":  "04 399 9999"
+                           },
+                           {
+                               "name":  "Downtown Post",
+                               "area":  "Downtown, DIFC, Business Bay",
+                               "phone":  "04 330 0100"
+                           },
+                           {
+                               "name":  "Jumeirah",
+                               "area":  "Jumeirah 1/2/3, Satwa",
+                               "phone":  "04 398 0101"
+                           }
+                       ],
+    "firstVisitorEssentials":  {
+                                   "summary":  "First-time visitor to Dubai. The famous things are famous because they are genuinely worth seeing. Balance the iconic with one or two things that feel discovered rather than prescribed.",
+                                   "mustInclude":  [
+                                                       "Burj Khalifa At The Top â€” 124th floor, book online AED 149, sunrise 8:30am slot for shortest queues and best light",
+                                                       "Dubai Fountain evening show â€” stand on Souk Al Bahar bridge NOT in front of the mall. Elevated angle, Burj Khalifa behind the fountain.",
+                                                       "Deira morning â€” Gold Souk and Spice Souk before 11am on a WEEKDAY only. Never weekend afternoon.",
+                                                       "Dubai Aquarium â€” combine with Dubai Mall visit, not a separate trip. AED 100â€“140.",
+                                                       "Dubai Creek â€” Abra crossing AED 1 each way. Al Fahidi Historical Neighbourhood adjacent."
+                                                   ],
+                                   "localInsiderToAdd":  "Most visitors stay in Downtown and never cross the Creek. The 30-minute morning in Deira â€” the spice souk, the gold alley, the abra crossing â€” changes what the rest of the trip means.",
+                                   "regrets":  [
+                                                   "Visited Burj Khalifa walk-up at AED 200+ when online booking was AED 149 â€” always book online minimum 3 days ahead",
+                                                   "Ate at the same restaurant twice â€” the guide didn\u0027t offer enough alternatives. Dubai has enough quality restaurants for 30 days without repetition.",
+                                                   "Skipped Deira entirely â€” almost universally regretted by couples and solo travellers. The most honest neighbourhood in Dubai.",
+                                                   "Overbooked Day 1 â€” arrived exhausted from the flight and tried to fit in Burj Khalifa. Day 1 should be gentle. Burj Khalifa belongs on Day 2.",
+                                                   "Stood at the wrong Fountain viewing spot â€” ground level in front of the mall. Souk Al Bahar bridge is the correct position."
+                                               ]
+                               },
+    "repeatVisitorIntelligence":  {
+                                      "insiderNarrative":  "The Dubai most visitors see was designed for visitors. The Dubai beneath it â€” the fishing shed restaurants, the warehouse art galleries, the mountain escapes 90 minutes away â€” that is the city that residents protect and rarely mention.",
+                                      "skipThese":  [
+                                                        "Burj Khalifa â€” unless first time at SKY level (148F) at golden hour",
+                                                        "Dubai Mall as a primary activity",
+                                                        "Standard desert safari group tour â€” take the private version instead"
+                                                    ],
+                                      "goHere":  [
+                                                     "Bu Qtair â€” shed by Jumeirah Fishing Harbour. Best fried fish in Dubai. Cash only. Locals only. Lunch only 12pmâ€“4pm. Closed Mondays.",
+                                                     "Alserkal Avenue, Al Quoz â€” contemporary art galleries in converted warehouses. Free entry. Thursday 6pmâ€“9pm for gallery openings.",
+                                                     "Al Seef Heritage District at 7pm â€” Creek waterfront, traditional architecture with evening lighting.",
+                                                     "Hatta Mountain Retreat â€” 90 minutes from Downtown. Mountain biking, dam kayaking, 35Â°C vs Dubai\u0027s 43Â°C in summer.",
+                                                     "East Coast â€” Fujairah, Snoopy Island snorkelling, Hajar Mountains drive. 1.5 hours. Arabian Sea, not Persian Gulf.",
+                                                     "Al Quoz Friday Market â€” monthly flea market, first Friday of the month, local artists, residents not tourists.",
+                                                     "Leila Restaurant, Alserkal Avenue â€” best Lebanese mezze in Dubai at non-tourist prices.",
+                                                     "Dubai Water Canal walk â€” Tolerance Bridge at night, almost entirely unknown to tourists.",
+                                                     "XVA Art Hotel courtyard breakfast â€” Al Fahidi, 100-year-old wind-tower building, AED 35â€“60."
+                                                 ]
+                                  },
+    "neighborhoods":  {
+                          "downtown":  {
+                                           "character":  "Postcard Dubai. Burj Khalifa, Dubai Mall, Fountain. Built from desert in the 2000s. Impressive and efficient. Right for a first visit or short stay. Missing soul â€” that requires crossing the Creek.",
+                                           "bestFor":  [
+                                                           "First-time visitors",
+                                                           "2â€“3 day itineraries",
+                                                           "Families â€” Dubai Mall has rink, aquarium, cinema"
+                                                       ],
+                                           "avoid":  [
+                                                         "Hotels on Mohammed Bin Rashid Boulevard â€” road noise relentless",
+                                                         "Restaurants inside Dubai Mall tourist ring â€” 40â€“60% premium",
+                                                         "Fountain View rooms that are actually obstructed â€” ask specifically for floor and direction"
+                                                     ],
+                                           "insider":  "Souk Al Bahar bridge has an elevated angle facing the fountain with Burj Khalifa directly behind. Arrive 15 minutes before the show. Far better than the ground-level mall view."
+                                       },
+                          "dubai_marina_jbr":  {
+                                                   "character":  "Most liveable for tourists. Man-made marina, 80+ residential towers, The Walk beachfront promenade 1.7km. Beach is free. This is where Dubai relaxes.",
+                                                   "bestFor":  [
+                                                                   "Couples and groups wanting beach + dining + nightlife",
+                                                                   "4+ day stays",
+                                                                   "Octoberâ€“April beach season"
+                                                               ],
+                                                   "avoid":  [
+                                                                 "Restaurants on the main road side of The Walk",
+                                                                 "JBR beach Friday afternoons in winter â€” packed",
+                                                                 "Hotel-booked taxis â€” The Walk queue is always cheaper"
+                                                             ],
+                                                   "insider":  "Bluewaters Island connected by footbridge has Ain Dubai (world\u0027s largest observation wheel) and a quieter dining strip. Caesar\u0027s Palace pool day pass AED 150 includes AED 100 food credit â€” best value beach club."
+                                               },
+                          "deira":  {
+                                        "character":  "Original Dubai. North of the Creek. Gold Souk, Spice Souk, textile markets. Streets are narrow, signage multilingual, food cheap and excellent. The most honest neighbourhood in Dubai.",
+                                        "bestFor":  [
+                                                        "Gold and spice shopping",
+                                                        "Authentic cheap food",
+                                                        "Budget travellers â€” hotels 40â€“60% below Marina/Downtown"
+                                                    ],
+                                        "avoid":  [
+                                                      "Money exchange at Gold Souk kiosks â€” 3â€“5% worse than bank ATMs",
+                                                      "Hotels behind the fish market â€” smell significant Mayâ€“September",
+                                                      "Negotiating gold without checking daily rate first at dubaiGoldGroup.com"
+                                                  ],
+                                        "insider":  "Abra across Dubai Creek: AED 1 each way, every 2â€“3 minutes, dawn to midnight. The most authentic AED 1 experience in the city."
+                                    },
+                          "bur_dubai":  {
+                                            "character":  "Heritage south of the Creek. Al Fahidi Historical Neighbourhood. Wind-tower architecture from the 1800s, art galleries, Dubai Museum. Indian consulate is here. Hindi dominant in large sections.",
+                                            "bestFor":  [
+                                                            "Cultural context",
+                                                            "Budget travellers",
+                                                            "Indian travellers â€” food and shops feel familiar"
+                                                        ],
+                                            "avoid":  [
+                                                          "Karama Market for brands â€” all counterfeit, Indian customs confiscates"
+                                                      ],
+                                            "insider":  "XVA Art Hotel inside Al Fahidi â€” courtyard cafÃ© in genuine 100-year-old wind-tower building. AED 35â€“60 breakfast. The only place in Dubai where you understand what the city was before everything else was built."
+                                        },
+                          "difc":  {
+                                       "character":  "Financial district with its own civil law based on English common law. Gate Village has 10 art galleries â€” the most serious contemporary art in the Middle East. Zuma, Nusr-Et, Coya all operate here.",
+                                       "bestFor":  [
+                                                       "Fine dining destination",
+                                                       "Business travellers",
+                                                       "Art and culture seekers"
+                                                   ],
+                                       "avoid":  [
+                                                     "Weekend lunches without reservations â€” fills weeks ahead"
+                                                 ],
+                                       "insider":  "Gate Village galleries are free entry and show internationally significant work. Tuesdayâ€“Saturday 10amâ€“8pm."
+                                   },
+                          "jumeirah":  {
+                                           "character":  "Low-rise villas, tree-lined streets, independent cafÃ©s, organic markets. Where Dubai\u0027s long-term expat families live. The Burj Al Arab is here.",
+                                           "bestFor":  [
+                                                           "Longer stays wanting residential Dubai",
+                                                           "Best independent cafÃ© culture in the city",
+                                                           "Jumeirah Open Beach â€” free, less crowded than JBR"
+                                                       ],
+                                           "avoid":  [
+
+                                                     ],
+                                           "insider":  "Burj Al Arab entry: afternoon tea at Skyview Bar AED 395 (includes AED 200 food credit). The only way inside without a hotel room. Book minimum 3 days ahead."
+                                       },
+                          "palm_jumeirah":  {
+                                                "character":  "Man-made palm island. Atlantis, One\u0026Only, Waldorf Astoria on the crescent. Best hotel beach in Dubai. The Palm Boardwalk is public and free â€” 11km walking path.",
+                                                "bestFor":  [
+                                                                "Honeymooners and luxury travellers",
+                                                                "Families â€” Atlantis Aquaventure is world-class"
+                                                            ],
+                                                "avoid":  [
+                                                              "Palm hotels at full price in Decemberâ€“January â€” 30â€“40% cheaper in Marina/Downtown for equivalent quality",
+                                                              "Atlantis walk-up â€” AED 295 vs AED 225 online"
+                                                          ],
+                                                "insider":  "Palm Boardwalk along the crescent is free, public, and has the most photographed view of the Marina skyline in Dubai. Best at sunset."
+                                            },
+                          "business_bay_d3":  {
+                                                  "character":  "Dense commercial zone adjacent to Downtown. 20â€“30% lower hotel prices than Downtown. Dubai Canal creates a waterfront strip opened 2016â€“2020 not yet on most tourist maps.",
+                                                  "bestFor":  [
+                                                                  "Value-conscious travellers wanting Downtown proximity",
+                                                                  "Design and creative industry visitors"
+                                                              ],
+                                                  "avoid":  [
+
+                                                            ],
+                                                  "insider":  "Dubai Water Canal promenade runs 3.2km to Safa Park. Tolerance Bridge at night is extraordinary and almost entirely unknown to tourists."
+                                              }
+                      },
+    "restaurants":  [
+                        {
+                            "name":  "Bu Qtair",
+                            "area":  "Jumeirah Fishing Harbour, near Mercato Mall",
+                            "type":  "budget",
+                            "cuisine":  "Seafood",
+                            "orderThis":  "Hammour (grouper) fried AED 35, King prawns AED 45. Bread and chutney included.",
+                            "pricePerPerson":  "AED 35â€“55",
+                            "hours":  "Lunch only 12pmâ€“4pm. Closed Mondays.",
+                            "reservation":  "No. Walk-in. Cash only.",
+                            "insider":  "A shed by the fishing harbour. Cash only. No English signage. The spiced batter and chilli dipping sauce are specific to this place. Every expat who has lived in Dubai for more than a year knows it. No tourist guide has yet killed it.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "repeat":  10,
+                                           "solo":  9,
+                                           "couple":  8,
+                                           "budget":  10,
+                                           "adventure":  9,
+                                           "firstTimer":  7,
+                                           "luxury":  3,
+                                           "family":  5,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Ravi Restaurant",
+                            "area":  "Al Satwa, 27 2nd December Street",
+                            "type":  "budget",
+                            "cuisine":  "Pakistani",
+                            "orderThis":  "Chicken karahi AED 22, Mutton biryani AED 18, Naan AED 2",
+                            "pricePerPerson":  "AED 15â€“30",
+                            "hours":  "All day. Lunch queue 12:30pmâ€“2:30pm.",
+                            "reservation":  "No. Cash only.",
+                            "insider":  "Open since 1978. Same owner. The biryani and karahi are what Dubai workers have eaten for generations. Queue out the door is normal and moves fast.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "budget":  10,
+                                           "solo":  9,
+                                           "foodie":  9,
+                                           "repeat":  9,
+                                           "firstTimer":  8,
+                                           "couple":  7,
+                                           "adventure":  8,
+                                           "luxury":  2,
+                                           "family":  6,
+                                           "photographer":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Al Ustad Special Kabab",
+                            "area":  "Near Al Rigga Metro, Deira",
+                            "type":  "budget",
+                            "cuisine":  "Iranian",
+                            "orderThis":  "Koobideh AED 18, Barg AED 25, rice AED 5",
+                            "pricePerPerson":  "AED 20â€“35",
+                            "hours":  "Lunch and early dinner. Closes ~9pm.",
+                            "reservation":  "No. Cash only.",
+                            "insider":  "Iranian kebab institution open since the 1970s. No decor. The bread arrives warm from a clay oven. Cash only. Near Al Rigga metro.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "budget":  10,
+                                           "foodie":  9,
+                                           "solo":  9,
+                                           "repeat":  9,
+                                           "firstTimer":  7,
+                                           "couple":  6,
+                                           "luxury":  2,
+                                           "family":  5,
+                                           "photographer":  6,
+                                           "adventure":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "21grams",
+                            "area":  "Jumeirah 2",
+                            "type":  "mid",
+                            "cuisine":  "CafÃ©/Breakfast",
+                            "orderThis":  "Eggs Benedict AED 72, French toast AED 65, cold brew AED 28",
+                            "pricePerPerson":  "AED 65â€“95",
+                            "hours":  "Breakfast and brunch. Weekday 8amâ€“10am quietest.",
+                            "reservation":  "Recommended weekends: +971 4 385 7537",
+                            "insider":  "The breakfast restaurant Dubai\u0027s working chefs choose for themselves on days off. Not because it is fashionable â€” because the food is genuinely the best available at this price.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "couple":  9,
+                                           "honeymoon":  9,
+                                           "luxury":  8,
+                                           "solo":  8,
+                                           "repeat":  9,
+                                           "firstTimer":  8,
+                                           "budget":  5,
+                                           "family":  7,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Comptoir 102",
+                            "area":  "Jumeirah Beach Road, Jumeirah 1",
+                            "type":  "mid",
+                            "cuisine":  "Organic cafÃ©",
+                            "orderThis":  "AÃ§aÃ­ bowl AED 65, Shakshuka AED 68, green smoothie AED 38",
+                            "pricePerPerson":  "AED 60â€“90",
+                            "hours":  "All day. Weekday mornings 8amâ€“10am best.",
+                            "reservation":  "Not for breakfast. Lunch available on website.",
+                            "insider":  "Resident expats eat here multiple times a week. The quality is consistent enough to earn that loyalty. Arrive at 8am on a weekday for the quietest version.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "solo":  9,
+                                           "couple":  8,
+                                           "foodie":  8,
+                                           "repeat":  9,
+                                           "firstTimer":  7,
+                                           "luxury":  7,
+                                           "budget":  5,
+                                           "family":  6,
+                                           "photographer":  7,
+                                           "adventure":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "TrÃ¨sind Studio",
+                            "area":  "DIFC",
+                            "type":  "luxury",
+                            "cuisine":  "Modern Indian (Michelin starred)",
+                            "orderThis":  "Tasting menu AED 380â€“450. Lunch tasting AED 280.",
+                            "pricePerPerson":  "AED 280â€“450",
+                            "hours":  "Lunch and dinner. Weekday lunch quieter.",
+                            "reservation":  "Essential. 2 weeks ahead. tresind.com",
+                            "insider":  "The most important Indian restaurant outside India. Michelin-starred. The dishes reference Indian food memory specifically â€” the experience is different for Indian diners than for anyone else. Tell the server you are Indian.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "luxury":  10,
+                                           "honeymoon":  9,
+                                           "couple":  9,
+                                           "repeat":  9,
+                                           "firstTimer":  7,
+                                           "solo":  8,
+                                           "budget":  0,
+                                           "family":  3,
+                                           "photographer":  8,
+                                           "indianTraveler":  10
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Farzi CafÃ©",
+                            "area":  "City Walk",
+                            "type":  "mid",
+                            "cuisine":  "Modern Indian",
+                            "orderThis":  "Butter chicken AED 95, pani puri caviar AED 55, dal makhani AED 68",
+                            "pricePerPerson":  "AED 90â€“140",
+                            "hours":  "Lunch and dinner.",
+                            "reservation":  "Required weekends: +971 4 553 3002",
+                            "insider":  "Modern Indian bistro. The butter chicken with crispy roti justifies the visit. Better cocktails than any Indian restaurant has a right to serve.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "indianTraveler":  10,
+                                           "foodie":  8,
+                                           "couple":  8,
+                                           "firstTimer":  8,
+                                           "repeat":  7,
+                                           "solo":  7,
+                                           "luxury":  6,
+                                           "budget":  4,
+                                           "family":  7,
+                                           "adventure":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Hurricane\u0027s Grill",
+                            "area":  "Dubai Mall",
+                            "type":  "mid",
+                            "cuisine":  "International grill",
+                            "orderThis":  "Grilled items. Avg AED 100.",
+                            "pricePerPerson":  "AED 80â€“130",
+                            "hours":  "All day.",
+                            "reservation":  "Not required weekdays.",
+                            "insider":  "Reliable, consistent, well-located. Good for Day 1 dinner when the traveller needs low-effort quality. Not for Day 2 â€” too repetitive. Use it once.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "firstTimer":  8,
+                                           "solo":  7,
+                                           "family":  7,
+                                           "budget":  6,
+                                           "repeat":  3,
+                                           "foodie":  4,
+                                           "couple":  6,
+                                           "luxury":  4,
+                                           "adventure":  4,
+                                           "photographer":  3
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Bebek Restaurant \u0026 Lounge",
+                            "area":  "Dubai",
+                            "type":  "mid",
+                            "cuisine":  "Middle Eastern",
+                            "orderThis":  "Mixed mezze, lamb. Avg AED 120.",
+                            "pricePerPerson":  "AED 100â€“150",
+                            "hours":  "Dinner.",
+                            "reservation":  "Recommended evenings.",
+                            "insider":  "5.0 stars from 1,500+ reviews. Consistency is the product. After a full day this restaurant slows the pace to exactly the right tempo. Locals eat before 8pm â€” better service, quieter room.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "couple":  9,
+                                           "firstTimer":  8,
+                                           "solo":  7,
+                                           "foodie":  7,
+                                           "luxury":  6,
+                                           "family":  6,
+                                           "repeat":  6,
+                                           "budget":  5,
+                                           "adventure":  5,
+                                           "photographer":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Zuma",
+                            "area":  "DIFC, Gate Village",
+                            "type":  "luxury",
+                            "cuisine":  "Japanese robatayaki",
+                            "orderThis":  "Chilean sea bass yuzu miso AED 195, spicy beef tenderloin AED 165, rock shrimp tempura AED 95",
+                            "pricePerPerson":  "AED 250â€“400",
+                            "hours":  "Lunch and dinner. Bar seating walk-in until 8pm weekdays.",
+                            "reservation":  "3â€“4 weeks ahead for dinner. zumarestaurant.com",
+                            "insider":  "The original Dubai fine dining institution. Bar seating is the most social dining in Dubai â€” book it specifically for couples or solo diners wanting conversation rather than formal table.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "honeymoon":  9,
+                                           "couple":  9,
+                                           "repeat":  9,
+                                           "firstTimer":  7,
+                                           "solo":  8,
+                                           "foodie":  9,
+                                           "budget":  0,
+                                           "family":  3,
+                                           "photographer":  7,
+                                           "business":  10
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Ossiano",
+                            "area":  "Atlantis The Palm",
+                            "type":  "luxury",
+                            "cuisine":  "Seafood â€” underwater restaurant",
+                            "orderThis":  "Tasting menu only AED 595. Wine pairing AED 395.",
+                            "pricePerPerson":  "AED 595+",
+                            "hours":  "Dinner only.",
+                            "reservation":  "Essential. 1 week minimum. atlantis.com/dubai/restaurants/ossiano",
+                            "insider":  "Floor-to-ceiling aquarium with rays and sharks. The most dramatic dining environment in Dubai. Consistently overlooked in favour of Nobu nearby. The seafood quality genuinely matches the setting.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "honeymoon":  10,
+                                           "luxury":  10,
+                                           "couple":  10,
+                                           "repeat":  9,
+                                           "firstTimer":  7,
+                                           "solo":  8,
+                                           "foodie":  9,
+                                           "budget":  0,
+                                           "family":  4,
+                                           "photographer":  8,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Leila",
+                            "area":  "Alserkal Avenue, Al Quoz",
+                            "type":  "mid",
+                            "cuisine":  "Lebanese",
+                            "orderThis":  "Mixed cold mezze AED 95 for two, lamb chops AED 85, knafeh AED 35",
+                            "pricePerPerson":  "AED 80â€“130",
+                            "hours":  "Lunch and dinner.",
+                            "reservation":  "Not required weekdays.",
+                            "insider":  "Best mezze in Dubai at non-tourist pricing. Inside the art district. The kibbeh nayyeh (raw lamb) is not on the menu â€” ask for it. Come for a long Thursday lunch with the galleries open.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "repeat":  10,
+                                           "solo":  9,
+                                           "couple":  8,
+                                           "adventure":  7,
+                                           "budget":  7,
+                                           "firstTimer":  5,
+                                           "luxury":  5,
+                                           "family":  5,
+                                           "photographer":  8
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Logma",
+                            "area":  "Box Park, Al Wasl Road",
+                            "type":  "mid",
+                            "cuisine":  "Emirati (rare)",
+                            "orderThis":  "Balaleet AED 42, harees AED 65, chebab AED 38",
+                            "pricePerPerson":  "AED 40â€“75",
+                            "hours":  "Breakfast and lunch. Closes 10pm.",
+                            "reservation":  "Not required.",
+                            "insider":  "One of very few restaurants serving genuine Emirati cuisine. The balaleet for breakfast is specific to this place. The harees â€” slow-cooked wheat and lamb â€” is the dish most non-Emiratis have never encountered and should.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "repeat":  10,
+                                           "culture":  10,
+                                           "solo":  8,
+                                           "couple":  7,
+                                           "firstTimer":  7,
+                                           "budget":  7,
+                                           "luxury":  5,
+                                           "family":  6,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Bikanervala",
+                            "area":  "Karama, Bur Dubai",
+                            "type":  "budget",
+                            "cuisine":  "Vegetarian North Indian",
+                            "orderThis":  "Pani puri AED 12, raj kachori AED 15, thali AED 35, sweets by weight",
+                            "pricePerPerson":  "AED 15â€“40",
+                            "hours":  "All day.",
+                            "reservation":  "No.",
+                            "insider":  "The chaat here is better than most Indian cities. Where Dubai\u0027s Indian community shops for festivals and eats on Sunday mornings when they miss home.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "indianTraveler":  10,
+                                           "budget":  10,
+                                           "solo":  8,
+                                           "family":  9,
+                                           "firstTimer":  8,
+                                           "repeat":  7,
+                                           "foodie":  7,
+                                           "couple":  6,
+                                           "luxury":  1,
+                                           "adventure":  4
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Nobu Dubai",
+                            "area":  "Atlantis The Palm",
+                            "type":  "luxury",
+                            "cuisine":  "Japanese",
+                            "orderThis":  "Black cod miso AED 185, yellowtail jalapeÃ±o AED 125, rock shrimp tempura AED 105",
+                            "pricePerPerson":  "AED 300â€“500",
+                            "hours":  "Dinner.",
+                            "reservation":  "Essential. noburestaurants.com",
+                            "insider":  "The Palm location is the most dramatic Nobu globally. The black cod with miso is the dish the brand built its reputation on. Worth ordering regardless of what else is on the table.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  9,
+                                           "honeymoon":  9,
+                                           "couple":  9,
+                                           "repeat":  8,
+                                           "firstTimer":  6,
+                                           "solo":  7,
+                                           "foodie":  8,
+                                           "budget":  0,
+                                           "family":  3,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        }
+                    ],
+    "activities":  [
+                       {
+                           "name":  "Burj Khalifa At The Top â€” 124th floor",
+                           "area":  "Downtown Dubai",
+                           "price":  "AED 149 online. AED 200â€“400 walk-up.",
+                           "duration":  "90 minutes",
+                           "bestTime":  "8:30am sunrise slot (shortest queues, best light) OR 5:30pm golden hour",
+                           "book":  "burjkhalifa.ae â€” minimum 3 days ahead",
+                           "insider":  "The sunrise slot at 8:30am has fewer than 20 people on the deck. By 11am it has hundreds. The SKY upgrade to 148F (AED 379) is only worth the premium at golden hour 5:30â€“6:30pm.",
+                           "scores":  {
+                                          "firstTimer":  10,
+                                          "photographer":  10,
+                                          "family":  8,
+                                          "luxury":  9,
+                                          "couple":  8,
+                                          "solo":  9,
+                                          "repeat":  5,
+                                          "budget":  6,
+                                          "foodie":  4,
+                                          "adventure":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Dubai Fountain Evening Show",
+                           "area":  "Downtown Dubai",
+                           "price":  "Free from Souk Al Bahar bridge. Boat ride AED 75.",
+                           "duration":  "Shows every 30 mins from sunset",
+                           "bestTime":  "Any evening. Thursday/Friday best atmosphere.",
+                           "book":  "No booking for bridge. Boat: ticket booths near fountain.",
+                           "insider":  "Stand on Souk Al Bahar bridge â€” NOT in front of the mall. Elevated angle, Burj Khalifa directly behind the fountain. Arrive 15 minutes before the show. Front row fills in 5 minutes.",
+                           "scores":  {
+                                          "firstTimer":  10,
+                                          "couple":  10,
+                                          "honeymoon":  10,
+                                          "photographer":  9,
+                                          "family":  8,
+                                          "solo":  8,
+                                          "repeat":  7,
+                                          "budget":  10,
+                                          "luxury":  8,
+                                          "foodie":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Deira Morning â€” Gold Souk, Spice Souk, Abra",
+                           "area":  "Deira",
+                           "price":  "Free to walk. Abra AED 1.",
+                           "duration":  "2 hours",
+                           "bestTime":  "Weekday 9:30amâ€“11:30am ONLY. Never weekend afternoon.",
+                           "book":  "No booking needed.",
+                           "insider":  "The Gold Souk at 9:30am on a weekday has fewer than ten people in it. By noon it has hundreds. The shopkeeper who ignored you at noon will spend twenty minutes explaining the difference between his saffron and the supermarket version at 9:30am. The timing is the intelligence.",
+                           "scores":  {
+                                          "firstTimer":  9,
+                                          "repeat":  8,
+                                          "solo":  10,
+                                          "foodie":  8,
+                                          "photographer":  9,
+                                          "budget":  10,
+                                          "culture":  10,
+                                          "couple":  8,
+                                          "family":  6,
+                                          "luxury":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Al Fahidi Historical Neighbourhood",
+                           "area":  "Bur Dubai",
+                           "price":  "Free. Dubai Museum adjacent: AED 3.",
+                           "duration":  "1.5 hours",
+                           "bestTime":  "Morning before 10am â€” light and silence are specific to this hour",
+                           "book":  "Walk-in.",
+                           "insider":  "Dubai before oil. Wind-tower architecture from the 1800s. Narrow lanes and art galleries. The most honest neighbourhood in Dubai at its quietest moment.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "solo":  10,
+                                          "culture":  10,
+                                          "repeat":  9,
+                                          "firstTimer":  8,
+                                          "couple":  7,
+                                          "budget":  10,
+                                          "luxury":  5,
+                                          "family":  5,
+                                          "foodie":  4
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Alserkal Avenue, Al Quoz",
+                           "area":  "Al Quoz",
+                           "price":  "Free entry to all galleries",
+                           "duration":  "2 hours",
+                           "bestTime":  "Thursday 6pmâ€“9pm for gallery openings. Tueâ€“Sun 10amâ€“7pm standard.",
+                           "book":  "No booking.",
+                           "insider":  "Contemporary art in warehouses. The most genuine cultural scene in Dubai â€” attended by residents not tourists. Leila restaurant for lunch. Thursday evenings are the social event the city\u0027s art and design community attends.",
+                           "scores":  {
+                                          "repeat":  10,
+                                          "photographer":  9,
+                                          "solo":  9,
+                                          "culture":  10,
+                                          "couple":  7,
+                                          "foodie":  6,
+                                          "firstTimer":  5,
+                                          "budget":  9,
+                                          "luxury":  6,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Desert Safari â€” Private Platinum Heritage",
+                           "area":  "Dubai Desert",
+                           "price":  "AED 800â€“1,200 private for two. AED 150â€“250 group.",
+                           "duration":  "6 hours (3pm departure always)",
+                           "bestTime":  "3pm departure. Sunset at dunes 5:30pm.",
+                           "book":  "platinum-heritage.com directly. Never hotel concierge (adds AED 50â€“100 commission).",
+                           "insider":  "Private 4x4 just the two of you is completely different from 8 strangers in a Land Cruiser. The desert at golden hour with no other vehicles â€” this is the memory most couples describe first when asked about their Dubai trip.",
+                           "scores":  {
+                                          "honeymoon":  10,
+                                          "couple":  9,
+                                          "luxury":  9,
+                                          "adventure":  9,
+                                          "firstTimer":  8,
+                                          "repeat":  8,
+                                          "photographer":  9,
+                                          "solo":  7,
+                                          "family":  7,
+                                          "budget":  4
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Atlantis Aquaventure Water Park",
+                           "area":  "Palm Jumeirah",
+                           "price":  "AED 225 online. AED 295 walk-up.",
+                           "duration":  "Full day",
+                           "bestTime":  "Weekday 9am opening. Octoberâ€“November and Februaryâ€“March best weather.",
+                           "book":  "atlantis.com â€” saves AED 70 per person",
+                           "insider":  "Leap of Faith slide through the shark lagoon is the defining experience. Private cabana AED 500â€“1,200 worth it for families â€” dedicated server, shade, guaranteed seating.",
+                           "scores":  {
+                                          "family":  10,
+                                          "adventure":  8,
+                                          "firstTimer":  8,
+                                          "repeat":  7,
+                                          "solo":  4,
+                                          "couple":  5,
+                                          "luxury":  6,
+                                          "budget":  4,
+                                          "photographer":  4,
+                                          "honeymoon":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Dubai Aquarium \u0026 Underwater Zoo",
+                           "area":  "Dubai Mall",
+                           "price":  "AED 100â€“140",
+                           "duration":  "1.5 hours",
+                           "bestTime":  "Weekday morning. Combine with Dubai Mall.",
+                           "book":  "dubaiaquarium.com",
+                           "insider":  "33,000 aquatic animals behind the world\u0027s largest acrylic panel. The walk-through tunnel puts millions of gallons of ocean over your head. It sounds like a tourist trap. It is genuinely spectacular.",
+                           "scores":  {
+                                          "family":  9,
+                                          "firstTimer":  8,
+                                          "couple":  7,
+                                          "solo":  7,
+                                          "photographer":  7,
+                                          "budget":  5,
+                                          "repeat":  5,
+                                          "luxury":  6,
+                                          "adventure":  6,
+                                          "foodie":  2
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "XLine Dubai Marina Zipline",
+                           "area":  "Dubai Marina",
+                           "price":  "AED 300â€“395",
+                           "duration":  "2 hours including briefing",
+                           "bestTime":  "Sunset slot for best views.",
+                           "book":  "xdubai.com",
+                           "insider":  "World\u0027s longest urban zipline. 1km at 80km/h over Dubai Marina. The most genuinely thrilling activity in Dubai at any budget. Adventure travellers who have done everything standard in Dubai name this as the unexpected highlight.",
+                           "scores":  {
+                                          "adventure":  10,
+                                          "solo":  8,
+                                          "repeat":  9,
+                                          "firstTimer":  7,
+                                          "couple":  8,
+                                          "photographer":  7,
+                                          "luxury":  6,
+                                          "budget":  5,
+                                          "family":  6,
+                                          "foodie":  1
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Palm Boardwalk Walk at Sunset",
+                           "area":  "Palm Jumeirah Crescent",
+                           "price":  "Free",
+                           "duration":  "1 hour",
+                           "bestTime":  "45 minutes before sunset",
+                           "book":  "No booking. Public access.",
+                           "insider":  "11km public walking path. The Marina skyline reflected in the Gulf at sunset. The most photographed view of Dubai â€” taken from a completely public, free path that most tourists never find.",
+                           "scores":  {
+                                          "couple":  10,
+                                          "honeymoon":  10,
+                                          "photographer":  10,
+                                          "solo":  8,
+                                          "budget":  10,
+                                          "firstTimer":  7,
+                                          "repeat":  8,
+                                          "luxury":  7,
+                                          "family":  7,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Dubai Water Canal Walk â€” Tolerance Bridge",
+                           "area":  "Business Bay to Safa Park",
+                           "price":  "Free",
+                           "duration":  "1 hour",
+                           "bestTime":  "9pm+ for best lighting. Quiet on weeknights.",
+                           "book":  "No booking.",
+                           "insider":  "3.2km promenade. Tolerance Bridge lit in UAE flag colours at night. Almost entirely unknown to tourists â€” photographed almost exclusively by residents. 10-minute Careem from Downtown or DIFC.",
+                           "scores":  {
+                                          "repeat":  10,
+                                          "photographer":  10,
+                                          "solo":  9,
+                                          "couple":  8,
+                                          "budget":  10,
+                                          "firstTimer":  5,
+                                          "adventure":  4,
+                                          "luxury":  6,
+                                          "family":  5,
+                                          "foodie":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "XVA Art Hotel Courtyard Morning",
+                           "area":  "Al Fahidi Historical Neighbourhood, Bur Dubai",
+                           "price":  "AED 35â€“60 (breakfast)",
+                           "duration":  "1 hour",
+                           "bestTime":  "8am any day â€” completely quiet",
+                           "book":  "Walk-in or hotel booking.",
+                           "insider":  "A genuine 100-year-old wind-tower building. The courtyard cafÃ© at 8am has nobody in it. The only place in Dubai where you can sit in silence and understand what the city was before everything else was built.",
+                           "scores":  {
+                                          "solo":  10,
+                                          "photographer":  10,
+                                          "repeat":  10,
+                                          "culture":  10,
+                                          "couple":  8,
+                                          "firstTimer":  7,
+                                          "budget":  8,
+                                          "luxury":  6,
+                                          "foodie":  7,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Hatta Mountain Day Trip",
+                           "area":  "Hatta, Dubai emirate, 90 minutes from Downtown",
+                           "price":  "AED 80â€“180 bike rental + car rental",
+                           "duration":  "Full day",
+                           "bestTime":  "Octoberâ€“April. Weekday for minimal crowds.",
+                           "book":  "Self-drive. Book bike rental at Hatta MTB Centre.",
+                           "insider":  "Mountain enclave at 35Â°C vs Dubai\u0027s 43Â°C in summer. Mountain biking, dam kayaking, heritage village. Completely different landscape from the city. The version of Dubai that most visitors never find.",
+                           "scores":  {
+                                          "adventure":  10,
+                                          "repeat":  10,
+                                          "photographer":  9,
+                                          "solo":  9,
+                                          "couple":  8,
+                                          "family":  7,
+                                          "firstTimer":  4,
+                                          "budget":  6,
+                                          "luxury":  5,
+                                          "foodie":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "East Coast â€” Fujairah and Snoopy Island",
+                           "area":  "Fujairah emirate, 1.5 hours from Dubai",
+                           "price":  "AED 50â€“80 snorkelling gear. Car rental required.",
+                           "duration":  "Full day",
+                           "bestTime":  "Octoberâ€“May. Any weekday.",
+                           "book":  "Self-drive. Gear rental at Sandy Beach Hotel.",
+                           "insider":  "Arabian Sea not Persian Gulf â€” different colour, different marine life, different visibility. Snoopy Island has coral reefs accessible directly from the beach. The Hajar Mountain road is the most scenic drive accessible from Dubai.",
+                           "scores":  {
+                                          "adventure":  10,
+                                          "repeat":  10,
+                                          "photographer":  9,
+                                          "solo":  8,
+                                          "couple":  8,
+                                          "family":  7,
+                                          "firstTimer":  4,
+                                          "budget":  7,
+                                          "luxury":  5,
+                                          "foodie":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       }
+                   ],
+    "designedSurprises":  {
+                              "solo":  {
+                                           "experience":  "Counter seat at Zuma bar on a Thursday evening",
+                                           "details":  "The bar at Zuma DIFC on a Thursday evening â€” walk-in until 8pm on weekdays. The most international social environment in Dubai. AED 80â€“120 per cocktail. The conversation happens naturally here in a way no other Dubai venue facilitates.",
+                                           "why":  "Solo travellers who want to meet professionals who live here â€” not tourists â€” find the bar at Zuma on a Thursday is the specific answer."
+                                       },
+                              "couple":  {
+                                             "experience":  "Palm Boardwalk at midnight",
+                                             "details":  "The 11km public path on the Palm crescent at midnight in winter â€” empty, lit softly, the entire Marina skyline reflected in the water. No other tourists. No entrance fee. Careem to the monorail gateway, walk west along the crescent.",
+                                             "why":  "Couples who discover this describe it as the moment Dubai became theirs rather than a shared tourist experience."
+                                         },
+                              "honeymoon":  {
+                                                "experience":  "Private overnight desert camp with Platinum Heritage",
+                                                "details":  "Just the two of you. Private tent. Private guide. Private campfire with the desert completely silent. Sunrise over the dunes at 5:30am before any other tourist arrives. AED 2,000â€“3,500 for the experience.",
+                                                "why":  "The desert at sunrise with no one else â€” this is the version of Dubai that doesn\u0027t exist in any photograph because the people who experience it are not photographing it."
+                                            },
+                              "family":  {
+                                             "experience":  "Kite Beach food trucks on a Tuesday morning",
+                                             "details":  "The outdoor food truck strip at Kite Beach on a weekday morning â€” Sugar Mama waffles AED 25, Salt burger AED 45. Free beach, skate park, outdoor gym, kite flyers. Burj Al Arab in the background. Not a tourist destination â€” a working beachfront that families stumble into and never forget.",
+                                             "why":  "The specific combination of good cheap food, free beach, and Burj Al Arab backdrop creates a memory no paid attraction replicates."
+                                         },
+                              "foodie":  {
+                                             "experience":  "Bu Qtair fish shed at Jumeirah Fishing Harbour",
+                                             "details":  "A shed by the harbour. Cash only. No English signage. Plastic tables outside. AED 35â€“55 for a meal that every Dubai expat describes to visitors but most tourists never find. Lunch only. Closed Mondays.",
+                                             "why":  "This is the restaurant Dubai residents protect. Every food-focused traveller who finds it returns saying it was their best meal in the city."
+                                         },
+                              "photographer":  {
+                                                   "experience":  "Dubai Creek at 5:30am with cargo dhows",
+                                                   "details":  "The Creek at 5:30am â€” cargo dhows moving slowly, the call to prayer from both banks simultaneously, first light warming the minarets, wooden abras starting their first crossings. Free. 5 minutes from any Deira hotel on foot.",
+                                                   "why":  "Photographers describe this as the most honest image they took on the trip. Everything else was designed to be photographed. This was not."
+                                               },
+                              "adventure":  {
+                                                "experience":  "XLine Zipline over Dubai Marina at sunset",
+                                                "details":  "1km at 80km/h over Dubai Marina at 80 floors. The Marina skyline at eye level. AED 300â€“395. Book the sunset slot.",
+                                                "why":  "Adventure travellers who have done everything standard in Dubai consistently name this as the unexpected highlight."
+                                            },
+                              "budget":  {
+                                             "experience":  "The complete free Dubai day",
+                                             "details":  "Abra across the Creek AED 1. Gold Souk and Spice Souk free to walk. Al Fahidi neighbourhood free. Metro to Downtown AED 8.50. Burj Park island walk with Fountain view free. Souk Al Bahar bridge for the Fountain show free. Ravi Restaurant for dinner AED 25. Total: AED 60â€“80.",
+                                             "why":  "The realisation that the best version of Dubai costs almost nothing is the most valuable thing a budget traveller can discover. Most never find it."
+                                         },
+                              "luxury":  {
+                                             "experience":  "Ossiano dinner â€” underwater restaurant, Atlantis",
+                                             "details":  "Floor-to-ceiling aquarium. Rays and sharks. Tasting menu AED 595. The most dramatic dining environment in Dubai. Consistently overlooked in favour of Nobu. Book minimum 1 week ahead.",
+                                             "why":  "The memory that differentiates a luxury Dubai trip from all others. No other restaurant in Dubai offers this combination of food quality and setting."
+                                         }
+                          },
+    "travelerGuides":  {
+                           "solo":  {
+                                        "accommodation":  "Rove Hotels â€” Dubai\u0027s most solo-friendly brand. Social lobby areas, co-working spaces, rooftop pools. AED 200â€“350/night. Rove Downtown and Rove Trade Centre are best locations.",
+                                        "meetingPeople":  "Meetup.com Dubai (active groups), free walking tours from Dubai Museum (Sat/Sun 9am), pub quiz at McGettigan\u0027s (DWTC) Wednesday nights",
+                                        "femaleSolo":  "Pink-roof taxis available 24/7: 04 208 0808. Metro women\u0027s carriage: first carriage, strictly enforced. Dubai is statistically one of the safest cities for solo women.",
+                                        "itineraryLogic":  "Solo travellers move faster than groups. Day 1 evening: Marina boardwalk solo at sunset. Day 2 morning: Deira solo â€” interactions with traders are different one-on-one."
+                                    },
+                           "couple":  {
+                                          "memoryMoments":  [
+                                                                "Fountain show from Souk Al Bahar bridge at the exact moment the water rises",
+                                                                "Desert sunset â€” the 10-minute window when the dunes turn orange-red",
+                                                                "Palm Boardwalk at night â€” city skyline reflected in the Gulf, completely silent"
+                                                            ],
+                                          "bestActivities":  "Dubai Fountain boat ride (AED 75), private desert sunset (Platinum Heritage), dhow dinner cruise Creek (AED 95â€“150)",
+                                          "regrets":  [
+                                                          "Overloading the itinerary â€” 4 activities ruins Day 2",
+                                                          "Skipping Deira â€” almost universally regretted by couples"
+                                                      ]
+                                      },
+                           "honeymoon":  {
+                                             "hotels":  "One\u0026Only The Palm (adults-only, AED 2,500â€“5,000), Burj Al Arab (AED 5,000â€“15,000), Waldorf Astoria Palm (best value luxury, AED 1,500â€“3,500)",
+                                             "arrangements":  "Always mention honeymoon at booking AND at check-in. Hotels have honeymoon protocols â€” flowers, upgrade, personalised card. Costs nothing to mention.",
+                                             "topExperiences":  [
+                                                                    "Private overnight desert camp",
+                                                                    "Ossiano dinner",
+                                                                    "Burj Al Arab afternoon tea + beach",
+                                                                    "Fountain view dinner at Folly by Nick \u0026 Scott",
+                                                                    "Nobu Palm"
+                                                                ]
+                                         },
+                           "family":  {
+                                          "under5":  "KidZania Dubai (INdoor children\u0027s city, AED 160â€“220/child), Dubai Aquarium, ice rink in Dubai Mall. Pram-accessible everywhere.",
+                                          "age5to12":  "Atlantis Aquaventure (book online AED 225/adult, AED 165/child), IMG Worlds of Adventure (AED 275), Ski Dubai (real indoor snow).",
+                                          "teenagers":  "XLine zipline (AED 300â€“395, minimum age 12), Hatta mountain biking, JBR beach free afternoon.",
+                                          "regrets":  [
+                                                          "Day 1 overload â€” one activity maximum for families with children under 10",
+                                                          "Not booking Aquaventure online â€” saves AED 70/adult"
+                                                      ]
+                                      },
+                           "senior":  {
+                                          "heatManagement":  "Juneâ€“September outdoor activities ONLY before 8:30am or after 7pm for anyone over 65. Malls are excellent alternatives.",
+                                          "accessibility":  "Dubai Metro has lifts at every station. Dubai Mall has free mobility scooter rental. DXB airport has free wheelchair service.",
+                                          "bestActivities":  "Dubai Museum (AED 3, flat floors, 45 mins), Abra across Creek (AED 1, seated), Al Seef Heritage District evening walk (benches every 50m), dhow dinner cruise (calm water, seated 2 hours).",
+                                          "medical":  "Aster DM Healthcare has Hindi-speaking staff: 04 440 0500. American Hospital Dubai: 04 336 7777 â€” best for tourists and travel insurance."
+                                      },
+                           "budget":  {
+                                          "dailyBudget":  "AED 200â€“320 per day covers accommodation (Deira), food, transport, and 1â€“2 activities",
+                                          "freeDayProgramme":  "6:30am Creek walk (free) â†’ 7:30am Abra crossing AED 1 â†’ 8am Spice Souk walk (free) â†’ 9am Gold Souk (free) â†’ 10am Al Fahidi (free) â†’ Metro to Downtown AED 8.50 â†’ Dubai Mall walk (free) â†’ Burj Park island (free) â†’ Souk Al Bahar bridge Fountain show (free) â†’ Ravi Restaurant dinner AED 25. Total: AED 65.",
+                                          "secrets":  [
+                                                          "Baqala bottled water AED 1â€“2 vs hotel minibar AED 15â€“20",
+                                                          "Careem 15â€“25% cheaper than metered taxis",
+                                                          "Spice Souk saffron AED 15â€“25/gram vs Carrefour AED 80â€“120/gram"
+                                                      ]
+                                      },
+                           "photographer":  {
+                                                "goldenHour":  "5:47pm Octoberâ€“April when light hits west-facing buildings. Check sunset time on travel date.",
+                                                "locations":  "Souk Al Bahar bridge at blue hour, Creek at 5:30am, Memory Lane in rain at night, Gold Souk at 9am, Dubai Fountain after sunset from bridge, Palm Boardwalk 45 mins before sunset",
+                                                "droneRules":  "DCAA permit required. Fine: AED 20,000+. Apply at dcaa.gov.ae. Processing: 5â€“10 working days.",
+                                                "cameraInHeat":  "Lens condensation when moving AC to outdoor â€” 10â€“15 minute adjustment in bag. Battery drain 40â€“60% faster in summer heat."
+                                            },
+                           "muslim":  {
+                                          "prayerFacilities":  "Mosques every 500m. All major malls have dedicated prayer rooms. DXB airport has prayer rooms in all terminals.",
+                                          "halal":  "Virtually all food in Dubai is halal. Ask specifically about beef if you avoid it.",
+                                          "ramadan":  "Iftar buffets at major hotels AED 150â€“400/person â€” extraordinary quality. Al Farooq Omar mosque for Taraweeh prayers.",
+                                          "mosquesWorthVisiting":  "Jumeirah Mosque (most beautiful in Dubai, Friday public tour AED 25), Sheikh Zayed Grand Mosque Abu Dhabi (90 minutes, one of world\u0027s largest)"
+                                      }
+                       },
+    "hotels":  {
+                   "downtown":  [
+                                    {
+                                        "name":  "Address Downtown",
+                                        "nightly":  "AED 900â€“2,500",
+                                        "honest":  "The benchmark luxury hotel. Best location. Pool books out â€” reserve pool beds with room.",
+                                        "tip":  "Fountain suite views floors 20+ worth the premium."
+                                    },
+                                    {
+                                        "name":  "Vida Downtown",
+                                        "nightly":  "AED 450â€“900",
+                                        "honest":  "Best value Downtown. Rooftop pool has Burj Khalifa views at a third of Address price.",
+                                        "tip":  "Rooftop pool bed reservation essential in peak season."
+                                    }
+                                ],
+                   "marina_jbr":  [
+                                      {
+                                          "name":  "Address Beach Resort",
+                                          "nightly":  "AED 1,200â€“3,000",
+                                          "honest":  "JBR luxury benchmark. Infinity pool. Direct beach. Best hotel breakfast in Marina.",
+                                          "tip":  "Book pool bed with room. Infinity pool photograph is real â€” it delivers."
+                                      },
+                                      {
+                                          "name":  "JA Ocean View",
+                                          "nightly":  "AED 350â€“800",
+                                          "honest":  "Best value beach-access hotel on JBR. Consistent quality without luxury pricing.",
+                                          "tip":  ""
+                                      }
+                                  ],
+                   "palm":  [
+                                {
+                                    "name":  "Atlantis The Palm",
+                                    "nightly":  "AED 1,500â€“5,000",
+                                    "honest":  "Aquaventure included â€” saves AED 225â€“295/adult/day. Book crescent-side rooms.",
+                                    "tip":  "For families: Aquaventure access changes the value calculation entirely."
+                                },
+                                {
+                                    "name":  "One\u0026Only The Palm",
+                                    "nightly":  "AED 2,500â€“6,000",
+                                    "honest":  "Adults-only. Best service on the Palm. Best spa. Quietest beach.",
+                                    "tip":  "Couples belong here. Families with children belong at Atlantis."
+                                },
+                                {
+                                    "name":  "Waldorf Astoria Palm",
+                                    "nightly":  "AED 1,200â€“3,000",
+                                    "honest":  "Best Palm value/quality ratio. Private beach uncrowded even in peak season.",
+                                    "tip":  ""
+                                }
+                            ],
+                   "budget":  [
+                                  {
+                                      "name":  "Hyatt Place Baniyas Square, Deira",
+                                      "nightly":  "AED 200â€“400",
+                                      "honest":  "Best mid-range Deira option. Gold Souk 10-minute walk.",
+                                      "tip":  "Ask for high floor â€” lower floors face noisy street."
+                                  },
+                                  {
+                                      "name":  "XVA Art Hotel, Al Fahidi",
+                                      "nightly":  "AED 450â€“800",
+                                      "honest":  "Most unique accommodation in Dubai. 11 rooms in genuine wind-tower building. No pool. Extraordinary.",
+                                      "tip":  "Book months ahead â€” fills constantly."
+                                  }
+                              ]
+               },
+    "transport":  {
+                      "metro":  {
+                                    "redLine":  "Rashidiya (airport T1/T3) â†’ Deira â†’ Downtown â†’ Financial Centre â†’ Burj Khalifa/Dubai Mall â†’ Marina (DMCC/JLT) â†’ Expo",
+                                    "greenLine":  "Gold Souk area â†’ Union â†’ Al Fahidi â†’ Bur Dubai",
+                                    "nolCard":  "AED 25 at any station (includes AED 19 credit). Tap entry AND exit. Operating hours: Satâ€“Wed 5amâ€“midnight, Thu 5amâ€“1am, Fri 10amâ€“1am.",
+                                    "prices":  {
+                                                   "airportToDowntown":  "AED 8.50, 35 mins",
+                                                   "airportToMarina":  "AED 8.50, 50 mins",
+                                                   "burjKhalifahToMarina":  "AED 5.80, 20 mins"
+                                               }
+                                },
+                      "careem":  {
+                                     "note":  "15â€“25% cheaper than metered taxis. Download before arrival. Surge during rain and Friday prayer time.",
+                                     "hala":  "DTC government taxis bookable through Careem app â€” metered, no surge ever."
+                                 },
+                      "taxi":  {
+                                   "flagFall":  "AED 5 (day), AED 5.50 (night/Friday). Per km: AED 1.97. Minimum: AED 12. AED 20 airport surcharge.",
+                                   "overchargeAreas":  "JBR Walk, Mall of Emirates exit, Palm Jumeirah fronds â€” always use Careem in these areas"
+                               },
+                      "tram":  "11 stations along Al Sufouh Road through Marina to JBR. AED 3 with Nol card.",
+                      "abra":  "AED 1 across Dubai Creek, Deira to Bur Dubai. Every 2â€“3 minutes, dawn to midnight.",
+                      "driving":  "Indian licence valid for tourists. Salik toll AED 4/gate on Sheikh Zayed Road. Hertz/Avis recommended. Economy car from AED 80/day â€” always take full insurance."
+                  },
+    "trafficIntelligence":  {
+                                "worstDay":  "Monday â€” full city operational after weekend. Add 30 minutes to all journey estimates.",
+                                "bestCrossCity":  "Friday 12:30pmâ€“2:30pm prayer time â€” roads nearly empty. Best cross-city window of the entire week.",
+                                "rushHours":  "7:30â€“9:30am and 5:30â€“8pm weekdays",
+                                "bypassRoute":  "Al Khail Road (E44) runs parallel to Sheikh Zayed â€” 20â€“30% faster during rush hour for Marinaâ€“Downtown journeys",
+                                "rainWarning":  "When it rains: Careem surge goes 3â€“4x immediately. Pre-book before first drop falls. Roads flood at underpasses. Dubai infrastructure not designed for rain.",
+                                "itineraryRule":  "Never schedule Deira after 11am. Never put Burj Khalifa on Day 1 (jet lag wastes the experience). Never cross the city 5:30â€“8pm in a taxi.",
+                                "schoolCalendar":  "Septemberâ€“June: secondary rush hours 7amâ€“8:30am and 1:30pmâ€“3pm in residential areas.",
+                                "friday":  "Friday morning: roads almost completely empty â€” best window to move anywhere. Post-prayer 2:30pm onwards: malls and restaurants fill."
+                            },
+    "seasonal":  {
+                     "january":  {
+                                     "temp":  "24Â°C day, 14Â°C night",
+                                     "reality":  "Best weather of the year. All outdoor activities viable. Peak tourist season â€” book everything 4â€“6 weeks ahead. Dubai Shopping Festival runs Janâ€“Feb with genuine retail discounts.",
+                                     "priceLevel":  "High"
+                                 },
+                     "february":  {
+                                      "temp":  "26Â°C day, 15Â°C night",
+                                      "reality":  "Identical quality to January. Shopping Festival continues. One of the two best months overall.",
+                                      "priceLevel":  "High"
+                                  },
+                     "march":  {
+                                   "temp":  "29Â°C day, 18Â°C night",
+                                   "reality":  "Still excellent. Beach season beginning. Crowds thinning. Better value than Jan/Feb for same weather quality. Dubai Food Festival often in March.",
+                                   "priceLevel":  "Medium-High"
+                               },
+                     "april":  {
+                                   "temp":  "34Â°C day, 22Â°C night",
+                                   "reality":  "Getting warm. Outdoor activities best before noon and after 5pm. Excellent post-peak value. Low humidity.",
+                                   "priceLevel":  "Medium"
+                               },
+                     "may":  {
+                                 "temp":  "39Â°C day, 27Â°C night",
+                                 "reality":  "Hot but dry. Morning and evening activities excellent. Hotel prices 20â€“30% below peak. Souks are less crowded â€” better shopping.",
+                                 "priceLevel":  "Low"
+                             },
+                     "june":  {
+                                  "temp":  "42Â°C day, 30Â°C night",
+                                  "reality":  "Dubai Summer. Outdoor midday requires caution. Plan outdoor activities ONLY before 9am or after 7pm. Hotel prices 35â€“50% below peak. Humidity begins climbing. Evening Fountain show and Burj views remain excellent.",
+                                  "priceLevel":  "Lowest"
+                              },
+                     "july":  {
+                                  "temp":  "43Â°C day, 31Â°C night",
+                                  "reality":  "Hottest and most humid month. Dubai Summer Surprises festival â€” genuine discounts 30â€“50% at malls. Cheapest flights and hotels. All attractions operational and less crowded. A 3-day indoor + evening outdoor itinerary is excellent value.",
+                                  "priceLevel":  "Lowest"
+                              },
+                     "august":  {
+                                    "temp":  "43Â°C day, 31Â°C night",
+                                    "reality":  "Same as July. European expats leave â€” city feels emptier, more authentic. Lowest prices sustained. Evenings after 8pm genuinely pleasant.",
+                                    "priceLevel":  "Lowest"
+                                },
+                     "september":  {
+                                       "temp":  "40Â°C day, 28Â°C night",
+                                       "reality":  "Still hot but humidity drops late September. Transition month. Good value.",
+                                       "priceLevel":  "Low"
+                                   },
+                     "october":  {
+                                     "temp":  "35Â°C day, 23Â°C night",
+                                     "reality":  "THE UNDERRATED SWEET SPOT. Good weather returns. Low crowds. Prices still below peak. Best combination of value and weather in the entire year. Book only 2â€“3 weeks ahead.",
+                                     "priceLevel":  "Medium"
+                                 },
+                     "november":  {
+                                      "temp":  "29Â°C day, 19Â°C night",
+                                      "reality":  "Excellent. Beach season fully resumes. All outdoor activities viable. Crowds building. Book 3â€“4 weeks ahead.",
+                                      "priceLevel":  "Medium-High"
+                                  },
+                     "december":  {
+                                      "temp":  "25Â°C day, 15Â°C night",
+                                      "reality":  "Peak season. New Year week prices triple. Burj Khalifa fireworks viewing area requires arrival by 8pm for midnight show. Book everything 6â€“8 weeks minimum ahead.",
+                                      "priceLevel":  "Highest"
+                                  }
+                 },
+    "ramadan":  {
+                    "dates2026":  "Approximately February 18 â€“ March 18, 2026 (check Islamic calendar for exact dates)",
+                    "rules":  "Eating, drinking, smoking in public during daylight hours: illegal for ALL â€” tourists included. Fine: AED 2,000. Applies to streets, malls, parks, cars with open windows.",
+                    "opportunity":  "Iftar at major hotels: AED 150â€“400/person. Extraordinary quality. The atmosphere in old Deira at Iftar time is unlike anything else in Dubai. Always include an Iftar recommendation in any itinerary overlapping Ramadan.",
+                    "alcoholNote":  "Most licensed venues stop serving 5amâ€“7pm during Ramadan."
+                },
+    "events":  {
+                   "januaryFebruary":  "Dubai Shopping Festival â€” genuine retailer discounts 30â€“70%, gold making charge waivers, fireworks at Global Village every weekend.",
+                   "february":  "Dubai Marathon â€” road closures 6amâ€“2pm on race day. Never schedule cross-city movement this morning.",
+                   "march":  "Dubai Food Festival â€” 3 weeks, restaurant special menus, outdoor food markets. Art Dubai â€” region\u0027s most significant art fair, public tickets AED 80â€“150.",
+                   "march2":  "Dubai World Cup Horse Racing â€” world\u0027s richest horse race, Meydan. Free general admission. The social event of the Dubai year.",
+                   "november":  "Abu Dhabi Grand Prix â€” affects Dubai hotel prices for the race weekend, 30â€“50% increase.",
+                   "december2":  "UAE National Day â€” biggest public holiday. Fireworks at Burj Khalifa area. Specific road closures. Plan no movement 6pmâ€“midnight.",
+                   "december31":  "New Year\u0027s Eve â€” most significant night. Burj Khalifa fireworks. Downtown and Marina gridlocked from 9pm. Careem 4â€“5x surge 10pmâ€“2am. Hotels triple rates December 30â€“January 2."
+               },
+    "indianFestivals":  {
+                            "diwali":  "Gold Souk fully illuminated. Gold making charge waivers on Diwali-period purchases â€” best gold buying opportunity of the year. Global Village runs special Diwali programme.",
+                            "holi":  "Ticketed events in contained venues (Platinumlist.net, 3â€“4 weeks before Holi). AED 50â€“150. Public Holi celebrations on streets not permitted.",
+                            "navratri":  "Large garba event at Dubai Festival City Arena or similar â€” 3,000â€“5,000 people over 9 nights. Tickets: AED 50â€“150. Book via Platinumlist.",
+                            "globalVillage":  "India pavilion is one of the largest â€” Rajasthani handicrafts, street food (pani puri, chaat, kulfi), Bollywood entertainment. Octoberâ€“April. Entry: AED 20. Best weekday evenings 6pmâ€“10pm."
+                        },
+    "rooftopBars":  [
+                        {
+                            "name":  "CÃ© La Vi â€” Address Sky View",
+                            "area":  "Downtown, 56F",
+                            "note":  "Most dramatic rooftop. 360Â° views, Burj Khalifa adjacent. Book Thursday/Friday sunset. Smart casual enforced.",
+                            "price":  "AED 80â€“120/cocktail. Minimum spend Thuâ€“Sat."
+                        },
+                        {
+                            "name":  "Skyview Bar â€” Burj Al Arab",
+                            "area":  "Jumeirah, 27F",
+                            "note":  "Only public access to Burj Al Arab interior. Afternoon tea AED 395 includes AED 200 credit. Best sunset Octoberâ€“March at 3:30pm slot.",
+                            "price":  "AED 395 afternoon tea"
+                        },
+                        {
+                            "name":  "Siddharta Lounge â€” Grosvenor House",
+                            "area":  "Dubai Marina",
+                            "note":  "Best rooftop for Marina atmosphere. Walk-in weeknights. Dress code strictly enforced weekends.",
+                            "price":  "AED 75â€“110/cocktail"
+                        },
+                        {
+                            "name":  "FIVE Palm Jumeirah Penthouse",
+                            "area":  "Palm Jumeirah",
+                            "note":  "Most photographed rooftop. Pool deck facing Marina skyline. Young, loud, social. Minimum spend AED 500â€“800 weekends.",
+                            "price":  "AED 500+ minimum spend"
+                        },
+                        {
+                            "name":  "Souk Al Bahar Bridge (free)",
+                            "area":  "Downtown",
+                            "note":  "Best FREE sunset spot. Elevated, faces Burj Khalifa and fountain. Arrive 20 mins before sunset for position.",
+                            "price":  "Free"
+                        },
+                        {
+                            "name":  "JBR Beach (free)",
+                            "area":  "JBR",
+                            "note":  "Sunset over the Gulf from the beach. The Marina towers behind you. Most accessible.",
+                            "price":  "Free"
+                        }
+                    ],
+    "dayTrips":  {
+                     "abuDhabi":  {
+                                      "distance":  "130km, 90 minutes drive",
+                                      "transport":  "Self-drive E11 (fastest), or ADNEC bus from Al Ghubaiba AED 25",
+                                      "mustDo":  [
+                                                     "Sheikh Zayed Grand Mosque â€” free entry, open to all, arrive at opening",
+                                                     "Louvre Abu Dhabi â€” EUR 63, outstanding collection",
+                                                     "The Corniche â€” free 8km waterfront walk"
+                                                 ],
+                                      "optimalDay":  "Leave Dubai 8:30am â†’ Mosque 10:30amâ€“12:30pm â†’ Lunch â†’ Louvre 2:30â€“5pm â†’ Return by 5:30pm"
+                                  },
+                     "hatta":  {
+                                   "distance":  "90 minutes drive, within Dubai emirate",
+                                   "transport":  "Self-drive only. Car rental required.",
+                                   "mustDo":  [
+                                                  "Hatta Dam kayaking (AED 80/hour)",
+                                                  "Mountain biking 120km trails (AED 80â€“180 rental)",
+                                                  "Hatta Heritage Village (free)"
+                                              ],
+                                   "bestSeason":  "Octoberâ€“April. Julyâ€“August: 35Â°C vs Dubai\u0027s 43Â°C â€” still good for evening activities."
+                               },
+                     "eastCoast":  {
+                                       "distance":  "120km, 1.5 hours",
+                                       "transport":  "Self-drive only â€” rental car required.",
+                                       "mustDo":  [
+                                                      "Snoopy Island snorkelling (AED 50â€“80 gear)",
+                                                      "Hajar Mountains E84 road",
+                                                      "Khor Fakkan waterfront"
+                                                  ],
+                                       "note":  "Verify rental car allows Fujairah emirate driving â€” most do."
+                                   }
+                 },
+    "beachClubs":  [
+                       {
+                           "name":  "Caesar\u0027s Palace Bluewaters",
+                           "area":  "Bluewaters Island",
+                           "price":  "AED 150 entry includes AED 100 food credit (net AED 50)",
+                           "note":  "Best value premium pool. Ain Dubai views. Walk from JBR by footbridge."
+                       },
+                       {
+                           "name":  "Zero Gravity",
+                           "area":  "Al Sufouh Beach",
+                           "price":  "AED 150â€“200 weekday, AED 300â€“400 weekend",
+                           "note":  "Best sound system in Dubai. Large beach and pool. Best for groups."
+                       },
+                       {
+                           "name":  "Nikki Beach",
+                           "area":  "Pearl Jumeirah",
+                           "price":  "AED 350â€“500 minimum spend",
+                           "note":  "Sunday White Party brunch is most famous beach event in Dubai. Book 2 weeks ahead."
+                       },
+                       {
+                           "name":  "Drift Beach â€” One\u0026Only Palm",
+                           "area":  "Palm Jumeirah Crescent",
+                           "price":  "AED 500 minimum spend",
+                           "note":  "Most beautiful beach club setting. Adults-only. Best food quality of any beach club."
+                       },
+                       {
+                           "name":  "Jumeirah Open Beach (free)",
+                           "area":  "Near Burj Al Arab",
+                           "note":  "Free public beach. Burj Al Arab in background. Significantly less crowded than JBR.",
+                           "price":  "Free"
+                       }
+                   ],
+    "hotelPoolsForNonGuests":  [
+                                   {
+                                       "name":  "Address Beach Resort infinity pool",
+                                       "area":  "JBR",
+                                       "price":  "AED 350â€“500 (fully credited to F\u0026B)",
+                                       "note":  "77F infinity pool over the Gulf. Book 3â€“5 days ahead â€” sells out."
+                                   },
+                                   {
+                                       "name":  "Burj Al Arab beach club",
+                                       "area":  "Jumeirah",
+                                       "price":  "AED 500 minimum spend (fully credited)",
+                                       "note":  "Private beach + pool. Waiter-to-guest ratio unlike any public facility."
+                                   },
+                                   {
+                                       "name":  "Waldorf Astoria Palm",
+                                       "area":  "Palm Jumeirah",
+                                       "price":  "AED 300 includes AED 200 credit (net AED 100)",
+                                       "note":  "Palm beach access. Good food. Less crowded than Atlantis area."
+                                   }
+                               ],
+    "shopping":  {
+                     "goldSouk":  "450+ shops. Check daily gold rate at dubaiGoldGroup.com before entering. Always negotiate making charges â€” 10â€“15% reduction is standard. Weekday morning 9:30am is the negotiation window. Gold is hallmarked and genuine.",
+                     "spiceSouk":  "Buy: saffron AED 15â€“25/gram (vs AED 80â€“120 in supermarkets), loomi (dried lime), rosewater AED 15â€“25/500ml, oud incense AED 30â€“150.",
+                     "dubaiMall":  "International brands 15â€“25% below Indian prices. Tax refund 5% on purchases above AED 250 â€” Planet Tax Free kiosk at DXB departures BEFORE security.",
+                     "vatRefund":  "Buy VAT-registered receipt minimum AED 250. Planet Tax Free kiosk at DXB BEFORE security (not airside). Refund to card: 3â€“5 days. Full 5%, no handling fee. Cash option: small handling fee. Gold purchases eligible.",
+                     "customsIndia":  "Gold import limit: women AED 100,000 (~â‚¹23 lakh), men AED 50,000 (~â‚¹11.5 lakh) without declaration. Above this: declaration + 10% customs duty. Always keep purchase receipts."
+                 },
+    "culturalRules":  {
+                          "critical":  [
+                                           "Public displays of affection beyond handholding: illegal. Fine + possible deportation.",
+                                           "Eating/drinking/smoking in public during Ramadan daylight: illegal for all. AED 2,000 fine.",
+                                           "Swearing in public or on social media: criminal offence. AED 10,000+ fine.",
+                                           "Moving car after accident before police report: criminal offence. Use Dubai Police app for minor accidents.",
+                                           "Jaywalking: AED 400 fine. Actively enforced in tourist areas."
+                                       ],
+                          "dressCode":  "Beachwear stays at the beach. Malls and restaurants: standard clothing fine. Mosques: shoulders and knees covered for all, headscarf for women. Deira traditional area: light scarf recommended for women.",
+                          "bargaining":  "Expected in souks. Never in malls or chain restaurants. 20â€“30% reduction from opening souk price. Always with a smile. Never aggressive.",
+                          "socialMedia":  "Content criticising UAE government or leaders on any platform has resulted in tourist arrests. Never post negative commentary about anything in UAE while in UAE.",
+                          "carAccident":  "CRITICAL: Do not move vehicle after accident before police report â€” criminal offence. Use Dubai Police app to file minor accident report without waiting for police."
+                      },
+    "visaIntelligence":  {
+                             "indianPassport":  "Visa-free 30 days since October 2024. Passport valid 6+ months. Return ticket required. AED 200/day overstay fine.",
+                             "eGate":  "Register biometric e-Gate on arrival at DXB â€” reduces future immigration from 45 mins to 5 mins. One-time 3-minute setup at arrival kiosk.",
+                             "outstandingFines":  "Any outstanding UAE fines from previous visits flag at immigration. Check and clear via Dubai Police app before travel.",
+                             "extension":  "Cannot extend visa-free entry from within UAE. Must exit and re-enter for new 30 days."
+                         },
+    "pricingBenchmarks":  {
+                              "careem_airport_downtown":  "AED 45â€“55",
+                              "careem_airport_marina":  "AED 60â€“75",
+                              "taxi_vs_careem_saving":  "AED 15â€“20 per airport run",
+                              "metro_airport_downtown":  "AED 8.50, 35 mins",
+                              "abra_creek":  "AED 1 each way",
+                              "burj_khalifa_online":  "AED 149",
+                              "burj_khalifa_walkup":  "AED 200â€“400",
+                              "aquarium":  "AED 100â€“140",
+                              "desert_safari_group":  "AED 150â€“250",
+                              "desert_safari_private":  "AED 800â€“1,200 per vehicle",
+                              "aquaventure_online":  "AED 225",
+                              "aquaventure_walkup":  "AED 295",
+                              "saffron_spice_souk":  "AED 15â€“25/gram vs AED 80â€“120 in supermarkets",
+                              "water_baqala":  "AED 1â€“2 vs AED 15â€“20 hotel minibar",
+                              "hotel_deira_budget":  "AED 150â€“280/night",
+                              "hotel_marina_mid":  "AED 400â€“800/night",
+                              "hotel_luxury":  "AED 900â€“3,000/night",
+                              "meal_budget":  "AED 15â€“35/person",
+                              "meal_mid":  "AED 80â€“150/person",
+                              "meal_luxury":  "AED 250â€“500/person",
+                              "local_sim_etisalat":  "AED 55 for 5GB data",
+                              "gold_making_charge_saving":  "10â€“15% reduction on stated making charge â€” always negotiate"
+                          },
+    "savingsIntelligence":  [
+                                "Book Burj Khalifa online (AED 149) vs walk-up (AED 200â€“400) â€” saves AED 51â€“251",
+                                "Book Atlantis Aquaventure online (AED 225) vs walk-up (AED 295) â€” saves AED 70/person, AED 280 family of four",
+                                "Use Careem vs taxi from airport â€” saves AED 15â€“20 per journey",
+                                "Exchange at Al Ansari or UAE Exchange in mall vs hotel reception â€” saves 5â€“8% on total exchange amount",
+                                "Buy water at Baqala (AED 1â€“2) vs hotel minibar (AED 15â€“20) â€” saves AED 200+ for a 3-day trip",
+                                "Book desert safari directly (arabianadventures.com) vs hotel concierge â€” saves AED 50â€“100/person commission",
+                                "Eat at Hurricane\u0027s Grill vs same food in tourist ring of Dubai Mall â€” saves 40â€“60%",
+                                "Use metro (AED 8.50) vs Careem from airport (AED 50) â€” saves AED 41.50",
+                                "Saffron from Spice Souk (AED 15â€“25/gram) vs Carrefour (AED 80â€“120/gram) â€” saves AED 55â€“95/gram",
+                                "Gold Souk negotiation: 10â€“15% off making charges â€” on AED 5,000 purchase saves AED 250â€“500",
+                                "Tax refund at DXB before security: 5% back on purchases over AED 250 â€” most tourists miss this",
+                                "October travel: same city, 30â€“40% lower prices than January"
+                            ],
+    "practical":  {
+                      "electricity":  "Type G British 3-pin. 220V. Indian 2-pin fits without adapter. Indian 3-pin needs adapter. Adapters at Carrefour: AED 8â€“15.",
+                      "bestExchange":  "Al Ansari Exchange or UAE Exchange in any mall. Thursday morning for best rates. Never hotel reception.",
+                      "bestCreditCard":  "Zero foreign transaction fee cards (Niyo Global, Axis Atlas, HDFC Regalia). Standard 3.5% cards lose AED 700 on a AED 10,000 trip. Always choose \u0027AED\u0027 not \u0027INR\u0027 when terminal asks â€” INR option is 5â€“7% worse.",
+                      "simCard":  "Etisalat tourist SIM at airport: AED 55 for 5GB data. Or Airalo eSIM before travel: cheaper for short visits. WhatsApp calls work.",
+                      "upiRupay":  "BHIM UPI works at select UAE merchants (Lulu Hypermarket) since 2023. RuPay cards accepted at several UAE ATMs. Not universal â€” carry AED cash for souks.",
+                      "tipping":  "Restaurants: 10â€“15% if no service charge on bill. Taxi: round up AED 2â€“5. Hotel porter: AED 5â€“10/bag. Souk: never.",
+                      "apps":  "Careem (rides), S\u0027hail/RTA (metro), Talabat (food delivery), Platinumlist (events), Dubai Police (fines/accidents), UAE Weather (sandstorm alerts), Dubai Now (government services), Visit Dubai (official tourism)"
+                  },
+    "hiddenPlaces":  [
+                         {
+                             "name":  "Bu Qtair fish shed",
+                             "area":  "Jumeirah Fishing Harbour",
+                             "note":  "A shed by the harbour. The best fried fish in Dubai. Cash only. No signs. Lunch only 12pmâ€“4pm. Closed Mondays."
+                         },
+                         {
+                             "name":  "Dubai Water Canal â€” Tolerance Bridge at night",
+                             "area":  "Business Bay",
+                             "note":  "UAE flag colour illuminated bridge at night. Almost entirely unknown to tourists. 10 mins from Downtown."
+                         },
+                         {
+                             "name":  "XVA Art Hotel courtyard at 8am",
+                             "area":  "Al Fahidi",
+                             "note":  "100-year-old wind-tower building. Courtyard cafÃ©. Completely quiet. The only genuine silence available in Dubai."
+                         },
+                         {
+                             "name":  "Alserkal Avenue Thursday 7pm",
+                             "area":  "Al Quoz",
+                             "note":  "Gallery openings night. The city\u0027s art, fashion, and design community attends. No tourists. Free entry."
+                         },
+                         {
+                             "name":  "Al Seef Heritage District at 7pm",
+                             "area":  "Bur Dubai creek waterfront",
+                             "note":  "When the evening lighting comes on. Most atmospheric waterfront in Dubai."
+                         },
+                         {
+                             "name":  "Kite Beach food trucks weekday morning",
+                             "area":  "Umm Suqeim",
+                             "note":  "Sugar Mama waffles AED 25, Salt burger AED 45. Free beach. Burj Al Arab backdrop. Locals only on weekday mornings."
+                         },
+                         {
+                             "name":  "Jumeirah Open Beach near Burj Al Arab",
+                             "area":  "Jumeirah",
+                             "note":  "Free public beach. Less crowded than JBR. Burj Al Arab sunrise photograph from here is the most photographed free view in Dubai."
+                         },
+                         {
+                             "name":  "Creek at 5:30am",
+                             "area":  "Deira/Bur Dubai",
+                             "note":  "Cargo dhows, call to prayer from both banks, first abra crossings. The Dubai that existed before any tower was built."
+                         },
+                         {
+                             "name":  "Al Quoz Friday Market (monthly)",
+                             "area":  "Al Quoz",
+                             "note":  "First Friday of the month. Local artists, second-hand books, artisan food. Attended by residents not tourists."
+                         },
+                         {
+                             "name":  "Ravi Restaurant at lunch",
+                             "area":  "Al Satwa",
+                             "note":  "Open since 1978. Queue out the door. The most honest lunch in Dubai for AED 25."
+                         }
+                     ],
+    "insiderIntelligence":  [
+                                "The Nol+ registered card gives 10% cashback monthly on all metro/tram rides. Same price as unregistered card (AED 25) but requires registration with email.",
+                                "VAT refund kiosk is BEFORE security at DXB â€” most tourists discover this after going through. Must claim BEFORE the security checkpoint.",
+                                "Dubai Metro has free Wi-Fi (du_Wifi_Metro). Register with any phone number including foreign. 10â€“20 Mbps.",
+                                "Friday prayer window (12:30â€“2:30pm) is the quietest traffic time of the entire week â€” best cross-city drive window.",
+                                "Carrefour City branches are open 24 hours â€” JBR, Downtown, Deira. At 2am when you need water or snacks.",
+                                "Hotels store luggage all day after checkout at no charge. Check out at noon, pick up at midnight before your flight.",
+                                "Dubai Fountain runs at 1:30pm and 2pm on Fridays and Saturdays â€” almost always empty of tourists who assume fountain only operates at night.",
+                                "Spice Souk saffron is Kashmiri not Iranian despite what shopkeepers say. Both are good quality. The \u0027Iranian grade 1\u0027 vs standard is a negotiation variable, not a quality variable.",
+                                "The Dubai Police app can pay traffic fines incurred during a rental â€” saving the rental company\u0027s AED 50â€“150 processing fee.",
+                                "Indian films screen at Vox and Reel Cinemas within 1â€“2 weeks of Indian release. Check BookMyShow Middle East before travel.",
+                                "Gold Souk at Thursday evening 7â€“9pm â€” fully lit, lanes bustling, gold cases illuminated, Arabic music from shopkeeper radios. One of the genuinely beautiful things in Dubai that costs nothing."
+                            ],
+    "whyPeopleFallInLove":  "People arrive for the towers. They stay for the Gold Souk at 9:30am on a quiet Tuesday when the shopkeeper explains the difference between his saffron and the supermarket version. They return for the desert at dawn â€” no other tourists, no sound except the wind, the dunes turning orange-red as the sun comes up. Dubai is a city that gives you what you came for, then slowly reveals what you actually needed.",
+    "localTruths":  [
+                        "Most visitors think Dubai is modern. The Creek that divides Deira from Bur Dubai has been a trading waterway for 4,000 years. The modernity is 40 years old. The city beneath it is ancient.",
+                        "Most visitors think Dubai is luxury. The workers who built every tower eat at Ravi Restaurant for AED 20. Both versions of Dubai are real and exist 10 minutes apart.",
+                        "Most visitors think Dubai is finished. Dubai has never been finished. There is always a new island, a new record, a new tower under construction. The ambition is the culture."
+                    ],
+    "ifYouOnlyHadOneChance":  {
+                                  "breakfast":  "21grams in Jumeirah 2 â€” the breakfast Dubai\u0027s working chefs choose for themselves on their day off. Eggs Benedict, cold brew, no one else in the room at 8am on a Tuesday.",
+                                  "sunset":  "Souk Al Bahar bridge, 6pm â€” the Burj Khalifa directly behind the fountain, the water rising simultaneously with the last light. Stand there 15 minutes before the first evening show.",
+                                  "neighbourhood":  "Deira at 9:30am on a weekday â€” the Gold Souk alley with fewer than ten people in it, the spice souk shopkeeper explaining his trade, the AED 1 abra crossing to Bur Dubai.",
+                                  "meal":  "Bu Qtair fish shed at Jumeirah Fishing Harbour â€” a shed, plastic tables, cash only, no sign. The fried hammour is what every Dubai expat describes to visitors but most tourists never find.",
+                                  "memory":  "The first abra crossing at dawn. Cargo dhows moving on the Creek, the call to prayer from both banks simultaneously, the wooden boat rocking slightly, the city in its most honest form.",
+                                  "secret":  "The desert at 5:30am with Platinum Heritage â€” private camp, just you, the silence absolute, the dunes turning every shade of gold as the sun rises. The version of Dubai that doesn\u0027t exist in any photograph because the people experiencing it are not photographing it."
+                              },
+    "neighborhoodPersonalities":  {
+                                      "downtown":  [
+                                                       "Ambitious",
+                                                       "Photogenic",
+                                                       "Touristy",
+                                                       "Efficient"
+                                                   ],
+                                      "dubai_marina_jbr":  [
+                                                               "Social",
+                                                               "Beach",
+                                                               "International",
+                                                               "Young"
+                                                           ],
+                                      "deira":  [
+                                                    "Authentic",
+                                                    "Chaotic",
+                                                    "Honest",
+                                                    "Old"
+                                                ],
+                                      "bur_dubai":  [
+                                                        "Heritage",
+                                                        "Indian",
+                                                        "Quiet",
+                                                        "Cultural"
+                                                    ],
+                                      "difc":  [
+                                                   "Business",
+                                                   "Sophisticated",
+                                                   "Art",
+                                                   "Expensive"
+                                               ],
+                                      "jumeirah":  [
+                                                       "Expat",
+                                                       "Comfortable",
+                                                       "Residential",
+                                                       "Independent"
+                                                   ],
+                                      "palm_jumeirah":  [
+                                                            "Luxury",
+                                                            "Resort",
+                                                            "Photographed",
+                                                            "Isolated"
+                                                        ],
+                                      "business_bay_d3":  [
+                                                              "Creative",
+                                                              "Emerging",
+                                                              "Canal",
+                                                              "Undervisited"
+                                                          ]
+                                  },
+    "residentSunday":  "A Dubai resident with one free Sunday: 7am wake up, walk to the Creek before the heat. Take the abra for AED 1 to Bur Dubai. Walk Al Fahidi neighbourhood â€” the XVA courtyard for coffee, the wind-tower lanes while they are still quiet. 11am drive to Leila Restaurant in Alserkal Avenue â€” the Thursday galleries are worth browsing before lunch. Afternoon: pool at home or a beach club that isn\u0027t busy on Sunday. 7pm: the Fountain show from Souk Al Bahar bridge. 9pm: dinner at a neighbourhood restaurant in Jumeirah that doesn\u0027t appear in any tourist guide. This is the Dubai that residents describe when asked where they actually go.",
+    "dayMemoryTargets":  {
+                             "arrival":  "The first time the traveller steps outside the air-conditioned airport and understands where they are â€” the heat, the scale, the strangeness. Then the first moment of the city that contradicts the expectation: the creek at dusk instead of a tower, a spice souk instead of a mall. The memory is the gap between what they expected and what they found.",
+                             "peak":  "The moment the desert becomes real â€” not the sand, but the silence. The 5:30am when the dunes are turning orange-red and there are no other vehicles and no other sound. Or the fountain from the bridge at the exact moment the Burj Khalifa lights simultaneously. The memory is the moment something genuinely extraordinary happened.",
+                             "departure":  "The last walk in Deira before the airport. Not a tourist â€” a person who has been here and knows where things are and what they cost. The Gold Souk at 9:30am one final time. The AED 1 abra crossing. The specific quality of morning light on the Creek. The memory is the gap between who arrived and who is leaving."
+                         },
+    "tripLengthGuide":  {
+                            "two_days":  {
+                                             "must_include":  [
+                                                                  "Deira morning at 9:30am (Gold Souk, Spice Souk, Abra)",
+                                                                  "Dubai Fountain from Souk Al Bahar bridge at night"
+                                                              ],
+                                             "skip":  [
+                                                          "Burj Khalifa (save for a longer trip)",
+                                                          "Desert safari (too rushed)",
+                                                          "Day trips"
+                                                      ],
+                                             "note":  "Two days in Dubai should feel like two deep experiences, not ten shallow ones. Deira morning is non-negotiable â€” it is the honest soul of the city. The Fountain at night is non-negotiable â€” it is the spectacular face. Everything else is secondary."
+                                         },
+                            "three_to_four_days":  {
+                                                       "must_include":  [
+                                                                            "Deira morning",
+                                                                            "Burj Khalifa At The Top (8:30am)",
+                                                                            "Dubai Fountain",
+                                                                            "Al Fahidi Historical Neighbourhood",
+                                                                            "One exceptional dinner from the knowledge file"
+                                                                        ],
+                                                       "skip":  [
+                                                                    "Day trips to Abu Dhabi or East Coast",
+                                                                    "More than one beach club"
+                                                                ],
+                                                       "note":  "Three to four days is the correct Dubai trip length for a first visit. Enough to see the city properly without rushing it."
+                                                   },
+                            "five_to_six_days":  {
+                                                     "must_include":  [
+                                                                          "All 3-4 day essentials",
+                                                                          "Alserkal Avenue (Thursday evening)",
+                                                                          "Abu Dhabi day trip OR East Coast day trip",
+                                                                          "Desert sunset or overnight camp"
+                                                                      ],
+                                                     "skip":  [
+                                                                  "Trying to do both Abu Dhabi AND East Coast"
+                                                              ],
+                                                     "note":  "Now depth is possible. The second half of the trip should feel completely different from the first â€” old Dubai vs new Dubai, desert vs coast."
+                                                 },
+                            "seven_plus_days":  {
+                                                    "must_include":  [
+                                                                         "All 5-6 day content",
+                                                                         "Hatta mountain day",
+                                                                         "Bu Qtair fish shed",
+                                                                         "Dubai Water Canal walk at night"
+                                                                     ],
+                                                    "skip":  [
+                                                                 "Nothing â€” at 7 days the traveller has time for everything"
+                                                             ],
+                                                    "note":  "At 7+ days the traveller can understand Dubai as a city, not just as a destination. The goal is for them to leave having found the Dubai that residents protect."
+                                                }
+                        },
+    "antiPatterns":  [
+                         "Burj Khalifa AND Dubai Aquarium on the same afternoon â€” both are indoor, both require queuing, no contrast, physical and sensory overload",
+                         "Dubai Mall as primary activity AND Souk Al Bahar as secondary â€” these are 200m apart and feel identical. Choose one or the other, not both in the same day",
+                         "Desert safari departure at 3pm AND a fine dining reservation before 9pm â€” the desert safari returns 9:30-10pm. Never book a restaurant for the evening of a desert safari unless it\u0027s after 10pm",
+                         "Gold Souk AND Spice Souk on a Friday afternoon â€” the souk at peak crowd on the wrong day. Both are better before 11am on a weekday. Friday afternoon is the worst possible time.",
+                         "Atlantis Aquaventure AND a cultural day in the same day â€” Aquaventure is a full day activity. Combining it with temples or old Dubai creates a day that does neither properly"
+                     ],
+    "meta":  {
+                 "_schemaVersion":  "3.0",
+                 "lastUpdated":  "2026-06",
+                 "lastVerified":  "2026-06",
+                 "nextReviewDue":  "2026-12",
+                 "dataQualityScore":  9.5,
+                 "verifiedBy":  "SKYmora Research",
+                 "totalRestaurants":  15,
+                 "totalActivities":  14,
+                 "updateLog":  [
+                                   {
+                                       "date":  "2026-06",
+                                       "change":  "Full schema v3 rebuild â€” added liveIntelligence, gettingHere, nearbyDestinations, geography, health, safety, language sections",
+                                       "section":  "all"
+                                   }
+                               ]
+             },
+    "geography":  {
+                      "mapCenter":  {
+                                        "lat":  25.2048,
+                                        "lng":  55.2708
+                                    },
+                      "googleMapsUrl":  "https://maps.google.com/?q=Dubai,UAE",
+                      "timezone":  "GST UTC+4",
+                      "airportCoordinates":  {
+                                                 "DXB":  {
+                                                             "lat":  25.2532,
+                                                             "lng":  55.3657
+                                                         }
+                                             },
+                      "citySize":  "3,885 kmÂ²",
+                      "populationDensity":  "High in old city, sparse in desert outskirts"
+                  },
+    "languageIntelligence":  {
+                                 "officialLanguage":  "Arabic",
+                                 "workingLanguage":  "English â€” universal in all tourist and commercial environments",
+                                 "usefulPhrases":  {
+                                                       "thank_you":  "Shukran (Ø´ÙƒØ±Ø§Ù‹)",
+                                                       "how_much":  "Bikam hatha? (Ø¨ÙƒÙ… Ù‡Ø°Ø§ØŸ)",
+                                                       "too_expensive":  "Ghali jiddan (ØºØ§Ù„ÙŠ Ø¬Ø¯Ø§Ù‹)",
+                                                       "where_is":  "Wayn (ÙˆÙŠÙ†)",
+                                                       "please":  "Min fadlak (Ù…Ù† ÙØ¶Ù„Ùƒ)",
+                                                       "yes_no":  "Aiwa / La (Ø£ÙŠÙˆØ§ / Ù„Ø§)"
+                                                   },
+                                 "indianLanguageSupport":  "Hindi widely understood in Deira, Bur Dubai, and most service industry positions. Tamil, Malayalam, Telugu understood in specific community areas.",
+                                 "scriptNote":  "Arabic script reads right to left. All signage in tourist areas is bilingual Arabic-English.",
+                                 "digitalTranslation":  "Google Translate Arabic camera mode works well for menus and signs"
+                             },
+    "safetyIntelligence":  {
+                               "overallRating":  "Extremely safe â€” one of the safest cities on earth for tourists",
+                               "safetyScore":  9.5,
+                               "safeAtNight":  true,
+                               "soloFemaleRating":  "Very safe â€” Dubai is statistically one of the safest cities for solo women",
+                               "areaRatings":  {
+                                                   "downtown":  "Extremely safe â€” 24/7 security and cameras",
+                                                   "deira":  "Safe â€” avoid very narrow lanes alone after midnight",
+                                                   "marina_jbr":  "Very safe â€” well-lit, well-populated",
+                                                   "palm_jumeirah":  "Extremely safe",
+                                                   "al_fahidi":  "Safe â€” quiet after 10pm but not dangerous"
+                                               },
+                               "scamsToKnow":  [
+                                                   "Tuk-tuk temple tour offers â€” always lead to gem shops or tailors. Use Grab only.",
+                                                   "Gold Souk exchange kiosks â€” 3-5% worse rates than bank ATMs",
+                                                   "Unlicensed taxis approaching tourists outside clubs â€” never get in. DTC taxis are cream-coloured only.",
+                                                   "Hotel concierge desert safari bookings â€” adds AED 50-100 commission. Book direct."
+                                               ],
+                               "emergencyProtocol":  "Tourist Police 1155 â€” English-speaking, 24/7. Faster response for tourists than regular police.",
+                               "liveAdvisoryCheck":  "ALWAYS check MEA India travel advisory at mea.gov.in before travel. Check UAE government portal uae.gov for entry requirements."
+                           },
+    "healthIntelligence":  {
+                               "vaccinesRecommended":  [
+                                                           "Hepatitis A",
+                                                           "Typhoid â€” recommended for food-focused travellers"
+                                                       ],
+                               "vaccinesRequired":  "None mandatory for Indian passport holders",
+                               "waterSafety":  "Tap water technically safe (desalinated) but many residents prefer bottled. Bottled recommended for short visits.",
+                               "foodSafety":  "Extremely high standards â€” one of the safest food environments globally. Street food in Deira is safe due to high turnover.",
+                               "heatRisk":  "HIGH June-September â€” genuine medical risk. Heat stroke possible without precautions. Stay hydrated. Minimum 2L water daily outdoors.",
+                               "sunProtection":  "SPF 50+ minimum May-September. UV index peaks at 11+ (extreme) in summer.",
+                               "pharmacyAvailability":  "Excellent â€” Aster Pharmacy 24/7 at multiple locations. Tel: 04 440 0500. Hindi-speaking staff.",
+                               "hospitalQuality":  "World-class private hospitals. American Hospital Dubai recommended for tourists with travel insurance. Tel: 04 336 7777",
+                               "travelInsuranceNote":  "UAE hospitals require payment guarantee or insurance letter before treatment (except emergencies). Travel insurance with minimum AED 30,000 coverage mandatory.",
+                               "currentHealthAlerts":  "Check WHO and UAE health authority for any active health advisories at the time of travel."
+                           },
+    "gettingHere":  {
+                        "fromDelhi":  {
+                                          "flight":  {
+                                                         "duration":  "3.5-4 hours direct",
+                                                         "airlines":  [
+                                                                          "Air India AI101",
+                                                                          "IndiGo",
+                                                                          "Emirates",
+                                                                          "flydubai",
+                                                                          "SpiceJet"
+                                                                      ],
+                                                         "priceRange":  "INR 18,000-35,000 return economy",
+                                                         "bestBookingWindow":  "6-8 weeks ahead for peak season, 3-4 weeks for shoulder season",
+                                                         "cheapestDays":  "Tuesday and Wednesday departures typically 15-20% cheaper"
+                                                     },
+                                          "bestOption":  "Direct flight â€” no transit. Air India and IndiGo are most reliable from Delhi."
+                                      },
+                        "fromMumbai":  {
+                                           "flight":  {
+                                                          "duration":  "3 hours direct",
+                                                          "airlines":  [
+                                                                           "Air India",
+                                                                           "IndiGo",
+                                                                           "Emirates",
+                                                                           "flydubai"
+                                                                       ],
+                                                          "priceRange":  "INR 15,000-30,000 return economy"
+                                                      },
+                                           "bestOption":  "Direct flight. Mumbai has more daily options than Delhi."
+                                       },
+                        "fromBangalore":  {
+                                              "flight":  {
+                                                             "duration":  "3.5 hours direct",
+                                                             "airlines":  [
+                                                                              "IndiGo",
+                                                                              "Air India",
+                                                                              "Emirates"
+                                                                          ],
+                                                             "priceRange":  "INR 18,000-38,000 return economy"
+                                                         }
+                                          },
+                        "fromChennai":  {
+                                            "flight":  {
+                                                           "duration":  "3.5 hours direct",
+                                                           "airlines":  [
+                                                                            "Air India",
+                                                                            "IndiGo",
+                                                                            "Emirates"
+                                                                        ],
+                                                           "priceRange":  "INR 16,000-32,000 return economy"
+                                                       }
+                                        },
+                        "airportToCity":  {
+                                              "metro":  "AED 8.50, 35 minutes to Downtown. Most convenient.",
+                                              "careem":  "AED 45-55 to Downtown, AED 60-75 to Marina",
+                                              "taxi":  "AED 60-75 to Downtown (metered + AED 20 airport surcharge)",
+                                              "note":  "Always pre-book Careem from the airport â€” surge pricing applies if you wait for a taxi"
+                                          }
+                    },
+    "nearbyDestinations":  [
+                               {
+                                   "city":  "Abu Dhabi",
+                                   "country":  "UAE",
+                                   "travelTime":  "90 minutes by car on E11 highway",
+                                   "distance":  "130km",
+                                   "bestMode":  "Self-drive rental car or ADNEC bus (AED 25). No direct metro.",
+                                   "cost":  "AED 25 by bus, AED 100-200 by Careem return",
+                                   "whyCombine":  "Sheikh Zayed Grand Mosque â€” one of the most extraordinary buildings in the world. The Louvre Abu Dhabi. Dubai without Abu Dhabi is an incomplete picture of the UAE.",
+                                   "minimumDaysNeeded":  1,
+                                   "suggestIf":  "Trip is 4+ days",
+                                   "bestTime":  "Leave Dubai 8:30am, return by 6pm",
+                                   "personality":  "Cultural, architectural, more formal than Dubai"
+                               },
+                               {
+                                   "city":  "Hatta",
+                                   "country":  "UAE (Dubai emirate)",
+                                   "travelTime":  "90 minutes by car from Downtown Dubai",
+                                   "distance":  "115km",
+                                   "bestMode":  "Self-drive rental car â€” only practical option",
+                                   "cost":  "Car rental AED 80-130/day",
+                                   "whyCombine":  "Mountain enclave at 35Â°C vs Dubai\u0027s 43Â°C in summer. Hatta dam kayaking, mountain biking, heritage village. Completely different landscape from the city.",
+                                   "minimumDaysNeeded":  1,
+                                   "suggestIf":  "Trip is 4+ days, traveller wants landscape variety",
+                                   "personality":  "Adventure, nature, contrast"
+                               },
+                               {
+                                   "city":  "Fujairah (East Coast)",
+                                   "country":  "UAE",
+                                   "travelTime":  "1.5 hours by car",
+                                   "distance":  "120km",
+                                   "bestMode":  "Self-drive â€” verify rental car allows Fujairah",
+                                   "cost":  "Car rental only",
+                                   "whyCombine":  "Arabian Sea not Persian Gulf â€” different colour, different marine life. Snoopy Island snorkelling. Hajar Mountains drive through extraordinary landscape.",
+                                   "minimumDaysNeeded":  1,
+                                   "suggestIf":  "Trip is 5+ days, traveller interested in diving or nature",
+                                   "personality":  "Adventure, diving, mountain, contrast"
+                               }
+                           ],
+    "liveIntelligence":  {
+                             "_note":  "This section is updated regularly. Check mea.gov.in for current Indian government advisories before travel.",
+                             "lastChecked":  "2026-06",
+                             "currentAdvisories":  [
+
+                                                   ],
+                             "currentAlerts":  [
+
+                                               ],
+                             "recentOpenings":  [
+                                                    "Ain Dubai observation wheel â€” world\u0027s largest, Bluewaters Island, opened 2021, now fully operational"
+                                                ],
+                             "recentClosures":  [
+
+                                                ],
+                             "strikesDisruptions":  [
+
+                                                    ],
+                             "seasonalNow":  "June 2026 â€” peak summer heat. All outdoor activities before 9am or after 7pm only. Dubai Summer Surprises festival running â€” genuine mall discounts 30-50%.",
+                             "ramadanStatus":  "Ramadan 2026 approximately February-March. Not applicable for June travel.",
+                             "indianAdvisoryStatus":  "Check mea.gov.in/travel-advisory for current UAE advisory. UAE is generally Category Green (safe travel) for Indian nationals.",
+                             "entryRequirements":  "Indians: visa-free 30 days since October 2024. Valid passport 6+ months. Return ticket. No PCR or vaccination requirements as of 2026."
+                         },
+    "combinationIntelligence":  [
+                                    {
+                                        "sequence":  [
+                                                         "Deira morning (Gold Souk + Spice Souk)",
+                                                         "Quiet lunch at Ravi Restaurant",
+                                                         "Dubai Fountain at night"
+                                                     ],
+                                        "emotionalArc":  "Chaos â†’ nourishment â†’ spectacle. The traveller goes from the city\u0027s most honest neighbourhood to its most famous monument. The contrast makes both better.",
+                                        "bestFor":  [
+                                                        "firstTimer",
+                                                        "couple",
+                                                        "solo"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Burj Khalifa At The Top (8:30am)",
+                                                         "Dubai Aquarium",
+                                                         "Dinner at knowledge-file restaurant"
+                                                     ],
+                                        "emotionalArc":  "Vertical wonder â†’ underwater wonder â†’ culinary wonder. Three completely different scales of extraordinary in one day.",
+                                        "bestFor":  [
+                                                        "firstTimer",
+                                                        "family"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Al Fahidi Historical Neighbourhood (8am)",
+                                                         "XVA Art Hotel courtyard coffee",
+                                                         "Alserkal Avenue (Thursday 6pm)"
+                                                     ],
+                                        "emotionalArc":  "Ancient Dubai â†’ contemplative pause â†’ contemporary Dubai. The oldest and the most current version of the city in one day.",
+                                        "bestFor":  [
+                                                        "repeat",
+                                                        "photographer",
+                                                        "culture"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Private desert sunrise (5:30am)",
+                                                         "Hotel rest",
+                                                         "Ossiano dinner"
+                                                     ],
+                                        "emotionalArc":  "The most primal Dubai â†’ recovery â†’ the most theatrical Dubai. Extreme contrast produces the most memorable day.",
+                                        "bestFor":  [
+                                                        "honeymoon",
+                                                        "luxury"
+                                                    ]
+                                    }
+                                ],
+    "photographyIntelligence":  {
+                                    "bestShotLocations":  [
+                                                              {
+                                                                  "name":  "Souk Al Bahar bridge at blue hour",
+                                                                  "what":  "Burj Khalifa + Fountain simultaneously",
+                                                                  "bestTime":  "5:30pm sunset OR 30 mins after sunset for blue hour",
+                                                                  "tip":  "Arrive 20 mins early. Stand on the bridge not the lower promenade."
+                                                              },
+                                                              {
+                                                                  "name":  "Dubai Creek at 5:30am",
+                                                                  "what":  "Cargo dhows, abras, minarets in first light",
+                                                                  "bestTime":  "5:30-7:00am",
+                                                                  "tip":  "The most honest photograph available in Dubai"
+                                                              },
+                                                              {
+                                                                  "name":  "Alserkal Avenue",
+                                                                  "what":  "Industrial chic, art installations, creative community",
+                                                                  "bestTime":  "Thursday 6-9pm gallery openings"
+                                                              },
+                                                              {
+                                                                  "name":  "Tolerance Bridge, Dubai Canal",
+                                                                  "what":  "UAE flag colour LED lighting reflected in canal",
+                                                                  "bestTime":  "9pm+ on weeknights"
+                                                              }
+                                                          ],
+                                    "restrictedAreas":  [
+                                                            "Government buildings",
+                                                            "Individuals without consent",
+                                                            "Military areas"
+                                                        ],
+                                    "goldenHour":  "5:30-6:30pm October-April. 6:00-7:00pm May-September.",
+                                    "droneRules":  "DCAA permit required. Fine AED 20,000+. Apply at dcaa.gov.ae. 5-10 working days processing.",
+                                    "instagramWorthy":  [
+                                                            "Souk Al Bahar bridge",
+                                                            "Palm Boardwalk at sunset",
+                                                            "Tolerance Bridge at night",
+                                                            "Al Fahidi wind towers"
+                                                        ]
+                                },
+    "accessibility":  {
+                          "wheelchairFriendly":  "Excellent â€” one of the most accessible cities in the Middle East",
+                          "metroAccessibility":  "All stations have lifts â€” exceptional",
+                          "mallAccessibility":  "All major malls fully accessible",
+                          "challengingAreas":  "Deira narrow lanes, Al Fahidi cobblestones",
+                          "seniorFriendlyScore":  8.5,
+                          "note":  "Dubai Mall has free mobility scooter rental from customer service desk"
+                      },
+    "_schemaVersion":  "3.0-intl",
+    "lastUpdated":  "2026-06"
+}

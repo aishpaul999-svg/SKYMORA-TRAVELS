@@ -1,0 +1,283 @@
+{
+  "destination": "Cairns",
+  "country": "Australia",
+  "region": "Oceania",
+  "aliases": [
+    "Cairns",
+    "cairns",
+    "Australia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "divers",
+      "nature enthusiasts",
+      "adventure seekers",
+      "beach lovers",
+      "foodies"
+    ],
+    "notFor": [
+      "budget backpackers",
+      "those seeking urban experiences",
+      "cold weather lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "12h",
+    "flightFromMumbai": "13h via Singapore Airlines or Qantas, approximately ₹60,000 - ₹80,000 for a return ticket.",
+    "visaForIndians": "Australia e-Visa",
+    "currency": "Australian Dollar (AUD), 1 INR = 0.018 AUD",
+    "timezone": "UTC+10",
+    "language": "English",
+    "bestMonthToVisit": "June - August, ideal for dry weather and diving conditions.",
+    "avoidMonth": "January, as it is the wettest month with a high chance of cyclones.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving a 10% tip for exceptional service is appreciated."
+  },
+  "whyPeopleFallInLove": "Picture yourself diving into the Great Barrier Reef, surrounded by vibrant marine life, and the smell of saltwater fills the air. The moment you surface, sun-kissed and exhilarated, is a memory that will last a lifetime.",
+  "honestTruth": "Cairns can feel touristy, especially around the waterfront; real adventure lies in exploring the less commercialized areas like the Daintree Rainforest or the Atherton Tablelands.",
+  "localTruths": [
+    "Most visitors think Cairns is just about the Great Barrier Reef. Locals think it’s equally about the lush rainforests and hidden waterfalls in the hinterland.",
+    "Most visitors stick to the main promenade. The best version of Cairns is exploring the local markets and dining at small eateries off the tourist trail.",
+    "Most visitors miss the early morning serenity at the Esplanade boardwalk. The real Cairns starts at dawn when the city wakes up with joggers and morning markets."
+  ],
+  "neighborhoodPersonalities": {
+    "Esplanade": {
+      "tags": [
+        "touristy",
+        "beachfront",
+        "dining"
+      ],
+      "bestFor": "seafood lovers and those seeking nightlife.",
+      "avoid": "It can be crowded during peak tourist seasons."
+    },
+    "Cairns Central": {
+      "tags": [
+        "shopping",
+        "transport",
+        "convenience"
+      ],
+      "bestFor": "easy access to amenities and attractions.",
+      "avoid": "Not the best area for cultural experiences."
+    },
+    "Gordonvale": {
+      "tags": [
+        "scenic",
+        "local culture",
+        "quiet"
+      ],
+      "bestFor": "experiencing local life and history.",
+      "avoid": "Limited dining options after 7 PM."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "12h",
+        "airlines": [
+          "Singapore Airlines",
+          "Qantas"
+        ],
+        "priceRange": "₹60,000 - ₹80,000 return",
+        "note": "Book in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "13h",
+        "airlines": [
+          "Singapore Airlines",
+          "Qantas"
+        ],
+        "priceRange": "₹60,000 - ₹80,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro system; taxis are the main transport.",
+      "taxi": "Approximately AUD 20 (₹1,100) for a 10-minute ride.",
+      "recommended": "For first-timers, taking a taxi is the easiest way to reach the city."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Australia e-Visa",
+    "applyAt": "www.immi.gov.au",
+    "processingTime": "3-5 days",
+    "tip": "Ensure your passport has at least six months of validity before applying."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "At the Caffiend, order the 'Sweet Potato and Chilli Hash' for a perfect start.",
+    "sunset": "Head to the Skyrail Rainforest Cableway for a sunset ride; aim to be on the gondola by 5 PM.",
+    "meal": "Dine at Ochre Restaurant and try the barramundi fillet served with native bush spices.",
+    "memory": "The moment you dive into the coral gardens of the Great Barrier Reef, surrounded by colorful fish and corals.",
+    "secret": "Locals know that the best time to visit the Daintree is during the early hours when the wildlife is most active."
+  },
+  "residentSunday": "A Cairns resident spends Sunday exploring the local markets at Rusty’s Market, grabbing fresh tropical fruits, then hiking up to Mount Whitfield for panoramic views, followed by a leisurely afternoon at Trinity Beach enjoying fish and chips from a local shop.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and breathe in the humid, salty air of Cairns.",
+    "peak": "The peak day memory target is an early morning snorkeling trip at the Great Barrier Reef, surrounded by marine life.",
+    "departure": "Departure should feel reflective, with memories of sun-soaked adventures and the sound of waves in your mind."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Great Barrier Reef and local dining experiences.",
+      "misses": "The chance to explore the surrounding rainforests and waterfalls."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience of the reef, rainforest, and local culture.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of the Great Barrier Reef, Daintree Rainforest, and surrounding areas.",
+      "whoFor": "adventure seekers and nature lovers."
+    },
+    "recommended": "Four days is ideal for a well-rounded experience without feeling rushed."
+  },
+  "antiPatterns": [
+    "Doing a day trip to the Great Barrier Reef and skipping the rainforest fails to capture the essence of Cairns.",
+    "Relying solely on tours limits your ability to explore the true local life and hidden spots.",
+    "Visiting during the hottest part of the day can spoil the experience; plan activities for early morning or late afternoon."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time at the Great Barrier Reef.",
+    "Most visitors regret not trying local food specialties like kangaroo or barramundi.",
+    "Most visitors regret not exploring beyond the main tourist areas."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Average temperatures of 20-26°C, low humidity.",
+      "crowds": "High tourist volume, especially in July.",
+      "verdict": "Good weather but expect busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "Fewer crowds and mild weather make it easier to explore."
+    },
+    "offSeason": {
+      "months": "December to March",
+      "reality": "Wet season; expect rain and heat, but also fewer tourists.",
+      "one reason some prefer it": "Lower prices on accommodations and tours."
+    },
+    "bestMonth": "June, as it offers perfect diving conditions and pleasant weather.",
+    "currentSeason": "June 2026 is warm and dry, with bustling markets and outdoor events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Cairns Night Markets for affordable souvenirs and local food, especially on Friday nights.",
+      "category": "food"
+    },
+    {
+      "tip": "Book your Great Barrier Reef tour with a smaller operator for a more personalized experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out local community events on the Esplanade for free entertainment.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local specialty, 'Moreton Bay Bugs', at a seafood joint in the harbor.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the local bus service for affordable transport to nearby beaches like Palm Cove.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish and chips at the Cairns Esplanade, around AUD 12 (₹660).",
+    "midRangeMeal": "A three-course meal at a mid-range restaurant costs about AUD 60 (₹3,300).",
+    "luxuryMeal": "Fine dining at Ochre Restaurant, approximately AUD 100 (₹5,500).",
+    "localTransportPerDay": "AUD 20 (₹1,100) for bus travel around the city.",
+    "budgetHotelPerNight": "AUD 80 (₹4,400) for a dormitory-style hostel.",
+    "midRangeHotelPerNight": "AUD 150 (₹8,250) for a comfortable hotel with amenities.",
+    "luxuryHotelPerNight": "AUD 300 (₹16,500) for a premium hotel by the waterfront."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory beds starting at AUD 30 (₹1,650)",
+      "food": "Self-catering or budget meals at AUD 10 (₹550)",
+      "transport": "Local buses."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Budget hotels starting at AUD 100 (₹5,500)",
+      "food": "Mix of restaurant dining and local eateries."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury options are available but often come with a premium for views and amenities."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites or local communities.",
+    "Avoid discussing politics or sensitive topics with locals.",
+    "Respect wildlife and do not feed or disturb animals in natural settings."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced boat tours; always compare prices before booking.",
+      "Some street vendors may sell counterfeit goods; stick to reputable shops."
+    ],
+    "emergencyContacts": {
+      "police": "000",
+      "ambulance": "000",
+      "indianEmbassy": "Indian High Commission in Canberra, +61 2 6225 4600"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Green Island",
+        "what": "Coral reefs and palm-fringed beaches",
+        "bestTime": "Early morning for soft light",
+        "tip": "Bring a polarizing filter to enhance colors."
+      }
+    ],
+    "goldenHour": "Sunrise from the Esplanade or sunset at the beach.",
+    "tip": "Pay attention to the tides when photographing the reef; low tide reveals more coral."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Diving at the Great Barrier Reef",
+        "Lunch at a waterfront café",
+        "Evening stroll along the Esplanade"
+      ],
+      "emotionalArc": "This sequence captures the essence of relaxation and adventure, making for a fulfilling day.",
+      "bestFor": [
+        "couples",
+        "families",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Port Douglas",
+      "travelTime": "1 hour",
+      "how": "Car or shuttle bus",
+      "whyCombine": "Explore the beautiful Four Mile Beach and the Mossman Gorge."
+    },
+    {
+      "city": "Kuranda",
+      "travelTime": "30 minutes",
+      "how": "Scenic railway or Skyrail",
+      "whyCombine": "Visit the local markets and experience the rainforest."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Cairns has accessible facilities, but some natural parks have limited access.",
+    "majorChallenges": "Uneven terrain in natural areas can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Many attractions offer assistance for seniors, but it's advisable to check in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with pleasant temperatures, ideal for outdoor activities and diving.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements are as per the latest Australian e-Visa guidelines."
+  }
+}

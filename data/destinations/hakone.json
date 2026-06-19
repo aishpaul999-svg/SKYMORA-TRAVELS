@@ -1,0 +1,277 @@
+{
+  "destination": "Hakone",
+  "country": "Japan",
+  "region": "East Asia",
+  "aliases": [
+    "Hakone",
+    "hakone",
+    "japan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature lovers",
+      "onsen enthusiasts",
+      "photographers",
+      "culinary explorers",
+      "cultural seekers"
+    ],
+    "notFor": [
+      "party-goers",
+      "shopping enthusiasts",
+      "business travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Tokyo + 1.5h",
+    "flightFromMumbai": "8h 30m to Tokyo + 1.5h",
+    "visaForIndians": "Japan visa required",
+    "currency": "Japanese Yen (JPY), 1 INR = 1.57 JPY",
+    "timezone": "UTC+9",
+    "language": "Japanese (with basic English in tourist areas)",
+    "bestMonthToVisit": "October, when the autumn foliage is at its peak and the weather is mild.",
+    "avoidMonth": "August, as it can be very humid and crowded with domestic tourists.",
+    "tipping": "Not customary in Japan; service charge is included. Round up the bill if you feel the service was exceptional."
+  },
+  "whyPeopleFallInLove": "Imagine soaking in a hot spring while gazing at the majestic Mt. Fuji, the steam rising around you as the sun sets, painting the sky in hues of orange and pink. The aroma of onsen water mixed with the distant scent of cedar trees creates an atmosphere that is both soothing and invigorating, compelling you to return again and again.",
+  "honestTruth": "Many travelers underestimate the time required to fully appreciate the onsen experience; it's not just a dip in hot water but a ritual that deserves time and patience to enjoy fully.",
+  "localTruths": [
+    "Most visitors think Hakone is just about the views. Locals think it's about the tranquility and the personal connection with nature.",
+    "Most visitors rush to the cable car. The best version of Hakone is found by taking a slow stroll along the shores of Lake Ashi.",
+    "Most visitors miss the small, family-run ryokan. The real Hakone starts at places like Gora Kadan, where you can experience true Japanese hospitality."
+  ],
+  "neighborhoodPersonalities": {
+    "Gora": {
+      "tags": [
+        "onsen",
+        "art",
+        "nature"
+      ],
+      "bestFor": "those seeking a serene retreat with access to art museums and gardens.",
+      "avoid": "The tourist crowds that often visit the main attractions."
+    },
+    "Hakone-Yumoto": {
+      "tags": [
+        "onsen",
+        "shopping",
+        "transport"
+      ],
+      "bestFor": "travelers arriving from Tokyo looking for convenient access to hot springs.",
+      "avoid": "The overly commercialized shops that don't offer authentic experiences."
+    },
+    "Miyanoshita": {
+      "tags": [
+        "historic",
+        "traditional",
+        "quiet"
+      ],
+      "bestFor": "visitors wanting to stay in a traditional ryokan with historical significance.",
+      "avoid": "The more modern hotels that lack traditional charm."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Tokyo + 1.5h",
+        "airlines": [
+          "Air India",
+          "Japan Airlines"
+        ],
+        "priceRange": "₹45,000 - ₹60,000 economy return",
+        "note": "Book your tickets well in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h 30m to Tokyo + 1.5h",
+        "airlines": [
+          "All Nippon Airways",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹50,000 - ₹65,000 economy return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Narita Express train from Narita Airport to Tokyo, costs about 3,000 JPY (₹1,900) and takes around 1 hour.",
+      "taxi": "A taxi from Haneda Airport to Hakone will cost approximately 25,000 JPY (₹15,800) and takes about 90 minutes.",
+      "recommended": "For first-timers, taking the Romancecar from Shinjuku to Hakone is scenic and comfortable."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Japan visa required",
+    "applyAt": "VFS Global in New Delhi or Mumbai.",
+    "processingTime": "5-10 days",
+    "tip": "Ensure you have a detailed travel itinerary and hotel bookings to support your visa application."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Bakery & Cafe Pain de Mie for their signature melon bread and a cup of matcha latte.",
+    "sunset": "Watch the sunset from the Hakone Ropeway at 5:00 PM, as the sun dips behind Mt. Fuji, casting a golden glow.",
+    "meal": "Dine at Gora Kadan for kaiseki, a multi-course meal that showcases seasonal ingredients, priced around 15,000 JPY (₹9,600).",
+    "memory": "The moment you step into the onsen for the first time, feeling the hot water envelop you, while listening to the gentle sounds of nature.",
+    "secret": "Only locals know that the best time to visit the onsen is in the late afternoon when the crowds thin out."
+  },
+  "residentSunday": "A typical Sunday for a Hakone resident includes exploring the Hakone Open-Air Museum in the morning, having lunch at a local soba shop, followed by a relaxing afternoon at an onsen. Dinner is often a homemade meal enjoyed with family, perhaps featuring seasonal vegetables and grilled fish caught from nearby waters.",
+  "dayMemoryTargets": {
+    "arrival": "The first breath of fresh mountain air as you step off the train at Hakone-Yumoto station, feeling the anticipation of relaxation wash over you.",
+    "peak": "The peak day memory target is the experience of riding the pirate ship on Lake Ashi, with the majestic Mt. Fuji in the background.",
+    "departure": "Leaving with a sense of calm and renewal, carrying the fragrant cedar wood souvenirs as reminders of your time."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "A quick experience of the onsen and a glimpse of Mt. Fuji.",
+      "misses": "The deeper cultural experience and exploration of the lesser-known trails."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of onsen visits, cultural activities, and scenic views.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of local art, nature trails, and multiple onsen experiences.",
+      "whoFor": "nature lovers and cultural enthusiasts."
+    },
+    "recommended": "Three to four days is ideal to soak in the atmosphere and enjoy various activities without rushing."
+  },
+  "antiPatterns": [
+    "Visiting only on weekends can lead to overcrowded attractions and a less authentic experience.",
+    "Rushing through the onsen experience can result in missing out on the relaxation benefits.",
+    "Skipping the local dining options in favor of international chains overlooks the true flavors of Hakone."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in a ryokan to fully experience the hospitality and onsen.",
+    "Most visitors regret not hiking the trails around Hakone, missing the natural beauty of the area.",
+    "Most visitors regret not trying the local sake, which adds a unique flavor to their dining experiences."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, October",
+      "weather": "Mild temperatures around 15-20°C, with beautiful foliage in October.",
+      "crowds": "Expect heavy tourist traffic during the autumn foliage season.",
+      "verdict": "Ideal for those wanting to see the beauty but be prepared for crowds."
+    },
+    "shoulderSeason": {
+      "months": "May, September",
+      "why": "Less crowded, pleasant weather, and still plenty of activities available."
+    },
+    "offSeason": {
+      "months": "January, February",
+      "reality": "Cold temperatures around 0-5°C, but the onsen experience is rewarding even in winter.",
+      "oneReasonSomePreferIt": "Fewer tourists and the chance to enjoy the serene environment."
+    },
+    "bestMonth": "October for the autumn foliage and mild weather.",
+    "currentSeason": "June 2026 is warm and pleasant, with occasional rain, perfect for enjoying the lush greenery."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Hakone Open-Air Museum early in the morning to avoid crowds and enjoy the sculptures in peace.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the black eggs at Owakudani, boiled in hot springs; they are said to add seven years to your life!",
+      "category": "food"
+    },
+    {
+      "tip": "Take a walk on the old Tokaido trail for an authentic experience of historical Japan, away from the typical tourist spots.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use the Hakone Free Pass for unlimited travel on all transport options, saving you time and money.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit local shops for handcrafted items, especially those made from cedar wood, which is unique to the region.",
+      "category": "shopping"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Bento box at a convenience store for about 600 JPY (₹380).",
+    "midRangeMeal": "A meal at a local izakaya for around 2,500 JPY (₹1,600).",
+    "luxuryMeal": "Kaiseki dinner at Gora Kadan for approximately 15,000 JPY (₹9,600).",
+    "localTransportPerDay": "Around 1,500 JPY (₹950) for local transport including trains and buses.",
+    "budgetHotelPerNight": "3,000 JPY (₹1,900) for a hostel dorm bed.",
+    "midRangeHotelPerNight": "10,000 JPY (₹6,400) for a traditional ryokan with breakfast.",
+    "luxuryHotelPerNight": "30,000 JPY (₹19,200) for a high-end ryokan experience."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel at 3,000 JPY (₹1,900)",
+      "food": "Cheap bento boxes and convenience store meals.",
+      "transport": "Use local buses and trains."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel at 10,000 JPY (₹6,400)",
+      "food": "Mix of local restaurants and occasional splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury comes with exceptional service and experiences, but it can add up quickly."
+    }
+  },
+  "culturalRules": [
+    "Always remove your shoes when entering a ryokan or someone's home.",
+    "Be quiet and respectful in public spaces, especially in onsens.",
+    "Do not point at people or things; it is considered impolite."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "There are few scams, but be cautious of overly aggressive souvenir vendors.",
+      "Some tourists may be approached by street performers for money."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "119",
+      "indianEmbassy": "Embassy of India, Tokyo: 03-3454-4212"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Lake Ashi",
+        "what": "Capture the view of Mt. Fuji reflected in the lake.",
+        "bestTime": "Early morning or late afternoon for the best light.",
+        "tip": "Use a polarizing filter to enhance the colors."
+      }
+    ],
+    "goldenHour": "Approximately 5:00 PM in summer, ideal for landscape shots.",
+    "tip": "Bring a wide-angle lens to capture the expansive landscapes and scenery."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Hakone Open-Air Museum",
+        "Take a relaxing dip in an onsen",
+        "Enjoy a sunset cruise on Lake Ashi"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate art, indulge in relaxation, and culminate in a serene experience on the water, creating a memorable day.",
+      "bestFor": [
+        "art lovers",
+        "couples",
+        "nature enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Odawara",
+      "travelTime": "30 minutes",
+      "how": "Train",
+      "whyCombine": "To explore the historic Odawara Castle and enjoy great seafood."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Hakone has limited wheelchair access; some onsen may not be suitable.",
+    "majorChallenges": "Steep terrain and lack of ramps in some areas can be challenging.",
+    "seniorFriendlyScore": 7,
+    "note": "Choose accommodations that specifically state accessibility features for a more comfortable stay."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm with temperatures around 22°C, occasional rain, and lush greenery. Tourist crowds are manageable with local festivals adding to the atmosphere.",
+    "currentAlerts": [],
+    "entryRequirements": "Japan visa is necessary; ensure your travel plans align with current regulations."
+  }
+}

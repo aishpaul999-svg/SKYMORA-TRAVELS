@@ -1,0 +1,283 @@
+{
+  "destination": "Normandy",
+  "country": "France",
+  "region": "Europe",
+  "aliases": [
+    "Normandy",
+    "normandy",
+    "france"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "beachgoers",
+      "art lovers",
+      "nature explorers"
+    ],
+    "notFor": [
+      "party seekers",
+      "luxury-only travelers",
+      "adventure sports enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Paris + 2.5h",
+    "flightFromMumbai": "12h to Paris + 2.5h",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (EUR), 1 INR = 0.011 EUR",
+    "timezone": "UTC+1",
+    "language": "French (English widely understood in tourist areas)",
+    "bestMonthToVisit": "September - The weather is still pleasant, and the summer crowds have thinned.",
+    "avoidMonth": "January - Cold and many attractions may have reduced hours or be closed.",
+    "tipping": "Not mandatory but appreciated; rounding up the bill or leaving 5-10% is common."
+  },
+  "whyPeopleFallInLove": "Standing on Omaha Beach, you can feel the weight of history as the waves crash against the shore, a stark reminder of the sacrifices made here. The salty air mixed with the scent of fresh baguettes from a nearby boulangerie creates an atmosphere that invites reflection and exploration.",
+  "honestTruth": "Many visitors are shocked to find that outside of tourist hotspots, English is not widely spoken, which can lead to frustration when navigating local interactions.",
+  "localTruths": [
+    "Most visitors think Normandy is only about D-Day. Locals think it's about the ongoing life and beauty of the region beyond its history.",
+    "Most visitors rush to the beaches. The best version of Normandy is taking the time to explore the quaint villages and savor local cuisine.",
+    "Most visitors miss the local markets. The real Normandy starts at the Saturday market in Bayeux, where you can taste fresh cheeses and regional specialties."
+  ],
+  "neighborhoodPersonalities": {
+    "Bayeux": {
+      "tags": [
+        "historical",
+        "artistic",
+        "cultural"
+      ],
+      "bestFor": "exploring medieval history and the famous tapestry.",
+      "avoid": "the crowds during peak tourist hours."
+    },
+    "Honfleur": {
+      "tags": [
+        "scenic",
+        "artsy",
+        "waterfront"
+      ],
+      "bestFor": "photography and quaint harbor views.",
+      "avoid": "visiting during heavy rain as it can be quite dreary."
+    },
+    "Caen": {
+      "tags": [
+        "educational",
+        "historical",
+        "urban"
+      ],
+      "bestFor": "WWII museums and historical insight.",
+      "avoid": "weekdays when schools are visiting."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Paris + 2.5h",
+        "airlines": [
+          "Air France",
+          "Lufthansa"
+        ],
+        "priceRange": "₹50,000 - ₹70,000",
+        "note": "Book in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "12h to Paris + 2.5h",
+        "airlines": [
+          "Air France",
+          "Emirates"
+        ],
+        "priceRange": "₹55,000 - ₹80,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "RER B from Charles de Gaulle Airport to Gare Saint-Lazare; costs about €10 and takes 45 minutes.",
+      "taxi": "Around €50-€70 and takes about 60 minutes depending on traffic.",
+      "recommended": "For first-timers, taking a train from Paris to Bayeux is scenic and comfortable."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in major cities like Delhi, Mumbai, or Bangalore.",
+    "processingTime": "Approximately 15 days.",
+    "tip": "Book your visa appointment well in advance, as slots can fill up quickly."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "La Maison de la Pêche in Honfleur - Order their freshly baked croissants and café au lait.",
+    "sunset": "The cliffs at Étretat - Arrive by 8 PM in summer for the best views.",
+    "meal": "Restaurant La Mère Poulard in Mont-Saint-Michel - Try the famous omelette.",
+    "memory": "Watching the tide rise around Mont Saint-Michel as the sun sets, creating a magical silhouette against the sky.",
+    "secret": "The best time to visit Mont Saint-Michel is during low tide; you can walk around the island and capture amazing photos."
+  },
+  "residentSunday": "A typical Sunday for a Normandy resident starts with a leisurely breakfast at home, followed by a visit to the local farmer's market in Caen around 10 AM. They might enjoy a picnic at the nearby beaches, sampling local cheeses and cider, before heading to a family dinner at a favorite brasserie, like La Table de la Fonderie, around 7 PM.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the train in Bayeux and catch a glimpse of the iconic cathedral.",
+    "peak": "Walking along the coast at Omaha Beach, feeling the sand between your toes and the history that surrounds you.",
+    "departure": "Leaving with a sense of fulfillment and a camera full of memories."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring the D-Day beaches and Bayeux Tapestry.",
+      "misses": "The full depth of Normandy's culinary and cultural offerings."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience of history, local cuisine, and scenic views.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of historical sites, charming towns, and the countryside.",
+      "whoFor": "history buffs and culinary travelers."
+    },
+    "recommended": "Four days is ideal to experience the highlights without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing through D-Day sites without context fails to convey the emotional weight and significance of the history.",
+    "Skipping local cuisine to eat at chain restaurants misses the opportunity to truly taste Normandy.",
+    "Visiting Mont Saint-Michel at high tide can lead to disappointment due to limited access."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local cider and cheese at smaller farms.",
+    "Most visitors regret only visiting the major attractions and missing out on hidden local experiences.",
+    "Most visitors regret not spending more time at the beaches to absorb the history."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 20°C to 25°C, generally warm.",
+      "crowds": "Expect large crowds at major attractions.",
+      "verdict": "Best for those who enjoy a lively atmosphere."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Fewer tourists, pleasant weather, and vibrant local life."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and rainy; many attractions may be closed.",
+      "reason": "Some prefer the quiet and the chance to experience local life undisturbed."
+    },
+    "bestMonth": "September - Ideal weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local farmers' market in Bayeux on Saturdays for the freshest produce and local specialties - best to arrive early at 8 AM.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the coastal paths at sunset for breathtaking views of the cliffs without the crowds.",
+      "category": "timing"
+    },
+    {
+      "tip": "Don't miss the small museum in Arromanches; it's often overlooked but tells a gripping story of the D-Day landings.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to catch a local festival or event; they provide a deeper understanding of the local culture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Engage with locals at cafés; they often share lesser-known spots to visit.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A sandwich at a local boulangerie - about €5 (₹450)",
+    "midRangeMeal": "A three-course meal at a local brasserie - around €25 (₹2,250)",
+    "luxuryMeal": "Dining at Le Manoir de la Roche Torin - approximately €80 (₹7,200)",
+    "localTransportPerDay": "About €10 (₹900) for buses and local trains.",
+    "budgetHotelPerNight": "Around €60 (₹5,400) for a basic hotel with essential amenities.",
+    "midRangeHotelPerNight": "About €120 (₹10,800) for a comfortable guesthouse with breakfast included.",
+    "luxuryHotelPerNight": "Expect around €250 (₹22,500) for a luxury hotel stay."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Dormitory bed in a hostel for about €25 (₹2,250)",
+      "food": "Street food and local bakeries.",
+      "transport": "Public transportation."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotel for about €70 (₹6,300)",
+      "food": "A mix of cafes and local restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury options are available but can be pricey; expect to pay for quality experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and historical sites.",
+    "Always greet with 'Bonjour' before starting any conversation.",
+    "Tipping is appreciated but not obligatory; rounding up the bill is common."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded tourist areas; keep bags secure.",
+      "Some cafes may add extra charges for table service."
+    ],
+    "emergencyContacts": {
+      "police": "17",
+      "ambulance": "15",
+      "indianEmbassy": "Embassy of India, Paris - +33 1 40 50 70 70"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Cliffs of Étretat",
+        "what": "The dramatic cliffs and sea arches.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a wide-angle lens to capture the vastness."
+      }
+    ],
+    "goldenHour": "Around 8 PM during summer months.",
+    "tip": "Carry a tripod for long exposure shots during sunset."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Explore the Bayeux Tapestry",
+        "Visit the WWII Museum",
+        "Relax at Omaha Beach"
+      ],
+      "emotionalArc": "This sequence allows you to connect the historical dots, culminating in a reflective moment at the beach.",
+      "bestFor": [
+        "history enthusiasts",
+        "families",
+        "educational travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Rouen",
+      "travelTime": "1.5 hours",
+      "how": "Train",
+      "whyCombine": "Famous for its medieval architecture and the stunning cathedral."
+    },
+    {
+      "city": "Mont Saint-Michel",
+      "travelTime": "1 hour",
+      "how": "Bus",
+      "whyCombine": "Iconic island commune known for its abbey and tidal changes."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most major attractions have facilities, but older towns may have cobblestone streets.",
+    "majorChallenges": "Some historical sites may not be fully accessible due to stairs.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan visits to major sites in advance to ensure accessibility."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is pleasantly warm, with occasional showers. Tourist crowds are manageable, and local festivals are ongoing.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required for Indian passport holders; check for any updates on travel advisories."
+  }
+}

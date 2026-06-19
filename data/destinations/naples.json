@@ -1,0 +1,274 @@
+{
+  "destination": "Naples",
+  "country": "Italy",
+  "region": "Europe",
+  "aliases": [
+    "Naples",
+    "naples",
+    "italy"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Food enthusiasts",
+      "History buffs",
+      "Adventure seekers",
+      "Cultural explorers",
+      "Nightlife lovers"
+    ],
+    "notFor": [
+      "Luxury travelers",
+      "Quiet retreats seekers",
+      "Strict itinerary planners"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "10h",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Italian, English widely understood",
+    "bestMonthToVisit": "September - Ideal weather and fewer crowds after the summer rush.",
+    "avoidMonth": "August - The heat is intense, and many local businesses close for holidays.",
+    "tipping": "Generally not expected, but rounding up is appreciated; 1-2 EUR for good service."
+  },
+  "whyPeopleFallInLove": "As you bite into a slice of true Neapolitan pizza at Pizzeria Da Michele, the aroma of wood-fired dough mingles with the salty sea breeze, creating an experience that transcends taste and transports you to the heart of Naples’ culinary heritage.",
+  "honestTruth": "Many travel guides overlook the chaotic traffic and aggressive driving in Naples, which can be overwhelming for first-time visitors.",
+  "localTruths": [
+    "Most visitors think the best pizza is found at tourist spots. Locals think the real deal is at smaller, family-owned pizzerias like Pizzeria Starita.",
+    "Most visitors rush through the historic center. The best version of Naples is enjoyed by taking time to wander its narrow streets and discover hidden artisan workshops.",
+    "Most visitors miss the local markets. The real Naples starts at Mercato di Porta Nolana, where the scent of fresh seafood and local produce fills the air."
+  ],
+  "neighborhoodPersonalities": {
+    "Centro Storico": {
+      "tags": [
+        "historical",
+        "cultural",
+        "lively"
+      ],
+      "bestFor": "Exploring ancient streets and local eateries.",
+      "avoid": "Be cautious of pickpockets in crowded areas."
+    },
+    "Chiaia": {
+      "tags": [
+        "upscale",
+        "shopping",
+        "dining"
+      ],
+      "bestFor": "High-end shopping and elegant dining experiences.",
+      "avoid": "Prices can be higher than in other neighborhoods."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "Lufthansa"
+        ],
+        "priceRange": "[INR 40,000 - 70,000 return]",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "[INR 45,000 - 75,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Alibus costs 5 EUR, takes 30 minutes to reach the city center.",
+      "taxi": "Around 20-25 EUR, approximately 20 minutes to the city center.",
+      "recommended": "For first-timers, the Alibus is more economical and gives a glimpse of the city."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in Delhi or Mumbai.",
+    "processingTime": "15 days on average.",
+    "tip": "Book your visa appointment early and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Gran Caffè Gambrinus and order a sfogliatella with espresso.",
+    "sunset": "Head to Castel dell'Ovo at 8 PM for a view of the sun setting over the Bay of Naples.",
+    "meal": "Dinner at Trattoria Da Nennella, order the pasta alla Genovese.",
+    "memory": "The moment you share laughter and food with locals at a table in a small trattoria.",
+    "secret": "Locals often enjoy a late-night gelato from Gelateria della Scimmia after dinner."
+  },
+  "residentSunday": "A typical Sunday for a Naples resident includes a leisurely breakfast at Pasticceria Attanasio, followed by a visit to the Sunday market at Mercato di Porta Nolana to buy fresh produce, and ending with a family lunch at home with homemade pasta.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and inhale the salty sea air mixed with the aroma of pizza.",
+    "peak": "The peak day memory target is sitting in Piazza del Plebiscito, watching the world go by with a gelato in hand.",
+    "departure": "Departure should feel like a bittersweet farewell, with a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key highlights including the historic center and a pizza tour.",
+      "misses": "The deeper cultural experiences in the outskirts of the city."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary covering major sites, local cuisine, and a day trip to Pompeii.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Exploring nearby Amalfi Coast and deeper cultural insights into Neapolitan life.",
+      "whoFor": "Cultural explorers and foodies."
+    },
+    "recommended": "Three to four days is ideal to experience the essence of Naples without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting Pompeii without a guided tour fails to provide context to the ruins.",
+    "Staying only in touristy areas leads to missing authentic local experiences.",
+    "Rushing through the historic district without allowing time to soak in the atmosphere ruins the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local food specialties.",
+    "Most visitors regret not taking a day trip to the Amalfi Coast.",
+    "Most visitors regret sticking to the popular tourist spots and missing out on local interactions."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot, average 30°C.",
+      "crowds": "Tourist-heavy, especially in July.",
+      "verdict": "Best avoided unless you enjoy the hustle."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Milder weather and less crowded attractions."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cool and damp; less crowded but some attractions may close for maintenance.",
+      "reason": "Travelers enjoy lower prices and a more authentic experience."
+    },
+    "bestMonth": "September - Pleasant weather and vibrant local life resumes after summer holidays.",
+    "currentSeason": "June 2026 is warm with occasional showers, crowds are moderate."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the underground Napoli Sotterranea for a unique perspective of the city's history, entry is 10 EUR.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the fried pizza at Pizzeria Di Matteo for a taste of local street food, around 5 EUR.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a local train to Ercolano for a less crowded view of ruins than Pompeii, tickets are 3.50 EUR each way.",
+      "category": "transport"
+    },
+    {
+      "tip": "Explore Quartieri Spagnoli for authentic street art and local life, just off Via Toledo.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the Museo Cappella Sansevero early in the morning to avoid the crowds, entry is 10 EUR.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pizza Margherita at Pizzeria Da Michele for about 5 EUR (₹450)",
+    "midRangeMeal": "Three-course meal for two at Trattoria Da Nennella for about 50 EUR (₹4,500)",
+    "luxuryMeal": "Dinner at Palazzo Petrucci, around 120 EUR (₹10,800)",
+    "localTransportPerDay": "Average 5 EUR for metro and bus travel.",
+    "budgetHotelPerNight": "Hostel bed for around 25 EUR (₹2,250), includes breakfast.",
+    "midRangeHotelPerNight": "Mid-range hotel for about 100 EUR (₹9,000), offering basic amenities.",
+    "luxuryHotelPerNight": "Luxury hotel starts at around 250 EUR (₹22,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory bed for 20 EUR (₹1,800)",
+      "food": "Street food and budget pizzerias",
+      "transport": "Public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotel for 70 EUR (₹6,300)",
+      "food": "Mix of mid-range restaurants and local eateries."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury is available but it's best enjoyed with local experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shoulders and knees should be covered.",
+    "It's common to greet shopkeepers and wait staff with 'Buongiorno' or 'Buonasera'.",
+    "Dining is a social affair; don't rush through meals and expect to linger over coffee."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Pickpocketing is common in crowded areas; keep valuables secure.",
+      "Beware of fake taxi drivers at the airport; always use official taxis."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India, Rome: +39-06-499-125-00"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Vesuvius Viewpoint",
+        "what": "Mount Vesuvius with the Bay of Naples in the foreground.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Arrive before sunrise for fewer crowds."
+      }
+    ],
+    "goldenHour": "Around 8 PM during the summer months.",
+    "tip": "Candid shots of locals enjoying life at street markets capture the essence of Naples."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the National Archaeological Museum",
+        "Enjoy a pizza at Sorbillo",
+        "Stroll along the Lungomare"
+      ],
+      "emotionalArc": "This sequence provides a blend of culture, culinary delight, and scenic beauty, offering a full experience of Naples.",
+      "bestFor": [
+        "Cultural enthusiasts",
+        "Food lovers",
+        "Leisure travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Pompeii",
+      "travelTime": "30 minutes",
+      "how": "Circumvesuviana train",
+      "whyCombine": "Explore the ancient ruins just a short train ride away."
+    },
+    {
+      "city": "Sorrento",
+      "travelTime": "1 hour",
+      "how": "Circumvesuviana train",
+      "whyCombine": "Beautiful coastal town known for its lemon groves and stunning views."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions are not fully accessible due to historic architecture.",
+    "majorChallenges": "Uneven cobblestones and narrow streets can be difficult to navigate.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider using mobility aids for better accessibility in the city."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm, averaging 28°C with occasional rain, tourism is moderate, with street festivals adding local flavor.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required for Indian passport holders."
+  }
+}

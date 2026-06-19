@@ -37,6 +37,106 @@
 
 </section>
 
+    <!-- ══ WHY SKYMORA COMPARISON TABLE ══ -->
+    <section class="why-skymora-section">
+      <h2 class="why-heading">Why SKYmora Is Different</h2>
+      <div class="comparison-table">
+        <div class="comp-col comp-col-bad">
+          <div class="comp-header">Generic AI</div>
+          <ul>
+            <li>❌ Generic recommendations</li>
+            <li>❌ No local intelligence</li>
+            <li>❌ No trip pacing</li>
+            <li>❌ No booking integration</li>
+            <li>❌ Doesn't know who you are</li>
+            <li>❌ Wrong flight times</li>
+          </ul>
+        </div>
+        <div class="comp-col comp-col-bad">
+          <div class="comp-header">Travel Blog</div>
+          <ul>
+            <li>❌ Generic recommendations</li>
+            <li>❌ No personalization</li>
+            <li>❌ Written for everyone</li>
+            <li>❌ No booking integration</li>
+            <li>❌ Outdated within months</li>
+            <li>❌ No budget tracking</li>
+          </ul>
+        </div>
+        <div class="comp-col comp-col-skymora">
+          <div class="comp-header comp-header-gold">✨ SKYmora</div>
+          <ul>
+            <li>✅ Personalized to you</li>
+            <li>✅ Local insider intelligence</li>
+            <li>✅ Memory-driven pacing</li>
+            <li>✅ Flights + hotels + itinerary</li>
+            <li>✅ Knows your occasion & personality</li>
+            <li>✅ Real-time verified prices</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ EXAMPLE ITINERARY PREVIEW ══ -->
+    <section class="example-itinerary-section">
+      <h2 class="why-heading">See What SKYmora Creates</h2>
+      <p class="example-subtitle">Sample: 4-Day Dubai Itinerary · Honeymoon · ₹1,50,000</p>
+      <div class="example-days">
+        <div class="example-day">
+          <div class="example-day-num">01</div>
+          <div class="example-day-info">
+            <div class="example-day-title">Old Dubai & Creek</div>
+            <div class="example-day-desc">Deira at 7am before the crowds. The abra crossing for ₹3. Ravi Restaurant. Dubai Fountain at night — earned, not rushed.</div>
+            <div class="example-why-badge">🧠 Why: Seeing old Dubai first makes the towers feel more impressive, not less.</div>
+          </div>
+        </div>
+        <div class="example-day">
+          <div class="example-day-num">02</div>
+          <div class="example-day-info">
+            <div class="example-day-title">Burj at 8:30am</div>
+            <div class="example-day-desc">Observation deck at 8:30am — under 50 people. Same view as 11am, 10× the experience. Aquarium after. Trèsind dinner.</div>
+            <div class="example-why-badge">🧠 Why: By 11am the deck has 500 people. Timing is the difference.</div>
+          </div>
+        </div>
+        <div class="example-day">
+          <div class="example-day-num">03</div>
+          <div class="example-day-info">
+            <div class="example-day-title">Desert at Sunrise</div>
+            <div class="example-day-desc">Private Platinum Heritage safari. 5:30am — dunes golden, completely silent. Ossiano dinner surrounded by sharks and rays.</div>
+            <div class="example-why-badge">🧠 Why: Peak day needs the most extraordinary experience. Desert sunrise + best restaurant = one unforgettable day.</div>
+          </div>
+        </div>
+        <div class="example-day">
+          <div class="example-day-num">04</div>
+          <div class="example-day-info">
+            <div class="example-day-title">Farewell Moments</div>
+            <div class="example-day-desc">21grams breakfast — where the city's chefs eat on days off. Last abra crossing. The Creek in morning light.</div>
+            <div class="example-why-badge">🧠 Why: The last day is for feeling like a local, not a tourist.</div>
+          </div>
+        </div>
+      </div>
+      <div class="example-savings-box">
+        <h3 class="savings-heading">💰 SKYmora Also Saves You Money</h3>
+        <div class="savings-rows">
+          <div class="savings-row">
+            <span class="savings-label">Burj Khalifa entry</span>
+            <span class="savings-detail"><span class="price-strike">AED 251 walk-up</span> → <span class="price-green">AED 149 online</span></span>
+            <span class="savings-amount">Save AED 102</span>
+          </div>
+          <div class="savings-row">
+            <span class="savings-label">Dubai airport transfer</span>
+            <span class="savings-detail"><span class="price-strike">AED 75 taxi</span> → <span class="price-green">AED 4 Metro</span></span>
+            <span class="savings-amount">Save AED 71</span>
+          </div>
+          <div class="savings-row">
+            <span class="savings-label">Paris museum entry</span>
+            <span class="savings-detail"><span class="price-strike">€26 walk-up + 2hr queue</span> → <span class="price-green">€17 timed online</span></span>
+            <span class="savings-amount">Save €9 + 2hrs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <form id="tripForm" autocomplete="off">
       <div class="row">
         <div class="col">
@@ -60,6 +160,26 @@
      <input id="destination" type="text" placeholder="If you have a destination, type it here — or our expert will help you decide" />
 
       <div class="suggestions" id="destination-list" role="listbox"></div>
+
+      <label>Have you visited this destination before?</label>
+      <div class="inline-toggle" id="visitToggle" role="radiogroup" aria-label="Visit History">
+        <button type="button" class="toggle active" data-value="first">✈️ First Visit</button>
+        <button type="button" class="toggle" data-value="repeat">🔄 Been Before</button>
+      </div>
+
+      <label>Your travel personality? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="personalityToggle" role="radiogroup" aria-label="Travel Personality">
+        <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+        <button type="button" class="toggle" data-value="introvert">🌿 Introvert</button>
+        <button type="button" class="toggle" data-value="extrovert">🎉 Extrovert</button>
+      </div>
+
+      <label>How do you plan? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="plannerToggle" role="radiogroup" aria-label="Planning Style">
+        <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+        <button type="button" class="toggle" data-value="planner">📋 I Plan Everything</button>
+        <button type="button" class="toggle" data-value="spontaneous">🎲 I Go With the Flow</button>
+      </div>
 
       <label>Trip Type</label>
       <div class="inline-toggle" role="radiogroup" aria-label="Trip Type">
@@ -230,7 +350,7 @@
       <option value="CHF" data-symbol="CHF">CHF (CHF)</option>
     </select>
 
-    <input type="range" id="budgetRange" min="100" max="10000" value="1000" step="50">
+    <input type="range" id="budgetRange" min="100" max="1000000" value="1000" step="500">
   </div>
 
   <div class="budget-display">
@@ -239,6 +359,45 @@
 </div>
 
 
+
+      <label>What is your travel pace? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="paceToggle" role="radiogroup" aria-label="Travel Pace">
+        <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+        <button type="button" class="toggle" data-value="relaxed">🌿 Relaxed</button>
+        <button type="button" class="toggle" data-value="packed">⚡ Packed</button>
+      </div>
+
+      <label>Your travel experience? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="experienceToggle" role="radiogroup" aria-label="Travel Experience">
+        <button type="button" class="toggle active" data-value="experienced">🌍 Seasoned Traveller</button>
+        <button type="button" class="toggle" data-value="moderate">✈️ Some Experience</button>
+        <button type="button" class="toggle" data-value="first_intl">🗺️ First International Trip</button>
+      </div>
+
+      <div id="socialComfortSection" style="display:none">
+        <label>How do you prefer to travel solo? <span class="optional-text">(optional)</span></label>
+        <div class="inline-toggle" id="socialToggle" role="radiogroup" aria-label="Social Comfort">
+          <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+          <button type="button" class="toggle" data-value="meet_people">👥 Meet People</button>
+          <button type="button" class="toggle" data-value="independent">🧳 Full Independence</button>
+        </div>
+      </div>
+
+      <label>What is the occasion for this trip? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="emotionToggle" role="radiogroup" aria-label="Trip Occasion">
+        <button type="button" class="toggle active" data-value="exploring">🌍 Exploring</button>
+        <button type="button" class="toggle" data-value="celebrating">🎉 Celebrating</button>
+        <button type="button" class="toggle" data-value="recovering">🌿 Need a Break</button>
+        <button type="button" class="toggle" data-value="escaping">✈️ Escaping</button>
+      </div>
+
+      <label>How important is food to this trip? <span class="optional-text">(optional)</span></label>
+      <div class="inline-toggle" id="diningToggle" role="radiogroup" aria-label="Dining Importance">
+        <button type="button" class="toggle active" data-value="balanced">⚖️ Balanced</button>
+        <button type="button" class="toggle" data-value="every_meal">🍽️ Every Meal Counts</button>
+        <button type="button" class="toggle" data-value="one_great">⭐ One Great Meal</button>
+        <button type="button" class="toggle" data-value="fuel">⚡ Just Fuel</button>
+      </div>
 
       <label>*Any special requests or experience you want?</label>
 <textarea id="specialRequest" name="specialRequest" placeholder="e.g., restaurants, museums, hiking, vegetarian meals, honeymoon surprises..."></textarea>
@@ -266,7 +425,7 @@
       <a href="mailto:skymoratravels@gmail.com">Contact Us</a>
     </div>
     <div class="footer-copy">
-      <p>© 2025 SKYmora Travels. All rights reserved.</p>
+      <p>© 2026 SKYmora Travels. All rights reserved.</p>
       <p>Crafted with 💛 for travelers worldwide.</p>
     </div>
   </div>

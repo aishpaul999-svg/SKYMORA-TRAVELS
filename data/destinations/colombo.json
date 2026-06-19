@@ -1,0 +1,282 @@
+{
+  "destination": "Colombo",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "aliases": [
+    "Colombo",
+    "colombo",
+    "sri lanka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history buffs",
+      "food enthusiasts",
+      "beach lovers",
+      "shopping aficionados",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "party seekers",
+      "adventure sports lovers",
+      "people looking for a quiet retreat"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "3h 30min",
+    "flightFromMumbai": "4h 10min, airlines: SriLankan Airlines, Indigo, Air India",
+    "visaForIndians": "e-Visa USD 20, eta.gov.lk",
+    "currency": "Sri Lankan Rupee (LKR), 1 INR = 2.53 LKR",
+    "timezone": "UTC+5:30",
+    "language": "English and Sinhala",
+    "bestMonthToVisit": "December, as the monsoon season has just ended and the weather is pleasantly warm.",
+    "avoidMonth": "May, because of high humidity and potential rain.",
+    "tipping": "Tipping is appreciated; rounding up the bill or leaving 10% is common."
+  },
+  "whyPeopleFallInLove": "As you stroll along Galle Face Green at sunset, the scent of roasted corn from street vendors fills the air, while laughter and the sound of waves provide a perfect soundtrack, creating an atmosphere that makes you want to linger forever.",
+  "honestTruth": "Colombo can feel chaotic at times, with heavy traffic and noise, which is often glossed over in travel guides, but this is part of its character and offers a glimpse into the daily lives of locals.",
+  "localTruths": [
+    "Most visitors think Colombo is just a transit hub. Locals think it’s an evolving city with a lot of history and modernity intermingling.",
+    "Most visitors spend their time at tourist spots. The best version of Colombo is experienced by wandering through local markets and tasting street food.",
+    "Most visitors miss the local nightlife scene. The real Colombo starts at midnight when the city comes alive with music and food stalls."
+  ],
+  "neighborhoodPersonalities": {
+    "Fort": {
+      "tags": [
+        "historical",
+        "business",
+        "government"
+      ],
+      "bestFor": "Exploring colonial architecture and government buildings.",
+      "avoid": "It can get crowded during business hours."
+    },
+    "Bambalapitiya": {
+      "tags": [
+        "beachfront",
+        "shopping",
+        "restaurants"
+      ],
+      "bestFor": "Relaxing by the beach and enjoying local eateries.",
+      "avoid": "The beaches can be littered at times."
+    },
+    "Colpetty": {
+      "tags": [
+        "cultural",
+        "market",
+        "local life"
+      ],
+      "bestFor": "Experiencing the local market scene.",
+      "avoid": "The area can feel overwhelming due to the crowd and noise."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "3h 30min",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹15,000 - ₹25,000 return",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "4h 10min",
+        "airlines": [
+          "SriLankan Airlines",
+          "Air India"
+        ],
+        "priceRange": "₹18,000 - ₹30,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro available; consider a taxi or ride-sharing service.",
+      "taxi": "Approx. LKR 2,500 (₹989) for a 45-minute ride.",
+      "recommended": "For first-timers, using a ride-sharing app ensures a hassle-free experience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 20, eta.gov.lk",
+    "applyAt": "eta.gov.lk",
+    "processingTime": "Typically 24 hours.",
+    "tip": "Apply for your e-Visa at least a week before travel to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at 'Hopper' in Colombo Fort, and order a traditional Sri Lankan egg hopper with coconut sambol.",
+    "sunset": "Head to Galle Face Green around 6:15 PM to watch the sun dip into the Indian Ocean.",
+    "meal": "Dine at 'Ministry of Crab' and try their signature garlic butter crab.",
+    "memory": "A moment that defines Colombo is watching local families gather at the beach for evening strolls while enjoying street food.",
+    "secret": "Only locals know to visit the small tea shops hidden in side lanes for the best brews."
+  },
+  "residentSunday": "A Colombo resident might spend a Sunday morning at the local farmer's market at Viharamahadevi Park, picking fresh produce, followed by brunch at 'The Commons' in Colombo 7, and then unwinding by the beach at Mount Lavinia in the evening with friends, enjoying fresh seafood and local music.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm, humid air mixed with the smell of local spices wafting from nearby food stalls.",
+    "peak": "The peak day memory target is exploring Pettah Market where the colors, sounds, and aromas create an unforgettable sensory experience.",
+    "departure": "Departure should feel like a reluctant goodbye, with a promise to return to this lively city."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key historical sites and local cuisine.",
+      "misses": "In-depth exploration of local markets and beaches."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience of culture, food, and relaxation.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration including day trips to nearby beaches and cultural sites.",
+      "whoFor": "Travelers looking for a comprehensive experience."
+    },
+    "recommended": "Four days is ideal for a well-rounded experience of Colombo."
+  },
+  "antiPatterns": [
+    "Spending all your time in the Fort area can be dull; it lacks the local flavor found in surrounding neighborhoods.",
+    "Focusing only on restaurants in tourist areas misses out on authentic local dining experiences.",
+    "Visiting during peak hours can ruin your experience as traffic can be severe, so plan activities for early morning or late afternoons."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more street food, which is a significant part of the local experience.",
+    "Most visitors regret not exploring beyond the city center to the coastal areas.",
+    "Most visitors regret not taking time to relax at the beach, which is a refreshing escape from city life."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "Warm and dry, around 30°C",
+      "crowds": "High, especially around Christmas and New Year.",
+      "verdict": "Ideal for beach activities and sightseeing."
+    },
+    "shoulderSeason": {
+      "months": "April and November",
+      "why": "Less crowded with relatively good weather for exploring."
+    },
+    "offSeason": {
+      "months": "May to October",
+      "reality": "Rainy season with heavy showers but fewer tourists.",
+      "hiddenGem": "Some travelers prefer this for lower prices and a quieter experience."
+    },
+    "bestMonth": "December for pleasant weather and festive activities.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for exploring local cafes and indoor markets."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the 'Galle Face Hotel' for their high tea, which costs around LKR 1,500 (₹593) and is a delightful experience overlooking the ocean.",
+      "category": "food"
+    },
+    {
+      "tip": "For the best local sweets, head to 'Sarasavi Sweetmeat', where you can grab a box of Kalu Dodol for around LKR 500 (₹197).",
+      "category": "food"
+    },
+    {
+      "tip": "Utilize tuk-tuks for short distances, but always negotiate the fare beforehand; it should be around LKR 300 (₹118) for short trips.",
+      "category": "transport"
+    },
+    {
+      "tip": "Check local event calendars for cultural festivals or markets happening during your visit for a real local experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a stroll at sunrise along the coast to see locals practicing yoga and fishing, it’s peaceful and a great way to start your day.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Kottu Roti at a local street vendor for LKR 800 (₹316).",
+    "midRangeMeal": "A seafood platter at 'The Lobster Pot' for LKR 3,000 (₹1,186).",
+    "luxuryMeal": "A fine dining experience at 'Semondu' for approximately LKR 8,000 (₹3,168).",
+    "localTransportPerDay": "Around LKR 1,000 (₹395) for daily tuk-tuk rides.",
+    "budgetHotelPerNight": "LKR 3,500 (₹1,383) for a guesthouse with basic amenities.",
+    "midRangeHotelPerNight": "LKR 10,000 (₹3,947) for a comfortable hotel with breakfast included.",
+    "luxuryHotelPerNight": "LKR 20,000 (₹7,894) for a five-star hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Dormitory in a hostel for LKR 1,000 (₹395)",
+      "food": "Eating at street stalls and local eateries.",
+      "transport": "Using buses and shared tuk-tuks."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotel for LKR 10,000 (₹3,947)",
+      "food": "Dining at a mix of local restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury accommodations are pricier but offer excellent service and amenities."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Remove your shoes before entering homes and religious sites.",
+    "Always ask for permission before taking photos of people."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of tuk-tuk drivers offering city tours at inflated prices; always agree on a fare upfront.",
+      "Watch out for individuals asking for money for 'charity' in tourist areas."
+    ],
+    "emergencyContacts": {
+      "police": "119",
+      "ambulance": "110",
+      "indianEmbassy": "012 75 96 66"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Galle Face Green",
+        "what": "Sunset over the Indian Ocean with locals enjoying the beach",
+        "bestTime": "6:00 PM",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "6:00 PM is ideal for golden hour shots.",
+    "tip": "Candid shots of local life at markets provide rich storytelling opportunities."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit to the National Museum",
+        "Lunch at a local eatery",
+        "Evening stroll at Galle Face Green"
+      ],
+      "emotionalArc": "This sequence balances education, relaxation, and local cuisine, enhancing your understanding of the city's heart.",
+      "bestFor": [
+        "Cultural explorers",
+        "Food enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Negombo",
+      "travelTime": "1h",
+      "how": "Taxi or bus",
+      "whyCombine": "For beautiful beaches and fresh seafood."
+    },
+    {
+      "city": "Kandy",
+      "travelTime": "3h",
+      "how": "Train or bus",
+      "whyCombine": "To explore cultural heritage sites and the famous Temple of the Tooth."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in public areas and transportation.",
+    "majorChallenges": "Uneven sidewalks and crowded areas can be difficult to navigate.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring private transportation for ease of movement."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with occasional rain showers, making it a good time for indoor activities and local dining.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, e-Visa is required for Indian passport holders."
+  }
+}

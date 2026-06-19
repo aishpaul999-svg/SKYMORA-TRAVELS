@@ -1,0 +1,277 @@
+{
+  "destination": "Amalfi Coast",
+  "country": "Italy",
+  "region": "Europe",
+  "aliases": [
+    "Amalfi Coast",
+    "amalfi coast",
+    "italy"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Couples",
+      "Photography Enthusiasts",
+      "Food Lovers",
+      "Adventure Seekers",
+      "Cultural Explorers"
+    ],
+    "notFor": [
+      "Budget Travelers",
+      "Large Families",
+      "Travelers with Mobility Issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Naples + 1.5h",
+    "flightFromMumbai": "10h to Naples + 1.5h via airlines like Emirates or Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Italian (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "September, as the weather is still warm but the crowds have thinned out.",
+    "avoidMonth": "August, due to extreme heat and overwhelming tourist crowds.",
+    "tipping": "10% is appreciated in restaurants, but not mandatory. Round up for taxi fares."
+  },
+  "whyPeopleFallInLove": "Sipping a limoncello while watching the sun dip below the horizon at a cliffside terrace in Positano, the salty breeze and the vibrant colors of the sky make every worry fade away.",
+  "honestTruth": "While the Amalfi Coast is often portrayed as idyllic, the reality is that the narrow roads can be treacherous and congested, especially during peak season.",
+  "localTruths": [
+    "Most visitors think Positano is the highlight. Locals think Ravello, with its gardens and music festivals, is where the true essence lies.",
+    "Most visitors rush through the coastal towns. The best version of Amalfi Coast is to spend time in each village, absorbing their individual characters.",
+    "Most visitors miss the local lemon farms. The real Amalfi Coast starts at the groves, where you can taste the lemons that define the region."
+  ],
+  "neighborhoodPersonalities": {
+    "Positano": {
+      "tags": [
+        "cliffside",
+        "beachfront",
+        "artsy"
+      ],
+      "bestFor": "Couples looking for a romantic getaway with picturesque views.",
+      "avoid": "Beware of overpriced shops and restaurants that cater primarily to tourists."
+    },
+    "Amalfi": {
+      "tags": [
+        "historical",
+        "cultural",
+        "lively"
+      ],
+      "bestFor": "History buffs eager to explore the stunning cathedral and its surroundings.",
+      "avoid": "Avoid visiting the cathedral during midday as it gets incredibly crowded."
+    },
+    "Ravello": {
+      "tags": [
+        "tranquil",
+        "cultural",
+        "elegant"
+      ],
+      "bestFor": "Those seeking serenity and breathtaking gardens.",
+      "avoid": "Do not miss the Ravello Festival, but be prepared for packed venues."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Naples + 1.5h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹45,000 - ₹60,000 return",
+        "note": "Book well in advance to get the best fares, especially during peak seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h to Naples + 1.5h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹47,000 - ₹65,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No direct metro; consider a shuttle bus costing around €10 and taking approximately 1 hour.",
+      "taxi": "Taxi costs around €120 and takes about 1 hour.",
+      "recommended": "For first-timers, a pre-booked private transfer is the most convenient option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in major cities or the Italian embassy.",
+    "processingTime": "15 days on average.",
+    "tip": "Ensure all documents are complete, including proof of accommodation and return flights, to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Cafe Positano - Try the cornetto and cappuccino.",
+    "sunset": "From the terrace of Le Sirenuse at around 8:15 PM in June.",
+    "meal": "Da Vincenzo - Order the seafood risotto for an authentic taste.",
+    "memory": "Watching the golden light reflect off the sea as you dine al fresco.",
+    "secret": "Locals often gather at Spiaggia Grande after sunset for a quiet evening."
+  },
+  "residentSunday": "An Amalfi Coast resident typically spends Sunday at the beach in Maiori, enjoying a leisurely lunch of fresh seafood at La Bottega del Mare, followed by an afternoon stroll through the local market.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you catch your first glimpse of the colorful houses cascading down the cliffs as your boat approaches Positano.",
+    "peak": "The peak day memory target is experiencing the Ravello Festival, where you can hear world-class music in an enchanting setting.",
+    "departure": "Departure should feel bittersweet, with a resolve to return soon as you reflect on the stunning views and warm flavors."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring Positano and a day trip to Amalfi.",
+      "misses": "You miss out on Ravello and its serene gardens."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience including Positano, Amalfi, and Ravello.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of each coastal village, hiking the Path of the Gods.",
+      "whoFor": "Adventure seekers and those keen on cultural immersion."
+    },
+    "recommended": "Four days is ideal to experience the highlights without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting during peak summer without reservations will lead to disappointment due to long queues and sold-out attractions.",
+    "Planning a day trip from Naples without factoring in travel time creates stress and limits enjoyment.",
+    "Skipping the local lemon farms for touristy shops results in missing the authentic taste of the Amalfi Coast."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local limoncello until their last day.",
+    "Most visitors regret not taking the time to hike the Path of the Gods.",
+    "Most visitors regret dining only at tourist spots instead of exploring local eateries."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 25-35°C with high humidity.",
+      "crowds": "Very crowded, especially in tourist hotspots.",
+      "verdict": "Expect a lively atmosphere, but be prepared for delays and long waits."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "These months offer pleasant weather and fewer crowds."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Milder temperatures but some attractions may close.",
+      "hiddenGem": "Fewer tourists mean a more intimate experience with the locals."
+    },
+    "bestMonth": "September for its mild weather and reduced tourist flow.",
+    "currentSeason": "June 2026 is warm, with occasional showers and bustling local events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the small lemon farm 'Fattoria dei Limoni' in Minori for a tasting session at €10 per person.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the local bus instead of taxis; it costs about €2 and offers breathtaking views.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try the 'spaghetti alle vongole' at Trattoria Da Gemma for an authentic Amalfi dish at around €15.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend the 'Ravello Festival' in July for an exceptional cultural experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the less touristy beach at Fiordo di Furore for a quieter day out.",
+      "category": "location"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pasta Pomodoro at a local trattoria for around €10 (₹900)",
+    "midRangeMeal": "Three-course meal for two at a pizzeria for about €50 (₹4,500)",
+    "luxuryMeal": "Fine dining at Il Refettorio costs around €120 (₹10,800)",
+    "localTransportPerDay": "€5 (₹450) for local bus rides.",
+    "budgetHotelPerNight": "Hostel dormitory for €25 (₹2,250) with basic amenities.",
+    "midRangeHotelPerNight": "Quaint hotel room for €100 (₹9,000) with breakfast included.",
+    "luxuryHotelPerNight": "Stay at Le Sirenuse for around €500 (₹45,000) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dormitory averaging €25 (₹2,250)",
+      "food": "Street food and local eateries averaging €10 (₹900)",
+      "transport": "Use local buses for €5 (₹450)"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel at €100 (₹9,000)",
+      "food": "Casual dining at €25 (₹2,250)"
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury stays are exceptional but come with a high price; expect to splurge for unique experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; cover shoulders and knees.",
+    "Be mindful of dining etiquette; wait for the host to start the meal before eating.",
+    "Avoid loud conversations in public spaces, as it is considered rude."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxi fares; always agree on a price before starting the ride.",
+      "Some shops may inflate prices for tourists; compare prices before purchasing."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India in Italy, Rome"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "From the Path of the Gods",
+        "what": "Capture panoramic views of the coastline.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Bring a tripod for clearer images."
+      }
+    ],
+    "goldenHour": "Approximately one hour before sunset.",
+    "tip": "Use a polarizing filter to reduce glare from the sea."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike the Path of the Gods",
+        "Lunch at a local trattoria",
+        "Relax on the beach"
+      ],
+      "emotionalArc": "This sequence offers a blend of adventure, local cuisine, and relaxation, creating a fulfilling day.",
+      "bestFor": [
+        "Active Travelers",
+        "Food Lovers",
+        "Nature Enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Capri",
+      "travelTime": "1 hour by ferry",
+      "how": "Ferry from Positano or Amalfi",
+      "whyCombine": "Famous for its stunning cliffs and upscale shopping."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Generally challenging due to steep slopes and stairs in most towns.",
+    "majorChallenges": "Limited wheelchair access in historic areas.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider hiring local guides who specialize in accessible tours."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 30°C, occasional showers, and vibrant local festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required for Indian passport holders."
+  }
+}

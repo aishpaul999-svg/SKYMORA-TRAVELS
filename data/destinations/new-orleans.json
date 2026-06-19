@@ -1,0 +1,283 @@
+{
+  "destination": "New Orleans",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "New Orleans",
+    "new orleans",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "foodies",
+      "music lovers",
+      "history buffs",
+      "party enthusiasts",
+      "ghost hunters"
+    ],
+    "notFor": [
+      "beach lovers",
+      "hikers",
+      "solitude seekers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h via Houston",
+    "flightFromMumbai": "19h via Houston, airlines: United, Air India",
+    "visaForIndians": "US B-2 visa",
+    "currency": "USD, 1 INR = 0.012 USD",
+    "timezone": "UTC-6",
+    "language": "English",
+    "bestMonthToVisit": "February, to experience Mardi Gras festivities.",
+    "avoidMonth": "August, due to high humidity and potential hurricanes.",
+    "tipping": "15-20% at restaurants, $1-2 per drink at bars."
+  },
+  "whyPeopleFallInLove": "Imagine strolling through the French Quarter, the scent of beignets wafting through the air as you hear the sound of a jazz band playing 'When the Saints Go Marching In'. That's the moment you know you've found a piece of your heart in this city.",
+  "honestTruth": "Many travelers are surprised to learn that New Orleans suffers from high crime rates, particularly in certain neighborhoods, which is often glossed over in travel guides.",
+  "localTruths": [
+    "Most visitors think Bourbon Street is the heart of nightlife. Locals think the real nightlife happens in the smaller bars on Frenchmen Street.",
+    "Most visitors eat at tourist-heavy restaurants. The best version of New Orleans is found in local diners and cafes like Mother's or Cochon.",
+    "Most visitors miss the local music scene. The real New Orleans starts at a small jazz bar like The Spotted Cat Music Club after sunset."
+  ],
+  "neighborhoodPersonalities": {
+    "French Quarter": {
+      "tags": [
+        "historic",
+        "lively",
+        "touristy"
+      ],
+      "bestFor": "experiencing the iconic architecture and nightlife.",
+      "avoid": "Can be overly crowded during major events."
+    },
+    "Garden District": {
+      "tags": [
+        "quaint",
+        "picturesque",
+        "upscale"
+      ],
+      "bestFor": "strolling under the oak trees and admiring the mansions.",
+      "avoid": "Limited dining options in the immediate area."
+    },
+    "Bywater": {
+      "tags": [
+        "artistic",
+        "bohemian",
+        "relaxed"
+      ],
+      "bestFor": "discovering local art and unique eateries.",
+      "avoid": "Less nightlife than other neighborhoods."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h via Houston",
+        "airlines": [
+          "United Airlines",
+          "Air India"
+        ],
+        "priceRange": "[₹60,000 - ₹80,000 economy return]",
+        "note": "Book 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "19h via Houston",
+        "airlines": [
+          "United Airlines",
+          "American Airlines"
+        ],
+        "priceRange": "[₹62,000 - ₹82,000 economy return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available; ride-sharing apps are popular.",
+      "taxi": "Approx. $36 (₹3,000) for a 30-minute ride.",
+      "recommended": "For first-timers, consider using ride-sharing apps like Uber for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa",
+    "applyAt": "https://www.ustraveldocs.com/in",
+    "processingTime": "15-30 days",
+    "tip": "Schedule your visa interview well in advance, as slots can fill up quickly."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Cafe du Monde, order the beignets and a cafe au lait.",
+    "sunset": "Wander along the Mississippi River at Woldenberg Park around 7:30 PM.",
+    "meal": "Commander's Palace, try the turtle soup and bread pudding souffle.",
+    "memory": "The moment you hear a street musician play your favorite tune while sipping a Sazerac on a patio.",
+    "secret": "Only locals know about the free live music at the St. Louis Cathedral on Sunday afternoons."
+  },
+  "residentSunday": "A New Orleans resident might start their Sunday with brunch at The Ruby Slipper around 10 AM, followed by a stroll through City Park, and then head to the Bywater neighborhood for art gallery visits before wrapping up with a po’ boy from Park's Louisiana Kitchen.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping out of your hotel and hearing a jazz band playing on the street for the first time.",
+    "peak": "Dancing in a second-line parade during Mardi Gras.",
+    "departure": "Feeling the bittersweet twinge of leaving as you hear a jazz musician play one last tune at the airport."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of the French Quarter and a jazz club experience.",
+      "misses": "In-depth exploration of local neighborhoods and culture."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced view of food, music, and history.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of the surrounding areas like plantations and ghost tours.",
+      "whoFor": "history buffs and food enthusiasts."
+    },
+    "recommended": "Four days is ideal to soak in the essence of New Orleans without feeling rushed."
+  },
+  "antiPatterns": [
+    "Eating only at chain restaurants while missing out on local cuisine like gumbo and jambalaya.",
+    "Only visiting Bourbon Street and ignoring the art and music scene in Bywater.",
+    "Trying to do too many attractions in one day, leading to burnout."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not attending a local festival during their stay.",
+    "Most visitors regret skipping the local ghost tours that showcase the city’s haunted history.",
+    "Most visitors regret not trying more local dishes at neighborhood eateries."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "February to April",
+      "weather": "Mild temperatures around 60-75°F, pleasant for outdoor activities.",
+      "crowds": "High, especially during Mardi Gras.",
+      "verdict": "Best time for festivities but expect large crowds."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "More reasonable weather and fewer tourists, making it easier to explore."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Hot and humid, with potential for storms and hurricanes.",
+      "one reason some prefer it": "Fewer tourists and lower hotel prices."
+    },
+    "bestMonth": "February, for Mardi Gras and the festive atmosphere.",
+    "currentSeason": "June 2026 is hot and humid, with occasional thunderstorms."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Go to the French Market early in the morning for fresh produce and local crafts at better prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Avoid the tourist traps on Bourbon Street after dark; head to Frenchmen Street for authentic music.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a ghost tour at night for a spine-tingling experience that highlights the city's haunted history.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local po' boys at Parkway Bakery & Tavern; they’re known for the best in the city.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a second line parade; it’s a celebration of life and a local tradition you can’t miss.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Gumbo from Coop's Place - $10 (₹830)",
+    "midRangeMeal": "Shrimp and grits at The Praline Connection - $25 (₹2,080)",
+    "luxuryMeal": "Dinner at Commander's Palace - $75 (₹6,200)",
+    "localTransportPerDay": "Approximately $15 (₹1,250) using ride-sharing services.",
+    "budgetHotelPerNight": "$100 (₹8,300) at a budget motel with basic amenities.",
+    "midRangeHotelPerNight": "$200 (₹16,600) at a 3-star hotel with better facilities.",
+    "luxuryHotelPerNight": "$500 (₹41,500) at a luxury hotel in the French Quarter."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorms at ₹1,500 per night",
+      "food": "Street food and budget meals from local diners.",
+      "transport": "Public transport or walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotels at ₹3,500 per night",
+      "food": "Mix of local restaurants and occasional fancy meals."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury in New Orleans can mean a lavish stay but also high dining costs."
+    }
+  },
+  "culturalRules": [
+    "Dress is casual but avoid beachwear in restaurants.",
+    "When entering a bar, it’s customary to greet the bartender.",
+    "Respect local customs during Mardi Gras, especially regarding throwing beads."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Exercise Caution",
+    "scamsToKnow": [
+      "Beware of street performers asking for money; always check for authenticity before giving.",
+      "Scammers may pose as tour guides; use reputable services."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Consulate in Houston: +1 713-626-2148"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Jackson Square",
+        "what": "Capture the St. Louis Cathedral with street performers in the foreground.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Visit on weekdays to avoid crowds."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM in summer.",
+    "tip": "Experiment with low light settings at night to capture the neon lights of Bourbon Street."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Breakfast at Cafe du Monde",
+        "Explore the French Market",
+        "Evening jazz at Preservation Hall"
+      ],
+      "emotionalArc": "This sequence allows you to indulge in culinary delights, soak in local culture, and end the day with soothing music.",
+      "bestFor": [
+        "foodies",
+        "music lovers",
+        "culture enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Baton Rouge",
+      "travelTime": "1.5 hours",
+      "how": "By car or bus",
+      "whyCombine": "To explore the state capital and its museums."
+    },
+    {
+      "city": "Plantation Country",
+      "travelTime": "1 hour",
+      "how": "By car",
+      "whyCombine": "For a historical perspective of the antebellum South."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many tourist areas are accessible, but some historic sites have limitations.",
+    "majorChallenges": "Cobblestone streets can be difficult for wheelchairs and walkers.",
+    "seniorFriendlyScore": 7,
+    "note": "It's advisable to check accessibility options at specific venues in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot and humid with frequent thunderstorms and a few local festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, the US B-2 visa is required for Indian travelers."
+  }
+}

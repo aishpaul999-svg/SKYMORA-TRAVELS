@@ -1,0 +1,284 @@
+{
+  "destination": "Cebu",
+  "country": "Philippines",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Cebu",
+    "cebu",
+    "philippines"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "diving enthusiasts",
+      "adventure seekers",
+      "marine life watchers",
+      "foodies"
+    ],
+    "notFor": [
+      "party-goers",
+      "mountain climbers",
+      "shopping enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h via Manila",
+    "flightFromMumbai": "7h via Manila, airlines include Philippine Airlines and Cebu Pacific",
+    "visaForIndians": "Visa-free 30 days",
+    "currency": "Philippine Peso (1 INR = 0.67 PHP)",
+    "timezone": "UTC+8",
+    "language": "English and Cebuano",
+    "bestMonthToVisit": "January, due to the Sinulog Festival and pleasant weather.",
+    "avoidMonth": "August, as it is the peak of the rainy season with possible typhoons.",
+    "tipping": "Tipping is appreciated; rounding up the bill or leaving 10% is common."
+  },
+  "whyPeopleFallInLove": "The moment you dip your toes into the warm, turquoise waters of Malapascua Island and watch the sun rise over the horizon, you realize why Cebu is a slice of paradise. The salty breeze carries the scent of grilled seafood from nearby huts, instantly making your taste buds tingle with anticipation for the day's adventures.",
+  "honestTruth": "Many travelers underestimate the intensity of the sun here — sunscreen is not just recommended, it's essential to avoid painful sunburns during your island-hopping excursions.",
+  "localTruths": [
+    "Most visitors think that the whale shark experience is all about swimming with them. Locals think it’s more about respecting their habitat and understanding the ecological balance.",
+    "Most visitors rush to the tourist spots. The best version of Cebu is discovered in the quiet conversations with local fishermen and the flavors of their homemade dishes.",
+    "Most visitors miss the chance to experience the island's nightlife. The real Cebu starts at sunset when the local bars come alive with music and laughter."
+  ],
+  "neighborhoodPersonalities": {
+    "Malapascua Island": {
+      "tags": [
+        "diving",
+        "relaxation",
+        "marine life"
+      ],
+      "bestFor": "divers looking for the thresher shark experience.",
+      "avoid": "Expect higher prices for accommodation during peak diving seasons."
+    },
+    "Moalboal": {
+      "tags": [
+        "snorkeling",
+        "beaches",
+        "waterfalls"
+      ],
+      "bestFor": "snorkelers wanting to see sardine runs.",
+      "avoid": "Steer clear during the weekends when crowds swell."
+    },
+    "Cebu City": {
+      "tags": [
+        "food",
+        "history",
+        "shopping"
+      ],
+      "bestFor": "history buffs and food lovers exploring street food.",
+      "avoid": "Traffic can be overwhelming, especially during rush hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h via Manila",
+        "airlines": [
+          "Philippine Airlines",
+          "Cebu Pacific"
+        ],
+        "priceRange": "[₹30,000 - ₹45,000 round trip]",
+        "note": "Book at least two months in advance for the best fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "7h via Manila",
+        "airlines": [
+          "Philippine Airlines",
+          "Cebu Pacific"
+        ],
+        "priceRange": "[₹35,000 - ₹50,000 round trip]"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approximately 300 PHP (₹200) for a 30-minute ride to Cebu City.",
+      "recommended": "For first-timers, a taxi is the most straightforward option to reach your accommodation."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 30 days",
+    "applyAt": "Philippine Embassy in New Delhi.",
+    "processingTime": "N/A as it is visa-free.",
+    "tip": "Ensure your passport is valid for at least six months beyond your date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Cafe Laguna in Cebu City, and order their classic Filipino breakfast with tocino (sweet cured pork).",
+    "sunset": "Head to Tops Lookout for a panoramic view of the city; arrive by 5:30 PM to secure a good spot.",
+    "meal": "Dine at Lantaw Native Restaurant in Cordova for their fresh seafood sinigang (sour soup) — it's a local favorite.",
+    "memory": "The moment you witness the ocean light up with bioluminescent plankton while swimming after dark.",
+    "secret": "Locals often head to the small eatery 'Mang Inasal' for the best grilled chicken and rice plate, but it’s mostly frequented by residents."
+  },
+  "residentSunday": "A Cebu resident typically starts with breakfast at La Vie Parisienne, enjoying freshly baked pastries. Then, they might head to the beach at Mactan for a relaxing swim before enjoying a late lunch at a local 'carinderia' (eatery) for some lechon (roast pig). The evening is often spent at a friend's house, sharing stories over a few bottles of local beer.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step outside the airport and are greeted by the warm, humid air and the sound of the waves in the distance.",
+    "peak": "The peak day memory should be the exhilarating feeling of swimming with whale sharks in Oslob, connecting with nature in the most profound way.",
+    "departure": "Your departure should feel like a bittersweet farewell, with the sun setting behind you as you leave with a heart full of memories."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Cebu City and a day trip to a nearby beach.",
+      "misses": "The chance to explore the surrounding islands and deeper cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "Cebu City, whale shark experience, and a beach day.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Comprehensive exploration of beaches, diving spots, and cultural sites.",
+      "whoFor": "travelers wanting a deeper understanding of Cebu."
+    },
+    "recommended": "Four days — it's the perfect balance between adventure and relaxation."
+  },
+  "antiPatterns": [
+    "Trying to do both whale sharks and diving in one day — it leads to exhaustion and missing out on either experience.",
+    "Staying only in Cebu City and not exploring the nearby islands — this results in missing the natural beauty of the region.",
+    "Visiting during the Sinulog Festival without prior accommodation bookings can result in a frustrating experience due to the crowds."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food — the best flavors are often found off the main roads.",
+    "Most visitors regret not booking a diving trip in advance — spots can fill up quickly.",
+    "Most visitors regret not taking the time to learn a few Cebuano phrases — it enriches interactions with locals."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Dry and sunny, temperatures around 25-30°C.",
+      "crowds": "High, especially around Christmas and Sinulog Festival.",
+      "verdict": "Great for festivities but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Good weather and fewer tourists, perfect for beach outings."
+    },
+    "offSeason": {
+      "months": "June to November",
+      "reality": "Rainy with potential typhoons, but accommodation prices drop significantly.",
+      "reason": "Those who don't mind the rain can enjoy a quieter experience."
+    },
+    "bestMonth": "January, as it combines pleasant weather with cultural festivities.",
+    "currentSeason": "June 2026 is warm with intermittent rain showers, fewer tourists, and lush greenery."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local market, Carbon Market, early in the morning for fresh produce and authentic local snacks, prices can be as low as 20 PHP (₹13) per item.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a local bus or 'v-hire' for a more authentic travel experience; they are much cheaper than taxis, typically around 50 PHP (₹33) for city rides.",
+      "category": "transport"
+    },
+    {
+      "tip": "The best time to visit Kawasan Falls is early morning before the crowds arrive, and you can rent a bamboo raft for around 500 PHP (₹335) to enjoy the falls up close.",
+      "category": "experience"
+    },
+    {
+      "tip": "Local bakeries sell 'pandesal' (bread rolls) for only 5 PHP (₹3), perfect for a quick breakfast on-the-go.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a local fiesta if you can; the food, music, and community spirit are unmatched, typically happening monthly in different barangays.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A plate of chicken adobo at a local carinderia costs around 100 PHP (₹67).",
+    "midRangeMeal": "A meal at a mid-range restaurant like Casa Verde will cost approximately 500 PHP (₹335) for a full course.",
+    "luxuryMeal": "Dining at The Pig & Palm can set you back around 2,000 PHP (₹1,340) for a fine dining experience.",
+    "localTransportPerDay": "Expect to spend around 200 PHP (₹134) on local transport via jeepneys and taxis.",
+    "budgetHotelPerNight": "A budget hotel like RedDoorz can cost around 1,200 PHP (₹800) for a basic room with amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel like The Henry Hotel costs about 4,500 PHP (₹3,000) per night with breakfast included.",
+    "luxuryHotelPerNight": "Luxury stays at Shangri-La's Mactan Resort & Spa start at around 12,000 PHP (₹8,000) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostels start at around 600 PHP (₹400)",
+      "food": "Eat at local joints for about 150-300 PHP (₹100-200)",
+      "transport": "Use jeepneys and buses for around 50-100 PHP (₹35-67) daily."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotels around 2,000 PHP (₹1,340)",
+      "food": "A mix of local and restaurant meals for about 500 PHP (₹335)."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury travel in Cebu offers exquisite resorts and fine dining, but be prepared for premium prices."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites; shoulders and knees should be covered.",
+    "Always greet locals with a smile and a simple 'Maayong adlaw' (Good day) to show respect.",
+    "Ask permission before taking photos of locals, especially in rural areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of taxi drivers not using the meter; always insist they do or use a ride-hailing app.",
+      "Watch for pickpockets in crowded areas like markets."
+    ],
+    "emergencyContacts": {
+      "police": "117",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Embassy in Manila: +63 2 8571 1000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Kawasan Falls",
+        "what": "The turquoise waters cascading down the rocks.",
+        "bestTime": "Late morning to avoid harsh sunlight.",
+        "tip": "Use a polarizing filter for the best colors."
+      }
+    ],
+    "goldenHour": "Around 6 PM during the summer months when the sun sets beautifully over the ocean.",
+    "tip": "Experiment with underwater photography when diving or snorkeling, the marine life is vibrant and diverse."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Snorkeling in Moalboal",
+        "Lunch at a beachside restaurant",
+        "Relaxing at a beach",
+        "Sunset viewing at Tops Lookout"
+      ],
+      "emotionalArc": "This combination creates a balanced day of adventure, relaxation, and scenic beauty, perfect for unwinding.",
+      "bestFor": [
+        "beach lovers",
+        "families",
+        "couples"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bantayan Island",
+      "travelTime": "3 hours by ferry",
+      "how": "Take a bus to Hagnaya Port, then a ferry.",
+      "whyCombine": "For pristine beaches and laid-back island vibes."
+    },
+    {
+      "city": "Malapascua Island",
+      "travelTime": "4 hours by van and boat",
+      "how": "Take a van from Cebu City to Maya Port, then a boat.",
+      "whyCombine": "Famous for diving and the thresher sharks."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most tourist attractions lack wheelchair access; it's advisable to check in advance.",
+    "majorChallenges": "Steep terrains and uneven paths can be challenging for those with mobility issues.",
+    "seniorFriendlyScore": 6,
+    "note": "Some attractions like beaches have uneven sand making it hard for wheelchairs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain, with fewer tourists allowing for a more relaxed experience. Local events include food festivals and cultural celebrations.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indians for up to 30 days; ensure your passport validity is at least six months."
+  }
+}

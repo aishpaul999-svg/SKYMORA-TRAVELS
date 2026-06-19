@@ -1,0 +1,267 @@
+{
+  "destination": "Aswan",
+  "country": "Egypt",
+  "region": "Africa",
+  "aliases": [
+    "Aswan",
+    "aswan",
+    "egypt"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "cultural enthusiasts",
+      "history buffs",
+      "adventure seekers",
+      "photographers",
+      "food lovers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "nightlife seekers",
+      "luxury resort fans"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h to Cairo + 1.5h",
+    "flightFromMumbai": "7h to Cairo + 1.5h",
+    "visaForIndians": "e-Visa USD 25",
+    "currency": "Egyptian Pound (EGP), 1 INR = 0.40 EGP",
+    "timezone": "UTC+2",
+    "language": "Arabic (English widely spoken)",
+    "bestMonthToVisit": "October, when temperatures are cooler and outdoor activities are more enjoyable.",
+    "avoidMonth": "July, as the heat can be extreme, reaching over 40°C.",
+    "tipping": "Tipping is customary; around 10-15% in restaurants is appreciated."
+  },
+  "whyPeopleFallInLove": "Strolling by the Nile at dawn, the air filled with the scent of fresh felafel, while watching fishermen cast their nets against the golden hues of the sunrise is a moment that captivates the soul.",
+  "honestTruth": "Many travelers overlook the fact that Aswan's charm lies not only in its historical sites but also in its slower pace, which can feel disorienting for those used to urban hustle.",
+  "localTruths": [
+    "Most visitors think Aswan is just a stop for Abu Simbel. Locals think it's the heart of Nubian culture, with its colorful markets and warm community.",
+    "Most visitors rush through the temples. The best version of Aswan is taking the time to engage with local artisans and their crafts.",
+    "Most visitors miss the real vibrancy of the city at night. The real Aswan starts at the local coffee shops where the community gathers after sunset."
+  ],
+  "neighborhoodPersonalities": {
+    "Nubian Village": {
+      "tags": [
+        "cultural",
+        "artisanal",
+        "community"
+      ],
+      "bestFor": "immersing oneself in Nubian traditions and crafts.",
+      "avoid": "be cautious of overly aggressive vendors."
+    },
+    "Corniche": {
+      "tags": [
+        "scenic",
+        "social",
+        "relaxed"
+      ],
+      "bestFor": "enjoying riverside views and casual dining.",
+      "avoid": "nighttime solitude, as it may feel deserted."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h to Cairo + 1.5h",
+        "airlines": [
+          "EgyptAir",
+          "Air India"
+        ],
+        "priceRange": "₹30,000 - ₹45,000 return",
+        "note": "Book at least two months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "7h to Cairo + 1.5h",
+        "airlines": [
+          "EgyptAir",
+          "Emirates"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "There is no metro; taxis are the primary mode of transport.",
+      "taxi": "Taxi costs around 50 EGP (₹20) and takes about 20 minutes.",
+      "recommended": "For first-timers, pre-book a taxi from your hotel for a smoother arrival."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 25",
+    "applyAt": "https://www.visa.gov.eg",
+    "processingTime": "Typically within 3 days.",
+    "tip": "Apply for your e-Visa at least a week before your travel."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at El Masry Restaurant with a plate of foul medames.",
+    "sunset": "Watch the sunset at Philae Temple around 6:30 PM for an enchanting view over the Nile.",
+    "meal": "Dine at Nubian House and order the grilled fish with spicy tahini sauce.",
+    "memory": "The moment you share a meal with a Nubian family, laughing over stories and traditions.",
+    "secret": "The best time to visit local markets is early morning when everything is fresh and the community buzzes with activity."
+  },
+  "residentSunday": "An Aswan resident might spend their Sunday morning at the local market, savoring freshly baked bread, then head to the Nile for a leisurely boat ride, enjoying lunch at a local café, and finishing the day with family gatherings over a pot of traditional koshari.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the Nile's shimmering waters as you step out of the airport.",
+    "peak": "The thrill of seeing the grand temples of Abu Simbel after an early morning drive.",
+    "departure": "Feeling a deep connection to the local culture as you wave goodbye to new friends at the airport."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Focusing on the highlights such as the Philae Temple and the Nubian Museum.",
+      "misses": "Missing the opportunity to interact with locals and explore the markets."
+    },
+    "three_to_four_days": {
+      "focus": "A sweet spot coverage, allowing time for Abu Simbel and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of Aswan and nearby attractions like Kom Ombo.",
+      "whoFor": "Cultural enthusiasts and history buffs."
+    },
+    "recommended": "Three to four days is ideal for a balanced experience of history and local culture."
+  },
+  "antiPatterns": [
+    "Rushing through Abu Simbel with no time to appreciate the local guides — it fails to capture the depth of the site.",
+    "Skipping the local market for tourist traps — you miss out on authentic experiences and local delicacies.",
+    "Visiting the temples in the heat of the day can ruin the experience; mornings and late afternoons are much more pleasant."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in Nubian villages.",
+    "Most visitors regret not trying local dishes outside of tourist restaurants.",
+    "Most visitors regret not arranging a felucca ride on the Nile."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to March",
+      "weather": "Temperatures range from 15°C to 25°C, pleasant for sightseeing.",
+      "crowds": "Expect larger crowds due to favorable weather.",
+      "verdict": "Plan in advance to secure accommodations and visit key attractions."
+    },
+    "shoulderSeason": {
+      "months": "April, October",
+      "why": "Weather is still manageable, and crowds are thinner."
+    },
+    "offSeason": {
+      "months": "May to September",
+      "reality": "Hot temperatures, sometimes exceeding 40°C.",
+      "hiddenGem": "Fewer tourists mean a more intimate experience with locals."
+    },
+    "bestMonth": "October, when temperatures are comfortable for exploration.",
+    "currentSeason": "June 2026 is hot, with temperatures around 35°C, so plan for early morning activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local market on Saturday morning for the freshest produce and local crafts.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a felucca ride at dawn to enjoy the sunrise over the Nile.",
+      "category": "experience"
+    },
+    {
+      "tip": "Learn a few phrases in Arabic; locals appreciate the effort.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local coffee at Abo El Sid, it's known for its strong flavor.",
+      "category": "food"
+    },
+    {
+      "tip": "Always negotiate prices in markets; it's part of the culture.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Koshari at a local eatery for around 30 EGP (₹12)",
+    "midRangeMeal": "Grilled chicken at a mid-range restaurant for around 120 EGP (₹48)",
+    "luxuryMeal": "Dinner at Sofitel Legend Old Cataract for around 600 EGP (₹240)",
+    "localTransportPerDay": "Around 50 EGP (₹20) for local taxis.",
+    "budgetHotelPerNight": "Hostel beds start at 200 EGP (₹80) with shared facilities.",
+    "midRangeHotelPerNight": "Comfortable hotels around 800 EGP (₹320) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels start at 2500 EGP (₹1000) with premium amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds at hostels for around 200 EGP (₹80)",
+      "food": "Street food and local eateries, budget around 100 EGP (₹40)",
+      "transport": "Use public transport and local taxis for around 50 EGP (₹20)"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels for around 800 EGP (₹320)",
+      "food": "Mix of street food and restaurants, budget around 300 EGP (₹120)"
+    },
+    "luxury": {
+      "perDayINR": "₹12,000+",
+      "note": "Luxury options are available, but service and amenities can vary widely."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially when visiting religious sites; women should cover shoulders and knees.",
+    "Always ask for permission before taking photos of locals.",
+    "Public displays of affection are frowned upon, so keep interactions respectful."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial guides at tourist sites; always go with licensed ones.",
+      "Some taxi drivers may overcharge; agree on a price before the ride."
+    ],
+    "emergencyContacts": {
+      "police": "122",
+      "ambulance": "123",
+      "indianEmbassy": "Cairo, 8 Ahmed Heshmat St, Zamalek, +20 2 2735 3523"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Philae Temple",
+        "what": "Capture the temple against the backdrop of the Nile.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a polarizing filter to reduce glare on the water."
+      }
+    ],
+    "goldenHour": "Around sunrise and sunset.",
+    "tip": "Golden hour is especially magical here; plan your photography sessions accordingly."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Philae Temple",
+        "Take a felucca ride",
+        "Dine at a local restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to absorb the history, enjoy the tranquility of the Nile, and savor local flavors, creating a memorable day.",
+      "bestFor": [
+        "culture seekers",
+        "food enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Kom Ombo",
+      "travelTime": "30 minutes",
+      "how": "By taxi or bus",
+      "whyCombine": "To explore the unique dual temple dedicated to Sobek and Horus."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most tourist sites have limited accessibility; inquire in advance.",
+    "majorChallenges": "Uneven pavements and steps at historical sites.",
+    "seniorFriendlyScore": 7,
+    "note": "Travelers with mobility needs should plan ahead, especially for temple visits."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is hot, with temperatures around 35°C and fewer tourists; perfect for those who prefer quiet exploration.",
+    "currentAlerts": [],
+    "entryRequirements": "Visitors still require an e-Visa as of June 2026."
+  }
+}

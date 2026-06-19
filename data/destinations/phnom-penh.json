@@ -1,0 +1,267 @@
+{
+  "destination": "Phnom Penh",
+  "country": "Cambodia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Phnom Penh",
+    "phnom penh",
+    "cambodia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "cultural explorers",
+      "budget travelers",
+      "first-time visitors"
+    ],
+    "notFor": [
+      "luxury seekers",
+      "party-goers",
+      "travelers looking for Western amenities"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h via Bangkok",
+    "flightFromMumbai": "5h 30m via Bangkok (Thai Airways, AirAsia)",
+    "visaForIndians": "e-Visa USD 36",
+    "currency": "Cambodian Riel (KHR), 1 INR = 62 KHR",
+    "timezone": "+7",
+    "language": "Khmer (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "November, as the weather is cooler and drier, ideal for exploring.",
+    "avoidMonth": "April, when temperatures can soar above 40°C, making travel uncomfortable.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or giving 10% is appreciated."
+  },
+  "whyPeopleFallInLove": "Standing at the edge of the Tonle Sap River during sunset, the sky ablaze with color, the smell of grilled fish wafting from local vendors fills the air, and the sound of laughter from families enjoying their evening creates a palpable connection to the local life.",
+  "honestTruth": "While many travel guides emphasize the beauty of Phnom Penh, they often gloss over the stark contrast between its historical significance and the ongoing struggles of its residents.",
+  "localTruths": [
+    "Most visitors think that the Royal Palace is the highlight of the city. Locals think that the true heart of Phnom Penh lies in its street food and daily markets.",
+    "Most visitors flock to the Killing Fields for a somber history lesson. The best version of Phnom Penh is understanding the resilience and hope that locals exhibit in their everyday lives.",
+    "Most visitors miss the early morning market scene. The real Phnom Penh starts at 5 AM when the locals gather to shop, eat, and socialize."
+  ],
+  "neighborhoodPersonalities": {
+    "Kampong Cham": {
+      "tags": [
+        "historical",
+        "authentic",
+        "local"
+      ],
+      "bestFor": "experiencing traditional Cambodian life and cuisine.",
+      "avoid": "be wary of overly touristy cafés that don't reflect local flavors."
+    },
+    "Boeung Keng Kang": {
+      "tags": [
+        "expat",
+        "trendy",
+        "café"
+      ],
+      "bestFor": "finding international cuisine and modern amenities.",
+      "avoid": "the higher prices that come with expat areas."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h via Bangkok",
+        "airlines": [
+          "IndiGo",
+          "Thai Airways"
+        ],
+        "priceRange": "INR 15,000 - 25,000 return",
+        "note": "Book 2-3 months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 30m via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "AirAsia"
+        ],
+        "priceRange": "INR 18,000 - 28,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approx. USD 10 (40000 KHR) for a 30-minute ride.",
+      "recommended": "Use the Grab app for reliable and affordable taxi services."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 36",
+    "applyAt": "https://www.evisa.gov.kh/",
+    "processingTime": "3 business days",
+    "tip": "Apply for your e-Visa well in advance to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Brown Coffee' and order a traditional Khmer breakfast of 'Bai Sach Chrouk' (pork and rice) paired with strong Cambodian coffee.",
+    "sunset": "Head to 'Wat Phnom' at 5:30 PM for a serene view over the city and the river.",
+    "meal": "Dine at 'Romdeng', and don't miss their 'Fish Amok', a fragrant curry steamed in banana leaves.",
+    "memory": "The moment you share a meal with a local family during a traditional festival, understanding their culture through food and laughter.",
+    "secret": "Only locals know that the best street food is often found near the riverside at night, where vendors set up shop with the freshest local dishes."
+  },
+  "residentSunday": "On a free Sunday, a Phnom Penh resident might start the day with a leisurely breakfast at 'The Shop', followed by a stroll through the Russian Market to pick up fresh produce. Lunch might consist of Khmer noodles at a small local eatery, followed by a visit to the National Museum. The evening is often spent with friends at a riverside café, sharing stories over drinks.",
+  "dayMemoryTargets": {
+    "arrival": "The first encounter with the warm breezes of the riverfront as you step out of the airport, feeling the city come alive around you.",
+    "peak": "The peak day memory occurs while visiting the Killing Fields, where the weight of history becomes palpable and leaves a profound impact.",
+    "departure": "Departure should feel like a bittersweet goodbye, with memories of smiles exchanged with locals and the taste of delicious street food lingering."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "This covers the essential historical sites and a taste of the local cuisine.",
+      "misses": "You miss the deeper cultural immersion and the hidden local spots."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage of major attractions along with local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration into the outskirts and cultural nuances of the city.",
+      "whoFor": "Cultural enthusiasts and those wanting to understand the local life."
+    },
+    "recommended": "Four days is ideal to balance exploration with leisure."
+  },
+  "antiPatterns": [
+    "Visiting the Killing Fields and then heading straight to a fancy restaurant; it feels disrespectful and disconnected from the local experience.",
+    "Staying only in expat areas and missing out on the authentic local life; it results in a superficial view of the city.",
+    "Trying to see everything in one day leads to rushing through experiences without truly absorbing the atmosphere."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more street food, often missing out on the best flavors.",
+    "Most visitors regret not taking the time to understand the history behind the Killing Fields.",
+    "Most visitors regret sticking to tourist areas and not venturing into local neighborhoods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "Temperatures range from 20°C to 30°C, pleasant for outdoor activities.",
+      "crowds": "Crowds are present but manageable.",
+      "verdict": "Ideal for first-time visitors."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer tourists and lower prices, but prepare for heat."
+    },
+    "offSeason": {
+      "months": "June to October",
+      "reality": "Monsoon season brings heavy rains, but the city is quieter; some enjoy the lush greenery and lower costs.",
+      "hiddenGem": "The rain often clears up quickly, leaving behind a refreshed environment."
+    },
+    "bestMonth": "November, providing the perfect balance of pleasant weather and cultural festivities.",
+    "currentSeason": "June 2026 is marked by occasional rains, typically brief but refreshing, with temperatures around 30°C."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Psar Thmei' (Central Market) early in the morning for the freshest produce and to see locals in their daily routines. Prices are lower before noon.",
+      "category": "food"
+    },
+    {
+      "tip": "If you're looking to learn Khmer, consider taking a short class at 'Language Institute of Cambodia' for an immersive experience with locals.",
+      "category": "experience"
+    },
+    {
+      "tip": "For a quiet spot to unwind, head to 'Tea House' for a selection of local teas and pastries, often overlooked by tourists.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a boat ride at dusk on the Tonle Sap River; it's an experience that offers a unique perspective of the city as the lights begin to twinkle.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local cooking class at 'Cuisine Wat Damnak' for a hands-on experience with market visits and traditional cooking methods.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fried rice at a street stall for 2,000 KHR (₹32)",
+    "midRangeMeal": "Traditional Khmer meal at 'Romdeng' costs around 10,000 KHR (₹160).",
+    "luxuryMeal": "Dinner at 'Malis' costs approximately 30,000 KHR (₹480).",
+    "localTransportPerDay": "Daily local transport cost averages around 5,000 KHR (₹80).",
+    "budgetHotelPerNight": "A budget hotel typically costs around 15,000 KHR (₹240) for basic amenities.",
+    "midRangeHotelPerNight": "Mid-range hotels charge around 40,000 KHR (₹640) for comfortable stays.",
+    "luxuryHotelPerNight": "Luxury hotels start from 100,000 KHR (₹1,600) for premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds for around 10,000 KHR (₹160)",
+      "food": "Eating primarily street food and local markets keeps costs low.",
+      "transport": "Using local tuktuks or bicycles."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotel with modern amenities for around 40,000 KHR (₹640)",
+      "food": "Enjoying a mix of street food and nicer restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury options are available, but they are still relatively affordable compared to Western standards."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Respect local customs, especially when interacting with monks and elders.",
+    "Public displays of affection are discouraged in conservative areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of tuk-tuk drivers offering overly cheap rates; they may take you to shops where they receive commissions.",
+      "Be cautious of pickpockets in crowded areas."
+    ],
+    "emergencyContacts": {
+      "police": "117",
+      "ambulance": "119",
+      "indianEmbassy": "Indian Embassy in Cambodia, 25-27, Street 71, Phnom Penh"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Wat Phnom",
+        "what": "The temple with the city backdrop.",
+        "bestTime": "Early morning or late afternoon for softer light.",
+        "tip": "Climb to the top for a panoramic view of the city."
+      }
+    ],
+    "goldenHour": "The golden hour typically occurs around 5:30 PM.",
+    "tip": "Using a polarizing filter can help reduce glare when photographing the river."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Royal Palace",
+        "Explore the Silver Pagoda",
+        "Stroll along the riverside"
+      ],
+      "emotionalArc": "This sequence allows for a gradual immersion into the history followed by a peaceful reflection at the river, creating a harmonious blend of culture and relaxation.",
+      "bestFor": [
+        "cultural travelers",
+        "history buffs"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Siem Reap",
+      "travelTime": "6h",
+      "how": "Bus or private taxi",
+      "whyCombine": "To explore the Angkor Wat temples."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited, as many attractions have steps and uneven surfaces.",
+    "majorChallenges": "Narrow sidewalks and traffic can pose challenges for mobility-impaired travelers.",
+    "seniorFriendlyScore": 7,
+    "note": "Some attractions provide assistance, but it's advisable to check in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is characterized by occasional rains, which keep the city cooler and less crowded, with temperatures around 30°C.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, an e-Visa is required for Indian travelers, with no additional health requirements."
+  }
+}

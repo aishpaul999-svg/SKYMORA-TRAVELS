@@ -1,0 +1,332 @@
+{
+  "destination": "Jaipur",
+  "state": "Rajasthan",
+  "type": "city",
+  "aliases": [
+    "Jaipur",
+    "jaipur",
+    "Rajasthan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History buffs",
+      "Food lovers",
+      "Shopping enthusiasts",
+      "Cultural explorers",
+      "Photography aficionados"
+    ],
+    "notFor": [
+      "Luxury seekers",
+      "Beach lovers",
+      "Nature-only adventurers"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the royal forts and palaces. They stay for the vibrant bazaars filled with spices and textiles. They return because Jaipur is a city where the colors of the sunset are as rich as the history that unfolds in every alleyway.",
+  "honestTruth": "Most travel guides miss that Jaipur's true essence lies not just in its grand architecture, but in the daily life that pulses through its streets, where centuries-old traditions still thrive amidst modernity.",
+  "localTruths": [
+    "Most visitors think Jaipur is only about the Amber Fort. Locals think the real magic is at the lesser-known Jaigarh Fort, where history is alive in the quiet of its walls.",
+    "Most visitors hustle through the City Palace. The best version of Jaipur is experienced at the Albert Hall Museum, where you can linger and absorb art in a more intimate setting.",
+    "Most visitors spend too much time at Hawa Mahal. The real Jaipur starts at the local markets like Johari Bazaar, where you can feel the city's heartbeat."
+  ],
+  "neighborhoodPersonalities": {
+    "Pink City": {
+      "tags": [
+        "historical",
+        "busy",
+        "cultural"
+      ],
+      "bestFor": "exploring the city's iconic landmarks and vibrant markets.",
+      "avoid": "overly touristy spots that inflate prices."
+    },
+    "Bani Park": {
+      "tags": [
+        "quiet",
+        "residential",
+        "accessible"
+      ],
+      "bestFor": "finding cozy cafes and boutique hotels.",
+      "avoid": "crowded tourist traps."
+    },
+    "Malviya Nagar": {
+      "tags": [
+        "modern",
+        "upscale",
+        "cafe culture"
+      ],
+      "bestFor": "enjoying the contemporary side of Jaipur.",
+      "avoid": "expensive eateries that don’t deliver on quality."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Amber Fort for stunning views and history.",
+        "Explore City Palace for its architecture and museums.",
+        "Wander through Hawa Mahal for iconic photographs."
+      ],
+      "avoid": [
+        "Rushing through the attractions without soaking in the ambiance.",
+        "Ignoring local cuisine at street stalls."
+      ],
+      "mindset": "Approach Jaipur with an open heart and let its stories unfold at every turn."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the lesser-known Nahargarh Fort at sunset.",
+        "Attend a cooking class to learn Rajasthani cuisine.",
+        "Explore local art galleries showcasing contemporary artists."
+      ],
+      "neighborhoods": [
+        "Explore the charm of the old city streets and the local markets."
+      ],
+      "local": "One thing only locals and repeat visitors know is that the best views of the city are from the rooftop cafes in the Bani Park area."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "15-25°C, pleasant and dry",
+      "crowds": "high; expect many tourists",
+      "prices": "20% premium on accommodation and tours",
+      "verdict": "This is the best time to visit, but plan ahead."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "Weather is still favorable and crowds are thinner."
+    },
+    "offSeason": {
+      "months": "May to September",
+      "reality": "Expect high temperatures and occasional rain during monsoon.",
+      "hiddenGem": "Lower prices and fewer tourists mean a more authentic experience."
+    },
+    "bestMonth": "October — it’s when the weather starts to cool down and festivals like Diwali occur.",
+    "worstMonth": "July — heavy monsoon rains can disrupt travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying local street food, especially at the famous Rawat Misthan Bhandar.",
+    "Most visitors regret not spending enough time in the local markets, missing out on unique handicrafts.",
+    "Most visitors regret not visiting the lesser-known forts like Nahargarh."
+  ],
+  "antiPatterns": [
+    "Visiting Amber Fort in the middle of the day — the heat makes it unbearable.",
+    "Skipping local food in favor of international cuisine — you miss out on Rajasthani flavors.",
+    "Trying to cover too many landmarks in one day — it leads to exhaustion and a lack of appreciation."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Amber Fort in the morning, explore City Palace in the afternoon, and shop at Johari Bazaar in the evening.",
+      "verdict": "A day is enough to touch the highlights but not to savor the city."
+    },
+    "two_days": {
+      "focus": "Covers main attractions and some local experiences.",
+      "misses": "You miss the depth of local culture and hidden gems."
+    },
+    "three_to_four_days": {
+      "focus": "This trip covers major sights, local markets, and cultural experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of Jaipur's history, art, and culinary scene.",
+      "whoFor": "Cultural enthusiasts who want to immerse themselves."
+    },
+    "recommended": "3-4 days — allows for a balance of sightseeing and relaxation."
+  },
+  "residentSunday": "A Jaipur resident with one free Sunday starts their morning with a stroll in Central Park, followed by breakfast at Laxmi Misthan Bhandar. In the afternoon, they visit the local art galleries in the city, and finish the day with dinner at the rooftop of the Peacock Rooftop Restaurant, enjoying views of the City Palace.",
+  "dayMemoryTargets": {
+    "arrival": "Walking through the bustling streets of Johari Bazaar, with the scent of spices and the vibrant colors of textiles enveloping them.",
+    "peak": "Standing atop Nahargarh Fort at sunset, watching the city bathe in golden light.",
+    "departure": "Leaving with the sounds of street hawkers and the taste of authentic dal baati churma lingering in their memory."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi 12015 (departs 6:10am, 4.5h, ₹855 CC)",
+      "bus": "Buses are frequent and cost around ₹500-700, but can be crowded.",
+      "flight": "Not recommended due to the short distance.",
+      "recommended": "Take the Shatabdi train for comfort and speed.",
+      "budgetTip": "Book your train tickets in advance to save ₹500-2000 on the journey."
+    },
+    "fromMumbai": {
+      "train": "Maharashtra Express (departs 12:40am, 16 hours, ₹1,150 sleeper class)",
+      "flight": "Direct flights are available for around ₹3,500.",
+      "recommended": "Train is more economical if you book early."
+    },
+    "fromBangalore": {
+      "train": "There is no direct train; a combination of trains via Delhi is needed, taking 36 hours or more.",
+      "flight": "Direct flights cost around ₹4,500.",
+      "recommended": "Flying is the most viable option."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws and local buses work best for getting around.",
+      "avoid": "Avoid unmetered auto-rickshaws that can overcharge.",
+      "appRecommendation": "Use Uber or Ola for reliable transport.",
+      "autoRickshaw": "Auto-rickshaws are convenient but negotiate fares upfront.",
+      "cost": "Daily local transport budget is around ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Rickshaw Meter Scam",
+      "howItWorks": "Auto-rickshaws claiming meters are broken and charging inflated fares.",
+      "prevention": "Always insist on using the meter or negotiate a fare before boarding.",
+      "ifItHappens": "Firmly refuse to pay more and seek another auto."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Pani Puri at Laxmi Chaat Bhandar",
+      "Kachori at Rawat Misthan Bhandar",
+      "Pav Bhaji at Sharma Pav Bhaji"
+    ],
+    "avoidList": [
+      "Street stalls with unclean surroundings — avoid anything that looks unsanitary."
+    ],
+    "waterAdvice": "Always drink bottled water to avoid stomach issues.",
+    "trustedDhabas": "Look for busy dhabas with a local clientele as a sign of trustworthiness.",
+    "mustEat": [
+      "Dal Baati Churma at Chokhi Dhani",
+      "Ghewar at Laxmi Misthan Bhandar",
+      "Laal Maas at Handi Restaurant"
+    ],
+    "touristTrap": "Avoid the overpriced Thali meals at overly touristy restaurants."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly; women should wear long skirts or dresses and men should avoid shorts at temples.",
+    "photographyRules": "Photography is restricted at certain temples; always check for signage.",
+    "templeEtiquette": "Remove shoes before entering any temple and avoid loud conversations.",
+    "timing": "Visit attractions early in the morning to avoid crowds and heat.",
+    "localCustom": "It’s customary to greet locals with a 'Namaste' and a smile."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget guesthouses at ₹500-800 per night.",
+      "food": "Street food and local eateries for ₹300-500 per day.",
+      "transport": "Local transport for ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels around ₹1,500-2,500.",
+      "food": "Mix of local restaurants and occasional splurges.",
+      "includes": "Guided tours and some shopping."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels like Rambagh Palace or ITC Rajputana.",
+      "experience": "Private tours and upscale dining experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Top-tier luxury resorts.",
+      "note": "Luxury may not add much value if you are looking for local experiences."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek pristine beaches will be disappointed because Jaipur is landlocked and focused on culture and history.",
+    "If you want a nature-centric vacation, Jaipur is the wrong choice — Udaipur or Rishikesh are better.",
+    "Anyone expecting a fast-paced, modern city will find Jaipur's charm in its slow, historical vibe."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the City Palace in the morning and have chai at the café inside — it's less crowded and peaceful.",
+      "category": "experience"
+    },
+    {
+      "tip": "Street vendors near the Albert Hall Museum are the best for authentic Rajasthani snacks.",
+      "category": "food"
+    },
+    {
+      "tip": "Check for local festivals; the Teej festival is a vibrant experience you won’t want to miss.",
+      "category": "timing"
+    },
+    {
+      "tip": "Visit the local markets in the late afternoon, when the light is perfect for photography.",
+      "category": "photography"
+    },
+    {
+      "tip": "Always bargain at the bazaars; it’s expected and part of the local shopping culture.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Jaipur City Palace",
+        "Chokhi Dhani for dinner",
+        "Nahargarh Fort for sunset"
+      ],
+      "emotionalArc": "This sequence builds from historical exploration to cultural immersion and culminates in a serene sunset experience.",
+      "bestFor": [
+        "Cultural travelers",
+        "Foodies",
+        "Photography enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Amber Fort",
+        "what": "Majestic fort architecture and landscape",
+        "bestTime": "Early morning",
+        "tip": "Get there before the crowds for the best light."
+      },
+      {
+        "name": "Hawa Mahal",
+        "what": "Iconic façade",
+        "bestTime": "Late afternoon",
+        "tip": "Capture it with the sun setting behind."
+      },
+      {
+        "name": "Nahargarh Fort",
+        "what": "Panoramic views of Jaipur",
+        "bestTime": "Sunset",
+        "tip": "Plan to stay for the sunset for magical colors."
+      }
+    ],
+    "goldenHour": "Golden hour in Jaipur typically occurs 30 minutes before sunset.",
+    "restrictedAreas": [
+      "Some temples and private properties restrict photography; always ask first."
+    ],
+    "tip": "Use a polarizing filter to enhance colors and reduce glare during sunny days."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions are not wheelchair accessible due to stairs and uneven surfaces.",
+    "majorChallenges": "Accessing forts and some local markets can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider bringing a companion for assistance and planning visits to more accessible sites."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Ajmer",
+      "distance": "130km",
+      "travelTime": "2.5 hours",
+      "how": "By train or bus",
+      "whyCombine": "To visit the famous Ajmer Sharif Dargah."
+    },
+    {
+      "city": "Pushkar",
+      "distance": "150km",
+      "travelTime": "3 hours",
+      "how": "By bus or taxi",
+      "whyCombine": "For the Pushkar Camel Fair and serene lakes."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "October",
+    "avoidMonth": "July — heavy rains can disrupt travel.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "431 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is hot with temperatures above 40°C but offers lower prices and fewer crowds.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic travelers."
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "destination": "Hue",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Hue",
+    "hue",
+    "vietnam"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "food lovers",
+      "cultural explorers",
+      "photographers",
+      "spiritual seekers"
+    ],
+    "notFor": [
+      "party-goers",
+      "luxury seekers",
+      "beach aficionados"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h 30min",
+    "flightFromMumbai": "6h 10min via Vietnam Airlines or VietJet Air, typically around INR 20,000 - 35,000 for a return ticket.",
+    "visaForIndians": "e-Visa USD 25",
+    "currency": "Vietnamese Dong (VND), 1 INR = approximately 320 VND",
+    "timezone": "+7 UTC",
+    "language": "Vietnamese, but English is commonly spoken in tourist areas.",
+    "bestMonthToVisit": "February, when the weather is cooler and the Tet Festival lights up the city.",
+    "avoidMonth": "September due to high rainfall and potential flooding.",
+    "tipping": "Not mandatory, but rounding up the bill or leaving 10% for good service is appreciated."
+  },
+  "whyPeopleFallInLove": "As you stroll along the Perfume River at dusk, the aroma of grilled banh xeo (Vietnamese pancakes) wafts through the air, mingling with the soft sounds of traditional music from nearby boats, creating a sensory experience that lingers long after you leave.",
+  "honestTruth": "Tourists often overlook the local markets, assuming they’re just for locals, but these are where you can find the freshest ingredients and most authentic street food experiences.",
+  "localTruths": [
+    "Most visitors think Hue is just about the imperial tombs. Locals believe it’s also the heart of Vietnamese cuisine, especially in the street stalls.",
+    "Most visitors rush through the royal tombs. The best version of Hue is taking time to explore the lesser-known tombs like that of Emperor Minh Mang, which is less crowded and beautifully set in nature.",
+    "Most visitors miss the early morning market at Dong Ba. The real Hue starts at dawn when the city wakes up and vendors set up their stalls filled with fresh produce and local delicacies."
+  ],
+  "neighborhoodPersonalities": {
+    "Imperial City": {
+      "tags": [
+        "historical",
+        "cultural",
+        "tourist-friendly"
+      ],
+      "bestFor": "Exploring the imperial architecture and learning about Vietnam's royal history.",
+      "avoid": "Be cautious of vendors who may overcharge tourists."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h 30min",
+        "airlines": [
+          "Air India",
+          "Vietnam Airlines"
+        ],
+        "priceRange": "INR 18,000 - 30,000 for economy return",
+        "note": "Book well in advance to secure the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 10min",
+        "airlines": [
+          "Vietnam Airlines",
+          "VietJet Air"
+        ],
+        "priceRange": "INR 20,000 - 35,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available; take a taxi.",
+      "taxi": "Approximately 300,000 VND (around INR 900) and takes about 30 minutes.",
+      "recommended": "For first-timers, a taxi is the most straightforward option to reach the city center."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 25",
+    "applyAt": "https://evisa.xuatnhapcanh.gov.vn",
+    "processingTime": "3 business days",
+    "tip": "Ensure your passport is valid for at least 6 months beyond your arrival date."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café du Monde with a bowl of pho and a Vietnamese iced coffee.",
+    "sunset": "Watch the sunset from the Thanh Toan Bridge around 6 PM, capturing the reflection of the bridge in the water.",
+    "meal": "Dine at Les Jardins de La Carambole, and try the local specialty, bun bo Hue (Hue beef noodle soup).",
+    "memory": "The moment you hear the soft chime of temple bells while wandering the Imperial City, marking the tranquility amidst historical grandeur.",
+    "secret": "Only locals know to visit the Thien Mu Pagoda early in the morning to catch the sunrise and avoid crowds."
+  },
+  "residentSunday": "A Hue resident typically starts their Sunday with breakfast at a local market, enjoying banh mi at 8 AM, followed by a visit to the Hue Imperial City for a couple of hours. They might then relax with friends at a café by the river, before heading to Truong Tien Bridge for an evening stroll and dinner at a local restaurant, savoring nem lui (grilled pork skewers).",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and the fresh scent of the river hits you, signaling the start of an adventure.",
+    "peak": "The peak day memory will be experiencing the Tet Festival, with streets filled with colorful flowers and traditional performances.",
+    "departure": "Departure should feel reflective, with memories of the serene river views and delicious street food."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring the main attractions like the Imperial City and two royal tombs.",
+      "misses": "You’ll miss the local food scene and the surrounding countryside."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of history, food, and leisure activities like a boat ride on the Perfume River.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of cultural sites, local markets, and surrounding areas like Phong Nha-Ke Bang National Park.",
+      "whoFor": "Cultural enthusiasts and adventure seekers."
+    },
+    "recommended": "Three to four days is ideal to experience both the historical and culinary delights of Hue."
+  },
+  "antiPatterns": [
+    "Visiting the royal tombs in the middle of the day leads to discomfort from the heat and crowds.",
+    "Rushing through the Imperial City without a local guide can result in missing historical insights.",
+    "Trying to fit in too many activities in one day can lead to burnout rather than enjoyment."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a food tour to experience the local cuisine.",
+    "Most visitors regret not visiting the lesser-known tombs for a quieter experience.",
+    "Most visitors regret not spending enough time along the Perfume River."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "January to March",
+      "weather": "Cool and dry, with temperatures around 20-25°C.",
+      "crowds": "Moderate to high, especially during Tet.",
+      "verdict": "Ideal for sightseeing and outdoor activities."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer tourists and still pleasant weather make it a good time to visit."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon season with heavy rain, and potential flooding.",
+      "hiddenGem": "Some travelers prefer this for fewer crowds and lush landscapes."
+    },
+    "bestMonth": "February for the Tet Festival celebrations and mild weather.",
+    "currentSeason": "June 2026 is warm, with occasional rain and local festivals, making it lively yet humid."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local street food market at 4 PM for the freshest spring rolls and banh xeo at 20,000 VND each (approx. INR 60).",
+      "category": "food"
+    },
+    {
+      "tip": "Take a sunset boat ride on the Perfume River for around 100,000 VND (approx. INR 300) to avoid daytime heat.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the lesser-known tomb of Emperor Dong Khanh, which is quieter and more intimate than the more popular ones.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out local craft shops for handmade products; you can find unique souvenirs for under 100,000 VND (approx. INR 300).",
+      "category": "shopping"
+    },
+    {
+      "tip": "Join the early morning Tai Chi sessions at the Imperial City, which are free and a great way to engage with locals.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of pho at a street stall for 40,000 VND (approx. INR 120).",
+    "midRangeMeal": "A meal at a local restaurant typically costs around 150,000 VND (approx. INR 450).",
+    "luxuryMeal": "Dining at La Residence Hotel can range from 1,200,000 VND (approx. INR 3,600) for a fine dining experience.",
+    "localTransportPerDay": "Daily local transport costs around 150,000 VND (approx. INR 450).",
+    "budgetHotelPerNight": "A budget hotel costs around 300,000 VND (approx. INR 900) for basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel costs around 800,000 VND (approx. INR 2,400) with comfortable amenities.",
+    "luxuryHotelPerNight": "Luxury accommodations start at 2,000,000 VND (approx. INR 6,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel dorms at around 300,000 VND (INR 900).",
+      "food": "Street food for 40,000 VND (INR 120) per meal.",
+      "transport": "Bicycle rentals are around 50,000 VND (INR 150) per day."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Guesthouses at around 800,000 VND (INR 2,400).",
+      "food": "Mix of local restaurants and street food."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury travel offers high-end experiences, but expect to pay a premium for quality."
+    }
+  },
+  "culturalRules": [
+    "Dress respectfully when visiting temples and pagodas; shoulders and knees should be covered.",
+    "Always remove your shoes before entering someone’s home or a temple.",
+    "When eating, it’s polite to wait for the host to start the meal."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be wary of taxis that don’t use meters; always choose those that do, or agree on a fare beforehand.",
+      "Some street vendors may overcharge tourists; always ask for prices first."
+    ],
+    "emergencyContacts": {
+      "police": "113",
+      "ambulance": "115",
+      "indianEmbassy": "Vietnam Embassy in Hanoi: +84 24 3850 3640"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Thien Mu Pagoda",
+        "what": "Capture the iconic seven-story pagoda with the river as a backdrop.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Visit during sunrise for fewer tourists and better lighting."
+      }
+    ],
+    "goldenHour": "Sunset around 6 PM local time.",
+    "tip": "Use a polarizing filter to enhance the colors of the river and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Imperial City",
+        "Boat ride on the Perfume River",
+        "Dinner at a riverside restaurant"
+      ],
+      "emotionalArc": "This sequence offers a blend of history, relaxation, and culinary delight, creating a memorable day.",
+      "bestFor": [
+        "cultural explorers",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Phong Nha",
+      "travelTime": "3 hours",
+      "how": "By bus or private car.",
+      "whyCombine": "Famous for its stunning limestone caves and adventure activities."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Generally limited; many historical sites have uneven terrain.",
+    "majorChallenges": "Navigating the old city and temples can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider hiring a local guide for better access and insights into the historical sites."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with high humidity and occasional rain, making it a lively time for markets and outdoor dining.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, an e-visa is required for Indian nationals, along with a valid passport."
+  }
+}

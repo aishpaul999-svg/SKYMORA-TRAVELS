@@ -1,0 +1,276 @@
+{
+  "destination": "Cartagena",
+  "country": "Colombia",
+  "region": "Americas",
+  "aliases": [
+    "Cartagena",
+    "cartagena",
+    "colombia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History Enthusiasts",
+      "Beach Lovers",
+      "Foodies",
+      "Adventure Seekers",
+      "Cultural Explorers"
+    ],
+    "notFor": [
+      "Budget Backpackers",
+      "Party Seekers",
+      "Solitary Travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h via Madrid",
+    "flightFromMumbai": "20h with a layover in Amsterdam (KLM, Air France)",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Colombian Peso (COP), 1 INR = 55 COP",
+    "timezone": "UTC-5",
+    "language": "Spanish",
+    "bestMonthToVisit": "December, as the weather is warm and the city hosts several festive events.",
+    "avoidMonth": "October, which sees increased rainfall and humidity.",
+    "tipping": "10% is customary in restaurants; rounding up is appreciated in cafes."
+  },
+  "whyPeopleFallInLove": "Walking through the cobblestone streets of the old city, the aroma of fresh arepas fills the air, drawing you towards a small vendor in the square where the sounds of a local musician playing vallenato create an unforgettable ambiance.",
+  "honestTruth": "While Cartagena is widely seen as a romantic getaway, many travelers overlook the stark contrast of wealth and poverty in the city, which can be unsettling for some.",
+  "localTruths": [
+    "Most visitors think Cartagena's best experiences are within the walled city. Locals think the real charm lies in the nearby fishing village of La Boquilla with its quiet beaches.",
+    "Most visitors flock to the popular beach spots. The best version of Cartagena is found at Playa Blanca, where the scenery is less commercial and more authentic.",
+    "Most visitors miss the sunrise over the Caribbean from the Castillo San Felipe. The real Cartagena starts at dawn when the city awakens to the sounds of the sea."
+  ],
+  "neighborhoodPersonalities": {
+    "Getsemani": {
+      "tags": [
+        "artistic",
+        "bohemian",
+        "lively"
+      ],
+      "bestFor": "young travelers seeking art and nightlife.",
+      "avoid": "The area can be noisy at night due to bars and music venues."
+    },
+    "Bocagrande": {
+      "tags": [
+        "beachfront",
+        "commercial",
+        "touristy"
+      ],
+      "bestFor": "travelers wanting luxury and beach access.",
+      "avoid": "It's often crowded and lacks the local atmosphere found in other neighborhoods."
+    },
+    "Old Town": {
+      "tags": [
+        "historic",
+        "picturesque",
+        "cultural"
+      ],
+      "bestFor": "history buffs immersed in colonial architecture.",
+      "avoid": "Expect higher prices in restaurants and shops due to tourist demand."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h via Madrid",
+        "airlines": [
+          "Iberia",
+          "Air India"
+        ],
+        "priceRange": "₹70,000 - ₹120,000",
+        "note": "Booking well in advance usually secures better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "20h",
+        "airlines": [
+          "KLM",
+          "Air France"
+        ],
+        "priceRange": "₹75,000 - ₹130,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; however, there are buses costing around 2,000 COP and taking about 30 minutes.",
+      "taxi": "Taxis cost approximately 20,000 COP and take around 15-20 minutes.",
+      "recommended": "We recommend taking a pre-arranged shuttle service for first-timers to avoid confusion."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application necessary for Indian passport holders.",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport is valid for at least six months beyond your planned departure date."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit La Cevicheria and order the ceviche de pescado for a refreshing start.",
+    "sunset": "Head to Café del Mar on the city walls for sunset viewing around 6:15 PM.",
+    "meal": "Dine at Restaurante 1621 and try the grilled octopus, a local specialty.",
+    "memory": "Experiencing the lively atmosphere of the Plaza Santo Domingo at night, filled with music and laughter.",
+    "secret": "Locals often head to the less-crowded beaches of Playa de Punta Arena for a peaceful day."
+  },
+  "residentSunday": "A Cartagena resident typically spends Sunday at the beach in Bocagrande, enjoying a breakfast of calentado (a traditional dish) at a local café around 10 AM, followed by a leisurely afternoon of sunbathing and volleyball with friends.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm Caribbean breeze hit your face, signaling a shift in atmosphere.",
+    "peak": "The peak day memory target is attending the Festival of the Caribbean in early November, where music and dance take over the streets.",
+    "departure": "Departure should feel bittersweet, with the city leaving a lasting impression of both beauty and complexity."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of the Old Town and a day at the beach.",
+      "misses": "Exploration of local neighborhoods and deeper cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A perfect mix of history, beach, and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of surrounding areas like the Rosario Islands.",
+      "whoFor": "Adventurous travelers looking for a comprehensive experience."
+    },
+    "recommended": "Five days is ideal to uncover both the tourist spots and local lifestyle."
+  },
+  "antiPatterns": [
+    "Visiting only the Old Town without exploring Getsemani fails to capture the city's full essence.",
+    "Staying in Bocagrande and avoiding local eateries misses the chance to taste authentic Colombian cuisine.",
+    "Rushing through museums and historical sites without taking time to absorb the stories can lead to a superficial experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food, especially at Plaza de la Trinidad.",
+    "Most visitors regret not taking a day trip to the nearby Islas del Rosario.",
+    "Most visitors regret spending too much time in touristy areas and missing out on local neighborhoods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "Warm and dry with average temperatures of 30°C.",
+      "crowds": "High, especially around Christmas and Carnival.",
+      "verdict": "Expect vibrant festivities, but be prepared for busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer tourists, pleasant weather, and lower prices make it an excellent time to visit."
+    },
+    "offSeason": {
+      "months": "July to November",
+      "reality": "Rainy season with higher humidity, but fewer tourists can mean better deals.",
+      "reason": "Those who prefer tranquility without crowds may enjoy this time."
+    },
+    "bestMonth": "December, as the city is alive with celebrations and pleasant weather.",
+    "currentSeason": "June 2026 conditions in Cartagena are warm with occasional afternoon rains, making it comfortable to explore."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Mercado de Bazurto early for an authentic local market experience; go between 7 AM to 9 AM.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local dessert 'cocadas' from a street vendor in Getsemani for an authentic sweet treat.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the local 'Colectivos' (shared taxis) for affordable and quick transport around the city.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a local cooking class at 'Cocinarte' for a hands-on experience of Colombian cuisine.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the city walls at night when they are beautifully illuminated and much less crowded.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Arepa de huevo at a street vendor for 5,000 COP (₹90)",
+    "midRangeMeal": "Grilled fish platter at a mid-range restaurant for 40,000 COP (₹720)",
+    "luxuryMeal": "Tasting menu at Restaurante 1621 for 150,000 COP (₹2,700)",
+    "localTransportPerDay": "Around 15,000 COP (₹270) for local transport.",
+    "budgetHotelPerNight": "Hostel dormitory for 50,000 COP (₹900) with shared facilities.",
+    "midRangeHotelPerNight": "Comfortable hotel with breakfast for 250,000 COP (₹4,500).",
+    "luxuryHotelPerNight": "Luxury hotel with sea view for 800,000 COP (₹14,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dormitory for 50,000 COP",
+      "food": "Street food and local eateries.",
+      "transport": "Buses and shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹6,000",
+      "accommodation": "Mid-range hotel for 250,000 COP",
+      "food": "Mix of local and mid-range restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury travel here provides a beautiful experience but be prepared for high costs in tourist areas."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites, covering shoulders and knees.",
+    "Be respectful of local customs and always greet people with a friendly 'buenos días'.",
+    "It’s considered rude to speak loudly in restaurants; keep conversations at a moderate volume."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of individuals asking for money; it's usually a scam. Politely decline.",
+      "Avoid accepting unsolicited help from strangers at ATMs."
+    ],
+    "emergencyContacts": {
+      "police": "123",
+      "ambulance": "125",
+      "indianEmbassy": "Embassy of India in Colombia, Calle 94 # 14-06"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Castillo San Felipe",
+        "what": "The panoramic view of the city and sea.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Arrive before sunrise to capture the first light hitting the castle."
+      }
+    ],
+    "goldenHour": "Approximately 6:15 PM.",
+    "tip": "Use a polarizing filter to enhance colors when photographing the Caribbean sea."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Old Town",
+        "Lunch at a local restaurant",
+        "Beach time at Playa Blanca"
+      ],
+      "emotionalArc": "This sequence allows you to experience the historical significance before unwinding on the beach, making for a balanced day.",
+      "bestFor": [
+        "History Enthusiasts",
+        "Relaxation Seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Barranquilla",
+      "travelTime": "2 hours",
+      "how": "By bus",
+      "whyCombine": "To experience the vibrant Carnival atmosphere, especially in February."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some areas are accessible, but cobblestone streets can be tricky.",
+    "majorChallenges": "Uneven sidewalks and limited ramps in historical areas.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider guided tours for easier navigation."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm and occasionally rainy, with festivities including the Festival de la Música taking place.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indian passport holders remains in effect as of 2026."
+  }
+}

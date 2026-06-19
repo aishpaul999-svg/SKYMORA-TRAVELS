@@ -1,0 +1,267 @@
+{
+  "destination": "Kuala Lumpur",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Kuala Lumpur",
+    "kuala lumpur",
+    "malaysia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "shopping enthusiasts",
+      "city explorers",
+      "culture seekers",
+      "adventure travelers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "secluded retreat seekers",
+      "extreme cold weather fans"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h",
+    "flightFromMumbai": "5h 15m via airlines like AirAsia, Malaysia Airlines",
+    "visaForIndians": "Visa-free 30 days",
+    "currency": "Malaysian Ringgit (MYR), 1 INR = 0.057 MYR",
+    "timezone": "UTC+8",
+    "language": "Bahasa Malaysia and English",
+    "bestMonthToVisit": "December - dry season with pleasant temperatures around 25-30°C.",
+    "avoidMonth": "November - heavy rain due to monsoon season.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill is appreciated; 5-10% at restaurants is suitable."
+  },
+  "whyPeopleFallInLove": "As you step into the Petronas Towers Skybridge, the view of the city below mixed with the scent of sizzling satay wafting from nearby street vendors creates an exhilarating moment that feels like you are at the heart of Malaysia.",
+  "honestTruth": "Many guides skip mentioning that Kuala Lumpur's public transport can be confusing, especially for first-time visitors who may not be familiar with its extensive system of monorails and LRTs.",
+  "localTruths": [
+    "Most visitors think they can see everything in a day. Locals think that the best experiences require time, especially in exploring hidden local eateries and cultural spots.",
+    "Most visitors stick to the touristy areas. The best version of Kuala Lumpur is found in the quieter neighborhoods like Bangsar and Petaling Jaya, where local life thrives.",
+    "Most visitors miss the local markets that come alive in the evenings. The real Kuala Lumpur starts at Jalan Alor when the night food market opens."
+  ],
+  "neighborhoodPersonalities": {
+    "Bukit Bintang": {
+      "tags": [
+        "shopping",
+        "nightlife",
+        "dining"
+      ],
+      "bestFor": "Those looking for a high-energy atmosphere with endless shopping and dining options.",
+      "avoid": "Can be overwhelming due to large crowds, especially on weekends."
+    },
+    "Chinatown": {
+      "tags": [
+        "culture",
+        "food",
+        "heritage"
+      ],
+      "bestFor": "Food lovers exploring traditional Malaysian Chinese cuisine.",
+      "avoid": "Street vendors can be aggressive, so be prepared to negotiate."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h",
+        "airlines": [
+          "Air India",
+          "Malaysia Airlines"
+        ],
+        "priceRange": "₹20,000 - ₹30,000 (economy return)",
+        "note": "Book at least 2 months in advance for the best deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 15m",
+        "airlines": [
+          "AirAsia",
+          "Malaysia Airlines"
+        ],
+        "priceRange": "₹22,000 - ₹32,000 (economy return)"
+      }
+    },
+    "airportToCity": {
+      "metro": "KLIA Ekspres, MYR 55, approximately 28 minutes.",
+      "taxi": "MYR 75, around 60 minutes depending on traffic.",
+      "recommended": "For first-timers, the KLIA Ekspres is the fastest and most convenient option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 30 days",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport is valid for at least six months beyond your date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Yut Kee Restaurant' for their famous Roti Babi.",
+    "sunset": "Head to 'Heli Lounge Bar' around 7 PM for breathtaking views of the skyline.",
+    "meal": "Dine at 'Restoran Rebung' for authentic Nasi Lemak, a must-try Malaysian dish.",
+    "memory": "The moment you take a deep breath of the aromatic street food at Jalan Alor, surrounded by the lively atmosphere.",
+    "secret": "Locals often enjoy a late-night snack at 2 AM at the roadside stalls, which serve some of the best dishes."
+  },
+  "residentSunday": "A Kuala Lumpur resident would start their Sunday with breakfast at 'Antipodean' in Bangsar, followed by shopping at Mid Valley Megamall, and then relax at KLCC Park, finishing the day with dinner at a local hawker center.",
+  "dayMemoryTargets": {
+    "arrival": "The first moment stepping out of the airport and feeling the warm humid air hit your face.",
+    "peak": "The peak day memory target - when you watch the sunset from the Petronas Towers and the city lights flicker on.",
+    "departure": "Leaving with a sense of having just scratched the surface of the city's offerings."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Essential highlights like Petronas Towers, Batu Caves, and local food experiences.",
+      "misses": "The depth of local neighborhoods and cultural nuances."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of major attractions and local experiences, including street food and cultural tours.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of Kuala Lumpur's districts, including day trips to nearby attractions like Genting Highlands.",
+      "whoFor": "Cultural enthusiasts and food adventurers."
+    },
+    "recommended": "4 days — it allows for a good mix of sightseeing and local experiences."
+  },
+  "antiPatterns": [
+    "Rushing through major attractions without enjoying the local food scene fails to capture the city's essence.",
+    "Sticking exclusively to malls while ignoring street food can lead to missing authentic flavors.",
+    "Visiting Batu Caves mid-day during peak hours can diminish the experience due to large crowds."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food.",
+    "Most visitors regret underestimating the time needed to explore cultural sites.",
+    "Most visitors regret not venturing beyond Bukit Bintang."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot and humid, averaging 30-35°C.",
+      "crowds": "Moderate to high, especially at tourist attractions.",
+      "verdict": "Attractive for events but prepare for heat."
+    },
+    "shoulderSeason": {
+      "months": "February to April",
+      "why": "Less crowded, more comfortable temperatures around 25-30°C."
+    },
+    "offSeason": {
+      "months": "September to November",
+      "reality": "Monsoon season often leads to heavy rains.",
+      "hiddenGem": "Fewer tourists mean better prices and more personal service."
+    },
+    "bestMonth": "December - ideal for outdoor activities and festivals.",
+    "currentSeason": "June 2026 is hot and humid with occasional rain, but perfect for exploring the city’s indoor attractions."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the 'Nasi Kandar' at Line Clear in Penang Street for a local experience at MYR 9 (₹157).",
+      "category": "food"
+    },
+    {
+      "tip": "Use the Grab app for affordable local transport, especially at night.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit the Central Market early in the morning to avoid crowds and get the freshest local produce.",
+      "category": "experience"
+    },
+    {
+      "tip": "For a budget-friendly meal, eat at the food court in Suria KLCC — you won't regret it.",
+      "category": "food"
+    },
+    {
+      "tip": "Pack an umbrella during the monsoon season; rain can appear unexpectedly.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Nasi Lemak at a hawker stall for MYR 5 (₹87).",
+    "midRangeMeal": "A meal at a mid-range restaurant like 'TGI Friday's' costs around MYR 50 (₹870).",
+    "luxuryMeal": "Dining at 'Nobu Kuala Lumpur' can set you back MYR 300 (₹5,220).",
+    "localTransportPerDay": "Using public transport typically costs around MYR 20 (₹348) for unlimited travel.",
+    "budgetHotelPerNight": "A budget hotel like 'Tune Hotel' costs around MYR 80 (₹1,400) and includes basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel like 'Aloft Kuala Lumpur Sentral' costs MYR 300 (₹5,220) and includes breakfast.",
+    "luxuryHotelPerNight": "Staying at 'The St. Regis Kuala Lumpur' can cost around MYR 900 (₹15,660)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory in a hostel for around ₹800.",
+      "food": "Eating at hawker centers for around ₹1,000.",
+      "transport": "Using public transport and occasional taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "Mid-range hotel for around ₹2,500.",
+      "food": "Dining at a mix of local restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury comes with high-end services but also consider getting local experiences through guided tours."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites; shoulders and knees should be covered.",
+    "Remove shoes before entering someone's home or certain restaurants.",
+    "Be respectful during the prayer times, especially in areas near mosques."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers overcharging tourists; use ride-hailing apps like Grab to avoid this.",
+      "Street vendors may inflate prices for tourists; always negotiate."
+    ],
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "994",
+      "indianEmbassy": "Embassy of India, Kuala Lumpur: +60-3-2715-4040"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Petronas Towers",
+        "what": "The iconic skyline view",
+        "bestTime": "Early morning for soft light",
+        "tip": "Get there before 7 AM to avoid crowds."
+      }
+    ],
+    "goldenHour": "Around 7 PM during the summer months.",
+    "tip": "Use a wide-angle lens to capture the full beauty of the skyline."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Petronas Towers",
+        "Explore KLCC Park",
+        "Dinner at Jalan Alor"
+      ],
+      "emotionalArc": "This sequence takes you from awe-inspiring architecture to a serene park and ends with the hustle of street food, showcasing the city's contrasts.",
+      "bestFor": [
+        "first-time visitors",
+        "food enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Genting Highlands",
+      "travelTime": "1h",
+      "how": "By bus or taxi",
+      "whyCombine": "Perfect for a mountain retreat with entertainment options."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public places are accessible, but some older buildings lack ramps.",
+    "majorChallenges": "Public transport stations may have limited lifts.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for public transport; consider hiring a car for convenience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot and humid with occasional rain, but perfect for exploring the city’s indoor attractions.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for 30 days; ensure your passport is valid for at least six months."
+  }
+}

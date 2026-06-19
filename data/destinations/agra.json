@@ -1,0 +1,311 @@
+{
+  "destination": "Agra",
+  "state": "Uttar Pradesh",
+  "type": "heritage/Taj",
+  "aliases": [
+    "Agra",
+    "agra",
+    "Uttar Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "photography lovers",
+      "food explorers",
+      "cultural travelers",
+      "family trips"
+    ],
+    "notFor": [
+      "luxury seekers who expect high-end services",
+      "backpackers looking for offbeat destinations",
+      "adventure junkies craving extreme activities"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the iconic Taj Mahal. They stay for the bustling markets of Sadar Bazar, where the aroma of street food fills the air. They return because Agra intertwines its rich Mughal history with the everyday lives of its residents, creating a vibrant tapestry of experiences.",
+  "honestTruth": "Many guides gloss over the chaotic beauty of Agra's lesser-known attractions, like the Tomb of Itimad-ud-Daulah, which provides a more intimate experience of Mughal architecture away from the crowds.",
+  "localTruths": [
+    "Most visitors think Agra is solely about the Taj Mahal. Locals think the real charm lies in the lesser-known Mughal tombs and the vibrant street life.",
+    "Most visitors buy souvenirs at overpriced shops near the Taj. The best version of Agra is exploring local markets where artisans sell authentic handicrafts.",
+    "Most visitors spend too much time at the Taj Mahal. The real Agra starts at Mehtab Bagh, where you can enjoy a stunning view of the Taj at sunset."
+  ],
+  "neighborhoodPersonalities": {
+    "Sadar Bazar": {
+      "tags": [
+        "market",
+        "street food",
+        "shopping"
+      ],
+      "bestFor": "immersing in local culture and cuisine",
+      "avoid": "overpriced shops targeting tourists"
+    },
+    "Taj Ganj": {
+      "tags": [
+        "accommodation",
+        "restaurants",
+        "proximity to Taj"
+      ],
+      "bestFor": "convenience to major attractions",
+      "avoid": "noisy areas near the main road"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the Taj Mahal at sunrise",
+        "Explore Agra Fort",
+        "Stroll through Mehtab Bagh",
+        "Taste petha at a local sweet shop"
+      ],
+      "avoid": [
+        "Rushing through the Taj Mahal without appreciating its details",
+        "Ignoring local food spots for international chains"
+      ],
+      "mindset": "Approach Agra with an open heart, ready to soak in its history and culture beyond just the famous landmarks."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Visit the Tomb of Itimad-ud-Daulah",
+        "Explore the local crafts at Kinari Bazaar",
+        "Take a heritage walk in the city",
+        "Enjoy a Mughal-themed dinner at a local restaurant"
+      ],
+      "neighborhoods": [
+        "Explore the quieter areas of Agra Fort",
+        "Visit the artisan villages on the outskirts"
+      ],
+      "local": "Only locals know the best time to visit the Taj Mahal is on a full moon night, offering an ethereal experience."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "pleasant with temperatures ranging from 10°C to 25°C",
+      "crowds": "highly crowded at major attractions",
+      "prices": "20% price premium",
+      "verdict": "Ideal for sightseeing but expect long queues."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer crowds and lower prices, although it can get hot."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon season brings heavy rains but also beautiful greenery and fewer tourists.",
+      "hiddenGem": "The lush landscapes around Agra become an unexpected delight."
+    },
+    "bestMonth": "November — the weather is perfect for sightseeing.",
+    "worstMonth": "May — extreme heat can make outdoor activities uncomfortable."
+  },
+  "commonRegrets": [
+    "Most visitors regret not visiting the Tomb of Itimad-ud-Daulah.",
+    "Most visitors regret skipping local food options for familiar chains.",
+    "Most visitors regret not engaging with local artisans."
+  ],
+  "antiPatterns": [
+    "Visiting the Taj Mahal in the afternoon heat — it can be exhausting and less enjoyable.",
+    "Combining Agra with too many other cities in a short trip — it rushes the experience.",
+    "Planning to see all attractions in one day — it leads to fatigue and missed details."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit the Taj Mahal, Agra Fort, and enjoy local food at a dhaba.",
+      "verdict": "It’s a whirlwind but can be fulfilling if planned well."
+    },
+    "two_days": {
+      "focus": "This trip covers major attractions and allows for a taste of local culture.",
+      "misses": "You might miss the quieter spots like Mehtab Bagh and artisan villages."
+    },
+    "three_to_four_days": {
+      "focus": "This trip covers all major attractions and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of Agra’s history, nearby attractions like Fatehpur Sikri, and local crafts.",
+      "whoFor": "History buffs and cultural enthusiasts."
+    },
+    "recommended": "3 days — it allows for a relaxed pace to soak in Agra’s rich heritage."
+  },
+  "residentSunday": "An Agra resident with one free Sunday starts with a morning chai at Chai Wala near the Taj, followed by a visit to the Tomb of Itimad-ud-Daulah. For lunch, they enjoy a thali at Pind Balluchi, then spend the afternoon exploring Kinari Bazaar. In the evening, they relax at Mehtab Bagh, watching the sunset over the Taj Mahal.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first catch sight of the Taj Mahal peeking through the morning mist.",
+    "peak": "The peak day memory target is standing in front of the Taj Mahal at sunrise, the golden light illuminating its marble.",
+    "departure": "The last image that stays with them is the view of the Taj Mahal from Mehtab Bagh as they leave."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12002, departs 6:00am, 2h, ₹885 CC",
+      "bus": "Buses from Delhi to Agra are frequent and cost around ₹300-500, but can take 4-5 hours depending on traffic.",
+      "flight": "No direct flights from Delhi to Agra, driving or taking a train is recommended.",
+      "recommended": "The Shatabdi Express is the quickest and most comfortable option.",
+      "budgetTip": "Book your train tickets early to save ₹500-1000."
+    },
+    "fromMumbai": {
+      "train": "Nedumbassery Express 16332, departs 8:00pm, 20 hours, ₹1,150.",
+      "flight": "Direct flights are available and take about 1.5 hours.",
+      "recommended": "Booking a flight is the best option for time efficiency."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 12628, departs 5:30pm, 36 hours, ₹1,500.",
+      "flight": "Direct flights are available to Delhi, then take the train to Agra.",
+      "recommended": "A flight to Delhi followed by the train is advisable."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws and cycle-rickshaws are the most convenient modes of transport.",
+      "avoid": "Avoid unmetered auto-rickshaws as they can overcharge.",
+      "appRecommendation": "Use Ola or Uber for reliable transport options.",
+      "autoRickshaw": "Auto-rickshaws are available but negotiate the fare beforehand.",
+      "cost": "Daily local transport budget should be around ₹400-800."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Taj Mahal ticket scam",
+      "howItWorks": "Scammers sell fake tickets outside the Taj Mahal.",
+      "prevention": "Always buy tickets from the official website or authorized counters.",
+      "ifItHappens": "Report to the nearest police station or tourist information center."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Pani Puri at Daal Chaat Wala, Sadar Bazar",
+      "Aloo Tikki at Sharma Ji's, near Taj Ganj",
+      "Chaat at Ashok Chaat Bhandar",
+      "Lassi at Pahalwan Ji's, near Agra Fort",
+      "Petha at Panchhi Petha, Sadar Bazar"
+    ],
+    "avoidList": [
+      "Avoid street food that looks unhygienic or has been sitting out too long, especially near crowded areas."
+    ],
+    "waterAdvice": "Drink only bottled water; avoid tap water to prevent stomach issues.",
+    "trustedDhabas": "Look for dhabas with a local crowd to ensure food quality.",
+    "mustEat": [
+      "Biryani at Pind Balluchi, ",
+      "Mughlai cuisine at Dasaprakash",
+      "Petha sweets at Panchhi Petha",
+      "Chaat at Prakash",
+      "Parathas at Paratha Wali Gali"
+    ],
+    "touristTrap": "Many tourists fall into the trap of dining at hotel restaurants which are overpriced and lack authenticity."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly, especially when visiting religious sites.",
+    "photographyRules": "Photography is prohibited inside the Taj Mahal and Agra Fort, but allowed in Mehtab Bagh.",
+    "templeEtiquette": "Remove shoes before entering any temple and maintain silence.",
+    "timing": "Visiting the Taj Mahal at sunrise provides a less crowded experience.",
+    "localCustom": "It is customary to greet locals with 'Namaste' and a smile."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget hotels around ₹500-800",
+      "food": "Street food and local eateries for around ₹500",
+      "transport": "Local transport and walking."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels around ₹1,500-2,000",
+      "food": "Dining at local restaurants for ₹1,000",
+      "includes": "Guided tours and entry fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels like ITC Mughal or Oberoi Amarvilas",
+      "experience": "Private guided tours and exclusive experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star hotels with premium amenities",
+      "note": "Luxury adds value for those seeking comfort and exclusivity."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who expect a peaceful retreat will be disappointed because Agra can be crowded and busy.",
+    "If you want a modern city experience, Agra is the wrong choice — Noida or Gurgaon is better.",
+    "Anyone expecting a nightlife scene will find Agra lacks vibrant nightlife options."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Taj Mahal on Fridays when it is closed to the public; enjoy the sunset from the nearby Mehtab Bagh instead.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best petha, visit Panchhi Petha in Sadar Bazar — it’s the original and most popular.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a guided heritage walk in the old city to discover hidden gems and stories.",
+      "category": "experience"
+    },
+    {
+      "tip": "Catch the evening light for stunning photographs of the Taj Mahal from Mehtab Bagh.",
+      "category": "photography"
+    },
+    {
+      "tip": "Try to avoid peak hours at the Taj Mahal to enjoy a more serene experience.",
+      "category": "timing"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Taj Mahal at sunrise",
+        "Breakfast at a local dhaba",
+        "Agra Fort tour",
+        "Lunch at a Mughlai restaurant"
+      ],
+      "emotionalArc": "This sequence builds anticipation and satisfaction, making the Taj Mahal experience even more memorable.",
+      "bestFor": [
+        "first-time visitors",
+        "families"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Mehtab Bagh",
+        "what": "The Taj Mahal at sunset",
+        "bestTime": "Evening",
+        "tip": "Arrive early to secure the best spots."
+      }
+    ],
+    "goldenHour": "Early morning and late afternoon are the best times for photography.",
+    "restrictedAreas": [
+      "Inside the Taj Mahal and Agra Fort."
+    ],
+    "tip": "Use a polarizing filter to reduce glare from the marble when photographing the Taj Mahal."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "The Taj Mahal has ramps, but uneven surfaces can be a challenge in other areas.",
+    "majorChallenges": "Crowded areas and uneven pavements can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Many attractions are accessible, but prepare for some uneven pathways."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Fatehpur Sikri",
+      "distance": "40km",
+      "travelTime": "1 hour",
+      "how": "By car or bus",
+      "whyCombine": "Fatehpur Sikri offers a glimpse into the grandeur of Mughal architecture."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "May — heat makes sightseeing uncomfortable.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "Not applicable",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "Currently in the peak season with pleasant weather, perfect for sightseeing.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for common tourist attractions."
+  }
+}

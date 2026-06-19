@@ -1,0 +1,282 @@
+{
+  "destination": "Chamonix",
+  "country": "France",
+  "region": "Europe",
+  "aliases": [
+    "Chamonix",
+    "chamonix",
+    "france"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "adventure seekers",
+      "nature lovers",
+      "ski enthusiasts",
+      "hikers",
+      "foodies"
+    ],
+    "notFor": [
+      "budget travelers",
+      "nightlife seekers",
+      "those uncomfortable with altitude"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Paris + 5.5h train",
+    "flightFromMumbai": "10h 30m to Paris + 5.5h train",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "French, English widely spoken",
+    "bestMonthToVisit": "February - ideal for skiing with great snow conditions.",
+    "avoidMonth": "April - many ski resorts close and hiking trails can still be muddy.",
+    "tipping": "Tipping is not mandatory; rounding up the bill is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine standing on the Aiguille du Midi at sunrise, the icy wind brushing against your face, as you look out over the snow-capped peaks of the Alps, feeling utterly alive and connected to nature.",
+  "honestTruth": "Chamonix can be quite expensive, especially for accommodations and dining, which can catch many travelers off guard after the initial excitement wears off.",
+  "localTruths": [
+    "Most visitors think skiing is only for the experienced. Locals think Chamonix offers numerous beginner-friendly slopes that are often overlooked.",
+    "Most visitors rush to the Aiguille du Midi. The best version of Chamonix is a leisurely hike on the lesser-known trails like the Grand Balcon Nord.",
+    "Most visitors miss the local market on Saturdays. The real Chamonix starts at Place du Mont-Blanc, where you can sample local cheeses and pastries."
+  ],
+  "neighborhoodPersonalities": {
+    "Chamonix Sud": {
+      "tags": [
+        "lively",
+        "accessible",
+        "family-friendly"
+      ],
+      "bestFor": "families looking for convenience and proximity to amenities.",
+      "avoid": "It can get noisy during peak seasons."
+    },
+    "Les Praz": {
+      "tags": [
+        "quieter",
+        "scenic",
+        "nature"
+      ],
+      "bestFor": "those wanting a peaceful retreat close to nature.",
+      "avoid": "Limited dining options in the immediate area."
+    },
+    "Centre Ville": {
+      "tags": [
+        "shopping",
+        "restaurants",
+        "tourist hub"
+      ],
+      "bestFor": "first-time visitors wanting to experience the heart of Chamonix.",
+      "avoid": "Can be overcrowded during tourist season."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Paris + 5.5h train",
+        "airlines": [
+          "Air France",
+          "British Airways"
+        ],
+        "priceRange": "INR 50,000 - 80,000 return",
+        "note": "Book your tickets at least 3 months in advance for the best deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h 30m to Paris + 5.5h train",
+        "airlines": [
+          "Air France",
+          "Emirates"
+        ],
+        "priceRange": "INR 50,000 - 90,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No direct metro, train from Gare de Lyon in Paris costs about EUR 60 and takes 5.5 hours.",
+      "taxi": "A taxi from Geneva Airport costs around EUR 200 and takes about 1.5 hours.",
+      "recommended": "For first-timers, taking the train from Paris offers beautiful views of the French countryside."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in major cities like Delhi, Mumbai, Bangalore.",
+    "processingTime": "15 working days",
+    "tip": "Book an appointment well in advance and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to Café de l'Arve for a buttery croissant and a café crème, which locals swear by.",
+    "sunset": "The best sunset spot is the Mer de Glace; aim to be there by 8:30 PM in mid-June for the perfect hues.",
+    "meal": "Dine at La Tablee for their signature Savoyard fondue, a must-try dish.",
+    "memory": "The moment you take your first step onto the snow-covered slopes, feeling the crunch beneath your boots.",
+    "secret": "Locals often enjoy a late-night stroll along the river, where the lights of the mountains reflect on the water."
+  },
+  "residentSunday": "A Chamonix resident might start their Sunday with a leisurely brunch at Le Mistral, followed by a hike to Lac Blanc, enjoying a picnic with local cheeses and pastries, and ending the day with a cozy dinner at Les Granges, where they savor the seasonal dishes made with local ingredients.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the train and see the towering Mont Blanc for the first time.",
+    "peak": "The peak day memory will be standing at the top of the Aiguille du Midi, surrounded by panoramic views of the Alps.",
+    "departure": "Departure should feel like leaving a piece of your heart in the mountains, with plans to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Skiing one day and exploring the town on the other.",
+      "misses": "The deeper hiking trails and local experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of skiing, hiking, and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of the surrounding mountains and valleys.",
+      "whoFor": "serious adventurers and nature lovers."
+    },
+    "recommended": "Four days are ideal to experience both skiing and the stunning hikes."
+  },
+  "antiPatterns": [
+    "Trying to ski without proper gear rental leads to discomfort and can ruin the experience.",
+    "Visiting only during the peak winter season means missing the picturesque summer hikes.",
+    "Planning too many activities in one day can lead to exhaustion and missed moments."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time on the hiking trails.",
+    "Most visitors regret skipping the local market for authentic food experiences.",
+    "Most visitors regret not trying the fondue when they had the chance."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Cold with heavy snowfall, temperatures around -5°C to 5°C.",
+      "crowds": "Very crowded; expect long queues at ski lifts.",
+      "verdict": "Best for skiing, but be prepared for busy slopes."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Great for skiing in early March and spring hiking."
+    },
+    "offSeason": {
+      "months": "June to September",
+      "reality": "Summer brings warmer weather but can still be rainy.",
+      "reason": "Some prefer it for hiking in fewer crowds."
+    },
+    "bestMonth": "February - for prime skiing conditions and festive atmosphere.",
+    "currentSeason": "June 2026 is warm with occasional summer showers, perfect for hiking with lush green scenery."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Les Houches ski area for family-friendly slopes that are less crowded.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local blue cheese, Reblochon, at the Saturday market for a true taste of Savoy.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the train to nearby Argentière for an authentic mountain village experience.",
+      "category": "transport"
+    },
+    {
+      "tip": "Go for an evening walk along the river after dinner to see the town lit up.",
+      "category": "experience"
+    },
+    {
+      "tip": "Book your ski lessons in advance to secure the best instructors.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A slice of pizza at La Caleche for EUR 8 (Approx. INR 730)",
+    "midRangeMeal": "A three-course meal at L'Atmosphere for EUR 30 (Approx. INR 2,740)",
+    "luxuryMeal": "Dinner at Le Bistrot for EUR 80 (Approx. INR 7,300)",
+    "localTransportPerDay": "Typical daily local transport cost is around EUR 10 (Approx. INR 915)",
+    "budgetHotelPerNight": "A basic hostel bed for EUR 30 (Approx. INR 2,740)",
+    "midRangeHotelPerNight": "A mid-range hotel room for EUR 100 (Approx. INR 9,150)",
+    "luxuryHotelPerNight": "A luxury hotel room can cost EUR 300 (Approx. INR 27,300)"
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹4,000",
+      "accommodation": "Hostel dorm for around ₹2,740",
+      "food": "Budget meals at local cafes and bakeries.",
+      "transport": "Walking or local bus."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel for around ₹9,150",
+      "food": "Dining at casual restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Expect high prices for accommodations and meals, especially near tourist spots."
+    }
+  },
+  "culturalRules": [
+    "Dress in layers as weather can change quickly, especially in the mountains.",
+    "Respect quiet hours in residential areas, especially in the evenings.",
+    "Always greet shopkeepers with a polite 'Bonjour' when entering shops."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Avoid unlicensed taxi services; use official taxi ranks.",
+      "Be cautious of overly friendly strangers offering unsolicited help."
+    ],
+    "emergencyContacts": {
+      "police": "17",
+      "ambulance": "15",
+      "indianEmbassy": "Delhi: +91-11-2301-0101"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Aiguille du Midi",
+        "what": "Panoramic views of Mont Blanc and the Alps.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a polarizing filter to reduce glare."
+      }
+    ],
+    "goldenHour": "Approximately 8:30 PM in June.",
+    "tip": "Capture the reflections in the lake at Chamonix during sunset for stunning shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning hike to Lac Blanc",
+        "Lunch at a mountain hut",
+        "Afternoon skiing at Brévent"
+      ],
+      "emotionalArc": "This sequence allows for a mix of relaxation and adventure, giving you a taste of both hiking and skiing in one day.",
+      "bestFor": [
+        "adventure seekers",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Geneva",
+      "travelTime": "1.5 hours",
+      "how": "Train or taxi",
+      "whyCombine": "For a city experience with access to international flights."
+    },
+    {
+      "city": "Annecy",
+      "travelTime": "2 hours",
+      "how": "Train",
+      "whyCombine": "Picturesque lake town perfect for a day trip."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility; some train stations and ski areas are not wheelchair-friendly.",
+    "majorChallenges": "Steep slopes and uneven terrain can pose challenges.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using accessible transport options or guided tours that cater to mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 20°C, occasional rain, and fewer crowds, making it ideal for hiking and enjoying the outdoors.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required; ensure all paperwork is in order."
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "destination": "Auli",
+  "state": "Uttarakhand",
+  "type": "ski/adventure",
+  "aliases": [
+    "Auli",
+    "auli",
+    "Uttarakhand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "adventure seekers",
+      "ski enthusiasts",
+      "nature lovers",
+      "families",
+      "budget travelers"
+    ],
+    "notFor": [
+      "luxury travelers",
+      "nightlife seekers",
+      "those looking for urban experiences"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the thrill of skiing down the slopes. They stay for the hot cups of chai at the slopeside dhabas, where stories are shared among fellow adventurers. They return because Auli is one of the few places in India where the excitement of winter sports meets the tranquility of the Himalayan landscape.",
+  "honestTruth": "Many travel guides overlook the fact that Auli is not just a ski destination; it's a community that thrives on shared experiences and local traditions.",
+  "localTruths": [
+    "Most visitors think Auli is just about skiing. Locals think it's about the camaraderie formed over shared meals and the stories exchanged in the lodges.",
+    "Most visitors rush to the slopes. The best version of Auli is experienced at sunset, watching the hills turn gold from a quiet spot off the main trail.",
+    "Most visitors spend too much time on the slopes. The real Auli starts at the local markets where you can taste authentic Garhwali cuisine."
+  ],
+  "neighborhoodPersonalities": {
+    "Auli Ski Resort": {
+      "tags": [
+        "skiing",
+        "adventure",
+        "accommodation"
+      ],
+      "bestFor": "Winter sports enthusiasts looking for convenience.",
+      "avoid": "Avoid peak hours if you dislike crowds."
+    },
+    "Joshimath": {
+      "tags": [
+        "market",
+        "culture",
+        "food"
+      ],
+      "bestFor": "Cultural experiences and local cuisine.",
+      "avoid": "Avoid late evenings when some shops close early."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Skiing on the slopes",
+        "Take the Auli Gondola",
+        "Visit the local market for handicrafts",
+        "Enjoy a sunset from the hilltops"
+      ],
+      "avoid": [
+        "Don't skip the local food stalls for overpriced restaurants",
+        "Avoid staying only at the resorts; explore local accommodations"
+      ],
+      "mindset": "Approach Auli with an open heart and a spirit of adventure, ready to connect with both nature and the local community."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Explore the trekking routes to Gorson Bugyal",
+        "Participate in local festivals if timing permits",
+        "Engage with local artisans for authentic experiences"
+      ],
+      "neighborhoods": [
+        "Joshimath for its rich culture and history",
+        "Auli for quieter, off-slope experiences"
+      ],
+      "local": "Only locals know the secret spots for the best sunrise views over the Himalayas."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Temperatures range from -2°C to 10°C, with heavy snowfall.",
+      "crowds": "Crowds are at their highest during holidays and weekends.",
+      "prices": "Prices can spike by 30-50%.",
+      "verdict": "Expect a vibrant atmosphere but plan ahead to avoid long waits."
+    },
+    "shoulderSeason": {
+      "months": "March to April",
+      "why": "Skiing is still possible, but with fewer tourists and more affordable accommodations."
+    },
+    "offSeason": {
+      "months": "May to November",
+      "reality": "Monsoon rains can limit access; summer is warm but not ideal for skiing.",
+      "hiddenGem": "Quieter trails for trekking and stunning views of lush greenery."
+    },
+    "bestMonth": "February — optimal snow conditions and vibrant winter sports atmosphere.",
+    "worstMonth": "July — heavy rains can cause landslides and travel disruptions."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying local Garhwali dishes that are unique to Auli.",
+    "Most visitors regret not taking the time to enjoy the sunset views from the hilltops.",
+    "Most visitors regret sticking only to the slopes and missing out on local culture."
+  ],
+  "antiPatterns": [
+    "Skiing without proper gear — it leads to discomfort and frustration.",
+    "Staying in luxury resorts without engaging with the local community — it misses the essence of Auli.",
+    "Rushing through the visit without taking time to savor the local cuisine and culture."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Ski in the morning, explore the market in the afternoon, and enjoy a sunset view in the evening.",
+      "verdict": "You'll capture the essence of Auli, but it's just a taste."
+    },
+    "two_days": {
+      "focus": "Skiing and market exploration.",
+      "misses": "You miss the chance to trek or engage with local communities."
+    },
+    "three_to_four_days": {
+      "focus": "Skiing, local food experiences, and trekking.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of nearby trails, local life, and cultural immersions.",
+      "whoFor": "Adventure seekers and culture enthusiasts."
+    },
+    "recommended": "3 days — a balanced experience of skiing, local culture, and relaxation."
+  },
+  "residentSunday": "An Auli resident's Sunday begins with a morning trek to Gorson Bugyal for breathtaking views. Afterward, they enjoy a hearty meal of Aloo ke Gutke at a local dhaba. In the afternoon, they participate in a community gathering, sharing stories and laughter. As evening falls, they relax with family by the fireplace, sipping on hot tea and reflecting on the week.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the gondola and see the snow-covered slopes for the first time.",
+    "peak": "The exhilaration of skiing down a pristine slope as the sun sets behind the mountains.",
+    "departure": "The last glimpse of the snow-draped peaks as you leave, promising to return."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses from Delhi to Auli are available, but can take up to 12 hours.",
+      "flight": "No direct flights; nearest airport is Dehradun (DED).",
+      "recommended": "Train to Haridwar, then a bus or taxi to Auli for the most convenient and cost-effective route.",
+      "budgetTip": "Book train tickets in advance and consider traveling during weekdays to save ₹500-2000."
+    },
+    "fromMumbai": {
+      "train": "Nandigram Express 11020, duration 17 hours, ₹1,200 sleeper class",
+      "flight": "Direct flights available to Dehradun.",
+      "recommended": "Fly to Dehradun, then take a taxi or bus to Auli for a quicker journey."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 12629, duration 32 hours, ₹1,500 sleeper class",
+      "flight": "Fly to Dehradun, with connecting flights available.",
+      "recommended": "Flying to Dehradun is the best option, followed by a local bus or taxi."
+    },
+    "localTransport": {
+      "best": "Shared taxis and local buses are the most economical options for getting around Auli.",
+      "avoid": "Avoid private taxis unless necessary, as they can be expensive.",
+      "appRecommendation": "Use the Uber app for reliable local transport in nearby towns.",
+      "autoRickshaw": "Limited availability; not commonly used in Auli.",
+      "cost": "Daily local transport budget is around ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Taxi Overcharging",
+      "howItWorks": "Some taxi drivers may try to charge higher rates for tourists.",
+      "prevention": "Always agree on a fare before starting the journey.",
+      "ifItHappens": "Politely discuss the fare and consider switching taxis if the driver refuses."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Chole Bhature at Auli Market",
+      "Maggi at the slopeside dhabas",
+      "Garhwali Thali at Joshimath"
+    ],
+    "avoidList": [
+      "Avoid street food that looks unhygienic or is left uncovered.",
+      "Do not eat raw salads or unpeeled fruits from unknown sources."
+    ],
+    "waterAdvice": "Always drink bottled water or boil tap water before consuming.",
+    "trustedDhabas": "Look for dhabas with a steady stream of local customers; they are usually the safest.",
+    "mustEat": [
+      "Garhwali Thali at Hotel Auli D, ₹400",
+      "Aloo ke Gutke at Auli Market, ₹100",
+      "Kumaoni Raita at The Himalaya Restaurant, ₹250"
+    ],
+    "touristTrap": "Avoid the overpriced restaurants at the ski resort that serve generic food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress warmly in layers; thermal wear is recommended during winter months.",
+    "photographyRules": "Photography is restricted in some local temples; always ask for permission.",
+    "templeEtiquette": "Remove shoes before entering temples and dress modestly.",
+    "timing": "Respect local customs during festivals and avoid loud behavior.",
+    "localCustom": "It's customary to greet locals with a 'Namaste' and a smile."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in local hostels starting at ₹500.",
+      "food": "Eat at local dhabas for affordable meals around ₹100-200.",
+      "transport": "Local buses and shared taxis keep transport costs low."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels or guesthouses for ₹1,500-2,500.",
+      "food": "Mix of dhabas and restaurants; budget ₹600-800 for meals.",
+      "includes": "More comfortable transport and experiences like guided treks."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury resorts starting at ₹5,000.",
+      "experience": "Includes ski passes and guided tours."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "High-end resorts with spa services.",
+      "note": "Luxury can enhance comfort but may not add significant value to the Auli experience."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who prefer urban experiences will be disappointed because Auli lacks nightlife and city amenities.",
+    "If you want a luxury shopping experience, Auli is the wrong choice — Dehradun is better.",
+    "Anyone expecting a bustling city atmosphere will find the quietude of Auli a stark contrast."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local market in Joshimath early in the morning for the freshest produce and handmade crafts.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to ski during weekdays for less crowd and better slope conditions.",
+      "category": "experience"
+    },
+    {
+      "tip": "Engage with local families during festivals for a unique cultural experience.",
+      "category": "cultural"
+    },
+    {
+      "tip": "Ask locals for the best spots to view the sunset; it’s often off the tourist trail.",
+      "category": "experience"
+    },
+    {
+      "tip": "Keep an eye out for seasonal snow events to enhance your skiing experience.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Skiing in the morning",
+        "Lunch at a local dhaba",
+        "Trekking to Gorson Bugyal",
+        "Sunset viewing"
+      ],
+      "emotionalArc": "This sequence builds anticipation and satisfaction, culminating in a breathtaking sunset that makes the day memorable.",
+      "bestFor": [
+        "adventure seekers",
+        "photographers",
+        "nature lovers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Auli Ski Slopes",
+        "what": "Capture the action of skiers against the backdrop of snow-capped peaks.",
+        "bestTime": "Late afternoon for the golden light.",
+        "tip": "Use a polarizing filter to enhance contrasts."
+      }
+    ],
+    "goldenHour": "The golden hour in Auli is typically around 5:30 PM during winter months.",
+    "restrictedAreas": [
+      "Some local temples and private properties."
+    ],
+    "tip": "Always ask for permission before photographing locals, especially during cultural events."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in most areas due to steep terrain and stairs.",
+    "majorChallenges": "Steep pathways and lack of ramps in many public areas pose challenges for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider hiring local guides who are familiar with accessible routes."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Joshimath",
+      "distance": "16km",
+      "travelTime": "30 minutes",
+      "how": "Shared taxi or local bus.",
+      "whyCombine": "For cultural experiences and local markets."
+    },
+    {
+      "city": "Nandprayag",
+      "distance": "30km",
+      "travelTime": "1 hour",
+      "how": "Taxi or bus.",
+      "whyCombine": "For scenic views and tranquility away from the tourist crowds."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "February",
+    "avoidMonth": "July — due to heavy monsoon rains.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "2,500 meters (8,202 feet)",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is off-season; warm weather with occasional rains, not suitable for skiing.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic tourists."
+  }
+}

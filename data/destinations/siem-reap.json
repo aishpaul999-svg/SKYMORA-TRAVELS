@@ -1,0 +1,267 @@
+{
+  "destination": "Siem Reap",
+  "country": "Cambodia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Siem Reap",
+    "siem reap",
+    "cambodia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "photographers",
+      "cultural explorers",
+      "food lovers",
+      "adventure seekers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "nightlife seekers",
+      "luxury travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h 30min via Bangkok",
+    "flightFromMumbai": "6h 15min via Bangkok",
+    "visaForIndians": "e-Visa USD 36",
+    "currency": "Cambodian Riel (KHR), 1 INR = 60 KHR",
+    "timezone": "UTC+7",
+    "language": "Khmer, English is widely spoken in tourist areas",
+    "bestMonthToVisit": "November, as the weather is cooler and less humid, perfect for temple exploration.",
+    "avoidMonth": "April, due to the extreme heat which can reach over 40°C.",
+    "tipping": "Tipping is not mandatory but appreciated; rounding up the bill or leaving 10% is common."
+  },
+  "whyPeopleFallInLove": "Walking through the ancient ruins of Angkor Wat at dawn, feeling the cool morning breeze while hearing the distant calls of monks chanting, creates a profound connection with the history around you.",
+  "honestTruth": "Many visitors don’t realize that while Siem Reap is famous for Angkor Wat, the real depth of Cambodian culture can be found in smaller local temples and village experiences that are often overlooked.",
+  "localTruths": [
+    "Most visitors think Siem Reap is all about Angkor Wat. Locals think the real beauty lies in the everyday life of the surrounding villages and the lesser-known temples.",
+    "Most visitors rush through the temple circuit in a day. The best version of Siem Reap is to take your time, enjoying the sunrise at Angkor Wat and exploring the quieter temples like Ta Prohm and Preah Khan.",
+    "Most visitors miss the incredible local food scene at markets like Psar Chaa. The real Siem Reap starts at night when the stalls are alive with local delicacies."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Market Area": {
+      "tags": [
+        "shopping",
+        "food",
+        "nightlife"
+      ],
+      "bestFor": "experiencing the local market scene and street food delights.",
+      "avoid": "it can get crowded, particularly during peak tourist seasons."
+    },
+    "Wat Bo Village": {
+      "tags": [
+        "culture",
+        "quiet",
+        "local"
+      ],
+      "bestFor": "immersing in local Cambodian life away from the tourist rush.",
+      "avoid": "some areas might be less accessible without a guide."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h 30min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Bangkok Airways"
+        ],
+        "priceRange": "INR 25,000 - 35,000 return",
+        "note": "Book in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 15min via Bangkok",
+        "airlines": [
+          "Thai Airways",
+          "Bangkok Airways"
+        ],
+        "priceRange": "INR 30,000 - 40,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Cost around $7 (approximately 420 KHR) and takes about 20 minutes.",
+      "recommended": "For first-timers, pre-booking a taxi through your hotel is the most reliable option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 36",
+    "applyAt": "https://www.evisa.gov.kh",
+    "processingTime": "Typically 3 business days.",
+    "tip": "Apply for your e-Visa at least a week before your trip to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Khmer Cuisine Restaurant and order the traditional Khmer breakfast of Bai Sach Chrouk (grilled pork and rice).",
+    "sunset": "Head to Phnom Bakheng for sunset at 5:45 PM, where you can view the temple complex bathed in golden light.",
+    "meal": "Dine at Chanrey Tree and savor Amok Trey (fish cooked in coconut milk) served in a banana leaf.",
+    "memory": "The one moment that defines this city is watching the sun rise over Angkor Wat, feeling the energy of the past seep into the present.",
+    "secret": "Locals often visit the small temple of Banteay Kdei for a peaceful experience away from the crowds."
+  },
+  "residentSunday": "On a free Sunday, a Siem Reap resident might start the day with breakfast at the Blue Pumpkin, then visit the local market for fresh produce before spending the afternoon at Angkor National Museum, followed by dinner at a local eatery like Marum, where they can enjoy a variety of traditional dishes.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping out of the airport and breathing in the warm Cambodian air, the excitement of the adventure ahead is palpable.",
+    "peak": "The peak day memory target would be climbing to the top of Bakheng Hill to catch a stunning sunset after a day filled with temple exploration.",
+    "departure": "Departure should feel like a bittersweet farewell, with a sense of having uncovered layers of history and culture."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "covering the main temples of Angkor Wat and Ta Prohm.",
+      "misses": "the chance to explore the local cultural experiences and lesser-known temples."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced exploration of major and minor temples, plus local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "an in-depth exploration of both the temples and the surrounding countryside.",
+      "whoFor": "history enthusiasts and cultural explorers."
+    },
+    "recommended": "4 days is ideal for a comprehensive experience of both the temples and the local culture."
+  },
+  "antiPatterns": [
+    "Rushing through the temple circuit in one day fails to provide the depth of experience each temple offers.",
+    "Visiting Angkor Wat only during the day misses the magic of dawn and dusk lighting.",
+    "Starting the day too late can lead to missing the cooler morning hours, making temple visits uncomfortable."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not hiring a knowledgeable guide to provide context about the temples.",
+    "Most visitors regret not spending enough time at the quieter temples which offer unique experiences.",
+    "Most visitors regret skipping local food experiences for more familiar dining options."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "Pleasant temperatures around 25-30°C, with low humidity.",
+      "crowds": "High, especially during holiday seasons.",
+      "verdict": "Ideal for sightseeing but prepare for crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer crowds and lower prices, although temperatures can be high."
+    },
+    "offSeason": {
+      "months": "June to October",
+      "reality": "Monsoon season with heavy rains but also lush landscapes; fewer tourists.",
+      "hiddenGem": "This period allows for a more intimate experience at temples."
+    },
+    "bestMonth": "November, due to excellent weather conditions for outdoor activities.",
+    "currentSeason": "In June 2026, expect warm temperatures around 30-35°C with occasional rain."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Angkor Night Market on Thursdays for quieter shopping and local food at better prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the back entrance to Ta Prohm to avoid the main crowds and enjoy a more peaceful experience.",
+      "category": "timing"
+    },
+    {
+      "tip": "Join a cooking class at the Spice Road in Siem Reap to learn authentic Khmer recipes from local chefs.",
+      "category": "experience"
+    },
+    {
+      "tip": "Rent a bicycle to explore the temple complex at your own pace; it's often cheaper and healthier than hiring a tuk-tuk.",
+      "category": "transport"
+    },
+    {
+      "tip": "Buy your Angkor Pass at the airport to avoid long queues at the temples.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of Kuy Teav (noodle soup) at a local eatery for around 5,000 KHR (₹83).",
+    "midRangeMeal": "A three-course meal at a mid-range restaurant like Marum for around 20,000 KHR (₹333).",
+    "luxuryMeal": "Dining at a top-tier restaurant like The Sugar Palm can cost around 50,000 KHR (₹833).",
+    "localTransportPerDay": "Budget about 5,000 KHR (₹83) for local tuk-tuk rides.",
+    "budgetHotelPerNight": "A budget hostel room starts at around 15,000 KHR (₹250) with basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel like Villa Damnak costs around 50,000 KHR (₹833) with comfortable rooms and breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like Belmond La Résidence d'Angkor start from 150,000 KHR (₹2,500) for premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory in a hostel for around ₹250",
+      "food": "Street food and local eateries for about ₹500",
+      "transport": "Bicycle rental for ₹100."
+    },
+    "comfortable": {
+      "perDayINR": "₹4,500",
+      "accommodation": "Mid-range hotel for around ₹1,000",
+      "food": "Mix of local restaurants and cafes for about ₹1,500."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury accommodations offer high-end amenities and experiences but can be significantly more expensive during peak season."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; shoulders and knees should be covered.",
+    "Always ask for permission before taking photos of locals or their property.",
+    "Remove your shoes before entering homes and temples."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers may overcharge tourists; always confirm the fare before starting your ride.",
+      "Beware of fake tour guides at major tourist spots; only hire licensed guides."
+    ],
+    "emergencyContacts": {
+      "police": "119",
+      "ambulance": "119",
+      "indianEmbassy": "Embassy of India in Cambodia, +855 23 213 096"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Angkor Wat",
+        "what": "The silhouette of the temple during sunrise.",
+        "bestTime": "Around 5:30 AM before dawn.",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Approximately 6:00 AM to 7:00 AM and 5:30 PM to 6:30 PM.",
+    "tip": "Consider using a polarizing filter to enhance colors in your landscape shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Sunrise at Angkor Wat",
+        "Breakfast at a local café",
+        "Cycling through the countryside to visit Banteay Srei"
+      ],
+      "emotionalArc": "This sequence allows you to experience the majestic beauty of Angkor Wat at dawn, followed by a peaceful breakfast and a scenic ride showcasing local life.",
+      "bestFor": [
+        "photographers",
+        "history enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Tonle Sap Lake",
+      "travelTime": "30 minutes",
+      "how": "Taxi or boat",
+      "whyCombine": "Experience the floating villages and unique ecosystem."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility at many temples due to uneven terrain and steps.",
+    "majorChallenges": "Navigating the temple grounds can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider hiring a guide who is experienced in assisting travelers with mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "In June 2026, expect warm temperatures around 30-35°C with occasional rain, making the atmosphere lush and the temples less crowded.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, travelers still require an e-Visa to enter Cambodia."
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "destination": "Auckland",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "aliases": [
+    "Auckland",
+    "auckland",
+    "new zealand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.5,
+    "bestFor": [
+      "adventure seekers",
+      "food enthusiasts",
+      "nature lovers",
+      "urban explorers",
+      "history buffs"
+    ],
+    "notFor": [
+      "party-goers",
+      "budget backpackers",
+      "those seeking extreme cold"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h",
+    "flightFromMumbai": "13h 30m - Air New Zealand, Singapore Airlines",
+    "visaForIndians": "NZ ETA NZD 23",
+    "currency": "New Zealand Dollar (NZD), 1 INR = 0.018 NZD",
+    "timezone": "UTC+12",
+    "language": "English, Māori",
+    "bestMonthToVisit": "February - Pleasant weather and numerous outdoor festivals.",
+    "avoidMonth": "July - It tends to be quite rainy and cool.",
+    "tipping": "Tipping is not customary, but appreciated for exceptional service. 10% is a good guideline."
+  },
+  "whyPeopleFallInLove": "Standing atop the Sky Tower at sunset, the cityscape transforms into a canvas of glowing lights as the sun dips below the horizon, casting a warm glow over the Waitematā Harbour. The smell of fresh fish and chips from nearby vendors fills the air, making it hard to resist indulging while soaking in the view.",
+  "honestTruth": "Many visitors think Auckland is just a gateway to New Zealand's natural wonders, but the city itself has a rich tapestry of experiences that often get overlooked.",
+  "localTruths": [
+    "Most visitors think Auckland is just a big city. Locals think it has diverse neighborhoods with distinct personalities worth exploring.",
+    "Most visitors flock to the Sky Tower. The best version of Auckland is actually found on a day trip to Waiheke Island for its wineries and beaches.",
+    "Most visitors miss the local markets. The real Auckland starts at the La Cigale French Market every Saturday morning."
+  ],
+  "neighborhoodPersonalities": {
+    "Grey Lynn": {
+      "tags": [
+        "trendy",
+        "artsy",
+        "casual"
+      ],
+      "bestFor": "food lovers seeking eclectic cafés and street art.",
+      "avoid": "Parking can be a challenge during weekends."
+    },
+    "Devonport": {
+      "tags": [
+        "quaint",
+        "coastal",
+        "historical"
+      ],
+      "bestFor": "those wanting a relaxed stroll with picturesque views.",
+      "avoid": "It's often quieter on weekdays."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h",
+        "airlines": [
+          "Air India",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹55,000 - ₹75,000 return",
+        "note": "Book 2-3 months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "13h 30m",
+        "airlines": [
+          "Air New Zealand",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹50,000 - ₹70,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "SkyBus runs every 10 minutes, costs NZD 18 (₹1,000) and takes about 40 minutes.",
+      "taxi": "Costs around NZD 70 (₹3,900) and takes about 30 minutes.",
+      "recommended": "SKYmora recommends taking the SkyBus for its efficiency and cost-effectiveness."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "NZ ETA NZD 23",
+    "applyAt": "https://www.immigration.govt.nz/",
+    "processingTime": "1-3 days",
+    "tip": "Apply for your ETA well in advance, especially during peak travel season."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'The Fridge' in Grey Lynn for their famous avocado toast with poached eggs.",
+    "sunset": "Catch the sunset at the Auckland Waterfront around 5:45 PM for the best views.",
+    "meal": "Dine at 'Depot Eatery' and order the fresh oysters for a local delicacy.",
+    "memory": "The moment you step onto a ferry to Waiheke Island and see the view of Auckland’s skyline fade into the distance.",
+    "secret": "Only locals know that the best views of the city can be found at the top of Mount Eden, especially at sunrise."
+  },
+  "residentSunday": "Auckland residents often start their Sunday with brunch at 'Pocket' in Grey Lynn, enjoying their signature pancakes. Afterward, they might stroll through the Victoria Park Markets, picking up local artisan goods before heading to the beach at Piha for a swim and some fish and chips from the local shop.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping out of the airport, the crisp air hits your face, and the sight of lush greenery welcomes you to New Zealand.",
+    "peak": "The peak day memory target is standing on the volcanic cone of One Tree Hill, witnessing the sprawling city below.",
+    "departure": "The departure should feel bittersweet, as you leave with a sense of having just scratched the surface of an incredible place."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights such as the Sky Tower and Auckland Museum.",
+      "misses": "Intimate experiences like local markets and Waiheke Island."
+    },
+    "three_to_four_days": {
+      "focus": "A good mix of city sites and a day trip to Waiheke Island.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of the city plus nearby attractions like Rotorua.",
+      "whoFor": "Cultural enthusiasts and adventure seekers."
+    },
+    "recommended": "Three to four days allows you to soak in both the urban and natural aspects of Auckland."
+  },
+  "antiPatterns": [
+    "Rushing to see the Sky Tower first and missing the local cafés and shops nearby fails to give a true sense of the city.",
+    "Ignoring the ferry system and only using land transport means missing the stunning coastal views.",
+    "Visiting during major events without booking in advance can lead to disappointment and missed experiences."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a ferry to one of the nearby islands.",
+    "Most visitors regret not trying more local street food.",
+    "Most visitors regret not dedicating time to explore the historical neighborhoods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Warm, averaging 25°C with occasional rain.",
+      "crowds": "Very crowded, especially in tourist hotspots.",
+      "verdict": "Expect long waits at popular attractions."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "Milder weather and fewer tourists make for a more relaxed experience."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Cool and rainy, not ideal for outdoor activities, but cozy indoor spots are plentiful.",
+      "one reason some prefer it": "Lower accommodation prices make it budget-friendly."
+    },
+    "bestMonth": "February - Great weather and various outdoor events.",
+    "currentSeason": "June 2026 is cool with temperatures around 12°C and occasional rain."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Head to 'Federal Delicatessen' for the best pastrami sandwich at NZD 20 (₹1,100) on a weekday.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the Auckland Art Gallery on Wednesdays when entry is free.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a walk along Tamaki Drive at dawn for the best views of the sunrise over the harbor.",
+      "category": "experience"
+    },
+    {
+      "tip": "For a local wine experience, do a tasting at 'Jules Taylor Wines' on Waiheke Island; it's around NZD 15 (₹830).",
+      "category": "food"
+    },
+    {
+      "tip": "Use the AT Mobile app for the most efficient public transport routes and schedules.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish and chips at 'Fishsmith' for NZD 12 (₹670).",
+    "midRangeMeal": "A burger meal at 'Burgers and Beers' for NZD 25 (₹1,400).",
+    "luxuryMeal": "Dinner at 'The Grove' for a tasting menu at NZD 120 (₹6,600).",
+    "localTransportPerDay": "Approximately NZD 15 (₹830) for bus and ferry rides.",
+    "budgetHotelPerNight": "NZD 80 (₹4,400) for a hostel bed with shared facilities.",
+    "midRangeHotelPerNight": "NZD 200 (₹11,000) for a decent hotel room.",
+    "luxuryHotelPerNight": "NZD 500 (₹27,500) for a top-tier hotel experience."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dormitory for NZD 30 (₹1,650)",
+      "food": "Self-cater with local grocery shops",
+      "transport": "Public transport is affordable."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel for NZD 150 (₹8,250)",
+      "food": "Enjoy a mix of dining out and self-catering."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury in Auckland offers world-class amenities but can be quite expensive."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites, such as churches.",
+    "Respect the local Māori culture by learning a few basic phrases in Māori.",
+    "Always ask for permission before taking photographs of people."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of common scams involving overpriced tours; always book through reputable agencies.",
+      "Street performers may ask for money after their act, but it's not mandatory to give."
+    ],
+    "emergencyContacts": {
+      "police": "111",
+      "ambulance": "111",
+      "indianEmbassy": "Indian High Commission, Wellington, +64 4-472 9538"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Mount Eden",
+        "what": "The panoramic view of Auckland from the volcanic cone.",
+        "bestTime": "Sunrise for soft light and fewer crowds.",
+        "tip": "Bring a wide-angle lens for the best cityscape shots."
+      }
+    ],
+    "goldenHour": "Approximately 6:00 PM during summer months.",
+    "tip": "Capture the city from the Auckland Harbour Bridge for stunning perspectives."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Auckland Museum",
+        "Stroll through the Auckland Domain",
+        "Enjoy a meal at 'La Cigale' market"
+      ],
+      "emotionalArc": "This sequence allows you to connect with the history of Auckland, enjoy nature, and savor local foods, giving a rounded experience.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "families"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Waiheke Island",
+      "travelTime": "40 minutes",
+      "how": "Ferry from Auckland",
+      "whyCombine": "Famous for its wineries and stunning beaches."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public spaces are accessible, but some older buildings may pose challenges.",
+    "majorChallenges": "Public transport options can be limited for those with mobility issues.",
+    "seniorFriendlyScore": 8,
+    "note": "Most attractions offer amenities for seniors, but always check in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is cool, with temperatures around 12°C, occasional rain, and fewer tourists.",
+    "currentAlerts": [],
+    "entryRequirements": "New Zealand ETA for Indian passport holders is required."
+  }
+}

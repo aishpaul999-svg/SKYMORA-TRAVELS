@@ -1,0 +1,268 @@
+{
+  "destination": "Chefchaouen",
+  "country": "Morocco",
+  "region": "Africa",
+  "aliases": [
+    "Chefchaouen",
+    "chefchaouen",
+    "morocco"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "hikers",
+      "cultural enthusiasts",
+      "photographers",
+      "food lovers",
+      "outdoor adventurers"
+    ],
+    "notFor": [
+      "party-goers",
+      "luxury seekers",
+      "those seeking nightlife"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Tangier + 3h bus",
+    "flightFromMumbai": "10h to Tangier + 3h bus, airlines include Air India and Royal Air Maroc",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Moroccan Dirham (MAD), 1 INR = 0.12 MAD",
+    "timezone": "UTC+1",
+    "language": "Arabic and French, with some English spoken in tourist areas",
+    "bestMonthToVisit": "April, as the weather is mild and ideal for hiking.",
+    "avoidMonth": "August, due to extreme heat which can hinder outdoor activities.",
+    "tipping": "10% in restaurants is appreciated; rounding up taxi fares is common."
+  },
+  "whyPeopleFallInLove": "Walking through the narrow, blue-washed streets at dawn, the soft light illuminating the walls while the scent of fresh bread wafts from local bakeries creates an atmosphere that feels both serene and invigorating, urging you to explore further.",
+  "honestTruth": "Many travelers overlook the fact that while cannabis is prevalent and accepted in local culture, it can lead to unwanted attention from law enforcement if consumed publicly.",
+  "localTruths": [
+    "Most visitors think they can see everything in one day. Locals think you need at least three days to truly absorb the atmosphere and explore the trails.",
+    "Most visitors take standard tours. The best version of Chefchaouen is experienced through guided hikes with local Berbers who share stories of their ancestors.",
+    "Most visitors miss the local market days. The real Chefchaouen starts at Place Uta el-Hammam on Tuesdays and Thursdays when the town comes alive with traders and locals."
+  ],
+  "neighborhoodPersonalities": {
+    "Medina": {
+      "tags": [
+        "cultural",
+        "historic",
+        "market"
+      ],
+      "bestFor": "immersing in local life and shopping for handmade crafts.",
+      "avoid": "crowded areas during peak tourist hours."
+    },
+    "Outskirts": {
+      "tags": [
+        "nature",
+        "hiking",
+        "relaxing"
+      ],
+      "bestFor": "hiking and enjoying natural beauty.",
+      "avoid": "going unprepared for long trails."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Tangier + 3h bus",
+        "airlines": [
+          "Air India",
+          "Royal Air Maroc"
+        ],
+        "priceRange": "₹35,000 - ₹55,000 return",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h to Tangier + 3h bus",
+        "airlines": [
+          "Air India",
+          "Royal Air Maroc"
+        ],
+        "priceRange": "₹35,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approx. 800 MAD (₹9,600) and takes around 1.5 hours to Chefchaouen.",
+      "recommended": "Take a bus from Tangier to Chefchaouen; it's cheaper and provides scenic views."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Always carry a photocopy of your passport, as it may be required by local authorities."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Café Clock and order the Moroccan pancakes with honey and mint tea.",
+    "sunset": "Head to the Spanish Mosque overlooking the city; arrive at 6:30 PM for the best views.",
+    "meal": "Dine at Restaurant Nasr for their lamb tagine, a local favorite.",
+    "memory": "The first time you hear the call to prayer echoing through the blue alleys while sipping mint tea at a rooftop café.",
+    "secret": "The best cannabis in Chefchaouen is sold discreetly in local shops; ask locals for recommendations."
+  },
+  "residentSunday": "A typical Sunday for a Chefchaouen resident involves visiting the local souk for fresh produce, enjoying lunch at Café Restaurant Aladdin, and then hiking in the nearby Rif Mountains before ending the evening with a family dinner of couscous.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the Medina and are enveloped by the blue hues and the sounds of local life.",
+    "peak": "The peak day memory target is hiking up to the Akchour Waterfalls, where the view makes the effort worthwhile.",
+    "departure": "Leaving with a sense of connection to the community and a desire to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Essential sights like the Medina and local cuisine.",
+      "misses": "Opportunities for hiking and deeper cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of sightseeing and hiking, including nearby waterfalls.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration, including day trips to surrounding villages and the Rif Mountains.",
+      "whoFor": "adventure seekers and cultural enthusiasts."
+    },
+    "recommended": "Three days is ideal to fully appreciate Chefchaouen's offerings."
+  },
+  "antiPatterns": [
+    "Staying only in the Medina and missing the natural beauty of the surrounding mountains.",
+    "Visiting only on a day trip and not experiencing the evenings when the town lights up.",
+    "Rushing through meals at restaurants instead of savoring the local flavors."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time hiking in the Rif Mountains.",
+    "Most visitors regret not trying local dishes at smaller family-run restaurants.",
+    "Most visitors regret not engaging more with local artisans in the Medina."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April to June",
+      "weather": "Mild temperatures (15-25°C)",
+      "crowds": "Moderate, can get busy on weekends.",
+      "verdict": "Ideal for hiking and exploring."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "Pleasant weather with fewer tourists."
+    },
+    "offSeason": {
+      "months": "December to February",
+      "reality": "Cold and sometimes rainy; hiking trails can be slippery.",
+      "reason": "Some prefer it for solitude and lower prices."
+    },
+    "bestMonth": "April, as the flowers bloom and the weather is perfect for outdoor activities.",
+    "currentSeason": "June 2026 is warm, with occasional showers; perfect for hikes and exploring the Medina."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the local cheesemaker's shop, just off the main square, for fresh goat cheese at 20 MAD (₹240).",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the local pharmacy for natural remedies and herbs used in traditional Moroccan medicine.",
+      "category": "experience"
+    },
+    {
+      "tip": "Hike early in the morning to avoid the afternoon heat; start by 6 AM.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check for local festivals, especially the annual blue festival in June, for a chance to engage with the community.",
+      "category": "experience"
+    },
+    {
+      "tip": "Buy souvenirs at the end of your visit, as prices tend to drop before closing.",
+      "category": "shopping"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Tagine at a local eatery for about 50 MAD (₹600)",
+    "midRangeMeal": "Dinner at Restaurant Nasr for about 150 MAD (₹1,800)",
+    "luxuryMeal": "Dinner at La Lampe Magique for around 300 MAD (₹3,600)",
+    "localTransportPerDay": "Approx. 20 MAD (₹240) for taxis and local transport.",
+    "budgetHotelPerNight": "Hostel at 150 MAD (₹1,800) with shared facilities.",
+    "midRangeHotelPerNight": "Boutique hotel at 600 MAD (₹7,200) including breakfast.",
+    "luxuryHotelPerNight": "High-end riad for 1,500 MAD (₹18,000) with premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel at 150 MAD (₹1,800)",
+      "food": "Street food and budget meals.",
+      "transport": "Local buses and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotel at 600 MAD (₹7,200)",
+      "food": "Mix of local restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury is available in riads, but prices can be inflated during peak tourist seasons."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially in rural areas and religious sites.",
+    "Always ask before taking photos of locals.",
+    "Be respectful during prayer times; avoid loud noises near mosques."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly friendly locals who might ask for money after helping; always agree on prices beforehand.",
+      "Avoid unlicensed taxi services."
+    ],
+    "emergencyContacts": {
+      "police": "19",
+      "ambulance": "15",
+      "indianEmbassy": "Embassy in Rabat, contact number available online."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Rooftop of Café Clock",
+        "what": "Panoramic views of the Medina and mountains",
+        "bestTime": "Early morning or late afternoon",
+        "tip": "Ask the staff for permission before taking wide-angle shots."
+      }
+    ],
+    "goldenHour": "Around 6:30 PM during summer months.",
+    "tip": "Use a polarizing filter to enhance the blue tones of the buildings."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike to Akchour Waterfalls",
+        "Lunch at a local restaurant",
+        "Explore the Medina"
+      ],
+      "emotionalArc": "This sequence allows you to build up your appetite with nature, savour local flavors, and then end with a cultural immersion.",
+      "bestFor": [
+        "outdoor enthusiasts",
+        "food lovers",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Tetouan",
+      "travelTime": "1.5 hours",
+      "how": "by bus",
+      "whyCombine": "To explore another historic medina and the nearby beach."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited wheelchair access in the Medina due to uneven streets.",
+    "majorChallenges": "Steep pathways in and around the town can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Some areas are accessible, but plan ahead for transport options."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain; expect moderate crowds and vibrant local life.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indians remains valid."
+  }
+}

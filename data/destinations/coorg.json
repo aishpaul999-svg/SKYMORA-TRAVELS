@@ -1,0 +1,321 @@
+{
+  "destination": "Coorg",
+  "state": "Karnataka",
+  "type": "hill station/coffee",
+  "aliases": [
+    "Coorg",
+    "coorg",
+    "Karnataka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature lovers",
+      "coffee enthusiasts",
+      "trekking aficionados",
+      "families",
+      "romantic getaways"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "beach lovers",
+      "urban explorers"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the aroma of fresh coffee wafting through the air. They stay for the breathtaking views of the rolling hills, the taste of Coorgi pork curry, and the sound of the forest at dawn. They return because the local festivals, like Puttari, bring the community alive in ways that make you feel like part of the family.",
+  "honestTruth": "Most travel guides skip the fact that Coorg isn't just about coffee estates; it's also a hub for adventure activities that few explore, like zip-lining and river rafting.",
+  "localTruths": [
+    "Most visitors think Coorg is just a coffee destination. Locals think it's a treasure trove of adventure, from waterfalls to trekking trails.",
+    "Most visitors do a quick tour of coffee plantations. The best version of Coorg is explored on foot, through hidden trails and local eateries.",
+    "Most visitors spend too much time at Abbey Falls. The real Coorg starts at the less crowded Iruppu Falls, where the tranquility is palpable."
+  ],
+  "neighborhoodPersonalities": {
+    "Madikeri": {
+      "tags": [
+        "touristic",
+        "historic",
+        "central"
+      ],
+      "bestFor": "exploring local history and culture",
+      "avoid": "the overpriced eateries that cater only to tourists"
+    },
+    "Virajpet": {
+      "tags": [
+        "quiet",
+        "cultural",
+        "authentic"
+      ],
+      "bestFor": "immersing in local life and traditions",
+      "avoid": "overlooking local markets that offer genuine crafts"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Abbey Falls",
+        "Explore Madikeri Fort",
+        "Take a coffee plantation tour",
+        "Try local cuisine at Raintree"
+      ],
+      "avoid": [
+        "Rushing through attractions",
+        "Neglecting to interact with locals"
+      ],
+      "mindset": "Approach Coorg with an open heart, ready to savor the sights, sounds, and tastes, rather than ticking off a checklist."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the hidden trails of Pushpagiri Wildlife Sanctuary",
+        "Attend a local festival",
+        "Visit lesser-known waterfalls like Chelavara",
+        "Engage with a local coffee farmer"
+      ],
+      "neighborhoods": [
+        "Sakleshpur",
+        "Nagarhole"
+      ],
+      "local": "One thing only locals and repeat visitors know is to visit the local markets for authentic spices and homemade chocolates."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "15°C to 25°C, pleasant",
+      "crowds": "Expect large crowds, particularly during weekends and holidays",
+      "prices": "20% premium on accommodation",
+      "verdict": "Plan early to secure better deals."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "The weather is warm, ideal for trekking and fewer tourists make for a more intimate experience."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Monsoon brings heavy rain, which may disrupt travel plans but also brings lush greenery.",
+      "hiddenGem": "The waterfalls are at their most magnificent during this time."
+    },
+    "bestMonth": "November – the weather is perfect for outdoor activities and the coffee harvest is in full swing.",
+    "worstMonth": "August – the heavy rains can limit activities and make travel challenging."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying local homestays for an authentic experience.",
+    "Most visitors regret skipping early morning treks to catch the sunrise.",
+    "Most visitors regret not attending local festivals for a deeper cultural immersion."
+  ],
+  "antiPatterns": [
+    "Rushing through coffee plantation tours — it fails to capture the essence of the local culture.",
+    "Staying in large resorts — it disconnects you from the local experience.",
+    "Visiting only popular tourist spots without engaging with locals ruins the authentic experience."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Abbey Falls, Madikeri Fort, and have lunch at Raintree, followed by a coffee plantation tour.",
+      "verdict": "A day is quite rushed, but doable for highlights."
+    },
+    "two_days": {
+      "focus": "Exploring major attractions and trying local food",
+      "misses": "Off-the-beaten-path experiences and deeper cultural interactions."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering popular sites, local culture, and some adventure activities.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of hidden trails, local festivals, and immersive experiences.",
+      "whoFor": "adventurers and cultural enthusiasts"
+    },
+    "recommended": "3 days — it allows for a relaxed pace while experiencing the highlights and hidden gems."
+  },
+  "residentSunday": "A Coorg resident with one free Sunday starts with an early morning trek to Tadiandamol peak, followed by breakfast at a local eatery in Madikeri. In the afternoon, they might visit the local market for spices and homemade chocolates, and finish the day with a family gathering over a traditional Coorgi meal at home.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of your vehicle and inhale the fresh aroma of coffee and earth after rain.",
+    "peak": "The moment at sunrise atop Tadiandamol, surrounded by mist-covered hills.",
+    "departure": "The last view of the rolling hills as you drive away, a bittersweet reminder of your time in Coorg."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Long-distance buses are available but can take over 30 hours and are less comfortable.",
+      "flight": "No direct flights; nearest airport is Mysore, 120km away.",
+      "recommended": "Take a train to Mysuru and then a taxi or bus to Coorg. It’s the safest and most scenic route.",
+      "budgetTip": "Book your train tickets early to save up to ₹500 and consider using sleeper class for budget travel."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, departs 6:15am, 12 hours, ₹1,000",
+      "flight": "Direct flights to Mysore are available.",
+      "recommended": "Train to Mysuru and then a taxi or bus to Coorg for a scenic journey."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 12628, departs 6:00am, 5 hours, ₹560",
+      "flight": "Multiple flights available, but not necessary due to proximity.",
+      "recommended": "Take a bus or taxi from Bangalore to Coorg for a direct route."
+    },
+    "localTransport": {
+      "best": "Private taxis and local buses work best for getting around.",
+      "avoid": "Avoid auto-rickshaws for long distances as they can be overpriced.",
+      "appRecommendation": "Use Ola or Uber for convenient local transport.",
+      "autoRickshaw": "Generally available but not ideal for tourists.",
+      "cost": "Budget around ₹500-800 per day for local transport."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Tour Guide Scam",
+      "howItWorks": "Unscrupulous guides approach tourists offering overpriced tours.",
+      "prevention": "Always book through reputable travel agencies or ask for recommendations.",
+      "ifItHappens": "Politely refuse and walk away, or report to local tourist authorities."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Pork Curry at Raintree",
+      "Kadubu at a local stall near Madikeri",
+      "Coffee at Coffee Day outlets"
+    ],
+    "avoidList": [
+      "Street food from vendors without proper hygiene standards, especially during monsoon.",
+      "Unrefrigerated meats or seafood."
+    ],
+    "waterAdvice": "Drink bottled water or boiled water; avoid tap water even for brushing teeth.",
+    "trustedDhabas": "Look for dhabas with a local crowd and clean tables.",
+    "mustEat": [
+      "Pandi Curry at Raintree",
+      "Noolputtu at Aunty's Kitchen",
+      "Bamboo Shoot Curry at Coorg Cuisine"
+    ],
+    "touristTrap": "Avoid the overpriced coffee shops in Madikeri that serve mediocre brews."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Casual and comfortable clothing, sturdy shoes for trekking; traditional attire for festivals.",
+    "photographyRules": "Respect local customs; ask before taking photos of people or family gatherings.",
+    "templeEtiquette": "Remove shoes before entering temples and dress modestly.",
+    "timing": "Visit temples early in the morning to avoid crowds.",
+    "localCustom": "Joining locals during festivals like Puttari is a great way to experience the culture."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels around ₹500-800",
+      "food": "Street food and local eateries at ₹300-500",
+      "transport": "Local buses and shared taxis."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Budget hotels or guesthouses around ₹1,500",
+      "food": "Mix of local eateries and occasional dining at better restaurants.",
+      "includes": "Sightseeing and local transport."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Mid-range hotels and boutique stays around ₹3,500",
+      "experience": "Includes guided tours and some adventure activities."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury resorts and villas",
+      "note": "Luxury adds comfort but may distance you from local experiences."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who crave nightlife will be disappointed because Coorg is peaceful and lacks vibrant party scenes.",
+    "If you want urban experiences, Coorg is the wrong choice — Bangalore's nightlife is better.",
+    "Anyone expecting lavish shopping will find Coorg's offerings quite limited."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets in Madikeri early in the morning for the freshest spices and homemade chocolates, around 8 AM.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a guided coffee plantation tour; local farmers often provide deeper insights than generic tours.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the homemade chocolates at the Coorg Coffee Works, around ₹200 for a box.",
+      "category": "food"
+    },
+    {
+      "tip": "Join a local family for a meal; platforms like EatWith offer such experiences.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit Iruppu Falls early in the morning to avoid crowds and enjoy the serenity.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Coffee plantation tour",
+        "Lunch at a local homestay",
+        "Visit to Abbey Falls"
+      ],
+      "emotionalArc": "This sequence builds from learning about local culture to savoring local cuisine, ending with a refreshing nature experience.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers",
+        "nature seekers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Tadiandamol Peak",
+        "what": "Panoramic views of the Western Ghats",
+        "bestTime": "Sunrise",
+        "tip": "Reach early to catch the first light."
+      },
+      {
+        "name": "Abbey Falls",
+        "what": "The cascading waterfall framed by lush greenery",
+        "bestTime": "Late afternoon",
+        "tip": "Visit post-monsoon for full water flow."
+      }
+    ],
+    "goldenHour": "Around 6:30 AM to 7:30 AM and 5:30 PM to 6:30 PM.",
+    "restrictedAreas": [
+      "Certain private coffee estates may restrict photography; always ask for permission."
+    ],
+    "tip": "Use a polarizing filter for capturing the lush greenery and vibrant colors."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Most tourist spots have limited accessibility due to uneven terrain.",
+    "majorChallenges": "Steep paths and unpaved roads can be difficult for those with mobility challenges.",
+    "seniorFriendlyScore": 6,
+    "note": "Plan ahead for transport and choose accommodations that are senior-friendly."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Mysuru",
+      "distance": "118km",
+      "travelTime": "3 hours",
+      "how": "By taxi or bus",
+      "whyCombine": "Mysuru offers rich cultural experiences and historic sites."
+    },
+    {
+      "city": "Bangalore",
+      "distance": "265km",
+      "travelTime": "5-6 hours",
+      "how": "By bus or taxi",
+      "whyCombine": "A vibrant urban experience before or after your trip to Coorg."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "August due to heavy monsoon rains making travel difficult.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "1,200 meters above sea level",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is the beginning of the monsoon season, bringing heavy rains and lush landscapes, but also travel disruptions.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits are required for domestic travelers."
+  }
+}

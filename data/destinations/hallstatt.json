@@ -1,0 +1,268 @@
+{
+  "destination": "Hallstatt",
+  "country": "Austria",
+  "region": "Europe",
+  "aliases": [
+    "Hallstatt",
+    "hallstatt",
+    "austria"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature lovers",
+      "history enthusiasts",
+      "adventure seekers",
+      "photographers",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "party-goers",
+      "shopping enthusiasts",
+      "business travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Vienna + 3.5h",
+    "flightFromMumbai": "9h to Vienna + 3.5h, airlines include Lufthansa and Austrian Airlines",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "German (English widely spoken)",
+    "bestMonthToVisit": "September, when the weather is pleasant and crowds are thinner post-summer",
+    "avoidMonth": "January, due to heavy snowfall making access challenging",
+    "tipping": "10% is appreciated in restaurants, rounding up is common"
+  },
+  "whyPeopleFallInLove": "Standing by the edge of Lake Hallstatt at dawn, watching the mist rise off the water while the quaint village wakes up around you, captures a moment of peace that resonates deeply with travelers. The crisp mountain air mixed with the aroma of fresh pastries from local bakeries creates an experience that lingers long after you've left.",
+  "honestTruth": "Many first-time visitors underestimate the steep trails and rugged paths leading to scenic viewpoints, thinking they can access them easily, which can lead to disappointment.",
+  "localTruths": [
+    "Most visitors think Hallstatt is just a postcard-perfect village. Locals think it's a place of deep history and daily life that extends beyond the views.",
+    "Most visitors focus on the salt mine. The best version of Hallstatt is discovered by exploring the less-trodden trails and the local markets.",
+    "Most visitors miss the evening light on the mountains. The real Hallstatt starts at sunset when the village is bathed in gold."
+  ],
+  "neighborhoodPersonalities": {
+    "Lake Hallstatt": {
+      "tags": [
+        "tranquil",
+        "picturesque",
+        "nature"
+      ],
+      "bestFor": "strolling along the lakeside and enjoying the reflections of the mountains.",
+      "avoid": "Don't expect vibrant nightlife here."
+    },
+    "Salt Mine": {
+      "tags": [
+        "historical",
+        "educational",
+        "adventurous"
+      ],
+      "bestFor": "a unique insight into the mining history of the region.",
+      "avoid": "The guided tours can feel rushed; take your time."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Vienna + 3.5h",
+        "airlines": [
+          "Lufthansa",
+          "Austrian Airlines"
+        ],
+        "priceRange": "[₹45,000 - ₹60,000 return]",
+        "note": "Book well in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h to Vienna + 3.5h",
+        "airlines": [
+          "Lufthansa",
+          "Austrian Airlines"
+        ],
+        "priceRange": "[₹45,000 - ₹60,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "There is no metro; bus services are available, costing about €12 and taking 1.5 hours.",
+      "taxi": "A taxi ride from Vienna International Airport to Hallstatt costs around €200 and takes about 3.5 hours.",
+      "recommended": "For first-timers, consider taking a pre-booked shuttle service for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "You can apply at the Austrian embassy or VFS centers in India.",
+    "processingTime": "Typically 15 days, but apply at least a month in advance.",
+    "tip": "Always include your accommodation details and travel itinerary to speed up the process."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Derbl, order the Apfelstrudel with vanilla sauce and a Melange coffee.",
+    "sunset": "Find a spot at the lakeside promenade at 8 PM during summer for the best view.",
+    "meal": "Dine at Restaurant Gasthof Zauner, and try the Wiener Schnitzel with potato salad.",
+    "memory": "The moment when you first see the reflection of the village in the lake at dawn.",
+    "secret": "Only locals know that the best views require a short hike up to the Hallstatt Skywalk."
+  },
+  "residentSunday": "On a free Sunday, a Hallstatt resident might start with breakfast at Café Derbl at 9 AM, stroll along the lake for an hour, visit the local church service at 10:30 AM, and enjoy lunch at Gasthof Zauner, followed by a hike to the nearby viewpoint by 2 PM, ending their day with dinner at home with family.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of Hallstatt from the ferry, where the village seems to rise right out of the lake.",
+    "peak": "The peak day memory target is reaching the Hallstatt Skywalk at sunset, with panoramic views of the Dachstein mountains.",
+    "departure": "Departure should feel like leaving a piece of your heart behind, filled with memories of tranquility."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "This covers the main attractions like the salt mine and Lake Hallstatt.",
+      "misses": "You miss the deeper trails and local experiences."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage, allowing time for hikes and relaxation by the lake.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration including nearby villages and hiking trails.",
+      "whoFor": "For nature lovers and those who want to take it slow."
+    },
+    "recommended": "Three days is ideal to experience both the charm of the village and the beauty of the surrounding nature."
+  },
+  "antiPatterns": [
+    "Rushing through the salt mine tour diminishes the experience; take your time to appreciate the history.",
+    "Trying to see everything in one day can lead to exhaustion; prioritize your interests.",
+    "Visiting popular sites during peak hours can ruin the experience; start your day early."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not hiking to the Skywalk for the panoramic views.",
+    "Most visitors regret not trying local dishes, missing out on authentic flavors.",
+    "Most visitors regret not spending enough time by the lake."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Warm, average temperature around 25°C, rain possible",
+      "crowds": "Very crowded with tourists, especially during weekends.",
+      "verdict": "Expect longer wait times at attractions."
+    },
+    "shoulderSeason": {
+      "months": "April, September",
+      "why": "Better weather with fewer tourists, allowing for a more relaxed experience."
+    },
+    "offSeason": {
+      "months": "November, December",
+      "reality": "Cold with potential snow, but ideal for quiet reflection.",
+      "hiddenGem": "The winter landscape offers a different, serene beauty."
+    },
+    "bestMonth": "September, due to pleasant weather and reduced crowds.",
+    "currentSeason": "June 2026 is warm with temperatures around 22°C, and crowds are manageable."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local farmers' market on Saturdays for fresh produce and homemade goods; it starts around 9 AM.",
+      "category": "food"
+    },
+    {
+      "tip": "The trail to the Five Fingers lookout point is less known but offers an incredible view; start early to avoid the crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local Handkäse cheese at the market; it's a specialty of the region.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the ferry to the other side of the lake to see Hallstatt from a different perspective, especially during the golden hour.",
+      "category": "transport"
+    },
+    {
+      "tip": "The small chapel on the hill has a beautiful garden; it's often overlooked by tourists.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A slice of pizza at Pizzeria Bella Vista costs €5 (₹450).",
+    "midRangeMeal": "A traditional meal at Gasthof Zauner costs around €20 (₹1,800).",
+    "luxuryMeal": "Fine dining at Restaurant Amadeus costs approximately €50 (₹4,500).",
+    "localTransportPerDay": "Typical daily local transport costs around €10 (₹900).",
+    "budgetHotelPerNight": "A budget hotel room averages €80 (₹7,200) for basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel averages €150 (₹13,500) with good views and breakfast included.",
+    "luxuryHotelPerNight": "Luxury accommodation costs around €300 (₹27,000) with premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dorm beds at around €25 (₹2,250)",
+      "food": "Eating at budget eateries and bakeries",
+      "transport": "Using local buses and walking"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels at around €100 (₹9,000)",
+      "food": "Mixing local restaurants and cafes"
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury options provide excellent services but can be quite expensive."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially in churches; shoulders covered and no shorts.",
+    "Always greet locals with a smile; it's considered polite.",
+    "Keep noise levels down in public spaces, especially near residential areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Some taxi drivers may charge more; always confirm the fare before getting in.",
+      "Be cautious about pickpockets in crowded tourist areas."
+    ],
+    "emergencyContacts": {
+      "police": "133",
+      "ambulance": "144",
+      "indianEmbassy": "Embassy of India, Vienna: +43 1 505 30 30"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Skywalk",
+        "what": "Panoramic views of Hallstatt and the Dachstein mountains.",
+        "bestTime": "Sunrise or sunset for best light.",
+        "tip": "Go early to avoid crowds."
+      }
+    ],
+    "goldenHour": "In June, around 8 PM to 9 PM is ideal for golden hour shots.",
+    "tip": "Use a polarizing filter to enhance colors during bright days."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Salt Mine",
+        "Hike to the Skywalk",
+        "Dinner at Gasthof Zauner"
+      ],
+      "emotionalArc": "This sequence allows you to experience the history, natural beauty, and local cuisine in a fulfilling day.",
+      "bestFor": [
+        "nature lovers",
+        "history buffs",
+        "foodies"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bad Ischl",
+      "travelTime": "30 minutes",
+      "how": "By bus or car",
+      "whyCombine": "Known for its imperial history and thermal spas."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some areas are accessible, but many paths are steep and challenging.",
+    "majorChallenges": "Uneven cobblestone streets and hilly terrain can pose difficulties.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using walking aids if mobility is an issue."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 22°C, and crowds are manageable with various outdoor events.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, Schengen visa rules apply for Indian travelers."
+  }
+}

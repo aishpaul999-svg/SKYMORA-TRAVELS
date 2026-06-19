@@ -1,0 +1,302 @@
+{
+  "destination": "Shillong",
+  "state": "Meghalaya",
+  "type": "hill station/waterfalls",
+  "aliases": [
+    "Shillong",
+    "shillong",
+    "Meghalaya"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature lovers",
+      "adventure seekers",
+      "music enthusiasts",
+      "photographers",
+      "local cuisine aficionados"
+    ],
+    "notFor": [
+      "beach lovers",
+      "party-goers",
+      "luxury travelers"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the lush green hills and the cool mountain air. They stay for the vibrant local music scene at places like Cafe Shillong and return because Shillong is the only city in India where the Khasi traditions blend seamlessly with modernity — you can catch a local band playing folk tunes while sipping on freshly brewed coffee.",
+  "honestTruth": "Many travelers underestimate the chilly nights in Shillong; packing warm clothes is essential, even in summer.",
+  "localTruths": [
+    "Most visitors think Shillong is just about the waterfalls. Locals know the real charm lies in the rich cultural tapestry and the warm interactions with the Khasi people.",
+    "Most visitors flock to the more popular waterfalls. The best version of Shillong is found in the lesser-known spots like Laitlum Canyons, where solitude and stunning views await.",
+    "Most visitors spend too much time at the Elephant Falls. The real Shillong starts at the vibrant local markets like Iewduh, where the true essence of the city unfolds."
+  ],
+  "neighborhoodPersonalities": {
+    "Police Bazar": {
+      "tags": [
+        "shopping",
+        "food",
+        "nightlife"
+      ],
+      "bestFor": "exploring local crafts and street food",
+      "avoid": "the overpriced souvenirs that are common here"
+    },
+    "Laitkor": {
+      "tags": [
+        "nature",
+        "scenic",
+        "peaceful"
+      ],
+      "bestFor": "a serene escape from the hustle",
+      "avoid": "going here without the right footwear for the trails"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "visit the Shillong Peak for panoramic views",
+        "explore the local markets",
+        "taste traditional Khasi food at Jadoh",
+        "check out the Don Bosco Centre for Indigenous Culture"
+      ],
+      "avoid": [
+        "spending all day at the popular waterfalls",
+        "skipping the local music scene"
+      ],
+      "mindset": "Approach Shillong with an open mind, ready to engage with the local culture and explore beyond the usual tourist spots."
+    },
+    "repeat": {
+      "goDeeper": [
+        "hike to the less traveled Laitlum Canyons",
+        "discover hidden waterfalls like the Bishop Falls",
+        "attend a local music gig at a lesser-known venue",
+        "explore the Khasi villages around Shillong"
+      ],
+      "neighborhoods": [
+        "Mawphlang",
+        "Iewduh"
+      ],
+      "local": "One thing only locals and repeat visitors know is the best time to experience the vibrant local festivals in fall."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April to June",
+      "weather": "pleasant with temperatures ranging from 15°C to 25°C",
+      "crowds": "moderately crowded with tourists",
+      "prices": "prices may be 20% higher",
+      "verdict": "Ideal for pleasant weather but expect more tourists."
+    },
+    "shoulderSeason": {
+      "months": "March, July to September",
+      "why": "fewer tourists and lush greenery after the monsoons."
+    },
+    "offSeason": {
+      "months": "December to February",
+      "reality": "cold temperatures can drop to 5°C, but the scenery is stunning and less crowded",
+      "hiddenGem": "this is when the local festivals, celebrating the harvest, occur."
+    },
+    "bestMonth": "October - the weather is pleasant and the fall festivals provide a cultural experience.",
+    "worstMonth": "July - heavy rains can lead to landslides and travel disruptions."
+  },
+  "commonRegrets": [
+    "Most visitors regret not participating in local festivals.",
+    "Most visitors regret missing out on the local food scene.",
+    "Most visitors regret not exploring beyond the main attractions."
+  ],
+  "antiPatterns": [
+    "Spending too long at popular tourist spots like Elephant Falls — it leads to a crowded experience with little authenticity.",
+    "Combining a rushed trip to Cherrapunji with Shillong — it diminishes the experience of both locations.",
+    "Visiting during the monsoon without proper planning can ruin the trip due to landslides."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Shillong Peak, explore Police Bazar, and enjoy dinner at a local eatery.",
+      "verdict": "A day is enough for a taste, but not for a full experience."
+    },
+    "two_days": {
+      "focus": "covers major attractions like Elephant Falls and local markets",
+      "misses": "the deeper cultural engagements and off-beat locations."
+    },
+    "three_to_four_days": {
+      "focus": "includes popular spots and a day trip to nearby Mawphlang",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "deep exploration of Meghalaya including Dawki, Cherrapunji, and local festivals",
+      "whoFor": "nature lovers and cultural enthusiasts"
+    },
+    "recommended": "3 days — it allows for a balanced mix of exploration and relaxation."
+  },
+  "residentSunday": "A Shillong resident with one free Sunday starts with a morning walk at Shillong Peak, followed by breakfast at Cafe Shillong. After that, they visit the local market in Iewduh for some shopping and lunch at Jadoh, and spend the evening listening to live music at a local venue.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the cool, fresh air of Shillong after a long journey.",
+    "peak": "Experiencing a local festival, surrounded by traditional music and dance.",
+    "departure": "Leaving with a heart full of memories, the sound of local music echoing in your mind."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses from Guwahati to Shillong are frequent and cost around ₹300-500.",
+      "flight": "Direct flights are available to Shillong Airport (SHL), costing ₹3,500-5,000.",
+      "recommended": "Take a train to Guwahati and then a bus to Shillong for the best balance of cost and comfort.",
+      "budgetTip": "Book your train tickets in advance to save up to ₹1,000."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, duration 30 hours, price around ₹1,800.",
+      "flight": "Direct flights are about ₹6,000-8,000.",
+      "recommended": "Take a train to Guwahati and then a bus to Shillong for cost efficiency."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Sampark Kranti Express 12685, duration 36 hours, price around ₹2,500.",
+      "flight": "Flights to Guwahati are available for ₹5,000-8,000.",
+      "recommended": "Opt for a flight to Guwahati and then take a bus to Shillong."
+    },
+    "localTransport": {
+      "best": "Shared taxis are the most convenient way to travel around Shillong.",
+      "avoid": "Relying solely on auto-rickshaws as they can be inconsistent.",
+      "appRecommendation": "Use the 'Savaari' app for taxi bookings.",
+      "autoRickshaw": "Auto-rickshaws are available but not always reliable.",
+      "cost": "Daily local transport budget is around ₹500-800."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Taxi overcharging",
+      "howItWorks": "Some taxi drivers inflate fares especially for tourists.",
+      "prevention": "Always ask for the fare beforehand or use app-based services when possible.",
+      "ifItHappens": "Politely insist on the agreed fare or seek assistance from locals."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Pork momos at Jadoh, local fish curry at the market, and Khasi-style rice at Iewduh."
+    ],
+    "avoidList": [
+      "Street food items that look stale or are kept in unsanitary conditions."
+    ],
+    "waterAdvice": "Stick to bottled or filtered water; avoid tap water for drinking.",
+    "trustedDhabas": "Look for busy local dhabas with a good reputation and clean surroundings.",
+    "mustEat": [
+      "Jadoh at Jadoh Restaurant, Dohneiiong at Momo's Place, and Tungrymbai at the local market."
+    ],
+    "touristTrap": "The 'authentic' Khasi food served at some high-end restaurants; they often lack the true flavor and experience."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly, especially when visiting local villages; traditional attire is appreciated during festivals.",
+    "photographyRules": "Photography is restricted in certain tribal areas; always ask for permission.",
+    "templeEtiquette": "If visiting the local church, remove your shoes and maintain silence.",
+    "timing": "Local festivals often occur during harvest seasons; check dates before planning.",
+    "localCustom": "It’s customary to greet locals with a smile and 'Khublei' (thank you) in Khasi."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "hostels or budget guesthouses for ₹500-800",
+      "food": "local eateries for ₹200-300 per meal",
+      "transport": "shared taxis and local buses."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "mid-range hotels for ₹1,500-2,500",
+      "food": "local restaurants for ₹500-800 per meal",
+      "includes": "guided tours and entry fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "boutique hotels and resorts for ₹4,000-6,000",
+      "experience": "exclusive experiences like guided nature hikes."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "luxury hotels and resorts",
+      "note": "Luxury options are available but might not offer significant value compared to mid-range stays."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek beach holidays will be disappointed because Shillong is landlocked and lacks beach activities.",
+    "If you want a nightlife scene similar to major metro cities, Shillong is the wrong choice — consider Goa instead.",
+    "Anyone expecting only commercial tourist experiences will find the authenticity here lacking."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets early in the morning for the freshest produce and best interactions with vendors.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the traditional Khasi dishes at local homes; some locals offer meals for tourists at reasonable prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a local music gig; check social media for events happening during your visit.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the outskirts of Shillong for hidden waterfalls and trails.",
+      "category": "timing"
+    },
+    {
+      "tip": "Join local festivals to fully immerse yourself in Khasi culture; ask locals for dates.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike to Laitlum Canyons",
+        "Visit Mawphlang Sacred Grove",
+        "Enjoy a local meal at a Khasi home"
+      ],
+      "emotionalArc": "This sequence allows travelers to connect with nature, culture, and local flavors, creating a fulfilling experience.",
+      "bestFor": [
+        "nature enthusiasts",
+        "culture seekers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Shillong Peak",
+        "what": "panoramic view of the city and hills",
+        "bestTime": "early morning",
+        "tip": "Reach before sunrise for the best light."
+      }
+    ],
+    "goldenHour": "The hour before sunset offers stunning lighting for landscape photography.",
+    "restrictedAreas": [
+      "Certain tribal areas require permission for photography."
+    ],
+    "tip": "Always ask locals before photographing people; respect their privacy."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Most tourist spots are not wheelchair-friendly due to uneven terrain.",
+    "majorChallenges": "Steep inclines and narrow paths can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Travelers with mobility needs should plan ahead and consider hiring local guides."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Cherrapunji",
+      "distance": "54km",
+      "travelTime": "1.5 hours",
+      "how": "by taxi or bus",
+      "whyCombine": "To explore the stunning living root bridges and waterfalls."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "October",
+    "avoidMonth": "July - heavy rains disrupt travel plans.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "1,525 meters above sea level",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The weather is currently pleasant, with occasional rain, making it lush and vibrant.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits are needed for most tourists, but check local regulations if visiting tribal areas."
+  }
+}

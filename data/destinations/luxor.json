@@ -1,0 +1,268 @@
+{
+  "destination": "Luxor",
+  "country": "Egypt",
+  "region": "Africa",
+  "aliases": [
+    "Luxor",
+    "luxor",
+    "egypt"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "archaeology students",
+      "photographers",
+      "cultural explorers",
+      "families"
+    ],
+    "notFor": [
+      "beach lovers",
+      "nightlife seekers",
+      "shopping addicts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h to Cairo + 1h",
+    "flightFromMumbai": "8h to Cairo + 1h (Air India, EgyptAir)",
+    "visaForIndians": "e-Visa USD 25",
+    "currency": "Egyptian Pound (1 INR = 0.31 EGP)",
+    "timezone": "UTC+2",
+    "language": "Arabic (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "October, for cooler temperatures and fewer crowds.",
+    "avoidMonth": "July, as temperatures can exceed 40°C making outdoor exploration uncomfortable.",
+    "tipping": "10-15% is customary in restaurants; round up taxi fares."
+  },
+  "whyPeopleFallInLove": "As you stand in the Valley of the Kings at sunrise, the soft golden light illuminates the ancient tombs, and the scent of the desert air fills your lungs, you realize you’re walking through history. The whispers of the past seem to echo around you, making every step feel like a connection to the pharaohs who once ruled here.",
+  "honestTruth": "While Luxor offers breathtaking sights, the overwhelming heat can be a deterrent for many, and it's not uncommon for visitors to underestimate the physical demands of exploring the ruins under the sun.",
+  "localTruths": [
+    "Most visitors think visiting only the main sites is enough. Locals think the real treasures lie in the small, lesser-known temples like Medinet Habu, which tell deeper stories.",
+    "Most visitors rush through the Karnak Temple. The best version of Luxor is experienced at dawn when the crowds are thin, and the atmosphere is serene, allowing you to truly appreciate its grandeur.",
+    "Most visitors miss the enchanting sound and light show at Karnak Temple. The real Luxor starts after sundown when the ancient stones come alive with stories of the past."
+  ],
+  "neighborhoodPersonalities": {
+    "East Bank": {
+      "tags": [
+        "temples",
+        "hotels",
+        "restaurants"
+      ],
+      "bestFor": "Exploring the grandeur of ancient temples and enjoying riverfront dining.",
+      "avoid": "Can be crowded during peak tourist seasons."
+    },
+    "West Bank": {
+      "tags": [
+        "tombs",
+        "local life",
+        "quieter"
+      ],
+      "bestFor": "A more authentic experience with local culture and fewer tourists.",
+      "avoid": "Limited dining options after sunset."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h to Cairo + 1h",
+        "airlines": [
+          "Air India",
+          "EgyptAir"
+        ],
+        "priceRange": "[₹25,000 - ₹35,000 return]",
+        "note": "Book at least 2 months in advance for the best deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h to Cairo + 1h",
+        "airlines": [
+          "EgyptAir",
+          "Emirates"
+        ],
+        "priceRange": "[₹30,000 - ₹45,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; use taxis or private transfers.",
+      "taxi": "Taxi costs around 150 EGP (~₹50) to East Bank, taking about 30 minutes.",
+      "recommended": "For first-timers, pre-book a hotel transfer for ease and comfort."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 25",
+    "applyAt": "Egypt e-Visa portal.",
+    "processingTime": "3-5 days.",
+    "tip": "Apply for your e-Visa at least a week before your trip to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Aisha Restaurant' and order the Ful Medames, a traditional Egyptian fava bean dish served with pita.",
+    "sunset": "Watch the sunset from the Temple of Hatshepsut, around 6:30 PM, where the golden hues reflect off the temple's stone.",
+    "meal": "Dine at 'The Lantern', known for its grilled meats, especially the Kofta, which is a must-try.",
+    "memory": "The moment you watch the sun dip behind the mountains of the West Bank, casting a warm glow over the Nile, will stay with you forever.",
+    "secret": "Locals often visit small coffee shops in the West Bank for the best local brews; ask for 'Ahwa' for an authentic experience."
+  },
+  "residentSunday": "On a free Sunday, a Luxor resident might start their day at 'Cafe El Moudira' by the river for a traditional breakfast of falafel and tea, before heading to the local market for fresh produce. Later, they could visit the Colossi of Memnon for a quiet afternoon, wrapping up with dinner at 'Sofra' for local dishes like stuffed pigeon.",
+  "dayMemoryTargets": {
+    "arrival": "The first moment you step off the plane, feeling the warm Egyptian air, mixed with anticipation for the adventures ahead.",
+    "peak": "The peak day memory target is standing in front of the tomb of Tutankhamun, feeling the weight of history in the air.",
+    "departure": "Departure should feel like a bittersweet goodbye, with the pyramids in the distance and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Visiting the major sites like Karnak Temple and the Valley of the Kings.",
+      "misses": "The depth of local culture and smaller temples."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering major sites and some local exploration.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of Luxor and surrounding areas like Dendera and Abydos.",
+      "whoFor": "History buffs and archaeological enthusiasts."
+    },
+    "recommended": "Three to four days is ideal for a fulfilling experience of Luxor's treasures."
+  },
+  "antiPatterns": [
+    "Visiting the Valley of the Kings in the late afternoon can lead to a rushed experience due to heat and crowds.",
+    "Rushing through Karnak Temple without taking time to explore its various sections can lead to missing out on its incredible details.",
+    "Scheduling visits to outdoor sites during peak sun hours, which can be exhausting and diminish the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a guided tour of the Valley of the Kings to fully understand the history.",
+    "Most visitors regret missing the sound and light show at Karnak Temple for a unique perspective.",
+    "Most visitors regret not trying local street food, which offers a taste of authentic Egyptian flavors."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Temperatures range from 15°C to 25°C, pleasant for outdoor exploration.",
+      "crowds": "Very crowded, especially around Christmas and New Year.",
+      "verdict": "Ideal for those who enjoy mild weather but expect large crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer tourists and moderate temperatures make it a great time to visit."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Extremely hot, with temperatures often exceeding 40°C; not ideal for sightseeing.",
+      "hiddenGem": "The lack of tourists can mean a more personal experience at the sites."
+    },
+    "bestMonth": "October, as the weather is comfortable and tourist crowds are manageable.",
+    "currentSeason": "June 2026 conditions are hot, around 38°C with fewer tourists, making early morning visits preferable."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Valley of the Kings early in the morning to avoid the heat and crowds, ideally by 7 AM.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try to catch the local market on Fridays for fresh produce and local crafts; it’s a lively experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring cash in small denominations for easy tipping and local purchases, as many places do not accept cards.",
+      "category": "money"
+    },
+    {
+      "tip": "Avoid the tourist traps by asking locals for their favorite spots to eat; they often lead to the best meals.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a felucca ride at sunset on the Nile; it's a serene way to see the city from the water.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Koshari at 'Abou El Sid' for 30 EGP (~₹10)",
+    "midRangeMeal": "Mixed grill platter at 'El Tarboush' for 150 EGP (~₹50)",
+    "luxuryMeal": "Dinner at 'The Winter Palace' for 500 EGP (~₹160)",
+    "localTransportPerDay": "Local minibus transport around 50 EGP (~₹16)",
+    "budgetHotelPerNight": "Hostel bed for around 200 EGP (~₹65), basic amenities.",
+    "midRangeHotelPerNight": "3-star hotel for around 800 EGP (~₹260), including breakfast.",
+    "luxuryHotelPerNight": "5-star hotel for around 3,000 EGP (~₹975), with luxury amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel for ₹600",
+      "food": "Street food and local cafés for ₹800",
+      "transport": "Buses and shared taxis for ₹400"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,000",
+      "accommodation": "Mid-range hotel for ₹2,600",
+      "food": "Dining at decent restaurants for ₹1,500"
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Expect a high standard of service and comfort in luxury hotels, but prices can vary significantly."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites; women should cover their shoulders and knees.",
+    "Always ask permission before taking photos of locals, especially in rural areas.",
+    "Respect the customs regarding food; it’s polite to eat with your right hand and to share food."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial guides; always use licensed ones to avoid scams.",
+      "Watch out for overcharging in taxis; agree on a fare before starting."
+    ],
+    "emergencyContacts": {
+      "police": "122",
+      "ambulance": "123",
+      "indianEmbassy": "Embassy of India in Cairo: +20-2-340-1734"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Temple of Karnak",
+        "what": "The massive columns with hieroglyphs",
+        "bestTime": "Early morning",
+        "tip": "Use a wide-angle lens to capture the scale."
+      }
+    ],
+    "goldenHour": "Around 6:00 PM during summer months.",
+    "tip": "Consider a polarizing filter to reduce glare when photographing around the Nile."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Karnak Temple",
+        "Lunch at a riverside café",
+        "Sunset at the Valley of the Kings"
+      ],
+      "emotionalArc": "This sequence creates a journey from historical wonder to local flavor, culminating in a reflective moment at sunset.",
+      "bestFor": [
+        "history enthusiasts",
+        "food lovers",
+        "photographers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Aswan",
+      "travelTime": "3 hours",
+      "how": "By train or bus",
+      "whyCombine": "To explore the beautiful temples of Abu Simbel."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many sites have basic accessibility, but expect some challenges at ancient ruins.",
+    "majorChallenges": "Uneven pathways and steps at historical sites can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring a guide who is familiar with accessibility options for a smoother experience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot, with temperatures around 38°C and fewer tourists, making early visits advisable.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, e-Visa rules remain the same for Indian travelers."
+  }
+}

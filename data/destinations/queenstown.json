@@ -1,0 +1,268 @@
+{
+  "destination": "Queenstown",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "aliases": [
+    "Queenstown",
+    "queenstown",
+    "new zealand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Adventure Seekers",
+      "Nature Lovers",
+      "Foodies",
+      "Winter Sports Enthusiasts",
+      "Thrill-Seekers"
+    ],
+    "notFor": [
+      "Budget Travelers",
+      "Those Seeking Urban Experiences",
+      "Travelers with Mobility Challenges"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h to Auckland + 2h",
+    "flightFromMumbai": "14h to Auckland + 2h, typically with Air New Zealand or Qantas, prices range from ₹60,000 to ₹85,000 return",
+    "visaForIndians": "NZ ETA NZD 23",
+    "currency": "New Zealand Dollar (NZD), 1 INR = 0.019 NZD",
+    "timezone": "UTC+12",
+    "language": "English",
+    "bestMonthToVisit": "July, for winter sports and snow activities",
+    "avoidMonth": "February, as it tends to be crowded with tourists and accommodation prices soar",
+    "tipping": "Tipping is not customary; however, rounding up the bill or leaving small change for good service is appreciated."
+  },
+  "whyPeopleFallInLove": "The moment you leap off the Kawarau Bridge, the wind rushing past you and the adrenaline pumping through your veins, you realize this is a place where you can truly push your limits and embrace the thrill of adventure.",
+  "honestTruth": "Many travelers underestimate the cold in winter; it can be biting, and without proper gear, your adventure might turn into misery rather than excitement.",
+  "localTruths": [
+    "Most visitors think Queenstown is all about the adrenaline rush. Locals think it’s equally about the serene beauty of the surrounding landscapes and the quiet moments spent at Lake Wakatipu.",
+    "Most visitors flock to the popular bungee spots. The best version of Queenstown is exploring lesser-known trails like the Ben Lomond Track at sunrise for a rewarding view.",
+    "Most visitors miss the local food scene. The real Queenstown starts at the farmers' market on Saturday mornings where you can taste fresh, local produce."
+  ],
+  "neighborhoodPersonalities": {
+    "Central Queenstown": {
+      "tags": [
+        "lively",
+        "touristy",
+        "convenient"
+      ],
+      "bestFor": "those who want to be in the heart of the action with easy access to shops and restaurants.",
+      "avoid": "It can get noisy at night, especially during the peak season."
+    },
+    "Fern Hill": {
+      "tags": [
+        "scenic",
+        "quieter",
+        "residential"
+      ],
+      "bestFor": "travellers seeking stunning views away from the hustle.",
+      "avoid": "Limited public transport options, making it less convenient for some."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h to Auckland + 2h",
+        "airlines": [
+          "Air India",
+          "Qantas"
+        ],
+        "priceRange": "₹60,000 - ₹85,000 return",
+        "note": "Book at least 3 months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "Approx. 14h to Auckland + 2h",
+        "airlines": [
+          "Air New Zealand",
+          "Singapore Airlines"
+        ],
+        "priceRange": "₹60,000 - ₹90,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; shuttle services are available costing around NZD 15 and taking about 30 minutes.",
+      "taxi": "Taxis cost around NZD 40 and take about 20 minutes.",
+      "recommended": "For first-timers, a pre-booked shuttle service is recommended for ease."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "NZ ETA NZD 23",
+    "applyAt": "https://www.immigration.govt.nz",
+    "processingTime": "Typically processed within 72 hours.",
+    "tip": "Apply for the ETA at least two weeks before your travel date to avoid last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Vudu Café & Larder and order the smashed avocado on sourdough with poached eggs.",
+    "sunset": "Watch the sunset at the Skyline Gondola viewpoint around 6:30 PM in winter for a picturesque view of the city and lake.",
+    "meal": "Dine at Rātā and try the slow-cooked lamb shoulder, a local favorite.",
+    "memory": "Standing on the edge of the Remarkables at sunrise, feeling the chill of the morning air and watching the sky turn orange as the sun rises over the mountains.",
+    "secret": "Locals know the best-kept secret is the walk along the shores of Lake Wakatipu at dawn, where the landscape is entirely still."
+  },
+  "residentSunday": "A Queenstown resident might spend Sunday enjoying a leisurely brunch at the Remarkables Market, followed by a hike up Queenstown Hill and a relaxing afternoon at the lake, ending the day with a BBQ at home with friends.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and breathe in the crisp mountain air while feeling the excitement building for the adventures ahead.",
+    "peak": "The peak day memory target is when you take a jet boat ride on the Shotover River, adrenaline rushing as you navigate through narrow canyons.",
+    "departure": "Departure should feel bittersweet, with a heart full of memories and a promise to return for more adventures."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Quick highlights: bungee jump, Lake Wakatipu stroll, and a meal at a local restaurant.",
+      "misses": "You miss out on deeper hikes and a chance to explore the ski fields."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience with adventure, relaxation, and a taste of local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of outdoor activities including skiing, hiking, and local wineries.",
+      "whoFor": "Adventure enthusiasts and nature lovers."
+    },
+    "recommended": "Four days is ideal to enjoy a mix of adventure and relaxation while soaking in the beautiful surroundings."
+  },
+  "antiPatterns": [
+    "Trying to do everything in one day, like bungee jumping and skiing, leads to exhaustion and missing the experience of each activity.",
+    "Ignoring the local food scene by eating only at tourist spots results in missing the true flavors of Queenstown.",
+    "Visiting during peak season without accommodations booked in advance can lead to inflated prices and limited options."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a day trip to Milford Sound, which is often described as a highlight of New Zealand.",
+    "Most visitors regret missing out on the local wineries for tastings and tours.",
+    "Most visitors regret not bringing proper gear for outdoor activities, which can lead to discomfort."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Warm, average temperatures between 20°C to 30°C.",
+      "crowds": "Very crowded with tourists, especially during holidays.",
+      "verdict": "Plan well in advance if visiting during this time."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "Fewer tourists and moderate weather create a pleasant experience."
+    },
+    "offSeason": {
+      "months": "May to August",
+      "reality": "Cold and potentially snowy, but perfect for skiing; fewer tourists mean better availability.",
+      "oneReasonSomePreferIt": "Ski enthusiasts enjoy lesser crowds on the slopes."
+    },
+    "bestMonth": "July, for optimal skiing conditions.",
+    "currentSeason": "June 2026 is chilly with average temperatures around 5°C to 10°C; locals are preparing for the ski season with fresh snow in the mountains."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "The best time to visit the local farmers' market is early Saturday morning for the freshest produce and artisan goods.",
+      "category": "food"
+    },
+    {
+      "tip": "If you're skiing, rent your gear from shops in town rather than on the mountain for better prices.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try the local craft beers at Altitude Brewing; they often have tastings on Fridays.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a hike to Queenstown Hill for stunning views without the crowds; the best time to go is late afternoon.",
+      "category": "timing"
+    },
+    {
+      "tip": "Book your activities online ahead of time; many offer discounts for pre-booking.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish and chips from a local takeaway for NZD 15 (₹790).",
+    "midRangeMeal": "A three-course meal for two at a mid-range restaurant costs around NZD 100 (₹5,300).",
+    "luxuryMeal": "A dinner at Rātā could cost around NZD 150 (₹7,900) per person.",
+    "localTransportPerDay": "Typical daily local transport cost is around NZD 30 (₹1,570).",
+    "budgetHotelPerNight": "Hostel accommodation costs about NZD 40 (₹2,100) for a shared dorm.",
+    "midRangeHotelPerNight": "Mid-range hotels average NZD 150 (₹7,900) per night with amenities like breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels can start from NZD 300 (₹15,800) per night."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorms at ₹2,100",
+      "food": "Cheap meals from supermarkets or takeaways.",
+      "transport": "Public buses and shared rides."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels around ₹7,900",
+      "food": "Dining at local cafes and restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury options offer excellent service, but expect to pay significantly more for premium experiences."
+    }
+  },
+  "culturalRules": [
+    "Respect nature and follow local guidelines when hiking or engaging in outdoor activities.",
+    "Wear appropriate clothing for outdoor activities, as weather conditions can change rapidly.",
+    "Be mindful of personal space and noise levels in public areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Watch out for unlicensed taxis at the airport; always use authorized taxi services.",
+      "Be cautious of rental scams; always book through reputable companies."
+    ],
+    "emergencyContacts": {
+      "police": "111",
+      "ambulance": "111",
+      "indianEmbassy": "New Zealand High Commission, Wellington - +64 4-499 4000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Kawarau Bridge",
+        "what": "Capture the thrilling bungee jumpers against the beautiful backdrop.",
+        "bestTime": "Late afternoon for golden light.",
+        "tip": "Use a zoom lens to capture the action from a distance."
+      }
+    ],
+    "goldenHour": "Approximately one hour after sunrise and one hour before sunset.",
+    "tip": "Always carry a polarizing filter to enhance colors and reduce glare from water."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Jet Boating on the Shotover River",
+        "Lunch at a lakeside café",
+        "Skyline Gondola ride and dinner at the restaurant"
+      ],
+      "emotionalArc": "This sequence combines adrenaline, relaxation, and stunning views, creating a fulfilling day.",
+      "bestFor": [
+        "Adventure Seekers",
+        "Couples",
+        "Families"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Milford Sound",
+      "travelTime": "2 hours",
+      "how": "By bus or tour operator",
+      "whyCombine": "It's one of the most scenic locations in New Zealand, perfect for a day trip."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, but some hiking trails may pose challenges.",
+    "majorChallenges": "Steep terrain can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Always check specific activity providers for their accessibility options."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is cold, with temperatures around 5°C; the ski season has just begun, and there is a festive atmosphere in town with winter sports events.",
+    "currentAlerts": [],
+    "entryRequirements": "NZ ETA is still required for entry as of June 2026."
+  }
+}

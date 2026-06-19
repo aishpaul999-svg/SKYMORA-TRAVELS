@@ -1,0 +1,319 @@
+{
+  "destination": "Lucknow",
+  "state": "Uttar Pradesh",
+  "type": "city/cuisine",
+  "aliases": [
+    "Lucknow",
+    "lucknow",
+    "Uttar Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food enthusiasts",
+      "history buffs",
+      "architecture lovers",
+      "cultural explorers",
+      "shopping aficionados"
+    ],
+    "notFor": [
+      "party-goers",
+      "beach seekers",
+      "travellers looking for modern urban experiences"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the kebabs at Tunday Kababi. They stay for the soulful qawwali nights at the Bara Imambara, surrounded by the echoes of history. They return because Lucknow is a city where the past lingers in every alley, and the aroma of biryani fills the air, creating an irresistible charm.",
+  "honestTruth": "Most travel guides gloss over the fact that Lucknow's real treasures are its lesser-known eateries and local markets, where you can taste the true essence of Awadhi culture.",
+  "localTruths": [
+    "Most visitors think they need to see all the major monuments. Locals think the real charm lies in wandering through the narrow lanes of Aminabad and discovering local shops and eateries.",
+    "Most visitors rush through meals at popular restaurants. The best version of Lucknow is enjoying a leisurely meal with locals at a roadside dhaba, where the food is authentic and the experience is genuine.",
+    "Most visitors spend too much time at the Bara Imambara. The real Lucknow starts at the bustling Chowk market, where the city's spirit can be felt."
+  ],
+  "neighborhoodPersonalities": {
+    "Aminabad": {
+      "tags": [
+        "shopping",
+        "street food",
+        "local culture"
+      ],
+      "bestFor": "hustle and bustle of local life and shopping",
+      "avoid": "beware of pickpockets in crowded areas."
+    },
+    "Hazratganj": {
+      "tags": [
+        "shopping",
+        "cafes",
+        "modern"
+      ],
+      "bestFor": "upscale shopping and casual cafes",
+      "avoid": "don't expect local street food here."
+    },
+    "Bara Imambara": {
+      "tags": [
+        "history",
+        "architecture",
+        "tourism"
+      ],
+      "bestFor": "exploring Lucknow's rich history",
+      "avoid": "visit early to avoid tourist crowds."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Bara Imambara and its Bhool Bhulaiya",
+        "Indulge in kebabs at Tunday Kababi",
+        "Explore the Rumi Darwaza",
+        "Shop for chikan work in Chowk"
+      ],
+      "avoid": [
+        "Don't skip the local eateries for well-known restaurants",
+        "Avoid taxi scams at the railway station"
+      ],
+      "mindset": "Approach Lucknow with an open heart and a curious palate, ready to savor the rich flavors and history."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover hidden gems in the Chowk market",
+        "Visit the lesser-known tombs of the Nawabs",
+        "Take a heritage walk",
+        "Explore local art galleries"
+      ],
+      "neighborhoods": [
+        "Explore the quiet lanes of Nakkhas",
+        "Visit the local parks and gardens"
+      ],
+      "local": "Only locals know to visit the small tea stalls for the best chai and biscuits."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "Cool, pleasant with temperatures ranging from 10°C to 25°C",
+      "crowds": "Moderate to high, especially around festivals",
+      "prices": "20% price premium",
+      "verdict": "This is the best time to enjoy the city comfortably."
+    },
+    "shoulderSeason": {
+      "months": "March to June",
+      "why": "Fewer tourists and pleasant mornings make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Expect heavy rainfall and occasional flooding, making travel challenging.",
+      "hiddenGem": "The city is lush and green, offering a different charm."
+    },
+    "bestMonth": "December — ideal weather and vibrant festivals.",
+    "worstMonth": "July — the monsoon can disrupt travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying the street food at Aminabad.",
+    "Most visitors regret not exploring the local markets.",
+    "Most visitors regret not taking a guided heritage walk."
+  ],
+  "antiPatterns": [
+    "Rushing between attractions — it fails to capture the city's essence.",
+    "Focusing solely on tourist spots — you miss the local culture and flavor.",
+    "Visiting during peak afternoon heat without planning — it can ruin your experience."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Bara Imambara, lunch at Tunday Kababi, explore Chowk, and end with an evening stroll at Hazratganj.",
+      "verdict": "A whirlwind tour that scratches the surface of Lucknow."
+    },
+    "two_days": {
+      "focus": "Covers major attractions and some local experiences.",
+      "misses": "Misses deeper cultural insights and offbeat areas."
+    },
+    "three_to_four_days": {
+      "focus": "Covers major sights, local eateries, and cultural experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of history, cuisine, and local life.",
+      "whoFor": "Cultural enthusiasts and food lovers."
+    },
+    "recommended": "3 days — gives you a balanced experience of sights, sounds, and flavors."
+  },
+  "residentSunday": "A Lucknow resident with one free Sunday starts with a morning jog at Janeshwar Mishra Park, followed by breakfast at the popular Sharma Tea Stall for their famous samosas. In the afternoon, they visit the local art gallery at the State Museum, and in the evening, they enjoy a family dinner at the iconic Royal Cafe, known for its chaat and biryani.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of Charbagh station, greeted by the historical architecture and the aroma of fresh street food.",
+    "peak": "The peak day memory target — sharing kebabs at Tunday Kababi, surrounded by locals and travelers alike.",
+    "departure": "Feeling the warmth of the city's chaotic charm as you gaze back at the Bara Imambara one last time."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12004, departs 6:10am, 6.5h, ₹1,100 CC",
+      "bus": "Multiple state-run and private options available, costs around ₹700-₹1,000, but takes longer.",
+      "flight": "Direct flights available but can be expensive.",
+      "recommended": "Take the Shatabdi for comfort and speed.",
+      "budgetTip": "Book train tickets in advance to save ₹500-₹1,000."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, departs 5:30pm, 18h, ₹1,200 sleeper class.",
+      "flight": "Direct flights are available but can be costly.",
+      "recommended": "The train offers a more immersive travel experience."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 16515, departs 8:15pm, 32h, ₹1,500 sleeper class.",
+      "flight": "Direct flights may be more convenient but pricier.",
+      "recommended": "Consider a flight for time efficiency."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws and cycle rickshaws work best for short distances.",
+      "avoid": "Avoid unmetered rickshaws as they may overcharge.",
+      "appRecommendation": "Use Uber or Ola for safer rides.",
+      "autoRickshaw": "Generally safe and inexpensive, but negotiate fares beforehand.",
+      "cost": "A daily local transport budget of ₹300-₹500 is sufficient."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Auto-Rickshaw Overcharging",
+      "howItWorks": "Drivers may charge more than the actual fare for tourists.",
+      "prevention": "Always use metered taxis or ride-hailing apps.",
+      "ifItHappens": "Politely refuse and seek a different auto or report to the local authorities."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Samosas at Sharma Tea Stall, Aminabad",
+      "Chaat at Royal Cafe, Hazratganj",
+      "Tunday Kababi's Galouti Kebabs, Ameerpet"
+    ],
+    "avoidList": [
+      "Avoid water from roadside stalls, as it may not be purified.",
+      "Be cautious of uncooked vegetables at street food stalls."
+    ],
+    "waterAdvice": "Always drink bottled water or boiled water from trusted sources.",
+    "trustedDhabas": "Look for crowded dhabas with locals, indicating quality and safety.",
+    "mustEat": [
+      "Galouti Kebabs at Tunday Kababi",
+      "Awadhi Biryani at Idris Biryani",
+      "Nihari at Rahim's",
+      "Kebabs at Shukla's",
+      "Chaat at Prakash Ki Mashoor Chaat"
+    ],
+    "touristTrap": "Many tourists fall into the trap of dining at upscale hotels for local cuisine, missing the authentic flavors found on the streets."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Dress modestly while visiting religious sites; casual wear is acceptable elsewhere.",
+    "photographyRules": "Photography is restricted inside some historical sites like the Bara Imambara, so check signs.",
+    "templeEtiquette": "Remove shoes before entering temples and offer a prayer quietly.",
+    "timing": "Avoid visiting during midday heat; mornings and evenings are preferable for exploration.",
+    "localCustom": "Greet with a 'Salaam' to connect with locals and show respect."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget hotels around ₹500-₹800.",
+      "food": "Street food and local eateries around ₹400-₹600.",
+      "transport": "Auto-rickshaws or buses for ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels around ₹1,500-₹2,500.",
+      "food": "Dining at good restaurants for ₹800-₹1,000.",
+      "includes": "Guided tours and some local experiences."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels like Taj or Radisson around ₹5,000-₹6,000.",
+      "experience": "Private tours and fine dining."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury resorts and hotels with spa services.",
+      "note": "Luxury adds comfort but not necessarily a richer cultural experience."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers looking for a nightlife scene will be disappointed because Lucknow is more about heritage and cuisine.",
+    "If you want beaches, Lucknow is the wrong choice — Goa is better.",
+    "Anyone expecting a modern urban experience will find the charm of Lucknow lies in its historical roots."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the hidden gems of the Chowk market in the early morning for the freshest street food, particularly jalebis, for around ₹30.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the lesser-known tombs of the Nawabs in the evening for a serene experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local heritage walk that begins at the Bara Imambara at 6 AM for a quieter exploration.",
+      "category": "timing"
+    },
+    {
+      "tip": "For the best biryani, visit Idris Biryani after 10 PM when it's less crowded and freshly made.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a cycle rickshaw from Bara Imambara to Chowk for a scenic, local experience.",
+      "category": "transport"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Bara Imambara",
+        "Explore Chowk Market",
+        "Dine at Tunday Kababi"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate the historical context before indulging in local cuisine, creating a satisfying journey through Lucknow's heart.",
+      "bestFor": [
+        "food enthusiasts",
+        "history lovers",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Bara Imambara",
+        "what": "Capture the intricate architecture and the vast courtyard",
+        "bestTime": "Early morning for soft light",
+        "tip": "Visit on a weekday to avoid crowds."
+      }
+    ],
+    "goldenHour": "Between 6:00 AM and 7:00 AM and 5:30 PM to 6:30 PM.",
+    "restrictedAreas": [
+      "Inside Bara Imambara and during prayers at local mosques."
+    ],
+    "tip": "Look for framing opportunities with local life in the background to capture the essence of Lucknow."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many historical sites have limited accessibility, but some newer areas like malls are wheelchair-friendly.",
+    "majorChallenges": "Narrow streets and uneven pavements can be challenging for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "It's advisable for seniors to travel with companions to navigate the bustling streets."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Varanasi",
+      "distance": "295km",
+      "travelTime": "7 hours",
+      "how": "Take a train from Lucknow to Varanasi.",
+      "whyCombine": "Varanasi offers a spiritual contrast to Lucknow's historical allure."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "December",
+    "avoidMonth": "July due to heavy rainfall and flooding.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "117 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The weather is warm with occasional rains, making it a perfect time for local festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for entry."
+  }
+}

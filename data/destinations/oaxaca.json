@@ -1,0 +1,282 @@
+{
+  "destination": "Oaxaca",
+  "country": "Mexico",
+  "region": "Americas",
+  "aliases": [
+    "Oaxaca",
+    "oaxaca",
+    "mexico"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food enthusiasts",
+      "culture seekers",
+      "history buffs",
+      "art lovers",
+      "adventure travelers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "nightlife seekers",
+      "luxury-only travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h to Mexico City + 1h",
+    "flightFromMumbai": "20h to Mexico City + 1h",
+    "visaForIndians": "Visa-free with valid US/EU visa",
+    "currency": "Mexican Peso (MXN), 1 INR = 0.017 MXN",
+    "timezone": "UTC-6",
+    "language": "Spanish",
+    "bestMonthToVisit": "October, as it coincides with the Day of the Dead celebrations which are deeply significant here.",
+    "avoidMonth": "September, which is the wettest month and might affect travel plans.",
+    "tipping": "Tipping is customary; 10-15% is standard in restaurants."
+  },
+  "whyPeopleFallInLove": "Imagine standing in a bustling market, the aroma of freshly made mole wafting through the air as you watch a local cook preparing it right before your eyes—this immersive experience is just a taste of what Oaxaca offers.",
+  "honestTruth": "Many guides emphasize the beauty of Oaxaca, but they often overlook the fact that the city can get quite crowded during festivals, which can diminish the experience if not planned properly.",
+  "localTruths": [
+    "Most visitors think that Oaxaca is just about the food. Locals think it's about the traditions and stories behind each dish.",
+    "Most visitors stick to the main tourist spots. The best version of Oaxaca is found in the lesser-known markets like Mercado de Abastos.",
+    "Most visitors miss the authentic mezcal experiences available at local palenques. The real Oaxaca starts at small villages where mezcal is crafted."
+  ],
+  "neighborhoodPersonalities": {
+    "Centro Histórico": {
+      "tags": [
+        "cultural",
+        "historic",
+        "artistic"
+      ],
+      "bestFor": "Exploring the rich history through its colonial architecture and museums.",
+      "avoid": "It can become overly touristy, making it feel less authentic."
+    },
+    "Jalatlaco": {
+      "tags": [
+        "artistic",
+        "bohemian",
+        "quiet"
+      ],
+      "bestFor": "Strolling through colorful streets and enjoying local art galleries.",
+      "avoid": "Limited dining options in the late evening."
+    },
+    "Barrio de Xochimilco": {
+      "tags": [
+        "traditional",
+        "local",
+        "cultural"
+      ],
+      "bestFor": "Experiencing local traditions and festivities.",
+      "avoid": "Language barriers can be challenging as fewer locals speak English."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h to Mexico City + 1h",
+        "airlines": [
+          "Air India",
+          "Lufthansa"
+        ],
+        "priceRange": "₹70,000 - ₹90,000",
+        "note": "Book in advance to secure the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "20h to Mexico City + 1h",
+        "airlines": [
+          "Emirates",
+          "Air France"
+        ],
+        "priceRange": "₹75,000 - ₹95,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; shuttle buses cost around MXN 200 and take about 30 minutes.",
+      "taxi": "Taxis cost around MXN 300 and take about 20 minutes.",
+      "recommended": "For first-timers, a taxi is the most straightforward option, especially after a long flight."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free with valid US/EU visa",
+    "applyAt": "You can check the requirements on the Mexican government’s official immigration website.",
+    "processingTime": "Not applicable for visa-free entry.",
+    "tip": "Ensure your US/EU visa is valid for at least 6 months before your intended travel to avoid any issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Café Brújula' for their signature coffee and a traditional Oaxacan breakfast of 'Huevos Rancheros'.",
+    "sunset": "Head to 'El Cerro del Fortín' for a panoramic view of the city—aim for 6:30 PM during the dry season.",
+    "meal": "Dine at 'Casa Oaxaca' for their mole negro, a dish that captures the essence of Oaxacan cuisine.",
+    "memory": "The moment you participate in the Day of the Dead festivities, surrounded by colorful altars and local music, creates a lasting impression.",
+    "secret": "Only locals know that the best mezcal can be found at small family-run distilleries in surrounding villages, away from tourist traps."
+  },
+  "residentSunday": "A typical Sunday for a local includes breakfast at 'La Casa de la Abuela', followed by a stroll through 'El Llano Park' while enjoying traditional churros from a nearby vendor. In the afternoon, they might visit a local artisan market to buy handcrafted goods and enjoy a family meal at 'El Fogón del Maiz'.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and are greeted by the warm sun and the smell of fresh tortillas in the air.",
+    "peak": "The peak day memory target is experiencing the Day of the Dead parade, filled with vibrant costumes and lively music.",
+    "departure": "Departure should feel like leaving a piece of your heart behind as you reflect on the rich experiences and friendships formed."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Quick exploration of the main plazas, markets, and a taste of local cuisine.",
+      "misses": "You'll miss the deeper cultural experiences and the surrounding natural beauty."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering key attractions, local food, and some cultural sites.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Comprehensive exploration including day trips to nearby ruins and villages.",
+      "whoFor": "Travelers wanting an immersive experience."
+    },
+    "recommended": "Four days is ideal to truly appreciate the culinary and cultural depth of Oaxaca."
+  },
+  "antiPatterns": [
+    "Visiting only during the Day of the Dead can lead to overwhelming crowds and less personal experiences. Instead, consider timing your visit to enjoy the festivities while also exploring quieter periods.",
+    "Sticking to tourist restaurants often leads to missing authentic flavors; seek out local eateries for genuine meals.",
+    "Underestimating travel time between attractions can lead to frustration; plan your days with ample time for travel."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local street food, particularly the tlayudas and memelas.",
+    "Most visitors regret not visiting the nearby archaeological site of Monte Albán, which offers stunning views and history.",
+    "Most visitors regret not taking a mezcal tasting tour, missing out on the variety of flavors and production methods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to December",
+      "weather": "Pleasant temperatures around 20-25°C during the day, cooler at night.",
+      "crowds": "Crowds are significant during festivals, particularly Day of the Dead.",
+      "verdict": "Best time for cultural experiences but expect busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer crowds and pleasant weather make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Heavy rains can disrupt travel plans, especially in rural areas.",
+      "hiddenGem": "Some travelers appreciate the quieter atmosphere and lower prices."
+    },
+    "bestMonth": "October, as it offers the extraordinary experience of the Day of the Dead.",
+    "currentSeason": "June 2026 is warm and moderately humid, with occasional rains, ideal for enjoying fresh local produce."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Santo Domingo Church' early in the morning to avoid crowds and appreciate the intricate details of the architecture.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best local markets, head to 'Mercado de Abastos' on a Saturday morning for fresh produce and local delicacies.",
+      "category": "food"
+    },
+    {
+      "tip": "Attend a mezcal tasting at 'Mezcalería Los Amantes' where you can learn about the production process from local artisans.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to catch a local dance performance at 'Teatro Macedonio Alcalá' for an authentic taste of Oaxacan culture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the artisan town of 'Teotitlán del Valle' to see traditional weaving techniques and purchase handmade rugs directly from artisans.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Taco de Tlayuda at a street vendor for MXN 30 (~₹175)",
+    "midRangeMeal": "3-course meal at a mid-range restaurant costs MXN 500 (~₹2,950)",
+    "luxuryMeal": "Gourmet dining at 'Casa Oaxaca' for around MXN 1,200 (~₹7,100)",
+    "localTransportPerDay": "Typical daily local transport cost is around MXN 100 (~₹600)",
+    "budgetHotelPerNight": "Hostel accommodation for MXN 400 (~₹2,350) with shared facilities.",
+    "midRangeHotelPerNight": "Comfortable hotel room for MXN 1,000 (~₹5,900) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like 'Quinta Real' starting at MXN 3,000 (~₹17,800)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dormitory for ₹1,000",
+      "food": "Street food for ₹500",
+      "transport": "Local buses and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹6,500",
+      "accommodation": "Mid-range hotel for ₹3,000",
+      "food": "Mix of restaurants and street food."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options offer exceptional service but can be quite different from local experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches or local communities to respect local customs.",
+    "It's polite to greet shop owners and locals with a friendly 'Hola'.",
+    "Always ask for permission before taking photographs of individuals, especially in rural areas."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of fake tour guides at popular spots; always book through reputable agencies.",
+      "Watch out for pickpockets in crowded areas."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Embassy of India in Mexico, phone: +52 555 258 1300"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Zócalo",
+        "what": "Capture life in the heart of Oaxaca, especially with the colonial buildings as a backdrop.",
+        "bestTime": "Early morning for soft light and fewer people.",
+        "tip": "Visit on a Sunday for local events and performances."
+      }
+    ],
+    "goldenHour": "Around 6:30 PM during summer months.",
+    "tip": "The vibrant colors of local textiles make for stunning close-up shots at artisan markets."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit to Monte Albán",
+        "Lunch at a local eatery in the valley",
+        "Mezcal tasting at a nearby distillery"
+      ],
+      "emotionalArc": "This sequence allows for a deep dive into history, followed by local flavors, creating a well-rounded day.",
+      "bestFor": [
+        "history enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Mitla",
+      "travelTime": "30 minutes",
+      "how": "Bus or taxi",
+      "whyCombine": "Known for its archaeological ruins and unique mosaics."
+    },
+    {
+      "city": "Hierve el Agua",
+      "travelTime": "1.5 hours",
+      "how": "Taxi or tour",
+      "whyCombine": "Natural mineral springs with stunning rock formations."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public spaces are not wheelchair accessible due to cobblestone streets.",
+    "majorChallenges": "Stairs in historical sites can be a challenge for those with mobility issues.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider guided tours that cater to senior travelers for a more comfortable experience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rains; expect fewer tourists and vibrant local life.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry with a valid US/EU visa for Indian passport holders."
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "destination": "Puri",
+  "state": "Odisha",
+  "type": "temple/beach",
+  "aliases": [
+    "Puri",
+    "puri",
+    "Odisha"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "spiritual seekers",
+      "beach lovers",
+      "culture enthusiasts",
+      "foodies",
+      "history buffs"
+    ],
+    "notFor": [
+      "luxury travelers expecting high-end amenities",
+      "party-goers looking for nightlife",
+      "those avoiding religious sites"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the majestic Jagannath Temple, where the scent of sandalwood wafts through the air. They stay for the peaceful sunrise walks along Puri Beach, where the sound of crashing waves complements the morning prayers. They return because Puri is the one place where spirituality and simplicity intertwine effortlessly.",
+  "honestTruth": "Most travel guides overlook the fact that Puri's true spirit lies beyond the temple walls, waiting in the everyday lives of its locals who share their stories with warmth.",
+  "localTruths": [
+    "Most visitors think Puri is solely about the Jagannath Temple. Locals know that the real charm is found in the beachside markets and local eateries serving fresh seafood.",
+    "Most visitors do a quick temple tour. The best version of Puri is to join locals for the evening aarti and savor the atmosphere.",
+    "Most visitors spend too much time at the temple. The real Puri starts at the fishermen's village, where you can witness authentic coastal life."
+  ],
+  "neighborhoodPersonalities": {
+    "Sea Beach": {
+      "tags": [
+        "relaxation",
+        "street food",
+        "water sports"
+      ],
+      "bestFor": "beach lovers looking for leisure and local cuisine.",
+      "avoid": "the crowded areas during peak hours to truly enjoy the beach."
+    },
+    "Jagannath Temple Area": {
+      "tags": [
+        "spiritual",
+        "historic",
+        "cultural"
+      ],
+      "bestFor": "those seeking spiritual enrichment and a deep dive into local traditions.",
+      "avoid": "the vendors pushing overpriced souvenirs."
+    },
+    "Swargadwar": {
+      "tags": [
+        "market",
+        "food",
+        "local life"
+      ],
+      "bestFor": "food enthusiasts eager to try local seafood delicacies.",
+      "avoid": "overpriced restaurants that don't reflect local flavors."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit the Jagannath Temple",
+        "Enjoy sunrise at Puri Beach",
+        "Try the local seafood at Swargadwar",
+        "Explore the beach market"
+      ],
+      "avoid": [
+        "Rushing through the temple without understanding its significance",
+        "Missing out on local food by sticking to tourist traps"
+      ],
+      "mindset": "Approach Puri with an open heart, ready to embrace its spiritual essence and local flavors."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Visit the nearby Konark Sun Temple",
+        "Attend the Ratha Yatra festival if in season",
+        "Explore the fishermen's village",
+        "Learn about local handicrafts"
+      ],
+      "neighborhoods": [
+        "Fishermen's village",
+        "local markets"
+      ],
+      "local": "Only locals know the best time to visit the beach is during the evening, when the sunset paints the sky."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "Pleasant temperatures ranging from 18°C to 28°C",
+      "crowds": "Very crowded, especially during festivals like Ratha Yatra",
+      "prices": "20% price premium on accommodation",
+      "verdict": "Great weather but expect large crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to June",
+      "why": "Fewer crowds, decent weather before the heat intensifies."
+    },
+    "offSeason": {
+      "months": "July to October",
+      "reality": "Monsoon rains can disrupt travel, but the beach is less crowded and prices drop significantly.",
+      "hiddenGem": "The lush greenery and serene beach during the off-season attracts a few travelers looking for solitude."
+    },
+    "bestMonth": "December, as it offers pleasant weather and festive vibes.",
+    "worstMonth": "July, due to heavy rains making travel difficult."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying the local food and sticking to familiar restaurants.",
+    "Most visitors regret not taking the time to understand the rituals at the Jagannath Temple.",
+    "Most visitors regret not exploring nearby attractions like Konark Sun Temple."
+  ],
+  "antiPatterns": [
+    "Visiting only during peak hours at the Jagannath Temple — it leads to a rushed experience.",
+    "Sticking to the beach without exploring local markets — misses the essence of Puri's culture.",
+    "Skipping local transportation in favor of taxis — you miss out on the local vibe."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit the Jagannath Temple, enjoy lunch at Swargadwar, relax on the beach, and explore local shops.",
+      "verdict": "A whirlwind experience, but you'll leave wanting more."
+    },
+    "two_days": {
+      "focus": "Covers the main attractions, including temples and beaches.",
+      "misses": "Local life and deeper cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A more relaxed pace, including visits to nearby attractions and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of Puri and surrounding areas like Konark and Chilika Lake.",
+      "whoFor": "culture enthusiasts and beach lovers."
+    },
+    "recommended": "3 days — this allows for a thorough exploration of both the spiritual and coastal aspects of Puri."
+  },
+  "residentSunday": "A Puri resident with one free Sunday: starts with a morning jog along the beach, followed by breakfast at 'Bhai Bhai Restaurant' for fresh fish curry. In the afternoon, they visit the local market for fresh produce, and ends with a peaceful evening at the Jagannath Temple for the aarti ceremony.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step onto the beach and feel the soft sand between your toes, with the sound of waves crashing in the background.",
+    "peak": "The peak memory is participating in the evening aarti at the Jagannath Temple, enveloped in the chants and the warmth of the crowd.",
+    "departure": "As you look back at the beach one last time, watching the sun set, you feel a sense of peace that you’ll carry with you."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Direct buses are available, but they take over 30 hours and are uncomfortable.",
+      "flight": "No direct flights; the nearest airport is in Bhubaneswar.",
+      "recommended": "Take the Shatabdi Express for comfort and speed.",
+      "budgetTip": "Book train tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Konark Express 11019, departs 4:45pm, 18 hours, ₹1,200 sleeper class.",
+      "flight": "Direct flights available, around ₹5,000.",
+      "recommended": "The train is more economical and gives a taste of the Indian railway experience."
+    },
+    "fromBangalore": {
+      "train": "Yesvantpur-Puri Express 18415, departs 8:30pm, 30 hours, ₹1,000 sleeper class.",
+      "flight": "Flights to Bhubaneswar (₹4,000), then take a taxi to Puri.",
+      "recommended": "Train travel is scenic but long; consider flying for a quicker trip."
+    },
+    "localTransport": {
+      "best": "Auto-rickshaws and cycle-rickshaws are the best local transport options.",
+      "avoid": "Avoid unregistered taxis that may overcharge.",
+      "appRecommendation": "Use 'Olacabs' for reliable taxi services.",
+      "autoRickshaw": "Generally inexpensive, but negotiate the fare beforehand.",
+      "cost": "Daily local transport budget of ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Temple Donations Scam",
+      "howItWorks": "Scammers pose as temple officials asking for donations.",
+      "prevention": "Only donate directly at the temple's official donation counters.",
+      "ifItHappens": "Report to temple authorities immediately."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Puri's famous 'Aloo Tikki' at Swargadwar",
+      "Seafood at 'Bhai Bhai Restaurant'",
+      "Local sweets like 'Rasgulla' from 'Bengal Sweets'"
+    ],
+    "avoidList": [
+      "Avoid street food that looks stale or unhygienic — inspect the cleanliness of the stall.",
+      "Avoid raw salads from unfamiliar places."
+    ],
+    "waterAdvice": "Drink only bottled or purified water; tap water is not safe.",
+    "trustedDhabas": "Look for crowded dhabas with locals dining — this is a good sign of quality.",
+    "mustEat": [
+      "Bihari Puri from 'Bhai Bhai Restaurant'",
+      "Chhena Poda at 'Bengal Sweets'",
+      "Fish Curry at 'Hotel Grand'"
+    ],
+    "touristTrap": "Many tourists fall into the trap of eating at overpriced hotels that serve bland food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest attire is required, especially in temples — cover shoulders and knees.",
+    "photographyRules": "Photography is not allowed inside the Jagannath Temple.",
+    "templeEtiquette": "Remove shoes before entering temples and maintain silence.",
+    "timing": "Best to visit temples early morning or late afternoon to avoid crowds.",
+    "localCustom": "It is customary to join locals in the aarti ceremony at the temple."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels for ₹500-700.",
+      "food": "Street food and local dhabas for ₹300-500.",
+      "transport": "Local transport budget of ₹300-500."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels for ₹1,500-2,000.",
+      "food": "Dining at local restaurants for ₹800-1,000.",
+      "includes": "Local experiences and some guided tours."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "3-4 star hotels for ₹3,000-4,500.",
+      "experience": "Includes guided temple tours and private transportation."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury hotels with ocean views.",
+      "note": "Luxury does add comfort but not necessarily a unique experience."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek high-end luxury will be disappointed because Puri has limited upscale options.",
+    "If you want a vibrant nightlife, Puri is the wrong choice — Bhubaneswar is better.",
+    "Anyone expecting a purely modern experience will find Puri's charm lies in its traditional roots."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Bhai Bhai Restaurant early for the freshest seafood at ₹250 per meal — arrive before noon.",
+      "category": "food"
+    },
+    {
+      "tip": "Join locals for the evening aarti at the Jagannath Temple for a truly immersive experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the fishermen's village at dawn to witness the daily catch being brought in.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use the local bus service to save money on transport and experience the local life.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend the Ratha Yatra festival for a once-in-a-lifetime experience of culture and devotion.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning at Jagannath Temple",
+        "Lunch at Bhai Bhai Restaurant",
+        "Afternoon at Puri Beach",
+        "Evening aarti at the temple"
+      ],
+      "emotionalArc": "This sequence allows you to immerse in spirituality, savor local flavors, and experience the vibrant atmosphere of Puri.",
+      "bestFor": [
+        "spiritual seekers",
+        "food lovers",
+        "cultural enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Puri Beach",
+        "what": "Sunrise over the sea",
+        "bestTime": "Early morning",
+        "tip": "Arrive at least 30 minutes before sunrise for the best light."
+      }
+    ],
+    "goldenHour": "The golden hour is during sunrise at Puri Beach and sunset over the sea.",
+    "restrictedAreas": [
+      "Jagannath Temple interior",
+      "Certain areas of Swargadwar"
+    ],
+    "tip": "Experiment with long exposure shots on the beach during sunset for stunning effects."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are not wheelchair accessible; beaches have sandy terrains.",
+    "majorChallenges": "Uneven pavements and crowded markets can pose difficulties.",
+    "seniorFriendlyScore": 6,
+    "note": "Plan ahead for mobility needs, especially in crowded places."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Konark",
+      "distance": "35km",
+      "travelTime": "1 hour",
+      "how": "Local bus or taxi",
+      "whyCombine": "Famous for the Sun Temple, a UNESCO World Heritage site."
+    },
+    {
+      "city": "Chilika Lake",
+      "distance": "100km",
+      "travelTime": "2.5 hours",
+      "how": "Shared taxi or private car",
+      "whyCombine": "Great for bird watching and experiencing local fishing villages."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "December",
+    "avoidMonth": "July due to monsoon rains.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "Sea level",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is the start of the monsoon season; expect scattered showers but also fewer tourists.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic travelers."
+  }
+}

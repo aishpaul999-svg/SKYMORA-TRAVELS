@@ -1,0 +1,282 @@
+{
+  "destination": "Bordeaux",
+  "country": "France",
+  "region": "Europe",
+  "aliases": [
+    "Bordeaux",
+    "bordeaux",
+    "france"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Wine Enthusiasts",
+      "Architecture Buffs",
+      "Culinary Explorers",
+      "History Lovers",
+      "Art Aficionados"
+    ],
+    "notFor": [
+      "Beach Seekers",
+      "Nightlife Focused Travelers",
+      "Adventure Seekers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h",
+    "flightFromMumbai": "11h (Air France, Qatar Airways)",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "French",
+    "bestMonthToVisit": "September - Grapes are harvested, offering wine tours and festivals.",
+    "avoidMonth": "August - Many locals are on holiday, leading to closures of attractions.",
+    "tipping": "Not mandatory; rounding up the bill or leaving 5-10% is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine sitting at a sun-drenched terrace along the Garonne River, sipping a glass of full-bodied Bordeaux wine while enjoying the aroma of fresh pastries from a nearby bakery. The charm of watching the sunset over the historic Place de la Bourse adds an unforgettable touch to this experience.",
+  "honestTruth": "Many travelers underestimate the importance of booking wine tours in advance; local vineyards can be fully booked during harvest season.",
+  "localTruths": [
+    "Most visitors think Bordeaux is just about wine. Locals think it's a city of exquisite architecture and culinary delights that deserve equal attention.",
+    "Most visitors stick to the popular vineyards. The best version of Bordeaux is exploring lesser-known wineries that offer personal tastings.",
+    "Most visitors miss the early morning market at Marché des Capucins. The real Bordeaux starts here, where locals gather for fresh produce and local delicacies."
+  ],
+  "neighborhoodPersonalities": {
+    "Saint-Pierre": {
+      "tags": [
+        "historic",
+        "cultural",
+        "lively"
+      ],
+      "bestFor": "Exploring quaint streets filled with boutiques and cafés.",
+      "avoid": "Can be crowded during weekends, making it hard to enjoy the atmosphere."
+    },
+    "Chartrons": {
+      "tags": [
+        "art",
+        "vintage",
+        "relaxed"
+      ],
+      "bestFor": "Antique shops and art galleries.",
+      "avoid": "Limited dining options in the evening."
+    },
+    "Les Grands Hommes": {
+      "tags": [
+        "upscale",
+        "shopping",
+        "elegant"
+      ],
+      "bestFor": "High-end shopping and fine dining.",
+      "avoid": "Can be pricey, especially for meals."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h",
+        "airlines": [
+          "Air France",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹45,000 - ₹65,000 economy return]",
+        "note": "Booking in advance can yield better fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "11h",
+        "airlines": [
+          "Air France",
+          "Emirates"
+        ],
+        "priceRange": "[₹50,000 - ₹70,000 economy return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line A to the city center, costs €1.70 and takes about 30 minutes.",
+      "taxi": "Approximately €30-€40 and takes about 25 minutes depending on traffic.",
+      "recommended": "For first-timers, using the tram is an economical way to reach the city center while avoiding traffic."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global locations in India",
+    "processingTime": "Typically 15 days",
+    "tip": "Apply well in advance, especially during peak seasons like summer and harvest time."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café de la Paix - Try the pain au chocolat and a café crème.",
+    "sunset": "Pont de Pierre at 9:15 PM - The view of the city reflecting on the water is remarkable.",
+    "meal": "La Tupina - Order the duck confit, a local favorite.",
+    "memory": "The moment you see the reflection of the Place de la Bourse in the water mirror, capturing the essence of Bordeaux.",
+    "secret": "The best local wine bars are often tucked away in the alleys; ask locals for recommendations."
+  },
+  "residentSunday": "A Bordeaux resident spends their Sunday at Marché des Capucins in the morning for fresh produce, followed by brunch at Le Bouchon Bordelais. In the afternoon, they might relax at Parc Bordelais with a good book before enjoying dinner at a cozy wine bistro.",
+  "dayMemoryTargets": {
+    "arrival": "The first whiff of fresh baguettes as you step into a boulangerie on your way to the hotel.",
+    "peak": "Experiencing the lively atmosphere during a wine festival with locals dancing and celebrating.",
+    "departure": "Feeling a sense of nostalgia as you take one last look at the Garonne River and the city skyline."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Bordeaux's architecture and a wine tour.",
+      "misses": "In-depth exploration of the surrounding vineyards."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering wine, food, and architecture.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Comprehensive exploration of Bordeaux and nearby wine regions.",
+      "whoFor": "Wine enthusiasts and culture seekers."
+    },
+    "recommended": "Three to four days — ideal for a well-rounded experience."
+  },
+  "antiPatterns": [
+    "Starting your day too late leads to missing out on breakfast spots that close early.",
+    "Only visiting the large vineyards can limit your experience; smaller wineries offer more personal interactions.",
+    "Trying to see too many attractions in one day can lead to burnout; take your time to savor each experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a guided bike tour of the vineyards.",
+    "Most visitors regret missing the early morning market at Marché des Capucins.",
+    "Most visitors regret not making dinner reservations at popular restaurants."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 25°C to 35°C, generally dry.",
+      "crowds": "Very busy with tourists, especially in wine regions.",
+      "verdict": "Expect long waits at restaurants and attractions."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "Ideal for wine lovers due to harvest festivities and milder weather."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and rainy; many attractions may have reduced hours.",
+      "reason": "Some travelers prefer quieter experiences and better accommodation deals."
+    },
+    "bestMonth": "September - The wine harvest creates a lively atmosphere with events and tastings.",
+    "currentSeason": "June 2026 is pleasantly warm with occasional showers; the city is lively with numerous outdoor events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit La Cité du Vin for an interactive wine experience; book a tasting session in advance for the best wines.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local specialty, canelé, from Baillardran; they’re best enjoyed fresh.",
+      "category": "food"
+    },
+    {
+      "tip": "For the best views of the city, go to the rooftop of the Les Halles de Bacalan market.",
+      "category": "experience"
+    },
+    {
+      "tip": "Utilize the city's bike rental system for an authentic and eco-friendly way to explore.",
+      "category": "transport"
+    },
+    {
+      "tip": "Local wine bars often offer free tastings during happy hours; ask about their schedule.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Casse-croûte at a local café - €10 (₹900)",
+    "midRangeMeal": "Dinner at a brasserie - €30 (₹2,700)",
+    "luxuryMeal": "Fine dining at Le Pressoir d'Argent - €120 (₹10,800)",
+    "localTransportPerDay": "Around €5 (₹450) for unlimited tram rides.",
+    "budgetHotelPerNight": "Hostel bed - €25 (₹2,250) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotel - €80 (₹7,200) with breakfast included.",
+    "luxuryHotelPerNight": "5-star hotel - €250 (₹22,500) with luxury amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel dormitory at ₹900",
+      "food": "Street food and bakeries for ₹1,000",
+      "transport": "Public transport for ₹450"
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "Mid-range hotel at ₹7,200",
+      "food": "Cafés and casual dining for ₹2,000"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury stays can be worth the splurge for exclusive wine experiences and top-notch dining."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites; casual wear is acceptable but avoid beachwear.",
+    "Greeting locals with 'Bonjour' is expected; failure to do so can be seen as rude.",
+    "Dining etiquette includes waiting for the host to start eating and keeping hands on the table, not in your lap."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of street performers asking for money; enjoy the performance but don't feel obligated to pay.",
+      "Some tourists may encounter pickpockets in crowded areas."
+    ],
+    "emergencyContacts": {
+      "police": "17",
+      "ambulance": "15",
+      "indianEmbassy": "Embassy of India, Paris - +33-1-4050-1760"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Place de la Bourse",
+        "what": "Reflections in the water mirror",
+        "bestTime": "Early morning or late afternoon",
+        "tip": "Arrive early to avoid crowds."
+      }
+    ],
+    "goldenHour": "1 hour before sunset.",
+    "tip": "Experiment with angles around the Garonne River to capture the city's beauty from different perspectives."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Cité du Vin",
+        "Lunch at Les Halles de Bacalan",
+        "Wine tasting at a nearby vineyard"
+      ],
+      "emotionalArc": "This sequence allows you to immerse yourself in Bordeaux's wine culture, seamlessly blending education with experience.",
+      "bestFor": [
+        "Wine Enthusiasts",
+        "Culinary Explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Saint-Émilion",
+      "travelTime": "30min",
+      "how": "Train",
+      "whyCombine": "Renowned for its picturesque vineyards and historical sites."
+    },
+    {
+      "city": "Arcachon",
+      "travelTime": "1h",
+      "how": "Train or car",
+      "whyCombine": "Famous for its beautiful beaches and the Dune du Pilat."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public transport options are accessible, but some historic sites may have limitations.",
+    "majorChallenges": "Uneven cobblestones in older neighborhoods can pose difficulties.",
+    "seniorFriendlyScore": 7,
+    "note": "Public transportation is generally accommodating, but plan ahead for specific sites."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 25°C, crowds are moderate, and various outdoor events are taking place, including wine festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "Ensure your Schengen visa is valid; no additional COVID-related measures currently in place."
+  }
+}

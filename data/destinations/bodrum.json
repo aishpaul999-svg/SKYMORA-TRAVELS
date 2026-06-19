@@ -1,0 +1,276 @@
+{
+  "destination": "Bodrum",
+  "country": "Turkey",
+  "region": "Middle East",
+  "aliases": [
+    "Bodrum",
+    "bodrum",
+    "turkey"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History Buffs",
+      "Beach Lovers",
+      "Yacht Enthusiasts",
+      "Foodies",
+      "Nightlife Seekers"
+    ],
+    "notFor": [
+      "Budget Travelers",
+      "Party-Only Visitors",
+      "Cultural Purists"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h to Istanbul + 1h",
+    "flightFromMumbai": "8h to Istanbul + 1h",
+    "visaForIndians": "e-Visa USD 50",
+    "currency": "Turkish Lira (TRY), 1 INR = 0.044 TRY",
+    "timezone": "UTC+3",
+    "language": "Turkish (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "September - pleasant weather with fewer crowds",
+    "avoidMonth": "January - cold and many attractions closed",
+    "tipping": "10-15% is appreciated, especially in restaurants and taxis"
+  },
+  "whyPeopleFallInLove": "Imagine sailing on a traditional gulet, the sun setting over the Aegean, with the scent of grilled octopus wafting through the air as you sip raki with friends. It's that moment of connection with both the sea and the local cuisine that makes you want to return.",
+  "honestTruth": "Many tourists overlook the local markets, which offer fresher produce and authentic Turkish delights compared to the tourist traps along the waterfront.",
+  "localTruths": [
+    "Most visitors think Bodrum is just about its beaches. Locals think its true essence lies in the ancient ruins and local traditions that are often ignored.",
+    "Most visitors flock to the marina. The best version of Bodrum is experienced by exploring the lesser-known coastal tavernas that serve freshly caught fish.",
+    "Most visitors miss the vibrant life at the Bodrum Market. The real Bodrum starts at the market on Tuesdays, where locals gather for fresh produce and handmade goods."
+  ],
+  "neighborhoodPersonalities": {
+    "Marina": {
+      "tags": [
+        "luxury",
+        "yachting",
+        "dining"
+      ],
+      "bestFor": "yacht enthusiasts and upscale dining experiences",
+      "avoid": "can feel too commercialized for some"
+    },
+    "Old Town": {
+      "tags": [
+        "historical",
+        "shopping",
+        "cultural"
+      ],
+      "bestFor": "exploring local shops and historical sites",
+      "avoid": "can be crowded during peak hours"
+    },
+    "Gümbet": {
+      "tags": [
+        "nightlife",
+        "beaches",
+        "relaxation"
+      ],
+      "bestFor": "party-goers and beach lovers",
+      "avoid": "might not appeal to those seeking tranquility"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h to Istanbul + 1h",
+        "airlines": [
+          "Turkish Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 return",
+        "note": "Book at least 2 months in advance for better fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h to Istanbul + 1h",
+        "airlines": [
+          "Turkish Airlines",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹40,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available; consider shuttle services.",
+      "taxi": "Approximately 350 TRY (₹15,750), 45 minutes to city center.",
+      "recommended": "For first-timers, a pre-booked shuttle is recommended for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 50",
+    "applyAt": "https://www.evisa.gov.tr/en/",
+    "processingTime": "Usually within 24 hours",
+    "tip": "Ensure your passport is valid for at least six months from the date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Cafe Aegean, order their Menemen (scrambled eggs with tomatoes and peppers) paired with fresh bread.",
+    "sunset": "Watch the sunset at the Bodrum Castle from the terrace at the Museum Café at around 7:30 PM in September.",
+    "meal": "Dine at Kocadon, try the Lamb Shank with local herbs, a dish that embodies the flavors of the region.",
+    "memory": "The moment you first see the turquoise waters of the Aegean while sailing along the coast at sunrise.",
+    "secret": "Locals often gather at the lesser-known beach of Camel Beach, which has less crowd and a more local feel."
+  },
+  "residentSunday": "On a free Sunday, a Bodrum resident might start the day with breakfast at Cafe Aegean, followed by a stroll through the Bodrum Market around 10 AM. Lunchtime is often spent at a local meyhane (tavern) with friends, enjoying Meze and raki, before heading to the beach for a relaxing afternoon. Dinner might include a homemade meal with family, featuring local ingredients from the market.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the turquoise Aegean Sea as you step out of the airport, instantly feeling the vacation vibe.",
+    "peak": "The peak day memory is sailing on a traditional wooden gulet, feeling the wind in your hair as you explore the hidden coves.",
+    "departure": "You should leave feeling rejuvenated, with a tan and a suitcase full of local spices and souvenirs."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key highlights including the Bodrum Castle and a beach day",
+      "misses": "The deeper cultural experiences and local dining options."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering history, beaches, and nightlife",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of nearby archaeological sites and leisurely beach days",
+      "whoFor": "Cultural enthusiasts and leisure travelers"
+    },
+    "recommended": "Four days is ideal for a balanced mix of relaxation and exploration."
+  },
+  "antiPatterns": [
+    "Rushing through the Bodrum Castle without taking the time to explore its museum; it ruins the historical context.",
+    "Focusing solely on nightlife in Gümbet while ignoring the local dining scene; you’ll miss the heart of Bodrum.",
+    "Visiting the beaches only in the afternoon; arriving early allows for a more peaceful experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending more time at the local markets and missing out on authentic flavors.",
+    "Most visitors regret skipping the gulet cruise, which offers a unique perspective of the coastline.",
+    "Most visitors regret not trying the local seafood dishes, opting instead for international cuisine."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Hot and sunny, average 35°C",
+      "crowds": "Very crowded with tourists",
+      "verdict": "Best for those who enjoy lively beach scenes."
+    },
+    "shoulderSeason": {
+      "months": "May, June, September",
+      "why": "Ideal weather with fewer tourists and more local experiences."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and many facilities closed; not ideal for beach activities.",
+      "one reason some prefer it": "Fewer crowds make for a more authentic experience."
+    },
+    "bestMonth": "September - perfect balance of weather and crowd sizes.",
+    "currentSeason": "June 2026 is warm, around 30°C, with tourists starting to fill the beaches but still manageable."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local fish market early in the morning for the freshest catch, prices are negotiable; you can get a whole fish for around 100 TRY.",
+      "category": "food"
+    },
+    {
+      "tip": "The best time to enjoy a sunset is at the top of the windmill hill in the Old Town, bring a local drink to enjoy the view.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to learn a few basic Turkish phrases; locals appreciate the effort, especially in less touristy areas.",
+      "category": "cultural"
+    },
+    {
+      "tip": "Rent a bicycle to explore the coastal paths instead of relying solely on taxis; it's healthier and more fun.",
+      "category": "transport"
+    },
+    {
+      "tip": "Go to a local hammam (Turkish bath) at least once; it’s a unique cultural experience that many tourists miss.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pide (Turkish pizza) at a local shop for 40 TRY (₹1,800)",
+    "midRangeMeal": "Seafood platter for 150 TRY (₹6,750) at a mid-range restaurant.",
+    "luxuryMeal": "Gourmet dinner at Mimoza, around 500 TRY (₹22,500) per person.",
+    "localTransportPerDay": "About 50 TRY (₹2,250) for buses and local transport.",
+    "budgetHotelPerNight": "Hostel dorm bed for 200 TRY (₹9,000) with basic amenities.",
+    "midRangeHotelPerNight": "Comfortable hotel for 800 TRY (₹36,000) with breakfast included.",
+    "luxuryHotelPerNight": "Five-star hotel from 2,500 TRY (₹112,500) for a sea view room."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel at ₹1,800",
+      "food": "Eat street food and budget meals",
+      "transport": "Public transport and walking"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel at ₹6,000",
+      "food": "Dine in local restaurants"
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury comes at a premium, but the experience is worth it."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting mosques; women should cover their heads.",
+    "Always greet locals with a smile; it’s considered polite.",
+    "Respect the local dining customs, such as waiting for the host to start the meal."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly friendly locals offering unsolicited help; always confirm prices in advance.",
+      "Check for hidden charges in restaurants."
+    ],
+    "emergencyContacts": {
+      "police": "155",
+      "ambulance": "112",
+      "indianEmbassy": "Embassy of India, Ankara - +90 312 468 13 01"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Bodrum Castle",
+        "what": "The castle with the Aegean Sea in the background",
+        "bestTime": "Golden hour before sunset",
+        "tip": "Climb to the top for an aerial view."
+      }
+    ],
+    "goldenHour": "Approximately 7:30 PM in summer.",
+    "tip": "Use a polarizing filter to enhance the colors of the water and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Bodrum Museum of Underwater Archaeology",
+        "Explore the Old Town",
+        "Dine at a local seafood restaurant"
+      ],
+      "emotionalArc": "This sequence offers a mix of education, culture, and culinary delight that showcases the essence of Bodrum.",
+      "bestFor": [
+        "Cultural Travelers",
+        "Food Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Ephesus",
+      "travelTime": "2 hours",
+      "how": "Bus or private car",
+      "whyCombine": "To explore one of the best-preserved ancient cities in the world."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Moderately accessible; some attractions have ramps but others do not.",
+    "majorChallenges": "Streets in Old Town are cobbled and uneven, posing challenges for mobility.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring a private vehicle for more comfortable travel around the city."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, around 30°C, with tourists starting to fill the beaches and local events like the Bodrum Music Festival in full swing.",
+    "currentAlerts": [],
+    "entryRequirements": "Current visa/entry rules as of 2026 require an e-Visa for Indian passport holders."
+  }
+}

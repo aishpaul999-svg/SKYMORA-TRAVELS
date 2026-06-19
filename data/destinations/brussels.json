@@ -1,0 +1,282 @@
+{
+  "destination": "Brussels",
+  "country": "Belgium",
+  "region": "Europe",
+  "aliases": [
+    "Brussels",
+    "brussels",
+    "belgium"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Foodies",
+      "History Buffs",
+      "Art Enthusiasts",
+      "Beer Lovers",
+      "Shopping Aficionados"
+    ],
+    "notFor": [
+      "Nightlife Seekers",
+      "Beach Lovers",
+      "Adventure Enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "9h 30m via Emirates, Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.0115 EUR)",
+    "timezone": "UTC+1",
+    "language": "French and Dutch",
+    "bestMonthToVisit": "May, due to pleasant weather and fewer tourists.",
+    "avoidMonth": "August, when many locals are on vacation and some attractions may have reduced hours.",
+    "tipping": "Tipping is not mandatory, but rounding up the bill or leaving 5-10% is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine biting into a warm, freshly made waffle topped with rich chocolate sauce while strolling through the historic Grand Place, the aroma of freshly baked goods and brewing beer filling the air. It's a sensory overload that makes you realize why Brussels is so beloved.",
+  "honestTruth": "Brussels isn't as polished as other European capitals; its charm lies in its quirks, including occasional strikes and graffiti that some may find off-putting.",
+  "localTruths": [
+    "Most visitors think they should only stick to tourist spots like Manneken Pis. Locals think exploring the lesser-known neighborhoods like Saint Gilles offers a more authentic experience.",
+    "Most visitors rush through the Grand Place. The real Brussels is best enjoyed with a coffee at one of the surrounding cafes, taking in the architecture slowly.",
+    "Most visitors miss the joy of local breweries. The real Brussels starts at Cantillon Brewery, where you can taste traditional lambic beer."
+  ],
+  "neighborhoodPersonalities": {
+    "Sablon": {
+      "tags": [
+        "Antiques",
+        "Chocolate",
+        "Art"
+      ],
+      "bestFor": "Art lovers and chocolate enthusiasts will find paradise here.",
+      "avoid": "Be wary of high prices in antique shops."
+    },
+    "Saint-Gilles": {
+      "tags": [
+        "Bohemian",
+        "Artistic",
+        "Diverse"
+      ],
+      "bestFor": "Those looking for a more authentic, local vibe.",
+      "avoid": "Some areas can feel a bit rough at night."
+    },
+    "Ixelles": {
+      "tags": [
+        "Trendy",
+        "Multicultural",
+        "Foodie"
+      ],
+      "bestFor": "Foodies seeking diverse culinary options.",
+      "avoid": "Parking can be a nightmare during peak hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹40,000 - ₹70,000 return]",
+        "note": "Book 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h 30m",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹45,000 - ₹75,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Line 1 takes you to the city center in about 30 minutes, costing €9 (₹780).",
+      "taxi": "A taxi ride to the city center costs around €50 (₹4,300) and takes about 20 minutes.",
+      "recommended": "For first-timers, the train from the airport to Brussels Central is efficient and affordable."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in major cities like Delhi and Mumbai.",
+    "processingTime": "15 days, but it’s wise to apply a month in advance.",
+    "tip": "Collect all supporting documents meticulously; missing documents can delay your application significantly."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Maison Dandoy, order the 'Gaufre de Bruxelles' paired with hot chocolate.",
+    "sunset": "Watch the sunset from the rooftop of the Hotel Amigo, around 9 PM in June.",
+    "meal": "Dine at Chez Léon for moules-frites (mussels and fries), a staple of Belgian cuisine.",
+    "memory": "Standing in the Grand Place during the flower carpet festival, surrounded by vibrant blooms and the sound of laughter.",
+    "secret": "The best chocolate in Brussels can be found at Pierre Marcolini, a favorite among locals."
+  },
+  "residentSunday": "A Brussels resident might spend Sunday morning at the Sunday market at Flagey, enjoying a fresh croissant and coffee while browsing local produce. By afternoon, they may relax in Parc du Cinquantenaire, followed by a casual dinner at a local bistro, savoring carbonnade flamande.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of Brussels Central station and see the magnificent architecture of the Grand Place — it’s overwhelming.",
+    "peak": "The peak memory is likely at the Tomorrowland festival, experiencing the electric atmosphere and diverse crowd.",
+    "departure": "The departure should feel bittersweet, with a heart full of memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions like the Atomium and Grand Place, plus iconic food experiences.",
+      "misses": "In-depth exploration of local neighborhoods and hidden cafes."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced exploration of major sights and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth experiences with day trips to Bruges or Ghent.",
+      "whoFor": "History buffs and art enthusiasts."
+    },
+    "recommended": "Four days is ideal to immerse yourself in Brussels without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing through the Grand Place and missing the surrounding cafes, where the atmosphere truly lives.",
+    "Planning to only eat at chain restaurants instead of exploring local eateries — you'll miss authentic cuisine.",
+    "Visiting major attractions in the wrong order can lead to long waits and a poor experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local beers during their stay.",
+    "Most visitors regret not venturing beyond the city center to explore local neighborhoods.",
+    "Most visitors regret not taking a brewery tour to understand Belgium's beer culture."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Warm, averaging 22°C",
+      "crowds": "High, especially around festivals.",
+      "verdict": "Expect long queues at major attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to May",
+      "why": "The weather is milder and crowds are manageable."
+    },
+    "offSeason": {
+      "months": "November to February",
+      "reality": "Cold and rainy, but fewer tourists and great deals.",
+      "reason": "The Christmas markets in December can still be a delight."
+    },
+    "bestMonth": "May, when flowers bloom and the weather is pleasant.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for outdoor cafes and festivals."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Marolles district on a Sunday for the flea market at Place du Jeu de Balle; it's a local favorite.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'speculoos' cookies at Dandoy, they're a local delicacy.",
+      "category": "food"
+    },
+    {
+      "tip": "If you're a comic book fan, check out the comic strip murals scattered throughout the city.",
+      "category": "experience"
+    },
+    {
+      "tip": "Budget for at least one brewery tour; it's worth the investment for the tasting experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Learn a few phrases in French or Dutch; locals appreciate it and it can enhance your experience.",
+      "category": "cultural"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fries with mayo from a street vendor for €3 (₹260).",
+    "midRangeMeal": "A full meal at a local bistro for around €25 (₹2,170).",
+    "luxuryMeal": "Dinner at Comme Chez Soi can cost around €70 (₹6,080) per person.",
+    "localTransportPerDay": "Around €7 (₹610) for unlimited tram and bus rides.",
+    "budgetHotelPerNight": "Hostel beds starting at €20 (₹1,740) with shared facilities.",
+    "midRangeHotelPerNight": "Standard double rooms in a 3-star hotel from €90 (₹7,800).",
+    "luxuryHotelPerNight": "Luxury hotel rates start at €250 (₹21,800)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "Hostels at ₹1,740 per night.",
+      "food": "Street food and budget eateries.",
+      "transport": "Public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels at ₹7,800 per night.",
+      "food": "Mix of casual dining and occasional splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury accommodation can be a significant splurge but offers excellent service and amenities."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches or religious sites.",
+    "It’s polite to greet shopkeepers or waitstaff upon entering establishments.",
+    "Avoid discussing politics or the monarchy unless initiated by locals."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of pickpockets in crowded areas like the Grand Place; keep your valuables secure.",
+      "Beware of people asking for donations — they may not be genuine."
+    ],
+    "emergencyContacts": {
+      "police": "101",
+      "ambulance": "112",
+      "indianEmbassy": "Embassy of India, Boulevard de la Sauvenière 2, 4000 Liège"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Grand Place",
+        "what": "The ornate guildhalls and Town Hall.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Visit during the flower carpet festival for an extra burst of color."
+      }
+    ],
+    "goldenHour": "Around 9 PM in June.",
+    "tip": "Use a wide-angle lens to capture the expansive architecture of the Grand Place."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Atomium",
+        "Explore Mini-Europe",
+        "Relax at the Parc du Cinquantenaire"
+      ],
+      "emotionalArc": "This sequence combines modern architecture, fun, and relaxation, providing a balanced day.",
+      "bestFor": [
+        "Families",
+        "First-time visitors"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bruges",
+      "travelTime": "1h",
+      "how": "Train",
+      "whyCombine": "To explore the picturesque canals and medieval architecture."
+    },
+    {
+      "city": "Ghent",
+      "travelTime": "30m",
+      "how": "Train",
+      "whyCombine": "For its historic center and vibrant cultural scene."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Brussels has made strides in accessibility, but some older buildings may still pose challenges.",
+    "majorChallenges": "Uneven cobblestones in historic areas can be difficult for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Many public transport systems are equipped for those with mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 in Brussels is warm, with events like the Brussels Jazz Festival attracting crowds.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required for Indian passport holders; check for any updates on travel restrictions."
+  }
+}

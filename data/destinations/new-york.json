@@ -1,0 +1,277 @@
+{
+  "destination": "New York",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "New York",
+    "new york",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "foodies",
+      "art enthusiasts",
+      "theater lovers",
+      "shopaholics",
+      "city explorers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "those seeking tranquility",
+      "travelers avoiding crowds"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h",
+    "flightFromMumbai": "16h with airlines such as Emirates and Qatar Airways, prices range from ₹45,000 to ₹75,000 for economy return.",
+    "visaForIndians": "US B-2 visa USD 185, interview",
+    "currency": "USD, 1 INR = 0.012 USD",
+    "timezone": "UTC-5",
+    "language": "English",
+    "bestMonthToVisit": "September - The weather is pleasant, and outdoor events are abundant.",
+    "avoidMonth": "January - It's very cold, and the city feels quieter with many indoor attractions less appealing.",
+    "tipping": "15-20% is standard in restaurants; rounding up is common for taxis."
+  },
+  "whyPeopleFallInLove": "As the sun sets over Central Park, the orange glow reflects off the glass skyscrapers, and the air fills with the aroma of pretzels and roasted nuts from nearby vendors. It’s a sensory overload that makes you feel alive, compelling you to take in every moment as the city transforms into a sea of lights.",
+  "honestTruth": "Many first-time visitors underestimate the sheer size of the city and often find themselves overwhelmed by the subway system, which can be confusing without prior research.",
+  "localTruths": [
+    "Most visitors think Times Square is the heart of New York. Locals think the real pulse beats in the quieter, artistic streets of the Lower East Side.",
+    "Most visitors stick to Broadway shows. The best version of New York is found in off-Broadway productions that often showcase raw and innovative talent.",
+    "Most visitors miss the diverse food options in Queens. The real New York starts at the food markets in Astoria, where global flavors come together."
+  ],
+  "neighborhoodPersonalities": {
+    "Brooklyn": {
+      "tags": [
+        "art",
+        "food",
+        "history"
+      ],
+      "bestFor": "Exploring street art and trendy cafes along with a laid-back atmosphere.",
+      "avoid": "It can get very crowded, especially in Williamsburg during weekends."
+    },
+    "Manhattan": {
+      "tags": [
+        "business",
+        "entertainment",
+        "shopping"
+      ],
+      "bestFor": "The iconic skyline views and luxury shopping experiences.",
+      "avoid": "Expect high prices and tourist traps in certain areas."
+    },
+    "Queens": {
+      "tags": [
+        "diversity",
+        "food",
+        "local life"
+      ],
+      "bestFor": "Authentic ethnic cuisine from around the world.",
+      "avoid": "Limited nightlife compared to Manhattan."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h",
+        "airlines": [
+          "Air India",
+          "United Airlines"
+        ],
+        "priceRange": "₹45,000 to ₹75,000",
+        "note": "Book in advance for better rates during peak seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "16h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹45,000 to ₹80,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "AirTrain to Jamaica Station costs $7.75 and takes about 30 minutes.",
+      "taxi": "A taxi from JFK to Manhattan costs around $60 and takes about 45 minutes depending on traffic.",
+      "recommended": "For first-timers, using the AirTrain combined with the subway is economical and gives you a taste of city life."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa USD 185, interview",
+    "applyAt": "VFS Global centers in India or the US Embassy website.",
+    "processingTime": "Approximately 14 days, but can vary.",
+    "tip": "Prepare for your visa interview by having a clear itinerary and proof of ties to India."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Ess-a-Bagel' and order the everything bagel with cream cheese and lox.",
+    "sunset": "Head to the Top of the Rock at 8 PM for a panoramic view of the city as the sun sets behind the skyline.",
+    "meal": "Dine at 'Katz's Delicatessen' and try the pastrami sandwich with a side of pickles.",
+    "memory": "Strolling through Central Park, listening to street performers while the leaves rustle in the breeze.",
+    "secret": "Only locals know that the best bagels come from a small shop on the Upper West Side called 'H&H Bagels'."
+  },
+  "residentSunday": "A New York resident might start their Sunday with brunch at 'Balthazar' in SoHo, then take a stroll through the galleries in Chelsea, followed by a leisurely afternoon at the High Line, and wrapping up with a show at a local theater in the evening.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the subway and see the towering skyscrapers above, feeling the city’s energy wash over you.",
+    "peak": "Standing in Times Square, surrounded by the lights and energy, feeling like you’re in the center of the universe.",
+    "departure": "A bittersweet feeling as you take one last look at the skyline from the plane, knowing you've experienced something significant."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Main attractions like Times Square, Central Park, and a Broadway show.",
+      "misses": "The deeper cultural experiences found in neighborhoods like Brooklyn and Queens."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of iconic sights and local experiences, including museums and food tours.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of neighborhoods, off-Broadway shows, and local dining spots.",
+      "whoFor": "Cultural enthusiasts and food lovers."
+    },
+    "recommended": "4 days — it allows you to experience both the highlights and some local flavor."
+  },
+  "antiPatterns": [
+    "Rushing through Times Square during peak hours leads to frustration and misses the subtleties of the city’s charm.",
+    "Trying to visit all major museums in one day is overwhelming and can lead to museum fatigue.",
+    "Not planning meal stops can result in dining at overpriced tourist spots instead of exploring local eateries."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the diverse food options outside Manhattan.",
+    "Most visitors regret not spending enough time in Central Park.",
+    "Most visitors regret missing out on smaller theaters for unique performances."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Hot and humid, temperatures can reach 35°C.",
+      "crowds": "Very crowded with tourists.",
+      "verdict": "Good for outdoor activities but expect long lines."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Pleasant weather and fewer tourists make it ideal for exploring."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold with temperatures often below freezing, but holiday decorations can be magical.",
+      "one reason some prefer it": "Fewer crowds allow for a more intimate experience at attractions."
+    },
+    "bestMonth": "September - The weather is mild and the city hosts various events.",
+    "currentSeason": "June 2026 is warm with temperatures around 28°C, and events like the Pride Parade are taking place."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'Smorgasburg' in Williamsburg on Saturdays for a variety of local food vendors, prices range from $5 to $15.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the Staten Island Ferry for a free view of the Statue of Liberty, best done at sunset.",
+      "category": "experience"
+    },
+    {
+      "tip": "Attend a taping of 'The Late Show' for a fun and free experience, but get tickets weeks in advance.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the West Village for intimate jazz clubs like 'The Village Vanguard' where entry is around $30.",
+      "category": "entertainment"
+    },
+    {
+      "tip": "Try to find 'The High Line' after hours; it's less crowded and provides a different vibe at night.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A slice of pizza at 'Joe's Pizza' costs $3.00 (approx. ₹250).",
+    "midRangeMeal": "A meal at 'Shake Shack' for a burger and fries costs about $15 (approx. ₹1,250).",
+    "luxuryMeal": "Dining at 'Le Bernardin' costs around $200 per person (approx. ₹16,500).",
+    "localTransportPerDay": "A MetroCard for unlimited subway rides costs $33 for 7 days (approx. ₹2,750).",
+    "budgetHotelPerNight": "$100 for a basic hostel bed with shared facilities (approx. ₹8,300).",
+    "midRangeHotelPerNight": "$250 for a decent hotel room (approx. ₹20,800).",
+    "luxuryHotelPerNight": "$500 for a luxury hotel (approx. ₹41,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹4,500",
+      "accommodation": "Hostel dorm bed at ₹2,500, shared kitchens available.",
+      "food": "Street food and budget meals at ₹1,200.",
+      "transport": "Subway pass at ₹500."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel at ₹5,000, comfortable amenities.",
+      "food": "Casual dining at ₹3,000."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Expect high-end experiences with exclusive dining and services."
+    }
+  },
+  "culturalRules": [
+    "It's customary to greet shopkeepers and waitstaff when entering and leaving their establishments.",
+    "Tipping is expected; not leaving a tip can be seen as rude.",
+    "Public transportation requires patience; be mindful of personal space."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of 'fake' ticket sellers outside venues; always buy from authorized outlets.",
+      "Street performers may ask for money after performing."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Consulate General: 212-774-0600"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Brooklyn Bridge",
+        "what": "Iconic skyline views and bridge architecture.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a wide-angle lens for dramatic perspectives."
+      }
+    ],
+    "goldenHour": "Around 7 PM during summer months.",
+    "tip": "Always carry a portable charger; you’ll want to capture every moment."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Metropolitan Museum of Art",
+        "Stroll through Central Park",
+        "Enjoy an evening show in the Theater District"
+      ],
+      "emotionalArc": "This combination takes you from the tranquility of art to the liveliness of nature, ending with the excitement of a Broadway show.",
+      "bestFor": [
+        "art lovers",
+        "nature enthusiasts",
+        "theater fans"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Philadelphia",
+      "travelTime": "2 hours",
+      "how": "By train (Amtrak)",
+      "whyCombine": "To explore American history and enjoy Philly cheesesteaks."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many subway stations are not accessible, but buses are generally wheelchair-friendly.",
+    "majorChallenges": "Limited access at certain subway stations can make travel difficult.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan routes in advance, especially for areas with limited accessibility."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 28°C and events like the Pride Parade happening, leading to increased crowds.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, travelers must have a valid US B-2 visa to enter."
+  }
+}

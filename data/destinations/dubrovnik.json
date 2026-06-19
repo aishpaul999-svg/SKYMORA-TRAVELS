@@ -1,0 +1,277 @@
+{
+  "destination": "Dubrovnik",
+  "country": "Croatia",
+  "region": "Europe",
+  "aliases": [
+    "Dubrovnik",
+    "dubrovnik",
+    "croatia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "Game of Thrones fans",
+      "beach lovers",
+      "foodies",
+      "adventure seekers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "party seekers",
+      "those avoiding crowds"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "11h, connecting flights available through airlines like Lufthansa and Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Croatian Kuna (HRK), 1 INR = 0.14 HRK",
+    "timezone": "UTC +1",
+    "language": "Croatian, English widely spoken in tourist areas",
+    "bestMonthToVisit": "September - pleasant weather with fewer tourists compared to peak season.",
+    "avoidMonth": "July - extremely crowded due to the tourist influx.",
+    "tipping": "10-15% is appreciated in restaurants; rounding up is common."
+  },
+  "whyPeopleFallInLove": "Walking along the ancient city walls at dusk, the golden light reflecting off the Adriatic, while the scent of grilled seafood wafts from nearby konobas creates an irresistible allure that makes you want to linger.",
+  "honestTruth": "While Dubrovnik is often seen as an idyllic paradise, the reality is that its rapid tourist commercialization has led to sky-high prices, especially in peak season, which can be a shock for many visitors.",
+  "localTruths": [
+    "Most visitors think Dubrovnik is all about the walls. Locals think the real charm lies in the lesser-known alleys and local eateries that serve authentic Croatian cuisine.",
+    "Most visitors flock to the Old Town during the day. The best version of Dubrovnik is discovered in the early morning or late evening when the streets are quieter and more intimate.",
+    "Most visitors miss the local markets. The real Dubrovnik starts at the Gruž Market on a Sunday morning, where you can experience the local lifestyle and fresh produce."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Town": {
+      "tags": [
+        "historic",
+        "touristy",
+        "cultural"
+      ],
+      "bestFor": "history buffs and architecture enthusiasts.",
+      "avoid": "be wary of overly touristy restaurants that may compromise on quality."
+    },
+    "Lapad": {
+      "tags": [
+        "residential",
+        "beachfront",
+        "leisure"
+      ],
+      "bestFor": "families and those seeking relaxation by the beach.",
+      "avoid": "high-end restaurants that don't offer local cuisine."
+    },
+    "Ploče": {
+      "tags": [
+        "upscale",
+        "views",
+        "quiet"
+      ],
+      "bestFor": "couples looking for romantic spots.",
+      "avoid": "crowded beach areas during peak hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹45,000 - ₹60,000]",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "11h",
+        "airlines": [
+          "Lufthansa",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹50,000 - ₹70,000]"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approx. 300 HRK (₹4,200) for a ride to the Old Town, around 30 minutes.",
+      "recommended": "Pre-book a shuttle service for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global locations in major cities.",
+    "processingTime": "15 days, though applying earlier is advisable.",
+    "tip": "Ensure all documents are correctly filled out to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café Royal with a coffee and a fresh pastry, ideally a 'krafna' (Croatian doughnut).",
+    "sunset": "Head to the Buza Bar, perched on the cliffs outside the city walls, for sunset views at around 8:00 PM during summer.",
+    "meal": "Dine at Konoba Dubrava, and do not miss the octopus salad.",
+    "memory": "The moment you stand on the fortress walls overlooking the shimmering Adriatic, feeling the sea breeze and soaking in the history.",
+    "secret": "Locals know that the best gelato can be found at 'Gelateria Dubrovnik' in Lapad, away from the bustling Old Town."
+  },
+  "residentSunday": "On a free Sunday, a Dubrovnik resident might start with a late brunch at Café Buza, followed by a stroll along Lapad Bay, swimming at the local beach, and ending the day with dinner at Restaurant 360, enjoying seafood while watching the sunset over the Old Town.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the city walls as you approach from the airport, the excitement of stepping into a living history.",
+    "peak": "The day you walk the entire city wall, feeling the connection between the past and present.",
+    "departure": "A sense of nostalgia as you take one last look back at the Old Town from the airport shuttle."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like the city walls, Old Town, and a boat trip to Lokrum Island.",
+      "misses": "You miss out on the local dining experiences and the less crowded areas."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced exploration of both major attractions and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including day trips to nearby islands like Korčula and Hvar.",
+      "whoFor": "adventurous travelers interested in both culture and nature."
+    },
+    "recommended": "Three to four days is ideal to fully appreciate what Dubrovnik has to offer."
+  },
+  "antiPatterns": [
+    "Combining a visit to the Old Town wall with lunch in the same area can lead to overpriced meals and long waits during peak hours.",
+    "Starting the day too late might cause you to miss the less crowded early morning experiences.",
+    "Skipping a local market visit can deprive you of authentic local flavors and an insight into daily life."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the time to explore beyond the Old Town.",
+    "Most visitors regret not trying more local cuisine outside of tourist traps.",
+    "Most visitors regret not interacting with locals to learn more about their lifestyle."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June, July, August",
+      "weather": "Hot and sunny, average 30°C.",
+      "crowds": "Very crowded with tourists, particularly in Old Town.",
+      "verdict": "Expect long lines at attractions and higher prices."
+    },
+    "shoulderSeason": {
+      "months": "May, September",
+      "why": "Milder weather and fewer tourists make it more enjoyable."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold with occasional rain, but offers a quieter experience and lower prices.",
+      "reason": "Some attractions may be closed, but you can enjoy a more local vibe."
+    },
+    "bestMonth": "September - pleasant weather, fewer tourists, and local events.",
+    "currentSeason": "June 2026 is warm, with temperatures around 28°C and a steady stream of tourists."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the city walls early in the morning to avoid crowds, entry cost is 200 HRK (₹2,800).",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local 'pašticada' (beef stew) at a family-run restaurant for a taste of authentic Dubrovnik cuisine.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a ferry to Lokrum Island for a quieter day surrounded by nature, tickets cost around 150 HRK (₹2,100).",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend the Dubrovnik Summer Festival for local art and music in July and August.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the back streets of the Old Town for unique souvenirs and local craftsmanship.",
+      "category": "shopping"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A simple meal such as 'ćevapi' (grilled sausages) at a fast food spot for around 50 HRK (₹700).",
+    "midRangeMeal": "A full meal at a mid-range restaurant averages about 150 HRK (₹2,100).",
+    "luxuryMeal": "Dining at Restaurant 360, expect to spend around 1,200 HRK (₹16,800) for a full course meal with wine.",
+    "localTransportPerDay": "Public transport costs about 30 HRK (₹420) for unlimited rides in the city.",
+    "budgetHotelPerNight": "Hostels start at 200 HRK (₹2,800) for a dorm bed with shared facilities.",
+    "midRangeHotelPerNight": "Mid-range hotels average around 800 HRK (₹11,200) for a double room with breakfast.",
+    "luxuryHotelPerNight": "Luxury hotels start at 2,500 HRK (₹35,000) for a double room with premium amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorms around 200 HRK (₹2,800)",
+      "food": "Self-catering or budget eateries with meals under 50 HRK (₹700)",
+      "transport": "Using public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Mid-range hotels around 800 HRK (₹11,200)",
+      "food": "Enjoying local restaurants with mid-range prices."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury in Dubrovnik can be quite expansive, especially during peak seasons."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and religious sites.",
+    "Tipping is appreciated but not obligatory; rounding up the bill is common.",
+    "Always greet locals with a friendly 'Dobar dan' (Good day) when entering shops or restaurants."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of pickpockets in crowded tourist areas; keep your belongings secure.",
+      "Avoid overly aggressive street vendors who may mislead you."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "194",
+      "indianEmbassy": "Embassy of India in Croatia, Zagreb, Phone: +385 1 46 83 500"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "On the City Walls",
+        "what": "Panoramic views of the Old Town and the Adriatic Sea.",
+        "bestTime": "Golden hour before sunset.",
+        "tip": "Visit during early morning for the best light and fewer crowds."
+      }
+    ],
+    "goldenHour": "Approximately 8:30 PM in summer.",
+    "tip": "Utilize the city's unique architecture and natural landscape for diverse photography opportunities."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Walking the city walls",
+        "Lunch at a local konoba",
+        "Swimming at a nearby beach"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate the history, indulge in local cuisine, and unwind by the sea, creating a well-rounded day.",
+      "bestFor": [
+        "history buffs",
+        "food lovers",
+        "relaxation seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Korčula",
+      "travelTime": "2h",
+      "how": "Ferry from Dubrovnik",
+      "whyCombine": "Famous for its wine and medieval architecture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited access in the historic Old Town due to cobblestone streets and stairs.",
+    "majorChallenges": "Steep hills and uneven terrain can pose challenges for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider organized tours that accommodate mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 28°C, and a mix of locals and tourists enjoying the summer festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain the same as of 2026, ensure documents are current."
+  }
+}

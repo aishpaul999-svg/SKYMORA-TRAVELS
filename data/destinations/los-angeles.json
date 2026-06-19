@@ -1,0 +1,276 @@
+{
+  "destination": "Los Angeles",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "Los Angeles",
+    "los angeles",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "beachgoers",
+      "film enthusiasts",
+      "shopaholics",
+      "adventure seekers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "those seeking quiet",
+      "strict itineraries"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "17h via Frankfurt",
+    "flightFromMumbai": "16h via Dubai",
+    "visaForIndians": "US B-2 visa",
+    "currency": "USD (1 INR = 0.012 USD)",
+    "timezone": "UTC-8",
+    "language": "English",
+    "bestMonthToVisit": "October - The weather is pleasant and perfect for outdoor activities.",
+    "avoidMonth": "July - Peak summer leads to large crowds and higher hotel rates.",
+    "tipping": "15-20% in restaurants, $1-2 per drink at bars, and $1-3 for taxi drivers."
+  },
+  "whyPeopleFallInLove": "Walking along Venice Beach’s boardwalk, you can smell the mix of saltwater and fresh tacos from food trucks, while street performers bring the area to life, making you feel the pulse of the city.",
+  "honestTruth": "Many travelers expect Hollywood to be glamorous, but they often find it overcrowded and a bit worn down, making them appreciate the less commercial spots even more.",
+  "localTruths": [
+    "Most visitors think Hollywood Boulevard is the highlight. Locals think Griffith Park offers a better view of the city and less commercialism.",
+    "Most visitors flock to Santa Monica Pier. The best version of Los Angeles is found in the quieter beaches like El Matador State Beach at sunset.",
+    "Most visitors miss the food scene in Koreatown. The real Los Angeles starts at the 24-hour BBQ joints serving delicious Korean meat dishes."
+  ],
+  "neighborhoodPersonalities": {
+    "Hollywood": {
+      "tags": [
+        "entertainment",
+        "tourist",
+        "iconic"
+      ],
+      "bestFor": "movie buffs and first-time visitors eager to see the Walk of Fame.",
+      "avoid": "It can feel overly commercial and crowded."
+    },
+    "Venice Beach": {
+      "tags": [
+        "bohemian",
+        "beach",
+        "artsy"
+      ],
+      "bestFor": "those looking for a relaxed beach vibe with a touch of creativity.",
+      "avoid": "The crowds can be overwhelming on weekends."
+    },
+    "Downtown LA": {
+      "tags": [
+        "business",
+        "cultural",
+        "modern"
+      ],
+      "bestFor": "foodies and art lovers exploring the arts district and diverse dining.",
+      "avoid": "Some areas can feel sketchy at night."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "17h via Frankfurt",
+        "airlines": [
+          "Lufthansa",
+          "Air India"
+        ],
+        "priceRange": "₹60,000 - ₹90,000",
+        "note": "Booking in advance can save you significant costs."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "16h via Dubai",
+        "airlines": [
+          "Emirates",
+          "Air India"
+        ],
+        "priceRange": "₹55,000 - ₹85,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "The FlyAway Bus to Union Station costs $10 and takes about 30 minutes.",
+      "taxi": "Taxis to downtown LA cost approximately $50 and take about 30 minutes depending on traffic.",
+      "recommended": "For first-timers, the FlyAway Bus is convenient and cost-effective."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa",
+    "applyAt": "https://www.ustraveldocs.com/in",
+    "processingTime": "1-3 weeks",
+    "tip": "Apply for your visa well ahead of your travel date, as appointment slots can fill up quickly."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Sqirl in Silver Lake for their famous Ricotta Toast with seasonal jam.",
+    "sunset": "Catch the sunset at Griffith Observatory at around 7:45 PM, where the view of the city lights is mesmerizing.",
+    "meal": "Dine at Bestia in the Arts District for their house-made pastas, specifically the 'Bone Marrow Ravioli'.",
+    "memory": "The moment you stand on the edge of the Griffith Observatory, looking down at the twinkling city below, encapsulates the essence of Los Angeles.",
+    "secret": "Only locals know that the best tacos can be found at a small truck called 'Tacos El Gordo' in South LA, often overshadowed by more famous eateries."
+  },
+  "residentSunday": "A Los Angeles resident might spend their Sunday hiking at Runyon Canyon in the morning, grabbing brunch at The Griddle Café, then heading to the Getty Center for art, and wrapping up the day with a sunset at Santa Monica Beach.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of LAX and breathe in the fresh coastal air, you realize you’ve arrived in a different world.",
+    "peak": "The peak day memory might be during a studio tour at Universal Studios, where the behind-the-scenes look at movie-making captivates you.",
+    "departure": "Leaving with a sense of nostalgia as the plane takes off, you look down at the sprawling city, feeling like you’ve only just scratched the surface."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions like Hollywood and Santa Monica.",
+      "misses": "Deeper experiences of neighborhoods and local cuisines."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of major attractions and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "A comprehensive exploration including nearby destinations.",
+      "whoFor": "travelers who enjoy leisurely travel."
+    },
+    "recommended": "A trip of 5 days allows you to explore both iconic sites and local favorites comfortably."
+  },
+  "antiPatterns": [
+    "Trying to see everything in Hollywood and skipping the local eateries fails to provide a complete experience.",
+    "Visiting Santa Monica and not experiencing Venice Beach misses the contrast of both beach vibes.",
+    "Staying in one area and not utilizing the metro can lead to frustrating traffic experiences."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local foods and sticking to chain restaurants.",
+    "Most visitors regret not visiting Griffith Park, missing out on its stunning views and hiking trails.",
+    "Most visitors regret spending too much time in tourist traps and not exploring local neighborhoods."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June-August",
+      "weather": "Hot, around 30°C daily",
+      "crowds": "Extremely crowded at main attractions.",
+      "verdict": "Not ideal for those seeking a tranquil experience."
+    },
+    "shoulderSeason": {
+      "months": "March-May",
+      "why": "Pleasant weather and fewer tourists make it a great time to explore."
+    },
+    "offSeason": {
+      "months": "November-February",
+      "reality": "Cooler temperatures averaging 15-20°C, with occasional rain.",
+      "reason": "Some prefer it for fewer crowds and lower rates."
+    },
+    "bestMonth": "October - Perfect weather and fewer tourists.",
+    "currentSeason": "June 2026 is sunny with typical temperatures around 28°C, perfect for beach activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the rooftop at Perch for stunning skyline views of downtown LA while enjoying a cocktail (around $15).",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the local farmers' markets on Sunday mornings for fresh produce and local crafts, especially at the Hollywood Farmers' Market.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the Metro Line to avoid parking hassles, especially during peak hours.",
+      "category": "transport"
+    },
+    {
+      "tip": "Always carry a light jacket; coastal evenings can be chilly even in summer.",
+      "category": "timing"
+    },
+    {
+      "tip": "For a good beach day, arrive at El Matador State Beach early to avoid parking hassles.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A taco from Tacos El Gordo costs $2.50 (₹208).",
+    "midRangeMeal": "A burger at In-N-Out costs around $10 (₹835).",
+    "luxuryMeal": "Dinner at Spago can run $75 (₹6,250) per person.",
+    "localTransportPerDay": "$15 for unlimited Metro rides (₹1,250).",
+    "budgetHotelPerNight": "$80 for a basic motel (₹6,650) with essential amenities.",
+    "midRangeHotelPerNight": "$150 for a three-star hotel (₹12,500) with a pool and breakfast.",
+    "luxuryHotelPerNight": "$400 for a five-star hotel (₹33,400) with premium services."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostels starting at ₹1,000 per night",
+      "food": "Street food and budget cafes",
+      "transport": "Public transport"
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels around ₹5,000 per night",
+      "food": "Casual dining and some fine dining experiences"
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury in LA often means top-notch dining and high-end experiences, which can add up quickly."
+    }
+  },
+  "culturalRules": [
+    "Dress casually; LA is a laid-back city and formality is often not necessary.",
+    "Be prepared for tipping at restaurants and bars, as it is a significant part of workers' income.",
+    "Don't take photos of people without their permission, especially performers."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Avoid street performers demanding tips after a performance.",
+      "Be cautious of fake charity collectors."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Consulate General, Los Angeles - 10801 Wilshire Blvd, Los Angeles, CA 90024"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Griffith Observatory",
+        "what": "View of the Hollywood Sign and city skyline",
+        "bestTime": "Sunset",
+        "tip": "Arrive early to find parking."
+      }
+    ],
+    "goldenHour": "The golden hour typically occurs 30 minutes after sunset.",
+    "tip": "Use a wide-angle lens for capturing the vast landscapes and cityscapes."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Getty Center",
+        "Have lunch at a nearby café",
+        "Explore Santa Monica Beach"
+      ],
+      "emotionalArc": "This sequence combines art, relaxation, and scenic beauty for a full day.",
+      "bestFor": [
+        "art lovers",
+        "relaxation seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Santa Barbara",
+      "travelTime": "2 hours",
+      "how": "By car or train",
+      "whyCombine": "For its beautiful beaches and wine country."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most public areas are accessible, but some older attractions may pose challenges.",
+    "majorChallenges": "Public transport can be less accessible than in other cities.",
+    "seniorFriendlyScore": 7,
+    "note": "Always check specific venues for wheelchair access prior to visiting."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional coastal breezes, perfect for beach activities, although some areas may be crowded with tourists.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, travelers from India require a valid B-2 visa to enter the US."
+  }
+}

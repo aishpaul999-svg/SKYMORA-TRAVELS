@@ -1,0 +1,258 @@
+{
+  "destination": "Komodo",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Komodo",
+    "komodo",
+    "indonesia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "diving enthusiasts",
+      "nature lovers",
+      "adventurous travelers",
+      "wildlife photographers",
+      "island hoppers"
+    ],
+    "notFor": [
+      "luxury resort seekers",
+      "urban experience lovers",
+      "travelers with mobility issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h via Jakarta",
+    "flightFromMumbai": "10h via Jakarta (Garuda Indonesia, AirAsia)",
+    "visaForIndians": "Visa on Arrival USD 35",
+    "currency": "Indonesian Rupiah (IDR) - 1 INR = 200 IDR",
+    "timezone": "UTC+8",
+    "language": "Bahasa Indonesia (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "April - ideal weather with minimal rainfall and excellent diving conditions.",
+    "avoidMonth": "January - heavy rains may disrupt travel plans.",
+    "tipping": "Tipping is not mandatory; rounding up the bill or giving 10% is appreciated in restaurants."
+  },
+  "whyPeopleFallInLove": "As you glide through the clear waters of Komodo, the moment when a majestic manta ray gracefully swoops beneath your kayak, leaves you breathless and wanting to return for more encounters with nature's wonders.",
+  "honestTruth": "Many visitors are surprised by the lack of luxury accommodations, which can be a stark contrast to the pristine natural beauty surrounding them.",
+  "localTruths": [
+    "Most visitors think the main attraction is only the Komodo dragons. Locals think the real treasure is the underwater biodiversity that rivals any global dive destination.",
+    "Most visitors stick to the main islands. The best version of Komodo is to explore the lesser-known islands like Rinca, where the landscape feels more untouched.",
+    "Most visitors miss the magical experience of night diving. The real Komodo starts when the sun sets, revealing a world teeming with nocturnal marine life."
+  ],
+  "neighborhoodPersonalities": {
+    "Labuan Bajo": {
+      "tags": [
+        "gateway",
+        "dining",
+        "tourism"
+      ],
+      "bestFor": "travelers seeking a mix of comfort and adventure.",
+      "avoid": "The waterfront can get crowded during peak season, which can detract from the experience."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h via Jakarta",
+        "airlines": [
+          "Garuda Indonesia",
+          "AirAsia"
+        ],
+        "priceRange": "₹30,000 - ₹50,000 return",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h via Jakarta",
+        "airlines": [
+          "Garuda Indonesia",
+          "AirAsia"
+        ],
+        "priceRange": "₹32,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Taxi from the airport to Labuan Bajo costs around IDR 150,000 (₹75) and takes about 20 minutes.",
+      "recommended": "For first-timers, use a pre-booked taxi service for a smooth transfer."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa on Arrival USD 35",
+    "applyAt": "Visa on Arrival can be obtained at any major airport in Indonesia.",
+    "processingTime": "Immediate upon arrival.",
+    "tip": "Ensure your passport is valid for at least 6 months from your arrival date to avoid issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café In Da Lodge with their famous banana pancakes and fresh coconut water.",
+    "sunset": "Witness the sunset at Bukit Sylvia; arrive at 5 PM for the best view.",
+    "meal": "Dine at La Cucina for their seafood pasta, a local favorite.",
+    "memory": "The moment you first set eyes on the Komodo dragons in their natural habitat, watching them interact without barriers.",
+    "secret": "Locals often head to the small beach at Pink Beach early in the morning to avoid the crowds and enjoy the serenity."
+  },
+  "residentSunday": "On a free Sunday, a Komodo resident might start with breakfast at Warung Mama, enjoying a traditional Nasi Goreng. They would then spend the day fishing off the coast or visiting a family member on a nearby island, returning home for a late afternoon feast of grilled fish and rice.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and are greeted by the warm tropical air, filling your lungs with the scent of salt and adventure.",
+    "peak": "The peak day memory target is when you witness a Komodo dragon hunting in the wild, a moment that feels like a scene from a nature documentary.",
+    "departure": "Departure should feel like a bittersweet farewell, with a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "A quick overview of the islands and a single dive session.",
+      "misses": "You miss out on deeper exploration and interactions with local culture."
+    },
+    "three_to_four_days": {
+      "focus": "Ideal for experiencing the best of diving and island hopping.",
+      "sweetSpot": true
+    },
+    "five-to-seven-days": {
+      "focus": "Allows for a thorough exploration of multiple islands and diving spots.",
+      "whoFor": "Adventure seekers and diving enthusiasts."
+    },
+    "recommended": "4 days — perfect to balance relaxation and exploration."
+  },
+  "antiPatterns": [
+    "Trying to see all the islands in one day fails because it rushes the experience and limits interaction with locals.",
+    "Booking last-minute tours often leads to overpaying and missing out on the best experiences.",
+    "Visiting the Komodo National Park without pre-booking a guided tour can ruin the chance to learn about the wildlife."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not booking a liveaboard dive trip, which offers unparalleled access to remote diving spots.",
+    "Most visitors regret underestimating the sun and not bringing adequate sun protection, resulting in sunburns.",
+    "Most visitors regret not engaging with local guides, missing out on deeper insights into the area."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August, December",
+      "weather": "Temperature averages around 30°C, dry conditions",
+      "crowds": "High tourist volume, especially in national parks.",
+      "verdict": "Good weather, but be prepared for crowds."
+    },
+    "shoulderSeason": {
+      "months": "April, May, September, October",
+      "why": "Moderate crowds with pleasant weather, ideal for diving."
+    },
+    "offSeason": {
+      "months": "January, February, March",
+      "reality": "Rainy season can lead to cancellations of boat tours, but the islands are less crowded.",
+      "one reason some prefer it": "Lower accommodation prices during this period."
+    },
+    "bestMonth": "April - ideal weather with minimal rainfall and excellent diving conditions.",
+    "currentSeason": "June 2026 is warm with clear skies, perfect for diving and outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local market in Labuan Bajo early in the morning to experience fresh seafood at the best prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Bring cash, as many small vendors do not accept cards and ATMs can be scarce.",
+      "category": "transport"
+    },
+    {
+      "tip": "Book a private boat for island hopping; it can be more economical than group tours if shared among friends.",
+      "category": "experience"
+    },
+    {
+      "tip": "Consider visiting the islands on weekdays to avoid weekend crowds.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the local dish 'Sate Ikan' (fish satay) at a beachside warung for an authentic taste.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Nasi Goreng (fried rice) at a local warung for IDR 30,000 (₹150)",
+    "midRangeMeal": "Seafood platter at a mid-range restaurant for IDR 150,000 (₹750)",
+    "luxuryMeal": "Dinner at La Cucina with a fine dining seafood menu for IDR 500,000 (₹2,500)",
+    "localTransportPerDay": "Daily local transport using taxis or motorbike rentals costs around IDR 100,000 (₹500)",
+    "budgetHotelPerNight": "A basic guesthouse for IDR 300,000 (₹1,500) including breakfast.",
+    "midRangeHotelPerNight": "A comfortable hotel for IDR 800,000 (₹4,000) with amenities.",
+    "luxuryHotelPerNight": "Luxury resort stays start around IDR 2,000,000 (₹10,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory in a hostel for around IDR 150,000 (₹750)",
+      "food": "Eating at local warungs for around IDR 30,000 per meal.",
+      "transport": "Using local transport like shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotel for IDR 800,000 (₹4,000)",
+      "food": "Mix of local and international restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Expect to pay more for exclusive experiences like private boat tours and premium accommodations."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly especially when visiting local villages; shoulders and knees should be covered.",
+    "Always ask permission before taking photos of locals or their property.",
+    "Respect local customs and traditions, especially during ceremonies."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers may overcharge tourists, always agree on a price before starting the ride.",
+      "Some tour operators may inflate prices; research and compare options."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India in Jakarta: +62 21 390 3301"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Padar Island",
+        "what": "The iconic viewpoint showcasing the unique landscape.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Climb up before sunrise for the best light."
+      }
+    ],
+    "goldenHour": "Around sunrise and sunset, when the colors are most vibrant.",
+    "tip": "Use a polarizing filter to enhance the colors of the sea and sky while photographing."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Snorkeling at Pink Beach",
+        "Hiking on Padar Island",
+        "Visiting Komodo Dragons at National Park"
+      ],
+      "emotionalArc": "This sequence creates a balance of adventure, natural beauty, and wildlife encounters, ensuring a well-rounded experience.",
+      "bestFor": [
+        "adventurous travelers",
+        "nature photographers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Rinca Island",
+      "travelTime": "1 hour by boat",
+      "how": "Boat transfer from Labuan Bajo",
+      "whyCombine": "To experience the natural habitat of the Komodo dragons."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in outdoor areas and national parks.",
+    "majorChallenges": "Uneven terrain and lack of facilities in some areas.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan activities carefully."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with clear skies, perfect for diving and outdoor activities, with moderate tourist traffic.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa on Arrival is available; ensure passport validity."
+  }
+}

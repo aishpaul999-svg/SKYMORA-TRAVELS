@@ -1,0 +1,309 @@
+{
+  "destination": "Wayanad",
+  "state": "Kerala",
+  "type": "nature/tribal",
+  "aliases": [
+    "Wayanad",
+    "wayanad",
+    "Kerala"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature enthusiasts",
+      "adventure seekers",
+      "tribal culture explorers",
+      "food lovers",
+      "wildlife photographers"
+    ],
+    "notFor": [
+      "luxury travelers seeking high-end amenities",
+      "city dwellers wanting urban nightlife",
+      "beach lovers looking for coastal experiences"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the coffee plantations at Chikmagalur. They stay for the tribal heritage at Edakkal Caves, where ancient carvings tell stories of a forgotten time. They return because Wayanad is one of the few places where nature and tribal culture weave seamlessly together, creating a tapestry rich in both history and biodiversity.",
+  "honestTruth": "Most travel guides overlook the fact that Wayanad's real charm lies not just in its scenic beauty but in its vibrant tribal communities that offer insights into a way of life that has thrived for centuries.",
+  "localTruths": [
+    "Most visitors think Wayanad is only about waterfalls. Locals know it's also a place where the ancient tribes still practice their traditions and offer visitors a glimpse into their lives.",
+    "Most visitors trek to popular spots like Banasura Hill. The best version of Wayanad is wandering through lesser-known trails where you can hear the whispers of the forest.",
+    "Most visitors spend too much time at tourist traps like Pookode Lake. The real Wayanad starts at the tribal villages where you can engage with local crafts and stories."
+  ],
+  "neighborhoodPersonalities": {
+    "Meppadi": {
+      "tags": [
+        "coffee plantations",
+        "tribal culture",
+        "adventure"
+      ],
+      "bestFor": "those wanting an immersive experience in coffee culture and tribal heritage.",
+      "avoid": "expecting luxury accommodations in this rustic area."
+    },
+    "Kalpetta": {
+      "tags": [
+        "town center",
+        "access point",
+        "local markets"
+      ],
+      "bestFor": "first-time visitors seeking easy access to attractions.",
+      "avoid": "spending too much time in urban settings instead of exploring nature."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Edakkal Caves for ancient rock art",
+        "Trek to Banasura Sagar Dam",
+        "Explore the spice plantations",
+        "Boat ride at Pookode Lake"
+      ],
+      "avoid": [
+        "Overpacking your itinerary with popular tourist spots",
+        "Ignoring local dining options in favor of chain restaurants"
+      ],
+      "mindset": "Approach Wayanad with an open heart and a willingness to connect with nature and its people."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Attend a tribal festival",
+        "Take a cooking class with a local family",
+        "Discover off-the-beaten-path waterfalls",
+        "Volunteer at a local farm"
+      ],
+      "neighborhoods": [
+        "Explore less-visited tribal hamlets",
+        "Visit the local markets in Meppadi"
+      ],
+      "local": "Only locals know the best times to visit waterfalls to avoid crowds and enjoy the tranquility."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "mild temperatures around 15-25°C, with pleasant evenings",
+      "crowds": "high tourist influx, making popular spots busy",
+      "prices": "20% price premium for accommodations",
+      "verdict": "Best time for comfortable travel, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "The weather is warm but less humid, and attractions are less crowded."
+    },
+    "offSeason": {
+      "months": "July to September",
+      "reality": "Heavy monsoon rains can disrupt travel plans but rejuvenate the lush landscapes.",
+      "hiddenGem": "Some travelers prefer this time for the green scenery and discounted rates."
+    },
+    "bestMonth": "November — ideal weather for exploration and fewer crowds.",
+    "worstMonth": "July — heavy rains may hinder travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not engaging with the local tribes and missing out on authentic experiences.",
+    "Most visitors regret skipping the lesser-known trails that offer stunning views away from the crowds.",
+    "Most visitors regret not trying local cuisine and relying solely on familiar food chains."
+  ],
+  "antiPatterns": [
+    "Visiting only the popular tourist spots without exploring local culture — it misses the essence of Wayanad.",
+    "Rushing through attractions without taking time to appreciate the surroundings — this can lead to a superficial experience.",
+    "Planning an itinerary that doesn't allow for spontaneous local interactions — it limits genuine connections with the community."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Edakkal Caves, explore a coffee plantation, and enjoy local cuisine for lunch.",
+      "verdict": "It’s a whirlwind experience but can give a taste of Wayanad."
+    },
+    "two_days": {
+      "focus": "Covers major attractions like Banasura Sagar Dam and Pookode Lake.",
+      "misses": "Deeper cultural experiences and off-the-beaten-path locations."
+    },
+    "three_to_four_days": {
+      "focus": "A well-rounded experience covering nature, culture, and adventure.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of tribal villages, waterfalls, and hidden trails.",
+      "whoFor": "nature lovers and cultural enthusiasts."
+    },
+    "recommended": "3 days — enough time to explore nature and connect with local culture."
+  },
+  "residentSunday": "A Wayanad resident with one free Sunday starts with an early morning trek to Chembra Peak for breathtaking views. Afterward, they enjoy breakfast at the local eatery 'Wayanad Spice House' for authentic Kerala parathas. In the afternoon, they visit a nearby tribal village to engage with locals and learn about their crafts. The day ends with a sunset at Banasura Sagar Dam, reflecting on the serene waters while enjoying light snacks from a local vendor.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you catch your first glimpse of the mist-covered hills while driving from Calicut.",
+    "peak": "The peak day memory target — a quiet moment watching the sun set over Banasura Sagar, surrounded by the sounds of nature.",
+    "departure": "Leaving with the lingering scent of coffee and spices, carrying a piece of Wayanad's spirit with you."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses are available but take longer, around 30 hours with multiple changes.",
+      "flight": "Direct flights to Kozhikode (CCJ) are available, approximately ₹3,500 one-way.",
+      "recommended": "SKYmora recommends taking the Shatabdi Express for a fast and comfortable journey.",
+      "budgetTip": "Book train tickets in advance to save up to ₹2000."
+    },
+    "fromMumbai": {
+      "train": "Netravati Express 16345, departs 11:45pm, 19 hours, ₹1,200 sleeper class",
+      "flight": "Direct flights available, about ₹4,000 one-way.",
+      "recommended": "Train travel is more budget-friendly and offers a scenic route."
+    },
+    "fromBangalore": {
+      "train": "Wayanad Express 16514, departs 8:30pm, 10 hours, ₹600 sleeper class",
+      "flight": "Flights are not available; buses take around 8 hours.",
+      "recommended": "Opt for the Wayanad Express for cost-effective travel."
+    },
+    "localTransport": {
+      "best": "Local buses and auto-rickshaws work well for short distances.",
+      "avoid": "Private taxis can be expensive for short trips.",
+      "appRecommendation": "Use 'Uber' for auto-rickshaws in urban areas.",
+      "autoRickshaw": "Generally safe; negotiate fares before starting.",
+      "cost": "A daily local transport budget of ₹300-500 should suffice."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Fake tribal experience tours",
+      "howItWorks": "Unscrupulous vendors offer fabricated tribal experiences that are inauthentic.",
+      "prevention": "Research and book experiences through legitimate local tour operators.",
+      "ifItHappens": "Report to local authorities and avoid paying upfront."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Puttu and Kadala at 'Kottaram Restaurant'",
+      "Fish curry at 'The Spice Rack'",
+      "Banana chips from local vendors"
+    ],
+    "avoidList": [
+      "Street food without visible preparation standards; look for cleanliness.",
+      "Dishes with raw ingredients that may not be properly sourced."
+    ],
+    "waterAdvice": "Always drink bottled water; local tap water is not safe for consumption.",
+    "trustedDhabas": "Look for busy places with local patrons, which indicate good quality and safety.",
+    "mustEat": [
+      "Appam with stew at 'Misty Hills', ",
+      "Dum Biryani at 'Biryani Hut'",
+      "Karimeen Pollichathu at 'The Green Leaf'"
+    ],
+    "touristTrap": "Many tourists fall into the trap of dining at overpriced resorts instead of local eateries."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Light, breathable clothing is recommended, especially for treks; modest attire is preferred in tribal areas.",
+    "photographyRules": "Photography is restricted in certain tribal areas; always ask for permission first.",
+    "templeEtiquette": "Remove shoes before entering temples and dress modestly.",
+    "timing": "Visiting tribal villages in the morning is best to witness daily activities.",
+    "localCustom": "When greeting locals, a simple nod or smile is often appreciated."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels at ₹500-800",
+      "food": "Local meals at ₹100-300 per meal",
+      "transport": "Using local buses and auto-rickshaws."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels or homestays at ₹1,500-2,500",
+      "food": "Mix of local restaurants and occasional splurges.",
+      "includes": "Guided tours and entrance fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury resorts starting from ₹5,000",
+      "experience": "Personalized guided tours and exclusive experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "High-end resorts and private villas.",
+      "note": "Luxury adds comfort but may disconnect you from local experiences."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who want a fast-paced city experience will be disappointed because Wayanad is about slow exploration.",
+    "If you want urban nightlife, Wayanad is the wrong choice — Bangalore or Mumbai are better.",
+    "Anyone expecting luxury shopping will find Wayanad lacking in commercial spaces."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit local markets in Kalpetta on Wednesdays for fresh produce and unique finds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'Karimeen Pollichathu' at 'The Green Leaf' for an authentic taste of local flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Join a guided trek through less-known trails to experience untouched nature.",
+      "category": "experience"
+    },
+    {
+      "tip": "Attend tribal festivals if your visit coincides; they are rich in culture and tradition.",
+      "category": "experience"
+    },
+    {
+      "tip": "Carry cash as many small eateries and shops do not accept cards.",
+      "category": "transport"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning trek to Chembra Peak",
+        "Lunch at a local dhaba",
+        "Afternoon visit to Edakkal Caves"
+      ],
+      "emotionalArc": "This sequence builds anticipation through physical exertion, rewards with local flavors, and ends with a cultural discovery.",
+      "bestFor": [
+        "active travelers",
+        "food enthusiasts",
+        "culture seekers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Chembra Peak",
+        "what": "Landscape shots of the heart-shaped lake",
+        "bestTime": "Early morning for misty views",
+        "tip": "Get there before sunrise for soft light."
+      }
+    ],
+    "goldenHour": "The hour after sunrise and before sunset, especially around the hills.",
+    "restrictedAreas": [
+      "Certain tribal areas and sacred sites.",
+      "Some temples."
+    ],
+    "tip": "Use a polarizing filter to enhance colors and reduce glare in the lush greenery."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in rural and natural areas; urban areas have some provisions.",
+    "majorChallenges": "Uneven terrain and lack of ramps in many places.",
+    "seniorFriendlyScore": 7,
+    "note": "Travelers with mobility needs should plan ahead and seek assistance for trekking activities."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Kozhikode",
+      "distance": "95km",
+      "travelTime": "2.5 hours",
+      "how": "By bus or taxi",
+      "whyCombine": "Kozhikode offers rich history and beautiful beaches."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "July due to heavy rains.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "650-2100 meters.",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "Rainy season with lush landscapes but heavy showers; carry an umbrella.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for tourism."
+  }
+}

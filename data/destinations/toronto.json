@@ -1,0 +1,276 @@
+{
+  "destination": "Toronto",
+  "country": "Canada",
+  "region": "Americas",
+  "aliases": [
+    "Toronto",
+    "toronto",
+    "canada"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "foodies",
+      "culture enthusiasts",
+      "nature lovers",
+      "adventure seekers",
+      "city explorers"
+    ],
+    "notFor": [
+      "beach lovers",
+      "party seekers",
+      "budget backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "14h",
+    "flightFromMumbai": "16h, airlines include Air Canada and United Airlines, price range INR 65,000 - 95,000 for economy return",
+    "visaForIndians": "Canada visa required",
+    "currency": "CAD, 1 INR = 0.017 CAD",
+    "timezone": "UTC-5",
+    "language": "English and French",
+    "bestMonthToVisit": "September - pleasant weather ideal for outdoor activities and festivals.",
+    "avoidMonth": "January - extremely cold temperatures can be uncomfortable for travelers.",
+    "tipping": "15-20% is customary in restaurants, and rounding up is common in taxis."
+  },
+  "whyPeopleFallInLove": "Standing atop the CN Tower, observing the city sprawled beneath, with the scent of fresh maple syrup wafting through the air while the sunset paints the skyline, offers a moment of pure wonder that encapsulates Toronto's essence.",
+  "honestTruth": "Many visitors underestimate the city's cold winters, which can be harsh and impact travel plans; be prepared for snow and icy conditions during this season.",
+  "localTruths": [
+    "Most visitors think Toronto is just a big city. Locals think it's a series of diverse communities each with its own story and vibe.",
+    "Most visitors only explore downtown. The best version of Toronto is found in neighborhoods like Kensington Market and the Distillery District, where local life thrives.",
+    "Most visitors miss the Toronto Islands. The real Toronto starts when you take a ferry to the islands for a stunning view of the skyline and peaceful parks."
+  ],
+  "neighborhoodPersonalities": {
+    "Kensington Market": {
+      "tags": [
+        "bohemian",
+        "diverse",
+        "artsy"
+      ],
+      "bestFor": "those seeking eclectic shops and diverse food options.",
+      "avoid": "crowds during weekend markets can make it overwhelming."
+    },
+    "Yorkville": {
+      "tags": [
+        "luxury",
+        "shopping",
+        "upscale"
+      ],
+      "bestFor": "luxury shopping and fine dining experiences.",
+      "avoid": "high prices may deter budget travelers."
+    },
+    "Distillery District": {
+      "tags": [
+        "historic",
+        "art",
+        "cultural"
+      ],
+      "bestFor": "art lovers and those interested in historical architecture.",
+      "avoid": "can get touristy during peak hours."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "14h",
+        "airlines": [
+          "Air Canada",
+          "United Airlines"
+        ],
+        "priceRange": "INR 65,000 - 95,000",
+        "note": "Book in advance for better deals, especially during peak season."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "16h",
+        "airlines": [
+          "Air Canada",
+          "United Airlines"
+        ],
+        "priceRange": "INR 65,000 - 95,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "The UP Express train takes 25 minutes to downtown, costing CAD 12 (approx. INR 720).",
+      "taxi": "A taxi ride costs around CAD 60 (approx. INR 3,600) and takes about 30 minutes depending on traffic.",
+      "recommended": "For first-timers, the UP Express offers a fast and convenient way to reach downtown."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Canada visa required",
+    "applyAt": "You can apply online through the official Government of Canada website or at the VFS Global centers in India.",
+    "processingTime": "Typically 15-30 days.",
+    "tip": "Ensure all your documentation is precise, especially your travel itinerary and financial proof, as this can expedite your application."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "St. Lawrence Market - grab a peameal bacon sandwich from Carousel Bakery, it’s a local favorite.",
+    "sunset": "Toronto Islands - head to Centre Island for a sunset view of the skyline around 8:30 PM in summer.",
+    "meal": "Alo Restaurant - try the tasting menu featuring seasonal Canadian ingredients, approximately CAD 300 (INR 18,000).",
+    "memory": "The moment you share a laugh with a local while enjoying street food at a night market, it encapsulates the community spirit.",
+    "secret": "Only locals know about the secret speakeasies hidden in the city; ask around in the right bars for access."
+  },
+  "residentSunday": "A Toronto resident would likely start their Sunday with brunch at Mildred's Temple Kitchen in Liberty Village around 10 AM, followed by a stroll along the waterfront. In the afternoon, they might visit the Art Gallery of Ontario, and finish the day with dinner at a local pub watching a sports game.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step outside the airport and are greeted by the crisp air, a stark contrast to the warmth of India.",
+    "peak": "The peak day memory target is when you experience the Taste of Toronto festival, sampling local cuisine from various food trucks.",
+    "departure": "As you board your flight back, the bittersweet feeling of leaving a city that felt like home lingers."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "covering major attractions like the CN Tower and Royal Ontario Museum.",
+      "misses": "deeper neighborhood explorations and local dining experiences."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced mix of sightseeing and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "a deeper dive into cultural experiences, day trips to Niagara Falls, and exploration of various neighborhoods.",
+      "whoFor": "cultural explorers and food enthusiasts."
+    },
+    "recommended": "Four days is ideal for a well-rounded experience of Toronto."
+  },
+  "antiPatterns": [
+    "Rushing through attractions without pausing to enjoy the surroundings fails to capture the city's essence.",
+    "Eating only in downtown tourist spots misses out on authentic local cuisine available in neighborhoods.",
+    "Visiting Niagara Falls on a weekend can lead to overwhelming crowds; weekdays are preferable."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying out the diverse food scene outside of tourist areas.",
+    "Most visitors regret not taking the ferry to the Toronto Islands for a different perspective of the city.",
+    "Most visitors regret not exploring the local neighborhoods, missing out on unique experiences."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 20-30°C, ideal for outdoor activities.",
+      "crowds": "Expect large crowds at major attractions.",
+      "verdict": "Great for festivals and outdoor events, but prepare for higher prices."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "This period offers pleasant weather and fewer tourists."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold winters with temperatures often below freezing, but winter sports are popular.",
+      "reason": "Some prefer it for fewer crowds and winter activities."
+    },
+    "bestMonth": "September - mild weather and numerous festivals.",
+    "currentSeason": "June 2026 is warm with average temperatures of 25°C and plenty of outdoor events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the St. Lawrence Market on Saturdays for the best selection of fresh produce and local delicacies, especially around 9 AM.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the scenic route along Lakeshore Boulevard for beautiful views of the waterfront, especially during sunset.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the local street art in Graffiti Alley, best explored in the morning to avoid crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "For authentic Indian cuisine, visit the area around Gerrard Street, which is known for its variety of Indian restaurants.",
+      "category": "food"
+    },
+    {
+      "tip": "Purchase a CityPASS for discounted entry to major attractions, which can save you money if you plan to visit multiple places.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A burger at a local fast food place costs around CAD 12 (INR 720).",
+    "midRangeMeal": "A dinner at a mid-range restaurant costs about CAD 30 (INR 1,800).",
+    "luxuryMeal": "A meal at a high-end restaurant like Canoe costs around CAD 200 (INR 12,000).",
+    "localTransportPerDay": "Expect to spend about CAD 10 (INR 600) for a day pass on public transport.",
+    "budgetHotelPerNight": "A budget hotel in downtown costs around CAD 100 (INR 6,000) for basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel costs about CAD 200 (INR 12,000) for a comfortable stay.",
+    "luxuryHotelPerNight": "Luxury accommodations like the Four Seasons can cost over CAD 500 (INR 30,000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostels around CAD 30 (INR 1,800) per night.",
+      "food": "Street food and budget eateries.",
+      "transport": "Public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹6,000",
+      "accommodation": "Mid-range hotels around CAD 100 (INR 6,000).",
+      "food": "Mix of mid-range dining and some splurges."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Expect to pay for high-end dining and experiences, but quality is assured."
+    }
+  },
+  "culturalRules": [
+    "Dress appropriately, especially when dining at upscale restaurants; smart casual is often expected.",
+    "Observe local customs, such as waiting in line and respecting personal space.",
+    "Do not tip less than 15% in restaurants, as this is considered disrespectful."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of street performers asking for money; enjoy their performances but be cautious about giving money.",
+      "Scams involving fake tickets for events; always buy from official sources."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian High Commission: 10, Lieu Place, Ottawa, ON K1N 8K3"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "CN Tower",
+        "what": "The skyline from the observation deck.",
+        "bestTime": "Sunset for magical lighting.",
+        "tip": "Visit on a weekday to avoid crowds."
+      }
+    ],
+    "goldenHour": "Around 6 AM - 8 AM in summer.",
+    "tip": "Use a polarizing filter to reduce glare when photographing the waterfront."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Breakfast at St. Lawrence Market",
+        "Visit the Royal Ontario Museum",
+        "Stroll through Queen's Park"
+      ],
+      "emotionalArc": "This sequence allows for a cultural immersion and a taste of local life, making for an enriching day.",
+      "bestFor": [
+        "food lovers",
+        "culture seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Niagara Falls",
+      "travelTime": "1.5h",
+      "how": "By bus or train.",
+      "whyCombine": "The natural wonder is a perfect contrast to city life."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Most public areas are accessible, but some older buildings may have limitations.",
+    "majorChallenges": "Public transport can be crowded; ensure to plan ahead for accessibility options.",
+    "seniorFriendlyScore": 8,
+    "note": "Many attractions offer services for those with mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures averaging 25°C, with events like the Toronto Jazz Festival ongoing and outdoor dining in full swing.",
+    "currentAlerts": [],
+    "entryRequirements": "Ensure your visa is valid and note any health regulations that may be in place."
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "destination": "Machu Picchu",
+  "country": "Peru",
+  "region": "Americas",
+  "aliases": [
+    "Machu Picchu",
+    "machu picchu",
+    "peru"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "adventure seekers",
+      "nature lovers",
+      "photographers",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "luxury tourists",
+      "party seekers",
+      "those with mobility issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "20h via Madrid",
+    "flightFromMumbai": "22h via Amsterdam",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Sol (PEN), 1 INR = 0.012 PEN",
+    "timezone": "UTC-5",
+    "language": "Spanish",
+    "bestMonthToVisit": "April, as it's the end of the rainy season with fewer crowds.",
+    "avoidMonth": "January, due to heavy rain that can cause landslides.",
+    "tipping": "10% is customary in restaurants; rounding up taxi fares is appreciated."
+  },
+  "whyPeopleFallInLove": "Standing at the Sun Gate during sunrise, you can feel the ancient energy of the Inca civilization wash over you, with mist swirling around the ruins and the golden sun illuminating the stonework, creating an almost mystical atmosphere.",
+  "honestTruth": "Many visitors underestimate the altitude; acclimatizing properly is crucial to fully enjoy the experience without getting sick.",
+  "localTruths": [
+    "Most visitors think Machu Picchu is the only important site. Locals think the Sacred Valley's lesser-known sites like Ollantaytambo tell equally compelling stories.",
+    "Most visitors rush to take photos at the main plaza. The best version of Machu Picchu is experienced quietly at the Intihuatana stone at dawn, when the crowds are absent.",
+    "Most visitors miss the Inca Trail's starting point at Pisac. The real Machu Picchu starts with a trek through this sacred landscape, allowing for a deeper connection."
+  ],
+  "neighborhoodPersonalities": {
+    "Aguas Calientes": {
+      "tags": [
+        "gateway",
+        "tourist hub",
+        "hot springs"
+      ],
+      "bestFor": "Those looking for accommodations near the ruins and dining options.",
+      "avoid": "Expect higher prices due to tourist traffic."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "20h via Madrid",
+        "airlines": [
+          "Iberia",
+          "Air India"
+        ],
+        "priceRange": "[₹60,000 - ₹80,000 return]",
+        "note": "Book 2-3 months in advance for the best fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "22h via Amsterdam",
+        "airlines": [
+          "KLM",
+          "Air France"
+        ],
+        "priceRange": "[₹65,000 - ₹85,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; taxis cost around PEN 30 and take about 1.5 hours to reach Machu Picchu town.",
+      "taxi": "PEN 30, approximately 1.5 hours.",
+      "recommended": "For first-timers, a taxi is the most straightforward option to reach Aguas Calientes."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application needed for Indians; just passport upon arrival.",
+    "processingTime": "N/A",
+    "tip": "Keep a printout of your return flight and accommodation details to show immigration if needed."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café de la Plaza, order the Peruvian breakfast with avocado toast and coffee.",
+    "sunset": "Watch the sunset from the Intihuatana stone, ideally around 5:30 PM for the best views.",
+    "meal": "Dine at Indio Feliz and try the Alpaca steak, a local favorite.",
+    "memory": "The first time you see the ruins emerge from the fog as the sun rises is an experience you'll carry forever.",
+    "secret": "Only locals know to visit the nearby hot springs in the evening, where you can relax under the stars after a day of hiking."
+  },
+  "residentSunday": "A local resident typically spends Sunday hiking the trails near Machu Picchu, followed by a hearty meal at the local market, enjoying roasted guinea pig at a stall around 1 PM. They might also relax at the hot springs in Aguas Calientes in the afternoon.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the train and hear the rushing river beside you, setting the tone for your adventure.",
+    "peak": "The peak memory is standing at the Sun Gate as the first rays of light hit the ruins, a moment of pure awe.",
+    "departure": "Departure should feel like a bittersweet farewell, with a sense of accomplishment and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covering the main sites of Machu Picchu and a short hike.",
+      "misses": "Misses the chance to explore the Sacred Valley's other archaeological sites."
+    },
+    "three_to_four_days": {
+      "focus": "Allows for a deeper exploration of Machu Picchu and the Sacred Valley.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth cultural experiences and hiking opportunities in the region.",
+      "whoFor": "Adventure seekers and history buffs."
+    },
+    "recommended": "Three to four days is ideal to soak in the history and beauty without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing through the ruins without understanding the history fails to connect you with the place.",
+    "Skipping the guided tours can lead to missing out on significant insights about the Inca civilization.",
+    "Visiting during peak hours ruins the experience; early mornings or late afternoons are far more rewarding."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the Sacred Valley exploring its other ruins.",
+    "Most visitors regret not hiring a guide, missing out on the rich stories behind the structures.",
+    "Most visitors regret not preparing for the altitude, leading to fatigue during their visit."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Dry and mild, ideal for hiking.",
+      "crowds": "Extremely busy with tourists.",
+      "verdict": "Expect long lines and crowded sites."
+    },
+    "shoulderSeason": {
+      "months": "April and September",
+      "why": "Fewer tourists and pleasant weather, making it an excellent time to visit."
+    },
+    "offSeason": {
+      "months": "January to March",
+      "reality": "Heavy rain can disrupt travel plans, but fewer crowds can be appealing.",
+      "reason": "Some prefer it for the serene atmosphere despite the rain."
+    },
+    "bestMonth": "April, as the weather is clearer after the rainy season and crowds are manageable.",
+    "currentSeason": "June 2026 is pleasantly warm, with some clouds and occasional rain, ideal for hiking."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Arrive at the ruins by 6 AM to beat the crowds and witness the sunrise over the mountains.",
+      "category": "timing"
+    },
+    {
+      "tip": "Buy snacks at the local market in Aguas Calientes to save money on overpriced food at the ruins.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the bus up to Machu Picchu instead of hiking for your first visit; the views from the bus are spectacular.",
+      "category": "transport"
+    },
+    {
+      "tip": "Engage with local guides; they often share stories and insights that enhance the experience immensely.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring a refillable water bottle; there are places to refill at the ruins to stay hydrated.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Lomo Saltado at a local eatery for PEN 15 (₹1,250)",
+    "midRangeMeal": "Three-course meal at a mid-range restaurant for PEN 60 (₹5,000)",
+    "luxuryMeal": "Dinner at Sanctuary Lodge for PEN 200 (₹16,500)",
+    "localTransportPerDay": "Around PEN 20 (₹1,650) for local transport and shuttles.",
+    "budgetHotelPerNight": "Hostel in Aguas Calientes for PEN 80 (₹6,600) with shared facilities.",
+    "midRangeHotelPerNight": "3-star hotel for PEN 200 (₹16,500) with breakfast.",
+    "luxuryHotelPerNight": "5-star hotel for PEN 500 (₹41,500)"
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Dormitory beds at hostels for ₹1,200",
+      "food": "Eating at local markets and street food.",
+      "transport": "Using buses and shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "Budget hotels around ₹4,000",
+      "food": "Mix of local restaurants and some mid-range dining."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury options are available, but be prepared for higher prices especially in peak season."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting sacred sites; avoid revealing clothing.",
+    "Respect local customs; ask before taking photos of people.",
+    "Stay on marked paths in Machu Picchu to preserve the site."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of taxi scams; always use official taxis or book via your hotel to avoid overcharging.",
+      "Check for fake guides; always choose licensed guides."
+    ],
+    "emergencyContacts": {
+      "police": "105",
+      "ambulance": "116",
+      "indianEmbassy": "Embassy of India in Peru, contact: +51-1-440-1501"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Intihuatana",
+        "what": "The iconic stone structure against a backdrop of mountains.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a wide-angle lens to capture the vast scenery."
+      }
+    ],
+    "goldenHour": "Approximately 6:00 AM to 7:00 AM.",
+    "tip": "Bring a tripod for long exposure shots of the ruins at dawn."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Sacred Valley",
+        "Hike to Ollantaytambo",
+        "Explore Machu Picchu"
+      ],
+      "emotionalArc": "This sequence builds anticipation for the final reveal of Machu Picchu after experiencing the rich history of the valley.",
+      "bestFor": [
+        "history enthusiasts",
+        "adventure travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Ollantaytambo",
+      "travelTime": "1.5 hours",
+      "how": "Train or car from Aguas Calientes",
+      "whyCombine": "To explore another significant Inca archaeological site with stunning views."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility; the site has many steep steps and uneven paths.",
+    "majorChallenges": "The terrain is challenging, making it difficult for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider hiring a local guide familiar with accessible routes."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain; expect moderate crowds during the day with clear skies in the morning.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indian passport holders as of 2026."
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "destination": "Kedarnath",
+  "state": "Uttarakhand",
+  "type": "pilgrimage",
+  "aliases": [
+    "Kedarnath",
+    "kedarnath",
+    "Uttarakhand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "devotees seeking spiritual solace",
+      "adventure seekers trekking in the Himalayas",
+      "nature lovers captivated by mountain scenery",
+      "photographers capturing religious rituals",
+      "cultural enthusiasts exploring ancient temples"
+    ],
+    "notFor": [
+      "luxury travelers expecting high-end amenities",
+      "those wanting nightlife and urban experiences",
+      "travelers with mobility issues due to steep terrain"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the sacred Kedarnath Temple, where the air is thick with incense and devotion. They stay for the mesmerizing views of the Kedarnath range, and they return because the adrenaline rush of the trek is matched only by the tranquility of evening prayers in the temple courtyard.",
+  "honestTruth": "Many visitors underestimate the physical demands of reaching Kedarnath; the trek can be grueling, yet it is this very challenge that deepens the spiritual experience for many.",
+  "localTruths": [
+    "Most visitors think a helicopter ride is the best way to reach Kedarnath. Locals think the trek offers a deeper connection to the landscape and the divine spirit of the place.",
+    "Most visitors rush through their pilgrimage. The best version of Kedarnath is savored slowly, with time spent in reflection at the temple and exploring the surrounding nature.",
+    "Most visitors spend too much time taking selfies at the temple. The real Kedarnath experience starts with the sunrise trek to Bhairav Temple for breathtaking views."
+  ],
+  "neighborhoodPersonalities": {
+    "Kedarnath Temple Area": {
+      "tags": [
+        "spiritual",
+        "crowded",
+        "historic"
+      ],
+      "bestFor": "experiencing the divine atmosphere of the temple.",
+      "avoid": "the overwhelming crowds during peak hours."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "attend the evening aarti at Kedarnath Temple",
+        "trek to Bhairav Temple for sunrise",
+        "explore the local shops for spiritual souvenirs"
+      ],
+      "avoid": [
+        "don't rush the trek; enjoy the journey",
+        "avoid eating at unknown roadside stalls"
+      ],
+      "mindset": "Approach Kedarnath with patience and reverence; it's not just a destination, but a journey of the soul."
+    },
+    "repeat": {
+      "goDeeper": [
+        "explore the ancient ruins of the old Kedarnath",
+        "visit the nearby village of Guptkashi",
+        "participate in local festivals if your timing aligns"
+      ],
+      "neighborhoods": [
+        "Dharamshala area for quieter accommodations"
+      ],
+      "local": "Only locals know that the best views of Kedarnath are from the trek to Vasuki Tal, a hidden lake."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "May to June",
+      "weather": "average temperatures of 10-20°C, mostly clear skies",
+      "crowds": "very crowded with pilgrims and trekkers",
+      "prices": "price premium of 30%",
+      "verdict": "Ideal for experiencing the vibrant spiritual atmosphere."
+    },
+    "shoulderSeason": {
+      "months": "April, September to October",
+      "why": "It's less crowded, allowing for a more personal and serene experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Heavy snowfall makes the region inaccessible, but the pristine beauty attracts some adventurous trekkers.",
+      "hiddenGem": "The tranquility of the snow-covered landscape appeals to those seeking solitude."
+    },
+    "bestMonth": "June — for pleasant weather and vibrant festivities.",
+    "worstMonth": "January — harsh winter makes travel nearly impossible."
+  },
+  "commonRegrets": [
+    "Most visitors regret not spending more time at the temple for reflection.",
+    "Most visitors regret not hiring a local guide to learn about the history.",
+    "Most visitors regret not trekking to Bhairav Temple for the stunning views."
+  ],
+  "antiPatterns": [
+    "Rushing to Kedarnath without acclimatization leads to exhaustion before the pilgrimage.",
+    "Combining Kedarnath with only urban destinations dilutes the spiritual significance.",
+    "Traveling during monsoon without proper gear can lead to dangerous situations."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": false,
+      "itinerary": "Travelers need at least two days to appreciate the journey and the pilgrimage.",
+      "verdict": "One day is not sufficient to experience Kedarnath's spiritual and natural beauty."
+    },
+    "two_days": {
+      "focus": "covering the temple visit and a trek to nearby viewpoints",
+      "misses": "the rich local culture and deeper exploration."
+    },
+    "three_to_four_days": {
+      "focus": "a fuller experience of the temple, nearby mountains, and local villages",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "deep exploration of the surrounding areas and spiritual sites",
+      "whoFor": "spiritual seekers and nature enthusiasts"
+    },
+    "recommended": "3 days — this allows for a balanced experience of trekking, spirituality, and relaxation."
+  },
+  "residentSunday": "A Kedarnath resident with one free Sunday: Morning routine starts with a 5 AM trek to Bhairav Temple for sunrise, followed by breakfast at a local eatery serving aloo parathas. Afternoon spent cleaning the temple grounds and engaging with pilgrims, and evening concludes with attending the aarti at Kedarnath Temple.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you catch your first glimpse of the Kedarnath Temple framed by the mountains as you ascend the final stretch.",
+    "peak": "The peak day memory target is standing in awe during the evening aarti, surrounded by chanting devotees and flickering lamps.",
+    "departure": "The last image that stays with you should be the serene view of the Kedarnath range as you descend, filled with a sense of peace."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Direct buses from Delhi to Haridwar are available, costing around ₹800-1,200.",
+      "flight": "No direct flights to Kedarnath; nearest is Dehradun (DED).",
+      "recommended": "Take the train to Haridwar, then a bus or shared taxi to Gaurikund, the base for the trek.",
+      "budgetTip": "Book train tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10106, approximately 20 hours, ₹1,500-2,000 in sleeper class.",
+      "flight": "Fly to Dehradun (₹5,000-8,000 one way), then take a bus to Gaurikund.",
+      "recommended": "Combine a flight to Dehradun with a bus to save time."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 16515 to Delhi, then follow the Delhi route to Kedarnath.",
+      "flight": "Fly to Dehradun, then take a bus to Gaurikund.",
+      "recommended": "A flight to Dehradun followed by local transport is the quickest."
+    },
+    "localTransport": {
+      "best": "Trekking is the primary mode of transport; ponies and palanquins are available for hire.",
+      "avoid": "Avoid unregulated taxi services; they can overcharge.",
+      "appRecommendation": "Use the 'Uttarakhand Transport' app for bus schedules.",
+      "autoRickshaw": "Not available; local transport is primarily trekking and ponies.",
+      "cost": "Daily local transport budget is around ₹1,000 for pony hire."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Ponies and Palanquins Overcharging",
+      "howItWorks": "Some owners might charge exorbitant rates for their services.",
+      "prevention": "Negotiate prices before hiring and ask locals for fair rates.",
+      "ifItHappens": "Politely refuse the service and seek alternatives."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Aloo Paratha near Kedarnath Temple",
+      "Chai at local tea stalls",
+      "Kadhi Chawal at Bhairav Temple area"
+    ],
+    "avoidList": [
+      "Raw uncooked food items, as hygiene is often compromised during peak season."
+    ],
+    "waterAdvice": "Only drink bottled water or boiled water; avoid tap water.",
+    "trustedDhabas": "Look for crowded dhabas with locals eating; these are usually safe.",
+    "mustEat": [
+      "Aloo Paratha at 'Kedarnath Bhojanalaya'",
+      "Dal Makhani at 'Shri Kedarnath Restaurant'",
+      "Thukpa at 'Himalayan Canteen'"
+    ],
+    "touristTrap": "Avoid overpriced restaurants near the temple which serve subpar food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest attire is recommended, covering shoulders and knees, especially in temples.",
+    "photographyRules": "Photography is restricted inside the Kedarnath Temple; respect signage.",
+    "templeEtiquette": "Remove shoes before entering the temple premises and maintain silence during prayers.",
+    "timing": "The morning hours are quieter for temple visits.",
+    "localCustom": "It's customary to offer a small donation at the temple as a mark of respect."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,500",
+      "accommodation": "Dormitory-style lodges starting at ₹500",
+      "food": "Local eateries with meals around ₹100-200",
+      "transport": "Trekking costs and local transport around ₹500."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels starting at ₹1,500",
+      "food": "Dining at decent restaurants with meals around ₹500",
+      "includes": "This budget unlocks better comfort and some guided tours."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels or cottages with amenities.",
+      "experience": "Private guides and better dining options."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "High-end resorts with premium services.",
+      "note": "Luxury doesn't significantly enhance the spiritual experience in Kedarnath."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who prefer modern amenities will be disappointed because Kedarnath maintains a rustic charm with limited facilities.",
+    "If you want a lively nightlife, Kedarnath is the wrong choice — Rishikesh is better.",
+    "Anyone expecting a leisurely vacation will find the rigorous trekking and altitude challenging."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the temple early morning for a quieter experience; arrive by 5 AM.",
+      "category": "timing"
+    },
+    {
+      "tip": "Hire a local guide for the trek to learn about the flora and fauna; costs around ₹1,000.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring cash in small denominations, as ATMs are scarce.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try the local 'Pahadi' dishes at lesser-known dhabas for authentic flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Participate in local festivals for a genuine cultural experience.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Trek to Bhairav Temple",
+        "Evening Aarti at Kedarnath Temple",
+        "Visit Local Markets"
+      ],
+      "emotionalArc": "This sequence builds a connection with the spirituality of the place, culminating in a reflective moment during the aarti.",
+      "bestFor": [
+        "spiritual seekers",
+        "photographers",
+        "culture enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Bhairav Temple",
+        "what": "Kedarnath Temple with the mountains in the background",
+        "bestTime": "early morning or late afternoon",
+        "tip": "Use a polarizing filter for clearer skies."
+      }
+    ],
+    "goldenHour": "The golden hour is just after sunrise and just before sunset.",
+    "restrictedAreas": [
+      "Inside Kedarnath Temple",
+      "Near the sacred fire pit"
+    ],
+    "tip": "Capture candid moments during the aarti for authentic photographs."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Honest assessment: The terrain is very challenging, making it unsuitable for wheelchair users.",
+    "majorChallenges": "Steep paths and uneven terrain present significant challenges for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Travelers with mobility needs should prepare adequately and consider hiring a pony."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Guptkashi",
+      "distance": "45km",
+      "travelTime": "2 hours",
+      "how": "Local buses and shared taxis are available.",
+      "whyCombine": "Guptkashi offers additional temples and scenic views."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "June",
+    "avoidMonth": "January due to harsh weather conditions.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "3,583 meters (11,755 feet)",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is peak season with warm weather and many pilgrims.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for Indian citizens; foreigners should check visa regulations."
+  }
+}

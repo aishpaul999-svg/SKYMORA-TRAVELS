@@ -1,0 +1,1532 @@
+﻿{
+    "destination":  "bali",
+    "aliases":  [
+                    "bali",
+                    "dps",
+                    "denpasar",
+                    "bali indonesia",
+                    "ubud",
+                    "seminyak",
+                    "canggu",
+                    "kuta",
+                    "nusa dua"
+                ],
+    "hardFacts":  {
+                      "flightFromDelhi":  "New Delhi to Bali Ngurah Rai (DPS): 8â€“10 hours with one stop, usually Singapore (SIN), Kuala Lumpur (KUL), or Colombo (CMB). No direct flight. Return fare: INR 28,000â€“65,000. Air Asia via KL or IndiGo via Singapore typically cheapest.",
+                      "flightFromMumbai":  "Mumbai to Bali: 7â€“8 hours via KL or Singapore. One stop always required.",
+                      "timezone":  "WITA (UTC+8). India is 2.5 hours behind Bali.",
+                      "currency":  "Indonesian Rupiah (IDR). IDR 10,000 = approximately INR 5.3. USD 1 = IDR 15,500â€“16,000. ALWAYS carry cash â€” many warungs, temples, and markets are cash-only. Best exchange: PT Dirgahayu exchange offices in Kuta and Ubud â€” NEVER at airport.",
+                      "visaIndia":  "Visa on Arrival at Ngurah Rai Airport for Indians: USD 35 for 30 days. Also available as e-Visa at molina.imigrasi.go.id (same cost, same duration, skips airport queue). Buy e-Visa online before travel. Extendable once for 30 more days at immigration office.",
+                      "temperature":  "Bali is tropical: 27â€“33Â°C year-round. Dry season Aprilâ€“October (best time). Wet season Novemberâ€“March: heavy afternoon rain but mornings usually clear. Rice terraces are greenest in wet season â€” extraordinary photography.",
+                      "criticalRule":  "Bali without a scooter or hired driver is a significantly diminished experience. Activities, beaches, and restaurants are spread across an area too large for walking. Scooter hire: IDR 70,000â€“100,000/day with valid licence. Driver hire: IDR 500,000â€“700,000/day â€” essential for those unfamiliar with Indonesian left-hand mountain roads.",
+                      "electricity":  "Type C and F plugs (European). 220V. Indian plugs may fit directly (round 2-pin) or need adapter. Check before travel.",
+                      "water":  "Never drink tap water in Bali. Bottled water available everywhere: IDR 5,000â€“10,000 per litre. Always carry a bottle."
+                  },
+    "emergencyContacts":  {
+                              "police":  "110",
+                              "ambulance":  "118",
+                              "touristPolice":  "+62 361 224 111 (Kuta-Denpasar tourist police)",
+                              "indianConsulate":  "+62 21 520 4150 (Jakarta â€” nearest Indian mission)",
+                              "indonesiaEmergency":  "112",
+                              "baliPoliceMain":  "+62 361 424 346",
+                              "singasanaBaliHospital":  "+62 361 484 000 (Denpasar, best for tourists)",
+                              "bimc_hospital":  "+62 361 761 263 (BIMC Kuta â€” the standard recommendation for tourists, international insurance accepted)",
+                              "siloamHospital":  "+62 361 779 900 (Denpasar area)",
+                              "pharmacy24hr":  "Guardian Pharmacy and Century pharmacy in major malls (Discovery Mall Kuta, Bali Collection Nusa Dua). Most pharmacies close at 10pm â€” buy essentials during the day."
+                          },
+    "policeStations":  [
+                           {
+                               "name":  "Denpasar Police (Polda Bali)",
+                               "area":  "Denpasar city, South Bali",
+                               "phone":  "+62 361 423 980",
+                               "address":  "Jl. W.R. Supratman 7, Denpasar"
+                           },
+                           {
+                               "name":  "Kuta Police Station",
+                               "area":  "Kuta, Legian, airport area",
+                               "phone":  "+62 361 751 598",
+                               "address":  "Kuta"
+                           },
+                           {
+                               "name":  "Ubud Police Station",
+                               "area":  "Ubud, Central Bali",
+                               "phone":  "+62 361 975 316",
+                               "address":  "Ubud town"
+                           },
+                           {
+                               "name":  "Seminyak Police Post",
+                               "area":  "Seminyak, Petitenget",
+                               "phone":  "+62 361 732 070",
+                               "address":  "Seminyak"
+                           },
+                           {
+                               "name":  "Sanur Police Post",
+                               "area":  "Sanur, East Denpasar coast",
+                               "phone":  "+62 361 288 597",
+                               "address":  "Sanur"
+                           },
+                           {
+                               "name":  "Nusa Dua Police Post",
+                               "area":  "Nusa Dua resort area",
+                               "phone":  "+62 361 771 945",
+                               "address":  "Nusa Dua"
+                           }
+                       ],
+    "firstVisitorEssentials":  {
+                                   "summary":  "First-time Bali visitor. The rice terraces are real and extraordinary. The temples have genuine spiritual significance. The food at warungs (local restaurants) is exceptional and cheap. Understanding the difference between north and south Bali â€” and between Kuta and Ubud â€” determines whether your trip is transformative or just another beach holiday.",
+                                   "mustInclude":  [
+                                                       "Tegalalang Rice Terraces â€” 8am before tour groups, IDR 15,000 entry, walk DOWN into the terraces not just from the top",
+                                                       "Tanah Lot temple at sunset â€” arrive 45 minutes before sunset, the rock temple in the sea silhouetted against the sky, IDR 60,000",
+                                                       "Ubud Monkey Forest â€” IDR 80,000, arrive 8am when monkeys are most active and tourists absent",
+                                                       "A warung breakfast â€” nasi goreng or mie goreng IDR 20,000â€“35,000, the same breakfast Balinese families eat",
+                                                       "Campuhan Ridge Walk in Ubud â€” free, early morning, 45-minute ridge walk through valley with no cars"
+                                                   ],
+                                   "localInsiderToAdd":  "Most visitors stay in Seminyak or Kuta and never leave. The Bali worth experiencing is in Ubud and the villages around it â€” the ceremonies, the rice terraces, the craft traditions. These are 45 minutes north and feel like a different country.",
+                                   "regrets":  [
+                                                   "Spent the whole trip in Seminyak beach clubs â€” Bali\u0027s spiritual and cultural heart is in Ubud, not on the beach strip",
+                                                   "Rented a scooter without experience on Indonesian mountain roads â€” left-hand traffic, no road markings, potholes, steep curves. Several tourist accidents per month.",
+                                                   "Exchanged money at the airport â€” rates 15â€“20% worse than PT Dirgahayu exchange offices in Kuta or Ubud",
+                                                   "Visited temples in inappropriate clothing â€” sarongs required at every temple, available at entrance IDR 15,000",
+                                                   "Missed a temple ceremony â€” if you see one, stop. You are allowed to watch respectfully from the outer courtyard. This is the heart of Bali."
+                                               ]
+                               },
+    "repeatVisitorIntelligence":  {
+                                      "insiderNarrative":  "Bali has been loved to the edge of itself. The version that survives the love â€” the ceremony, the rice agriculture, the temple offerings laid fresh every morning â€” exists in the villages beyond Ubud, not in the beach strip.",
+                                      "skipThese":  [
+                                                        "Kuta beach if already visited â€” one of the more overrated beaches in Southeast Asia",
+                                                        "Standard group Tanah Lot tour â€” go independently at sunset",
+                                                        "Seminyak beach clubs if already experienced"
+                                                    ],
+                                      "goHere":  [
+                                                     "Sidemen Valley â€” most beautiful rice terrace landscape in Bali, east of Ubud, almost no tourists, homestays IDR 200,000/night",
+                                                     "Amed â€” east coast diving and snorkelling village, WWII Japanese shipwreck accessible from shore, away from tourism corridor",
+                                                     "Munduk â€” north Bali highlands, coffee and clove plantations, cool air, waterfalls, Balinese villages unchanged",
+                                                     "Pura Besakih â€” the Mother Temple on the slopes of Mount Agung, most sacred site in Bali, genuinely magnificent",
+                                                     "Penglipuran Village â€” most traditional village in Bali, 700 years of bamboo architecture maintained, IDR 30,000 entry",
+                                                     "Warung Babi Guling Ibu Oka (Ubud) â€” the suckling pig restaurant Anthony Bourdain made famous",
+                                                     "East Bali â€” Tirta Gangga royal water palace, Puri Agung Karangasem palace, Tenganan village (the oldest village in Bali)"
+                                                 ]
+                                  },
+    "neighborhoods":  {
+                          "ubud":  {
+                                       "character":  "Bali\u0027s cultural, spiritual, and artistic capital. Rice terraces, galleries, traditional dance performances, healing centres, the best cafÃ©s in Bali. The correct base for a first visit that wants to understand Bali beyond the beach.",
+                                       "bestFor":  [
+                                                       "First-time visitors who want culture",
+                                                       "Longer stays",
+                                                       "Yoga, healing, spirituality"
+                                                   ],
+                                       "avoid":  [
+                                                     "The main Ubud market â€” tourist pricing for identical goods available at village markets for 50% less",
+                                                     "The Sacred Monkey Forest on weekend afternoons â€” overcrowded"
+                                                 ],
+                                       "insider":  "The Campuhan Ridge Walk at 6am on any day of the week. The path starts behind the Ibah Hotel on Jl. Raya Campuhan. At 6am you may see one or two joggers. By 9am you see fifty tourists. The same ridge, completely different experience."
+                                   },
+                          "seminyak":  {
+                                           "character":  "Bali\u0027s upscale beach and nightlife district. The beach is beautiful, the restaurants are world-class, the beach clubs are famous. More sophisticated than Kuta but heavily tourist-oriented.",
+                                           "bestFor":  [
+                                                           "Beach clubs",
+                                                           "Fine dining",
+                                                           "Couples and honeymooners wanting comfort"
+                                                       ],
+                                           "avoid":  [
+                                                         "Over-relying on Seminyak as your only Bali experience â€” Ubud is 45 minutes away and transforms the trip"
+                                                     ],
+                                           "insider":  "The back streets of Seminyak â€” Jl. Kayu Aya side streets â€” have warungs and local restaurants at 20% of the beachfront prices. Walk two streets back from the beach and the prices change immediately."
+                                       },
+                          "kuta":  {
+                                       "character":  "The original Bali tourist hub. Budget accommodation, Kuta Beach (famous but mediocre), nightlife, surf schools. Loud, crowded, and honest about being a tourist economy.",
+                                       "bestFor":  [
+                                                       "Budget travellers",
+                                                       "Surfers (Kuta has learner-friendly waves)",
+                                                       "Airport proximity"
+                                                   ],
+                                       "avoid":  [
+                                                     "Anyone wanting authentic Bali â€” Kuta is entirely constructed for visitors"
+                                                 ],
+                                       "insider":  "The Kuta-Legian beach at dawn (5:30am) is actually beautiful â€” the surfers catching the early waves, the sky changing colour, the vendors setting up. By 8am it is the tourist beach everyone photographs."
+                                   },
+                          "canggu":  {
+                                         "character":  "Where the digital nomads, surfers, and fashion-forward visitors moved when Seminyak became too crowded. Independent cafÃ©s, rice paddy views, surf culture, excellent food.",
+                                         "bestFor":  [
+                                                         "Longer stays wanting community",
+                                                         "Digital nomads",
+                                                         "Best cafÃ© culture in Bali"
+                                                     ],
+                                         "avoid":  [
+                                                       "Peak Novemberâ€“April when Canggu becomes its own tourist scrum"
+                                                   ],
+                                         "insider":  "The rice paddies behind Canggu (walk 15 minutes inland from the main Batu Bolong strip) are working agricultural fields with genuine warungs at their edges. Breakfast at a warung in the rice paddies with no other tourists is still possible in Canggu if you walk away from the main road."
+                                     },
+                          "nusa_dua":  {
+                                           "character":  "Bali\u0027s resort enclave. Purpose-built for luxury hotels. The ITDC zone has manicured beaches, traffic-free paths, and a sanitised version of Bali that has nothing to do with the island\u0027s actual culture.",
+                                           "bestFor":  [
+                                                           "Families wanting safe beach environment",
+                                                           "Pure beach relaxation without distraction"
+                                                       ],
+                                           "avoid":  [
+                                                         "As a base for exploring Bali â€” it is 30â€“60 minutes from everywhere"
+                                                     ],
+                                           "insider":  "The public beach south of the Nusa Dua resort zone (Pantai Mengiat) is free, clean, and has far fewer people than the resort beaches 100m north. The same quality of sea, zero admission fee."
+                                       },
+                          "east_bali":  {
+                                            "character":  "The Bali that most visitors never find. Amed, Candidasa, Tirta Gangga, Padangbai. A completely different landscape â€” volcanic black sand beaches, coral reef snorkelling, the slopes of Mount Agung, ancient royal palaces.",
+                                            "bestFor":  [
+                                                            "Repeat visitors",
+                                                            "Divers and snorkellers",
+                                                            "Anyone wanting to escape the tourist corridor"
+                                                        ],
+                                            "avoid":  [
+                                                          "Trying to do east Bali as a day trip from Seminyak â€” it is 2+ hours and deserves an overnight stay"
+                                                      ],
+                                            "insider":  "Tirta Gangga royal water palace at 7am when the pools are empty and the light is coming through the lotus flowers. The king of Karangasem built this in 1948. Entry IDR 50,000. At 7am you may be the only visitor."
+                                        },
+                          "north_bali_munduk":  {
+                                                    "character":  "Bali\u0027s highlands and north coast. Munduk coffee and clove plantations, Singaraja (Bali\u0027s former capital), Lovina black sand beach with dolphin watching, Lake Bratan temple. The cool air (20â€“25Â°C) is the most physically remarkable thing after days in the heat.",
+                                                    "bestFor":  [
+                                                                    "Repeat visitors",
+                                                                    "Those who want a genuinely different Bali experience",
+                                                                    "Cool weather"
+                                                                ],
+                                                    "avoid":  [
+                                                                  "As a day trip from Ubud â€” the roads are winding and the journey is longer than maps suggest"
+                                                              ],
+                                                    "insider":  "The Munduk waterfall trail starts at the Munduk village warung and passes through coffee, clove, and vanilla plantations. The local guide (IDR 50,000) is the son of the farmer whose land the trail crosses."
+                                                }
+                      },
+    "restaurants":  [
+                        {
+                            "name":  "Warung Babi Guling Ibu Oka",
+                            "area":  "Ubud, near Ubud Palace",
+                            "type":  "budget",
+                            "cuisine":  "Balinese suckling pig",
+                            "orderThis":  "Babi guling set IDR 60,000â€“80,000 (includes rice, pork, lawar, crackling, soup)",
+                            "pricePerPerson":  "IDR 60,000â€“80,000",
+                            "hours":  "11amâ€“3pm. Sells out. Come at opening.",
+                            "reservation":  "No. Arrive 11am.",
+                            "insider":  "Anthony Bourdain came here. The whole pig is roasted over coconut wood from 5am. The crackling shatters. The meat underneath is seasoned with 17 spices. The kitchen closes when the pig is finished â€” usually by 2pm. Come at 11am or miss it.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "repeat":  10,
+                                           "firstTimer":  9,
+                                           "solo":  9,
+                                           "couple":  8,
+                                           "budget":  9,
+                                           "adventure":  8,
+                                           "photographer":  7,
+                                           "family":  7,
+                                           "luxury":  3
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Locavore",
+                            "area":  "Ubud",
+                            "type":  "luxury",
+                            "cuisine":  "Modern Indonesian fine dining",
+                            "orderThis":  "Tasting menu IDR 1,400,000/person. Wine pairing available.",
+                            "pricePerPerson":  "IDR 1,400,000â€“2,000,000",
+                            "hours":  "Dinner only, Monâ€“Sat.",
+                            "reservation":  "Weeks ahead. locavore.co.id",
+                            "insider":  "The best restaurant in Southeast Asia by multiple rankings. Every ingredient sourced within 100km. Chef Ray Adriansyah uses Balinese fermentation, smoking, and spice techniques in a contemporary framework. The duck dish that takes three preparations is the reason people fly to Ubud for dinner.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "foodie":  10,
+                                           "couple":  9,
+                                           "honeymoon":  9,
+                                           "repeat":  10,
+                                           "solo":  8,
+                                           "firstTimer":  7,
+                                           "budget":  0,
+                                           "family":  2,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Warung Nasi Ayam Kedewatan",
+                            "area":  "Kedewatan village, north Ubud",
+                            "type":  "budget",
+                            "cuisine":  "Balinese nasi ayam",
+                            "orderThis":  "Nasi ayam set IDR 25,000 â€” includes rice, shredded chicken, satay lilit, lawar, sambal",
+                            "pricePerPerson":  "IDR 25,000â€“40,000",
+                            "hours":  "8amâ€“2pm. Sells out by noon.",
+                            "reservation":  "No.",
+                            "insider":  "Village warung serving the same nasi ayam since the 1970s. The chicken is poached then grilled. The sambal is made fresh each morning. The entire set costs IDR 25,000. Indistinguishable in quality from what Locavore charges IDR 1.4 million for â€” except Locavore makes it more complicated.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "budget":  10,
+                                           "foodie":  9,
+                                           "repeat":  9,
+                                           "solo":  9,
+                                           "firstTimer":  7,
+                                           "couple":  7,
+                                           "adventure":  8,
+                                           "family":  7,
+                                           "luxury":  2,
+                                           "photographer":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Room4Dessert",
+                            "area":  "Ubud",
+                            "type":  "mid",
+                            "cuisine":  "Avant-garde dessert tasting menu",
+                            "orderThis":  "Dessert tasting menu USD 60 â€” 7 courses of Balinese-inspired desserts",
+                            "pricePerPerson":  "USD 60â€“80",
+                            "hours":  "Two sittings 6pm and 8:30pm. Closed Wednesdays.",
+                            "reservation":  "room4dessert.com â€” essential.",
+                            "insider":  "Chef Will Goldfarb moved from New York to Ubud after his Manhattan restaurant became famous (profiled in Chef\u0027s Table). He uses jackfruit, coconut, pandan, and local sugars in desserts that look like geology and taste like nothing else. The only restaurant in the world dedicated entirely to dessert as a full tasting menu.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "couple":  9,
+                                           "honeymoon":  9,
+                                           "repeat":  10,
+                                           "solo":  8,
+                                           "luxury":  8,
+                                           "firstTimer":  7,
+                                           "budget":  2,
+                                           "family":  5,
+                                           "photographer":  9
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Merah Putih",
+                            "area":  "Seminyak",
+                            "type":  "luxury",
+                            "cuisine":  "Modern Indonesian",
+                            "orderThis":  "Beef rendang IDR 280,000, Nasi campur Bali IDR 185,000, Coconut sorbet IDR 85,000",
+                            "pricePerPerson":  "IDR 350,000â€“600,000",
+                            "hours":  "Dinner only.",
+                            "reservation":  "+62 361 846 5950 â€” essential.",
+                            "insider":  "Inside a colonial villa with a dramatic 12-metre high ceiling. The most beautiful dining room in Bali. Chef Arie Ardana\u0027s modern Indonesian menu uses ingredients from 200 Indonesian islands. The beef rendang has been slowly cooked for 6 hours.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "couple":  9,
+                                           "honeymoon":  10,
+                                           "foodie":  9,
+                                           "repeat":  9,
+                                           "firstTimer":  7,
+                                           "solo":  7,
+                                           "budget":  0,
+                                           "family":  4,
+                                           "photographer":  8
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Kakiang Bakery",
+                            "area":  "Ubud town",
+                            "type":  "budget",
+                            "cuisine":  "Balinese bakery and cafÃ©",
+                            "orderThis":  "Banana bread IDR 20,000, Coconut cream pie IDR 35,000, Cold brew coffee IDR 40,000",
+                            "pricePerPerson":  "IDR 50,000â€“120,000",
+                            "hours":  "7amâ€“9pm daily.",
+                            "reservation":  "No.",
+                            "insider":  "The bakery that Ubud residents use every morning. Made entirely from local ingredients â€” the coconut cream comes from the coconut palm 50 metres from the bakery. No Instagram positioning. The correct breakfast before the Campuhan Ridge Walk.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "budget":  9,
+                                           "solo":  9,
+                                           "couple":  7,
+                                           "firstTimer":  7,
+                                           "repeat":  8,
+                                           "foodie":  7,
+                                           "photographer":  6,
+                                           "family":  7,
+                                           "luxury":  3,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "La Plancha",
+                            "area":  "Seminyak beach",
+                            "type":  "mid",
+                            "cuisine":  "Mediterranean beach dining",
+                            "orderThis":  "Grilled calamari IDR 95,000, Sangria (jug) IDR 185,000, Bali sunset (cocktail) IDR 90,000",
+                            "pricePerPerson":  "IDR 150,000â€“350,000",
+                            "hours":  "11amâ€“11pm daily.",
+                            "reservation":  "Walk-in. Arrive 1 hour before sunset for bean bag seating.",
+                            "insider":  "The colourful bean bags and parasols on Seminyak beach are La Plancha. This is the image of Seminyak beach that appears in every magazine. The sangria is genuinely good. The sunset here â€” with the coloured parasols and the Seminyak beach curve â€” is the most photographed beach moment in Bali.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "couple":  9,
+                                           "firstTimer":  8,
+                                           "photographer":  10,
+                                           "honeymoon":  9,
+                                           "solo":  6,
+                                           "repeat":  7,
+                                           "budget":  4,
+                                           "family":  5,
+                                           "luxury":  6,
+                                           "adventure":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Naughty Nuri\u0027s",
+                            "area":  "Ubud, Jl. Raya Sanggingan",
+                            "type":  "mid",
+                            "cuisine":  "BBQ ribs and martinis",
+                            "orderThis":  "BBQ pork ribs full rack IDR 180,000, Dirty martini IDR 80,000",
+                            "pricePerPerson":  "IDR 150,000â€“280,000",
+                            "hours":  "11amâ€“11pm.",
+                            "reservation":  "No. Queue for a table at peak hours.",
+                            "insider":  "Famous since the 1980s for the most unexpectedly excellent BBQ pork ribs on the island. The restaurant is a roadside warung that expanded â€” the energy is completely unpretentious. The martini programme is taken seriously. Bourdain ate here. The ribs justify the visit.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  9,
+                                           "repeat":  8,
+                                           "couple":  8,
+                                           "solo":  8,
+                                           "firstTimer":  8,
+                                           "budget":  6,
+                                           "luxury":  4,
+                                           "family":  6,
+                                           "photographer":  6,
+                                           "adventure":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Ku De Ta",
+                            "area":  "Seminyak beach, Kayu Aya",
+                            "type":  "luxury",
+                            "cuisine":  "International â€” beach club dining",
+                            "orderThis":  "Grilled fish of the day IDR 350,000, Chilli crab cakes IDR 180,000, Bintang beer IDR 75,000",
+                            "pricePerPerson":  "IDR 300,000â€“700,000",
+                            "hours":  "All day. Sunset from 4pm most important.",
+                            "reservation":  "+62 361 736 969 for tables.",
+                            "insider":  "The original Bali beach club concept. The sunset here â€” directly facing west from Seminyak beach â€” is extraordinary. The food is expensive for the quality but the setting justifies the visit once. Come for sunset drinks only if budget is tight.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  8,
+                                           "couple":  9,
+                                           "honeymoon":  9,
+                                           "firstTimer":  8,
+                                           "photographer":  9,
+                                           "repeat":  7,
+                                           "solo":  6,
+                                           "budget":  2,
+                                           "family":  4,
+                                           "foodie":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Warung Dapur Bali",
+                            "area":  "Ubud area, Penestanan village",
+                            "type":  "budget",
+                            "cuisine":  "Balinese home cooking",
+                            "orderThis":  "Nasi campur IDR 35,000, Bebek betutu (duck) IDR 65,000, Jukut urap IDR 25,000",
+                            "pricePerPerson":  "IDR 35,000â€“80,000",
+                            "hours":  "Lunch only 11amâ€“3pm.",
+                            "reservation":  "No.",
+                            "insider":  "A village of artists and musicians adjacent to Ubud. The warungs here serve the same food as everywhere else but are priced for Balinese residents who live here. Mie goreng IDR 20,000. The best nasi campur in the area in a warung with no name on the door â€” ask at your homestay.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "budget":  10,
+                                           "foodie":  9,
+                                           "solo":  8,
+                                           "repeat":  9,
+                                           "couple":  7,
+                                           "firstTimer":  7,
+                                           "adventure":  7,
+                                           "family":  7,
+                                           "luxury":  2,
+                                           "photographer":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Mozaic Restaurant",
+                            "area":  "Ubud",
+                            "type":  "luxury",
+                            "cuisine":  "French-Asian fine dining",
+                            "orderThis":  "Tasting menu IDR 950,000â€“1,350,000/person",
+                            "pricePerPerson":  "IDR 950,000â€“1,500,000",
+                            "hours":  "Dinner only, Tueâ€“Sun.",
+                            "reservation":  "mozaic-bali.com â€” essential.",
+                            "insider":  "The original fine dining destination in Ubud that made international food media pay attention to Bali. Chef Chris Salans opened in 2001. The garden setting with open kitchen and tropical garden surrounding the dining room remains one of the most beautiful restaurant environments in Asia.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  9,
+                                           "foodie":  9,
+                                           "couple":  8,
+                                           "honeymoon":  9,
+                                           "repeat":  9,
+                                           "solo":  7,
+                                           "firstTimer":  6,
+                                           "budget":  0,
+                                           "family":  2,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Cuca Restaurant",
+                            "area":  "Jimbaran",
+                            "type":  "mid",
+                            "cuisine":  "Innovative tapas â€” seasonal",
+                            "orderThis":  "Bali Blue snapper ceviche IDR 145,000, Lobster gratin IDR 285,000",
+                            "pricePerPerson":  "IDR 350,000â€“600,000",
+                            "hours":  "Dinner only.",
+                            "reservation":  "cuca.com.au â€” essential.",
+                            "insider":  "Chef Kevin Cherkas uses Balinese local ingredients in Spanish tapas format â€” a combination that should not work and works extraordinarily. The ceviche uses coconut water from the trees behind the kitchen. The wine list is the best in Bali.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  9,
+                                           "couple":  8,
+                                           "honeymoon":  8,
+                                           "luxury":  8,
+                                           "repeat":  9,
+                                           "solo":  7,
+                                           "firstTimer":  7,
+                                           "budget":  2,
+                                           "family":  4,
+                                           "photographer":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Kafe Batan Waru",
+                            "area":  "Ubud",
+                            "type":  "mid",
+                            "cuisine":  "Balinese and Indonesian",
+                            "orderThis":  "Nasi goreng kampung IDR 65,000, Sate lilit IDR 75,000, Es campur IDR 45,000",
+                            "pricePerPerson":  "IDR 80,000â€“150,000",
+                            "hours":  "10amâ€“10pm.",
+                            "reservation":  "Walk-in.",
+                            "insider":  "The restaurant Ubud residents recommend to visitors when asked where they actually eat. Not a warung, not a luxury restaurant â€” the honest middle ground of Balinese food done properly in a pleasant environment at honest prices.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "firstTimer":  8,
+                                           "budget":  7,
+                                           "solo":  8,
+                                           "couple":  7,
+                                           "family":  7,
+                                           "repeat":  7,
+                                           "foodie":  8,
+                                           "luxury":  4,
+                                           "photographer":  5,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Barbacoa",
+                            "area":  "Canggu",
+                            "type":  "mid",
+                            "cuisine":  "Argentinian asado BBQ",
+                            "orderThis":  "Full asado platter IDR 350,000, Empanadas IDR 65,000, Malbec glass IDR 120,000",
+                            "pricePerPerson":  "IDR 250,000â€“500,000",
+                            "hours":  "Dinner only.",
+                            "reservation":  "Walk-in.",
+                            "insider":  "Argentine chef Facundo Keravec left Buenos Aires to open this in Canggu. The asado is made over wood fire using techniques from the Pampas applied to Balinese-sourced beef. The best BBQ in Indonesia by a significant margin.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  8,
+                                           "couple":  8,
+                                           "solo":  7,
+                                           "repeat":  8,
+                                           "adventure":  7,
+                                           "firstTimer":  6,
+                                           "luxury":  6,
+                                           "budget":  4,
+                                           "family":  6,
+                                           "photographer":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Single Fin",
+                            "area":  "Uluwatu cliff, south Bali",
+                            "type":  "mid",
+                            "cuisine":  "International with ocean view",
+                            "orderThis":  "Fish tacos IDR 85,000, Nachos IDR 95,000, Bintang IDR 60,000",
+                            "pricePerPerson":  "IDR 150,000â€“300,000",
+                            "hours":  "9amâ€“11pm.",
+                            "reservation":  "Walk-in. Come 1 hour before sunset.",
+                            "insider":  "Perched on the edge of the Uluwatu cliff. The restaurant faces directly west over the Indian Ocean. Below: surfers riding Uluwatu\u0027s legendary reef break. At sunset the light turns the cliffs orange, the surfers become silhouettes, and the bar is the most dramatic venue in Bali. The food is standard. The setting is not.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "photographer":  10,
+                                           "couple":  10,
+                                           "firstTimer":  9,
+                                           "repeat":  9,
+                                           "honeymoon":  9,
+                                           "solo":  8,
+                                           "adventure":  8,
+                                           "budget":  5,
+                                           "family":  5,
+                                           "luxury":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        }
+                    ],
+    "activities":  [
+                       {
+                           "name":  "Campuhan Ridge Walk",
+                           "area":  "Ubud â€” starts behind Ibah Hotel on Jl. Raya Campuhan",
+                           "price":  "Free",
+                           "duration":  "45 minutes one way",
+                           "bestTime":  "6:30amâ€“8am before heat and other walkers",
+                           "book":  "No booking.",
+                           "insider":  "A ridge path through jungle above the confluence of two rivers. At 6:30am the light comes through the trees at an angle that exists for about 20 minutes. The valley has rice terraces on one side and a river on the other. No motor vehicles. No entry fee. Most visitors walk it at 9am when it is already warm and crowded.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "couple":  9,
+                                          "solo":  9,
+                                          "honeymoon":  9,
+                                          "firstTimer":  8,
+                                          "repeat":  7,
+                                          "budget":  10,
+                                          "family":  6,
+                                          "luxury":  6,
+                                          "adventure":  7
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Mount Batur Sunrise Trek",
+                           "area":  "Kintamani, north of Ubud",
+                           "price":  "IDR 500,000â€“750,000 including guide",
+                           "duration":  "6 hours total (2am departure, back by 10am)",
+                           "bestTime":  "Depart 2am. Reach summit by 5:30am for sunrise at 6am.",
+                           "book":  "Through hotel or local trekking company. Guide is mandatory.",
+                           "insider":  "An active volcano 1,717 metres above sea level. The sunrise from the crater rim over the caldera lake and cloud sea is the most photographed view in Bali that cannot be faked. The hike is 2â€“2.5 hours up on volcanic sand â€” harder than it looks. Worth every step.",
+                           "scores":  {
+                                          "adventure":  10,
+                                          "photographer":  10,
+                                          "couple":  9,
+                                          "solo":  9,
+                                          "repeat":  8,
+                                          "firstTimer":  7,
+                                          "honeymoon":  7,
+                                          "budget":  6,
+                                          "family":  3,
+                                          "luxury":  4
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Tegalalang Rice Terraces",
+                           "area":  "North Ubud, 10km from town",
+                           "price":  "IDR 15,000 entry",
+                           "duration":  "2 hours",
+                           "bestTime":  "7:30amâ€“9:30am â€” before tour buses arrive at 10am",
+                           "book":  "No booking.",
+                           "insider":  "The subak irrigation system creating these terraces is UNESCO-listed. Walk DOWN into the terraces â€” not just the view from the road. At 8am, farmers are already working. The terraces are flooded and brilliant green or golden and ready to harvest depending on the season. Skip the rope swings â€” they add nothing and the queue takes up the time you should spend in the terraces.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "firstTimer":  9,
+                                          "couple":  9,
+                                          "honeymoon":  9,
+                                          "family":  7,
+                                          "solo":  8,
+                                          "budget":  9,
+                                          "repeat":  7,
+                                          "luxury":  6,
+                                          "adventure":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Traditional Balinese Cooking Class",
+                           "area":  "Ubud â€” Paon Bali, Casa Luna, or Lobong Culinary Experience",
+                           "price":  "IDR 350,000â€“600,000/person",
+                           "duration":  "4 hours including morning market visit",
+                           "bestTime":  "Morning class starting 8am",
+                           "book":  "paonbali.com or casalunabali.com",
+                           "insider":  "The class starts at the morning market where you shop for ingredients. You learn that Balinese cooking uses 11 specific base spices (base genep) and that almost every Balinese dish contains the same foundation. The warung meal you eat at the end will taste different from every warung meal you eat after it.",
+                           "scores":  {
+                                          "foodie":  10,
+                                          "couple":  9,
+                                          "solo":  8,
+                                          "firstTimer":  8,
+                                          "repeat":  7,
+                                          "family":  8,
+                                          "luxury":  7,
+                                          "budget":  6,
+                                          "photographer":  7,
+                                          "adventure":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Tanah Lot Temple at Sunset",
+                           "area":  "Tabanan, west coast Bali",
+                           "price":  "IDR 60,000 entry",
+                           "duration":  "2 hours",
+                           "bestTime":  "Arrive 45 minutes before sunset",
+                           "book":  "No booking.",
+                           "insider":  "A 16th-century sea temple built on a rock outcrop in the sea. At low tide you can walk to the base. At high tide the rock is surrounded by water. The sunset silhouette of the temple is the iconic Bali image. Arrive early for the best position on the viewing platform. Leave before sunset actually arrives â€” the crowd becomes difficult.",
+                           "scores":  {
+                                          "firstTimer":  10,
+                                          "couple":  10,
+                                          "photographer":  10,
+                                          "honeymoon":  9,
+                                          "family":  8,
+                                          "solo":  7,
+                                          "repeat":  6,
+                                          "budget":  8,
+                                          "luxury":  7,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Pura Tirta Empul Holy Spring",
+                           "area":  "Tampaksiring, near Ubud",
+                           "price":  "IDR 50,000 + sarong hire IDR 15,000",
+                           "duration":  "2 hours",
+                           "bestTime":  "6amâ€“8am on a weekday",
+                           "book":  "No booking.",
+                           "insider":  "A temple where Balinese Hindus come to purify themselves in spring-fed pools. At 6am on a weekday the ceremony is genuine â€” local families, priests, offerings, the sound of water and prayer. By 9am the photographers outnumber the worshippers. Arrive early. Dress respectfully. Watch silently from designated areas.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "culture":  10,
+                                          "firstTimer":  8,
+                                          "repeat":  9,
+                                          "couple":  7,
+                                          "solo":  8,
+                                          "budget":  8,
+                                          "luxury":  5,
+                                          "family":  6,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Uluwatu Temple and Kecak Fire Dance",
+                           "area":  "Uluwatu, south Bali cliff",
+                           "price":  "Temple IDR 50,000. Kecak dance IDR 150,000.",
+                           "duration":  "3 hours (arrive 4pm for sunset + dance at 6pm)",
+                           "bestTime":  "Late afternoon for sunset, Kecak dance at 6pm",
+                           "book":  "No advance booking for dance â€” buy ticket at entrance 30 mins before.",
+                           "insider":  "Pura Luhur Uluwatu sits on a 70-metre cliff above the Indian Ocean. The Kecak fire dance performed at sunset at the temple amphitheatre â€” with the ocean below and the cliff behind â€” is the most dramatically staged traditional performance in Bali. The monkeys at the temple will steal glasses and phones â€” hold everything firmly.",
+                           "scores":  {
+                                          "firstTimer":  10,
+                                          "couple":  9,
+                                          "honeymoon":  9,
+                                          "photographer":  10,
+                                          "family":  8,
+                                          "solo":  8,
+                                          "repeat":  8,
+                                          "budget":  7,
+                                          "luxury":  7,
+                                          "adventure":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "White Water Rafting â€” Ayung River",
+                           "area":  "Ubud, Ayung River valley",
+                           "price":  "IDR 350,000â€“600,000/person including lunch",
+                           "duration":  "3 hours",
+                           "bestTime":  "Morning departure 8am",
+                           "book":  "Sobek Bali or Mason Adventures: masonadventures.com",
+                           "insider":  "The Ayung River has Class 2â€“3 rapids and passes through a gorge of extraordinary jungle and carved stone embankments. The carved stone panels along the riverbank are hundreds of years old. The river is 500 metres below Ubud â€” the same jungle you walk above is completely different from below.",
+                           "scores":  {
+                                          "adventure":  10,
+                                          "family":  8,
+                                          "couple":  7,
+                                          "firstTimer":  7,
+                                          "solo":  7,
+                                          "repeat":  6,
+                                          "photographer":  7,
+                                          "budget":  5,
+                                          "luxury":  5,
+                                          "foodie":  2
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Pura Besakih â€” Mother Temple",
+                           "area":  "Karangasem regency, slope of Mount Agung",
+                           "price":  "IDR 60,000 + guide IDR 100,000 (official association guide only)",
+                           "duration":  "3 hours",
+                           "bestTime":  "Morning, any day. Check if a major ceremony is happening â€” enter dates at besakihtemple.com",
+                           "book":  "No advance booking. Hire guide from official guide association at entrance only.",
+                           "insider":  "The most sacred temple complex in Bali â€” 23 separate temples on the slope of an active volcano. Genuinely extraordinary in scale and atmosphere. Do NOT hire independent guides outside the gate â€” they are known scammers. The official association guides speak English and have proper temple knowledge.",
+                           "scores":  {
+                                          "firstTimer":  9,
+                                          "photographer":  9,
+                                          "culture":  10,
+                                          "couple":  7,
+                                          "repeat":  8,
+                                          "solo":  7,
+                                          "budget":  7,
+                                          "adventure":  6,
+                                          "luxury":  5,
+                                          "family":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Snoopy Island Snorkelling â€” Amed",
+                           "area":  "Amed, East Bali",
+                           "price":  "IDR 50,000â€“80,000 for snorkelling gear hire",
+                           "duration":  "Half day",
+                           "bestTime":  "Morning 7â€“10am for best visibility and calm sea",
+                           "book":  "No booking. Gear from any beach in Amed.",
+                           "insider":  "Amed\u0027s house reef accessible directly from the beach has coral, tropical fish, and the USAT Liberty Wreck (a WWII American cargo ship torpedoed in 1942) in 5â€“30m of water. The wreck is the most accessible and extraordinary dive/snorkel site in Bali. Amed itself is a fishing village with black sand beaches and none of Kuta\u0027s tourist energy.",
+                           "scores":  {
+                                          "adventure":  10,
+                                          "repeat":  10,
+                                          "photographer":  9,
+                                          "solo":  8,
+                                          "couple":  8,
+                                          "budget":  8,
+                                          "firstTimer":  5,
+                                          "family":  7,
+                                          "luxury":  4,
+                                          "foodie":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Sidemen Valley Rice Terrace Walk",
+                           "area":  "Sidemen, East Bali, 45 mins from Ubud",
+                           "price":  "Free (walk from any guesthouse)",
+                           "duration":  "Half day",
+                           "bestTime":  "Morning any day",
+                           "book":  "No booking.",
+                           "insider":  "The most beautiful rice terrace landscape in Bali with almost no tourists. The Sidemen Valley has Mount Agung as its backdrop. Village homestays with rice paddy views cost IDR 200,000â€“400,000/night. The walk between villages on paths through the rice terraces takes 2â€“3 hours.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "repeat":  10,
+                                          "couple":  9,
+                                          "solo":  9,
+                                          "adventure":  8,
+                                          "budget":  9,
+                                          "firstTimer":  6,
+                                          "honeymoon":  9,
+                                          "family":  6,
+                                          "luxury":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Ubud Palace (Puri Saren Agung)",
+                           "area":  "Central Ubud",
+                           "price":  "Free to enter grounds. Traditional dance IDR 100,000.",
+                           "duration":  "1 hour visit + 1 hour dance",
+                           "bestTime":  "Evening for the traditional dance performance (7:30pm)",
+                           "book":  "Dance tickets at entrance.",
+                           "insider":  "The official palace of the Ubud royal family. Still a working royal residence. The traditional Legong dance performed in the palace courtyard at 7:30pm â€” lit by torches, with the palace architecture as backdrop â€” is the most atmospheric traditional performance in Ubud.",
+                           "scores":  {
+                                          "firstTimer":  9,
+                                          "photographer":  9,
+                                          "couple":  8,
+                                          "solo":  7,
+                                          "culture":  10,
+                                          "repeat":  7,
+                                          "budget":  7,
+                                          "family":  7,
+                                          "luxury":  6,
+                                          "adventure":  4
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Jimbaran Bay Seafood at Sunset",
+                           "area":  "Jimbaran Bay, south Bali",
+                           "price":  "IDR 200,000â€“500,000/person including seafood by weight",
+                           "duration":  "2â€“3 hours",
+                           "bestTime":  "Arrive before sunset 5pm",
+                           "book":  "No booking needed. Multiple seafood cafÃ©s along the beach.",
+                           "insider":  "Tables on the sand, seafood grilled to order, sunset over the bay. The price-per-kilogram system means you pay only for what you eat. Buy whole fish, prawns, and clams by weight, then specify: grilled with sambal and lemon. The sunset from Jimbaran Bay faces directly west â€” the Bali experience that most restaurant menus describe but few achieve.",
+                           "scores":  {
+                                          "firstTimer":  9,
+                                          "couple":  9,
+                                          "honeymoon":  9,
+                                          "family":  8,
+                                          "photographer":  8,
+                                          "solo":  7,
+                                          "repeat":  8,
+                                          "budget":  6,
+                                          "luxury":  6,
+                                          "foodie":  8
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Penglipuran Traditional Village",
+                           "area":  "Bangli, Central Bali",
+                           "price":  "IDR 30,000",
+                           "duration":  "2 hours",
+                           "bestTime":  "Morning 8â€“10am",
+                           "book":  "No booking.",
+                           "insider":  "The most traditional village in Bali â€” bamboo architecture maintained for 700 years. The main street is a straight path lined with identical bamboo house compounds. The entire village is preserved by community agreement â€” no concrete, no modern materials. Residents still live here. The most honest architectural experience in Bali.",
+                           "scores":  {
+                                          "culture":  10,
+                                          "photographer":  9,
+                                          "firstTimer":  8,
+                                          "repeat":  8,
+                                          "couple":  7,
+                                          "solo":  8,
+                                          "budget":  8,
+                                          "family":  7,
+                                          "luxury":  5,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       }
+                   ],
+    "designedSurprises":  {
+                              "solo":  {
+                                           "experience":  "Sidemen Valley overnight stay at a rice paddy homestay",
+                                           "details":  "A valley 45 minutes east of Ubud that looks like what Ubud looked like 20 years ago. Homestays with rice paddy views IDR 200,000â€“400,000/night. Hire a bicycle and spend a morning riding between villages.",
+                                           "why":  "Solo travellers who find Sidemen describe it as the Bali they came looking for."
+                                       },
+                              "couple":  {
+                                             "experience":  "Private villa with private pool and rice paddy view for one night",
+                                             "details":  "Goa villa culture applied to Bali â€” private pools overlooking rice terraces for IDR 800,000â€“3,000,000 for the entire villa per night. The combination of private pool, no other guests, rice paddy view, and Bali morning is the specific Bali luxury that nothing else replicates.",
+                                             "why":  "The memory couples take from Bali is almost always the morning coffee by their private pool."
+                                         },
+                              "honeymoon":  {
+                                                "experience":  "Private sunrise at Pura Lempuyang â€” Gates of Heaven",
+                                                "details":  "The most photographed temple in Bali â€” the split gate framing Mount Agung. At 5:30am, before any photographer or tour group, you stand at the gate with the volcano behind it in total silence. The queue for the photograph starts at 7:30am. Arrive at temple opening 6am.",
+                                                "why":  "The Gates of Heaven image is available to everyone who arrives early. Almost nobody does."
+                                            },
+                              "foodie":  {
+                                             "experience":  "Warung hop through Penestanan village",
+                                             "details":  "A village of artists adjacent to Ubud. The warungs serve the same food as everywhere else but priced for Balinese residents who live here. Mie goreng IDR 15,000. The best nasi campur in the area at a warung with no name â€” ask at your homestay.",
+                                             "why":  "The most honest food in Bali is in the places that haven\u0027t been discovered yet."
+                                         },
+                              "photographer":  {
+                                                   "experience":  "Pura Tirta Empul holy spring at 6am",
+                                                   "details":  "A temple where Balinese Hindus purify themselves in spring-fed pools. At 6am on a weekday the ceremony is genuine â€” local families, priests, offerings, sound of water and prayer. By 9am the photographers outnumber the worshippers. Arrive early. Dress respectfully.",
+                                                   "why":  "The photograph of Bali that no one else has is taken before the rest of the photographers wake up."
+                                               },
+                              "luxury":  {
+                                             "experience":  "Alila Ubud private dining over the valley",
+                                             "details":  "The Alila Ubud restaurant sits on the edge of a valley cliff. Arrange private dining through the hotel â€” candles, just the two of you, the valley below disappearing into darkness, the sound of the river 200 metres below. IDR 2,000,000â€“3,500,000 for the private setup.",
+                                             "why":  "No restaurant in any city can offer what Bali\u0027s geography offers â€” dinner over a jungle valley."
+                                         },
+                              "adventure":  {
+                                                "experience":  "USAT Liberty Wreck dive at dawn â€” Amed",
+                                                "details":  "The most accessible wreck dive in the world. A WWII American cargo ship torpedoed in 1942 now lies in 5â€“30m of water accessible from the Amed beach. At dawn the light filters through the wreck in extraordinary columns. Dive operators in Amed from USD 40/dive.",
+                                                "why":  "Every diver who does the Liberty Wreck describes it as the most accessible extraordinary dive of their life."
+                                            },
+                              "family":  {
+                                             "experience":  "Campuhan Ridge Walk at 6:30am followed by warung breakfast",
+                                             "details":  "The ridge at 6:30am with children â€” monkeys visible in the trees, farmers going to their terraces, the valley empty. Then breakfast at a warung in the rice paddies at the end of the walk. IDR 100,000 for the family breakfast. Free walk.",
+                                             "why":  "Children who do Campuhan at dawn see Bali as it actually is, not as it is prepared for tourists."
+                                         },
+                              "budget":  {
+                                             "experience":  "The complete free Bali day for IDR 150,000",
+                                             "details":  "Campuhan Ridge Walk at 6:30am free. Warung breakfast IDR 25,000. Ubud Palace grounds free. Rice paddy walk to Penestanan village free. Warung lunch IDR 30,000. Ubud Market walk free. Kecak dance at Ubud Palace IDR 100,000. Total: IDR 155,000 for an extraordinary Ubud day.",
+                                             "why":  "The best Bali day costs under IDR 200,000. Most tourists spend IDR 1,000,000+ and have a worse experience."
+                                         }
+                          },
+    "travelerGuides":  {
+                           "solo":  {
+                                        "accommodation":  "Hostels in Canggu: IDR 100,000â€“200,000 dorm, IDR 300,000â€“600,000 private. The social hostel scene in Canggu is the best in Bali.",
+                                        "meetingPeople":  "Yoga classes in Ubud and Canggu (every studio has social events), free walking tours of Ubud, beach clubs in Canggu afternoon",
+                                        "itineraryLogic":  "Solo in Bali can cover Ubud (2 nights) and Canggu or Seminyak (1â€“2 nights) comfortably in 4 days. Mount Batur trek for adventurous."
+                                    },
+                           "couple":  {
+                                          "bestBeaches":  "Nyang Nyang Beach (Uluwatu, 45-minute walk down cliff, almost no tourists), Bingin Beach (surf culture, stunning position), Balangan (empty, dramatic)",
+                                          "bestDinners":  "Locavore (fine dining Ubud), Single Fin (sunset cliff Uluwatu), Merah Putih (luxury Seminyak), Mozaic (garden Ubud)",
+                                          "regrets":  "Spending the whole trip in Seminyak â€” the couple who goes to Ubud has a completely different honeymoon."
+                                      },
+                           "honeymoon":  {
+                                             "accommodation":  "Alila Ubud (cliff valley villa), Four Seasons Jimbaran (overwater bungalow), Komaneka at Bisma (Ubud valley view), Capella Ubud (jungle camp)",
+                                             "experiences":  "Private villa with pool, Gates of Heaven sunrise, Locavore dinner, Jimbaran sunset seafood, private rice terrace picnic"
+                                         },
+                           "family":  {
+                                          "bestActivities":  "Bali Bird Park (Gianyar), Cooking class (all ages), Tegalalang Rice Terraces walk, Campuhan Ridge morning, Jimbaran sunset seafood",
+                                          "accommodation":  "Nusa Dua resort area for families â€” safer swimming, controlled environment, family facilities.",
+                                          "heatManagement":  "Bali heat with children: outdoor activities before 10am. Afternoons: pools, rice paddy walks in shade, cooking classes."
+                                      },
+                           "budget":  {
+                                          "dailyBudget":  "IDR 300,000â€“600,000 (approximately INR 1,600â€“3,200) covers excellent budget travel",
+                                          "accommodation":  "Canggu or Ubud guesthouses: IDR 150,000â€“350,000/night for clean private rooms with AC.",
+                                          "foodStrategy":  "Warungs for all meals. Nasi goreng IDR 20,000â€“35,000. Fresh fruit IDR 10,000â€“20,000/portion. Never eat at tourist restaurants facing the main road.",
+                                          "freeActivities":  "Campuhan Ridge Walk, rice paddy walks, temple grounds (small donation expected), beach walks, Ubud market browsing"
+                                      },
+                           "senior":  {
+                                          "accommodation":  "Ubud resort hotels have the flattest terrain and most accessible paths. Nusa Dua resorts have golf cart transport.",
+                                          "heatManagement":  "Bali at any time of year requires heat awareness. All outdoor activities before 10am. Afternoons: hotel pool, spa, or air-conditioned restaurant.",
+                                          "bestActivities":  "Cooking class (seated, manageable), Ubud Palace and dance performance (seated), Tanah Lot sunset (short walk from car), Jimbaran sunset seafood (tables on beach)"
+                                      },
+                           "photographer":  {
+                                                "goldenHour":  "Rice terraces at 7am. Pura Tirta Empul at 6am. Gates of Heaven (Lempuyang) before 6am. Tanah Lot 45 mins before sunset.",
+                                                "locations":  "Sidemen Valley terrace paths, Campuhan Ridge at 6:30am, Tirta Empul ceremony, Uluwatu cliff at sunset, Amed fishing boats at 5am",
+                                                "equipment":  "Humidity damages equipment quickly. Keep in sealed bags with silica gel. Rice paddy paths are muddy â€” waterproof footwear essential."
+                                            },
+                           "indian":  {
+                                          "indianFood":  "Indian restaurants in Ubud (Bombay Restaurant, Indian Spice) and Seminyak (several). Not the primary reason to visit Bali but available.",
+                                          "temples":  "Hindu temples throughout Bali â€” Bali is a Hindu island (unlike most of Indonesia). Indian Hindu visitors will recognise many deities and rituals. Wear sarong at every temple (available at entrance IDR 15,000).",
+                                          "community":  "Bali has a small but growing Indian community in Seminyak and Ubud. The Balinese Hindu tradition is related to but distinct from Indian Hinduism â€” the differences are as interesting as the similarities."
+                                      }
+                       },
+    "hotels":  {
+                   "ubud_luxury":  [
+                                       {
+                                           "name":  "Alila Ubud",
+                                           "area":  "Ubud valley",
+                                           "nightly":  "IDR 3,000,000â€“8,000,000",
+                                           "honest":  "Cantilevered over a jungle valley. The infinity pool is extraordinary. The private villas have the best valley views in Bali.",
+                                           "tip":  "Pool villa is meaningfully better than deluxe room â€” worth the upgrade."
+                                       },
+                                       {
+                                           "name":  "Four Seasons Sayan",
+                                           "area":  "Ayung River valley, Ubud",
+                                           "nightly":  "IDR 8,000,000â€“25,000,000",
+                                           "honest":  "The most architecturally significant hotel in Bali â€” a circular lotus pond on a hilltop above the Ayung River. Extraordinary.",
+                                           "tip":  ""
+                                       }
+                                   ],
+                   "seminyak_luxury":  [
+                                           {
+                                               "name":  "Potato Head Suites",
+                                               "area":  "Seminyak",
+                                               "nightly":  "IDR 4,000,000â€“12,000,000",
+                                               "honest":  "The most design-forward hotel in Bali. The beach club below is the best in Seminyak.",
+                                               "tip":  ""
+                                           },
+                                           {
+                                               "name":  "The Legian Seminyak",
+                                               "area":  "Seminyak beach",
+                                               "nightly":  "IDR 5,000,000â€“15,000,000",
+                                               "honest":  "Direct beach access in Seminyak. All-suite. The quietest luxury option in the tourist corridor.",
+                                               "tip":  ""
+                                           }
+                                       ],
+                   "budget":  [
+                                  {
+                                      "name":  "Tribal Bali Canggu Hostel",
+                                      "area":  "Canggu",
+                                      "nightly":  "IDR 100,000â€“200,000 dorm",
+                                      "honest":  "Best social hostel in Canggu. Pool, social events, digital nomad community.",
+                                      "tip":  ""
+                                  },
+                                  {
+                                      "name":  "Ubud village guesthouses",
+                                      "area":  "Ubud",
+                                      "nightly":  "IDR 150,000â€“400,000",
+                                      "honest":  "The best value accommodation in Bali. Family-run guesthouses with rice paddy views for IDR 200,000/night are still available in villages 10 minutes from central Ubud.",
+                                      "tip":  "Search \u0027Penestanan guesthouse\u0027 or \u0027Nyuh Kuning guesthouse\u0027 on Booking.com."
+                                  }
+                              ]
+               },
+    "transport":  {
+                      "scooter":  "IDR 70,000â€“100,000/day. The essential Bali transport for those with experience on mountain roads. Left-hand traffic.",
+                      "driver":  "IDR 500,000â€“700,000 full day. Non-negotiable value for anyone unfamiliar with Indonesian roads.",
+                      "grab":  "Available in south Bali (Denpasar, Kuta, Seminyak). Not available in Ubud. Blue Bird taxi app more reliable in Ubud area.",
+                      "airport":  "Ngurah Rai Airport (DPS) to Seminyak: IDR 70,000â€“100,000 by Grab or metered taxi. To Ubud: IDR 200,000â€“350,000.",
+                      "boat_to_islands":  "Fast boat to Nusa Penida, Nusa Lembongan: IDR 150,000â€“250,000 each way from Sanur or Padangbai. 30â€“45 minutes."
+                  },
+    "trafficIntelligence":  {
+                                "worstTime":  "Saturday and Sunday afternoons in Seminyak and Canggu â€” tourist and local traffic combined",
+                                "itineraryRule":  "Ubud and the beach areas (Seminyak/Canggu) are 45â€“60 minutes apart in normal traffic, 90+ minutes on Saturday afternoon. Never try to do both in a half-day.",
+                                "parkingNote":  "Ubud town: park at the stadium (free) and walk to the market. Kuta beach: IDR 5,000 per hour at official parking areas.",
+                                "monsoon":  "Novemberâ€“March: some roads in interior Bali can flood or wash out after heavy rain. Check conditions before driving to Besakih or Munduk."
+                            },
+    "seasonal":  {
+                     "aprilOctober":  {
+                                          "temp":  "27â€“33Â°C",
+                                          "reality":  "Dry season. The correct time for first-time visitors. Mount Batur trekking reliable. Beach season optimal. Juneâ€“August are peak â€” book 6+ weeks ahead.",
+                                          "priceLevel":  "High (Junâ€“Aug), Medium (Aprâ€“May, Sepâ€“Oct)"
+                                      },
+                     "novemberMarch":  {
+                                           "temp":  "26â€“32Â°C",
+                                           "reality":  "Wet season. Afternoon rain most days. Rice terraces at their greenest and most beautiful. 30â€“50% lower accommodation prices. Many visitors prefer the lush wet season. Avoid Besakih in heavy rain â€” slippery.",
+                                           "priceLevel":  "Low-Medium"
+                                       }
+                 },
+    "baliFestivals":  {
+                          "nyepi":  "Balinese New Year (March/April â€” Saka calendar). The entire island goes silent for 24 hours. No lights, no noise, no travel. Even the airport closes. Ngurah Rai airport closes for 24 hours on Nyepi day â€” do not plan to arrive or depart. The Ogoh-ogoh parade the night before Nyepi is extraordinary â€” giant demon figures paraded through villages.",
+                          "galungan":  "Every 210 days (Balinese calendar). The most important Balinese Hindu festival. Bamboo poles (penjor) decorated with offerings line every road. Family temples decorated. If your visit overlaps, Bali is extraordinarily beautiful.",
+                          "kuningan":  "10 days after Galungan. The conclusion of the Galungan period. Quieter but temple activity continues.",
+                          "ceremony_everyday":  "Bali has temple ceremonies happening somewhere every single day. If you see flower petals on the road, a ceremony is nearby. If you see a procession, stop and let it pass. If you are invited to observe, accept respectfully."
+                      },
+    "sunsetSpots":  [
+                        {
+                            "name":  "Tanah Lot Temple",
+                            "area":  "Tabanan coast",
+                            "note":  "Most famous sunset in Bali. Arrive 45 mins before sunset.",
+                            "price":  "IDR 60,000"
+                        },
+                        {
+                            "name":  "Single Fin Bar, Uluwatu",
+                            "area":  "Uluwatu cliff",
+                            "note":  "Indian Ocean view with surfers below. Most dramatic setting.",
+                            "price":  "IDR 60,000â€“100,000 (drinks)"
+                        },
+                        {
+                            "name":  "La Plancha, Seminyak Beach",
+                            "area":  "Seminyak",
+                            "note":  "Colourful bean bags, direct beach sunset. The Instagram Bali image.",
+                            "price":  "IDR 70,000â€“100,000 (drinks)"
+                        },
+                        {
+                            "name":  "Campuhan Ridge Walk end point",
+                            "area":  "Ubud",
+                            "note":  "Sunset over the valley after the ridge walk. Free.",
+                            "price":  "Free"
+                        },
+                        {
+                            "name":  "Jimbaran Bay beach",
+                            "area":  "Jimbaran",
+                            "note":  "Sunset over the bay while eating seafood grilled on the beach.",
+                            "price":  "IDR 200,000â€“500,000 (dinner)"
+                        }
+                    ],
+    "dayTrips":  {
+                     "nusa_penida":  {
+                                         "distance":  "45-minute fast boat from Sanur or Padangbai",
+                                         "note":  "The most dramatic island accessible from Bali. Kelingking Beach (the T-Rex cliff) is the most photographed view in Indonesia. Crystal Bay for manta ray snorkelling. Broken Beach geological arch. Plan a full day or 2 nights.",
+                                         "transport":  "Fast boat IDR 150,000â€“250,000 each way. Motorbike hire on island IDR 80,000/day (essential)."
+                                     },
+                     "mount_agung":  {
+                                         "distance":  "2 hours from Ubud to the trailhead",
+                                         "note":  "Bali\u0027s highest peak (3,142m) and most sacred volcano. Sunrise trek takes 6â€“7 hours. Only when Agung is not erupting or on high alert â€” check PVMBG (Indonesian volcanology) status before booking. More challenging than Batur.",
+                                         "transport":  "Private driver IDR 500,000 return to trailhead."
+                                     },
+                     "lombok":  {
+                                    "distance":  "1 hour fast boat from Padangbai or Amed",
+                                    "note":  "Neighbouring island. The Gili Islands (Trawangan, Air, Meno) are accessible from Bali â€” pristine beaches, coral reefs, no motor vehicles. A Bali extension rather than a day trip.",
+                                    "transport":  "Fast boat IDR 250,000â€“400,000 each way."
+                                }
+                 },
+    "shopping":  {
+                     "ubud_market":  "Ubud Art Market (Pasar Seni Ubud) â€” textiles, woodcarvings, silver, paintings. Prices are negotiable and start at tourist premiums. Walk to the back stalls for better prices than the front.",
+                     "sukawati":  "Sukawati Art Market (south of Ubud on the road to Gianyar) â€” the wholesale version of Ubud Market. Same goods at 30â€“50% lower prices. Less tourist-facing.",
+                     "celuk_silver":  "Celuk village is the silver jewellery village of Bali. The workshops here produce the pieces sold throughout Bali and internationally. Buy directly from workshops to cut out retail margin.",
+                     "batuan_painting":  "Batuan village (between Ubud and Denpasar) â€” the village of Balinese traditional painters. The best traditional painting school in Bali. Walk into any studio and buy directly from the artist.",
+                     "customs_india":  "Indian customs allows handicrafts and cultural items up to INR 10,000 duty-free. Silver jewellery above this level requires customs declaration. Keep purchase receipts."
+                 },
+    "culturalRules":  {
+                          "critical":  [
+                                           "Sarong and sash required at all temples â€” available at every temple entrance for IDR 15,000â€“20,000 hire.",
+                                           "During a temple ceremony or procession: stop, move aside, do not photograph without clear space from the ceremony.",
+                                           "The right hand for giving, receiving, and eating â€” the left hand is considered unclean.",
+                                           "Offerings (canang sari) on the ground are part of Balinese Hindu daily practice â€” do not step on them.",
+                                           "Menstruating women are traditionally not permitted to enter temples â€” posted at temple entrances."
+                                       ],
+                          "dressCode":  "Temples: shoulders and knees covered, sarong required. Beaches: bikini and swimwear fine. Restaurants: casual throughout Bali. Ubud streets: respectful casual.",
+                          "bargaining":  "Expected everywhere except malls and fixed-price restaurants. 30â€“50% off opening price in markets. Always respectful, always with a smile.",
+                          "photography":  "Always ask before photographing individuals, especially at ceremonies. Most Balinese people are comfortable with polite requests to photograph."
+                      },
+    "visaIntelligence":  {
+                             "indianPassport":  "Visa on Arrival at Ngurah Rai Airport: USD 35 for 30 days. OR e-Visa at molina.imigrasi.go.id (same cost, skips airport queue). Extendable once at immigration office for another 30 days.",
+                             "important":  "Passport valid 6+ months. Return ticket required. Proof of accommodation helpful.",
+                             "tip":  "Buy e-Visa online before travel. The Visa on Arrival queue at Bali airport can be 45â€“60 minutes in peak season."
+                         },
+    "pricingBenchmarks":  {
+                              "scooter_hire":  "IDR 70,000â€“100,000/day",
+                              "driver_full_day":  "IDR 500,000â€“700,000",
+                              "grab_airport_seminyak":  "IDR 70,000â€“100,000",
+                              "grab_airport_ubud":  "IDR 200,000â€“350,000",
+                              "warung_meal":  "IDR 20,000â€“50,000/person",
+                              "mid_restaurant":  "IDR 100,000â€“350,000/person",
+                              "fine_dining":  "IDR 500,000â€“2,000,000/person",
+                              "hotel_budget":  "IDR 150,000â€“400,000/night",
+                              "villa_private_pool":  "IDR 800,000â€“3,000,000/night (entire villa)",
+                              "temple_entry_average":  "IDR 20,000â€“60,000",
+                              "campuhan_ridge_walk":  "Free",
+                              "tegalalang_entry":  "IDR 15,000",
+                              "tanah_lot_entry":  "IDR 60,000",
+                              "mount_batur_trek":  "IDR 500,000â€“750,000 (with guide)",
+                              "nusa_penida_boat":  "IDR 150,000â€“250,000 each way"
+                          },
+    "savingsIntelligence":  [
+                                "Exchange at PT Dirgahayu (Kuta or Ubud) vs airport â€” saves 15â€“20% on total exchange",
+                                "Hire driver IDR 500,000/day vs multiple taxis â€” saves IDR 200,000â€“500,000 for a multi-destination day",
+                                "Warung meals (IDR 20,000â€“50,000) vs tourist restaurants (IDR 100,000â€“350,000) â€” saves IDR 80,000â€“300,000/person/day",
+                                "e-Visa online vs Visa on Arrival queue â€” same cost, saves 45â€“60 minutes at airport",
+                                "Sukawati Art Market vs Ubud Art Market â€” same goods, 30â€“50% lower prices",
+                                "Book villa via Booking.com vs walk-in â€” typically 20â€“30% lower rate",
+                                "Buy coconut water from a warung (IDR 10,000) vs tourist resort coconut (IDR 60,000â€“80,000) â€” same coconut, 80% savings",
+                                "Campuhan Ridge Walk (free) vs organised rice terrace tour (IDR 200,000â€“500,000) â€” more beautiful, completely free"
+                            ],
+    "practical":  {
+                      "electricity":  "Type C and F plugs, 220V. Indian round-pin plugs usually fit directly or need C/F adapter.",
+                      "bestExchange":  "PT Dirgahayu exchange offices in Kuta (Jl. Kuta) and Ubud (Jl. Raya Ubud). Never airport.",
+                      "simCard":  "Telkomsel or XL tourist SIM at airport: IDR 50,000â€“100,000 for 7â€“15GB. Good coverage throughout tourist areas.",
+                      "water":  "Never drink tap water. Bottled water IDR 5,000â€“10,000 per litre everywhere.",
+                      "tipping":  "Service charge not standard at warungs. IDR 20,000â€“50,000 at mid-range restaurants for good service. Not expected at warungs.",
+                      "apps":  "Grab (south Bali only), Gojek (local version, also food delivery), Klook (activity booking), TripAdvisor (Bali is well-covered)"
+                  },
+    "hiddenPlaces":  [
+                         {
+                             "name":  "Sidemen Valley",
+                             "note":  "Most beautiful rice terrace landscape in Bali. East of Ubud. Almost no tourists. Homestays IDR 200,000/night."
+                         },
+                         {
+                             "name":  "Nyang Nyang Beach, Uluwatu",
+                             "note":  "45-minute walk down cliff from the road. Almost no tourists. One of the finest beaches in Bali."
+                         },
+                         {
+                             "name":  "Tirta Gangga royal water palace at 7am",
+                             "area":  "East Bali",
+                             "note":  "1948 royal palace with lotus ponds. At 7am: empty, extraordinary light through the lotus flowers."
+                         },
+                         {
+                             "name":  "Penglipuran Village",
+                             "note":  "700-year-old bamboo architecture maintained. The most traditional village in Bali."
+                         },
+                         {
+                             "name":  "Amed fishing village dawn",
+                             "note":  "East Bali. Fishermen launching traditional outriggers at 5am. The most genuine fishing village accessible from the tourist corridor."
+                         },
+                         {
+                             "name":  "Warung Babi Guling Ibu Oka at 11am sharp",
+                             "note":  "Sells out by 2pm. Anthony Bourdain\u0027s discovery. The suckling pig that defines Balinese cuisine."
+                         },
+                         {
+                             "name":  "Munduk waterfall trail",
+                             "note":  "North Bali highlands. Coffee and vanilla plantations. Almost no tourists. Cool air (20â€“25Â°C)."
+                         },
+                         {
+                             "name":  "Bingin Beach, Uluwatu area",
+                             "note":  "Accessible by steep steps. Dramatic cliff setting. Small surf community. No crowds before 9am."
+                         }
+                     ],
+    "insiderIntelligence":  [
+                                "Bali has daily temple ceremonies somewhere on the island. If you see flower petals scattered on the road and hear gamelan music, a ceremony is nearby. This is not a tourist performance â€” it is daily spiritual life.",
+                                "The frangipani flower (jepun) placed in offerings is picked fresh daily by every family in Bali. The fragrance in the morning in any village is the combination of incense and fresh frangipani.",
+                                "Balinese massage uses techniques specific to Bali â€” not identical to Thai massage. The Balinese technique uses palm and thumb pressure along energy lines. IDR 60,000â€“100,000/hour at reputable traditional spas in Ubud.",
+                                "Bali\u0027s road signs are often in Indonesian only. Google Maps works well in tourist areas but can suggest motorcycle-width paths for car navigation. Download the maps offline before travelling to interior areas.",
+                                "The Kecak fire dance performed at Uluwatu at sunset is performed by a local community group that has been doing it since 1930. It is not a staged show for tourists â€” it is a living traditional performance. The tourism income supports the temple.",
+                                "The rice terrace irrigation system (subak) is an ancient cooperative system managed communally by farmers. When you walk through rice terraces you are walking through a water management system that is 1,000 years old and still operational.",
+                                "Balinese Hinduism includes approximately 20,000 gods. Every village, every rice paddy, every crossroads, and every family compound has its own protective deity and requires regular offerings.",
+                                "The best organic produce in Indonesia is grown in Bali. The organic market at BIMC Kuta and the Canggu area farmers\u0027 markets (Saturday mornings) have produce equivalent to European organic standards."
+                            ],
+    "whyPeopleFallInLove":  "People arrive for the beaches. They stay when they witness a ceremony they were not looking for â€” a procession on a village road, offerings being laid at dawn, the sound of gamelan from behind a temple wall. They return for the rice terraces at 6am before any other tourist arrives, the mist in the valleys, the specific quality of Ubud morning light through the palms. Bali is the only place in the world where the spiritual life of a community is not separate from its daily life â€” the offerings are made every morning by the same hands that cook breakfast and tend the fields.",
+    "localTruths":  [
+                        "Most visitors think Bali is beach. Balinese think Bali is ceremony â€” the 20,000 gods, the daily offerings, the temple festivals that happen somewhere on the island every single day. The beach is what tourists came for. The ceremony is what makes Bali itself.",
+                        "Most visitors think Bali is discovered. There are still villages in the eastern regencies where a foreign visitor arriving by motorbike is a genuine event. The undiscovered Bali is not a myth â€” it is 45 minutes from Ubud in a direction most people never turn.",
+                        "Most visitors think Bali is relaxing. Balinese people work constantly â€” the rice farming, the offering-making, the temple obligations, the community duties. The relaxation belongs to the tourists. The industry belongs to everyone who lives here."
+                    ],
+    "ifYouOnlyHadOneChance":  {
+                                  "breakfast":  "Warung Nasi Ayam Kedewatan in the village north of Ubud at 8am â€” nasi ayam set IDR 25,000, the chicken poached then grilled, the sambal made fresh that morning, the same recipe since the 1970s. Better than Locavore. Costs 1% as much.",
+                                  "sunset":  "Tanah Lot at 5pm, 45 minutes before the actual sunset â€” arrive early enough to walk to the base of the rock temple at low tide before the crowd reaches the viewing platform. The silhouette of the 16th-century sea temple against the orange sky is the most replicated Bali image for a reason.",
+                                  "neighbourhood":  "Ubud in the early morning before 8am â€” the Campuhan Ridge Walk in the first light, the valley below with rice terraces and river, no other walkers, the specific smell of incense from the morning puja at the temple at the path\u0027s start.",
+                                  "meal":  "Warung Babi Guling Ibu Oka at 11am sharp â€” the whole pig roasted over coconut wood since 5am, the crackling shattering, the 17-spice marinade. It sells out by 2pm. Anthony Bourdain came here. The kitchen has not changed.",
+                                  "memory":  "Witnessing a temple ceremony by accident â€” turning down a village road and finding a procession, the women in white carrying offerings on their heads, gamelan music from inside the temple walls, being waved in to watch from the outer courtyard. It happens somewhere on the island every day.",
+                                  "secret":  "Sidemen Valley at dawn â€” rice terraces on both sides of the road, Mount Agung visible behind them on clear mornings, almost no tourists, homestays with rice paddy views for IDR 200,000 per night. The Bali that existed before anyone wrote about it."
+                              },
+    "neighborhoodPersonalities":  {
+                                      "ubud":  [
+                                                   "Spiritual",
+                                                   "Artistic",
+                                                   "Cultural",
+                                                   "The Real Bali"
+                                               ],
+                                      "seminyak":  [
+                                                       "Stylish",
+                                                       "International",
+                                                       "Beach Club",
+                                                       "Comfortable"
+                                                   ],
+                                      "kuta":  [
+                                                   "Budget",
+                                                   "Surf",
+                                                   "Loud",
+                                                   "Tourist"
+                                               ],
+                                      "canggu":  [
+                                                     "Digital Nomad",
+                                                     "Creative",
+                                                     "Surf",
+                                                     "CafÃ©"
+                                                 ],
+                                      "nusa_dua":  [
+                                                       "Resort",
+                                                       "Family",
+                                                       "Safe",
+                                                       "Sanitised"
+                                                   ],
+                                      "amed_east_bali":  [
+                                                             "Diver",
+                                                             "Quiet",
+                                                             "Fishing",
+                                                             "Undiscovered"
+                                                         ],
+                                      "north_bali_munduk":  [
+                                                                "Cool",
+                                                                "Coffee",
+                                                                "Waterfall",
+                                                                "Local"
+                                                            ]
+                                  },
+    "residentSunday":  "A Bali expat resident with one free Sunday: 6am Campuhan Ridge Walk before any other human arrives â€” the valley, the light, the silence. 8am breakfast at a warung in Penestanan village, no menu in English, nasi goreng IDR 20,000. 10am the Sunday market at the base of Ubud â€” the local farmers\u0027 market, not the tourist art market. Noon drive to Sidemen Valley â€” lunch at a warung overlooking rice terraces with Mount Agung behind them if the sky is clear. 3pm swim at a natural waterfall on the way back. 6pm back in Ubud for the Kecak fire dance at Ubud Palace or simply sitting at a cafÃ© watching the ceremony preparations. This is the Bali that long-term residents describe as why they never left.",
+    "dayMemoryTargets":  {
+                             "arrival":  "The first temple offering seen on the ground â€” the small woven palm leaf basket with flowers and incense laid by a Balinese family at their doorstep before sunrise. The moment the traveller understands that Bali\u0027s spirituality is not performed for tourists â€” it is the daily practice of a living Hindu community. The memory is the first evidence that Bali is different from every other destination.",
+                             "peak":  "The rice terraces at Tegalalang at 7:30am when the terraces are flooded and the light comes through the palm trees and the farmers are already at work â€” or the Uluwatu Kecak fire dance at 6pm when the temple is silhouetted against the orange sky and the ocean is 70 metres below. The memory is the moment Bali became irreducible to any description.",
+                             "departure":  "The last warung breakfast. The sound of gamelan from a temple courtyard heard through an open window on the road to the airport. The specific smell of incense and frangipani that Bali has had since before any tourist arrived and will have after the last one leaves. The memory is the gap between the Bali the traveller expected and the Bali that ceremony, food, and landscape revealed."
+                         },
+    "tripLengthGuide":  {
+                            "two_days":  {
+                                             "must_include":  [
+                                                                  "Campuhan Ridge Walk at dawn",
+                                                                  "One warung meal â€” authentic, no English menu",
+                                                                  "Tegalalang Rice Terraces at 7:30am"
+                                                              ],
+                                             "skip":  [
+                                                          "Beach clubs",
+                                                          "Tanah Lot (needs more time)",
+                                                          "Cooking class"
+                                                      ],
+                                             "note":  "Two days in Bali should be in Ubud, not on the beach. Ubud in two days reveals more of what Bali actually is than a week in Seminyak."
+                                         },
+                            "three_to_four_days":  {
+                                                       "must_include":  [
+                                                                            "Campuhan Ridge at dawn",
+                                                                            "Tegalalang Terraces",
+                                                                            "Tanah Lot sunset",
+                                                                            "One warung lunch with locals",
+                                                                            "Cooking class morning"
+                                                                        ],
+                                                       "skip":  [
+                                                                    "East Bali â€” not enough time to do it justice"
+                                                                ],
+                                                       "note":  "Three to four days: two in Ubud, one or two in the south. The first Bali trip."
+                                                   },
+                            "five_to_six_days":  {
+                                                     "must_include":  [
+                                                                          "All above",
+                                                                          "Mount Batur sunrise trek",
+                                                                          "Amed or Sidemen Valley overnight",
+                                                                          "One temple ceremony witnessed"
+                                                                      ],
+                                                     "skip":  [
+
+                                                              ],
+                                                     "note":  "Now Bali\u0027s geography opens up. The east coast reveals a completely different island."
+                                                 },
+                            "seven_plus_days":  {
+                                                    "must_include":  [
+                                                                         "All above",
+                                                                         "Nusa Penida day trip (Kelingking Beach)",
+                                                                         "Munduk highlands overnight",
+                                                                         "Pura Besakih Mother Temple"
+                                                                     ],
+                                                    "skip":  [
+
+                                                             ],
+                                                    "note":  "At 7+ days Bali becomes multiple islands and multiple landscapes. The traveller can understand that Bali is a universe, not a beach."
+                                                }
+                        },
+    "antiPatterns":  [
+                         "Mount Batur sunrise trek AND a full temple tour the same day â€” the trek departs at 2am and returns at 10am. Any activity after noon on a trek day is wasted on an exhausted person.",
+                         "Ubud AND Seminyak in the same day â€” they are 45-60 minutes apart and represent completely opposite Bali experiences. Neither benefits from being rushed.",
+                         "Tanah Lot AND Uluwatu on the same sunset day â€” they are 1.5 hours apart. By the time you reach Uluwatu from Tanah Lot the sunset is over.",
+                         "Cooking class AND rice terrace walk on the same morning â€” the cooking class market visit starts at 8am and runs until 1pm. The terraces need a separate morning.",
+                         "Kuta beach AND an Ubud cultural day combined â€” the beach mindset and the temple mindset require different versions of the traveller. Combining them in one day produces neither."
+                     ],
+    "meta":  {
+                 "_schemaVersion":  "3.0",
+                 "lastUpdated":  "2026-06",
+                 "lastVerified":  "2026-06",
+                 "nextReviewDue":  "2026-12",
+                 "dataQualityScore":  9.1
+             },
+    "geography":  {
+                      "mapCenter":  {
+                                        "lat":  -8.3405,
+                                        "lng":  115.092
+                                    },
+                      "googleMapsUrl":  "https://maps.google.com/?q=Bali,Indonesia",
+                      "timezone":  "WITA UTC+8"
+                  },
+    "languageIntelligence":  {
+                                 "officialLanguage":  "Indonesian (Bahasa Indonesia)",
+                                 "workingLanguage":  "English widely understood in tourist areas",
+                                 "usefulPhrases":  {
+                                                       "thank_you":  "Terima kasih",
+                                                       "how_much":  "Berapa harganya?",
+                                                       "too_expensive":  "Terlalu mahal",
+                                                       "delicious":  "Enak sekali"
+                                                   },
+                                 "indianLanguageSupport":  "Hindi not understood. English is the working language for Indian travellers."
+                             },
+    "safetyIntelligence":  {
+                               "overallRating":  "Safe for tourists",
+                               "safetyScore":  8,
+                               "safeAtNight":  true,
+                               "soloFemaleRating":  "Generally safe â€” standard awareness in nightlife areas",
+                               "scamsToKnow":  [
+                                                   "Unofficial temple guides â€” hire only from official association",
+                                                   "Scooter rental damage scam â€” photograph every scratch before renting",
+                                                   "Money changers outside PT Dirgahayu â€” always use PT Dirgahayu only"
+                                               ],
+                               "volcanoWarning":  "Mount Agung and Batur are active volcanoes. Check PVMBG status before treks.",
+                               "emergencyProtocol":  "Police: 110. Ambulance: 118. BIMC Hospital Kuta for tourists: +62 361 761 263."
+                           },
+    "healthIntelligence":  {
+                               "vaccinesRecommended":  [
+                                                           "Hepatitis A",
+                                                           "Typhoid",
+                                                           "Rabies if visiting rural areas"
+                                                       ],
+                               "waterSafety":  "NEVER drink tap water anywhere in Bali. Bottled only always.",
+                               "foodSafety":  "Generally safe at established warungs â€” high turnover is safer."
+                           },
+    "gettingHere":  {
+                        "fromDelhi":  {
+                                          "flight":  {
+                                                         "duration":  "8-10 hours one stop",
+                                                         "airlines":  [
+                                                                          "Air Asia via KL",
+                                                                          "IndiGo via Singapore"
+                                                                      ],
+                                                         "priceRange":  "INR 28,000-65,000 return",
+                                                         "note":  "No direct flight. KL or Singapore connection standard."
+                                                     }
+                                      },
+                        "fromMumbai":  {
+                                           "flight":  {
+                                                          "duration":  "7-8 hours one stop",
+                                                          "priceRange":  "INR 25,000-60,000"
+                                                      }
+                                       },
+                        "airportToAccommodation":  {
+                                                       "grab":  "Available in south Bali. IDR 70,000-100,000 to Seminyak.",
+                                                       "note":  "Grab not available in Ubud. Use Blue Bird taxi or negotiate local taxi."
+                                                   }
+                    },
+    "nearbyDestinations":  [
+                               {
+                                   "city":  "Nusa Penida",
+                                   "travelTime":  "45 mins fast boat from Sanur",
+                                   "cost":  "IDR 150,000-250,000 each way",
+                                   "whyCombine":  "Most dramatic scenery in the Bali region. Kelingking Beach. Crystal Bay manta rays.",
+                                   "suggestIf":  "Trip is 4+ days"
+                               },
+                               {
+                                   "city":  "Lombok/Gili Islands",
+                                   "travelTime":  "2 hours fast boat from Padangbai",
+                                   "cost":  "IDR 250,000-400,000 each way",
+                                   "whyCombine":  "Pristine beaches, no motor vehicles, excellent snorkelling.",
+                                   "suggestIf":  "Trip is 7+ days"
+                               }
+                           ],
+    "liveIntelligence":  {
+                             "lastChecked":  "2026-06",
+                             "seasonalNow":  "June 2026 â€” DRY SEASON. This is the best time to visit Bali. Peak tourist season June-August. Book accommodation 4-6 weeks ahead.",
+                             "currentAlerts":  [
+
+                                               ],
+                             "volcanoStatus":  "Check PVMBG status for Agung and Batur before any volcano treks.",
+                             "entryRequirements":  "Indians: Visa on Arrival at Ngurah Rai Airport USD 35 for 30 days. OR e-Visa online at molina.imigrasi.go.id.",
+                             "indianAdvisoryNote":  "Check mea.gov.in for current Indonesia advisory."
+                         },
+    "combinationIntelligence":  [
+                                    {
+                                        "sequence":  [
+                                                         "Campuhan Ridge Walk (6:30am)",
+                                                         "Warung village breakfast (8am)",
+                                                         "Tegalalang Rice Terraces (9:30am)"
+                                                     ],
+                                        "emotionalArc":  "Physical elevation â†’ grounded nourishment â†’ visual peak. Body before mind in the morning.",
+                                        "bestFor":  [
+                                                        "firstTimer",
+                                                        "photographer",
+                                                        "solo"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Warung Babi Guling Ibu Oka (11am)",
+                                                         "Rest at villa (2pm)",
+                                                         "Uluwatu Kecak fire dance (6pm)"
+                                                     ],
+                                        "emotionalArc":  "Legendary meal â†’ necessary recovery â†’ extraordinary spectacle. The rest is not wasted time â€” it is preparation.",
+                                        "bestFor":  [
+                                                        "foodie",
+                                                        "couple",
+                                                        "photographer"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Pura Tirta Empul (6am)",
+                                                         "Village morning walk",
+                                                         "Cooking class (9am)"
+                                                     ],
+                                        "emotionalArc":  "Spiritual â†’ community â†’ culinary. Three ways of understanding a culture before noon.",
+                                        "bestFor":  [
+                                                        "culture",
+                                                        "foodie",
+                                                        "introvert"
+                                                    ]
+                                    }
+                                ],
+    "photographyIntelligence":  {
+                                    "bestShotLocations":  [
+                                                              {
+                                                                  "name":  "Campuhan Ridge Walk at 6:30am",
+                                                                  "what":  "Valley, rice terraces, river confluence, first light",
+                                                                  "bestTime":  "6:00-8:00am"
+                                                              },
+                                                              {
+                                                                  "name":  "Pura Tirta Empul ceremony at 6am",
+                                                                  "what":  "Genuine Hindu purification ceremony â€” priests, offerings, prayer",
+                                                                  "bestTime":  "6:00-8:00am, weekday"
+                                                              },
+                                                              {
+                                                                  "name":  "Tegalalang Rice Terraces",
+                                                                  "what":  "UNESCO subak irrigation system, farmers working",
+                                                                  "bestTime":  "7:30-9:30am before tour buses"
+                                                              },
+                                                              {
+                                                                  "name":  "Jimbaran Bay sunset from the beach",
+                                                                  "what":  "Fishing boats, sunset over Gulf of Lombok",
+                                                                  "bestTime":  "5:00-6:30pm"
+                                                              }
+                                                          ],
+                                    "goldenHour":  "6:30-8:00am. 5:00-6:30pm.",
+                                    "droneRules":  "DGCA Indonesia permit required. Near Ngurah Rai Airport strictly prohibited. Many temples prohibit drones.",
+                                    "tip":  "The ceremony photographs that feel most authentic are taken from respectful distance with the monks and worshippers as context, not as subjects."
+                                },
+    "accessibility":  {
+                          "wheelchairFriendly":  "Poor in most areas â€” uneven surfaces, stairs everywhere",
+                          "metroAccessibility":  "No metro. Modified vehicles available.",
+                          "challengingAreas":  "Most temples have steps, rice terrace paths uneven, market areas",
+                          "seniorFriendlyScore":  5,
+                          "note":  "Nusa Dua resort area is the most accessible. Ubud very difficult."
+                      },
+    "_schemaVersion":  "3.0-intl",
+    "lastUpdated":  "2026-06"
+}

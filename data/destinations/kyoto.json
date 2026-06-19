@@ -1,0 +1,267 @@
+{
+  "destination": "Kyoto",
+  "country": "Japan",
+  "region": "East Asia",
+  "aliases": [
+    "Kyoto",
+    "kyoto",
+    "japan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Enthusiasts",
+      "History Buffs",
+      "Food Lovers",
+      "Nature Seekers",
+      "Art Aficionados"
+    ],
+    "notFor": [
+      "Party Seekers",
+      "Shopping Malls Enthusiasts",
+      "Beach Lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h",
+    "flightFromMumbai": "8h 30m with airlines like All Nippon Airways and Japan Airlines, typically around ₹30,000 - ₹50,000 return.",
+    "visaForIndians": "Japan visa required, VFS, 4 weeks",
+    "currency": "Japanese Yen (JPY), 1 INR = 1.55 JPY",
+    "timezone": "UTC +9",
+    "language": "Japanese (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "April, due to cherry blossom season, where the city transforms with vibrant sakura blooms.",
+    "avoidMonth": "August, as it can be hot and humid, with temperatures often exceeding 35 degrees Celsius.",
+    "tipping": "Tipping is not customary in Japan; excellent service is expected without additional gratuity."
+  },
+  "whyPeopleFallInLove": "Walking through the Philosopher's Path during cherry blossom season, you'll experience the light fragrance of blooming sakura mingling with the soft sounds of water flowing in the nearby canal, creating a moment that lingers long after you've left.",
+  "honestTruth": "Despite its popularity, many visitors overlook the fact that Kyoto can feel quite commercialized, especially in tourist hotspots, making it essential to seek quieter experiences for an authentic feel of the city.",
+  "localTruths": [
+    "Most visitors think Kyoto is just about temples. Locals think it’s about the small interactions with nature and traditions that happen away from the tourist crowds.",
+    "Most visitors rush to the famous Kinkaku-ji. The best version of Kyoto is found in the small tea houses where you can experience a traditional tea ceremony.",
+    "Most visitors miss the early morning rituals at the local shrines. The real Kyoto starts at 5 AM, where you can witness the city wake up in serene silence."
+  ],
+  "neighborhoodPersonalities": {
+    "Gion": {
+      "tags": [
+        "Geisha",
+        "Traditional",
+        "Dining"
+      ],
+      "bestFor": "Experiencing authentic Geisha culture and traditional Japanese cuisine.",
+      "avoid": "The crowds during the evening when tourists flock to spot Geishas."
+    },
+    "Arashiyama": {
+      "tags": [
+        "Nature",
+        "Temples",
+        "Bamboo Grove"
+      ],
+      "bestFor": "Strolling through the famous bamboo grove and visiting the Iwatayama Monkey Park.",
+      "avoid": "Peak times when the bamboo grove gets crowded."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h",
+        "airlines": [
+          "All Nippon Airways",
+          "Japan Airlines"
+        ],
+        "priceRange": "₹30,000 - ₹50,000 return",
+        "note": "Book in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h 30m",
+        "airlines": [
+          "All Nippon Airways",
+          "Japan Airlines"
+        ],
+        "priceRange": "₹30,000 - ₹50,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "There is no metro directly, but you can take a train to Kyoto Station costing around 2,500 JPY (₹1,600) and taking about 75 minutes.",
+      "taxi": "A taxi from Kansai International Airport to Kyoto costs approximately 25,000 JPY (₹16,000) and takes around 90 minutes.",
+      "recommended": "For first-timers, the train is recommended for its efficiency and scenic views."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Japan visa required, VFS, 4 weeks",
+    "applyAt": "VFS Global centers in India",
+    "processingTime": "Typical processing time is around 5-7 working days.",
+    "tip": "Ensure to have your itinerary and hotel bookings ready to speed up the visa process."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to % Arabica in Higashiyama for their signature Kyoto-style coffee and a matcha croissant.",
+    "sunset": "Watch the sunset from the top of Kiyomizu-dera Temple at around 6 PM for a colorful view over the city.",
+    "meal": "Dine at Gion Karyo for a Kyo-kaiseki meal, focusing on seasonal ingredients, specifically their grilled fish dish.",
+    "memory": "The moment you stand on the wooden deck of Kiyomizu-dera, overlooking the cherry blossoms in spring, defines Kyoto’s spirit.",
+    "secret": "Only locals know to visit the less crowded Nanzen-ji Temple early in the morning for a peaceful meditation among the gardens."
+  },
+  "residentSunday": "A Kyoto resident might start their Sunday with a visit to Nishiki Market around 9 AM for fresh seafood and local delicacies, followed by a leisurely stroll along the Kamo River, enjoying a bento box from a local shop, and ending the day with a visit to a local onsen around 6 PM to unwind.",
+  "dayMemoryTargets": {
+    "arrival": "The moment of stepping off the train at Kyoto Station and feeling the unique blend of modern architecture with traditional Japanese culture.",
+    "peak": "The peak day memory target is participating in a tea ceremony in a traditional tea house, which feels intimate and reflective of Kyoto's heritage.",
+    "departure": "Departure should feel bittersweet, leaving you with a deep appreciation for Kyoto’s serene beauty and rich traditions."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like Kinkaku-ji, Fushimi Inari, and a tea ceremony.",
+      "misses": "Deeper cultural experiences and lesser-known temples."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience with major sights and some off-the-path locations.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of Kyoto’s neighborhoods, temples, and local cuisine.",
+      "whoFor": "Cultural travelers wanting to immerse themselves."
+    },
+    "recommended": "Four days are ideal to capture the essence of Kyoto without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting Fushimi Inari Shrine at midday when it’s overcrowded; early morning or late afternoon offers a more serene experience.",
+    "Trying to see too many temples in one day; this leads to exhaustion and missing the nuanced beauty of each location.",
+    "Assuming all restaurants are tourist-friendly; make a reservation or ask locals for recommendations to avoid disappointment."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking time to explore the smaller, quieter temples like Nanzen-ji.",
+    "Most visitors regret sticking only to the major attractions and missing out on local food experiences.",
+    "Most visitors regret not learning a few basic Japanese phrases to enhance interactions."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "April, November",
+      "weather": "Mild with temperatures around 15-20 degrees Celsius, ideal for sightseeing.",
+      "crowds": "High, especially during cherry blossom and autumn leaf seasons.",
+      "verdict": "Expect crowds but the beauty is worth it."
+    },
+    "shoulderSeason": {
+      "months": "March, October",
+      "why": "Milder weather with less crowding allows for more enjoyable experiences."
+    },
+    "offSeason": {
+      "months": "January, February",
+      "reality": "Cold with occasional snow, but fewer tourists make for a more relaxed atmosphere.",
+      "one reason some prefer it": "The beauty of temples dusted with snow is a rare sight."
+    },
+    "bestMonth": "April, for cherry blossoms that create a picturesque backdrop for the city.",
+    "currentSeason": "June 2026 is warm with occasional rain, making it lush and vibrant, perfect for enjoying the gardens."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the smaller temples in the Higashiyama district early in the morning for a quiet experience; Nanzen-ji opens at 8 AM.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the Kyoto-style sushi at a local conveyor belt sushi restaurant, typically around 1,200 JPY (₹770) for a satisfying meal.",
+      "category": "food"
+    },
+    {
+      "tip": "Use a prepaid Suica card for convenient travel on buses and trains, which can save you time and hassle.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a local festival if your visit coincides; the Gion Matsuri in July is a standout event showcasing Kyoto’s traditions.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the Kyoto National Museum for a less crowded and enriching experience, especially on weekdays.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of ramen at a local shop for around 800 JPY (₹515).",
+    "midRangeMeal": "A kaiseki meal at a local restaurant for around 5,000 JPY (₹3,215).",
+    "luxuryMeal": "A fine dining experience at Kikunoi, costing around 15,000 JPY (₹9,645).",
+    "localTransportPerDay": "Around 1,000 JPY (₹645) for a day's worth of bus and train fares.",
+    "budgetHotelPerNight": "A capsule hotel at around 4,000 JPY (₹2,580) with basic amenities.",
+    "midRangeHotelPerNight": "A comfortable ryokan for about 12,000 JPY (₹7,740), includes breakfast.",
+    "luxuryHotelPerNight": "High-end hotels like The Ritz-Carlton at around 40,000 JPY (₹25,800)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Dormitory at a hostel for about ₹1,200",
+      "food": "Cheap eats like convenience store meals and street food.",
+      "transport": "Public transport with a Suica card."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotel for about ₹4,000",
+      "food": "Mix of local restaurants and casual dining."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Expect high-end experiences that reflect Kyoto's traditions and culinary excellence."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples and shrines; shoulders and knees should be covered.",
+    "Always remove your shoes before entering homes and certain traditional establishments.",
+    "Be respectful of quiet in public spaces, especially on public transport."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly aggressive street performers; it’s best to appreciate from a distance.",
+      "Some shops may inflate prices for tourists, so always check prices before purchasing."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "119",
+      "indianEmbassy": "Indian Embassy in Tokyo: +81 3-3400-1174"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Arashiyama Bamboo Grove",
+        "what": "Capture the towering bamboo stalks and soft light filtering through.",
+        "bestTime": "Early morning for soft light and fewer tourists.",
+        "tip": "Use a wide-angle lens to capture the towering bamboo."
+      }
+    ],
+    "goldenHour": "Around 6 PM during the summer months.",
+    "tip": "Early mornings provide the best light for capturing Kyoto’s temples without crowds."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Kinkaku-ji",
+        "Stroll through the gardens",
+        "Enjoy a matcha tea nearby"
+      ],
+      "emotionalArc": "This sequence allows for a gradual appreciation of Kyoto’s beauty, transitioning from the grandeur of the temple to the quiet reflection of the gardens.",
+      "bestFor": [
+        "Cultural Enthusiasts",
+        "Nature Seekers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Nara",
+      "travelTime": "1h",
+      "how": "Train",
+      "whyCombine": "Famous for its free-roaming deer and historical temples."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many major attractions provide wheelchair access, but some older temples may have restrictions.",
+    "majorChallenges": "Uneven pavements and steps can be challenging in traditional areas.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan visits to accessible attractions and consider renting a wheelchair if needed."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 25-30 degrees Celsius, occasional rain showers, making the gardens exceptionally lush.",
+    "currentAlerts": [],
+    "entryRequirements": "Japan visa required, check for any additional health requirements."
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "destination": "Taipei",
+  "country": "Taiwan",
+  "region": "East Asia",
+  "aliases": [
+    "Taipei",
+    "taipei",
+    "taiwan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "hikers",
+      "cultural enthusiasts",
+      "night market explorers",
+      "temple seekers"
+    ],
+    "notFor": [
+      "luxury seekers",
+      "party-goers",
+      "beach lovers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h",
+    "flightFromMumbai": "6h 30m - 7h, airlines: China Airlines, Cathay Pacific, Air India",
+    "visaForIndians": "e-Visa USD 55 or VOA",
+    "currency": "New Taiwan Dollar (TWD), 1 INR = 0.42 TWD",
+    "timezone": "+8 UTC",
+    "language": "Mandarin Chinese",
+    "bestMonthToVisit": "November for pleasant weather and fewer crowds",
+    "avoidMonth": "August due to high humidity and typhoon season",
+    "tipping": "Tipping is not customary, but rounding up the bill is appreciated."
+  },
+  "whyPeopleFallInLove": "As you stroll through Shilin Night Market, the aroma of fried chicken fills the air, and you catch sight of locals laughing over stinky tofu while sampling bubble tea from a nearby stall. It’s a sensory overload that makes you realize you’re in a place where food is not just sustenance, but a celebration.",
+  "honestTruth": "Many travelers overlook the importance of learning a few Mandarin phrases, which can significantly enhance your interactions and experiences in Taipei.",
+  "localTruths": [
+    "Most visitors think the night markets are just tourist traps. Locals think they are the essence of daily life and community.",
+    "Most visitors stick to popular attractions. The best version of Taipei is experienced by wandering into local neighborhoods and trying small family-run eateries.",
+    "Most visitors miss the tranquility of temples during quiet hours. The real Taipei starts at the Longshan Temple just before dawn."
+  ],
+  "neighborhoodPersonalities": {
+    "Ximending": {
+      "tags": [
+        "trendy",
+        "youthful",
+        "shopping"
+      ],
+      "bestFor": "those looking for the latest fashion and street food",
+      "avoid": "weekend evenings when it can get overly crowded"
+    },
+    "Tamsui": {
+      "tags": [
+        "historic",
+        "scenic",
+        "waterfront"
+      ],
+      "bestFor": "a relaxing stroll along the river and sampling local snacks",
+      "avoid": "visiting after sunset if you're not keen on the nightlife"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h",
+        "airlines": [
+          "China Airlines",
+          "Cathay Pacific"
+        ],
+        "priceRange": "[₹40,000 - ₹60,000 return]",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 30m",
+        "airlines": [
+          "Air India",
+          "China Airlines"
+        ],
+        "priceRange": "[₹45,000 - ₹65,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "Taipei MRT Airport Line, cost TWD 160 (~₹67), travel time 35 minutes",
+      "taxi": "cost around TWD 1,200 (~₹500), travel time 40 minutes",
+      "recommended": "For first-timers, using the MRT is efficient and gives you a glimpse of local life."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 55 or VOA",
+    "applyAt": "Taiwan's National Immigration Agency website",
+    "processingTime": "Approximately 3-5 business days",
+    "tip": "Ensure your passport is valid for at least six months beyond your planned departure date."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Go to Yonghe Soy Milk King and order the salty soy milk and crispy fried dough.",
+    "sunset": "Visit Tamsui Fisherman’s Wharf at around 6 PM for a spectacular sunset over the river.",
+    "meal": "Dine at Din Tai Fung and savor their xiaolongbao (soup dumplings).",
+    "memory": "Sipping bubble tea while watching the vibrant life at Raohe Street Night Market.",
+    "secret": "Locals prefer the lesser-known food stalls in the alleys of night markets; follow the crowds for the best finds."
+  },
+  "residentSunday": "A Taipei resident would start their Sunday with brunch at The Salt Peanuts Café in Daan Park, followed by a leisurely walk through the park. In the afternoon, they might visit a temple like Bao'an Temple for some quiet reflection before heading to a local market to stock up on fresh produce and snacks.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the MRT and are hit by the warm, spicy scent of street food wafting through the air.",
+    "peak": "The peak day memory target is the experience of joining locals at a temple festival, immersing in the atmosphere, and tasting traditional offerings.",
+    "departure": "You should leave feeling a mix of nostalgia and fulfillment, as if you've woven a part of Taipei into your own story."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "highlights like Taipei 101 and Shilin Night Market",
+      "misses": "the depth of local culture and the surrounding natural beauty"
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of food, culture, and hiking",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "deeper exploration into the surrounding areas like Jiufen and Yangmingshan",
+      "whoFor": "those who enjoy both city life and nature"
+    },
+    "recommended": "5 days is ideal to truly appreciate the food scene, cultural landmarks, and hiking opportunities."
+  },
+  "antiPatterns": [
+    "Rushing through the night markets without sampling the food fails to capture Taipei's culinary spirit.",
+    "Staying in the airport area instead of the city misses the essence of Taipei's vibrant life.",
+    "Visiting popular sites during peak hours can lead to overcrowding and a less enjoyable experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying enough local dishes when at the night markets.",
+    "Most visitors regret not exploring the hiking trails around the city.",
+    "Most visitors regret sticking to the touristy areas and missing out on authentic experiences."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to May",
+      "weather": "mild and pleasant, around 20-25°C",
+      "crowds": "moderate to high, especially during holidays",
+      "verdict": "This is when Taipei is at its most livable."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "Great weather and fewer tourists make for an enjoyable experience."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "hot and humid with potential typhoons, but fewer crowds can mean better deals.",
+      "one reason some prefer it": "Less busy tourist spots allow for a more personal experience."
+    },
+    "bestMonth": "November for clear skies and comfortable weather.",
+    "currentSeason": "June 2026 is warm and humid, with occasional rain, but the night markets remain lively."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Raohe Street Night Market on a weekday around 6 PM; it's less crowded and the food is still fresh.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the peanut ice cream roll at a night market stall; it’s a local favorite you won’t find in guidebooks.",
+      "category": "food"
+    },
+    {
+      "tip": "The Elephant Mountain hike is best done at sunset for a panoramic view of Taipei 101 and the city skyline.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local food tour to discover the best-kept secrets of Taipei’s culinary scene.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a day trip to Jiufen during the week to avoid crowds and enjoy the scenic views.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A bowl of beef noodle soup at a local eatery for TWD 100 (~₹42)",
+    "midRangeMeal": "A meal at a mid-range restaurant like Modern Toilet for around TWD 500 (~₹210)",
+    "luxuryMeal": "Dinner at MUME for TWD 3,000 (~₹1,260)",
+    "localTransportPerDay": "Around TWD 150 (~₹63) for MRT and bus fares.",
+    "budgetHotelPerNight": "TWD 1,200 (~₹500) for a basic guesthouse with shared facilities.",
+    "midRangeHotelPerNight": "TWD 3,000 (~₹1,260) for a 3-star hotel with breakfast included.",
+    "luxuryHotelPerNight": "TWD 8,000 (~₹3,360) for a 5-star hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel beds starting at ₹500",
+      "food": "Street food and local eateries",
+      "transport": "MRT and buses"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels for ₹1,500-₹2,500",
+      "food": "Mix of restaurants and street food"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury hotels offer high-end amenities but may not reflect local character."
+    }
+  },
+  "culturalRules": [
+    "Respect temple etiquette by removing shoes and maintaining silence in sacred areas.",
+    "Avoid discussing sensitive political topics, especially regarding China.",
+    "When dining, it's considered polite to wait for the host to start eating before you do."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers not using the meter during late night rides; always insist on the meter.",
+      "Street vendors trying to sell counterfeit goods - stick to official stalls."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "119",
+      "indianEmbassy": "Taipei, 4F, No. 2, Sec. 1, Hsu-Chou Road, Taipei City"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Taipei 101",
+        "what": "The iconic tower, especially from the rooftop garden",
+        "bestTime": "Sunset",
+        "tip": "Get there early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Around 6 PM during summer months.",
+    "tip": "Experiment with night photography at the night markets to capture the energy and colors."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Longshan Temple",
+        "Explore Bopiliao Historical Block",
+        "Enjoy dinner at Huashan 1914 Creative Park"
+      ],
+      "emotionalArc": "This sequence allows you to experience Taipei's history, creativity, and culinary delights in a seamless flow.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Jiufen",
+      "travelTime": "1.5h",
+      "how": "Bus from Taipei Main Station",
+      "whyCombine": "Famous for its picturesque streets and tea houses."
+    },
+    {
+      "city": "Yangmingshan National Park",
+      "travelTime": "1h",
+      "how": "Bus from Taipei",
+      "whyCombine": "Offers beautiful hiking trails and hot springs."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many MRT stations are accessible, but some attractions are not fully equipped.",
+    "majorChallenges": "Older temples and markets may have uneven surfaces and stairs.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider bringing a portable wheelchair ramp for easier access."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm and humid, with temperatures around 30°C, and occasional afternoon showers; night markets are lively and filled with local flavors.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, e-Visa applications are still operational for Indian passport holders."
+  }
+}

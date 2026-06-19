@@ -1,0 +1,273 @@
+{
+  "destination": "Antalya",
+  "country": "Turkey",
+  "region": "Middle East",
+  "aliases": [
+    "Antalya",
+    "antalya",
+    "turkey"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "historical enthusiasts",
+      "beach lovers",
+      "foodies",
+      "adventure seekers",
+      "family travelers"
+    ],
+    "notFor": [
+      "party-goers",
+      "shopping enthusiasts",
+      "extreme budget travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h",
+    "flightFromMumbai": "7h 30m, Turkish Airlines and Pegasus Airlines",
+    "visaForIndians": "e-Visa USD 50",
+    "currency": "Turkish Lira (1 INR = 0.054 TRY)",
+    "timezone": "UTC+3",
+    "language": "Turkish, English widely spoken in tourist areas",
+    "bestMonthToVisit": "September, due to pleasant weather and fewer crowds compared to peak summer.",
+    "avoidMonth": "January, as it can be quite cold and rainy.",
+    "tipping": "Tipping is customary; 10-15% in restaurants is standard."
+  },
+  "whyPeopleFallInLove": "Strolling through the cobbled streets of Kaleiçi as the sun sets, the scent of grilled fish wafting from nearby restaurants, and the sound of waves crashing against the old city walls creates a moment that is hard to forget.",
+  "honestTruth": "Many travelers underestimate the impact of Antalya's summer crowds; it can feel overwhelming at popular spots, making off-peak exploration essential for a more enjoyable experience.",
+  "localTruths": [
+    "Most visitors think they can see everything in a day. Locals think a week is needed to truly enjoy both the beaches and historical sites.",
+    "Most visitors flock to the main beaches. The best version of Antalya is found at quieter coves like Çıralı, where you can enjoy swimming without the crowd.",
+    "Most visitors miss the evening bazaars in the old town. The real Antalya starts after sunset when the streets come alive with local artisans and street food."
+  ],
+  "neighborhoodPersonalities": {
+    "Kaleiçi": {
+      "tags": [
+        "historic",
+        "cultural",
+        "picturesque"
+      ],
+      "bestFor": "exploring narrow streets filled with history and local shops.",
+      "avoid": "Can get overly crowded during peak hours, especially in summer."
+    },
+    "Konyaaltı": {
+      "tags": [
+        "beachfront",
+        "relaxed",
+        "family-friendly"
+      ],
+      "bestFor": "families looking for beach access and amenities.",
+      "avoid": "Nightlife is limited in this area, which may not suit younger crowds."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h",
+        "airlines": [
+          "Turkish Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "INR 40,000 - INR 60,000 return",
+        "note": "Book 2-3 months in advance for the best rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "7h 30m",
+        "airlines": [
+          "Turkish Airlines",
+          "Pegasus Airlines"
+        ],
+        "priceRange": "INR 42,000 - INR 65,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available; shuttle buses cost around 30 TRY (₹1,620) and take approximately 30 minutes.",
+      "taxi": "Taxi fare is around 150 TRY (₹8,100) and takes about 20 minutes.",
+      "recommended": "For first-timers, consider using an airport shuttle for ease and cost-effectiveness."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 50",
+    "applyAt": "https://www.evisa.gov.tr/en/",
+    "processingTime": "Typically instant to 3 hours online.",
+    "tip": "Apply for your visa at least a week before travel to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at 'Van Kahvaltı Evi' and order the traditional Turkish breakfast with menemen and fresh bread.",
+    "sunset": "Watch the sunset from the ancient Hadrian's Gate around 7:30 PM in June.",
+    "meal": "Dine at 'Seraser Fine Dining' and try the lamb shank with apricot puree.",
+    "memory": "The moment you first dip your toes into the turquoise waters at Konyaaltı Beach while watching the mountains in the distance.",
+    "secret": "Locals often dine at 'Meşhur Fincan Kebap' after 9 PM for a more authentic culinary experience."
+  },
+  "residentSunday": "On a free Sunday, a local might start with breakfast at 'Pazar Kahvaltı Salonu' around 10 AM, followed by a visit to the Antalya Museum by 1 PM. Lunch at 'Dondurma Dükkanı' for traditional Turkish ice cream around 3 PM, then a lazy afternoon at Lara Beach, ending the day with dinner at 'Krakow' for some Polish and Turkish fusion cuisine.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and feel the warm Mediterranean breeze on your face.",
+    "peak": "The peak memory target is when you stand atop the cliffs of the old city, taking in the panoramic views of the sea and mountains.",
+    "departure": "Departure should feel bittersweet, with a sense of having made lasting memories and friendships."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Basic highlights like Kaleiçi and Konyaaltı Beach.",
+      "misses": "The deeper historical sites and hidden beaches."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering beaches, ruins, and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of the surrounding areas like Perge and Aspendos.",
+      "whoFor": "history buffs and beach lovers alike."
+    },
+    "recommended": "Four days is ideal to see both the historical and natural beauty while enjoying the local cuisine."
+  },
+  "antiPatterns": [
+    "Visiting only the beach and missing the historical sites fails to capture the essence of Antalya.",
+    "Rushing through Kaleiçi without stopping to explore the shops and cafes misses the local atmosphere.",
+    "Planning beach days back-to-back during peak summer leads to sunburn and fatigue."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not venturing outside of Antalya to see nearby ancient ruins.",
+    "Most visitors regret skipping the local food scene, opting instead for international chains.",
+    "Most visitors regret rushing their itinerary and not allowing time to simply relax."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "30-40°C, hot and humid",
+      "crowds": "Very crowded",
+      "verdict": "Great for beach activities but overwhelming for sight-seeing."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Better weather, fewer crowds, and off-peak pricing."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and rainy, but some travelers enjoy the quieter streets.",
+      "reason": "Lower accommodation prices and a chance to experience a different side of Antalya."
+    },
+    "bestMonth": "September, as the weather remains warm but the tourist influx decreases.",
+    "currentSeason": "June 2026 is warm and sunny, with the beach being the main attraction and occasional local festivals happening."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Head to the upper deck of 'Saklı Bahçe' for a quiet breakfast spot with a view of the old town, prices around 100 TRY (₹5,400) for a full meal.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the ancient city of Termessos early in the morning to avoid heat and crowds, entry fee is 30 TRY (₹1,620).",
+      "category": "experience"
+    },
+    {
+      "tip": "Check local listings for the weekly street food festival on Thursdays at the old town, where you can taste authentic local dishes.",
+      "category": "food"
+    },
+    {
+      "tip": "Rent a car instead of relying on public transport for more flexibility to explore the coastline.",
+      "category": "transport"
+    },
+    {
+      "tip": "Don't miss the local wine tasting at 'Kanyon' vineyard just outside the city; tours start at 150 TRY (₹8,100).",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Kumpir (stuffed baked potato) at 'Kumpirci' for 25 TRY (₹1,350).",
+    "midRangeMeal": "Grilled fish at 'Kaleiçi Fish Restaurant' for 120 TRY (₹6,480).",
+    "luxuryMeal": "Tasting menu at 'Seraser Fine Dining' for approximately 600 TRY (₹32,400).",
+    "localTransportPerDay": "Around 50 TRY (₹2,700) for bus and tram rides.",
+    "budgetHotelPerNight": "Hostel dormitory bed for 200 TRY (₹10,800) with basic amenities.",
+    "midRangeHotelPerNight": "3-star hotel room for 600 TRY (₹32,400) including breakfast.",
+    "luxuryHotelPerNight": "5-star hotel starting at 1,500 TRY (₹81,000)"
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory beds at hostels for around 200 TRY (₹10,800)",
+      "food": "Local eateries for budget meals at 30-50 TRY (₹1,620-₹2,700)",
+      "transport": "Buses for around 10 TRY (₹540) per ride."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "Mid-range hotels or guesthouses for around 600 TRY (₹32,400)",
+      "food": "Mix of local restaurants and some fine dining."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Expect top-tier service and amenities at resorts but be prepared for higher costs in tourist spots."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting mosques; women should cover their heads.",
+    "Always greet locals with a smile; it's considered polite.",
+    "Avoid discussing politics or religion in casual conversations."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial taxi drivers; always use registered taxis or rideshare apps.",
+      "Some street vendors may overcharge tourists; always agree on a price beforehand."
+    ],
+    "emergencyContacts": {
+      "police": "155",
+      "ambulance": "112",
+      "indianEmbassy": "Embassy of India, Ankara - +90 312 436 3303"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Konyaaltı Beach",
+        "what": "Capture the sunset with the Taurus Mountains in the background.",
+        "bestTime": "Around 7 PM during summer.",
+        "tip": "Arrive early to secure a good spot on the beach."
+      }
+    ],
+    "goldenHour": "Approximately 6 AM - 7 AM and 7 PM - 8 PM in summer.",
+    "tip": "Use a polarizing filter to enhance colors when photographing the sea."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Hadrian's Gate",
+        "Explore the old town",
+        "Dinner at a local restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to immerse yourself in history before enjoying the local cuisine.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Perge",
+      "travelTime": "30m",
+      "how": "By car or organized tour",
+      "whyCombine": "Famous for its well-preserved Roman ruins."
+    },
+    {
+      "city": "Kalkan",
+      "travelTime": "2h",
+      "how": "By bus or car",
+      "whyCombine": "Offers stunning coastal views and great dining options."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, but some historical sites have stairs.",
+    "majorChallenges": "Narrow cobblestone streets in Kaleiçi may pose challenges.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider guided tours that cater to mobility needs for a more comfortable experience."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with daytime temperatures above 30°C and the beach being a major attraction. Local festivals are taking place, enriching the cultural experience.",
+    "currentAlerts": [],
+    "entryRequirements": "e-Visa is required for Indian travelers; ensure it is obtained before arrival."
+  }
+}

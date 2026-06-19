@@ -1,0 +1,282 @@
+{
+  "destination": "Cairo",
+  "country": "Egypt",
+  "region": "Africa",
+  "aliases": [
+    "Cairo",
+    "cairo",
+    "egypt"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History Buffs",
+      "Cultural Explorers",
+      "Food Enthusiasts",
+      "Adventure Seekers",
+      "Shopping Lovers"
+    ],
+    "notFor": [
+      "Beach Lovers",
+      "Luxury Seekers",
+      "Nightlife Enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "6h",
+    "flightFromMumbai": "6h 30m - EgyptAir and Air India",
+    "visaForIndians": "e-Visa USD 25",
+    "currency": "Egyptian Pound (EGP), 1 INR = 0.12 EGP",
+    "timezone": "UTC+2",
+    "language": "Arabic (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "October - Mild weather and fewer tourists than in peak season.",
+    "avoidMonth": "July - High temperatures can exceed 40°C, making outdoor activities uncomfortable.",
+    "tipping": "Tipping is customary; 10-15% is standard in restaurants, and small amounts for taxi drivers and hotel staff."
+  },
+  "whyPeopleFallInLove": "Standing before the Great Pyramid at dawn, you can feel the weight of history in the air, as the sun casts long shadows across the ancient stones and the quietude invites you to reflect on millennia of human achievement.",
+  "honestTruth": "Many visitors underestimate the traffic chaos in Cairo, which can turn a short journey into a frustrating experience, so plan your day accordingly to avoid disappointment.",
+  "localTruths": [
+    "Most visitors think the Pyramids are the only highlight. Locals know that the true essence of Cairo lies in its lively street markets and the communal spirit of its neighborhoods.",
+    "Most visitors flock to the popular tourist spots. The best version of Cairo is found in a quiet café in Zamalek, where you can sip mint tea while watching the Nile flow.",
+    "Most visitors miss the magic of a felucca ride at sunset. The real Cairo starts at the riverside, where the city’s heartbeat is felt most vividly."
+  ],
+  "neighborhoodPersonalities": {
+    "Downtown": {
+      "tags": [
+        "Historical",
+        "Architectural",
+        "Cultural"
+      ],
+      "bestFor": "Exploring colonial-era architecture and vibrant street life.",
+      "avoid": "Avoid late nights as some streets can feel unsafe."
+    },
+    "Khan el-Khalili": {
+      "tags": [
+        "Shopping",
+        "Cultural",
+        "Historical"
+      ],
+      "bestFor": "Finding authentic souvenirs and experiencing local life.",
+      "avoid": "Be cautious of overly aggressive vendors."
+    },
+    "Zamalek": {
+      "tags": [
+        "Tranquil",
+        "Green",
+        "Café Culture"
+      ],
+      "bestFor": "Relaxing in parks and enjoying riverside views.",
+      "avoid": "Limited nightlife options; not ideal for party seekers."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "6h",
+        "airlines": [
+          "EgyptAir",
+          "Air India"
+        ],
+        "priceRange": "₹25,000 - ₹35,000 return",
+        "note": "Book in advance to secure better rates, especially during peak travel seasons."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "6h 30m",
+        "airlines": [
+          "EgyptAir",
+          "Air India"
+        ],
+        "priceRange": "₹28,000 - ₹38,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available; consider other transport options.",
+      "taxi": "Approx EGP 150 (₹180) and takes around 30-45 minutes depending on traffic.",
+      "recommended": "For first-timers, a pre-booked private transfer is recommended to avoid language barriers."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 25",
+    "applyAt": "https://www.visa2egypt.gov.eg/",
+    "processingTime": "Typically 3-5 days.",
+    "tip": "Apply for your e-Visa at least a week in advance to ensure smooth entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'Felfela' in Downtown for a traditional Egyptian breakfast of 'Ful Medames' and warm pita bread.",
+    "sunset": "Head to the banks of the Nile near the Cairo Opera House around 6:30 PM for a picturesque view.",
+    "meal": "Dine at 'Abou El Sid' for a taste of authentic Egyptian 'Moulokhia' served with rice.",
+    "memory": "The moment you first catch sight of the Pyramids from a distance, realizing you are standing in one of the most historically significant places on earth.",
+    "secret": "Locals often enjoy a late-night stroll along the Nile Corniche, away from crowds, where you can hear the sounds of the city and relax."
+  },
+  "residentSunday": "A Cairo resident might start their Sunday with a late breakfast at 'El Fishawy' in Khan el-Khalili, enjoying traditional mint tea and shisha. They may then stroll through the market, picking up fresh spices and handmade crafts, before heading to Al-Azhar Park for a picnic with family, enjoying views of the city skyline at sunset.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step outside the airport and feel the warm breeze mixed with the scent of spices in the air.",
+    "peak": "The peak day memory target is standing at the base of the Great Pyramid, feeling dwarfed by its size and imagining the ancient civilization that built it.",
+    "departure": "Your departure should feel like a bittersweet farewell, with the city’s sounds and sights replaying in your mind as you leave."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Basic highlights including the Pyramids and Khan el-Khalili.",
+      "misses": "You miss the deeper cultural experiences like local dining and art scenes."
+    },
+    "three_to_four_days": {
+      "focus": "Captures major attractions and allows for cultural immersion.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration into nearby historical sites and local neighborhoods.",
+      "whoFor": "Best for history enthusiasts and cultural explorers."
+    },
+    "recommended": "Three to four days is ideal to appreciate both the historical and modern sides of Cairo."
+  },
+  "antiPatterns": [
+    "Visiting the Pyramids during the hottest part of the day can lead to exhaustion and missed experiences; plan your visit early morning or late afternoon.",
+    "Focusing only on tourist hotspots without interacting with locals will lead to a superficial experience; consider taking guided local tours.",
+    "Skipping the felucca ride on the Nile is a mistake; it offers a different perspective of the city that can’t be matched."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local street food.",
+    "Most visitors regret not spending enough time in the markets.",
+    "Most visitors regret missing the evening ambiance of Cairo."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Temperatures average 15-20°C, pleasant for touring.",
+      "crowds": "High tourist traffic; expect longer queues at attractions.",
+      "verdict": "While the weather is ideal, the crowds can detract from the experience."
+    },
+    "shoulderSeason": {
+      "months": "March to May and September to November",
+      "why": "These months offer moderate weather and fewer crowds, making it easier to explore."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Extremely hot weather, often above 35°C, affecting outdoor activities.",
+      "reason": "Some travelers prefer this time for fewer tourists and lower hotel rates."
+    },
+    "bestMonth": "October - Ideal weather and reduced tourist numbers make it perfect for exploration.",
+    "currentSeason": "June 2026 is hot, with temperatures averaging 35°C, and minimal tourist crowds."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit local bakeries like 'Bakery El-Khalili' for fresh 'Feteer' (Egyptian pancakes) for breakfast, around EGP 20 (₹24).",
+      "category": "food"
+    },
+    {
+      "tip": "Take the Metro to avoid traffic; it costs EGP 5 (₹6) and is an efficient way to navigate the city.",
+      "category": "transport"
+    },
+    {
+      "tip": "Explore the back streets of Khan el-Khalili for authentic crafts instead of the main tourist shops.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the Saqqara Pyramid complex early morning to avoid crowds and heat, about 30 minutes from Cairo.",
+      "category": "timing"
+    },
+    {
+      "tip": "Join a local food tour for a more immersive experience, starting at approximately EGP 350 (₹420).",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Koshari at a street vendor for EGP 30 (₹36).",
+    "midRangeMeal": "Dinner at 'El Horreya' for grilled chicken and sides, costing EGP 150 (₹180).",
+    "luxuryMeal": "Dining at 'Zitouni' in the Four Seasons for a multi-course meal at around EGP 800 (₹960).",
+    "localTransportPerDay": "Public transport costs around EGP 50 (₹60) for a full day.",
+    "budgetHotelPerNight": "Backpacker hostels start at EGP 400 (₹480) with basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel like 'Hotel Osiris' costs around EGP 1000 (₹1200) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like the 'Four Seasons' start around EGP 5000 (₹6000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds in hostels starting at EGP 400 (₹480).",
+      "food": "Street food and casual dining averaging EGP 50 (₹60).",
+      "transport": "Public transport costs around EGP 50 (₹60)."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotels around EGP 1000 (₹1200).",
+      "food": "Dining in restaurants averaging EGP 150 (₹180)."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury in Cairo offers lavish experiences, but high-end dining and accommodation can be significantly pricier compared to other destinations."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially in religious sites; women should cover shoulders and knees.",
+    "Always ask permission before photographing people, especially in rural areas.",
+    "Avoid public displays of affection as they can be considered inappropriate."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers may overcharge; always agree on a fare before starting or use ride-hailing apps.",
+      "Beware of street vendors who may pressure you into buying items at inflated prices."
+    ],
+    "emergencyContacts": {
+      "police": "122",
+      "ambulance": "123",
+      "indianEmbassy": "Embassy of India, Cairo: 7, 8, 9, 10, 11, and 12, Abdel Razzak Al Sanhouri St., Nasr City, Cairo."
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "The Great Pyramid from the Giza Plateau",
+        "what": "Capture the Pyramid with the desert backdrop during golden hour.",
+        "bestTime": "Early morning or late afternoon.",
+        "tip": "Arrive early to avoid crowds and catch the sunrise."
+      }
+    ],
+    "goldenHour": "Around 6:00 PM in summer; check local sunset times.",
+    "tip": "Use a polarizing filter to reduce glare and enhance colors, especially when photographing the Nile."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the Pyramids",
+        "Explore the Egyptian Museum",
+        "Stroll through Khan el-Khalili"
+      ],
+      "emotionalArc": "Starting with the awe of the Pyramids, then diving into ancient history, and finally experiencing the lively atmosphere of the bazaar creates a fulfilling narrative of Cairo.",
+      "bestFor": [
+        "History Buffs",
+        "Cultural Explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Giza",
+      "travelTime": "30m",
+      "how": "Taxi or Metro",
+      "whyCombine": "To explore the iconic Pyramids and the Sphinx, which are a UNESCO World Heritage site."
+    },
+    {
+      "city": "Saqqara",
+      "travelTime": "1h",
+      "how": "Taxi",
+      "whyCombine": "To see the Step Pyramid and learn about ancient Egyptian architecture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited; many historical sites have uneven surfaces and few ramps.",
+    "majorChallenges": "Cobblestone streets in older areas and lack of facilities at some attractions.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider hiring a guide who can assist with mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot, with temperatures averaging around 35°C, and fewer tourists compared to peak season. Expect some cultural events and local festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "A valid e-Visa and a passport with at least six months validity are required for entry."
+  }
+}

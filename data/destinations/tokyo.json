@@ -1,0 +1,1490 @@
+﻿{
+    "destination":  "tokyo",
+    "aliases":  [
+                    "tokyo",
+                    "nrt",
+                    "hnd",
+                    "japan",
+                    "narita",
+                    "haneda",
+                    "osaka",
+                    "kyoto"
+                ],
+    "hardFacts":  {
+                      "flightFromDelhi":  "New Delhi to Tokyo Narita (NRT) or Haneda (HND): 7.5â€“9 hours direct. Air India, JAL, ANA. Return fare: INR 50,000â€“1,20,000 economy. Haneda (HND) is 35 mins from central Tokyo vs Narita\u0027s 60 mins.",
+                      "flightFromMumbai":  "Mumbai to Tokyo: 9â€“10 hours direct.",
+                      "twoAirports":  "NRT Narita (60 mins from central Tokyo, most international flights). HND Haneda (35 mins from central Tokyo, some international flights). Check which airport your flight uses â€” makes a material difference to arrival experience.",
+                      "timezone":  "JST (UTC+9). India is 3.5 hours behind Tokyo.",
+                      "currency":  "Japanese Yen (JPY). JPY 100 = approximately INR 56â€“58. USD 1 = JPY 148â€“155. Japan is heavily cash-dependent â€” many restaurants and small shops accept cash only. Always carry JPY 5,000â€“10,000 in cash.",
+                      "visaIndia":  "Japan tourist visa required for Indians. Apply at Japan Embassy or VFS Global minimum 4 weeks before travel. Single entry. Processing: 4â€“7 working days. No embassy fee (VFS service charge applies). Requires return ticket, accommodation proof, bank statements, employment letter.",
+                      "temperature":  "Four distinct seasons. Spring Marâ€“Apr: 10â€“18Â°C, cherry blossoms. Summer Junâ€“Aug: 28â€“35Â°C, humid. Autumn Sepâ€“Nov: 15â€“25Â°C, autumn leaves. Winter Decâ€“Feb: 3â€“12Â°C, cool and clear.",
+                      "criticalRule":  "Buy a Suica or Pasmo IC card at Narita or Haneda airport immediately on arrival â€” from the vending machine at the station. It works on every train, metro, bus, and even 7-Eleven. Never buy individual paper tickets â€” IC cards are 15â€“20% cheaper per journey.",
+                      "electricity":  "Type A and B plugs (American-style, same as Thailand). 100V (different from India\u0027s 230V). Most modern electronics (phone chargers, laptops) work on 100V. Check your appliances.",
+                      "water":  "Tokyo tap water is excellent â€” safe, tested, and clean. Fill a bottle. Save JPY 200â€“300/day."
+                  },
+    "emergencyContacts":  {
+                              "police":  "110",
+                              "ambulance_fire":  "119",
+                              "touristHotline":  "+81 3 3201 3331 (Japan Tourism Agency, 24/7, English-speaking)",
+                              "jnto_info":  "+81 50 3816 2787 (Japan National Tourism Organisation)",
+                              "indianEmbassy":  "+81 3 3262 2391",
+                              "indianEmbassyEmergency":  "+81 80 3506 3695 (24/7 for Indian nationals)",
+                              "tokyoMedicalSurgical":  "+81 3 3436 3028 (Roppongi â€” best for tourists, English-speaking)",
+                              "internationalClinicTokyo":  "+81 3 5285 8181 (Shinjuku, multilingual)",
+                              "tokyoHibarigaokaHospital":  "+81 3 3424 1111",
+                              "pharmacy24hr":  "Matsumoto Kiyoshi at major stations (some 24-hour branches). Drug Eleven convenience pharmacy stores are 24-hour."
+                          },
+    "policeStations":  [
+                           {
+                               "name":  "Shinjuku Police Station",
+                               "area":  "Shinjuku, Kabukicho",
+                               "phone":  "+81 3 3226 0110",
+                               "address":  "3-4-1 Shinjuku, Shinjuku-ku"
+                           },
+                           {
+                               "name":  "Shibuya Police Station",
+                               "area":  "Shibuya, Harajuku",
+                               "phone":  "+81 3 3498 0110",
+                               "address":  "1-23-3 Udagawacho, Shibuya-ku"
+                           },
+                           {
+                               "name":  "Asakusa Police Station",
+                               "area":  "Asakusa, Senso-ji area",
+                               "phone":  "+81 3 3843 0110",
+                               "address":  "1-7-8 Kotobuki, Taito-ku"
+                           },
+                           {
+                               "name":  "Roppongi Police Box",
+                               "area":  "Roppongi entertainment district",
+                               "phone":  "+81 3 3479 0110",
+                               "address":  "Roppongi"
+                           },
+                           {
+                               "name":  "Ginza Police Station",
+                               "area":  "Ginza, Tsukiji",
+                               "phone":  "+81 3 3543 0110",
+                               "address":  "6-1-1 Ginza, Chuo-ku"
+                           }
+                       ],
+    "firstVisitorEssentials":  {
+                                   "summary":  "First-time Tokyo visitor. The city is the most organised, most courteous, and most efficient urban environment on earth. It also has the best food of any city in the world by most serious measures. It rewards attention â€” the person who slows down sees far more than the person who rushes.",
+                                   "mustInclude":  [
+                                                       "Senso-ji Temple, Asakusa at 6am â€” before tourists, free, the oldest temple in Tokyo",
+                                                       "Shibuya Crossing evening rush hour 5â€“7pm â€” the famous scramble, best viewed from Mag\u0027s Park or Shibuya 109 building roof",
+                                                       "Shinjuku at night â€” Memory Lane (Omoide Yokocho) yakitori under the train tracks, the neon corridors",
+                                                       "Tsukiji Outer Market 5amâ€“noon â€” the retired fish market now street food, best tuna sashimi in Tokyo",
+                                                       "Yanaka neighbourhood walk â€” old Tokyo that survived bombing and earthquakes, wooden shopfronts, cats, cemetery walks"
+                                                   ],
+                                   "localInsiderToAdd":  "The Tokyo most visitors see is Shibuya, Shinjuku, and Asakusa â€” the first, most obvious layer. The Tokyo that matters is in the neighbourhood shotengai (shopping streets) in places like Shimokitazawa, Nakameguro, and Yanaka. These are 15-minute train rides and feel like different cities.",
+                                   "regrets":  [
+                                                   "Went to a conveyor belt sushi restaurant â€” the standing sushi counter (kaiten-sushi by a master) is completely different. Ask hotel to book a sushi counter.",
+                                                   "Didn\u0027t try convenience store food â€” Japan\u0027s 7-Eleven is a legitimate meal destination. The onigiri, hot foods, and coffee are excellent.",
+                                                   "Skipped department store basement food halls (depachika) â€” B1F of Isetan in Shinjuku is the finest food shopping in the world.",
+                                                   "Visited Tsukiji after 10am â€” the best food action is 5â€“8am.",
+                                                   "Used only major tourist areas â€” Tokyo\u0027s best bars, ramen shops, and cafÃ©s are in unmarked basements and second floors with no English signs."
+                                               ]
+                               },
+    "repeatVisitorIntelligence":  {
+                                      "insiderNarrative":  "Tokyo is the most organised, most courteous, and most efficient city in the world. These qualities exist in inverse proportion to how far you are from the tourist circuit.",
+                                      "skipThese":  [
+                                                        "Tsukiji outer market if already visited multiple times",
+                                                        "Shibuya crossing as primary event if already done",
+                                                        "teamLab digital art experiences (massively overcrowded, book far ahead)"
+                                                    ],
+                                      "goHere":  [
+                                                     "Shimokitazawa â€” Tokyo\u0027s music and vintage neighbourhood, vinyl record shops, live houses, second-hand clothing, cafÃ©s run by musicians",
+                                                     "Yanaka neighbourhood â€” old Tokyo preserved, a cemetery walk, wooden temple gates, the shotengai shopping street",
+                                                     "Nakameguro canal walk â€” cherry blossoms in April, independent coffee shops along the canal year-round",
+                                                     "Koenji â€” where Tokyo artists move, antique shops, live jazz, excellent ramen, almost no tourists",
+                                                     "Sunamachi Ginza shotengai â€” one of the last traditional shopping streets, families who have run the same shop for 60 years",
+                                                     "Baseball at Tokyo Dome or Meiji Jingu Stadium â€” Japanese baseball fan culture is unlike any other sporting event"
+                                                 ]
+                                  },
+    "neighborhoods":  {
+                          "asakusa":  {
+                                          "character":  "Old Tokyo. Senso-ji Temple (Tokyo\u0027s oldest, founded 628 AD), Nakamise shopping street, traditional craft shops, rickshaws, the Tokyo Skytree visible across the Sumida River.",
+                                          "bestFor":  [
+                                                          "First-time visitors for historical atmosphere",
+                                                          "Temple photography",
+                                                          "Traditional crafts"
+                                                      ],
+                                          "avoid":  [
+                                                        "Afternoon visits â€” most tourists arrive after 10am. Early morning is completely different."
+                                                    ],
+                                          "insider":  "Senso-ji at 6am: the temple gates are open, the monks are chanting morning sutras, the incense smoke rises straight in the still air. At 9am the Nakamise shopping street has tour groups. These are not the same place."
+                                      },
+                          "shinjuku":  {
+                                           "character":  "The ultimate Tokyo sensory overload. The busiest train station in the world, department stores, Golden Gai (200 tiny bars in 6 alleyways), Memory Lane (yakitori), Kabukicho (red-light district), Omoide Yokocho.",
+                                           "bestFor":  [
+                                                           "Night photography",
+                                                           "Yakitori dining",
+                                                           "The full Tokyo urban experience"
+                                                       ],
+                                           "avoid":  [
+                                                         "Kabukicho if not interested in red-light district",
+                                                         "Department store restaurants â€” same quality available for half the price outside"
+                                                     ],
+                                           "insider":  "Golden Gai â€” 200 bars occupying a block behind Shinjuku station. Each bar fits 5â€“8 people maximum. Some are members only, some are open to anyone. The best way to meet Japanese music and art industry professionals."
+                                       },
+                          "shibuya_harajuku":  {
+                                                   "character":  "Modern youth culture Tokyo. The famous crossing, Takeshita Street (teen fashion), Omotesando (Tokyo\u0027s Champs-Ã‰lysÃ©es), Meiji Shrine (forested and serene directly adjacent to all the fashion).",
+                                                   "bestFor":  [
+                                                                   "The crossing",
+                                                                   "Fashion and youth culture",
+                                                                   "Meiji Shrine (completely different atmosphere from the street)"
+                                                               ],
+                                                   "avoid":  [
+                                                                 "Harajuku Takeshita Street on weekends â€” impossible crowd"
+                                                             ],
+                                                   "insider":  "Meiji Shrine is a 12-minute walk from Harajuku station and feels like a different country â€” a forested Shinto shrine in the centre of the city. On Sunday mornings you can witness traditional Japanese wedding ceremonies (free to observe respectfully from a distance)."
+                                               },
+                          "yanaka":  {
+                                         "character":  "The only major Tokyo neighbourhood that survived both the 1923 earthquake and the 1945 bombing. Wooden temple gates, small shrines, a cemetery walk, the Yanaka Ginza shopping street with 60-year-old shops, cats everywhere.",
+                                         "bestFor":  [
+                                                         "Old Tokyo atmosphere",
+                                                         "Photography",
+                                                         "Repeat visitors wanting neighbourhood Tokyo"
+                                                     ],
+                                         "avoid":  [
+
+                                                   ],
+                                         "insider":  "The Yanaka Cemetery is one of the most beautiful parks in Tokyo â€” ancient trees, sculpted graves, cherry blossoms in spring, the graves of Shogun Tokugawa family members. Free. Open always."
+                                     },
+                          "shimokitazawa":  {
+                                                "character":  "Tokyo\u0027s Bohemian neighbourhood. Vinyl record shops, live music houses (over 30 venues in this small area), vintage and second-hand clothing shops, small cafÃ©s. The creative community of Tokyo.",
+                                                "bestFor":  [
+                                                                "Music lovers",
+                                                                "Vintage shopping",
+                                                                "Repeat visitors wanting off-the-tourist-map Tokyo"
+                                                            ],
+                                                "avoid":  [
+
+                                                          ],
+                                                "insider":  "Shimokitazawa has the highest concentration of vinyl record shops per square kilometre in the world. The second-hand record shops open at noon. On weekends the live music starts at 7pm. The combination â€” records in the afternoon, live music in the evening â€” is the correct Shimokitazawa day."
+                                            },
+                          "nakameguro":  {
+                                             "character":  "The canal neighbourhood. A narrow urban canal lined with cherry trees for 2km, with independent coffee shops and boutiques along both banks. In cherry blossom season, the most beautiful urban street in Japan.",
+                                             "bestFor":  [
+                                                             "Cherry blossom season (late Marchâ€“early April)",
+                                                             "Coffee culture",
+                                                             "Independent boutiques"
+                                                         ],
+                                             "avoid":  [
+                                                           "Cherry blossom weekend crowds â€” go on a Tuesday"
+                                                       ],
+                                             "insider":  "The coffee shop on the canal that opens at 8am and has canal-facing seats â€” the neighbourhood\u0027s architects and designers start their day here. On a Tuesday morning in cherry blossom season the petals fall into the water and nobody else is there."
+                                         }
+                      },
+    "restaurants":  [
+                        {
+                            "name":  "Ichiran Ramen",
+                            "area":  "Multiple â€” Shinjuku, Shibuya, Harajuku",
+                            "type":  "budget",
+                            "cuisine":  "Tonkotsu ramen",
+                            "orderThis":  "Tonkotsu ramen JPY 980â€“1,200. Customise spice level, richness, noodle firmness on the order form.",
+                            "pricePerPerson":  "JPY 1,000â€“1,500",
+                            "hours":  "24 hours (most branches).",
+                            "reservation":  "No. Individual booths â€” perfect for solo dining.",
+                            "insider":  "Ichiran is a chain but a culturally significant one. You sit alone in a small booth, order via a form, receive your ramen through a curtained window. No interaction required. The pork bone broth has been refined to the point where it is the standard by which Tokyo judges other ramen.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "solo":  10,
+                                           "budget":  10,
+                                           "firstTimer":  9,
+                                           "repeat":  7,
+                                           "foodie":  8,
+                                           "couple":  6,
+                                           "family":  6,
+                                           "photographer":  7,
+                                           "luxury":  2,
+                                           "adventure":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Tsukiji Outer Market â€” Sushi Dai",
+                            "area":  "Tsukiji, nearç¯‰åœ°å¸‚å ´ Metro",
+                            "type":  "mid",
+                            "cuisine":  "Fresh sushi and seafood",
+                            "orderThis":  "Omakase set (chef\u0027s choice) JPY 3,500â€“6,000",
+                            "pricePerPerson":  "JPY 2,000â€“6,000",
+                            "hours":  "5amâ€“noon. Sell out by late morning.",
+                            "reservation":  "Sushi Dai: queue starts 4:30am, 2+ hour wait. Sushi Zanmai: shorter wait.",
+                            "insider":  "The old Tsukiji wholesale market moved to Toyosu. The outer market (street stalls and small restaurants) stayed. At 5am, chefs shopping for the day. The tuna quality at 5am is indistinguishable from what three-Michelin-star restaurants serve at dinner.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "firstTimer":  9,
+                                           "repeat":  8,
+                                           "solo":  8,
+                                           "couple":  8,
+                                           "adventure":  7,
+                                           "photographer":  9,
+                                           "budget":  6,
+                                           "luxury":  7,
+                                           "family":  5
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Narisawa",
+                            "area":  "Aoyama, Minato-ku",
+                            "type":  "luxury",
+                            "cuisine":  "Japanese nouvelle â€” Satoyama cuisine",
+                            "orderThis":  "Satoyama tasting menu JPY 33,000â€“38,000/person",
+                            "pricePerPerson":  "JPY 35,000â€“50,000",
+                            "hours":  "Lunch Friâ€“Sun, Dinner Tueâ€“Sun.",
+                            "reservation":  "narisawa.com â€” months ahead.",
+                            "insider":  "Chef Yoshihiro Narisawa\u0027s concept is satoyama â€” the zone between mountain forest and farmland. The amuse-bouche is bread grown from seeds planted in a pot of soil at the table. The menu changes with the season. Regularly listed in the world\u0027s 50 best restaurants.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "foodie":  10,
+                                           "honeymoon":  10,
+                                           "couple":  10,
+                                           "repeat":  9,
+                                           "solo":  8,
+                                           "firstTimer":  6,
+                                           "budget":  0,
+                                           "family":  1,
+                                           "photographer":  8
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Memory Lane (Omoide Yokocho) Yakitori",
+                            "area":  "Shinjuku, behind the station",
+                            "type":  "budget",
+                            "cuisine":  "Yakitori izakaya",
+                            "orderThis":  "Yakitori (grilled chicken) JPY 150â€“300/skewer. Cold Sapporo beer JPY 500.",
+                            "pricePerPerson":  "JPY 1,500â€“3,000",
+                            "hours":  "Evening from 5pm. Best 7â€“10pm.",
+                            "reservation":  "No. Find an empty stool.",
+                            "insider":  "A narrow alley of 20 yakitori stalls under the train tracks in Shinjuku. The smoke from the grill fills the alley. The seats are so close that you share a table with strangers. The yakitori â€” chicken hearts, thighs, skin, liver â€” is the most honest food in Tokyo.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "firstTimer":  10,
+                                           "foodie":  9,
+                                           "solo":  10,
+                                           "couple":  8,
+                                           "repeat":  8,
+                                           "budget":  9,
+                                           "photographer":  10,
+                                           "adventure":  8,
+                                           "family":  3,
+                                           "luxury":  2
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Department Store Basement (Depachika)",
+                            "area":  "Isetan Shinjuku B1â€“B2, or Mitsukoshi Ginza B1â€“B2",
+                            "type":  "mid",
+                            "cuisine":  "All of Japanese food culture",
+                            "orderThis":  "Anything. Budget JPY 1,000â€“3,000 for a selection.",
+                            "pricePerPerson":  "JPY 800â€“2,500",
+                            "hours":  "10amâ€“8pm (generally).",
+                            "reservation":  "No.",
+                            "insider":  "The basement food halls of Japanese department stores contain the finest food shopping in the world. Wagyu beef packaged with the cow\u0027s biography. Onigiri filled with sea urchin. Matcha wagashi sweets from 300-year-old shops. Prepared bento lunches that look like art. Free to walk.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "repeat":  10,
+                                           "solo":  9,
+                                           "photographer":  9,
+                                           "couple":  8,
+                                           "firstTimer":  8,
+                                           "family":  7,
+                                           "budget":  6,
+                                           "luxury":  7,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Thip Samai equivalent â€” Tokyo Ramen Street",
+                            "area":  "Tokyo Station basement, B1F",
+                            "type":  "budget",
+                            "cuisine":  "Multiple regional ramen styles",
+                            "orderThis":  "Any of the 8 ramen shops. Budget JPY 900â€“1,500.",
+                            "pricePerPerson":  "JPY 900â€“1,500",
+                            "hours":  "11amâ€“11pm.",
+                            "reservation":  "No. Queue.",
+                            "insider":  "Eight different regional ramen styles in one basement corridor under Tokyo Station. Shio (salt), Shoyu (soy), Miso, Tonkotsu. Each shop specialises in one style. The correct introduction to the breadth of Japanese ramen before exploring individual neighbourhood shops.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "firstTimer":  9,
+                                           "budget":  9,
+                                           "solo":  9,
+                                           "family":  7,
+                                           "couple":  7,
+                                           "repeat":  6,
+                                           "foodie":  7,
+                                           "photographer":  5,
+                                           "luxury":  2,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Sukiyabashi Jiro (or equivalent sushi counter)",
+                            "area":  "Ginza (Jiro original), or any neighbourhood master sushi counter",
+                            "type":  "luxury",
+                            "cuisine":  "Omakase sushi",
+                            "orderThis":  "Omakase (chef decides everything) JPY 30,000â€“60,000/person",
+                            "pricePerPerson":  "JPY 30,000â€“80,000",
+                            "hours":  "Lunch and dinner, closed weekends.",
+                            "reservation":  "Through hotel concierge. Months ahead. English language required for hotel assistance.",
+                            "insider":  "The Sukiyabashi Jiro made famous in Jiro Dreams of Sushi is almost impossible to book (requires relationship through hotel or Japanese contact). Any neighbourhood one or two-Michelin-star sushi counter in Tokyo offers an equivalent experience at JPY 20,000â€“30,000. The hotel concierge can book; a direct call in English cannot.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "foodie":  10,
+                                           "honeymoon":  10,
+                                           "couple":  10,
+                                           "repeat":  9,
+                                           "solo":  8,
+                                           "firstTimer":  5,
+                                           "budget":  0,
+                                           "family":  1,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Tonki Tonkatsu",
+                            "area":  "Meguro",
+                            "type":  "mid",
+                            "cuisine":  "Tonkatsu (breaded pork cutlet) â€” specialist",
+                            "orderThis":  "Hire katsu set JPY 2,800 â€” includes pork cutlet, miso soup, rice, cabbage",
+                            "pricePerPerson":  "JPY 2,500â€“3,500",
+                            "hours":  "Dinner only, closed Tuesday.",
+                            "reservation":  "Queue from 4pm for 5pm opening.",
+                            "insider":  "Tonki has been making tonkatsu the same way since 1939. The fillet cutlet is hand-breadcrumbed fresh. The chefs are in their 70s and have been doing this for decades. The pork is sourced from the same supplier the restaurant has used since the 1950s. It is the finest tonkatsu in Tokyo.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "foodie":  10,
+                                           "repeat":  10,
+                                           "solo":  8,
+                                           "couple":  7,
+                                           "budget":  6,
+                                           "firstTimer":  7,
+                                           "adventure":  6,
+                                           "photographer":  5,
+                                           "luxury":  4,
+                                           "family":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Afuri Ramen",
+                            "area":  "Multiple â€” Harajuku, Roppongi, Nakameguro",
+                            "type":  "budget",
+                            "cuisine":  "Yuzu shio ramen",
+                            "orderThis":  "Yuzu shio ramen JPY 1,100, Yuzu tsukemen (dipping) JPY 1,250",
+                            "pricePerPerson":  "JPY 1,000â€“1,500",
+                            "hours":  "All day.",
+                            "reservation":  "No.",
+                            "insider":  "The ramen shop that introduced yuzu citrus to the standard ramen vocabulary. The clear broth is made from free-range chicken, and the yuzu zest floated on top makes it unlike any ramen in the traditional canon. The Nakameguro branch has canal-facing seating.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "firstTimer":  8,
+                                           "budget":  9,
+                                           "solo":  9,
+                                           "couple":  7,
+                                           "foodie":  8,
+                                           "repeat":  7,
+                                           "family":  6,
+                                           "photographer":  6,
+                                           "luxury":  3,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Kyubey Sushi",
+                            "area":  "Ginza",
+                            "type":  "luxury",
+                            "cuisine":  "Traditional Edomae sushi",
+                            "orderThis":  "Omakase JPY 30,000â€“50,000",
+                            "pricePerPerson":  "JPY 30,000â€“50,000",
+                            "hours":  "Lunch and dinner, closed Sunday.",
+                            "reservation":  "kyubey.jp â€” English reservations possible.",
+                            "insider":  "One of the few top-level sushi restaurants in Tokyo that accepts direct English-language reservations. The Ginza location has been serving the same style of Edomae sushi since 1936. The tuna is aged for the correct number of days, not simply fresh â€” the difference is significant.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "foodie":  10,
+                                           "couple":  9,
+                                           "honeymoon":  9,
+                                           "repeat":  9,
+                                           "solo":  8,
+                                           "firstTimer":  6,
+                                           "budget":  0,
+                                           "family":  1,
+                                           "photographer":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Yanaka Ginza shopfront eating",
+                            "area":  "Yanaka, Taito-ku",
+                            "type":  "budget",
+                            "cuisine":  "Japanese street snacks",
+                            "orderThis":  "Menchi katsu (fried minced pork) JPY 200, Korokke JPY 180, Dagashi (nostalgic sweets)",
+                            "pricePerPerson":  "JPY 300â€“800",
+                            "hours":  "Morningâ€“evening. Individual shops have different hours.",
+                            "reservation":  "No.",
+                            "insider":  "The Yanaka Ginza shotengai (shopping street) has been feeding the neighbourhood since the Meiji era. The fried croquettes (korokke) from the butcher\u0027s shop. The senbei rice crackers from the century-old cracker shop. The mochi from the mochi specialist. Each shop has been making one thing for generations.",
+                            "isSurprise":  true,
+                            "scores":  {
+                                           "firstTimer":  8,
+                                           "photographer":  9,
+                                           "solo":  9,
+                                           "budget":  10,
+                                           "repeat":  9,
+                                           "foodie":  8,
+                                           "couple":  7,
+                                           "family":  7,
+                                           "luxury":  2,
+                                           "adventure":  6
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Gonpachi Nishi-Azabu",
+                            "area":  "Nishi-Azabu, Minato-ku",
+                            "type":  "mid",
+                            "cuisine":  "Izakaya â€” the Kill Bill restaurant",
+                            "orderThis":  "Yakitori set JPY 2,000, Soba noodles JPY 1,200, Japanese whisky JPY 1,500",
+                            "pricePerPerson":  "JPY 3,000â€“5,000",
+                            "hours":  "Lunch and dinner.",
+                            "reservation":  "gonpachi.jp",
+                            "insider":  "The restaurant that inspired the House of Blue Leaves scene in Kill Bill. The multi-level interior with lanterns and open soba kitchen is exactly as it appears in the film. The food is genuine izakaya quality. Come for the atmosphere on a Tuesday when the tourist crowd is smallest.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "firstTimer":  8,
+                                           "photographer":  9,
+                                           "couple":  7,
+                                           "solo":  7,
+                                           "repeat":  7,
+                                           "foodie":  6,
+                                           "budget":  4,
+                                           "luxury":  5,
+                                           "family":  6,
+                                           "adventure":  7
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Convini (7-Eleven / Lawson / FamilyMart)",
+                            "area":  "Everywhere in Tokyo",
+                            "type":  "budget",
+                            "cuisine":  "Japanese convenience store food",
+                            "orderThis":  "Onigiri JPY 120â€“200, Tamagoyaki JPY 150, Hot nikuman (pork bun) JPY 160, Oden from pot JPY 80â€“200/piece",
+                            "pricePerPerson":  "JPY 300â€“600",
+                            "hours":  "24 hours.",
+                            "reservation":  "No.",
+                            "insider":  "Japan\u0027s convenience stores are the finest in the world and a legitimate meal destination. The egg salad sandwich, the onigiri with fresh salmon, the tamagoyaki (Japanese omelette), the hot nikuman steamed bun. This is what Tokyo eats at midnight. Never apologise for convenience store food in Japan.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "budget":  10,
+                                           "solo":  10,
+                                           "firstTimer":  9,
+                                           "repeat":  9,
+                                           "family":  8,
+                                           "couple":  7,
+                                           "foodie":  7,
+                                           "photographer":  5,
+                                           "luxury":  1,
+                                           "adventure":  8
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        },
+                        {
+                            "name":  "Ukai Toriyama",
+                            "area":  "Hachioji (45 mins from Shinjuku)",
+                            "type":  "luxury",
+                            "cuisine":  "Traditional charcoal-grilled chicken â€” kaiseki style",
+                            "orderThis":  "Full course kaiseki meal JPY 15,000â€“25,000/person",
+                            "pricePerPerson":  "JPY 15,000â€“25,000",
+                            "hours":  "Lunch and dinner.",
+                            "reservation":  "ukai.co.jp â€” essential, English site available.",
+                            "insider":  "A complex of traditional Japanese garden houses outside Tokyo. The buildings are genuine antique farmhouses relocated to a garden. The free-range chicken is charcoal-grilled and served across multiple courses in a private room overlooking a river. One of the most exceptional traditional dining experiences accessible from Tokyo.",
+                            "isSurprise":  false,
+                            "scores":  {
+                                           "luxury":  10,
+                                           "honeymoon":  10,
+                                           "couple":  10,
+                                           "foodie":  9,
+                                           "repeat":  9,
+                                           "solo":  7,
+                                           "firstTimer":  6,
+                                           "budget":  0,
+                                           "family":  5,
+                                           "photographer":  8
+                                       },
+                            "active":  true,
+                            "lastVerified":  "2026-06"
+                        }
+                    ],
+    "activities":  [
+                       {
+                           "name":  "Senso-ji Temple at 6am",
+                           "area":  "Asakusa, Taito-ku",
+                           "price":  "Free",
+                           "duration":  "1 hour",
+                           "bestTime":  "6am when the temple gates open",
+                           "book":  "No booking.",
+                           "insider":  "At 6am, Senso-ji is a working temple â€” monks, incense, the smell of prayer. The five-storey pagoda in the early light. The Nakamise shopping street completely empty. By 9am it is packed with tour groups. The person who goes at 6am and the person who goes at noon visited different places.",
+                           "scores":  {
+                                          "firstTimer":  10,
+                                          "photographer":  10,
+                                          "solo":  9,
+                                          "couple":  8,
+                                          "repeat":  7,
+                                          "budget":  10,
+                                          "family":  7,
+                                          "luxury":  7,
+                                          "foodie":  3,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Shibuya Crossing at Evening Rush",
+                           "area":  "Shibuya",
+                           "price":  "Free",
+                           "duration":  "30 minutes",
+                           "bestTime":  "5:30â€“7pm weekday rush hour",
+                           "book":  "No booking.",
+                           "insider":  "The most famous pedestrian crossing in the world. During the green light phase, 3,000 people cross from all directions simultaneously. Best viewpoint: Starbucks second floor (arrive 15 minutes early for window seat) or Scramble Square rooftop (JPY 2,000).",
+                           "scores":  {
+                                          "firstTimer":  10,
+                                          "photographer":  10,
+                                          "couple":  8,
+                                          "family":  8,
+                                          "solo":  8,
+                                          "budget":  9,
+                                          "repeat":  6,
+                                          "luxury":  5,
+                                          "adventure":  7,
+                                          "foodie":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Nakameguro Canal Walk",
+                           "area":  "Meguro River",
+                           "price":  "Free",
+                           "duration":  "2 hours",
+                           "bestTime":  "Morning (year-round). Cherry blossom: late Marchâ€“early April at dusk with lanterns.",
+                           "book":  "No booking.",
+                           "insider":  "A canal lined with cherry trees for 2km, with independent coffee shops along both banks. Saturdays are crowded â€” go on a weekday morning. The coffee shop opening at 8am with canal-facing seats is where the neighbourhood\u0027s architects and designers start their day.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "couple":  10,
+                                          "solo":  9,
+                                          "repeat":  9,
+                                          "firstTimer":  7,
+                                          "budget":  9,
+                                          "honeymoon":  9,
+                                          "family":  6,
+                                          "luxury":  6,
+                                          "foodie":  7
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Yanaka Neighbourhood Walk",
+                           "area":  "Yanesen triangle",
+                           "price":  "Free",
+                           "duration":  "2â€“3 hours",
+                           "bestTime":  "Morning weekday",
+                           "book":  "No booking.",
+                           "insider":  "The only major Tokyo neighbourhood that survived the 1923 earthquake AND the 1945 bombing. Wooden temple gates, small shrines, the Yanaka Cemetery (where Shogun Tokugawa family graves are), the Yanaka Ginza shopping street with 60-year-old shops, cats that belong to the neighbourhood.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "repeat":  10,
+                                          "solo":  9,
+                                          "culture":  10,
+                                          "couple":  8,
+                                          "firstTimer":  7,
+                                          "budget":  10,
+                                          "family":  6,
+                                          "luxury":  5,
+                                          "adventure":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Meiji Shrine and Yoyogi Park",
+                           "area":  "Harajuku, Shibuya-ku",
+                           "price":  "Free",
+                           "duration":  "1.5 hours",
+                           "bestTime":  "Sunday morning for possible wedding ceremony viewing",
+                           "book":  "No booking.",
+                           "insider":  "A forested Shinto shrine in the centre of Tokyo â€” 70 hectares of forest that feels like a forest, not a park. On Sunday mornings, traditional Japanese Shinto wedding ceremonies take place. Free to observe respectfully from a distance. The couple in kimono and hakama emerging from the shrine is one of the most extraordinary free sights in Tokyo.",
+                           "scores":  {
+                                          "firstTimer":  9,
+                                          "photographer":  9,
+                                          "couple":  8,
+                                          "solo":  8,
+                                          "family":  7,
+                                          "repeat":  7,
+                                          "budget":  9,
+                                          "luxury":  6,
+                                          "culture":  9,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Shimokitazawa Vinyl and Live Music",
+                           "area":  "Shimokitazawa, Setagaya-ku",
+                           "price":  "Free to walk. Record shops from JPY 500/record. Live music JPY 1,000â€“3,000.",
+                           "duration":  "Half day to evening",
+                           "bestTime":  "Afternoon for record shopping, evening for live music",
+                           "book":  "No booking for record shops. Check Village Vanguard Shimokitazawa for upcoming shows.",
+                           "insider":  "The highest concentration of vinyl record shops per square kilometre in the world. Over 30 live music venues for a neighbourhood of 30,000 residents. The bohemian Tokyo that still exists even as the rest of the city changes.",
+                           "scores":  {
+                                          "repeat":  10,
+                                          "solo":  9,
+                                          "photographer":  8,
+                                          "couple":  8,
+                                          "adventure":  7,
+                                          "firstTimer":  6,
+                                          "budget":  7,
+                                          "luxury":  4,
+                                          "family":  4,
+                                          "foodie":  6
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Tsukiji Outer Market at 5am",
+                           "area":  "Tsukiji, Chuo-ku",
+                           "price":  "Free to walk. Budget JPY 2,000â€“5,000 for breakfast.",
+                           "duration":  "3 hours",
+                           "bestTime":  "5â€“8am. After 10am the best stalls sell out.",
+                           "book":  "No booking.",
+                           "insider":  "The outer market (restaurants and street stalls) remained after the wholesale market moved to Toyosu. At 5am: stalls being set up, fresh tuna being sliced, the smell of grilled fish and dashi. The tuna quality available here at 5am is indistinguishable from what three-star Michelin restaurants serve at dinner. It costs JPY 3,000 for a full omakase breakfast.",
+                           "scores":  {
+                                          "foodie":  10,
+                                          "firstTimer":  9,
+                                          "repeat":  8,
+                                          "solo":  8,
+                                          "couple":  8,
+                                          "adventure":  7,
+                                          "photographer":  9,
+                                          "budget":  6,
+                                          "luxury":  7,
+                                          "family":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "teamLab Planets or Borderless",
+                           "area":  "Toyosu (Planets) or Azabudai Hills (Borderless, new 2024)",
+                           "price":  "JPY 3,200â€“4,000",
+                           "duration":  "2â€“3 hours",
+                           "bestTime":  "Weekday opening for shortest queues",
+                           "book":  "teamlab.art â€” essential, often sold out weeks ahead.",
+                           "insider":  "Interactive digital art installations. Genuinely extraordinary â€” rooms of infinity mirrors, wading through water with digital projections, forests of light. Massively popular with Japanese and international visitors. The Borderless location at Azabudai Hills (2024) is the new flagship.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "couple":  9,
+                                          "honeymoon":  9,
+                                          "firstTimer":  8,
+                                          "family":  8,
+                                          "solo":  7,
+                                          "repeat":  7,
+                                          "luxury":  7,
+                                          "budget":  5,
+                                          "adventure":  7
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Hamarikyu Gardens",
+                           "area":  "Shimbashi, Chuo-ku",
+                           "price":  "JPY 300",
+                           "duration":  "1.5 hours",
+                           "bestTime":  "Morning any weekday",
+                           "book":  "No booking.",
+                           "insider":  "A former Shogunate duck hunting ground, now a traditional Japanese garden with a tidal pond. The Tokyo skyscrapers are visible above the 300-year-old pine trees. The thatched tea house in the middle of the pond serves matcha and Japanese sweets (JPY 700). One of the most affecting spaces in Tokyo.",
+                           "scores":  {
+                                          "photographer":  9,
+                                          "couple":  9,
+                                          "solo":  8,
+                                          "repeat":  9,
+                                          "culture":  9,
+                                          "firstTimer":  7,
+                                          "budget":  8,
+                                          "luxury":  7,
+                                          "family":  6,
+                                          "adventure":  4
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Shinjuku Gyoen National Garden",
+                           "area":  "Shinjuku",
+                           "price":  "JPY 500",
+                           "duration":  "2 hours",
+                           "bestTime":  "Cherry blossom: late Marchâ€“early April. Autumn leaves: November.",
+                           "book":  "No booking.",
+                           "insider":  "Tokyo\u0027s finest park â€” three distinct garden styles (Japanese, French formal, English landscape) in 58 hectares. In cherry blossom season, the park is the most beautiful place in the city. Alcohol is not permitted â€” this is enforced, which means the crowds are different from public parks.",
+                           "scores":  {
+                                          "photographer":  10,
+                                          "couple":  9,
+                                          "solo":  8,
+                                          "firstTimer":  8,
+                                          "family":  8,
+                                          "repeat":  7,
+                                          "budget":  8,
+                                          "luxury":  7,
+                                          "foodie":  3,
+                                          "adventure":  5
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Muji Flagship Store + Ginza Six",
+                           "area":  "Ginza",
+                           "price":  "Free to enter",
+                           "duration":  "2 hours",
+                           "bestTime":  "Weekday morning",
+                           "book":  "No booking.",
+                           "insider":  "The Muji flagship store in Ginza has a hotel, restaurant, and the largest Muji selection in the world. Prices in Japan are 20â€“30% lower than Muji in India. Ginza Six (luxury shopping mall) has a rooftop garden with free entry and extraordinary views of Ginza\u0027s architecture.",
+                           "scores":  {
+                                          "firstTimer":  7,
+                                          "repeat":  7,
+                                          "solo":  7,
+                                          "couple":  6,
+                                          "budget":  6,
+                                          "family":  7,
+                                          "photographer":  6,
+                                          "luxury":  7,
+                                          "foodie":  4,
+                                          "adventure":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Sumo Tournament (if in season)",
+                           "area":  "Ryogoku Kokugikan (tournaments in Jan, May, Sept)",
+                           "price":  "JPY 2,200â€“14,800",
+                           "duration":  "Full day (doors open 8am, final bouts 6pm)",
+                           "bestTime":  "Afternoon for the top-ranked wrestlers (come at 2pm for the best bouts)",
+                           "book":  "sumo.or.jp â€” book immediately when released (3 weeks before tournament)",
+                           "insider":  "Sumo is Japan\u0027s national sport and the tournament atmosphere is genuinely extraordinary â€” the ceremony, the salt throwing, the power of the wrestlers at close range. The cheap arena seats (JPY 2,200) give a full view. The tournament runs 15 days â€” a single afternoon session is sufficient.",
+                           "scores":  {
+                                          "firstTimer":  9,
+                                          "solo":  9,
+                                          "couple":  8,
+                                          "family":  8,
+                                          "repeat":  8,
+                                          "photographer":  8,
+                                          "adventure":  7,
+                                          "budget":  7,
+                                          "luxury":  6,
+                                          "foodie":  4
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       },
+                       {
+                           "name":  "Tokyo National Museum, Ueno",
+                           "area":  "Ueno, Taito-ku",
+                           "price":  "JPY 1,000",
+                           "duration":  "3 hours",
+                           "bestTime":  "Weekday morning",
+                           "book":  "tnm.jp",
+                           "insider":  "The largest art museum in Japan and the finest Japanese art collection in the world. Japanese samurai armour, Noh theatre masks, ceramics, lacquerwork, silk paintings. The context this museum provides makes every subsequent temple and castle visit more meaningful.",
+                           "scores":  {
+                                          "culture":  10,
+                                          "solo":  8,
+                                          "couple":  7,
+                                          "repeat":  8,
+                                          "photographer":  7,
+                                          "firstTimer":  7,
+                                          "budget":  8,
+                                          "luxury":  6,
+                                          "family":  5,
+                                          "adventure":  3
+                                      },
+                           "active":  true,
+                           "lastVerified":  "2026-06"
+                       }
+                   ],
+    "designedSurprises":  {
+                              "solo":  {
+                                           "experience":  "Standing sushi bar at Tsukiji at 7am",
+                                           "details":  "In Tsukiji outer market, standing sushi counters open at 5â€“6am for the market workers. JPY 1,500â€“2,500 for five pieces of the morning\u0027s best tuna, salmon, and sea urchin, eaten standing up, served by a chef who slices and presses each piece as you watch. The entire transaction takes 10 minutes. It is the best breakfast in Tokyo.",
+                                           "why":  "Solo travellers who find the standing sushi counter describe it as the moment Japan made sense."
+                                       },
+                              "couple":  {
+                                             "experience":  "Nakameguro canal in cherry blossom season at dusk",
+                                             "details":  "If visiting late March to early April: the canal is lined with lit lanterns at dusk, cherry petals fall into the dark water, and the whole neighbourhood comes out. Nothing is organised. It just happens, every year, because the trees bloom. Free. No crowd control. The most beautiful urban evening available in any city at this time of year.",
+                                             "why":  "Every couple who experiences Nakameguro in cherry blossom season describes it as the most beautiful thing they have seen together."
+                                         },
+                              "foodie":  {
+                                             "experience":  "Tsukiji Outer Market at 5am",
+                                             "details":  "5am. The stalls being set up. Wholesale buyers loading into vehicles. The sushi counter at Sushi Dai has its first 5 customers in the queue. The tamagoyaki stand producing its first rolls of the day. The tuna quality at 5am is the same quality that goes into three-Michelin-star kitchens at noon. JPY 5,000 for the best sushi breakfast in the world.",
+                                             "why":  "Every serious food traveller who visits Tokyo and sleeps through the morning regrets it for the rest of the trip."
+                                         },
+                              "photographer":  {
+                                                   "experience":  "Memory Lane (Omoide Yokocho) in the rain at 9pm",
+                                                   "details":  "When it rains, the narrow alley fills with steam from the yakitori grills, the wet cobblestones reflect the red lanterns, and everyone crowds closer together. Rain in Memory Lane is one of the most visually extraordinary street photography environments in the world. A cheap umbrella from a convenience store costs JPY 500.",
+                                                   "why":  "The photograph of Tokyo that looks like every image of Japan you have seen in a film is taken in Memory Lane on a rainy evening."
+                                               },
+                              "honeymoon":  {
+                                                "experience":  "Dinner at the counter at Kyubey or equivalent sushi master",
+                                                "details":  "A one or two-star sushi counter in Ginza or Minato. 10 courses of nigiri, each pressed by hand in front of you, over 2 hours. JPY 20,000â€“40,000/person. The hotel concierge books this â€” do not attempt to book directly in English. The most intimate fine dining experience available in any cuisine in the world.",
+                                                "why":  "There is no equivalent in any other culinary tradition to eating at a Japanese sushi counter. It is not dinner. It is a relationship with a chef over two hours."
+                                            },
+                              "family":  {
+                                             "experience":  "Sumo morning practice (keiko) at a sumo stable",
+                                             "details":  "Several sumo stables (heya) allow early morning observation of training (5:30â€“10am). Arashio stable in Nihonbashi is the most accessible for visitors. No cost but advance permission required (email the stable). Watching 200kg wrestlers training at 6am in traditional mawashi is unlike anything else.",
+                                             "why":  "Children who watch sumo training describe it as the most surprising thing they saw in Japan."
+                                         },
+                              "adventure":  {
+                                                "experience":  "Baseball game at Tokyo Dome or Meiji Jingu Stadium",
+                                                "details":  "Japanese baseball fan culture â€” organised cheers for every batter, specific chants for each player, the stadium becoming a single unified voice â€” is unlike any other sporting event in the world. JPY 1,500â€“3,000 general admission. The atmosphere in the home team sections is the most socially extraordinary 3 hours available in Tokyo.",
+                                                "why":  "Adventure travellers who attend Japanese baseball describe it as the most socially immersive experience of their Japan trip."
+                                            },
+                              "budget":  {
+                                             "experience":  "The JPY 1,000 Tokyo day",
+                                             "details":  "Senso-ji at 6am (free). Yanaka neighbourhood walk (free). Convini breakfast from 7-Eleven JPY 300. Hamarikyu Gardens JPY 300. Shimbashi salaryman district walk (free). Memory Lane yakitori from JPY 400. Total: under JPY 1,100 for a complete extraordinary day in Tokyo.",
+                                             "why":  "Tokyo\u0027s most authentic experiences cost almost nothing."
+                                         },
+                              "luxury":  {
+                                             "experience":  "Kaiseki dinner at a traditional ryokan dining room",
+                                             "details":  "Book a one-night stay at a traditional ryokan in Tokyo (Ryokan Sumire, Sawanoya, or Sadachiyo in Asakusa). The kaiseki dinner served in your room â€” 8â€“12 courses of seasonal Japanese cuisine â€” is the full traditional experience. JPY 15,000â€“30,000 for the complete ryokan stay including dinner.",
+                                             "why":  "A night in a genuine Tokyo ryokan with kaiseki dinner is the most completely different experience from standard hotel travel available in the city."
+                                         }
+                          },
+    "travelerGuides":  {
+                           "solo":  {
+                                        "accommodation":  "Capsule hotels are a genuine solo experience: Shinjuku or Asakusa capsule hotel JPY 3,000â€“5,000/night. Or pod hotels (Book and Bed, Nine Hours) with more comfort at JPY 5,000â€“8,000.",
+                                        "meetingPeople":  "Free walking tours (tokyofreewalkingphotography.com), cooking classes, Language Exchange meetups (Meetup.com Tokyo), bar seating at any izakaya",
+                                        "itineraryLogic":  "Solo Tokyo: morning temple or market, afternoon neighbourhood walk, evening yakitori or izakaya. Golden Gai in Shinjuku is the best solo bar experience in the world."
+                                    },
+                           "couple":  {
+                                          "bestExperiences":  "Nakameguro canal (especially cherry blossom), teamLab digital art, Hamarikyu Gardens matcha tea, Memory Lane yakitori evening, kaiseki counter dinner",
+                                          "bestNeighbourhood":  "Stay in Asakusa for historical atmosphere or Shinjuku for energy"
+                                      },
+                           "honeymoon":  {
+                                             "accommodation":  "Aman Tokyo (JPY 100,000+/night), The Peninsula Tokyo (JPY 80,000+), Mandarin Oriental Tokyo (JPY 60,000+)",
+                                             "experiences":  "Sushi omakase counter, teamLab Planets, ryokan stay in Nikko or Hakone (day trip), Hamarikyu Gardens matcha, Ukai Toriyama dinner"
+                                         },
+                           "family":  {
+                                          "bestActivities":  "teamLab Planets (children respond intensely), Shinjuku Gyoen park, Ueno Zoo (free), Ghibli Museum (Mitaka â€” book months ahead, extremely limited tickets), Sumo morning practice",
+                                          "transport":  "Children travel free on Tokyo Metro under 6. IC card for children 6â€“11 at half price.",
+                                          "accommodation":  "Shinjuku or Shibuya hotels â€” central, multiple exits, easy navigation"
+                                      },
+                           "budget":  {
+                                          "dailyBudget":  "JPY 5,000â€“8,000 covers comfortable budget travel",
+                                          "accommodation":  "Capsule hotel JPY 3,000â€“5,000/night. Budget guesthouse JPY 5,000â€“8,000.",
+                                          "foodStrategy":  "Convenience store for breakfast JPY 300. Ramen for lunch JPY 900. Depachika bento for dinner JPY 1,200. Total food: JPY 2,400/day for excellent food.",
+                                          "freeActivities":  "Senso-ji (free), Meiji Shrine (free), Yanaka walk (free), Shibuya Crossing (free), Shinjuku night (Memory Lane from JPY 500)"
+                                      },
+                           "senior":  {
+                                          "accessibility":  "Tokyo is highly accessible â€” all major stations have lifts, all Shinkansen (bullet trains) are step-free, all taxis have automatic door opening.",
+                                          "heatManagement":  "Tokyo summer (Juneâ€“August) is hot and humid. Plan outdoor activities before 10am. Department store basement food halls are air-conditioned and can occupy an afternoon beautifully.",
+                                          "bestActivities":  "Senso-ji at 9am (manageable crowd after early morning), Hamarikyu Gardens (flat paths, benches), Shinkansen ride (seated, any distance), tea ceremony class (seated)"
+                                      },
+                           "photographer":  {
+                                                "goldenHour":  "Senso-ji 6am. Tsukiji 5:30am. Shibuya Crossing 5:30â€“7pm. Memory Lane 9pm in rain.",
+                                                "locations":  "Yanaka Cemetery in autumn leaves, Senso-ji in rain, Shinjuku golden hour from Tochomae looking at the towers, teamLab for long-exposure art photography, Nakameguro in cherry blossom",
+                                                "equipment":  "Tokyo humidity in summer causes lens condensation. 10â€“15 minute bag transition. Battery drain faster in summer heat."
+                                            },
+                           "indian":  {
+                                          "indianFood":  "Nishi-Shinjuku has the best Indian restaurants in Tokyo. Little India area near Shinjuku station. Japan has a significant Indian IT community particularly in Shinjuku and Akihabara.",
+                                          "temples":  "No Hindu temples in Tokyo. The Buddhist temples (Senso-ji, Zojoji) have elements familiar to Indian visitors â€” incense, offerings, pilgrimage. The overlaps between Buddhism and Hinduism are visible.",
+                                          "cash":  "Japan is still largely cash-dependent. 7-Eleven ATMs (EPOS Bank and International ATMs) accept foreign cards reliably. Withdraw JPY 10,000â€“20,000 on arrival and maintain a cash reserve."
+                                      }
+                       },
+    "hotels":  {
+                   "luxury":  [
+                                  {
+                                      "name":  "Aman Tokyo",
+                                      "area":  "Otemachi, near Imperial Palace",
+                                      "nightly":  "JPY 100,000â€“300,000",
+                                      "honest":  "The most architecturally spectacular hotel in Asia. 33 floors of minimalist Japanese design. The spa is the finest in Tokyo.",
+                                      "tip":  ""
+                                  },
+                                  {
+                                      "name":  "The Peninsula Tokyo",
+                                      "area":  "Marunouchi, Hibiya",
+                                      "nightly":  "JPY 80,000â€“200,000",
+                                      "honest":  "The finest location in Tokyo (between Hibiya Park and the Imperial Palace moat). The helicopter arrival is legendary.",
+                                      "tip":  "Ask for a room facing the Imperial Palace garden."
+                                  }
+                              ],
+                   "mid":  [
+                               {
+                                   "name":  "Dormy Inn Akihabara",
+                                   "area":  "Akihabara",
+                                   "nightly":  "JPY 8,000â€“15,000",
+                                   "honest":  "The Dormy Inn chain offers the best value in Japan â€” communal onsen baths, excellent breakfast. Akihabara location is interesting.",
+                                   "tip":  ""
+                               },
+                               {
+                                   "name":  "Sawanoya Ryokan",
+                                   "area":  "Yanaka",
+                                   "nightly":  "JPY 8,000â€“18,000",
+                                   "honest":  "A genuine traditional Japanese inn in Yanaka neighbourhood. Tatami rooms, shared bath, traditional breakfast. The most authentic non-luxury accommodation in Tokyo.",
+                                   "tip":  ""
+                               }
+                           ],
+                   "budget":  [
+                                  {
+                                      "name":  "Nine Hours Shinjuku",
+                                      "area":  "Shinjuku",
+                                      "nightly":  "JPY 4,000â€“7,000",
+                                      "honest":  "The most design-forward capsule hotel in Japan. Shower pods, sleep pods, lounge. Not claustrophobic.",
+                                      "tip":  ""
+                                  },
+                                  {
+                                      "name":  "Book and Bed Tokyo",
+                                      "area":  "Shinjuku and Asakusa",
+                                      "nightly":  "JPY 5,000â€“9,000",
+                                      "honest":  "Sleep inside a bookshelf â€” pod rooms built within a bookshop. Quirky and functional.",
+                                      "tip":  ""
+                                  }
+                              ]
+               },
+    "transport":  {
+                      "icCard":  "Suica or Pasmo IC card. Buy at vending machine at any station (JPY 2,000 = JPY 500 deposit + JPY 1,500 credit). Works on every train, metro, bus, and at 7-Eleven and most vending machines. Essential.",
+                      "jrYamanote":  "The Yamanote Line (loop) connects all major areas: Shinjuku, Shibuya, Harajuku, Ebisu, Osaki, Shinagawa, Tokyo, Ueno, Akihabara, Ikebukuro. JPY 140â€“200 per trip. Runs every 2â€“3 minutes.",
+                      "tokyoMetro":  "9 lines filling the gaps between JR. Daily pass: JPY 600 (Metro only) or JPY 900 (Metro + Toei subway). Worth buying if making 4+ journeys.",
+                      "narita_access":  "Narita Express (N\u0027EX): JPY 3,070, 53 mins to Shinjuku. Airport Limousine Bus: JPY 3,200, 70â€“90 mins. Narita Sky Access + Metro: JPY 1,250, 65 mins (cheapest).",
+                      "haneda_access":  "Tokyo Monorail + Yamanote: JPY 620, 35 mins to Hamamatsucho. Keikyu Line: JPY 640, 20 mins to Shinagawa. Much more convenient than Narita.",
+                      "shinkansen":  "Bullet train to Kyoto: JPY 14,000â€“17,000 (2 hours 15 mins on Nozomi). Japan Rail Pass covers all JR trains â€” worth buying if visiting Kyoto, Osaka, or other cities."
+                  },
+    "trafficIntelligence":  {
+                                "worstDay":  "Monday morning 8â€“9am on central lines. National holidays: parks and tourist sites extremely crowded.",
+                                "bestCrossCity":  "JR Yamanote Line (loop) connects all major areas in 1â€“40 mins.",
+                                "rushHours":  "7:30â€“9:30am and 5:30â€“8pm. Trains are packed beyond Western comprehension â€” there are train pushers employed to fit people in.",
+                                "itineraryRule":  "Buy IC card at airport immediately. Use IC card for every train, metro, bus. Never buy paper tickets.",
+                                "rain":  "Tokyo in rain is extraordinary â€” the neon reflects in the wet streets. Carry a compact umbrella from any 7-Eleven (JPY 500) and lean into it rather than fighting it."
+                            },
+    "seasonal":  {
+                     "marchApril":  {
+                                        "temp":  "10â€“18Â°C",
+                                        "reality":  "Cherry blossom season. The most beautiful season in Japan. Shinjuku Gyoen, Ueno Park, Nakameguro canal. Peak tourism â€” book 3â€“4 months ahead. Average blossom peak: late March to early April.",
+                                        "priceLevel":  "Highest"
+                                    },
+                     "mayJune":  {
+                                     "temp":  "18â€“28Â°C",
+                                     "reality":  "After cherry blossom but before humidity peak. Excellent season with gradually fewer tourists than peak. Rainy season (tsuyu) starts mid-June.",
+                                     "priceLevel":  "Medium"
+                                 },
+                     "julySeptember":  {
+                                           "temp":  "28â€“35Â°C",
+                                           "reality":  "Hot and humid. Outdoor activities before 10am or after 6pm. Air conditioning everywhere. Summer festivals (matsuri) throughout Tokyo â€” fireworks, street food, yukata (summer kimono). Obon holiday mid-August: Tokyo slightly quieter.",
+                                           "priceLevel":  "Medium"
+                                       },
+                     "octNov":  {
+                                    "temp":  "15â€“25Â°C",
+                                    "reality":  "Autumn leaves (koyo). Second most beautiful season. October is warm and clear. November peak autumn colour at Shinjuku Gyoen and Koishikawa Korakuen. Excellent season.",
+                                    "priceLevel":  "High"
+                                },
+                     "decFeb":  {
+                                    "temp":  "3â€“12Â°C",
+                                    "reality":  "Cold but dry and clear. New Year celebrations (very busy). February: fewer tourists, excellent pricing. Mount Fuji is most visible on clear winter days.",
+                                    "priceLevel":  "Low (except New Year)"
+                                }
+                 },
+    "tokyoFestivals":  {
+                           "cherryBlossom":  "Late Marchâ€“early April. The city transforms. Picnics (hanami) under cherry trees throughout the city. Ueno Park most famous; Nakameguro most intimate. Best viewing: Shinjuku Gyoen.",
+                           "sumidaRiverFireworks":  "Late July. The largest fireworks display in Tokyo. Over 20,000 fireworks. Crowds are enormous â€” arrive 2+ hours early.",
+                           "asakusaSanja":  "Third weekend in May. The largest shrine festival in Tokyo. 200 portable shrines (mikoshi) carried through Asakusa for 3 days. Free. One of the most energetic festivals in Japan.",
+                           "meijingeShrine":  "December 31â€“January 3. Hatsumode (first shrine visit of the year). Meiji Shrine receives 3 million visitors in the first 3 days of January â€” the most visited shrine event in Japan.",
+                           "autumnLeaves":  "November. Best viewing: Shinjuku Gyoen (JPY 500), Koishikawa Korakuen Garden (JPY 300), Hamarikyu Gardens (JPY 300)."
+                       },
+    "rooftopsAndViews":  [
+                             {
+                                 "name":  "Tokyo Metropolitan Government Building",
+                                 "area":  "Shinjuku",
+                                 "note":  "Free observation decks at 202m. North and south towers. Evening view of Tokyo extraordinary.",
+                                 "price":  "Free"
+                             },
+                             {
+                                 "name":  "Shibuya Sky (Shibuya Scramble Square)",
+                                 "area":  "Shibuya, 46F",
+                                 "note":  "Best rooftop view in Tokyo. Open air. Book online. JPY 2,000.",
+                                 "price":  "JPY 2,000"
+                             },
+                             {
+                                 "name":  "Tokyo Skytree",
+                                 "area":  "Asakusa, 634m",
+                                 "note":  "World\u0027s tallest tower. Two observation decks. JPY 2,100â€“3,100.",
+                                 "price":  "JPY 2,100â€“3,100"
+                             },
+                             {
+                                 "name":  "Hamarikyu Gardens teahouse",
+                                 "area":  "Shimbashi",
+                                 "note":  "The most atmospheric free view of central Tokyo. The towers above the 300-year-old pine trees.",
+                                 "price":  "JPY 300 garden entry"
+                             },
+                             {
+                                 "name":  "Mount Takao (Takao-san)",
+                                 "area":  "45 mins from Shinjuku by train",
+                                 "note":  "Free summit view of Tokyo (on clear days, Mount Fuji visible). Free hiking. The most visited mountain in the world.",
+                                 "price":  "Free to hike, JPY 490 cable car"
+                             }
+                         ],
+    "dayTrips":  {
+                     "nikko":  {
+                                   "distance":  "150km north, 2 hours by Tobu Nikko Limited Express",
+                                   "note":  "Nikko National Park. Tosho-gu Shrine (the most elaborately decorated shrine in Japan, mausoleum of Tokugawa Ieyasu). UNESCO World Heritage. The Rinno-ji temple and Futarasan Shrine form one of the finest temple complexes in Japan.",
+                                   "transport":  "Tobu Nikko line from Asakusa: JPY 1,360 + limited express surcharge JPY 1,280. JR Pass holders take Shinkansen to Utsunomiya + local train."
+                               },
+                     "kamakura":  {
+                                      "distance":  "50km south, 1 hour by JR Yokosuka Line from Tokyo Station",
+                                      "note":  "The medieval capital of Japan (1185â€“1333). The Great Buddha (Kotoku-in, JPY 300 entry) â€” 13.35m bronze seated Buddha from 1252. Tsurugaoka Hachimangu shrine. Multiple hiking trails between temples.",
+                                      "transport":  "JR Yokosuka Line from Tokyo Station: JPY 940. Kamakura is compact â€” walk or bicycle between temples."
+                                  },
+                     "hakone":  {
+                                    "distance":  "80km southwest, 1.5 hours by Romancecar from Shinjuku",
+                                    "note":  "Fuji view (weather dependent), hot spring (onsen) resort, the Hakone Open-Air Museum (world\u0027s best outdoor sculpture park). Take the ropeway over Owakudani volcanic area. Overnight recommended for full onsen ryokan experience.",
+                                    "transport":  "Romancecar from Shinjuku: JPY 1,000 + seat reservation. Hakone Pass (JPY 6,000) covers all transport within Hakone including ropeway and boat."
+                                },
+                     "kyoto":  {
+                                   "distance":  "450km southwest, 2 hours 20 mins by Nozomi Shinkansen",
+                                   "note":  "Japan\u0027s ancient capital. 17 UNESCO Heritage sites. Fushimi Inari (10,000 torii gates, free). Arashiyama Bamboo Grove (free). Kinkaku-ji (Golden Pavilion, JPY 500). Recommended 2+ nights to do justice. Best season: spring cherry blossom or autumn leaves.",
+                                   "transport":  "Nozomi Shinkansen from Tokyo to Kyoto: JPY 14,190. JR Pass covers this journey."
+                               }
+                 },
+    "shopping":  {
+                     "harajuku_takeshita":  "Tokyo\u0027s youth fashion street. International fashion trends often start here. Overwhelming on weekends. Shops open from 11am.",
+                     "shimokitazawa_vintage":  "Best vintage clothing in Tokyo. Hundreds of shops within walking distance. Prices JPY 500â€“5,000 for excellent pieces.",
+                     "akihabara":  "Electronics and anime district. Japan\u0027s electronics prices can be 15â€“25% lower than India for international brands. Tax-free for tourists on purchases over JPY 5,000.",
+                     "ginza_luxury":  "HermÃ¨s, Louis Vuitton, Prada, Chanel flagship stores. Japanese craftsmanship items at the best prices: lacquerware, ceramics, silk.",
+                     "depachika_gifts":  "Department store basement food halls (B1F) for Japanese food gifts â€” wagashi sweets, matcha products, Japanese whisky, sake. The best-packaged food gifts in the world.",
+                     "duty_free":  "Tax-free shopping for tourists on purchases over JPY 5,000 at participating retailers. Major department stores and electronics shops have tax-free counters. 10% consumption tax refunded."
+                 },
+    "culturalRules":  {
+                          "critical":  [
+                                           "Tipping is not done in Japan. Leaving money on the table may cause the server to chase you to return it.",
+                                           "Remove shoes at traditional restaurants and ryokan when you step onto tatami â€” look for the step-up and shoe rack.",
+                                           "Eating and drinking while walking is considered rude â€” stand at the stall or find a place to sit.",
+                                           "Silence on public transport is the norm. Phone calls on trains: not done. Music from speakers: not done.",
+                                           "Chopstick etiquette: never stick chopsticks upright in rice (funeral ritual). Never pass food chopstick-to-chopstick (funeral ritual)."
+                                       ],
+                          "dressCode":  "Japan dresses conservatively in temples and carefully everywhere else. Casual for tourist areas. Remove shoes in traditional spaces â€” no special footwear required.",
+                          "cashImportance":  "Many Tokyo restaurants â€” especially ramen shops and izakayas â€” accept CASH ONLY. Always carry JPY 5,000â€“10,000. 7-Eleven ATMs accept foreign cards reliably 24/7."
+                      },
+    "visaIntelligence":  {
+                             "indianPassport":  "Japan tourist visa required. Apply at Japanese Embassy/VFS Global. Free embassy fee (VFS service charge applies). Single entry. Processing: 4â€“7 working days. Requires employment letter, bank statements (3 months), return ticket, hotel bookings.",
+                             "important":  "Japan visa process is strict on financial proof. Show INR 1.5â€“2 lakh accessible per week of travel.",
+                             "tip":  "Japan began trialling e-Visa for some nationalities. Check Japan Embassy India website for current status."
+                         },
+    "pricingBenchmarks":  {
+                              "metro_per_trip":  "JPY 170â€“320 depending on distance",
+                              "ic_card":  "JPY 2,000 (JPY 500 deposit + JPY 1,500 credit)",
+                              "narita_express":  "JPY 3,070 to Shinjuku",
+                              "convenience_store_meal":  "JPY 300â€“600",
+                              "ramen_shop":  "JPY 900â€“1,500",
+                              "mid_restaurant":  "JPY 2,000â€“6,000/person",
+                              "fine_dining_sushi":  "JPY 15,000â€“50,000/person",
+                              "hotel_capsule":  "JPY 3,000â€“5,000/night",
+                              "hotel_budget":  "JPY 8,000â€“15,000/night",
+                              "hotel_mid":  "JPY 15,000â€“30,000/night",
+                              "hotel_luxury":  "JPY 40,000â€“200,000/night",
+                              "yakitori_stick":  "JPY 150â€“300",
+                              "beer_7eleven":  "JPY 220â€“280",
+                              "senso_ji_entry":  "Free",
+                              "teamlab_entry":  "JPY 3,200â€“4,000",
+                              "shinkansen_tokyo_kyoto":  "JPY 14,190 one way"
+                          },
+    "savingsIntelligence":  [
+                                "IC card vs paper tickets â€” saves 15â€“20% per journey AND faster boarding",
+                                "Narita Sky Access + Metro (JPY 1,250) vs Narita Express (JPY 3,070) â€” same destination, 12 minutes slower, saves JPY 1,820",
+                                "Convenience store meal JPY 300â€“600 vs ramen restaurant JPY 1,200 â€” for breakfast and late night saves JPY 600â€“900/day",
+                                "Free Tokyo Metropolitan Government Building observation vs Tokyo Skytree (JPY 2,100â€“3,100) â€” similar height, no queue, saves JPY 2,100â€“3,100",
+                                "Senso-ji at 6am (free, empty) vs 10am (free, crowded) â€” same entry, completely different experience",
+                                "Depachika (department store basement) food vs tourist restaurant â€” similar quality, JPY 2,000â€“4,000 savings/person for dinner",
+                                "JR Pass if visiting Kyoto, Osaka, Hiroshima from Tokyo â€” JPY 50,000 vs individual Shinkansen tickets JPY 80,000+ for the same journey combination",
+                                "Meiji Shrine and all parks are free vs paid attractions â€” a half-day itinerary of Tokyo\u0027s most beautiful spaces costs JPY 0"
+                            ],
+    "practical":  {
+                      "electricity":  "Type A (American, 2 flat pins). 100V. Most phone chargers and laptops work on 100V â€” check your appliance\u0027s voltage range.",
+                      "bestExchange":  "7-Eleven ATMs (accepting Visa/Mastercard) and Japan Post ATMs at post offices are the most reliable for foreign cards.",
+                      "simCard":  "IIJmio or b-mobile data SIM at airport: JPY 2,980â€“4,980 for 15â€“30GB. Or Airalo eSIM before travel.",
+                      "tipping":  "Never. This is enforced by social norms, not law, but the social pressure is absolute.",
+                      "apps":  "Suica app (IC card on iPhone), Google Maps (works excellently for Tokyo navigation), Tabelog (Japanese restaurant reviews â€” most reliable source), HyperDia (train route finder)"
+                  },
+    "hiddenPlaces":  [
+                         {
+                             "name":  "Yanaka Cemetery in autumn",
+                             "note":  "Ancient trees, sculpted graves, free, almost no tourists in this oldest part of Tokyo."
+                         },
+                         {
+                             "name":  "Shimokitazawa vinyl shops on a Sunday",
+                             "note":  "The highest concentration of vinyl record shops per kmÂ² in the world. Opens at noon."
+                         },
+                         {
+                             "name":  "Memory Lane (Omoide Yokocho) in rain",
+                             "note":  "The most atmospheric photography location in Tokyo. 9pm in rain."
+                         },
+                         {
+                             "name":  "Hamarikyu Gardens matcha tea house",
+                             "note":  "300-year-old garden with Tokyo towers above the pines. Thatched tea house in the middle of the tidal pond."
+                         },
+                         {
+                             "name":  "Tonki Tonkatsu, Meguro",
+                             "note":  "Open since 1939. Queue from 4pm for 5pm opening. Finest tonkatsu in Tokyo."
+                         },
+                         {
+                             "name":  "Golden Gai, Shinjuku",
+                             "note":  "200 bars in 6 alleyways, each seating 5â€“8 people. The most intimate bar experience available in any city."
+                         },
+                         {
+                             "name":  "Tokyo Metropolitan Government Building rooftop",
+                             "note":  "Free. 202m. Evening view of Tokyo. Almost no tourists."
+                         },
+                         {
+                             "name":  "Koenji neighbourhood",
+                             "note":  "Where Tokyo artists move. Antique shops, live jazz, excellent ramen, zero tourists."
+                         }
+                     ],
+    "insiderIntelligence":  [
+                                "Japan\u0027s 7-Eleven, Lawson, and FamilyMart are genuinely excellent food destinations. The Milo dinosaur equivalent â€” the egg salad sandwich, the hot nikuman, the tamagoyaki â€” are all specific to Japan and better than they sound.",
+                                "Japan runs on cash for small purchases. Vending machines (100,000 in Tokyo alone) accept IC cards. Many restaurants are cash-only. Maintain JPY 5,000â€“10,000 cash at all times.",
+                                "Tokyo has more Michelin-starred restaurants than any other city in the world â€” more than Paris. A one-star lunch in Tokyo costs JPY 5,000â€“10,000 and is frequently better than a three-star equivalent in Europe.",
+                                "The JR pass is worth buying ONLY if you will travel to at least 2 cities outside Tokyo (Kyoto + Osaka = yes, Tokyo only = no). Calculate your specific journeys before buying.",
+                                "Japanese people queue for things they care about. If you see a long queue outside a restaurant at 11am, it is because the food is genuinely extraordinary. Queuing is a form of curation in Japan.",
+                                "Japan has some of the lowest violent crime rates in the world. Items left unattended on trains and in restaurants are almost always still there when you return. The social contract in Japan is real.",
+                                "Sumo stable morning training (keiko) is available for visitors by prior arrangement â€” email the stable. Arashio stable (Nihonbashi area) is the most accessible. Free. One of the most extraordinary things to observe in Japan."
+                            ],
+    "whyPeopleFallInLove":  "People arrive for the technology and the organisation. They stay for the food â€” specifically for the moment they eat something extraordinary from a basement counter in an unmarked building, prepared by someone who has done exactly this for 40 years and intends to do it for 40 more. They return for the silence. Not the silence of emptiness but the silence of a city of 14 million people that has decided, collectively, that courtesy is more important than noise. Tokyo is the only city in the world where nothing goes wrong. That is not a small thing.",
+    "localTruths":  [
+                        "Most visitors think Tokyo is futuristic. The ramen shop in Shinjuku has been making the same broth for 60 years. The sword-polisher in Yanaka learned his craft from his grandfather. The temple in Asakusa was founded in 628 AD. Tokyo carries its past more carefully than any other city on earth.",
+                        "Most visitors think Japan is impersonal. The waiter who did not come to your table for 10 minutes was waiting for you to be ready to order. The shop assistant who did not speak to you was respecting your space. The conductor who bowed to the empty train was honouring his craft. Every apparent coldness is a form of consideration.",
+                        "Most visitors think Tokyo is exhausting. Tokyo is the only major city in the world where the trains run on time, the streets are clean, the food is extraordinary at every price point, and strangers will walk you to your destination rather than point. The exhaustion belongs to the visitor who tries to do too much. The city itself is impeccably managed."
+                    ],
+    "ifYouOnlyHadOneChance":  {
+                                  "breakfast":  "Standing sushi counter at Tsukiji outer market at 7am â€” five pieces of tuna, salmon, and sea urchin pressed by hand, eaten standing up while the chef slices the next piece. JPY 2,500. The best breakfast in Tokyo. The entire transaction takes 10 minutes.",
+                                  "sunset":  "Nakameguro canal in late March â€” cherry petals falling into the dark water, lanterns lit above the canal, the whole neighbourhood emerging at dusk. If the timing is wrong: the canal at any dusk with the coffee shops lit and the independent boutiques open.",
+                                  "neighbourhood":  "Yanaka on a weekday morning â€” the only major neighbourhood that survived both the 1923 earthquake and the 1945 bombing. Wooden temple gates, the cemetery walk, the Yanaka Ginza shopping street with 60-year-old shops, cats that belong to the neighbourhood.",
+                                  "meal":  "Memory Lane (Omoide Yokocho) in the rain at 9pm â€” a narrow alley of 20 yakitori stalls under the train tracks in Shinjuku, the smoke from the grills filling the alley, the seats so close you share a table with strangers, JPY 150 per skewer of chicken heart or thigh or liver.",
+                                  "memory":  "Senso-ji Temple at 6am â€” the monks chanting sutras, the incense smoke rising straight in the still air, the five-storey pagoda lit by the first light, the entire Nakamise shopping street empty. The temple as a working spiritual site rather than a tourist attraction. These are not the same place.",
+                                  "secret":  "Golden Gai in Shinjuku on a Thursday evening â€” 200 bars in 6 narrow alleyways, each fitting 5-8 people, some members-only, some open to anyone. The most intimate bar experience available in any city in the world. The musicians, writers, and photographers who drink here are not performing. They simply gathered here and kept gathering."
+                              },
+    "neighborhoodPersonalities":  {
+                                      "asakusa":  [
+                                                      "Historical",
+                                                      "Traditional",
+                                                      "Photogenic",
+                                                      "Tourist"
+                                                  ],
+                                      "shinjuku":  [
+                                                       "Everything",
+                                                       "Intense",
+                                                       "Layered",
+                                                       "24 Hours"
+                                                   ],
+                                      "shibuya_harajuku":  [
+                                                               "Youth",
+                                                               "Fashion",
+                                                               "Energy",
+                                                               "Famous"
+                                                           ],
+                                      "yanaka":  [
+                                                     "Old Tokyo",
+                                                     "Quiet",
+                                                     "Preserved",
+                                                     "Cats"
+                                                 ],
+                                      "shimokitazawa":  [
+                                                            "Music",
+                                                            "Vintage",
+                                                            "Bohemian",
+                                                            "Creative"
+                                                        ],
+                                      "nakameguro":  [
+                                                         "Design",
+                                                         "CafÃ©",
+                                                         "Canal",
+                                                         "Intimate"
+                                                     ],
+                                      "roppongi":  [
+                                                       "International",
+                                                       "Art",
+                                                       "Nightlife",
+                                                       "Expat"
+                                                   ]
+                                  },
+    "residentSunday":  "A Tokyo resident with one free Sunday: 6am Senso-ji before the tourists arrive â€” the monks, the incense, the complete quiet of the temple working. 8am breakfast at a depachika (department store basement) â€” the prepared food section of Isetan Shinjuku, the wagashi sweets, the tamagoyaki. 10am Yanaka neighbourhood walk â€” the cemetery, the shotengai, the cats. Lunch at a neighbourhood soba shop with no English menu. Afternoon: Nakameguro canal walk and one cafÃ© with good beans and a counter facing the water. 6pm the vinyl record shops in Shimokitazawa â€” no agenda, just looking. 8pm Memory Lane in Shinjuku for yakitori and beer. This is the Sunday Tokyo residents describe when asked why they chose this city.",
+    "dayMemoryTargets":  {
+                             "arrival":  "The first convenience store meal at 11pm after checking in â€” the egg salad sandwich that is inexplicably perfect, the onigiri with salmon, the canned coffee. The moment the traveller understands that Japan\u0027s entire culture â€” the precision, the craft, the care â€” is expressed even in the things that should be ordinary. The memory is the first evidence that Tokyo operates at a standard that has no equivalent.",
+                             "peak":  "The Tsukiji outer market at 5:30am â€” the smell of fresh tuna, the chefs shopping for the day, the standing sushi counter where a meal pressed by a master chef costs JPY 2,500 and is eaten in 10 minutes on the street. OR the Senso-ji at 6am when the monks are chanting and no tourist has arrived yet. The memory is the specific Tokyo moment that cannot be recreated anywhere else on earth.",
+                             "departure":  "The last convenience store. The last ramen. The last Yamanote Line loop around the city. The specific Tokyo silence â€” the absence of car horns, the absence of shouting, the 14 million people moving with collective consideration. The memory is the realisation that Tokyo is the city that made the traveller believe that the world could be organised better than they thought it was."
+                         },
+    "tripLengthGuide":  {
+                            "two_days":  {
+                                             "must_include":  [
+                                                                  "Senso-ji at 6am",
+                                                                  "Tsukiji outer market morning",
+                                                                  "Shibuya Crossing evening rush"
+                                                              ],
+                                             "skip":  [
+                                                          "Day trips",
+                                                          "Teamlab (too long a queue for 2 days)",
+                                                          "Multiple museum districts"
+                                                      ],
+                                             "note":  "Two days in Tokyo: temple at dawn, market at morning, crossing at dusk. Three experiences done with full attention."
+                                         },
+                            "three_to_four_days":  {
+                                                       "must_include":  [
+                                                                            "Senso-ji morning",
+                                                                            "Tsukiji market",
+                                                                            "Shibuya Crossing",
+                                                                            "Yanaka neighbourhood walk",
+                                                                            "Memory Lane yakitori evening",
+                                                                            "One depachika visit"
+                                                                        ],
+                                                       "skip":  [
+                                                                    "Day trips to Nikko or Kamakura"
+                                                                ],
+                                                       "note":  "Three to four days reveals the layering of Tokyo â€” ancient temple, fishing market, neighbourhood, street food. The essential first Tokyo trip."
+                                                   },
+                            "five_to_six_days":  {
+                                                     "must_include":  [
+                                                                          "All above",
+                                                                          "Kamakura day trip",
+                                                                          "Shimokitazawa vinyl afternoon",
+                                                                          "Nakameguro canal",
+                                                                          "Teamlab"
+                                                                      ],
+                                                     "skip":  [
+
+                                                              ],
+                                                     "note":  "Day trips become viable. Kamakura (1 hour south) gives essential historical context for the modern city."
+                                                 },
+                            "seven_plus_days":  {
+                                                    "must_include":  [
+                                                                         "All above",
+                                                                         "Nikko day trip",
+                                                                         "Hakone (Mount Fuji view, overnight)",
+                                                                         "Shinjuku Gyoen cherry blossom OR autumn leaves"
+                                                                     ],
+                                                    "skip":  [
+
+                                                             ],
+                                                    "note":  "At 7+ days Tokyo becomes a base for Japan. The traveller can begin to understand what the city is reacting against â€” the mountains, the ancient capitals, the sea."
+                                                }
+                        },
+    "antiPatterns":  [
+                         "Grand Palace equivalent â€” Meiji Shrine AND Senso-ji on the same morning â€” each requires a different mental state. Shinto and Buddhist, serene and bustling. One per morning.",
+                         "Teamlab AND Tsukiji market on the same day â€” Teamlab requires 2-3 hours of intense sensory immersion. Combining it with a 5am market visit produces a day that exhausts before noon.",
+                         "Tsukiji outer market after 10am â€” the best stalls sell out by 9am. Arriving at 10am means paying tourist prices for second-best quality. Tsukiji is a dawn activity only.",
+                         "Multiple neighbourhood walks on the same day â€” Yanaka AND Shimokitazawa AND Nakameguro in one day produces exhaustion and blurs all three. Each deserves 2-3 hours of unhurried attention.",
+                         "Sumo tournament on a Sunday afternoon without arriving early â€” the best bouts are 3:30-6pm. Arriving at 2pm gives adequate preparation. Arriving at 4pm means fighting the crowd for the essential hour."
+                     ],
+    "meta":  {
+                 "_schemaVersion":  "3.0",
+                 "lastUpdated":  "2026-06",
+                 "lastVerified":  "2026-06",
+                 "nextReviewDue":  "2026-12",
+                 "dataQualityScore":  9.4
+             },
+    "geography":  {
+                      "mapCenter":  {
+                                        "lat":  35.6762,
+                                        "lng":  139.6503
+                                    },
+                      "googleMapsUrl":  "https://maps.google.com/?q=Tokyo,Japan",
+                      "timezone":  "JST UTC+9"
+                  },
+    "languageIntelligence":  {
+                                 "officialLanguage":  "Japanese",
+                                 "workingLanguage":  "Limited English outside tourist areas â€” Google Translate essential",
+                                 "usefulPhrases":  {
+                                                       "thank_you":  "Arigatou gozaimasu",
+                                                       "excuse_me":  "Sumimasen",
+                                                       "how_much":  "Ikura desu ka?",
+                                                       "delicious":  "Oishii!"
+                                                   },
+                                 "criticalNote":  "Say Sumimasen to get attention. The waiter ignoring you is waiting for you to be ready. Google Translate camera mode works perfectly for menus and signs.",
+                                 "indianLanguageSupport":  "No Hindi. Very limited English outside tourist areas. Google Translate and downloaded offline maps are essential."
+                             },
+    "safetyIntelligence":  {
+                               "overallRating":  "Exceptionally safe â€” among the safest cities on earth",
+                               "safetyScore":  9.9,
+                               "safeAtNight":  true,
+                               "soloFemaleRating":  "Extremely safe â€” one of the worlds lowest violent crime rates",
+                               "scamsToKnow":  [
+                                                   "Almost none â€” Japan has extremely low fraud prevalence"
+                                               ],
+                               "emergencyProtocol":  "Police: 110. Ambulance/Fire: 119. Tourist Hotline: +81 3 3201 3331."
+                           },
+    "healthIntelligence":  {
+                               "vaccinesRecommended":  [
+                                                           "Standard routine vaccines"
+                                                       ],
+                               "waterSafety":  "Japanese tap water is safe and excellent throughout Japan.",
+                               "cashCritical":  "CRITICAL â€” many Tokyo restaurants accept CASH ONLY. Always carry JPY 5,000-10,000 minimum. 7-Eleven ATMs accept foreign cards 24/7.",
+                               "pharmacyAvailability":  "Matsumoto Kiyoshi at most major stations."
+                           },
+    "gettingHere":  {
+                        "fromDelhi":  {
+                                          "flight":  {
+                                                         "duration":  "7.5-9 hours direct",
+                                                         "airlines":  [
+                                                                          "Air India",
+                                                                          "JAL",
+                                                                          "ANA"
+                                                                      ],
+                                                         "priceRange":  "INR 50,000-1,20,000 return",
+                                                         "note":  "Haneda (HND) is 35 mins from centre vs Narita (NRT) 60 mins. Check which airport."
+                                                     }
+                                      },
+                        "fromMumbai":  {
+                                           "flight":  {
+                                                          "duration":  "9-10 hours direct",
+                                                          "priceRange":  "INR 48,000-1,15,000"
+                                                      }
+                                       },
+                        "airportToCity":  {
+                                              "haneda":  "Tokyo Monorail, 25 mins to Hamamatsucho",
+                                              "narita":  "N\u0027EX express JPY 3,070, 53 mins to Shinjuku"
+                                          }
+                    },
+    "nearbyDestinations":  [
+                               {
+                                   "city":  "Nikko",
+                                   "travelTime":  "2 hours by Tobu Nikko train",
+                                   "cost":  "JPY 1,360 + express surcharge",
+                                   "whyCombine":  "Tosho-gu Shrine â€” most elaborately decorated in Japan. UNESCO Heritage.",
+                                   "suggestIf":  "Trip is 5+ days"
+                               },
+                               {
+                                   "city":  "Kamakura",
+                                   "travelTime":  "1 hour by JR Yokosuka Line",
+                                   "cost":  "JPY 940",
+                                   "whyCombine":  "The Great Buddha (1252 AD). Medieval capital of Japan.",
+                                   "suggestIf":  "Trip is 4+ days"
+                               },
+                               {
+                                   "city":  "Kyoto",
+                                   "travelTime":  "2 hrs 15 mins by Nozomi Shinkansen",
+                                   "cost":  "JPY 14,190 one way",
+                                   "whyCombine":  "Ancient capital. 17 UNESCO sites. Fushimi Inari. Arashiyama Bamboo Grove. HIGHLY RECOMMENDED.",
+                                   "suggestIf":  "Trip is 5+ days â€” strongly recommend adding Kyoto"
+                               }
+                           ],
+    "liveIntelligence":  {
+                             "lastChecked":  "2026-06",
+                             "seasonalNow":  "June 2026 â€” rainy season (tsuyu). Humid, occasional rain. Hydrangea season â€” beautiful photography. Lower prices than cherry blossom spring peak.",
+                             "currentAlerts":  [
+
+                                               ],
+                             "entryRequirements":  "Indians need Japan tourist visa. Japanese Embassy/VFS Global minimum 4 weeks ahead. Free embassy fee. Processing 4-7 working days.",
+                             "indianAdvisoryNote":  "Check mea.gov.in for current Japan advisory."
+                         },
+    "combinationIntelligence":  [
+                                    {
+                                        "sequence":  [
+                                                         "Senso-ji (6am)",
+                                                         "Tsukiji outer market (8am)",
+                                                         "Yanaka neighbourhood walk (10am)"
+                                                     ],
+                                        "emotionalArc":  "Ancient spiritual â†’ ancient culinary â†’ old Tokyo preserved. Three kinds of what survived.",
+                                        "bestFor":  [
+                                                        "firstTimer",
+                                                        "photographer",
+                                                        "culture"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Or Tor Kor equivalent â†’ Depachika (11am)",
+                                                         "Afternoon neighbourhood cafÃ©",
+                                                         "Memory Lane (Omoide Yokocho) rain (9pm)"
+                                                     ],
+                                        "emotionalArc":  "The finest food shopping in the world â†’ contemplative pause â†’ the most atmospheric street in Tokyo. Quiet between loud.",
+                                        "bestFor":  [
+                                                        "foodie",
+                                                        "repeat",
+                                                        "introvert"
+                                                    ]
+                                    },
+                                    {
+                                        "sequence":  [
+                                                         "Teamlab (3pm)",
+                                                         "Nakameguro canal walk (5:30pm)",
+                                                         "Dinner at counter ramen"
+                                                     ],
+                                        "emotionalArc":  "Digital immersion â†’ nature and design â†’ the most Japanese possible meal. Three registers of Tokyo excellence.",
+                                        "bestFor":  [
+                                                        "couple",
+                                                        "photographer",
+                                                        "first"
+                                                    ]
+                                    }
+                                ],
+    "photographyIntelligence":  {
+                                    "bestShotLocations":  [
+                                                              {
+                                                                  "name":  "Memory Lane (Omoide Yokocho) in rain at 9pm",
+                                                                  "what":  "Smoke, red lanterns, wet cobblestones, yakitori grills",
+                                                                  "bestTime":  "Rainy evening 8-10pm"
+                                                              },
+                                                              {
+                                                                  "name":  "Nakameguro canal in cherry blossom season",
+                                                                  "what":  "Lanterns, petals falling into water, canal reflections",
+                                                                  "bestTime":  "Late March-early April at dusk"
+                                                              },
+                                                              {
+                                                                  "name":  "Senso-ji Temple at 6am",
+                                                                  "what":  "Working temple â€” monks, incense, pagoda in first light",
+                                                                  "bestTime":  "6:00-7:30am"
+                                                              },
+                                                              {
+                                                                  "name":  "Shibuya Crossing at rush hour",
+                                                                  "what":  "3,000 people crossing simultaneously",
+                                                                  "bestTime":  "5:30-7:00pm weekday"
+                                                              }
+                                                          ],
+                                    "goldenHour":  "6:00-8:00am. 4:30-6:00pm (winter) to 6:00-7:30pm (summer).",
+                                    "droneRules":  "Drone use in Tokyo requires Civil Aeronautics Bureau permission. Many central areas (within 300m of airports, populated areas) effectively prohibited.",
+                                    "tip":  "Tokyo in rain is the most cinematic version of the city. The neon reflects in every surface. Go out when other tourists go inside."
+                                },
+    "accessibility":  {
+                          "wheelchairFriendly":  "Excellent â€” Japan leads the world in accessibility design",
+                          "metroAccessibility":  "All major stations have lifts. Announcements in multiple languages. Tactile paving throughout.",
+                          "seniorFriendlyScore":  9,
+                          "note":  "Wheelchair rental available at most major stations. Shinkansen bullet trains fully accessible."
+                      },
+    "_schemaVersion":  "3.0-intl",
+    "lastUpdated":  "2026-06"
+}

@@ -1,0 +1,276 @@
+{
+  "destination": "San Francisco",
+  "country": "USA",
+  "region": "Americas",
+  "aliases": [
+    "San Francisco",
+    "san francisco",
+    "usa"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "food lovers",
+      "tech enthusiasts",
+      "outdoor seekers",
+      "cultural explorers",
+      "history buffs"
+    ],
+    "notFor": [
+      "budget travelers",
+      "those seeking warm weather",
+      "nightlife-focused travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "16h",
+    "flightFromMumbai": "20h, airlines: Air India, United Airlines",
+    "visaForIndians": "US B-2 visa",
+    "currency": "USD (1 INR = 0.012 USD)",
+    "timezone": "UTC-8",
+    "language": "English",
+    "bestMonthToVisit": "September - clear skies and mild weather make it perfect for outdoor activities.",
+    "avoidMonth": "January - heavy rains can hinder outdoor plans.",
+    "tipping": "15-20% is standard at restaurants; rounding up for taxis is common."
+  },
+  "whyPeopleFallInLove": "Imagine standing on the Golden Gate Bridge as the fog rolls in, the salty sea breeze against your skin, and the sound of the waves crashing below you. The moment you catch a glimpse of Alcatraz through the mist, you know you've arrived somewhere extraordinary.",
+  "honestTruth": "Many travelers overlook how cold it can be in the summer due to the coastal fog, so be prepared with layers even in July.",
+  "localTruths": [
+    "Most visitors think they need to stick to the tourist spots. Locals think exploring neighborhoods like the Mission District reveals the city’s true spirit.",
+    "Most visitors flock to Fisherman’s Wharf. The best version of San Francisco is grabbing a burrito in the Mission and enjoying it in Dolores Park.",
+    "Most visitors miss the chance to explore the Presidio on foot. The real San Francisco starts at the trails with views of the Golden Gate."
+  ],
+  "neighborhoodPersonalities": {
+    "Mission District": {
+      "tags": [
+        "food",
+        "art",
+        "culture"
+      ],
+      "bestFor": "Tasting some of the best Mexican food outside Mexico.",
+      "avoid": "Beware of late-night crowds on weekends."
+    },
+    "Chinatown": {
+      "tags": [
+        "history",
+        "shopping",
+        "food"
+      ],
+      "bestFor": "Exploring the largest Chinatown outside Asia.",
+      "avoid": "Some shops can be tourist traps with inflated prices."
+    },
+    "Nob Hill": {
+      "tags": [
+        "luxury",
+        "views",
+        "history"
+      ],
+      "bestFor": "Staying in upscale hotels with panoramic views.",
+      "avoid": "Parking can be a hassle and expensive."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "16h",
+        "airlines": [
+          "Air India",
+          "United Airlines"
+        ],
+        "priceRange": "[₹55,000 - ₹85,000 return]",
+        "note": "Book 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "20h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "[₹60,000 - ₹90,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "BART train to downtown for $10.80, about 30 minutes.",
+      "taxi": "Approximately $50-70 and 30-40 minutes depending on traffic.",
+      "recommended": "Use the BART for a quick and cost-effective way to reach the city."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "US B-2 visa",
+    "applyAt": "VFS Global centers in India or the US Embassy website.",
+    "processingTime": "Typically 3-5 weeks.",
+    "tip": "Schedule your interview in the early morning to avoid long waits."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Mama’s on Washington Square with their famous French toast.",
+    "sunset": "Catch the sunset at Ocean Beach, around 8:30 PM in June, with a blanket and some snacks.",
+    "meal": "Dine at Zuni Café for their legendary roasted chicken.",
+    "memory": "The moment you first see the Golden Gate Bridge emerging from the fog is unforgettable.",
+    "secret": "Locals know that the best views of the city skyline are from Twin Peaks, especially at dawn."
+  },
+  "residentSunday": "A San Francisco resident might start their Sunday with coffee and a pastry at Tartine Bakery, then stroll through the Mission to see street art, followed by a leisurely lunch at a food truck. In the afternoon, they might hike Lands End for coastal views and wrap up the day with dinner at a local favorite, like Nopa, before catching a movie at the Alamo Drafthouse.",
+  "dayMemoryTargets": {
+    "arrival": "Stepping off the plane and feeling the cool, crisp air hit your face as you realize you're in a new city.",
+    "peak": "The peak day memory is standing on the deck of a ferry, sailing by Alcatraz with the skyline in view.",
+    "departure": "Departure should feel like a bittersweet goodbye, with memories of the fog and food lingering long after."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like the Golden Gate Bridge and Alcatraz but misses the city's neighborhoods.",
+      "misses": "Deep cultural experiences and local food spots."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of landmarks and local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of art, food, and tech.",
+      "whoFor": "Cultural explorers and food enthusiasts."
+    },
+    "recommended": "Four to five days is ideal for experiencing both the iconic sights and hidden spots."
+  },
+  "antiPatterns": [
+    "Trying to see everything in one day fails because San Francisco's charm lies in slow exploration.",
+    "Skipping public transport for taxis can lead to high costs and missed scenic views.",
+    "Visiting Fisherman’s Wharf first can set a touristy tone that undervalues the rest of the city."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in neighborhoods like the Mission or Haight-Ashbury.",
+    "Most visitors regret not trying the local food spots and sticking to tourist restaurants.",
+    "Most visitors regret not checking the weather beforehand, leading to uncomfortable experiences."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 60°F to 70°F, but it can be chilly with fog.",
+      "crowds": "Very crowded, especially at popular attractions.",
+      "verdict": "Expect long lines and book in advance."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "Milder weather and fewer tourists make it an excellent time to visit."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cool and rainy, but some enjoy the quieter atmosphere.",
+      "reason": "Hotel rates drop significantly, making it more affordable."
+    },
+    "bestMonth": "September - great weather and fewer tourists.",
+    "currentSeason": "June 2026 brings typical summer fog, cool temperatures, and a busy atmosphere during weekends."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Golden Gate Park on weekdays to avoid crowds and enjoy a quieter experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the clam chowder in a sourdough bread bowl at Boudin Bakery for a classic San Francisco meal.",
+      "category": "food"
+    },
+    {
+      "tip": "Check out local events on Eventbrite for pop-up restaurants and food tastings happening around the city.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a walk through the Ferry Building Marketplace for a taste of local foods and artisanal goods, especially on Saturdays.",
+      "category": "food"
+    },
+    {
+      "tip": "For tech enthusiasts, the Computer History Museum in Mountain View is a short train ride away and worth the visit.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Taco from a street vendor for $3.50 (₹290)",
+    "midRangeMeal": "Dinner at a local diner for $25 (₹2,000)",
+    "luxuryMeal": "Dinner at Gary Danko for $200 (₹16,000)",
+    "localTransportPerDay": "$15 (₹1,200) for a Muni pass.",
+    "budgetHotelPerNight": "$70 (₹5,600) for a hostel bed in shared dorms.",
+    "midRangeHotelPerNight": "$200 (₹16,000) for a boutique hotel in the city center.",
+    "luxuryHotelPerNight": "$500 (₹40,000) for a five-star hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Hostel dorms at ₹1,500",
+      "food": "Street food and budget diners averaging ₹1,000",
+      "transport": "Using public transportation."
+    },
+    "comfortable": {
+      "perDayINR": "₹10,000",
+      "accommodation": "Mid-range hotels at ₹4,500",
+      "food": "Mix of casual dining and local eateries."
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury hotels offer top-notch amenities but are often booked out in advance."
+    }
+  },
+  "culturalRules": [
+    "Dress in layers; temperatures can change rapidly throughout the day.",
+    "Make eye contact and smile when greeting locals; it's considered friendly.",
+    "Don't walk on bike lanes; they are strictly enforced."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of individuals asking for money in tourist areas; just ignore them.",
+      "Beware of credit card skimmers at ATMs."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "911",
+      "indianEmbassy": "Indian Consulate in San Francisco, 540 Arguello Blvd, San Francisco, CA 94118"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Twin Peaks",
+        "what": "Panoramic views of the city skyline and Golden Gate Bridge.",
+        "bestTime": "Dawn for the best light.",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "During summer, around 8 PM.",
+    "tip": "Use a wide-angle lens for capturing the full scope of iconic landmarks."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Explore Alcatraz Island",
+        "Visit Fisherman's Wharf",
+        "Enjoy dinner at a local seafood restaurant"
+      ],
+      "emotionalArc": "This sequence builds from the intrigue of Alcatraz's history to the lively atmosphere of the Wharf, culminating in a satisfying meal reflecting the local cuisine.",
+      "bestFor": [
+        "history buffs",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Sausalito",
+      "travelTime": "30 minutes",
+      "how": "Ferry from San Francisco",
+      "whyCombine": "A picturesque waterfront town with beautiful views and great dining."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many public transport options are accessible, but some older buildings may not be.",
+    "majorChallenges": "Steep hills can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "There are accessible taxis available, but check in advance for availability."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is cool and foggy, with crowds at major attractions like the Golden Gate Bridge and Alcatraz. Events include outdoor concerts and food festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, travelers still need a B-2 visa to enter the USA."
+  }
+}

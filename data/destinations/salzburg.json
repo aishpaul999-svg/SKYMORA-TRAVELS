@@ -1,0 +1,267 @@
+{
+  "destination": "Salzburg",
+  "country": "Austria",
+  "region": "Europe",
+  "aliases": [
+    "Salzburg",
+    "salzburg",
+    "austria"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "music lovers",
+      "history enthusiasts",
+      "foodies",
+      "nature lovers",
+      "art aficionados"
+    ],
+    "notFor": [
+      "party seekers",
+      "beach lovers",
+      "those avoiding cold weather"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Vienna + 2.5h",
+    "flightFromMumbai": "9h to Vienna + 2.5h, airlines: Lufthansa, Austrian Airlines",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 EUR = 88 INR)",
+    "timezone": "UTC+1",
+    "language": "German (English widely spoken in tourist areas)",
+    "bestMonthToVisit": "September - The weather is mild, and the summer crowds have eased.",
+    "avoidMonth": "January - It can be quite cold, often dropping below freezing.",
+    "tipping": "Standard is 10-15% in restaurants; it's common to round up the bill."
+  },
+  "whyPeopleFallInLove": "Strolling through the Mirabell Gardens in spring, the scent of blooming flowers mingling with the sound of classical music wafting from nearby street performers creates an immersive experience that feels like stepping into a scene from 'The Sound of Music.'",
+  "honestTruth": "Many first-time visitors expect Salzburg to be a quaint village, but it’s a bustling city with modern amenities that can sometimes overshadow its historical charm.",
+  "localTruths": [
+    "Most visitors think Salzburg is solely about Mozart. Locals know it's also a hub for contemporary art and music.",
+    "Most visitors rush to the Hohensalzburg Fortress. The best version of Salzburg is enjoying a leisurely coffee at Café Tomaselli while watching the world go by.",
+    "Most visitors miss the Salzach River at sunset. The real Salzburg starts with a riverside walk at dusk when the city lights begin to twinkle."
+  ],
+  "neighborhoodPersonalities": {
+    "Altstadt": {
+      "tags": [
+        "historic",
+        "artistic",
+        "cultural"
+      ],
+      "bestFor": "Exploring medieval architecture and museums.",
+      "avoid": "It can feel touristy during peak hours."
+    },
+    "Lehen": {
+      "tags": [
+        "modern",
+        "residential",
+        "local"
+      ],
+      "bestFor": "Experiencing local life away from the tourist trail.",
+      "avoid": "Limited dining options compared to the city center."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Vienna + 2.5h",
+        "airlines": [
+          "Lufthansa",
+          "Austrian Airlines"
+        ],
+        "priceRange": "₹50,000 - ₹70,000 return",
+        "note": "Book 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h to Vienna + 2.5h",
+        "airlines": [
+          "Lufthansa",
+          "Austrian Airlines"
+        ],
+        "priceRange": "₹50,000 - ₹70,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No direct metro; bus costs €2 (₹176) and takes 30 minutes.",
+      "taxi": "Costs around €25 (₹2,200) and takes 20 minutes.",
+      "recommended": "For first-timers, taking the bus is economical and provides a glimpse of the city."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global locations in India or online through the Schengen visa application portal.",
+    "processingTime": "Typically 15 working days.",
+    "tip": "Apply well in advance, and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Tomaselli – Order the Apfelstrudel with a side of coffee; it’s a local favorite.",
+    "sunset": "The Mönchsberg mountain at 8 PM during summer offers panoramic views of the city as the sun dips behind the Alps.",
+    "meal": "St. Peter Stiftskeller – Try the Salzburger Nockerl for an authentic dessert experience.",
+    "memory": "Listening to a live performance of Mozart's symphonies in the very city where he was born is a moment that encapsulates Salzburg.",
+    "secret": "Only locals know that the best place for a quiet moment is the small park behind the DomQuartier, away from the crowds."
+  },
+  "residentSunday": "A typical Sunday for a Salzburg resident involves a leisurely brunch at Café Bazar, followed by a stroll along the Salzach River, and then attending a classical music concert in the evening at the Mozarteum.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first see the Hohensalzburg Fortress looming over the city upon arrival.",
+    "peak": "The peak day memory target is standing on the fortress with a view of the sunset and the twinkling city below.",
+    "departure": "How the departure should feel: a sense of nostalgia as you reflect on the melodies that linger in your mind."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covering the main sights like the fortress and Mirabell Gardens.",
+      "misses": "You miss the local dining experiences and some lesser-known museums."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced exploration of both major attractions and local life.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of nearby attractions like Hallstatt and Berchtesgaden.",
+      "whoFor": "Culture enthusiasts and nature lovers."
+    },
+    "recommended": "Four days is ideal to enjoy the city's offerings without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing through the Altstadt without stopping to enjoy the local cafés fails to capture the essence of Salzburg.",
+    "Trying to see all attractions in one day leads to fatigue and missing the city's charm.",
+    "Visiting during peak tourist hours crowds the experience, making it less enjoyable."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the time to explore the local hiking trails around the city.",
+    "Most visitors regret missing the chance to attend a concert at the Mozarteum.",
+    "Most visitors regret not trying traditional Austrian dishes at local eateries."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Temperatures range from 20-30°C, generally pleasant.",
+      "crowds": "Expect large crowds at major attractions.",
+      "verdict": "Great for festivals, but plan ahead."
+    },
+    "shoulderSeason": {
+      "months": "September to October",
+      "why": "The weather is still mild, and fewer tourists make for a more relaxed experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold with temperatures often below 0°C, but beautiful Christmas markets attract visitors.",
+      "one reason some prefer it": "Fewer tourists allow for a more intimate experience with the city."
+    },
+    "bestMonth": "September - Ideal weather and fewer crowds enhance the experience.",
+    "currentSeason": "June 2026 is warm with temperatures around 25°C, perfect for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Stiftskeller restaurant for traditional Austrian food, but book a table in advance for the best experience.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a guided night walk of the old town for a unique perspective on its history and architecture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Use the Salzburg Card for free public transport and discounts on attractions; it pays off quickly.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a local concert at the Kollegienkirche for an authentic musical experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the local markets on Saturdays for fresh produce and handmade goods.",
+      "category": "food"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Käsekrainer sausage from a street vendor for €5 (₹440)",
+    "midRangeMeal": "Traditional Wiener Schnitzel at Gasthaus Zwettler for €15 (₹1,320)",
+    "luxuryMeal": "Dinner at Ikarus with a tasting menu for €150 (₹13,200)",
+    "localTransportPerDay": "Around €5 (₹440) for unlimited travel on buses and trams.",
+    "budgetHotelPerNight": "€50 (₹4,400) for basic amenities in a hostel.",
+    "midRangeHotelPerNight": "€120 (₹10,560) for a comfortable 3-star hotel.",
+    "luxuryHotelPerNight": "Starting at €250 (₹22,000) for upscale accommodations."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹3,000",
+      "accommodation": "Hostel bed for ₹1,000",
+      "food": "Street food and budget meals.",
+      "transport": "Public transport."
+    },
+    "comfortable": {
+      "perDayINR": "₹8,000",
+      "accommodation": "3-star hotel for ₹4,000",
+      "food": "Mix of local restaurants and cafés."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury options can be quite high-end, but the experience justifies the cost."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and religious sites.",
+    "Respect local customs and traditions, especially during music festivals.",
+    "Be mindful of noise levels in residential areas, especially at night."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded tourist areas; keep belongings secure.",
+      "Some taxi drivers may overcharge; always ask for the meter."
+    ],
+    "emergencyContacts": {
+      "police": "133",
+      "ambulance": "144",
+      "indianEmbassy": "Embassy of India, Vienna - +43 1 505 45 83"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Hohensalzburg Fortress",
+        "what": "Panoramic views of the city and mountains.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Use a wide-angle lens to capture the landscape."
+      }
+    ],
+    "goldenHour": "Approximately 8 PM in summer.",
+    "tip": "Consider visiting lesser-known viewpoints for unique angles of the iconic architecture."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Mirabell Palace",
+        "Explore the DomQuartier",
+        "Dinner at St. Peter Stiftskeller"
+      ],
+      "emotionalArc": "This sequence builds from leisurely exploration to a culinary highlight, ensuring a memorable day.",
+      "bestFor": [
+        "culture seekers",
+        "food enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Hallstatt",
+      "travelTime": "1.5 hours",
+      "how": "Train or bus",
+      "whyCombine": "Charming lakeside village known for its stunning scenery."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many major attractions are accessible, but some historical sites have limitations.",
+    "majorChallenges": "Cobblestone streets can be difficult for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Public transport is generally accessible, but check specific routes in advance."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm and pleasant, with numerous outdoor events and festivals happening throughout the month.",
+    "currentAlerts": [],
+    "entryRequirements": "Current visa rules require a Schengen visa for Indian passport holders."
+  }
+}

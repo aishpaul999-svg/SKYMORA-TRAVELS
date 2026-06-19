@@ -1,0 +1,267 @@
+{
+  "destination": "Bruges",
+  "country": "Belgium",
+  "region": "Europe",
+  "aliases": [
+    "Bruges",
+    "bruges",
+    "belgium"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History Buffs",
+      "Food Lovers",
+      "Romantics",
+      "Art Enthusiasts",
+      "Beer Aficionados"
+    ],
+    "notFor": [
+      "Party Seekers",
+      "Budget Backpackers",
+      "Fast-Paced Travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Brussels + 1h",
+    "flightFromMumbai": "9h to Brussels + 1h",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+1",
+    "language": "Dutch, French, English",
+    "bestMonthToVisit": "May - Ideal weather for exploring canals and outdoor activities.",
+    "avoidMonth": "November - Rainy and cold, not conducive for canal tours.",
+    "tipping": "Tipping is not compulsory; rounding up the bill or leaving small change is appreciated."
+  },
+  "whyPeopleFallInLove": "As you glide through the medieval canals, the aroma of freshly baked waffles wafts by, mingling with the rich scent of chocolate from nearby shops, creating an enticing atmosphere that compels you to stay longer and savor every moment.",
+  "honestTruth": "Bruges can feel overly touristy at times, especially during peak seasons, which might overshadow its local charm and authenticity.",
+  "localTruths": [
+    "Most visitors think they can explore Bruges in a day. Locals think it's best experienced over at least three days to truly appreciate its nuances.",
+    "Most visitors stick to main attractions. The best version of Bruges is found in its lesser-known alleys and local cafes.",
+    "Most visitors miss the magic of Bruges at dawn. The real Bruges starts at sunrise when the canals reflect the soft morning light."
+  ],
+  "neighborhoodPersonalities": {
+    "City Center": {
+      "tags": [
+        "touristy",
+        "historic",
+        "lively"
+      ],
+      "bestFor": "first-time visitors wanting to see main attractions",
+      "avoid": "can feel overcrowded during peak hours"
+    },
+    "Sint-Anna": {
+      "tags": [
+        "residential",
+        "quieter",
+        "authentic"
+      ],
+      "bestFor": "those seeking a local experience",
+      "avoid": "limited dining options compared to the city center"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Brussels + 1h",
+        "airlines": [
+          "Air India",
+          "Emirates"
+        ],
+        "priceRange": "₹40,000 - ₹60,000",
+        "note": "Book tickets 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h to Brussels + 1h",
+        "airlines": [
+          "Qatar Airways",
+          "Lufthansa"
+        ],
+        "priceRange": "₹40,000 - ₹60,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No direct metro; take a train from Brussels Airport to Bruges (cost: €15, time: 1h 30min).",
+      "taxi": "Approximately €150, taking around 1h 30min.",
+      "recommended": "Taking the train from Brussels Airport offers a scenic view and is more economical."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global or Belgian Embassy in New Delhi",
+    "processingTime": "15 working days",
+    "tip": "Apply at least a month in advance, and ensure all documents are complete to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to 'Li O Lait' for a hot chocolate and a slice of their homemade carrot cake.",
+    "sunset": "The terrace at 'De Halve Maan Brewery' offers an unparalleled view of the city’s rooftops at sunset around 9 PM in summer.",
+    "meal": "Dine at 'De Kelk' and order their Flemish stew — a local delicacy.",
+    "memory": "The moment you see the sun setting behind the Belfry reflected in the canals will stay with you long after you leave.",
+    "secret": "Only locals know that the best chocolate is found at 'ChocolaT' — it’s less crowded and offers exceptional flavors."
+  },
+  "residentSunday": "On a free Sunday, a Bruges resident might start with brunch at 'Park Restaurant' around 10 AM, then stroll through the peaceful Minnewater Park, followed by a visit to the local market in 't Zand for fresh produce and artisanal goods, and finally unwind at a quiet café with a book over a local beer in the late afternoon.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the canals as you step off the train, a picturesque view that feels like stepping into a painting.",
+    "peak": "The peak memory target is standing in the Markt Square during the evening, with the lights illuminating the medieval buildings.",
+    "departure": "Departure should feel nostalgic and bittersweet, with memories of the canals and chocolates lingering as you leave."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights of Bruges including the canals, Markt Square, and a brewery tour.",
+      "misses": "In-depth exploration of hidden cafes and quiet neighborhoods."
+    },
+    "three_to_four_days": {
+      "focus": "Perfect for balancing main attractions and leisure time to explore local shops and eateries.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Allows for deeper exploration of Bruges and day trips to nearby cities like Ghent and Antwerp.",
+      "whoFor": "Culture enthusiasts and food lovers."
+    },
+    "recommended": "Three days is ideal to soak in the atmosphere and enjoy Bruges without rushing."
+  },
+  "antiPatterns": [
+    "Rushing through the city without enjoying a canal boat tour leads to a missed perspective of Bruges.",
+    "Focusing only on museums while neglecting local experiences like the chocolate shops can leave the trip feeling incomplete.",
+    "Visiting during the day but not experiencing the city’s night ambiance, which transforms with a magical glow."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the time to explore the local chocolate shops.",
+    "Most visitors regret missing out on the brewery tours, which offer deeper insights into Belgian beer culture.",
+    "Most visitors regret not wandering through the quieter neighborhoods away from the tourist crowds."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "Mild temperatures around 20°C, occasional rain.",
+      "crowds": "Heavily crowded with tourists.",
+      "verdict": "Best for warm weather, but expect long queues at attractions."
+    },
+    "shoulderSeason": {
+      "months": "April to May, September to October",
+      "why": "Fewer crowds and pleasant weather, making it a great time for exploration."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cold and often rainy; less tourist activity.",
+      "reason": "Some tourists enjoy the tranquility and reduced prices during this time."
+    },
+    "bestMonth": "May - Offers great weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm with occasional rain, ideal for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'De Garre' for an authentic local beer experience; they serve a unique tripel beer not found elsewhere, priced at €5.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the early morning canal tour to avoid the crowds and enjoy the calm waters — it starts at 9 AM.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the 'Speculoos' cookies at 'Bakkerij Sint-Anna'; they’re the best in Bruges, around €2 for a pack.",
+      "category": "food"
+    },
+    {
+      "tip": "The best view of the city is from the top of the Belfry; go early to avoid long lines.",
+      "category": "timing"
+    },
+    {
+      "tip": "Explore the local farmers' market on Wednesdays for fresh produce and local delicacies.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A sandwich at 'De Bretoense' costs €7 (₹630).",
+    "midRangeMeal": "A main course at 'Bistro de Schilder' costs around €20 (₹1,800).",
+    "luxuryMeal": "Dinner at 'De Karmeliet' (3 Michelin stars) costs around €75 (₹6,800).",
+    "localTransportPerDay": "Typical daily local transport cost is €5 (₹450).",
+    "budgetHotelPerNight": "A hostel dorm bed costs €25 (₹2,250) with basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel like 'Hotel Dukes Palace' costs €120 (₹10,800) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like 'Hotel de Orangerie' cost about €250 (₹22,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm bed at ₹2,250",
+      "food": "Street food and budget cafes",
+      "transport": "Walking and occasional public transport"
+    },
+    "comfortable": {
+      "perDayINR": "₹6,000",
+      "accommodation": "Mid-range hotel at ₹10,800",
+      "food": "Mix of local restaurants and cafes"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury in Bruges is high-end but can be worth it for the experience."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shoulders and knees should be covered.",
+    "Always greet locals with a friendly 'Hallo' or 'Bonjour' depending on the language spoken in that area.",
+    "Tipping is not expected; however, rounding up the bill or leaving small change is appreciated."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Pickpocketing in crowded areas; keep valuables secure.",
+      "Fake charity collectors; always verify legitimacy."
+    ],
+    "emergencyContacts": {
+      "police": "101",
+      "ambulance": "112",
+      "indianEmbassy": "Embassy of India in Belgium, 11-13 Avenue de la Renaissance, 1000 Brussels"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Belfry of Bruges",
+        "what": "Capture the iconic tower against the sky.",
+        "bestTime": "Early morning for soft light.",
+        "tip": "Climb to the top for panoramic views."
+      }
+    ],
+    "goldenHour": "8 PM in summer.",
+    "tip": "Use a polarizing filter to enhance the reflections in the canals."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Canal Boat Tour",
+        "Visit to the Chocolate Museum",
+        "Dinner at a local bistro"
+      ],
+      "emotionalArc": "This sequence creates a relaxed day, allowing for culinary exploration and scenic enjoyment.",
+      "bestFor": [
+        "Food Lovers",
+        "Leisure Travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Ghent",
+      "travelTime": "30 minutes",
+      "how": "Train",
+      "whyCombine": "To explore another historic city with vibrant nightlife."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some areas are accessible, but cobblestone streets can be challenging.",
+    "majorChallenges": "Narrow pathways and uneven surfaces in historic areas.",
+    "seniorFriendlyScore": 7,
+    "note": "Public transport is generally accessible, but check in advance for specific routes."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with pleasant temperatures around 22°C, low crowds, and a few local festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required for Indian passport holders."
+  }
+}

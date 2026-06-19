@@ -1,0 +1,267 @@
+{
+  "destination": "Ayutthaya",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Ayutthaya",
+    "ayutthaya",
+    "thailand"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "temple explorers",
+      "cultural travelers",
+      "photographers",
+      "food lovers"
+    ],
+    "notFor": [
+      "party-goers",
+      "beach seekers",
+      "luxury travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "4h 30min to Bangkok + 1.5h bus",
+    "flightFromMumbai": "4h 30min to Bangkok + 1.5h bus",
+    "visaForIndians": "Thailand e-Visa USD 35",
+    "currency": "Thai Baht (THB), 1 INR = 0.42 THB",
+    "timezone": "UTC+7",
+    "language": "Thai, English widely spoken in tourist areas",
+    "bestMonthToVisit": "November - February, as the weather is cooler and drier, ideal for outdoor exploration.",
+    "avoidMonth": "September - heavy monsoon rains can disrupt travel plans.",
+    "tipping": "Not mandatory, but rounding up the bill or leaving small change is appreciated."
+  },
+  "whyPeopleFallInLove": "As you wander through the ruins of Wat Phra Si Sanphet, the scent of incense wafts through the air, blending with the sound of distant chanting, creating a moment that feels like stepping back in time, urging you to explore further.",
+  "honestTruth": "Many guides will tell you about the temples, but few mention the overwhelming heat that can drain your energy if you're not prepared with water and sunscreen.",
+  "localTruths": [
+    "Most visitors think the temples are all there is to see. Locals think the food markets and street vendors offer the real flavor of Ayutthaya's history.",
+    "Most visitors rush between temples. The best version of Ayutthaya is taking time to savor local dishes around the night market.",
+    "Most visitors miss the sunrise at Wat Chaiwatthanaram. The real Ayutthaya starts before dawn when the temples are bathed in soft morning light."
+  ],
+  "neighborhoodPersonalities": {
+    "Historical Park": {
+      "tags": [
+        "cultural",
+        "historical",
+        "touristy"
+      ],
+      "bestFor": "Exploring ancient architecture and history.",
+      "avoid": "Avoid peak hours to escape large tourist crowds."
+    },
+    "Local Markets": {
+      "tags": [
+        "culinary",
+        "authentic",
+        "local"
+      ],
+      "bestFor": "Sampling Ayutthaya's street food.",
+      "avoid": "Be cautious of food hygiene at less-frequented stalls."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "4h 30min to Bangkok + 1.5h bus",
+        "airlines": [
+          "Thai Airways",
+          "IndiGo"
+        ],
+        "priceRange": "₹25,000 - ₹35,000 return",
+        "note": "Book in advance to find better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "4h 30min to Bangkok + 1.5h bus",
+        "airlines": [
+          "Thai Airways",
+          "GoAir"
+        ],
+        "priceRange": "₹25,000 - ₹35,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "There is no metro service; buses are available costing around THB 60 and take about 1.5 hours.",
+      "taxi": "Taxi fares from Bangkok to Ayutthaya range from THB 1,500 to THB 2,000, taking about 1.5 hours.",
+      "recommended": "For first-timers, taking a bus from Mo Chit Bus Terminal is budget-friendly and straightforward."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Thailand e-Visa USD 35",
+    "applyAt": "https://thaievisa.go.th",
+    "processingTime": "Typically 3-5 days.",
+    "tip": "Apply at least a week before your travel date to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Coffee Old City, order the Thai-style omelet with rice and a local coffee.",
+    "sunset": "Watch the sunset from the riverbank near Wat Chaiwatthanaram at around 6 PM for picturesque views.",
+    "meal": "Dine at Roti Sai Mai, where you must try the sweet cotton candy roti.",
+    "memory": "The moment you watch the sun dip behind the ancient stupas, casting long shadows across the ruins, is unforgettable.",
+    "secret": "Locals gather at the riverside for evening picnics; join them for a taste of community life."
+  },
+  "residentSunday": "On a free Sunday, a local might start the day with breakfast at a small café like Prae, enjoying a bowl of boat noodles. They would then head to the local market at 10 AM, picking up fresh fruits and snacks before visiting Wat Yai Chai Mongkhon for a quiet afternoon. The evening would be spent enjoying dinner at a riverside restaurant, savoring grilled fish while watching the sunset.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the bus and see the ancient temples rising in the distance, feeling the heat and excitement wash over you.",
+    "peak": "The peak day memory target is the evening boat ride along the Chao Phraya River, as the sun sets over the temples.",
+    "departure": "Departure should feel reflective, with memories of the past lingering as you look back at the temples one last time."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Covering the main temples and local markets.",
+      "misses": "The chance to explore lesser-known temples and enjoy a sunset boat ride."
+    },
+    "three_to_four_days": {
+      "focus": "Good balance of temple visits, local cuisine, and relaxation.",
+      "sweetSpot": true
+    },
+    "five-to-seven-days": {
+      "focus": "Deeper exploration of surrounding areas and historical sites.",
+      "whoFor": "History buffs and those looking to immerse in local life."
+    },
+    "recommended": "Three days are ideal to explore both the historical and culinary treasures of Ayutthaya."
+  },
+  "antiPatterns": [
+    "Rushing through the temples without breaks leads to exhaustion and dissatisfaction.",
+    "Expecting to see everything in a day can result in missing the local experiences.",
+    "Visiting during the hottest part of the day without proper hydration can ruin your experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food.",
+    "Most visitors regret not renting a bicycle to explore the area more freely.",
+    "Most visitors regret not waking up early for the sunrise at the temples."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November - February",
+      "weather": "Temperatures range from 20-30°C, dry conditions.",
+      "crowds": "Tourist crowds peak, especially around festivals.",
+      "verdict": "Ideal for visiting, but expect busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "March - May",
+      "why": "Fewer tourists and still decent weather, although it gets hotter."
+    },
+    "offSeason": {
+      "months": "June - October",
+      "reality": "Heavy rains in September can disrupt travel plans.",
+      "reason": "Some prefer off-season for fewer tourists and lower prices."
+    },
+    "bestMonth": "December, as the weather is pleasantly cool and the festive atmosphere is engaging.",
+    "currentSeason": "June 2026 has been hot with occasional afternoon showers, making it a mix of sun and rain."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Wat Phra Si Sanphet early in the morning to avoid crowds and catch the sunrise, bringing your own water for hydration.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the boat noodles at the market near Wat Yai Chai Mongkhon for an authentic taste of local flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Rent a bicycle for THB 50 at a local shop to explore the ruins more comfortably.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit the local night market on weekends for a genuine taste of Ayutthaya's nightlife.",
+      "category": "experience"
+    },
+    {
+      "tip": "Ask locals for the best spots to catch traditional Thai dance performances, often held at lesser-known temples.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Pad Thai at a street vendor for THB 40 (₹95)",
+    "midRangeMeal": "Green curry at a local restaurant for THB 150 (₹355)",
+    "luxuryMeal": "Dinner at Sala Ayutthaya for THB 1,000 (₹2,370)",
+    "localTransportPerDay": "THB 100 (₹235) for bicycle rental and local transport costs.",
+    "budgetHotelPerNight": "THB 600 (₹1,420) for a guesthouse with basic amenities.",
+    "midRangeHotelPerNight": "THB 1,500 (₹3,550) for a comfortable hotel with breakfast.",
+    "luxuryHotelPerNight": "THB 4,000 (₹9,470) for a luxury hotel with views of the river."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Hostel dorm beds around ₹600 per night.",
+      "food": "Street food meals for around ₹100-200.",
+      "transport": "Bicycles and public transport for ₹100."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotels around ₹1,500.",
+      "food": "Mix of local restaurants and some upscale dining."
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury comes with amenities and fine dining, but the real cultural experiences are often found on the streets."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples, covering shoulders and knees.",
+    "Remove shoes before entering temple buildings.",
+    "Avoid touching or climbing on statues."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be wary of tuk-tuk drivers offering all-day tours at inflated prices; negotiate or use metered taxis.",
+      "Some street vendors may overcharge tourists; it's best to ask locals for fair prices."
+    ],
+    "emergencyContacts": {
+      "police": "191",
+      "ambulance": "1669",
+      "indianEmbassy": "Embassy of India, Bangkok - +66 2 287 9000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Wat Chaiwatthanaram",
+        "what": "Capture the temple with the river in the foreground at sunset.",
+        "bestTime": "Around 6 PM.",
+        "tip": "Use a tripod for long exposure shots during twilight."
+      }
+    ],
+    "goldenHour": "The golden hour in Ayutthaya is around 6:00 AM - 7:00 AM and 5:30 PM - 6:30 PM.",
+    "tip": "Avoid using flash in temples to respect the sacred spaces."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Wat Mahathat",
+        "Explore Wat Phra Si Sanphet",
+        "Enjoy lunch at a local market"
+      ],
+      "emotionalArc": "This sequence allows for cultural immersion, followed by relaxation with local food, enhancing the overall experience.",
+      "bestFor": [
+        "cultural travelers",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bang Pa-In",
+      "travelTime": "30 minutes",
+      "how": "By taxi or local bus",
+      "whyCombine": "Visit the summer palace for a contrast in architectural style."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited options; many temples have uneven ground and steps.",
+    "majorChallenges": "Navigating uneven surfaces and stairs at historical sites.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider bringing a mobility aid if necessary."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is characterized by hot weather with occasional rain, making it a mixed experience for visitors with both sun and refreshing showers.",
+    "currentAlerts": [],
+    "entryRequirements": "As of June 2026, travelers must present a valid e-Visa upon arrival."
+  }
+}

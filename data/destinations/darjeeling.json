@@ -1,0 +1,319 @@
+{
+  "destination": "Darjeeling",
+  "state": "West Bengal",
+  "type": "tea/mountain views",
+  "aliases": [
+    "Darjeeling",
+    "darjeeling",
+    "West Bengal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "nature lovers",
+      "food enthusiasts",
+      "tea aficionados",
+      "adventure seekers",
+      "photography buffs"
+    ],
+    "notFor": [
+      "beach lovers",
+      "party seekers",
+      "those who prefer urban life"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the sunrise at Tiger Hill. They stay for the intricate flavors of Darjeeling tea, freshly brewed at local stalls. They return because Darjeeling is a place where the mist wraps around you, and the aroma of tea leaves fills the air, creating a warmth that feels like home.",
+  "honestTruth": "Most travel guides overlook the intricacies of local life, like the fact that the best tea is often sold in small roadside stalls rather than upscale boutiques.",
+  "localTruths": [
+    "Most visitors think Darjeeling is just about views. Locals think it's about the stories of tea planters that breathe life into every cup.",
+    "Most visitors rush through tea estates. The best version of Darjeeling is sipping tea with a local, learning about the craft and culture.",
+    "Most visitors spend too much time at the mall. The real Darjeeling starts at the markets, where authentic flavors and local life unfold."
+  ],
+  "neighborhoodPersonalities": {
+    "Chowrasta": {
+      "tags": [
+        "market",
+        "scenic",
+        "cultural"
+      ],
+      "bestFor": "a lively spot to enjoy local snacks and people-watch.",
+      "avoid": "the overpriced tourist shops that detract from the experience."
+    },
+    "Batasia Loop": {
+      "tags": [
+        "scenic",
+        "historical",
+        "railway"
+      ],
+      "bestFor": "stunning views of the Kanchenjunga range.",
+      "avoid": "visiting during peak hours to avoid crowds."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Sunrise at Tiger Hill",
+        "Visit a tea estate",
+        "Walk along Mall Road"
+      ],
+      "avoid": [
+        "Skipping local food",
+        "Rushing through attractions"
+      ],
+      "mindset": "Approach Darjeeling with an open heart and a willingness to explore beyond the popular attractions."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Explore lesser-known tea gardens",
+        "Visit the obscure monasteries",
+        "Take a local cooking class"
+      ],
+      "neighborhoods": [
+        "Kurseong",
+        "Lava"
+      ],
+      "local": "Only locals know that the best momos can be found at the small stall near the old bus stand."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to June",
+      "weather": "15-20°C, pleasant with occasional rain",
+      "crowds": "high tourist traffic, especially during holidays",
+      "prices": "20% increase",
+      "verdict": "Great time for views, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "Clear skies and fewer tourists make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "December to February",
+      "reality": "Cold and often misty with limited visibility",
+      "hiddenGem": "Cozy tea houses with fewer tourists."
+    },
+    "bestMonth": "April — ideal weather and blooming rhododendrons.",
+    "worstMonth": "July — heavy monsoon can disrupt travel plans."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying local momos at Kunga Restaurant.",
+    "Most visitors regret skipping the Himalayan Mountaineering Institute.",
+    "Most visitors regret not exploring the tea gardens beyond the main ones."
+  ],
+  "antiPatterns": [
+    "Visiting only the popular attractions — leads to missing the local culture.",
+    "Trying to fit too much into a day — results in fatigue and less enjoyment.",
+    "Ignoring local transportation options — can lead to unnecessary expenses."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Tiger Hill for sunrise, explore Mall Road, and have lunch at Kunga Restaurant.",
+      "verdict": "A rushed experience but highlights the essence."
+    },
+    "two_days": {
+      "focus": "Main attractions and local cuisine",
+      "misses": "Deep exploration of tea estates and local culture."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of popular spots and lesser-known treasures",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of tea estates, local hikes, and cultural immersion",
+      "whoFor": "travelers seeking a profound connection to the region."
+    },
+    "recommended": "3 days — perfect for a well-rounded experience."
+  },
+  "residentSunday": "A Darjeeling resident with one free Sunday: starts the morning with a cup of Darjeeling tea at Glenary's → enjoys momos at Kunga Restaurant for lunch → hikes to the Peace Pagoda in the afternoon → relaxes with friends at Chowrasta in the evening, sharing stories and laughter.",
+  "dayMemoryTargets": {
+    "arrival": "The first moment of seeing the Kanchenjunga range emerge from the morning fog.",
+    "peak": "The feeling of warmth from the sun while enjoying a cup of tea at a local stall.",
+    "departure": "The last sight of Darjeeling fading away as you descend the hills, carrying the aroma of tea."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Rajdhani 12436, overnight, 16h, ₹1,400 3AC then shared jeep to Darjeeling (3-4h, ₹200)",
+      "bus": "Not recommended due to long travel time and discomfort.",
+      "flight": "Flights to IXB are available but costly.",
+      "recommended": "Taking the train to NJP is the most economical and scenic option.",
+      "budgetTip": "Book your train ticket 2-3 months in advance to save on costs."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, 27h, ₹1,800 3AC",
+      "flight": "Direct flights to IXB are available but expensive.",
+      "recommended": "Opt for the train for an affordable and scenic journey."
+    },
+    "fromBangalore": {
+      "train": "No direct trains; best to fly to Kolkata, then take a train to NJP.",
+      "flight": "Direct flights to IXB are available but can be pricey.",
+      "recommended": "Consider a combination of flight and train for a balanced cost."
+    },
+    "localTransport": {
+      "best": "Shared jeeps and local taxis are the most efficient for getting around.",
+      "avoid": "Private taxis as they can be overpriced.",
+      "appRecommendation": "Use 'Ola' for local rides if available.",
+      "autoRickshaw": "Limited options; not common in Darjeeling.",
+      "cost": "Daily local transport budget of ₹400-600."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Tea Estate Overpricing",
+      "howItWorks": "Some vendors may charge excess for tea tours or tastings.",
+      "prevention": "Always confirm prices beforehand and prefer government-run estates.",
+      "ifItHappens": "Politely refuse or negotiate before committing."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Momos at Kunga Restaurant",
+      "Chowmein at the stall near Chowrasta",
+      "Aloo tikki at the food stall near the market"
+    ],
+    "avoidList": [
+      "Raw or undercooked meats — potential health risks.",
+      "Unhygienic stalls without proper sanitation."
+    ],
+    "waterAdvice": "Drink only bottled water; tap water is not safe for consumption.",
+    "trustedDhabas": "Look for dhabas packed with locals as a mark of quality.",
+    "mustEat": [
+      "Darjeeling Tea at Glenary's",
+      "Momos at Kunga Restaurant",
+      "Thukpa at The Park Restaurant"
+    ],
+    "touristTrap": "Avoid overpriced tea shops that offer 'exclusive' blends."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Comfortable, warm clothing is essential due to the cooler climate.",
+    "photographyRules": "Photography is restricted in some monasteries; always ask for permission.",
+    "templeEtiquette": "Remove shoes before entering any religious site.",
+    "timing": "Avoid visiting tea estates during lunch hours to catch the full experience.",
+    "localCustom": "Participating in local festivals, like Dashain, brings you closer to community traditions."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget hotels at ₹500-800",
+      "food": "Local eateries, ₹200-400 per day",
+      "transport": "Local transport, ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels at ₹1,200-2,000",
+      "food": "Mix of local and mid-range restaurants, ₹600-1,000",
+      "includes": "Guided tours and some entry fees."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels at ₹5,000-7,000",
+      "experience": "Personalized tours, premium dining experiences, and spa services."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star resorts and hotels",
+      "note": "Luxury experiences can enhance comfort but may not significantly elevate the local experience."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek nightlife will be disappointed because Darjeeling's charm lies in its tranquility and nature.",
+    "If you want beach activities, Darjeeling is the wrong choice — Goa offers better options.",
+    "Anyone expecting a fast-paced urban experience will find the slow pace of Darjeeling to be a stark contrast."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the lesser-known Makaibari Tea Estate for an authentic tea experience, recommended time: early morning, cost: ₹600 for a tour.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best views, hike to Singalila National Park; local guides are available for ₹1,000 for a day tour.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to catch the local cultural events at the Darjeeling Gymkhana Club; entry is usually free.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the toy train ride early in the morning to avoid crowds, tickets around ₹1,000.",
+      "category": "experience"
+    },
+    {
+      "tip": "Savor the breakfast at Glenary's; their fresh pastries and tea are a must-try.",
+      "category": "food"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Tiger Hill at dawn",
+        "Explore a tea estate",
+        "Enjoy local cuisine at Kunga Restaurant"
+      ],
+      "emotionalArc": "This sequence captures the essence of Darjeeling, from breathtaking views to cultural immersion.",
+      "bestFor": [
+        "first-time visitors",
+        "photography enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Tiger Hill",
+        "what": "The sunrise over Kanchenjunga",
+        "bestTime": "5:00 AM",
+        "tip": "Arrive early to secure a good spot."
+      },
+      {
+        "name": "Batasia Loop",
+        "what": "The toy train with the backdrop of the mountains",
+        "bestTime": "Late afternoon",
+        "tip": "Use a wide-angle lens for the best effect."
+      }
+    ],
+    "goldenHour": "Early morning and late afternoon during the dry season.",
+    "restrictedAreas": [
+      "Monasteries like Ghoom",
+      "Certain tea estates."
+    ],
+    "tip": "Always ask for permission before taking photos of locals."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility due to steep slopes and narrow paths.",
+    "majorChallenges": "Many attractions are not wheelchair accessible.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan ahead and seek assistance."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Kurseong",
+      "distance": "30km",
+      "travelTime": "1 hour",
+      "how": "Shared jeep or taxi",
+      "whyCombine": "Known for its serene tea gardens and beautiful views."
+    },
+    {
+      "city": "Lava",
+      "distance": "34km",
+      "travelTime": "1.5 hours",
+      "how": "Shared jeep or taxi",
+      "whyCombine": "Offers stunning views of the Himalayas and rich biodiversity."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "April",
+    "avoidMonth": "July — heavy rains can disrupt travel.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "2,050 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "As of June 2026, the weather is pleasant, with the onset of monsoon expected soon.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits are needed for domestic tourists."
+  }
+}

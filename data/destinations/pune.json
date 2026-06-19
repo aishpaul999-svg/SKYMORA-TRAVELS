@@ -1,0 +1,336 @@
+{
+  "destination": "Pune",
+  "state": "Maharashtra",
+  "type": "city/culture",
+  "aliases": [
+    "Pune",
+    "pune",
+    "Maharashtra"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "students exploring history",
+      "food lovers seeking local cuisine",
+      "tech professionals visiting for conferences",
+      "families experiencing culture",
+      "adventure seekers looking for trekking"
+    ],
+    "notFor": [
+      "luxury travelers seeking opulence",
+      "party-goers looking for nightlife",
+      "travelers seeking untouched nature"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the iconic Dagdusheth Halwai Ganapati, drawn by the aroma of modaks and the vibrant atmosphere. They stay for the historic Pune University campus, where every corner whispers tales of the past. They return because Pune is one of the few places where colonial architecture and modern tech parks can coexist without tension.",
+  "honestTruth": "Many guides miss that Pune's charm lies in its locals — they are warm, chatty, and eager to share stories over a plate of misal pav at 3 AM.",
+  "localTruths": [
+    "Most visitors think Pune is just about education and IT. Locals know it’s also a haven for art and music, with live performances happening in unexpected places.",
+    "Most visitors flock to Osho Ashram. The best version of Pune is found in the lesser-known cafes in Koregaon Park that serve authentic filter coffee.",
+    "Most visitors spend too much time at the Rajiv Gandhi Zoological Park. The real Pune starts at the historic Shaniwar Wada, where the echoes of Maratha history still resonate."
+  ],
+  "neighborhoodPersonalities": {
+    "Koregaon Park": {
+      "tags": [
+        "hip",
+        "artsy",
+        "café culture"
+      ],
+      "bestFor": "foodies and art enthusiasts looking for a vibrant café scene.",
+      "avoid": "avoid during major festivals when it becomes overcrowded."
+    },
+    "Camp": {
+      "tags": [
+        "shopping",
+        "historical",
+        "commercial"
+      ],
+      "bestFor": "shoppers hunting for unique antiques and local crafts.",
+      "avoid": "avoid at night if you dislike crowded places."
+    },
+    "Pimpri-Chinchwad": {
+      "tags": [
+        "industrial",
+        "suburban",
+        "growing"
+      ],
+      "bestFor": "those exploring the emerging tech landscape of Pune.",
+      "avoid": "avoid if you seek traditional cultural experiences."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Shaniwar Wada for a glimpse into Maratha history",
+        "Enjoy a meal at Vaishali on Fergusson College Road",
+        "Explore the Pataleshwar Cave Temple",
+        "Stroll through the Pune Okayama Friendship Garden"
+      ],
+      "avoid": [
+        "Don’t stick to only popular tourist spots like the Aga Khan Palace",
+        "Avoid dining in only high-end restaurants."
+      ],
+      "mindset": "Approach Pune with an open mind, ready to uncover layers of history and local culture."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the art scene at the National Gallery of Modern Art",
+        "Hike to Sinhagad Fort for stunning views and history",
+        "Attend a local music concert at a café",
+        "Explore the vibrant street art in the city"
+      ],
+      "neighborhoods": [
+        "Bhosari for local street food",
+        "Kothrud for quiet walks and parks",
+        "Aundh for trendy boutiques and eateries"
+      ],
+      "local": "One thing only locals and repeat visitors know is that the best paani puri is found at the corner stall near Kirti College."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to February",
+      "weather": "mild temperatures averaging 15-25°C, pleasant evenings",
+      "crowds": "moderate to high, especially around festivals",
+      "prices": "20% higher than off-peak",
+      "verdict": "Best times for festivals but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Fewer tourists and clearer skies make it ideal for exploring."
+    },
+    "offSeason": {
+      "months": "June to September",
+      "reality": "Monsoon rains can disrupt travel but transform the landscape into lush greenery.",
+      "hiddenGem": "Some travelers appreciate the quietude and the vibrant flora."
+    },
+    "bestMonth": "December — perfect weather for outdoor activities and cultural events.",
+    "worstMonth": "May — extreme heat can be challenging for outdoor exploration."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food, especially in the early mornings.",
+    "Most visitors regret not visiting the lesser-known forts and historical sites.",
+    "Most visitors regret not engaging more with the locals for authentic experiences."
+  ],
+  "antiPatterns": [
+    "Planning only a short visit — Pune's history and culture require time to appreciate fully.",
+    "Relying solely on public transport during peak hours — it can be overcrowded and slow.",
+    "Visiting during major festivals without prior accommodation bookings can lead to disappointments."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Shaniwar Wada, have lunch at Vaishali, explore the Aga Khan Palace, and enjoy an evening at the Osho Garden.",
+      "verdict": "A whirlwind day that captures Pune's essence."
+    },
+    "two_days": {
+      "focus": "Covers major historical sites and local food experiences.",
+      "misses": "Neglects the art and music scene, and deeper cultural insights."
+    },
+    "three_to_four_days": {
+      "focus": "Allows for a mix of historical, cultural, and culinary experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of local neighborhoods, art galleries, and outdoor activities.",
+      "whoFor": "Cultural enthusiasts and foodies."
+    },
+    "recommended": "3 days — it gives you the right balance of history, food, and local experiences."
+  },
+  "residentSunday": "A Pune resident with one free Sunday: wakes up at 7 AM for a jog in the Pune Okayama Friendship Garden → enjoys breakfast at Chitale Bandhu for fresh poha and chai → spends the afternoon exploring the art galleries in Koregaon Park → ends the day with a dinner at the iconic Kayani & Co, relishing their famous Mawa cake and cutting chai.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the bustling streets of FC Road and are enveloped by the aroma of street food.",
+    "peak": "The peak day memory target is standing atop Sinhagad Fort, soaking in the panoramic views of the Sahyadri mountains.",
+    "departure": "As you board your train or flight, the last image should be the vibrant sunset over the city’s skyline."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45 AM, 5.5 hours, ₹755 CC class",
+      "bus": "Moderate options available but can take longer due to traffic.",
+      "flight": "Direct flights available, around ₹3,500-4,500.",
+      "recommended": "Take the Shatabdi for speed and comfort.",
+      "budgetTip": "Book tickets 2-3 weeks in advance for better pricing."
+    },
+    "fromMumbai": {
+      "train": "Deccan Express 11007, 3 hours, ₹210 for second class.",
+      "flight": "Not recommended due to short distance.",
+      "recommended": "Train travel is the best option."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 16535, 23 hours, ₹1,200 for sleeper class.",
+      "flight": "Direct flights available around ₹4,000.",
+      "recommended": "Flying is time-efficient but trains can be a scenic option."
+    },
+    "localTransport": {
+      "best": "App-based cabs like Uber and Ola work well in the city.",
+      "avoid": "Avoid auto-rickshaws during peak hours due to fare surges.",
+      "appRecommendation": "Use Ola for reliable transport.",
+      "autoRickshaw": "Generally safe but can be overpriced in tourist areas.",
+      "cost": "Daily local transport budget of ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Auto-Rickshaw Overcharging",
+      "howItWorks": "Drivers may try to charge more than the meter fare in tourist areas.",
+      "prevention": "Always insist on using the meter or agree on a fare beforehand.",
+      "ifItHappens": "Report to local authorities or use ride-hailing apps."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Pani Puri at Ashok Vada Pav, Camp",
+      "Dabeli at Aaram Vada Pav, near CST",
+      "Misal Pav at Bedekar Tea Stall",
+      "Kothimbir Vadi at Pune’s local stalls",
+      "Sabudana Wada at Shivaji Nagar."
+    ],
+    "avoidList": [
+      "Avoid street food near tourist traps like the Aga Khan Palace — hygiene may be questionable."
+    ],
+    "waterAdvice": "Drink bottled water or boiled water to avoid any health issues.",
+    "trustedDhabas": "Look for busy local dhabas with a good crowd; it indicates fresh and safe food.",
+    "mustEat": [
+      "Misal Pav at Bedekar, ₹70",
+      "Vada Pav at Aaram, ₹30",
+      "Biryani at Biryani Bungalow, ₹300",
+      "Shrewsbury Biscuits at Kayani & Co, ₹250",
+      "Puran Poli at Chitale Bandhu, ₹80."
+    ],
+    "touristTrap": "Avoid the overpriced restaurants around tourist sites that serve subpar food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Casual yet respectful; avoid revealing clothing when visiting temples.",
+    "photographyRules": "No photography allowed inside the Osho Ashram and some temples.",
+    "templeEtiquette": "Remove shoes before entering temples and dress modestly.",
+    "timing": "Visit historical sites early in the morning to avoid crowds and heat.",
+    "localCustom": "It’s customary to greet locals with 'Namaste' and a folded hand gesture."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Hostels or budget hotels around ₹800-1,200",
+      "food": "Street food and local eateries for ₹150-300",
+      "transport": "Public transport and occasional Uber rides."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels around ₹2,000-3,000",
+      "food": "Mix of street food and restaurants, ₹500-800",
+      "includes": "Local experiences and some guided tours."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels like JW Marriott, ₹5,000-7,000",
+      "experience": "Personalized city tours and premium dining."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star hotels and resorts",
+      "note": "Luxury in Pune often means comfort, but it may not offer unique experiences compared to mid-range options."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek a nightlife scene will be disappointed because Pune is more about culture and history.",
+    "If you want pristine nature, Pune is the wrong choice — consider Mahabaleshwar or Lonavala.",
+    "Anyone expecting a quiet retreat will find the city’s hustle and bustle overwhelming."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Pune International Film Festival in January for exclusive screenings and interactions with filmmakers.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local thali at Shree Krishna Bhuvan for a full taste of Maharashtra for under ₹500.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit the Pataleshwar Cave Temple early morning for a tranquil experience.",
+      "category": "timing"
+    },
+    {
+      "tip": "Join local walking tours organized by Pune Heritage for insights into the city’s history.",
+      "category": "experience"
+    },
+    {
+      "tip": "Shop for authentic Kolhapuri chappals at the local markets for a unique souvenir.",
+      "category": "shopping"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Shaniwar Wada",
+        "Lunch at Vaishali",
+        "Explore the Raja Dinkar Kelkar Museum"
+      ],
+      "emotionalArc": "This sequence builds from historical appreciation to culinary delight, culminating in understanding local art.",
+      "bestFor": [
+        "history buffs",
+        "food lovers",
+        "art enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Shaniwar Wada",
+        "what": "Historical architecture and sunset views",
+        "bestTime": "Late afternoon",
+        "tip": "Use a wide-angle lens for dramatic shots."
+      }
+    ],
+    "goldenHour": "Early morning or late evening, especially near the riverside.",
+    "restrictedAreas": [
+      "Osho Ashram",
+      "Inside most temples"
+    ],
+    "tip": "Try capturing candid moments of daily life at local markets for a true representation of Pune."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many public areas are accessible, but older sites have challenges.",
+    "majorChallenges": "Uneven roads and lack of ramps in certain historical locations.",
+    "seniorFriendlyScore": 6,
+    "note": "Consider hiring local guides who are familiar with accessible routes."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Lonavala",
+      "distance": "64km",
+      "travelTime": "1.5 hours",
+      "how": "By train or bus",
+      "whyCombine": "Ideal for a weekend getaway amidst nature."
+    },
+    {
+      "city": "Mahabaleshwar",
+      "distance": "120km",
+      "travelTime": "3 hours",
+      "how": "By bus or cab",
+      "whyCombine": "Famous for strawberries and hill station views."
+    },
+    {
+      "city": "Alandi",
+      "distance": "26km",
+      "travelTime": "45 minutes",
+      "how": "By local bus or cab",
+      "whyCombine": "Visit the famous Sant Dnyaneshwar temple."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "December",
+    "avoidMonth": "May due to extreme heat.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "560 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The monsoon season is currently in full swing, with heavy rainfall and cooler temperatures.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for Indian travelers."
+  }
+}

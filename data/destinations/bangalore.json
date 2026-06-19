@@ -1,0 +1,344 @@
+{
+  "destination": "Bangalore",
+  "state": "Karnataka",
+  "type": "city/tech hub",
+  "aliases": [
+    "Bangalore",
+    "bangalore",
+    "Karnataka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "tech enthusiasts",
+      "food lovers",
+      "art and culture seekers",
+      "nature lovers",
+      "young professionals"
+    ],
+    "notFor": [
+      "luxury travelers seeking opulence",
+      "history buffs looking for ancient monuments",
+      "travelers avoiding urban environments"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the craft beer scene at breweries like Toit. They stay for the fragrant street-side dosas at VV Puram Food Street, where the aroma of fresh batter fills the air. They return because Bangalore is a city where the old-world charm of gardens meets the pulsating energy of tech startups, creating an atmosphere that’s both laid-back and dynamic.",
+  "honestTruth": "Many guides overlook the fact that Bangalore's traffic can be a nightmare, making it essential to plan your day around travel times rather than just attractions.",
+  "localTruths": [
+    "Most visitors think Bangalore is just another tech city. Locals think it’s a cultural melting pot with its festivals, art galleries, and music venues.",
+    "Most visitors head straight to the popular malls. The best version of Bangalore is experienced in the local markets like KR Market, where the real vibrancy lies.",
+    "Most visitors spend too much time at Cubbon Park. The real Bangalore starts at Lalbagh Botanical Garden, where heritage and nature intertwine."
+  ],
+  "neighborhoodPersonalities": {
+    "Indiranagar": {
+      "tags": [
+        "hipster",
+        "nightlife",
+        "foodie"
+      ],
+      "bestFor": "young professionals looking for a vibrant atmosphere.",
+      "avoid": "weekends can be overly crowded."
+    },
+    "Malleswaram": {
+      "tags": [
+        "heritage",
+        "local",
+        "quiet"
+      ],
+      "bestFor": "those wanting to experience traditional Bangalore.",
+      "avoid": "limited nightlife options."
+    },
+    "Koramangala": {
+      "tags": [
+        "trendy",
+        "startup",
+        "cafes"
+      ],
+      "bestFor": "tech enthusiasts and startup culture.",
+      "avoid": "high prices at some venues."
+    },
+    "Jayanagar": {
+      "tags": [
+        "residential",
+        "local",
+        "family-friendly"
+      ],
+      "bestFor": "families and those seeking a quieter stay.",
+      "avoid": "not much nightlife."
+    },
+    "Brigade Road": {
+      "tags": [
+        "shopping",
+        "bustling",
+        "touristy"
+      ],
+      "bestFor": "shopaholics and foodies.",
+      "avoid": "over-commercialization and tourist traps."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Lalbagh Botanical Garden",
+        "Explore Vidhana Soudha",
+        "Try filter coffee at a local café",
+        "Stroll through VV Puram Food Street"
+      ],
+      "avoid": [
+        "Don't spend too much time at the airport; it’s better to explore the city.",
+        "Avoid visiting too many tourist spots in one day."
+      ],
+      "mindset": "Approach Bangalore as a blend of modernity and tradition, embracing both its tech scene and cultural roots."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover local art galleries in the city like Ranga Shankara",
+        "Attend a live music gig at a lesser-known venue",
+        "Join a heritage walk in the old city",
+        "Visit local farms around Bangalore"
+      ],
+      "neighborhoods": [
+        "Explore the quieter lanes of Malleswaram",
+        "Visit the community parks in Jayanagar"
+      ],
+      "local": "Only repeat visitors know the best time to visit the KR Market is early morning for the freshest produce and vibrant atmosphere."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "November to February",
+      "weather": "mild temperatures, 15-25°C, pleasant evenings",
+      "crowds": "tourist influx, especially during festivals",
+      "prices": "price premium of about 20%",
+      "verdict": "Ideal for outdoor activities but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Less crowded, a great time for nature walks in the gardens before the heat peaks."
+    },
+    "offSeason": {
+      "months": "June to October",
+      "reality": "Monsoon can cause occasional disruptions but brings lush greenery.",
+      "hiddenGem": "Fewer tourists mean you can explore attractions without the rush."
+    },
+    "bestMonth": "December — perfect weather for sightseeing and many local festivals.",
+    "worstMonth": "April — the heat can be intense, making outdoor activities uncomfortable."
+  },
+  "commonRegrets": [
+    "Most visitors regret not trying enough local street food.",
+    "Most visitors regret spending too much time in traffic instead of exploring off-beat attractions.",
+    "Most visitors regret not visiting during a local festival for an authentic cultural experience."
+  ],
+  "antiPatterns": [
+    "Trying to cover too much in a day — it leads to exhaustion and missing the essence of the city.",
+    "Staying only in touristy areas — it disconnects you from the local vibe.",
+    "Visiting during peak hours — it ruins the experience due to traffic and crowds."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Lalbagh Botanical Garden, have breakfast at a local café, explore Vidhana Soudha, and enjoy lunch at VV Puram Food Street.",
+      "verdict": "A quick glimpse but not enough to experience the city's depth."
+    },
+    "two_days": {
+      "focus": "City highlights and local cuisine",
+      "misses": "In-depth cultural experiences and off-beat attractions."
+    },
+    "three_to_four_days": {
+      "focus": "Cultural exploration, nature spots, and local food",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of local neighborhoods, art scenes, and day trips to nearby places like Nandi Hills.",
+      "whoFor": "Cultural enthusiasts and food lovers."
+    },
+    "recommended": "3 days — enough to enjoy the key sights and local flavors."
+  },
+  "residentSunday": "A Bangalore resident with one free Sunday: starts with a morning jog at Cubbon Park, then heads to MTR for a legendary breakfast of Rawa Idli and filter coffee, followed by an afternoon exploring the local art gallery in Indiranagar, and wraps up the day with craft beer at Toit.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step into the fragrant VV Puram Food Street, overwhelmed by the sizzling sounds and rich aromas of the local delicacies.",
+    "peak": "The peak day memory target — sharing laughter with locals over a plate of hot, crispy dosas in Malleswaram, surrounded by the hustle and bustle.",
+    "departure": "How the departure should feel — the last image of you sipping a refreshing coconut water under the shade of a tree at Lalbagh."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Rajdhani Express 12425, departs 4:00pm, 36 hours, ₹1,200 AC 2-tier.",
+      "bus": "Buses are less common; flights are preferred due to time efficiency.",
+      "flight": "Flight best option (DEL→BLR, 2.5h, ₹4,000-8,000).",
+      "recommended": "SKYmora recommends booking a flight for efficiency and comfort.",
+      "budgetTip": "Book flights a month in advance to save ₹500-2000."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, departs 6:25am, 12 hours, ₹900 Sleeper class.",
+      "flight": "Flights available, about 1.5 hours, ₹2,500-4,000.",
+      "recommended": "The train is a scenic option, but flights save time."
+    },
+    "fromBangalore": {
+      "train": "Shatabdi Express 12037, departs 8:00am, 2.5 hours, ₹1,500 AC Chair Car.",
+      "flight": "Flights to nearby cities are available.",
+      "recommended": "Trains provide a comfortable and quick alternative to road travel."
+    },
+    "localTransport": {
+      "best": "Ride-sharing apps like Uber and Ola are the most convenient.",
+      "avoid": "Avoid public buses during peak hours due to overcrowding.",
+      "appRecommendation": "Use the 'Ola' app for reliable cab services.",
+      "autoRickshaw": "Auto-rickshaws are available but negotiate fares beforehand.",
+      "cost": "₹300-500 daily for local transport on average."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "The 'Overcharging Auto' scam",
+      "howItWorks": "Drivers may refuse to use the meter and ask for a flat fare that is inflated.",
+      "prevention": "Always insist on using the meter or book through an app.",
+      "ifItHappens": "Politely refuse and find another auto or use a ride-hailing app."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Dosas at VV Puram Food Street",
+      "Pani Puri at Shivaji Nagar",
+      "Chaat at Jayanagar 4th Block",
+      "Vada Pav at Anand Stall",
+      "Idli at MTR"
+    ],
+    "avoidList": [
+      "Street food in poorly maintained areas — look for clean stalls with long queues of locals."
+    ],
+    "waterAdvice": "Always opt for bottled water; tap water isn’t safe for drinking.",
+    "trustedDhabas": "Look for dhabas with a steady flow of customers and clean dining areas.",
+    "mustEat": [
+      "Masala Dosa at Vidyarthi Bhavan",
+      "Bisi Bele Bath at MTR",
+      "Filter Coffee at Brahmin's Coffee Bar",
+      "Puliyogare at Veena Stores"
+    ],
+    "touristTrap": "Avoid the overpriced restaurants on Brigade Road that cater mostly to tourists."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Casual attire is acceptable, but avoid beachwear in public places.",
+    "photographyRules": "Photography is restricted in certain temples and government buildings.",
+    "templeEtiquette": "Remove shoes before entering temples and dress modestly.",
+    "timing": "Sundays are busy; aim for early mornings for fewer crowds.",
+    "localCustom": "Greet locals with a polite 'Namaste' and a slight bow."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels starting at ₹500.",
+      "food": "Street food meals at ₹100-200 each.",
+      "transport": "Local transport via buses or shared autos at ₹200-300."
+    },
+    "comfortable": {
+      "perDay": "₹4,500",
+      "accommodation": "Budget hotels or guesthouses starting from ₹1,500.",
+      "food": "Meals at local restaurants at ₹300-500 each.",
+      "includes": "Includes comfortable transport options and some guided activities."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Mid-range hotels starting at ₹3,500.",
+      "experience": "Includes curated experiences like guided city tours and fine dining."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Luxury hotels like The Leela or Taj, starting from ₹8,000.",
+      "note": "Luxury here adds comfort but may not provide unique local experiences."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek a tranquil escape will be disappointed because Bangalore's urban vibe is active and bustling.",
+    "If you want ancient temples and forts, Bangalore is the wrong choice — Mysore is better.",
+    "Anyone expecting a traditional Indian experience will find the city's modernity overwhelming."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Try the 'Koshy’s' for breakfast; it’s a local favorite for its classic South Indian fare and old-world charm.",
+      "category": "food"
+    },
+    {
+      "tip": "Visit 'Ranga Shankara' for an authentic theater experience with local plays.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore the 'Nandi Hills' before sunrise for breathtaking views and fewer crowds.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local walk in 'Malleswaram' to see the city through a resident's eyes.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the 'Art Galleries' in Indiranagar for a taste of local contemporary art.",
+      "category": "experience"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Start your day with breakfast at MTR",
+        "Visit Lalbagh Botanical Garden",
+        "Explore the art galleries",
+        "Enjoy evening snacks at VV Puram Food Street"
+      ],
+      "emotionalArc": "This sequence allows you to experience both the culinary delights and the cultural richness of Bangalore, creating lasting memories.",
+      "bestFor": [
+        "food enthusiasts",
+        "culture seekers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Lalbagh Botanical Garden",
+        "what": "Flower displays and the glass house",
+        "bestTime": "Early morning for soft light",
+        "tip": "Visit during the flower show in January."
+      }
+    ],
+    "goldenHour": "1 hour after sunrise and 1 hour before sunset.",
+    "restrictedAreas": [
+      "Certain temples like Bull Temple and government buildings where photography is prohibited."
+    ],
+    "tip": "Always ask for permission before taking candid shots of locals."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Bangalore is improving but many older areas remain difficult to navigate.",
+    "majorChallenges": "Uneven pavements and lack of ramps in older buildings.",
+    "seniorFriendlyScore": 6,
+    "note": "Plan visits to newer places that are more accessible."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Nandi Hills",
+      "distance": "60km",
+      "travelTime": "1.5 hours",
+      "how": "Take a taxi or join a tour",
+      "whyCombine": "Perfect for a day trip to escape the city hustle."
+    },
+    {
+      "city": "Mysore",
+      "distance": "150km",
+      "travelTime": "3 hours",
+      "how": "Train or bus are good options",
+      "whyCombine": "To experience Mysore Palace and rich heritage."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "December",
+    "avoidMonth": "April due to high temperatures.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "900m",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is the beginning of monsoon, bringing refreshing rain but occasional disruptions.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic travelers."
+  }
+}

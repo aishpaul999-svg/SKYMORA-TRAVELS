@@ -1,0 +1,282 @@
+{
+  "destination": "Lombok",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Lombok",
+    "lombok",
+    "indonesia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Adventure Seekers",
+      "Beach Lovers",
+      "Hikers",
+      "Cultural Explorers",
+      "Food Enthusiasts"
+    ],
+    "notFor": [
+      "Luxury Travelers",
+      "Party Seekers",
+      "Budget Backpackers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "8h via Singapore/KL",
+    "flightFromMumbai": "8h via Singapore/KL",
+    "visaForIndians": "Visa on Arrival USD 35",
+    "currency": "Indonesian Rupiah (IDR), 1 INR = 200 IDR",
+    "timezone": "UTC+8",
+    "language": "Bahasa Indonesia, English widely understood",
+    "bestMonthToVisit": "April - Dry season begins, perfect for hiking Mount Rinjani.",
+    "avoidMonth": "January - Heavy monsoon rains can disrupt travel plans.",
+    "tipping": "Tipping is not mandatory but appreciated; round up bills or leave 10%."
+  },
+  "whyPeopleFallInLove": "Imagine standing at the rim of Mount Rinjani at sunrise, where the first light reveals a caldera lake that shimmers emerald green. The air is still, only interrupted by the sound of your breath and distant bird calls, making it a moment that feels almost sacred.",
+  "honestTruth": "Many travelers underestimate the challenge of hiking Rinjani; it's not just a walk in the park, expect sore muscles and exhaustion after, but the rewards are personal triumphs and unforgettable views.",
+  "localTruths": [
+    "Most visitors think Lombok is just a quieter Bali. Locals think it's a paradise for authentic experiences that Bali has lost.",
+    "Most visitors stick to the beaches. The best version of Lombok is exploring the lesser-known waterfalls and rice terraces.",
+    "Most visitors miss the local night markets. The real Lombok starts at Pura Lingsar during the evening when the food stalls come alive."
+  ],
+  "neighborhoodPersonalities": {
+    "Kuta Lombok": {
+      "tags": [
+        "beach",
+        "surfing",
+        "local food"
+      ],
+      "bestFor": "surfing enthusiasts and beach lovers looking for a laid-back vibe.",
+      "avoid": "It can get crowded during weekends with local tourists."
+    },
+    "Senaru": {
+      "tags": [
+        "hiking",
+        "nature",
+        "culture"
+      ],
+      "bestFor": "hikers preparing for Mount Rinjani, with stunning views and local culture.",
+      "avoid": "Limited dining options in the evenings."
+    },
+    "Senggigi": {
+      "tags": [
+        "nightlife",
+        "shopping",
+        "dining"
+      ],
+      "bestFor": "those wanting a mix of nightlife and local shopping.",
+      "avoid": "It's commercialized compared to other parts of Lombok."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "8h via Singapore/KL",
+        "airlines": [
+          "Singapore Airlines",
+          "Malaysia Airlines"
+        ],
+        "priceRange": "INR 30,000 - 45,000",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h via Singapore/KL",
+        "airlines": [
+          "Singapore Airlines",
+          "Malaysia Airlines"
+        ],
+        "priceRange": "INR 30,000 - 45,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Taxi from Lombok International Airport to Kuta costs around IDR 200,000 (INR 1000) and takes about 30 minutes.",
+      "recommended": "For first-timers, arrange a pickup with your hotel for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa on Arrival USD 35",
+    "applyAt": "Visa counters at Lombok International Airport.",
+    "processingTime": "Instant on arrival.",
+    "tip": "Have exact cash ready for the visa fee to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit Warung Bule for Nasi Campur, a local mixed rice dish, and fresh coconut water.",
+    "sunset": "Head to Malimbu Hill at around 6 PM for sweeping views of the Gili Islands as the sun sets behind Mount Agung.",
+    "meal": "Dine at Taman Restaurant in Senggigi for their grilled seafood platter, paired with a local beer.",
+    "memory": "The moment you take your first dip in the crystal-clear waters of Tanjung Aan beach, with the soft sand between your toes.",
+    "secret": "Locals know that the best time to catch the unspoiled beauty of Kuta's beaches is early in the morning before the crowds arrive."
+  },
+  "residentSunday": "A Lombok resident might start their Sunday with a traditional breakfast of Sate Bulayak (spiced beef skewers) at a local warung, followed by a trip to the traditional market in Mataram for fresh produce and homemade snacks. In the afternoon, they could enjoy a swim at Selong Belanak beach, wrapping up the day with dinner at a family-owned seafood restaurant.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step off the plane and breathe in the salty ocean air, it feels like a weight has been lifted.",
+    "peak": "The peak memory is reaching the summit of Mount Rinjani and witnessing the sunrise over the caldera lake.",
+    "departure": "Departure should feel bittersweet, leaving with unforgettable memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Exploring Kuta and relaxing on the beaches.",
+      "misses": "The chance to hike Rinjani and explore waterfalls."
+    },
+    "three_to_four_days": {
+      "focus": "A perfect mix of beach time and cultural experiences, with a hike to a nearby waterfall.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of Rinjani, surrounding villages, and beaches.",
+      "whoFor": "Adventure travelers looking for a comprehensive Lombok experience."
+    },
+    "recommended": "4-5 days is ideal to explore both beaches and cultural sites."
+  },
+  "antiPatterns": [
+    "Staying only in Senggigi and missing the beauty of Kuta and the south coast; Senggigi is commercialized and lacks genuine local experiences.",
+    "Trying to squeeze in Rinjani hike in a day; the trek requires proper time and preparation.",
+    "Visiting beaches during midday heat; the experience is far more enjoyable during early morning or late afternoon."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not hiking Mount Rinjani; the views are worth the effort.",
+    "Most visitors regret overlooking the local food scene; dining at tourist traps limits authentic experiences.",
+    "Most visitors regret not allocating time for the waterfalls; they are some of Lombok's best-kept secrets."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Dry, warm temperatures averaging 30°C",
+      "crowds": "High, especially in tourist areas.",
+      "verdict": "A vibrant time but expect inflated prices and busy attractions."
+    },
+    "shoulderSeason": {
+      "months": "April, September",
+      "why": "Ideal weather with fewer tourists, perfect for exploring and enjoying local culture."
+    },
+    "offSeason": {
+      "months": "November, December",
+      "reality": "Heavy rains can lead to travel disruptions, but offers a quieter experience.",
+      "insiderTip": "Lower accommodation prices may attract some budget travelers."
+    },
+    "bestMonth": "April - Perfect conditions for hiking and beach outings.",
+    "currentSeason": "June 2026 is warm with occasional showers, but mostly clear skies, ideal for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets early in the morning for the freshest produce and to experience local life at its best.",
+      "category": "food"
+    },
+    {
+      "tip": "For the best views of Rinjani, hike to the viewpoint at Bukit Pergasingan, where fewer tourists go.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to learn a few basic phrases in Bahasa Indonesia; locals appreciate the effort.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a guided tour for a more in-depth understanding of the culture and history; it’s worth the extra cost.",
+      "category": "experience"
+    },
+    {
+      "tip": "Pack extra snacks and water for hikes; local shops may be limited on routes.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Nasi Goreng at a local warung for IDR 25,000 (INR 125)",
+    "midRangeMeal": "Seafood platter at a mid-range restaurant for IDR 150,000 (INR 750)",
+    "luxuryMeal": "Fine dining experience at The Oberoi's restaurant for IDR 600,000 (INR 3000)",
+    "localTransportPerDay": "Typical local transport cost is IDR 100,000 (INR 500) for a day of taxis.",
+    "budgetHotelPerNight": "IDR 300,000 (INR 1500) for a basic guesthouse with breakfast.",
+    "midRangeHotelPerNight": "IDR 800,000 (INR 4000) for a comfortable hotel with amenities.",
+    "luxuryHotelPerNight": "IDR 3,000,000 (INR 15,000) for a luxury resort with ocean views."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory beds at hostels for IDR 100,000 (INR 500)",
+      "food": "Street food and warungs for IDR 50,000 (INR 250)",
+      "transport": "Local buses and shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹3,500",
+      "accommodation": "Mid-range hotels for IDR 500,000 (INR 2500)",
+      "food": "Restaurants and cafes for IDR 200,000 (INR 1000)"
+    },
+    "luxury": {
+      "perDayINR": "₹10,000+",
+      "note": "Luxury here doesn't always mean opulence; it often includes personalized service and unique experiences."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples; sarongs are often provided at the entrance.",
+    "Always ask for permission before taking photos of locals, especially in rural areas.",
+    "Use your right hand for giving and receiving items, as the left hand is considered impolite."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Taxi drivers may overcharge; always agree on fares beforehand.",
+      "Be cautious of unofficial tour guides offering services."
+    ],
+    "emergencyContacts": {
+      "police": "110",
+      "ambulance": "118",
+      "indianEmbassy": "Embassy of India in Jakarta, contact number: +62 21 391 1000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Mount Rinjani Summit",
+        "what": "Capture the sunrise over the caldera lake.",
+        "bestTime": "Early morning, around 5 AM.",
+        "tip": "Bring a tripod for long exposure shots."
+      }
+    ],
+    "goldenHour": "Around 6 PM, perfect for capturing sunsets over the beaches.",
+    "tip": "Experiment with angles when photographing the beaches; the unique rock formations make for great foreground interest."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike Mount Rinjani",
+        "Visit a local village",
+        "Relax on Kuta Beach"
+      ],
+      "emotionalArc": "This sequence allows for a blend of adventure, culture, and relaxation, enhancing the overall travel experience.",
+      "bestFor": [
+        "Adventure Seekers",
+        "Cultural Explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Gili Islands",
+      "travelTime": "1h by boat",
+      "how": "Fast boat services from Bangsal Harbor.",
+      "whyCombine": "Ideal for a day trip or overnight stay for diving and nightlife."
+    },
+    {
+      "city": "Bali",
+      "travelTime": "2h by boat",
+      "how": "Ferry services available.",
+      "whyCombine": "Explore Bali's attractions while enjoying the tranquility of Lombok."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility; many attractions have uneven terrain.",
+    "majorChallenges": "Steep paths in hiking areas and limited facilities in rural locations.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan ahead and consider guided tours."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm, with temperatures around 28°C, occasional light rains, and fewer crowds than in peak months.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa on Arrival is available at the airport; ensure to have USD cash."
+  }
+}

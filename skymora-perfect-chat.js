@@ -6,6 +6,9 @@
 
 import express from "express";
 import OpenAI from "openai";
+import { formatProfileForPrompt } from "./traveler-profile.js";
+import { AGENT_VOICE } from "./agent-voice.js";
+import { stripBannedOpenings, formatRecentRepliesForPrompt, identityGuard, findSimilarRecentQuestion, formatRepeatAngleNote } from "./response-quality.js";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
 import dotenv from "dotenv";
@@ -268,7 +271,10 @@ export async function handlePerfectChat(req, res) {
     }
 
     const systemPrompt = `You are ${tripData?.agentData?.name || 'Emma Collins'}, an elite travel consultant with 15 years of experience.
-
+${identityGuard(tripData?.agentData?.name || 'Emma Collins', userName)}
+${AGENT_VOICE}
+${(() => { const sim = findSimilarRecentQuestion(message, fullContext); return sim ? formatRepeatAngleNote(sim) : ""; })()}
+${formatProfileForPrompt(tripData?.travelerProfile)}${tripData?.returningTravelerNote || ""}${tripData?.groundingNote || ""}
 CRITICAL IDENTITY:
 - Name: ${tripData?.agentData?.name || 'Emma Collins'}
 - Specialty: ${tripData?.agentData?.specialty || 'Luxury Escapes'}
@@ -309,17 +315,15 @@ CONVERSATION INTELLIGENCE RULES:
    - Don't repeat information you've already shared
    - Build on the conversation naturally
    
-5. **EMOTIONAL INTELLIGENCE**:
-   - Match the user's energy and tone
-   - If they're brief, be concise
-   - If they're chatty, be conversational
-   - If stressed, be reassuring
-   
+5. **READ THE ROOM**:
+   - If they're brief, match it — don't pad
+   - If they're chatty, you can open up too, but stay sharp not scattered
+   - If stressed, be the calm competent one — not over-soothing
+
 6. **CONVERSATIONAL FLOW**:
-   - 2-3 sentences for simple questions
-   - More detail when appropriate
-   - No corporate jargon
-   - Talk like texting a knowledgeable friend
+   - 2-3 sentences for simple questions, more only when it's earned
+   - No corporate jargon, no "happy to help" energy
+   - Don't end every message with a question — sometimes you just land the point
 
 7. **EXPERTISE**:
    - Travel planning and booking
@@ -330,6 +334,7 @@ CONVERSATION INTELLIGENCE RULES:
 
 CONVERSATION HISTORY (last 10 messages):
 ${fullContext.slice(-10).map(m => `${m.role}: ${m.content}`).join('\n')}
+${formatRecentRepliesForPrompt(fullContext)}
 
 Current message: "${message}"
 
@@ -353,9 +358,10 @@ Respond naturally as ${userName}'s personal travel consultant. Be warm, knowledg
       const token = chunk.choices?.[0]?.delta?.content || "";
       if (token) {
         fullResponse += token;
-        res.write(`data: ${JSON.stringify({ token })}\n\n`);
       }
     }
+    fullResponse = stripBannedOpenings(fullResponse);
+    if (fullResponse) res.write(`data: ${JSON.stringify({ token: fullResponse })}\n\n`);
 
     try {
       if (fullResponse && fullResponse.trim().length > 0) {
@@ -440,13 +446,18 @@ export async function runPerfectProgrammatic(
     }
 
     const systemPrompt = `You are ${tripData?.agentData?.name || 'Emma Collins'}, elite travel consultant.
-Traveler name: ${userName}
+${identityGuard(tripData?.agentData?.name || 'Emma Collins', tripData?.travelerProfile?.preferredName || userName)}
+${AGENT_VOICE}
+${(() => { const sim = findSimilarRecentQuestion(message, fullContext); return sim ? formatRepeatAngleNote(sim) : ""; })()}
+${formatProfileForPrompt(tripData?.travelerProfile)}${tripData?.returningTravelerNote || ""}${tripData?.groundingNote || ""}
+Traveler name: ${tripData?.travelerProfile?.preferredName || userName}
 Trip context: ${JSON.stringify(tripData || {})}
 Memory snippet (recent): ${fullContext.slice(-8).map(m => `${m.role}: ${m.content}`).join("\\n")}
+${formatRecentRepliesForPrompt(fullContext)}
 
 ${searchResult ? `CURRENT INFO (search): ${searchResult}\n` : ''}
 
-Respond conversationally, warmly, and with perfect memory. Keep 2-4 sentences unless the user asked for more detail.`;
+Respond like yourself — sharp, real, remembering everything. 2-4 sentences unless more is genuinely earned.`;
 
     const historyMessages = (getChatHistory ? getChatHistory(tripId, 8) : fullContext.slice(-8)).map(m => ({
       role: m.role === 'assistant' ? 'assistant' : 'user',
@@ -468,7 +479,7 @@ Respond conversationally, warmly, and with perfect memory. Keep 2-4 sentences un
       messages
     });
 
-    const assistantText = completion.choices?.[0]?.message?.content?.trim() || "Sorry, I couldn't form an answer right now.";
+    const assistantText = stripBannedOpenings(completion.choices?.[0]?.message?.content?.trim() || "Sorry, I couldn't form an answer right now.");
 
     if (saveChatMessageFn) {
       await saveChatMessageFn(tripId, "assistant", assistantText);

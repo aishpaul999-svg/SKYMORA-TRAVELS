@@ -1,0 +1,297 @@
+{
+  "destination": "Orchha",
+  "state": "Madhya Pradesh",
+  "type": "heritage/forts",
+  "aliases": [
+    "Orchha",
+    "orchha",
+    "Madhya Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "History buffs",
+      "Photography enthusiasts",
+      "Spiritual seekers",
+      "Heritage explorers",
+      "Nature lovers"
+    ],
+    "notFor": [
+      "Luxury travelers seeking opulence",
+      "Party-goers looking for nightlife",
+      "Foodies craving high-end dining"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the majestic Chaturbhuj Temple. They stay for the quiet evenings by the Betwa River, where the sunset casts golden hues on the fort walls. They return because Orchha is a living canvas of history, where every stone whispers tales of a bygone era.",
+  "honestTruth": "Many guides miss that Orchha's real charm lies not just in its historical sites, but in the tranquil moments spent along the riverbanks, watching life unfold slowly.",
+  "localTruths": [
+    "Most visitors think they can cover all sights in a day. Locals think that the true essence of Orchha is best appreciated at a leisurely pace over two days.",
+    "Most visitors rush through the palaces. The best version of Orchha is found in its lesser-known temples and quiet corners.",
+    "Most visitors spend too much time at the Jahangir Mahal. The real Orchha starts at the serene Ram Raja Temple."
+  ],
+  "neighborhoodPersonalities": {
+    "Old Orchha": {
+      "tags": [
+        "historical",
+        "cultural",
+        "quiet"
+      ],
+      "bestFor": "immersing in local heritage and architecture",
+      "avoid": "the crowded market areas during peak hours"
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Explore the Jahangir Mahal",
+        "Visit the Ram Raja Temple",
+        "Take a boat ride on the Betwa River"
+      ],
+      "avoid": [
+        "Don't skip the sunrise at the cenotaphs",
+        "Avoid rushing through the sights"
+      ],
+      "mindset": "Approach Orchha with an open heart, ready to soak in its rich history and serene vibes."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the local artisan workshops",
+        "Spend time at the lesser-known temples like Lakshmi Narayan",
+        "Engage with local guides for deeper insights"
+      ],
+      "neighborhoods": [
+        "Explore the outskirts where traditional village life thrives",
+        "Visit the nearby Orchha Wildlife Sanctuary"
+      ],
+      "local": "The best-kept secret is the evening aarti at the Ram Raja Temple, where locals gather to pray."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to March",
+      "weather": "mild temperatures (15-25°C)",
+      "crowds": "significant tourist influx, especially during festivals",
+      "prices": "25% higher due to demand",
+      "verdict": "Great time for pleasant weather but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "September, April",
+      "why": "Fewer tourists and pleasant weather make it ideal for exploration."
+    },
+    "offSeason": {
+      "months": "May to August",
+      "reality": "Monsoon brings lush greenery but can lead to travel disruptions.",
+      "hiddenGem": "Lower prices on accommodations and a chance to experience Orchha's natural beauty."
+    },
+    "bestMonth": "November — the weather is perfect for exploring and photography.",
+    "worstMonth": "May — extreme heat can make outdoor activities uncomfortable."
+  },
+  "commonRegrets": [
+    "Most visitors regret not spending enough time at the cenotaphs.",
+    "Most visitors regret missing the local food scene.",
+    "Most visitors regret not interacting with local artisans."
+  ],
+  "antiPatterns": [
+    "Rushing through the palaces — it diminishes the appreciation of their historical significance.",
+    "Visiting only during the day — missing the enchanting night views of the monuments.",
+    "Skipping the local food — limiting the experience to generic restaurants."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Explore the Jahangir Mahal, visit Ram Raja Temple, and take a sunset boat ride on the Betwa River.",
+      "verdict": "A rushed experience that barely scratches the surface."
+    },
+    "two_days": {
+      "focus": "Covers major attractions and allows for a relaxed pace.",
+      "misses": "Exploration of the local artisan workshops and interaction with residents."
+    },
+    "three_to_four_days": {
+      "focus": "Deep dive into history, local culture, and nature walks.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of nearby villages and wildlife sanctuary.",
+      "whoFor": "Cultural enthusiasts and nature lovers."
+    },
+    "recommended": "3 days — allows for a balanced experience of sightseeing and leisure."
+  },
+  "residentSunday": "An Orchha resident starts the morning with yoga by the Betwa River, followed by breakfast at the local eatery 'Shree Ram Restaurant'. In the afternoon, they visit the local market for handicrafts, and later enjoy a stroll through the cenotaphs, ending the day with an evening aarti at the Ram Raja Temple.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you first see the magnificent Chaturbhuj Temple glowing under the morning sun.",
+    "peak": "Standing in awe at the Jahangir Mahal, watching the sunset paint the sky.",
+    "departure": "The quiet moment by the river, reflecting on the stories Orchha has whispered to you."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses from Delhi to Jhansi are available, costing around ₹600-800 and taking about 8 hours.",
+      "flight": "Not applicable for direct flights.",
+      "recommended": "Take the Shatabdi Express for comfort and speed.",
+      "budgetTip": "Book train tickets well in advance to save on costs."
+    },
+    "fromMumbai": {
+      "train": "Lokmanya Tilak to Jhansi, Duronto Express, 12 hours, ₹1,200 AC Sleeper",
+      "flight": "Direct flights to Gwalior followed by a taxi to Orchha.",
+      "recommended": "Choose the train for a scenic journey."
+    },
+    "fromBangalore": {
+      "train": "Bangalore to Jhansi, 30 hours, ₹2,500 Sleeper class",
+      "flight": "Fly to Gwalior, then travel by taxi to Orchha.",
+      "recommended": "Flying is more convenient if time is limited."
+    },
+    "localTransport": {
+      "best": "Cycle rentals are popular for exploring the city.",
+      "avoid": "Avoid unlicensed auto-rickshaws as they can overcharge.",
+      "appRecommendation": "There are limited apps, but local taxis can be hired easily.",
+      "autoRickshaw": "Generally available, but negotiate fares upfront.",
+      "cost": "Daily local transport budget of ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Auto-Rickshaw Overcharging",
+      "howItWorks": "Drivers may charge tourists more than locals.",
+      "prevention": "Always negotiate the fare before the ride starts.",
+      "ifItHappens": "Politely insist on the agreed fare or seek help from locals."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Aloo Tikki at 'Chaat Gali'",
+      "Samosas from 'Ramji Samosa'",
+      "Pani Puri at 'Best Pani Puri'"
+    ],
+    "avoidList": [
+      "Avoid street food stalls that appear unhygienic or lack proper sanitation.",
+      "Steer clear of raw salads and unbottled drinks."
+    ],
+    "waterAdvice": "Drink only bottled or boiled water to avoid stomach issues.",
+    "trustedDhabas": "Look for busy dhabas with a local clientele, indicating good food safety.",
+    "mustEat": [
+      "Dal Baati Churma at 'Shree Ram Restaurant'",
+      "Madhya Pradesh Thali at 'Orchha Restaurant'",
+      "Chaat from 'Chaat Gali'"
+    ],
+    "touristTrap": "Be cautious of overpriced meals near major attractions."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest clothing is recommended, especially in temples.",
+    "photographyRules": "No photography allowed inside Ram Raja Temple.",
+    "templeEtiquette": "Remove shoes before entering temples and respect local customs.",
+    "timing": "Visit temples during early morning or late afternoon for fewer crowds.",
+    "localCustom": "It is customary to greet locals with 'Namaste' and respect their space."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds at local hostels for ₹500-800",
+      "food": "Street food and local eateries around ₹300-500",
+      "transport": "Cycle rentals and local buses for ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels at ₹1,500-2,500",
+      "food": "Mix of local restaurants and some dining at ₹800-1,200",
+      "includes": "Guided tours and some entry fees."
+    },
+    "premium": {
+      "perDay": "₹10,000",
+      "accommodation": "Luxury hotels like 'Orchha Palace', ₹4,000-7,000",
+      "experience": "Includes private guides and exclusive experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "5-star hotels with full amenities",
+      "note": "Luxury may not add significant value due to the small town's offerings."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who seek nightlife will be disappointed because Orchha offers a serene atmosphere instead.",
+    "If you want a fast-paced, urban experience, Orchha is the wrong choice — Gwalior is better.",
+    "Anyone expecting high-end dining will find limited options here."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the cenotaphs at sunrise for a breathtaking view — free entry.",
+      "category": "experience"
+    },
+    {
+      "tip": "Engage with local artisans in craft workshops; they often welcome visitors.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local sweets at 'Baba Sweets' for authentic flavors.",
+      "category": "food"
+    },
+    {
+      "tip": "Join local festivals for an immersive cultural experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Negotiate prices at local markets; locals expect it and appreciate the effort.",
+      "category": "timing"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Explore Jahangir Mahal",
+        "Visit Ram Raja Temple",
+        "Boat ride on Betwa River"
+      ],
+      "emotionalArc": "This sequence builds excitement with historical exploration followed by peaceful reflection on the river.",
+      "bestFor": [
+        "History buffs",
+        "Couples",
+        "Nature lovers"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Cenotaphs",
+        "what": "The intricate carvings at sunset",
+        "bestTime": "Early morning or late afternoon",
+        "tip": "Use a tripod for best results."
+      }
+    ],
+    "goldenHour": "One hour before sunset is ideal for capturing the forts.",
+    "restrictedAreas": [
+      "Inside Ram Raja Temple where photography is prohibited."
+    ],
+    "tip": "Bring a telephoto lens to capture detailed architectural features."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Many historical sites have uneven surfaces, making them challenging for wheelchairs.",
+    "majorChallenges": "Lack of ramps at some temples and uneven terrain around the cenotaphs.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan ahead for accessible routes."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Gwalior",
+      "distance": "120km",
+      "travelTime": "2 hours",
+      "how": "By train or taxi",
+      "whyCombine": "Famous for its fort and rich history."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "November",
+    "avoidMonth": "May — extreme heat makes it uncomfortable.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "200 meters",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is off-season; expect rain but fewer crowds.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for general tourism."
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "destination": "Santorini",
+  "country": "Greece",
+  "region": "Europe",
+  "aliases": [
+    "Santorini",
+    "santorini",
+    "greece"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "honeymooners",
+      "wine enthusiasts",
+      "photographers",
+      "beach lovers",
+      "culture seekers"
+    ],
+    "notFor": [
+      "budget backpackers",
+      "party seekers",
+      "those with mobility issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Athens + 45min",
+    "flightFromMumbai": "10h to Athens + 45min (Aegean Airlines, Emirates)",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.012 EUR)",
+    "timezone": "UTC+3",
+    "language": "Greek (English widely spoken)",
+    "bestMonthToVisit": "September - warm weather and fewer crowds than peak summer.",
+    "avoidMonth": "August - high heat and overwhelming tourist crowds.",
+    "tipping": "10% is appreciated; round up the bill in casual settings."
+  },
+  "whyPeopleFallInLove": "As the sun dips below the Aegean Sea, the sky ignites with hues of orange and pink, and you can almost taste the salt in the air while enjoying a glass of Assyrtiko wine on a cliffside terrace, making the moment feel eternal.",
+  "honestTruth": "Many travelers overlook the local wines, assuming they are just here for the scenery, but Santorini's vineyards tell a story of their own that’s worth exploring.",
+  "localTruths": [
+    "Most visitors think Santorini is just about the sunsets. Locals think the best moments are enjoyed at the lesser-known beach bars with locals after dark.",
+    "Most visitors flock to Oia for sunsets. The best version of Santorini is watching the same sunset from the quieter town of Imerovigli, where the view is uninterrupted.",
+    "Most visitors miss the authentic tavernas in Pyrgos. The real Santorini starts at sunset in a local taverna, surrounded by families sharing laughter and plates of meze."
+  ],
+  "neighborhoodPersonalities": {
+    "Oia": {
+      "tags": [
+        "luxury",
+        "sunset",
+        "tourist-heavy"
+      ],
+      "bestFor": "luxury stays and iconic sunset views",
+      "avoid": "crowds during peak sunset hours"
+    },
+    "Fira": {
+      "tags": [
+        "nightlife",
+        "shopping",
+        "central"
+      ],
+      "bestFor": "vibrant nightlife and shopping",
+      "avoid": "overpriced tourist traps"
+    },
+    "Imerovigli": {
+      "tags": [
+        "romantic",
+        "peaceful",
+        "views"
+      ],
+      "bestFor": "romantic getaways with panoramic views",
+      "avoid": "limited dining options compared to Fira"
+    },
+    "Pyrgos": {
+      "tags": [
+        "authentic",
+        "local",
+        "hidden"
+      ],
+      "bestFor": "experiencing local life and traditional cuisine",
+      "avoid": "expecting tourist amenities"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Athens + 45min",
+        "airlines": [
+          "Aegean Airlines",
+          "Emirates"
+        ],
+        "priceRange": "₹55,000 - ₹80,000 return",
+        "note": "Book well in advance during peak season for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h to Athens + 45min",
+        "airlines": [
+          "Aegean Airlines",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹60,000 - ₹85,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available; best to use a taxi.",
+      "taxi": "Around €20 (~₹1,650) to Fira, takes about 20 minutes.",
+      "recommended": "Pre-booking a taxi or shuttle service for a smoother arrival experience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in Delhi, Mumbai, and Bangalore.",
+    "processingTime": "15-20 days typically.",
+    "tip": "Apply at least a month in advance and ensure all documents are in order to avoid delays."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "At 'Baker's' in Fira, order the traditional Greek yogurt with honey and walnuts.",
+    "sunset": "From Skaros Rock in Imerovigli, arrive by 7:00 PM for the best view.",
+    "meal": "At 'Taverna Katina' on Amoudi Bay, try the grilled octopus and local white wine.",
+    "memory": "Sipping wine on a terrace as the sun sets over the caldera, surrounded by loved ones.",
+    "secret": "Many locals enjoy their evenings at the less touristy beaches, where you can find authentic seafood grills."
+  },
+  "residentSunday": "A Santorini resident might start their Sunday with a leisurely brunch at 'Kira Niki' in Pyrgos, enjoying a spinach pie followed by a stroll through the village. In the afternoon, they may head to a local beach like Vlychada for a swim, and dine at 'Dimitris' for fresh grilled fish, ending the day watching the sunset from a quiet spot away from the crowds.",
+  "dayMemoryTargets": {
+    "arrival": "The first glimpse of the caldera as you descend the steps from Fira, feeling the salty breeze.",
+    "peak": "The moment you share laughter with locals at a taverna during dinner, feeling like a part of the community.",
+    "departure": "Leaving with a heart full of memories, watching the island fade into the distance from the ferry."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Essential highlights like Fira and Oia",
+      "misses": "In-depth exploration of local wines and beaches"
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience covering major attractions and time for relaxation",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "A thorough exploration including all neighborhoods and lesser-known spots",
+      "whoFor": "culture seekers and wine enthusiasts"
+    },
+    "recommended": "Four days is ideal to soak in the views and savor the local cuisine."
+  },
+  "antiPatterns": [
+    "Trying to see all major sights in one day leads to exhaustion and missing the essence of Santorini.",
+    "Staying only in Oia can limit your experience; explore other neighborhoods for a broader perspective.",
+    "Visiting the beaches mid-day can ruin the experience due to the intense heat."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a wine tour to experience the local vineyards.",
+    "Most visitors regret not exploring the less-traveled areas of the island.",
+    "Most visitors regret not taking a sunset cruise to see the caldera from the water."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "30°C to 35°C, sunny",
+      "crowds": "extremely crowded",
+      "verdict": "Expect high prices and long waits."
+    },
+    "shoulderSeason": {
+      "months": "May and September",
+      "why": "Milder weather and more manageable crowds make for a pleasant experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Cool and windy with some closures, but can be peaceful.",
+      "reason": "Some prefer it for the solitude and lower prices."
+    },
+    "bestMonth": "September - delightful weather and less crowded attractions.",
+    "currentSeason": "June 2026 is warm, with occasional breezes and a mix of local events."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Try the local Assyrtiko wine at 'Santo Wines' winery during sunset for an amazing tasting experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the black sand beaches of Kamari early in the morning to avoid the crowds and enjoy a peaceful swim.",
+      "category": "beach"
+    },
+    {
+      "tip": "Take the path from Fira to Oia on foot during sunset for a less crowded view.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check out 'Avocado' in Fira for a healthy meal and local vibe.",
+      "category": "food"
+    },
+    {
+      "tip": "Rent an ATV to explore the island at your own pace; it's the best way to see hidden spots.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Gyro at a local eatery for €3 (~₹250)",
+    "midRangeMeal": "Seafood platter for €20 (~₹1,650) at a taverna",
+    "luxuryMeal": "Dinner at 'Katrin' for about €75 (~₹6,200) per person",
+    "localTransportPerDay": "Around €10 (~₹830) for bus transport",
+    "budgetHotelPerNight": "€50 (~₹4,150) for a basic hotel with breakfast",
+    "midRangeHotelPerNight": "€120 (~₹10,000) for a 3-star hotel with caldera views",
+    "luxuryHotelPerNight": "From €300 (~₹24,800) for a high-end hotel with private pool."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹4,500",
+      "accommodation": "Hostel dorms around €15 (~₹1,250)",
+      "food": "Street food and local eateries",
+      "transport": "Public buses"
+    },
+    "comfortable": {
+      "perDayINR": "₹12,000",
+      "accommodation": "Mid-range hotels around €60 (~₹5,000)",
+      "food": "Mix of local tavernas and casual dining"
+    },
+    "luxury": {
+      "perDayINR": "₹30,000+",
+      "note": "Luxury here is high-end with exceptional views, but be aware of peak pricing."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches and monasteries.",
+    "Avoid loud conversations and disruptive behavior in public spaces.",
+    "Always greet locals with a friendly 'Kalimera' (Good morning)."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overpriced taxi rides; always agree on a price beforehand.",
+      "Watch for pickpockets in crowded tourist areas."
+    ],
+    "emergencyContacts": {
+      "police": "100",
+      "ambulance": "166",
+      "indianEmbassy": "Consulate General of India, Athens, +30 210 724 3584"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Oia Castle",
+        "what": "Sunset over the caldera",
+        "bestTime": "7:00 PM during summer",
+        "tip": "Arrive early to secure a good spot."
+      },
+      {
+        "name": "Skaros Rock",
+        "what": "Panoramic views of the caldera",
+        "bestTime": "Late afternoon",
+        "tip": "Climb up for unique angles of the sunset."
+      }
+    ],
+    "goldenHour": "Approximately one hour before sunset.",
+    "tip": "Use a polarizing filter to capture the vibrant colors of the sea and sky."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Wine tasting at Santo Wines",
+        "Dinner at Taverna Katina",
+        "Sunset at Imerovigli"
+      ],
+      "emotionalArc": "This sequence builds from the excitement of discovery to the tranquility of an unforgettable sunset.",
+      "bestFor": [
+        "wine enthusiasts",
+        "couples"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Folegandros",
+      "travelTime": "1 hour by ferry",
+      "how": "Ferry from Athinios port",
+      "whyCombine": "For a more authentic island experience with stunning landscapes."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility in many areas due to steep paths and stairs.",
+    "majorChallenges": "Narrow paths and steps can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Plan ahead for accommodations and transport that cater to mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm, with temperatures around 30°C and moderate tourist traffic. Various local festivals are happening.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa requirements remain the same, and travelers should check for any updates before traveling."
+  }
+}

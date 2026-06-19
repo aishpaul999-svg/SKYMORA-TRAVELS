@@ -1,0 +1,259 @@
+{
+  "destination": "Wadi Rum",
+  "country": "Jordan",
+  "region": "Middle East",
+  "aliases": [
+    "Wadi Rum",
+    "wadi rum",
+    "jordan"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Adventure Seekers",
+      "Nature Lovers",
+      "Photography Enthusiasts",
+      "Camping Aficionados",
+      "Cultural Explorers"
+    ],
+    "notFor": [
+      "Luxury Travelers",
+      "Urban Explorers",
+      "Beach Seekers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "5h to Amman + 4h",
+    "flightFromMumbai": "5h 30m to Amman + 4h by road, airlines include Emirates and Qatar Airways",
+    "visaForIndians": "Jordan visa required",
+    "currency": "Jordanian Dinar (JOD), 1 INR = 0.0053 JOD",
+    "timezone": "UTC+3",
+    "language": "Arabic, English widely understood",
+    "bestMonthToVisit": "March, due to moderate temperatures and blooming wildflowers",
+    "avoidMonth": "July, as temperatures can soar above 40°C",
+    "tipping": "10% is customary in restaurants, but rounding up is appreciated"
+  },
+  "whyPeopleFallInLove": "As the sun sinks behind the sandstone mountains, the desert transforms into a canvas of orange and purple hues, filling the air with the scent of sagebrush. Sitting by the campfire, you hear the soft strumming of a Bedouin's oud, and for a moment, time stands still.",
+  "honestTruth": "Many travelers underestimate the harshness of the desert climate; it's not just about the heat but also the cold nights that can catch you off guard.",
+  "localTruths": [
+    "Most visitors think Wadi Rum is just a backdrop for movies. Locals think it’s a living landscape that tells stories of ancient tribes and nomads.",
+    "Most visitors opt for jeep tours. The best version of Wadi Rum is on foot or camel, allowing deeper connections with the land.",
+    "Most visitors miss the chance to stargaze. The real Wadi Rum starts after sunset when the sky reveals its celestial wonders."
+  ],
+  "neighborhoodPersonalities": {
+    "Rum Village": {
+      "tags": [
+        "local culture",
+        "community",
+        "Bedouin life"
+      ],
+      "bestFor": "experiencing authentic Bedouin hospitality and community life.",
+      "avoid": "the tourist traps that offer generic experiences."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "5h to Amman + 4h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹35,000 - ₹50,000 return",
+        "note": "Booking a round-trip can save you costs compared to one-way."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "5h 30m to Amman + 4h by road",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "₹40,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; consider renting a car.",
+      "taxi": "Taxis from Amman to Wadi Rum cost around 50 JOD and take 4 hours.",
+      "recommended": "For first-timers, a pre-arranged shuttle from your hotel in Amman is recommended to avoid confusion."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Jordan visa required",
+    "applyAt": "Jordanian embassy or online at the Jordan Pass website",
+    "processingTime": "3-5 business days",
+    "tip": "Apply for a Jordan Pass to cover visa fees and gain access to many attractions."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at the Rum Village Café with a plate of foul medames (fava beans) and fresh bread.",
+    "sunset": "Watch the sunset from the Burdah Rock Bridge at 6:30 PM for a panoramic view.",
+    "meal": "Dine at the Seven Wonders Camp, and order the traditional Zarb, a Bedouin underground barbecue.",
+    "memory": "The moment you first step out into the vastness of the desert and realize how small you really are.",
+    "secret": "Only locals know the best spots to find ancient petroglyphs hidden in the cliffs."
+  },
+  "residentSunday": "On a free Sunday, a Wadi Rum resident might start with a breakfast of za'atar flatbreads at a local bakery, followed by a hike to the Lawrence Spring to soak in the natural beauty. In the afternoon, they might gather with family around a fire for a traditional meal of mansaf, sharing stories and laughter until sunset.",
+  "dayMemoryTargets": {
+    "arrival": "The shock of the silence as you step into the desert, contrasting the chaos of the city.",
+    "peak": "The peak day memory target is a sunrise hike to Jebel Umm ad Dami, the highest peak in Jordan.",
+    "departure": "Departure should feel like leaving a part of your soul behind in the vastness of the desert."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "exploring the core attractions like the rock formations and short hikes",
+      "misses": "the deeper cultural experiences and stargazing."
+    },
+    "three_to_four_days": {
+      "focus": "ideal for a mix of adventure and relaxation, including camping and longer treks",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "for those wanting to immerse deeply into the Bedouin lifestyle and explore lesser-known trails",
+      "whoFor": "adventurous travelers."
+    },
+    "recommended": "Three to four days allow you to experience both the adventure and the culture of Wadi Rum."
+  },
+  "antiPatterns": [
+    "Choosing a jeep tour then hiking the same day can lead to exhaustion and missing the tranquility of the desert.",
+    "Staying in Amman and making a day trip to Wadi Rum limits your experience; the magic unfolds when you stay overnight.",
+    "Visiting during the middle of the day can ruin the experience due to heat; plan activities for early morning or late afternoon."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending a night under the stars to fully experience the desert atmosphere.",
+    "Most visitors regret over-scheduling activities and missing the chance to explore at their own pace.",
+    "Most visitors regret not trying the local food, opting instead for international cuisine."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "March to May",
+      "weather": "mild temperatures around 20-25°C",
+      "crowds": "moderate, with many tourists",
+      "verdict": "ideal for outdoor activities."
+    },
+    "shoulderSeason": {
+      "months": "September to November",
+      "why": "pleasant temperatures and fewer tourists."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "extremely hot, with temperatures often exceeding 40°C; best for those who can handle the heat.",
+      "one reason some prefer it": "Stargazing is exceptional due to clear skies."
+    },
+    "bestMonth": "March, as it balances good weather with fewer crowds.",
+    "currentSeason": "June 2026 is hot during the day, around 38°C, but evenings are cool, making it pleasant for camping."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Bring a good quality sleeping bag for the cold desert nights; temperatures can drop below 10°C.",
+      "category": "experience"
+    },
+    {
+      "tip": "Visit the small Bedouin shops before sunset for authentic handicrafts at lower prices.",
+      "category": "shopping"
+    },
+    {
+      "tip": "Start your hikes early in the morning to enjoy the cool weather and avoid the heat.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the local tea with mint; it’s a staple and offers a refreshing taste after a long day.",
+      "category": "food"
+    },
+    {
+      "tip": "Participate in a local cooking class to learn about Bedouin cuisine, which is a rewarding experience.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Mansaf at a local eatery for 5 JOD (₹950)",
+    "midRangeMeal": "Grilled chicken meal at a restaurant for 15 JOD (₹2850)",
+    "luxuryMeal": "Dining at the Seven Wonders Camp, with a full course for 30 JOD (₹5700)",
+    "localTransportPerDay": "Daily taxi fare around 20 JOD (₹3800)",
+    "budgetHotelPerNight": "Camping in a tent for 10 JOD (₹1900) with basic amenities.",
+    "midRangeHotelPerNight": "3-star hotel in Rum Village for 50 JOD (₹9500), including breakfast.",
+    "luxuryHotelPerNight": "Luxury tent at a desert camp for 100 JOD (₹19000)"
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Camping for around 10 JOD (₹1900)",
+      "food": "Eating at local eateries for around 5 JOD (₹950)",
+      "transport": "Using shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹6,500",
+      "accommodation": "3-star hotel for around 50 JOD (₹9500)",
+      "food": "Mix of local restaurants and camps."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options are limited but offer unique experiences; book in advance."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially in villages; long sleeves and trousers are recommended.",
+    "Respect local customs, especially during Ramadan; avoid eating or drinking in public.",
+    "Ask permission before photographing people, especially women."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Some guides may overcharge for tours; always confirm prices before booking.",
+      "Beware of unofficial taxis that might charge higher rates."
+    ],
+    "emergencyContacts": {
+      "police": "911",
+      "ambulance": "193",
+      "indianEmbassy": "Embassy of India in Jordan: +962 6 593 1356"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Burrah Canyon",
+        "what": "The dramatic cliffs and red sand",
+        "bestTime": "Golden hour, just before sunset",
+        "tip": "Bring a polarizing filter to enhance the colors."
+      }
+    ],
+    "goldenHour": "Approximately 6:30 PM during summer months.",
+    "tip": "Experiment with long exposure shots at night to capture the stars."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hike to Jebel Umm ad Dami",
+        "Enjoy a Bedouin lunch",
+        "Stargaze at a desert camp"
+      ],
+      "emotionalArc": "This sequence builds from physical exertion to relaxation, allowing you to appreciate the landscape before unwinding under the stars.",
+      "bestFor": [
+        "Adventure Seekers",
+        "Nature Lovers",
+        "Romantic Couples"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Petra",
+      "travelTime": "1.5 hours",
+      "how": "By taxi or arranged tour",
+      "whyCombine": "To explore the ancient city carved into rock."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility due to the terrain; some camps offer basic facilities.",
+    "majorChallenges": "Uneven surfaces make it difficult for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Travelers with mobility needs should plan activities carefully and communicate with hosts."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot with daytime temperatures around 38°C, evenings are cooler for camping, and the desert is less crowded.",
+    "currentAlerts": [],
+    "entryRequirements": "Jordan visa required, valid for entry."
+  }
+}

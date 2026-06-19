@@ -1,0 +1,311 @@
+{
+  "destination": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "type": "spiritual/Kumbh",
+  "aliases": [
+    "Prayagraj",
+    "prayagraj",
+    "Uttar Pradesh"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "4.0-india",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "spiritual seekers",
+      "history enthusiasts",
+      "photography lovers",
+      "culture buffs",
+      "pilgrims"
+    ],
+    "notFor": [
+      "luxury travelers seeking lavish comforts",
+      "nightlife lovers",
+      "beach vacationers"
+    ]
+  },
+  "whyPeopleFallInLove": "People arrive for the Kumbh Mela's spiritual energy. They stay for the mesmerizing Ganga aarti at the Triveni Sangam, where the scent of incense mingles with the river's flow. They return for the vibrant conversations by the ghats, where the stories of ancient sages echo in the laughter of modern-day pilgrims.",
+  "honestTruth": "Most travel guides miss that during the Kumbh, the city transforms into a living tapestry of spirituality and chaos, where the local rhythms are disrupted but also enhanced by the influx of millions.",
+  "localTruths": [
+    "Most visitors think Prayagraj is only about the Kumbh Mela. Locals know that the city has a rich historical narrative waiting to unfold in its museums and old streets.",
+    "Most visitors flock to the major ghats during the day. The best version of Prayagraj is experienced in the quiet early mornings when the city is waking up.",
+    "Most visitors spend too much time at the crowded Sangam. The real Prayagraj starts at the lesser-known Dashashwamedh Ghat, where you can sit in peace and soak in the essence of the Ganga."
+  ],
+  "neighborhoodPersonalities": {
+    "Civil Lines": {
+      "tags": [
+        "commercial",
+        "modern",
+        "foodie"
+      ],
+      "bestFor": "food enthusiasts looking for diverse cuisine options.",
+      "avoid": "avoid during peak hours for traffic congestion."
+    },
+    "Katra": {
+      "tags": [
+        "historic",
+        "local",
+        "shopping"
+      ],
+      "bestFor": "immersive local shopping experiences and street food.",
+      "avoid": "avoid late evenings when shops close early."
+    },
+    "Triveni Sangam": {
+      "tags": [
+        "spiritual",
+        "scenic",
+        "quiet"
+      ],
+      "bestFor": "those seeking spiritual reflection and tranquility.",
+      "avoid": "avoid during major festivals to escape the crowd."
+    }
+  },
+  "firstVsRepeatVisit": {
+    "first": {
+      "mustDo": [
+        "Visit Triveni Sangam for the Ganga, Yamuna, and Saraswati confluence",
+        "Attend the evening aarti at the ghats",
+        "Explore the Anand Bhawan for historical insights"
+      ],
+      "avoid": [
+        "Don't just take selfies at the ghats; engage with locals for richer insights.",
+        "Avoid overpriced boat rides; negotiate local rates."
+      ],
+      "mindset": "Approach Prayagraj with an open heart, ready to absorb its spiritual and historical layers."
+    },
+    "repeat": {
+      "goDeeper": [
+        "Discover the hidden gems of local temples like the Alopi Devi Temple",
+        "Engage in the local food scene with street food tours",
+        "Explore the lesser-known ghats for solitude"
+      ],
+      "neighborhoods": [
+        "Explore the quiet lanes of Sadar Bazaar",
+        "Visit the historical sites in the old city area"
+      ],
+      "local": "One thing only locals and repeat visitors know is to visit the city during the early morning for the best experience of the ghats and local life."
+    }
+  },
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "January, February",
+      "weather": "Cool temperatures, around 15-25°C, pleasant for outings",
+      "crowds": "Extremely crowded during Kumbh Mela and festivals",
+      "prices": "Price premium of 50-100%",
+      "verdict": "It's a chaotic yet spiritually uplifting time to experience Prayagraj."
+    },
+    "shoulderSeason": {
+      "months": "September, October",
+      "why": "Fewer crowds and pleasant weather make it ideal for exploring."
+    },
+    "offSeason": {
+      "months": "May, June",
+      "reality": "Extreme heat with temperatures soaring above 40°C, which can deter most tourists.",
+      "hiddenGem": "Some travelers prefer this time for solitude and personal reflection at the ghats."
+    },
+    "bestMonth": "October — the weather is cool and the tourist crowds are manageable.",
+    "worstMonth": "May — unbearable heat makes sightseeing difficult."
+  },
+  "commonRegrets": [
+    "Most visitors regret not engaging with local guide services to understand the rich history.",
+    "Most visitors regret not trying the street food, missing out on authentic flavors.",
+    "Most visitors regret overlooking the Anand Bhawan for its historical significance."
+  ],
+  "antiPatterns": [
+    "Visiting only the major ghats during the Kumbh fails to offer the full experience of Prayagraj's spirituality.",
+    "Trying to see everything in one day leads to exhaustion and missed moments of tranquility.",
+    "Visiting during the day without experiencing the aarti at night diminishes the spiritual experience."
+  ],
+  "tripLengthGuide": {
+    "one_day": {
+      "possible": true,
+      "itinerary": "Visit Triveni Sangam, explore Anand Bhawan, and attend the evening aarti.",
+      "verdict": "A whirlwind visit that scratches the surface."
+    },
+    "two_days": {
+      "focus": "This trip covers major spiritual sites and a taste of local cuisine.",
+      "misses": "You miss deeper historical insights and quiet reflection at the ghats."
+    },
+    "three_to_four_days": {
+      "focus": "This trip covers major sites, local neighborhoods, and spiritual immersion.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deep exploration of historical sites, local culture, and spiritual practices.",
+      "whoFor": "History buffs and spiritual seekers."
+    },
+    "recommended": "3 days — it's enough to grasp the essence of Prayagraj without feeling rushed."
+  },
+  "residentSunday": "A Prayagraj resident with one free Sunday starts with a morning walk along the riverbank, followed by breakfast at a local eatery called 'Chaat Gali' for some aloo chaat. Afterward, they explore the local markets, and in the evening, they unwind at the Triveni Sangam, enjoying the sunset and the evening aarti.",
+  "dayMemoryTargets": {
+    "arrival": "The moment they first see the Ganga flowing at Triveni Sangam, feeling the spiritual energy.",
+    "peak": "The peak day memory is participating in the evening aarti, surrounded by thousands, under a canopy of lights and chants.",
+    "departure": "The last image should be the tranquil morning light reflecting off the Ganga as they leave."
+  },
+  "transportationReality": {
+    "fromDelhi": {
+      "train": "Shatabdi Express 12017, departs 6:45am, 5.5 hours, ₹755 CC class",
+      "bus": "Buses are available but take longer, around 9-10 hours; not the most comfortable option.",
+      "flight": "No direct flights; nearest airport is in Varanasi, which adds travel time.",
+      "recommended": "SKYmora recommends the Shatabdi for its speed and comfort.",
+      "budgetTip": "Book train tickets in advance to save up to ₹500."
+    },
+    "fromMumbai": {
+      "train": "Konkan Kanya Express 10111, 19 hours, approximately ₹1,500 sleeper class.",
+      "flight": "Direct flights available to Varanasi, then a taxi or bus to Prayagraj.",
+      "recommended": "The train journey is scenic and economical."
+    },
+    "fromBangalore": {
+      "train": "Karnataka Express 12627, 36 hours, approximately ₹1,800 sleeper class.",
+      "flight": "Direct flights available to Varanasi, then travel to Prayagraj by local transport.",
+      "recommended": "Flying to Varanasi and taking a local taxi is quicker."
+    },
+    "localTransport": {
+      "best": "Cycle rickshaws are best for short distances.",
+      "avoid": "Do not use unlicensed auto-rickshaws for safety.",
+      "appRecommendation": "Uber is available and reliable in Prayagraj.",
+      "autoRickshaw": "Auto-rickshaws are available but negotiate fares upfront.",
+      "cost": "Daily local transport budget around ₹300-500."
+    }
+  },
+  "scamPrevention": [
+    {
+      "scam": "Boat Scam",
+      "howItWorks": "Tourists are charged exorbitant rates for boat rides at Sangam.",
+      "prevention": "Always agree on a price before boarding a boat, and prefer registered operators.",
+      "ifItHappens": "Politely refuse and walk away if you feel overcharged."
+    }
+  ],
+  "foodSafety": {
+    "safeStreetFood": [
+      "Aloo Tikki from 'Nashik Chaat' at Katra",
+      "Pani Puri from 'Chaat Gali' near Triveni Sangam",
+      "Lassi from 'Lassi Shop' in Civil Lines"
+    ],
+    "avoidList": [
+      "Avoid uncooked street food items, particularly raw vegetables, which may not be washed properly."
+    ],
+    "waterAdvice": "Always drink bottled water; tap water is not safe.",
+    "trustedDhabas": "Look for busy dhabas with a local clientele; they usually serve fresher food.",
+    "mustEat": [
+      "Biryani at 'Shahjahan Biryani', 'Chaat' at 'Chaat Gali', 'Kachori' from 'Kachori Gali'"
+    ],
+    "touristTrap": "Avoid eateries near major tourist attractions that charge inflated prices for average food."
+  },
+  "culturalIntelligence": {
+    "dressCode": "Modest clothing is recommended, especially at temples and ghats.",
+    "photographyRules": "Photography is restricted at certain temples; always ask before shooting.",
+    "templeEtiquette": "Remove shoes before entering temples and be respectful.",
+    "timing": "Early mornings and late evenings are best for visiting temples and ghats.",
+    "localCustom": "Offering small donations at temples is common and appreciated."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDay": "₹2,000",
+      "accommodation": "Dormitory beds in hostels for ₹500-800",
+      "food": "Street food meals for ₹100-200 per meal.",
+      "transport": "Local transport budget of ₹300."
+    },
+    "comfortable": {
+      "perDay": "₹4,000",
+      "accommodation": "Mid-range hotels for ₹1,500-2,500",
+      "food": "Dining at local restaurants for ₹500-800 per day.",
+      "includes": "This budget unlocks comfortable stays and guided tours."
+    },
+    "premium": {
+      "perDay": "₹8,000",
+      "accommodation": "Luxury hotels like 'Hotel Kanha Shyam' or 'Hotel Prayag'.",
+      "experience": "Premium options include private guides and exclusive experiences."
+    },
+    "luxury": {
+      "perDay": "₹15,000+",
+      "accommodation": "Five-star hotels with all amenities.",
+      "note": "Luxury adds comfort but not necessarily unique experiences."
+    }
+  },
+  "whoThisIsNotFor": [
+    "Travelers who prefer beach vacations will be disappointed because Prayagraj has no beaches and limited water activities.",
+    "If you want high-end shopping and nightlife, Prayagraj is the wrong choice — cities like Delhi or Mumbai offer better options.",
+    "Anyone expecting a contemporary urban experience will find Prayagraj's charm lies in its historical and spiritual roots."
+  ],
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Anand Bhawan museum on weekdays to avoid crowds — entry fee is ₹10, open 10 am to 5 pm.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join local pilgrims for early morning boat rides at Sangam; they can be negotiated for around ₹200.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend the local festivals for authentic cultural experiences; check local calendars for dates.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local sweet 'Gulab Jamun' from 'Baba Kedar' near Triveni Sangam, reputed to be the best.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the hidden lanes of Katra for unique local crafts and avoid the mainstream shops.",
+      "category": "shopping"
+    }
+  ],
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Triveni Sangam",
+        "Attend the Ganga aarti",
+        "Explore Anand Bhawan"
+      ],
+      "emotionalArc": "This sequence builds up with spiritual immersion at the Sangam, followed by the emotional impact of the aarti, culminating in a deeper understanding of the city's history.",
+      "bestFor": [
+        "spiritual seekers",
+        "history enthusiasts"
+      ]
+    }
+  ],
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Triveni Sangam",
+        "what": "Capture the confluence of the rivers and the morning rituals.",
+        "bestTime": "Early morning just before sunrise.",
+        "tip": "Get there early for the best spots."
+      }
+    ],
+    "goldenHour": "The golden hour for Prayagraj is during sunrise and sunset, especially over the river.",
+    "restrictedAreas": [
+      "Certain temples have restrictions; ask before photographing."
+    ],
+    "tip": "Keep a respectful distance from worshippers while taking photos."
+  },
+  "accessibility": {
+    "wheelchairFriendly": "Most ghats and temples are not wheelchair accessible due to steps.",
+    "majorChallenges": "Narrow streets and crowded areas can be challenging for those with mobility needs.",
+    "seniorFriendlyScore": 6,
+    "note": "Visitors with mobility issues should plan their visits carefully, as public transport can also be difficult."
+  },
+  "nearbyDestinations": [
+    {
+      "city": "Varanasi",
+      "distance": "120km",
+      "travelTime": "3 hours",
+      "how": "Frequent trains and buses connect Prayagraj to Varanasi.",
+      "whyCombine": "Varanasi's rich spiritual vibe complements Prayagraj's offerings."
+    }
+  ],
+  "hardFacts": {
+    "bestMonthToVisit": "October",
+    "avoidMonth": "May due to extreme heat.",
+    "minimumDays": 2,
+    "recommendedDays": 3,
+    "altitude": "N/A",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "The city is transitioning from the peak Kumbh season to quieter times.",
+    "currentAlerts": [],
+    "entryRequirements": "No special permits required for domestic travelers."
+  }
+}

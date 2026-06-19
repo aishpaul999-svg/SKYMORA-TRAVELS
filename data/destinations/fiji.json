@@ -1,0 +1,283 @@
+{
+  "destination": "Fiji",
+  "country": "Fiji",
+  "region": "Pacific",
+  "aliases": [
+    "Fiji",
+    "fiji",
+    "fiji"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "adventure seekers",
+      "cultural enthusiasts",
+      "honeymooners",
+      "family vacations"
+    ],
+    "notFor": [
+      "budget travelers",
+      "party-goers",
+      "those seeking urban experiences"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "16h via Singapore",
+    "flightFromMumbai": "14h via Singapore (Singapore Airlines, Air India)",
+    "visaForIndians": "Visa-free 4 months",
+    "currency": "Fijian Dollar (FJD), 1 INR = 0.031 FJD",
+    "timezone": "UTC+12",
+    "language": "Fijian and English are commonly used",
+    "bestMonthToVisit": "July - September due to mild temperatures and low humidity",
+    "avoidMonth": "January, as it is cyclone season",
+    "tipping": "Tipping is not customary; however, rounding up the bill or leaving small change is appreciated."
+  },
+  "whyPeopleFallInLove": "Imagine sipping kava under a starlit sky, feeling the pulse of traditional Fijian music around you, while the scent of grilled fish wafts through the air. That moment encapsulates the essence of Fiji, where the connection to nature and culture comes alive in every experience.",
+  "honestTruth": "While Fiji is marketed as a paradise, many parts are still developing, and you'll encounter local poverty that contrasts sharply with the luxury resorts.",
+  "localTruths": [
+    "Most visitors think Fiji is just about luxury resorts. Locals think the true spirit of Fiji lies in its villages and community gatherings.",
+    "Most visitors stick to the main islands. The best version of Fiji is found in the lesser-known islands where traditional lifestyles thrive.",
+    "Most visitors miss the significance of the Meke dance. The real Fiji starts at a village gathering where you can experience it firsthand."
+  ],
+  "neighborhoodPersonalities": {
+    "Nadi": {
+      "tags": [
+        "tourist hub",
+        "airport gateway",
+        "shopping"
+      ],
+      "bestFor": "A convenient stop for travelers to explore Fiji's beauty",
+      "avoid": "It can be overly commercialized and crowded."
+    },
+    "Denarau Island": {
+      "tags": [
+        "luxury resorts",
+        "golfing",
+        "beachfront"
+      ],
+      "bestFor": "Relaxing beachfront stays and upscale dining",
+      "avoid": "It lacks the authentic Fijian culture found elsewhere."
+    },
+    "Suva": {
+      "tags": [
+        "capital city",
+        "cultural center",
+        "markets"
+      ],
+      "bestFor": "Exploring Fiji's political and cultural heart",
+      "avoid": "Traffic can be unpredictable and congested."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "16h via Singapore",
+        "airlines": [
+          "Singapore Airlines",
+          "Air India"
+        ],
+        "priceRange": "₹60,000 - ₹90,000 return",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "14h via Singapore",
+        "airlines": [
+          "Singapore Airlines",
+          "Air India"
+        ],
+        "priceRange": "₹55,000 - ₹85,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service; consider using taxis.",
+      "taxi": "Taxis from Nadi Airport to Nadi town cost around FJD 15 (₹500) and take about 15 minutes.",
+      "recommended": "Opt for pre-arranged transfers from your hotel for ease, especially on your first day."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 4 months",
+    "applyAt": "Fiji Immigration website",
+    "processingTime": "N/A for visa-free entry",
+    "tip": "Ensure your passport is valid for at least six months from your date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to 'The Coffee Hub' in Nadi for a fresh coconut and a banana pancake.",
+    "sunset": "Experience the sunset at Sunset Beach on Malolo Island around 6:00 PM, with cocktails in hand.",
+    "meal": "Dine at 'The Casada Restaurant' in Suva for their iconic Kokoda (Fijian ceviche) with fresh fish.",
+    "memory": "The moment you participate in a traditional Kava ceremony with locals, feeling the community spirit.",
+    "secret": "Only locals know that the best time for kava is in the evening when it's shared among friends."
+  },
+  "residentSunday": "A typical Sunday for a Fijian involves attending church services in the morning, followed by a hearty meal of palusami (taro leaves and coconut milk) and spending the afternoon with family at the beach, enjoying a BBQ and playing volleyball.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the turquoise waters as your plane descends into Nadi will stay with you for years.",
+    "peak": "The peak day memory target is a day spent island hopping and snorkeling in the Mamanuca Islands.",
+    "departure": "Departure should feel like a bittersweet farewell, with a promise to return to the islands that stole your heart."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Relaxing at beaches and a quick visit to Nadi and Denarau.",
+      "misses": "You'll miss the cultural depth and island experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of relaxation and cultural immersion, including a day trip to an outer island.",
+      "sweetSpot": true
+    },
+    "five-to-seven-days": {
+      "focus": "Exploring multiple islands and engaging in various water sports and cultural experiences.",
+      "whoFor": "Adventure seekers and culture lovers."
+    },
+    "recommended": "Five days is ideal to truly appreciate both relaxation and adventure."
+  },
+  "antiPatterns": [
+    "Combining too many island tours in one day can lead to exhaustion instead of enjoyment.",
+    "Skipping cultural experiences in favor of only beach time fails to provide a full picture of Fijian life.",
+    "Not planning transportation in advance can lead to delays and missed opportunities."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying more local cuisine beyond tourist restaurants.",
+    "Most visitors regret not spending enough time in the outer islands.",
+    "Most visitors regret missing out on participating in traditional ceremonies."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July - September",
+      "weather": "Temperatures range from 21°C to 28°C, dry conditions.",
+      "crowds": "Expect higher visitor numbers but manageable.",
+      "verdict": "Best time for a visit."
+    },
+    "shoulderSeason": {
+      "months": "April - June, October - November",
+      "why": "Ideal for fewer crowds and pleasant weather."
+    },
+    "offSeason": {
+      "months": "December - March",
+      "reality": "High humidity and potential for cyclones, but prices are lower.",
+      "reason": "Some travelers prefer the solitude during this time."
+    },
+    "bestMonth": "July for ideal weather and numerous cultural festivals.",
+    "currentSeason": "June 2026 is warm with occasional showers but generally pleasant for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local markets in Nadi on Wednesdays for the freshest produce and handcrafted souvenirs at better prices.",
+      "category": "food"
+    },
+    {
+      "tip": "Join a village tour in the Yasawas; it’s a chance to experience real Fijian life and culture.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take a day to hike the Bouma National Park on Taveuni; the waterfalls are worth the trek.",
+      "category": "experience"
+    },
+    {
+      "tip": "Rent a kayak instead of taking tours; you can explore the lagoons at your own pace.",
+      "category": "transport"
+    },
+    {
+      "tip": "Attend a traditional Meke performance in a local village for an authentic cultural experience.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Fish and chips at a local eatery for FJD 15 (₹485)",
+    "midRangeMeal": "Dinner at 'The Bounty Restaurant' with a steak for FJD 45 (₹1,450)",
+    "luxuryMeal": "Dining at 'Nobu' in Denarau, expect to pay around FJD 150 (₹4,850) for a multi-course meal.",
+    "localTransportPerDay": "Expect to spend about FJD 40 (₹1,300) on buses and taxis.",
+    "budgetHotelPerNight": "Hostel accommodation in Nadi for FJD 50 (₹1,620) with shared facilities.",
+    "midRangeHotelPerNight": "Comfortable hotel in Nadi for FJD 150 (₹4,850) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury resort on Denarau for FJD 500 (₹16,200) with all amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory beds for FJD 40 (₹1,300)",
+      "food": "Local street food, budgeting FJD 30 (₹975)",
+      "transport": "Public buses or shared taxis."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,500",
+      "accommodation": "Mid-range hotel for FJD 150 (₹4,850)",
+      "food": "Mix of local and Western cuisines."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Luxury doesn't just mean hotels; experiences like private yacht charters can add to costs."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting villages; swimwear is not appropriate outside of beach areas.",
+    "Always ask for permission before taking photographs of locals or their homes.",
+    "Participate respectfully in ceremonies; understanding the significance can enhance your experience."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overcharging taxis; always confirm rates beforehand.",
+      "Some beachfront vendors may sell items at inflated prices, so negotiate."
+    ],
+    "emergencyContacts": {
+      "police": "919",
+      "ambulance": "911",
+      "indianEmbassy": "Fiji High Commission, Suva"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "The Coral Coast",
+        "what": "Capture the stunning coastal scenery and sunsets.",
+        "bestTime": "Late afternoon during sunset.",
+        "tip": "Use a polarizing filter for vibrant colors."
+      }
+    ],
+    "goldenHour": "Around 6:00 PM for sunset photography.",
+    "tip": "Early morning shots of the beaches are often less crowded, offering a peaceful capture."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Snorkeling at the Blue Lagoon",
+        "Lunch on a private island",
+        "Relaxing at a beach resort"
+      ],
+      "emotionalArc": "This sequence allows you to experience the thrill of adventure, followed by relaxation, making for a fulfilling day.",
+      "bestFor": [
+        "Adventure seekers",
+        "Couples",
+        "Families"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Nacula Island",
+      "travelTime": "1.5 hours by boat",
+      "how": "Ferry",
+      "whyCombine": "Ideal for snorkeling and untouched beaches."
+    },
+    {
+      "city": "Taveuni",
+      "travelTime": "1 hour by flight",
+      "how": "Plane",
+      "whyCombine": "Known as the 'Garden Island' for its lush landscapes and waterfalls."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited options; many resorts have accessibility features but local transport may not.",
+    "majorChallenges": "Uneven surfaces in villages and limited wheelchair ramps at some attractions.",
+    "seniorFriendlyScore": 7,
+    "note": "Consult with hotels regarding accessibility features when booking."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with mild winds, perfect for beach activities and cultural festivals.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indian passport holders for up to 4 months."
+  }
+}

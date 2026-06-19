@@ -1,0 +1,267 @@
+{
+  "destination": "Fez",
+  "country": "Morocco",
+  "region": "Africa",
+  "aliases": [
+    "Fez",
+    "fez",
+    "morocco"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "cultural explorers",
+      "food lovers",
+      "students of Islamic art",
+      "adventure seekers"
+    ],
+    "notFor": [
+      "luxury seekers",
+      "party-goers",
+      "travelers with mobility issues"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "10h to Casablanca + 3h",
+    "flightFromMumbai": "10h to Casablanca + 3h (Air India, Royal Air Maroc)",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Moroccan Dirham (MAD) - 1 INR = 0.13 MAD",
+    "timezone": "UTC+1",
+    "language": "Arabic, French",
+    "bestMonthToVisit": "April - mild weather and fewer tourists.",
+    "avoidMonth": "August - extreme heat with temperatures above 40°C.",
+    "tipping": "Tipping is customary; 10% in restaurants is typical. Round up taxi fares."
+  },
+  "whyPeopleFallInLove": "Imagine walking through the narrow alleys of the medina, where the scent of spices and leather fills the air, and you stumble upon a local artisan meticulously crafting handmade leather goods. It's a sensory experience that pulls you in, making you feel deeply connected to the city's history and craftsmanship.",
+  "honestTruth": "Many travelers underestimate the overwhelming scents and sights that can be both captivating and off-putting, especially near the tanneries where the smell can be intense, but it’s a crucial aspect of Fez's identity and history.",
+  "localTruths": [
+    "Most visitors think they can see all of Fez in a day. Locals think the best experiences unfold over several days, allowing for deeper exploration.",
+    "Most visitors rush through the tanneries. The best version of Fez is understanding the labor and tradition behind each product made.",
+    "Most visitors miss the quiet beauty of the Bou Inania Madrasa. The real Fez starts at sunrise when the light casts a magical glow on its intricate tile work."
+  ],
+  "neighborhoodPersonalities": {
+    "Medina": {
+      "tags": [
+        "historical",
+        "cultural",
+        "artisanal"
+      ],
+      "bestFor": "immersing yourself in centuries-old traditions and shopping for handcrafted goods.",
+      "avoid": "be cautious of aggressive shopkeepers."
+    },
+    "Tanneries": {
+      "tags": [
+        "scented",
+        "labor-intensive",
+        "traditional"
+      ],
+      "bestFor": "experiencing the ancient art of leather-making.",
+      "avoid": "the overwhelming smell can be too much for some."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "10h to Casablanca + 3h",
+        "airlines": [
+          "Air India",
+          "Royal Air Maroc"
+        ],
+        "priceRange": "₹40,000 - ₹60,000 return",
+        "note": "Book in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h to Casablanca + 3h",
+        "airlines": [
+          "Air India",
+          "Royal Air Maroc"
+        ],
+        "priceRange": "₹45,000 - ₹65,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approx. 300 MAD (₹3,900) and 30 minutes.",
+      "recommended": "For first-timers, pre-book a transfer through your hotel to avoid confusion."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport is valid for at least six months beyond your planned departure date."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Clock - order the Moroccan pancakes with honey and mint tea.",
+    "sunset": "The rooftop of the Hotel Sahrai - best viewed just after 7 PM during summer months.",
+    "meal": "Restaurant Riad Al Makan - try the tagine with preserved lemons and olives.",
+    "memory": "The moment you sit in a local tea house, sipping mint tea while watching life unfold in the medina.",
+    "secret": "Many locals frequent the lesser-known cafes away from the tourist areas; ask around for a true taste of local life."
+  },
+  "residentSunday": "A typical Sunday for a Fez resident often starts with a leisurely breakfast at Café Nuss, enjoying fresh orange juice and local breads. They might then visit the arts and crafts market in the Medina to buy ingredients for a family meal. Later, they relax with friends at the Parc Jnane Sbil, taking in the lush gardens before enjoying a traditional family dinner at home featuring couscous and lamb stew.",
+  "dayMemoryTargets": {
+    "arrival": "The first moment stepping into the medina, where the sounds of merchants and the fragrance of spices create an overwhelming sensory experience.",
+    "peak": "The peak day memory is witnessing the intricate craftsmanship at the tanneries and sharing a laugh with local artisans.",
+    "departure": "Leaving Fez should feel bittersweet, with a newfound appreciation for its history and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "covering key sites like the medina and tanneries.",
+      "misses": "the deeper cultural experiences and hidden corners of the city."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience with time for relaxation and exploration.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "exploring neighboring areas like Meknes and Volubilis.",
+      "whoFor": "cultural enthusiasts and history buffs."
+    },
+    "recommended": "Four days is ideal for a thorough exploration without feeling rushed."
+  },
+  "antiPatterns": [
+    "Visiting the tanneries during peak hours can lead to an overwhelming experience; aim for early morning instead.",
+    "Eating only in the medina can result in missing out on local culinary gems in other neighborhoods; explore beyond the walls.",
+    "Taking a guided tour without time to wander can restrict your ability to discover personal favorites."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not spending enough time in the medina, missing its intricacies.",
+    "Most visitors regret not trying local street food, which offers authentic flavors.",
+    "Most visitors regret not visiting the Bou Inania Madrasa, one of the city's architectural highlights."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "highs of 40°C, dry conditions",
+      "crowds": "tourists are abundant, creating a bustling atmosphere",
+      "verdict": "Overwhelming heat may dampen the enjoyment."
+    },
+    "shoulderSeason": {
+      "months": "April, May, September",
+      "why": "Milder temperatures and fewer tourists make exploration enjoyable."
+    },
+    "offSeason": {
+      "months": "November to February",
+      "reality": "cold temperatures can drop to 5°C at night",
+      "one reason some prefer it": "fewer crowds offer a more intimate experience with the city."
+    },
+    "bestMonth": "April - pleasant weather combined with local festivals.",
+    "currentSeason": "June 2026 is hot, with daytime temperatures reaching 38°C and increased tourist activity."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the tanneries early in the morning to avoid the heavy crowds and engage with artisans one-on-one.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local sweet 'Chebakia' during Ramadan; it's a local favorite that you won't find at other times.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the hidden alleys of the Medina at dusk; the soft light enhances the beauty of the architecture.",
+      "category": "timing"
+    },
+    {
+      "tip": "Join a local cooking class to learn how to make traditional Moroccan dishes, available in several riads.",
+      "category": "experience"
+    },
+    {
+      "tip": "Always negotiate prices in the souks; starting at half the asking price is common.",
+      "category": "shopping"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A sandwich at a local café costs about 25 MAD (₹325).",
+    "midRangeMeal": "A full meal at a mid-range restaurant costs around 150 MAD (₹1,950).",
+    "luxuryMeal": "Dining at La Maison Bleue can cost upwards of 400 MAD (₹5,200).",
+    "localTransportPerDay": "Typical daily local transport cost is around 50 MAD (₹650).",
+    "budgetHotelPerNight": "A budget hotel costs about 300 MAD (₹3,900) for basic amenities.",
+    "midRangeHotelPerNight": "A mid-range hotel costs around 800 MAD (₹10,400) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotels like Hotel Sahrai start at 1,500 MAD (₹19,500)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,000",
+      "accommodation": "hostels and budget hotels around 250 MAD (₹3,250)",
+      "food": "local street food and cafés",
+      "transport": "walking and shared taxis"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "mid-range hotels at around 600 MAD (₹7,800)",
+      "food": "mix of local restaurants and mid-range dining"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Expect a high standard of service and amenities, but be mindful of the local context."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly, especially in religious sites; women should cover their shoulders and knees.",
+    "Always ask before taking photos of people, especially in the markets.",
+    "It’s polite to greet locals with 'Salam' before starting a conversation."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of unofficial guides who approach you; always opt for those recommended by your hotel.",
+      "Some taxi drivers may overcharge; insist on using the meter."
+    ],
+    "emergencyContacts": {
+      "police": "19",
+      "ambulance": "15",
+      "indianEmbassy": "Embassy of India in Morocco, Rabat - +212 5376-83112"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Tanneries",
+        "what": "Capture the colorful dye pits and workers.",
+        "bestTime": "Early morning for the best light.",
+        "tip": "Bring a scarf to cover your nose from the strong odors."
+      }
+    ],
+    "goldenHour": "Sunset around 7 PM during summer months.",
+    "tip": "Always ask for permission before photographing locals, especially in the medina."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit the tanneries",
+        "Explore the Bou Inania Madrasa",
+        "Enjoy lunch at a local café"
+      ],
+      "emotionalArc": "This sequence allows you to experience the craftsmanship, heritage, and flavors of Fez in one cohesive day.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "history lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Meknes",
+      "travelTime": "1 hour",
+      "how": "bus or taxi",
+      "whyCombine": "Explore another imperial city known for its grand architecture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Generally challenging due to cobblestones and steep alleys.",
+    "majorChallenges": "Narrow streets and uneven surfaces make navigation difficult.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider hiring a local guide who can assist with mobility needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is hot, with temperatures averaging 38°C, and the city is lively with tourists. Local Ramadan festivities may also be ongoing.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free for Indian passport holders, no recent changes."
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "destination": "Medellin",
+  "country": "Colombia",
+  "region": "Americas",
+  "aliases": [
+    "Medellin",
+    "medellin",
+    "colombia"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "adventure seekers",
+      "history enthusiasts",
+      "food lovers",
+      "art aficionados",
+      "nature explorers"
+    ],
+    "notFor": [
+      "party animals",
+      "quiet retreat seekers",
+      "extreme budget travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "18h via Madrid",
+    "flightFromMumbai": "20h via Madrid",
+    "visaForIndians": "Visa-free 90 days",
+    "currency": "Colombian Peso (COP), 1 INR = 61.50 COP",
+    "timezone": "UTC-5",
+    "language": "Spanish",
+    "bestMonthToVisit": "February, due to the Feria de las Flores festival showcasing local traditions.",
+    "avoidMonth": "October, as it is the wettest month with frequent heavy rains.",
+    "tipping": "10-15% is customary in restaurants; rounding up is appreciated in casual settings."
+  },
+  "whyPeopleFallInLove": "Arriving in Medellin, the scent of fresh arepas fills the air as you step off the plane, and the cable cars glide above, offering a breathtaking view of the city at dusk. It's a moment that captures the essence of transformation, where the past and present coexist beautifully.",
+  "honestTruth": "While Medellin's reputation has improved significantly, it's important to remember that some areas still grapple with crime, and understanding local dynamics is essential for safety.",
+  "localTruths": [
+    "Most visitors think Medellin is just about Pablo Escobar. Locals think the city's true narrative is about resilience and innovation beyond that dark history.",
+    "Most visitors stick to tourist zones. The best version of Medellin is found in the local markets and lesser-known neighborhoods, where authentic life unfolds.",
+    "Most visitors miss the Comuna 13 murals. The real Medellin starts at the minute you join a guided tour here, where street art tells stories of social change."
+  ],
+  "neighborhoodPersonalities": {
+    "El Poblado": {
+      "tags": [
+        "trendy",
+        "nightlife",
+        "restaurants"
+      ],
+      "bestFor": "young professionals and nightlife enthusiasts",
+      "avoid": "be cautious of overly touristy bars that can inflate prices."
+    },
+    "Comuna 13": {
+      "tags": [
+        "artistic",
+        "historical",
+        "community"
+      ],
+      "bestFor": "those interested in social movements and street art",
+      "avoid": "visiting without a local guide who can provide context."
+    },
+    "Laureles": {
+      "tags": [
+        "local",
+        "family-friendly",
+        "culinary"
+      ],
+      "bestFor": "foodies and families",
+      "avoid": "expecting a party scene; it’s quieter and more residential."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "18h via Madrid",
+        "airlines": [
+          "Iberia",
+          "Air India"
+        ],
+        "priceRange": "₹60,000 - ₹80,000",
+        "note": "Book 2-3 months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "20h via Madrid",
+        "airlines": [
+          "Iberia",
+          "Lufthansa"
+        ],
+        "priceRange": "₹65,000 - ₹85,000"
+      }
+    },
+    "airportToCity": {
+      "metro": "Metro service is available; cost is 2,500 COP (₹40) and takes about 30 minutes.",
+      "taxi": "Taxis cost around 80,000 COP (₹1,300) and take approximately 45 minutes.",
+      "recommended": "For first-timers, the metro is efficient and gives a glimpse of local life."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 90 days",
+    "applyAt": "No application needed for tourist visits.",
+    "processingTime": "N/A",
+    "tip": "Ensure your passport has more than six months' validity upon entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start your day at Café Pergamino, ordering the 'Café de origen' with a side of fresh pandebono.",
+    "sunset": "Head to Parque Arví at 6:00 PM for a panoramic view of the city as it lights up.",
+    "meal": "Dine at El Cielo, indulging in the 'tasting menu' which showcases Colombian ingredients in innovative ways.",
+    "memory": "The moment you step into the vibrant street art scene of Comuna 13, feeling the pulse of the community.",
+    "secret": "Locals know to visit the Mercado del Río for an array of local foods and drinks in a lively atmosphere."
+  },
+  "residentSunday": "On a free Sunday, a Medellin resident might start with breakfast at Hato Verde, savoring their chorizo and eggs. Afterward, they would stroll through Jardín Botánico, followed by lunch at a local bandeja paisa restaurant. The day might end with a relaxed evening in the Parque Lleras, enjoying the vibrant atmosphere in a local bar.",
+  "dayMemoryTargets": {
+    "arrival": "The first sip of Colombian coffee while taking in the view from the cable car on your way to the city.",
+    "peak": "Experiencing the energy at the Feria de las Flores, with locals dancing and celebrating in the streets.",
+    "departure": "Leaving with a sense of connection to the people and the stories woven into every corner of the city."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key attractions like Plaza Botero and Comuna 13",
+      "misses": "In-depth exploration of local areas and cultural experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balance of major sights and immersion in local neighborhoods.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration, including day trips to nearby towns like Guatapé.",
+      "whoFor": "adventurous travelers and culture seekers."
+    },
+    "recommended": "Four days for a well-rounded experience of Medellin's highlights and hidden aspects."
+  },
+  "antiPatterns": [
+    "Visiting only El Poblado for nightlife can lead to missing out on the local dining experiences in Laureles.",
+    "Skipping public transport in favor of taxis can make you unaware of the city’s layout and local life.",
+    "Trying to cram too many attractions into one day can lead to exhaustion and not enjoying the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking a guided tour of Comuna 13 to understand its history better.",
+    "Most visitors regret not trying local dishes like bandeja paisa at a traditional restaurant.",
+    "Most visitors regret missing the chance to ride the cable cars for a unique city view."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to February",
+      "weather": "Temperatures range from 18-28°C, typically dry.",
+      "crowds": "Tourist numbers peak, especially during the holidays.",
+      "verdict": "Ideal for holiday festivities but be prepared for crowds."
+    },
+    "shoulderSeason": {
+      "months": "March to May",
+      "why": "Milder crowds and good weather, with local festivals."
+    },
+    "offSeason": {
+      "months": "June to August",
+      "reality": "Rainy season with occasional heavy downpours; however, the countryside is lush.",
+      "reason": "Some prefer it for fewer tourists and lower accommodation rates."
+    },
+    "bestMonth": "February, due to the Feria de las Flores festival showcasing local traditions.",
+    "currentSeason": "June 2026 is warm with occasional rain, perfect for exploring indoor attractions and vibrant street life."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local empanada stands in El Centro for an affordable snack; they cost about 2,000 COP (₹32) each and are a local favorite.",
+      "category": "food"
+    },
+    {
+      "tip": "Take the cable car to Parque Arví early in the morning to avoid crowds and enjoy a peaceful hike.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check out the local farmers' markets on Sundays for fresh produce and handmade goods; they can be found in various neighborhoods.",
+      "category": "experience"
+    },
+    {
+      "tip": "For a quiet evening, head to the rooftop bar at The Charlee Hotel for a drink while enjoying the skyline view.",
+      "category": "timing"
+    },
+    {
+      "tip": "Always negotiate taxi fares before getting in; most drivers are open to it, and it can save you money.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Arepa at a local street vendor for about 3,000 COP (₹49).",
+    "midRangeMeal": "Dinner for two at a local restaurant for around 80,000 COP (₹1,300).",
+    "luxuryMeal": "Fine dining at El Cielo, with a tasting menu costing approximately 300,000 COP (₹4,800).",
+    "localTransportPerDay": "Typical daily local transport cost is about 10,000 COP (₹162).",
+    "budgetHotelPerNight": "Hostel accommodation for about 50,000 COP (₹810) with shared facilities.",
+    "midRangeHotelPerNight": "Mid-range hotel for about 150,000 COP (₹2,450) with breakfast included.",
+    "luxuryHotelPerNight": "Luxury hotel stay can cost around 500,000 COP (₹8,100), offering high-end amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostel dorm beds for about ₹810",
+      "food": "Street food and local eateries, averaging ₹400",
+      "transport": "Using metro and buses for around ₹300"
+    },
+    "comfortable": {
+      "perDayINR": "₹6,000",
+      "accommodation": "Private room in a mid-range hotel for about ₹2,450",
+      "food": "Dining at local restaurants, averaging ₹1,000"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury experience includes high-end dining and exclusive activities; prices can soar during peak seasons."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites, covering shoulders and knees.",
+    "Always greet with 'buenos días' or 'buenas tardes' to locals; it shows respect.",
+    "Avoid discussing Pablo Escobar in casual conversations; it can be sensitive."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of pickpockets in crowded areas; keep your belongings secure.",
+      "Some taxi drivers may overcharge; always use registered taxis."
+    ],
+    "emergencyContacts": {
+      "police": "123",
+      "ambulance": "125",
+      "indianEmbassy": "Embassy of India in Colombia, Calle 93 # 19-10, Bogotá, Tel: +57 1 518 8200"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Comuna 13",
+        "what": "Street art murals that tell powerful stories.",
+        "bestTime": "Morning for softer light.",
+        "tip": "Visit with a local guide who can explain the history behind the art."
+      }
+    ],
+    "goldenHour": "Around 6:00 PM, as the city transitions into night.",
+    "tip": "Bring a wide-angle lens for cityscape shots from the cable cars."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Cable car ride to Parque Arví",
+        "Nature walk in Parque Arví",
+        "Traditional lunch at a local restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to experience Medellin's stunning landscapes, unwind in nature, and savor authentic local cuisine, making for a fulfilling day.",
+      "bestFor": [
+        "nature lovers",
+        "food enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Guatapé",
+      "travelTime": "2 hours",
+      "how": "Bus from Medellin",
+      "whyCombine": "Famous for its colorful buildings and the impressive El Peñol rock."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Public transport is partially accessible; some cable cars have provisions, but many buildings lack ramps.",
+    "majorChallenges": "Cobblestone streets in older neighborhoods can be difficult for wheelchair users.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for transport options if mobility is a concern."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain; the city is lively with local events, and the streets are filled with locals enjoying the weather.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indian passport holders remains valid; ensure your travel insurance covers health emergencies."
+  }
+}

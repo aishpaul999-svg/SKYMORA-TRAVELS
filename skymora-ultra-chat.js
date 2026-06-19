@@ -7,6 +7,9 @@
 
 import express from "express";
 import OpenAI from "openai";
+import { formatProfileForPrompt } from "./traveler-profile.js";
+import { AGENT_VOICE } from "./agent-voice.js";
+import { formatRecentRepliesForPrompt, identityGuard, findSimilarRecentQuestion, formatRepeatAngleNote } from "./response-quality.js";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
 import dotenv from "dotenv";
@@ -332,20 +335,24 @@ async function _runUltraCore({ message, tripData = {}, conversationHistory = [],
     const history = memory.getHistory(tripId, 12);
     const currentDate = DateTime.now();
     const systemPrompt = `You are Emma Collins, SKYmora's lead travel consultant.
+${identityGuard("Emma Collins", tripData?.travelerProfile?.preferredName || correctName)}
+${AGENT_VOICE}
+${(() => { const sim = findSimilarRecentQuestion(message, history); return sim ? formatRepeatAngleNote(sim) : ""; })()}
+${formatProfileForPrompt(tripData?.travelerProfile)}${tripData?.returningTravelerNote || ""}${tripData?.groundingNote || ""}
 Current Date: ${currentDate.toLocaleString(DateTime.DATE_FULL)}
 
-Traveler: ${correctName}
+Traveler: ${tripData?.travelerProfile?.preferredName || correctName}
 Profile notes: ${JSON.stringify(profile || {})}
 TripData: ${JSON.stringify(tripData || {})}
 
 Conversation context (most recent ${history.length}):
 ${history.map(h => `${h.role}: ${h.content}`).join("\n")}
+${formatRecentRepliesForPrompt(history)}
 
 RULES:
-- Brief when requested, otherwise 2-4 sentences.
-- No repetitive openings.
+- Brief when requested, otherwise 2-4 sentences — never pad.
+- No repetitive openings or sign-offs — vary like a real person does.
 - Honor name preferences (never use nickname if avoidNickname).
-- Use SKYmora tone: warm, confident, premium.
 `;
 
     const completionPayload = {

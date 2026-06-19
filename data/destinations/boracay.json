@@ -1,0 +1,276 @@
+{
+  "destination": "Boracay",
+  "country": "Philippines",
+  "region": "Southeast Asia",
+  "aliases": [
+    "Boracay",
+    "boracay",
+    "philippines"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Beach lovers",
+      "Nightlife enthusiasts",
+      "Adventure seekers",
+      "Water sports fans",
+      "Romantic getaways"
+    ],
+    "notFor": [
+      "Budget travelers",
+      "Families with small children",
+      "Travelers seeking solitude"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "7h via Manila",
+    "flightFromMumbai": "8h via Manila (Philippine Airlines, Cebu Pacific)",
+    "visaForIndians": "Visa-free 30 days",
+    "currency": "Philippine Peso (1 INR = 0.68 PHP)",
+    "timezone": "UTC+8",
+    "language": "English, Filipino",
+    "bestMonthToVisit": "November - Pleasant weather with less rain and fewer tourists.",
+    "avoidMonth": "August - Heavy rains and frequent typhoons.",
+    "tipping": "10-15% is appreciated in restaurants; round up taxi fares."
+  },
+  "whyPeopleFallInLove": "Imagine walking barefoot on the powdery white sand of White Beach at sunset, the smell of grilled seafood wafting through the air, and the sound of live music pouring from beach bars — it’s a moment that draws you in.",
+  "honestTruth": "Despite its popularity, Boracay can get overly crowded, especially around White Beach, making it feel less like a tropical paradise and more like a party zone at times.",
+  "localTruths": [
+    "Most visitors think Boracay is just about partying. Locals think there's much more to explore, like the serene Puka Shell Beach and the hidden coves.",
+    "Most visitors flock to the main strip of White Beach. The best version of Boracay is experienced by venturing to Bulabog Beach for windsurfing and kitesurfing.",
+    "Most visitors miss the vibrant local market scene. The real Boracay starts at D’Mall, where you can taste local snacks and shop for unique souvenirs."
+  ],
+  "neighborhoodPersonalities": {
+    "White Beach": {
+      "tags": [
+        "beach",
+        "nightlife",
+        "touristy"
+      ],
+      "bestFor": "Those looking to enjoy the nightlife and beach activities.",
+      "avoid": "It can get overly commercialized and crowded, especially during peak season."
+    },
+    "Bulabog Beach": {
+      "tags": [
+        "water sports",
+        "wind surfing",
+        "chill"
+      ],
+      "bestFor": "Adventure enthusiasts wanting to try windsurfing or kitesurfing.",
+      "avoid": "Not ideal for sunbathing due to the strong winds."
+    },
+    "Puka Shell Beach": {
+      "tags": [
+        "quiet",
+        "nature",
+        "relaxation"
+      ],
+      "bestFor": "Travelers seeking a peaceful beach experience.",
+      "avoid": "Limited facilities and amenities compared to White Beach."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "7h via Manila",
+        "airlines": [
+          "Philippine Airlines",
+          "Cebu Pacific"
+        ],
+        "priceRange": "₹25,000 - ₹35,000 (economy return)",
+        "note": "Book 2-3 months in advance for better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "8h via Manila",
+        "airlines": [
+          "Philippine Airlines",
+          "Cebu Pacific"
+        ],
+        "priceRange": "₹30,000 - ₹40,000 (economy return)"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro; local transport options include tricycles.",
+      "taxi": "Approximately 500 PHP (₹340) to White Beach, taking about 30 minutes.",
+      "recommended": "For first-timers, take a tricycle ride to get a feel of the island right away."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Visa-free 30 days",
+    "applyAt": "N/A",
+    "processingTime": "N/A",
+    "tip": "Make sure your passport is valid for at least six months beyond your date of entry."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit 'The Sunny Side Cafe' and order the 'Eggs Benedict' for a delightful start to your day.",
+    "sunset": "Head to 'The Sandbar' around 6:00 PM for a perfect sunset view with cocktails in hand.",
+    "meal": "Dine at 'D'Talipapa' and try the 'Grilled Seafood Platter' for an authentic local experience.",
+    "memory": "The moment you first step onto White Beach and feel the powdery sand between your toes.",
+    "secret": "Only locals know about the nightly fire dancers at the quiet end of White Beach."
+  },
+  "residentSunday": "A Boracay resident spends their free Sunday at Puka Shell Beach, enjoying a homemade picnic with family, swimming in the clear waters, and wrapping up the day with a beach bonfire while grilling fresh catch from the market.",
+  "dayMemoryTargets": {
+    "arrival": "The first time you catch a glimpse of the turquoise waters as your boat approaches the island.",
+    "peak": "Experiencing the lively atmosphere and flavors at the night market on your peak day.",
+    "departure": "Leaving with a heart full of memories as you watch the last sunset from the beach."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Quick beach relaxation and nightlife experience.",
+      "misses": "Cultural explorations and lesser-known beaches."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced experience of relaxation, adventure, and nightlife.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of the island and water sports activities.",
+      "whoFor": "Adventure seekers and beach lovers."
+    },
+    "recommended": "4 days is ideal for a well-rounded Boracay experience."
+  },
+  "antiPatterns": [
+    "Spending all your time on White Beach fails as it limits your experience of Boracay’s other beautiful beaches.",
+    "Ignoring the local food scene for touristy restaurants fails to give you a taste of authentic Filipino cuisine.",
+    "Trying to cram too many activities into one day can lead to exhaustion and missing out on the island’s laid-back charm."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not exploring other beaches like Puka Shell Beach.",
+    "Most visitors regret spending too much time in bars instead of enjoying the daytime beach activities.",
+    "Most visitors regret not trying the local dishes and sticking to familiar food."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to May",
+      "weather": "Dry and sunny with average temperatures around 30°C.",
+      "crowds": "High tourist influx, especially during holidays.",
+      "verdict": "Best for beach activities, but expect crowds."
+    },
+    "shoulderSeason": {
+      "months": "June to November",
+      "why": "Better deals on accommodations and fewer tourists."
+    },
+    "offSeason": {
+      "months": "July to October",
+      "reality": "Frequent rains and typhoons, making some activities challenging.",
+      "hiddenGem": "Lower prices and a quieter experience appeal to some travelers."
+    },
+    "bestMonth": "November - Ideal weather with fewer chances of rain.",
+    "currentSeason": "June 2026 is warm with occasional rain showers and moderate tourist traffic."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit 'The Lazy Dog Bed & Breakfast' for a cozy atmosphere and affordable rates (around 1,500 PHP per night).",
+      "category": "accommodation"
+    },
+    {
+      "tip": "For fresh seafood, head to 'D'Talipapa' market and negotiate prices — expect to pay around 600 PHP for a meal cooked on the spot.",
+      "category": "food"
+    },
+    {
+      "tip": "Try to catch the fire dance shows at various bars along the beach; they usually start around 8 PM.",
+      "category": "experience"
+    },
+    {
+      "tip": "Rent a scooter for about 500 PHP a day to explore the island at your own pace.",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit 'Mount Luho' for a panoramic view of the island, best accessed early morning to avoid crowds.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A plate of 'Jolibee Chickenjoy' at a fast-food outlet for 150 PHP (₹102).",
+    "midRangeMeal": "A 'Filipino BBQ platter' at a mid-range restaurant for around 600 PHP (₹408).",
+    "luxuryMeal": "Dining at 'The Cliff' for a seafood dinner will cost about 2,500 PHP (₹1,700).",
+    "localTransportPerDay": "Typical daily local transport costs around 300 PHP (₹204).",
+    "budgetHotelPerNight": "Stay at a hostel for around 1,000 PHP (₹680), including basic amenities.",
+    "midRangeHotelPerNight": "A comfortable hotel room at 3,500 PHP (₹2,370), with breakfast included.",
+    "luxuryHotelPerNight": "Luxury accommodations range from 8,000 PHP (₹5,440) upwards for premium resorts."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1,500",
+      "accommodation": "Dormitory bed in a hostel for around 800 PHP (₹544)",
+      "food": "Street food and local eateries for about 300 PHP (₹204)",
+      "transport": "Walking and local tricycles."
+    },
+    "comfortable": {
+      "perDayINR": "₹4,000",
+      "accommodation": "Mid-range hotel for around 3,500 PHP (₹2,370)",
+      "food": "Dining at mid-range restaurants for about 600 PHP (₹408)."
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury comes with premium experiences, but expect to pay for exclusivity."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting local markets and religious sites.",
+    "Always ask before taking photos of locals or their properties.",
+    "Respect local customs and practices, especially during festivals."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Some tricycle drivers may overcharge; always negotiate your fare beforehand.",
+      "Watch out for beach vendors selling overpriced goods."
+    ],
+    "emergencyContacts": {
+      "police": "117",
+      "ambulance": "911",
+      "indianEmbassy": "Philippine Indian Embassy:  +63 2 8876 7584"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "White Beach",
+        "what": "Capture the sunset with the iconic sailboats in the foreground.",
+        "bestTime": "Around 6:00 PM.",
+        "tip": "Use a tripod for long exposure shots."
+      }
+    ],
+    "goldenHour": "Around sunrise (5:30 AM) and sunset (6:00 PM).",
+    "tip": "Experiment with underwater photography while snorkeling near Crocodile Island."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Morning at White Beach",
+        "Lunch at D'Talipapa",
+        "Afternoon water sports at Bulabog Beach"
+      ],
+      "emotionalArc": "Starting the day with relaxation, enjoying local flavors, and finishing with adventure creates a memorable experience.",
+      "bestFor": [
+        "Beach lovers",
+        "Active travelers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Caticlan",
+      "travelTime": "15 minutes",
+      "how": "Boat transfer",
+      "whyCombine": "For a glimpse of the mainland and its authentic Filipino lifestyle."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility on beaches; some restaurants have ramps.",
+    "majorChallenges": "Uneven terrain on beaches and limited public transport options.",
+    "seniorFriendlyScore": 6,
+    "note": "Travelers with mobility needs should plan ahead for accommodations."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain showers, and moderate tourist traffic, providing a mix of sunny days and cooler evenings.",
+    "currentAlerts": [],
+    "entryRequirements": "Visa-free entry for Indians remains valid for 30 days."
+  }
+}

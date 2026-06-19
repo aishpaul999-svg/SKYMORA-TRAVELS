@@ -1,0 +1,273 @@
+{
+  "destination": "Lisbon",
+  "country": "Portugal",
+  "region": "Europe",
+  "aliases": [
+    "Lisbon",
+    "lisbon",
+    "portugal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "Cultural Explorers",
+      "Food Lovers",
+      "History Buffs",
+      "Nightlife Enthusiasts",
+      "Art Aficionados"
+    ],
+    "notFor": [
+      "Beach Seekers",
+      "Luxury Travelers",
+      "Business Travelers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "11h",
+    "flightFromMumbai": "10h 20m, airlines: TAP Air Portugal, Lufthansa",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+0",
+    "language": "Portuguese, English widely spoken",
+    "bestMonthToVisit": "April - pleasant weather with fewer tourists",
+    "avoidMonth": "August - high heat and crowded tourist spots",
+    "tipping": "10% in restaurants; rounding up is common in cafes"
+  },
+  "whyPeopleFallInLove": "The first time you hear the haunting melodies of fado echoing through the narrow streets of Alfama, as the sun sets and the aroma of grilled sardines fills the air, you'll feel an inexplicable connection to this city.",
+  "honestTruth": "Lisbon has a reputation for being affordable, but prices can spike near popular attractions, especially for food and drinks.",
+  "localTruths": [
+    "Most visitors think they should eat in touristy areas. Locals think authentic meals are found in the small, family-run tasquinhas in Alfama.",
+    "Most visitors take the tram 28 for a scenic ride. The best version of Lisbon is exploring the same route on foot to discover hidden street art and less crowded viewpoints.",
+    "Most visitors miss the charm of Lisbon's street markets. The real Lisbon starts at Feira da Ladra on Tuesdays and Saturdays, where the city’s character truly shines."
+  ],
+  "neighborhoodPersonalities": {
+    "Alfama": {
+      "tags": [
+        "historic",
+        "artistic",
+        "cultural"
+      ],
+      "bestFor": "those who want to immerse themselves in Lisbon's traditional music and architecture.",
+      "avoid": "beware of steep hills that may tire you out quickly."
+    },
+    "Bairro Alto": {
+      "tags": [
+        "nightlife",
+        "trendy",
+        "lively"
+      ],
+      "bestFor": "night owls looking for bars and clubs that stay open until dawn.",
+      "avoid": "noise-sensitive travelers might want to steer clear of this area after dark."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "11h",
+        "airlines": [
+          "Air India",
+          "Lufthansa"
+        ],
+        "priceRange": "₹40,000 - ₹60,000 return",
+        "note": "Book at least 2-3 months in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "10h 20m",
+        "airlines": [
+          "TAP Air Portugal",
+          "Lufthansa"
+        ],
+        "priceRange": "₹38,000 - ₹55,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Yes, the metro costs €1.50 and takes about 30 minutes.",
+      "taxi": "Costs around €15-20 and takes about 20 minutes, depending on traffic.",
+      "recommended": "For first-timers, taking the metro is efficient and budget-friendly."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global centers in Mumbai, Delhi, and Bangalore.",
+    "processingTime": "15 days on average.",
+    "tip": "Apply early, as the Schengen visa can take longer during peak travel seasons."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Start at A Padaria Portuguesa for a pastel de nata and a galão coffee.",
+    "sunset": "Watch the sunset from Miradouro da Senhora do Monte around 8 PM during summer.",
+    "meal": "Dine at Time Out Market for a variety of local dishes; try the bacalhau à brás.",
+    "memory": "The moment you find yourself swaying to fado music in a dimly lit tavern, feeling the soul of Lisbon.",
+    "secret": "Only locals know that the best views of the city can be found at the rooftop of the Santa Justa Lift, especially in the evening."
+  },
+  "residentSunday": "A typical Lisbon resident might start their Sunday with brunch at Mercado da Ribeira around 11 AM, followed by a stroll through the Jardim da Estrela, and end their day at a fado performance in Alfama.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step out of the airport and feel the warm Lisbon breeze mixed with the scent of grilled fish.",
+    "peak": "The peak day memory target is wandering through Alfama as the sun sets, with fado music in the background.",
+    "departure": "Departure should feel like leaving an old friend, with a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Highlights like Belém Tower, Jerónimos Monastery, and a fado night.",
+      "misses": "The deeper neighborhoods like Alfama and Bairro Alto."
+    },
+    "three_to_four_days": {
+      "focus": "Sweet spot coverage including Sintra day trip and more local experiences.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "Deeper exploration of local neighborhoods, day trips to Cascais and Sintra.",
+      "whoFor": "those passionate about history and culture."
+    },
+    "recommended": "4 days is ideal to capture the essence of Lisbon and its surroundings."
+  },
+  "antiPatterns": [
+    "Starting your day too late and missing breakfast at popular spots leads to a rushed experience.",
+    "Only visiting major tourist attractions can result in missing authentic Lisbon life.",
+    "Skipping public transport in favor of taxis can lead to a more fragmented experience of the city."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the time to explore Alfama's winding streets.",
+    "Most visitors regret not trying local dishes at lesser-known restaurants.",
+    "Most visitors regret not attending a fado performance, missing a key aspect of Lisbon's culture."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "June to August",
+      "weather": "30-35°C, hot and dry",
+      "crowds": "Very high, especially around popular attractions.",
+      "verdict": "Expect long lines and higher prices."
+    },
+    "shoulderSeason": {
+      "months": "March to May, September to October",
+      "why": "Weather is still pleasant, and crowds are manageable."
+    },
+    "offSeason": {
+      "months": "November to February",
+      "reality": "Cold and rainy, but a more authentic and quiet experience.",
+      "oneReasonSomePreferIt": "Fewer tourists mean more local interactions."
+    },
+    "bestMonth": "April for mild weather and fewer tourists.",
+    "currentSeason": "June 2026 is warm and sunny, with tourists starting to fill the streets."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit Mercado da Ribeira on a weekday for fewer crowds and more locals, especially around lunch time.",
+      "category": "food"
+    },
+    {
+      "tip": "Use the Lisboa Card for unlimited transport and discounts at various attractions.",
+      "category": "transport"
+    },
+    {
+      "tip": "Try to catch a live fado show at Clube de Fado for an authentic experience.",
+      "category": "experience"
+    },
+    {
+      "tip": "Explore LX Factory for unique shops and eateries, especially on Sundays.",
+      "category": "experience"
+    },
+    {
+      "tip": "Take the elevator at Miradouro de Santa Catarina for a less touristy sunset view.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Bifana (pork sandwich) at a local tasquinha for €3 (₹250)",
+    "midRangeMeal": "Seafood rice at a mid-range restaurant for €20 (₹1,700)",
+    "luxuryMeal": "Dinner at Belcanto for around €150 (₹12,600)",
+    "localTransportPerDay": "Typical daily transport cost is around €5 (₹425)",
+    "budgetHotelPerNight": "Hostels start at €15 (₹1,250) for dormitory style.",
+    "midRangeHotelPerNight": "Boutique hotels from €80 (₹6,800) offering comfortable stays.",
+    "luxuryHotelPerNight": "Luxury stays at €300 (₹25,300) and above."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostels for ₹1,250.",
+      "food": "Street food and local eateries averaging ₹800.",
+      "transport": "Use public transport averaging ₹400."
+    },
+    "comfortable": {
+      "perDayINR": "₹7,000",
+      "accommodation": "Boutique hotels for ₹6,800.",
+      "food": "Mid-range restaurants averaging ₹1,500."
+    },
+    "luxury": {
+      "perDayINR": "₹25,000+",
+      "note": "Expect to pay a premium for luxury experiences and fine dining."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting churches; shoulders and knees should be covered.",
+    "It's polite to greet shopkeepers when entering and leaving.",
+    "Tipping is appreciated but not mandatory in casual dining."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Avoid pickpockets in crowded areas; keep your belongings secure.",
+      "Beware of taxi scams; always use licensed taxis or rideshare apps."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "112",
+      "indianEmbassy": "Embassy of India in Lisbon: +351 21 392 2000"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Miradouro de Santa Catarina",
+        "what": "Panoramic view of the Tagus River and city skyline.",
+        "bestTime": "Golden hour before sunset.",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "7:00 PM in summer months.",
+    "tip": "Experiment with capturing the colorful tiles that adorn many buildings."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Explore Alfama",
+        "Enjoy a fado show",
+        "Dine in a local restaurant"
+      ],
+      "emotionalArc": "This sequence allows you to experience the heart of Lisbon, culminating in a meal that reflects the city's flavors.",
+      "bestFor": [
+        "Cultural Explorers",
+        "Food Lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Sintra",
+      "travelTime": "40m",
+      "how": "By train from Rossio Station",
+      "whyCombine": "To explore fairy-tale palaces and stunning landscapes."
+    },
+    {
+      "city": "Cascais",
+      "travelTime": "30m",
+      "how": "By train from Cais do Sodré",
+      "whyCombine": "For beautiful beaches and a coastal escape."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Many attractions are becoming more accessible, but cobblestone streets can be challenging.",
+    "majorChallenges": "Steep hills and public transport can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Consider using accessible taxis for easier navigation."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June is warm with temperatures around 28°C, crowds are increasing, and events such as the Festas de Lisboa are underway.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa is required for Indian travelers."
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "destination": "Kathmandu",
+  "country": "Nepal",
+  "region": "South Asia",
+  "aliases": [
+    "Kathmandu",
+    "kathmandu",
+    "nepal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "cultural enthusiasts",
+      "adventure seekers",
+      "food lovers",
+      "spiritual travelers",
+      "history buffs"
+    ],
+    "notFor": [
+      "luxury travelers",
+      "party-goers",
+      "beach enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "1h 30min",
+    "flightFromMumbai": "2h 30min, airlines include Indigo and Nepal Airlines",
+    "visaForIndians": "No visa, Aadhaar card",
+    "currency": "Nepalese Rupee (NPR), 1 INR = 1.60 NPR",
+    "timezone": "UTC+5:45",
+    "language": "Nepali, English widely spoken",
+    "bestMonthToVisit": "October, as the weather is mild and perfect for trekking",
+    "avoidMonth": "July, due to heavy monsoon rains",
+    "tipping": "Tipping is appreciated; 10% at restaurants is standard."
+  },
+  "whyPeopleFallInLove": "As you walk through the narrow lanes of Thamel, the aroma of freshly brewed Himalayan coffee mingles with the scent of incense wafting from nearby temples, creating an intoxicating atmosphere that invites you to explore further.",
+  "honestTruth": "Many travelers underestimate the cultural depth of Kathmandu and often stick to the popular tourist spots, missing out on local experiences that offer a genuine connection to the city’s heritage.",
+  "localTruths": [
+    "Most visitors think Kathmandu is just about temples. Locals think it's a living museum, with stories echoing from every corner.",
+    "Most visitors flock to Durbar Square. The best version of Kathmandu is found in the local markets like Asan, where you can taste authentic street food.",
+    "Most visitors miss the sunrise at Swayambhunath. The real Kathmandu starts at dawn when the city awakens with the sound of prayer bells."
+  ],
+  "neighborhoodPersonalities": {
+    "Thamel": {
+      "tags": [
+        "tourist hub",
+        "shopping",
+        "nightlife"
+      ],
+      "bestFor": "backpackers looking for convenience and nightlife.",
+      "avoid": "It can feel overly commercialized and crowded."
+    },
+    "Patan": {
+      "tags": [
+        "cultural",
+        "historical",
+        "art"
+      ],
+      "bestFor": "those interested in art and history through its ancient temples and museums.",
+      "avoid": "Limited nightlife options compared to Thamel."
+    },
+    "Bhaktapur": {
+      "tags": [
+        "heritage",
+        "traditional",
+        "quiet"
+      ],
+      "bestFor": "travelers interested in experiencing traditional Newari culture.",
+      "avoid": "It’s a bit far from central Kathmandu, requiring extra travel time."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "1h 30min",
+        "airlines": [
+          "IndiGo",
+          "Air India"
+        ],
+        "priceRange": "[INR 7,000 - 12,000 return]",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "2h 30min",
+        "airlines": [
+          "IndiGo",
+          "Nepal Airlines"
+        ],
+        "priceRange": "[INR 8,000 - 15,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Taxis cost around NPR 500 (₹800) and take about 20-30 minutes depending on traffic.",
+      "recommended": "For first-timers, using a ride-hailing app like Tootle or Pathao is recommended for convenience."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "No visa, Aadhaar card",
+    "applyAt": "No application needed; just present your Aadhaar upon arrival.",
+    "processingTime": "N/A",
+    "tip": "Keep a copy of your Aadhaar card, as it may be required at hotels."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Visit the Himalayan Java Coffee at Thamel for a cup of rich, aromatic coffee and a slice of their famous carrot cake.",
+    "sunset": "Head to the top of Swayambhunath Stupa at around 6 PM for a panoramic view of the city bathed in golden hues.",
+    "meal": "Dine at Bhojan Griha for traditional Nepali Thali, featuring multiple dishes served on a single platter.",
+    "memory": "Witnessing the prayer flags fluttering in the wind as the sun sets over the ancient temples can evoke a profound sense of connection to the culture.",
+    "secret": "Only locals know that some of the best momos are found in the small stalls in the alleys of Bhaktapur, where the flavors are unmatched."
+  },
+  "residentSunday": "On a free Sunday, a Kathmandu resident might start their day with breakfast at a local café in Patan, enjoying a plate of sel roti with milk tea. They may then visit the Bhaktapur Durbar Square to soak in the architecture and finish the day enjoying a leisurely walk along the Bagmati River, possibly stopping for some chaat from a street vendor.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step outside the airport and breathe in the cool mountain air, with the distant sounds of temple bells ringing.",
+    "peak": "The peak day memory target would be standing atop Nagarkot at sunrise, witnessing the first rays of sunlight hitting the Himalayas.",
+    "departure": "Departure should feel bittersweet, leaving with a heart full of memories and a promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "covering the key sights like Swayambhunath, Boudhanath, and Durbar Square.",
+      "misses": "the depth of local culture and the experience of trekking."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced mix of sightseeing, cultural immersion, and local cuisine.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration including a trek to nearby areas like Nagarkot.",
+      "whoFor": "adventure seekers and culture enthusiasts."
+    },
+    "recommended": "Four days is ideal to soak in the culture and explore the surrounding areas."
+  },
+  "antiPatterns": [
+    "Trying to cover too many temples in one day can lead to exhaustion without truly appreciating any of them.",
+    "Rushing through the local markets can mean missing out on the incredible street food options.",
+    "Skipping out on early morning visits to attractions like Swayambhunath can result in crowds diminishing the experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local street food, which offers a taste of authentic Nepali flavors.",
+    "Most visitors regret overlooking the hiking trails around the valley that provide stunning views.",
+    "Most visitors regret not taking the time to interact with locals for a deeper understanding of the culture."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "October to November",
+      "weather": "mild temperatures around 20-25°C, clear skies",
+      "crowds": "high but manageable",
+      "verdict": "Great for trekking and cultural festivals."
+    },
+    "shoulderSeason": {
+      "months": "February to March",
+      "why": "Milder weather and fewer tourists make it pleasant for exploration."
+    },
+    "offSeason": {
+      "months": "June to September",
+      "reality": "Monsoon rains can disrupt travel plans, but it’s quieter and hotels are cheaper.",
+      "one reason some prefer it": "The lush greenery and fewer crowds can provide a different perspective."
+    },
+    "bestMonth": "October, as the weather is perfect for outdoor activities and festivities.",
+    "currentSeason": "June 2026 is marked by warm weather with occasional rain showers."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the Garden of Dreams during early morning hours for tranquility and stunning architecture, entry fee is NPR 200 (₹320).",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to catch a local music performance at Patan Museum on Fridays, it’s free and showcases local talent.",
+      "category": "experience"
+    },
+    {
+      "tip": "Head to the local supermarket Bhat-Bhateni for affordable groceries and snacks if you’re staying longer.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a local bus to Bhaktapur for a cheaper and more authentic travel experience, costing around NPR 50 (₹80).",
+      "category": "transport"
+    },
+    {
+      "tip": "Visit the Kumari Ghar during the early afternoon to avoid crowds and get a better view of the living goddess.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "A plate of momos at a street stall for NPR 150 (₹240)",
+    "midRangeMeal": "A traditional Nepali Thali at Bhojan Griha for NPR 800 (₹1280)",
+    "luxuryMeal": "Dinner at Dwarika's Hotel costing around NPR 5000 (₹8000)",
+    "localTransportPerDay": "Around NPR 300 (₹480) for bus and taxi rides.",
+    "budgetHotelPerNight": "Dormitory rooms in Thamel for NPR 800 (₹1280), includes basic amenities.",
+    "midRangeHotelPerNight": "A comfortable hotel room at Hotel Shanker for NPR 4000 (₹6400), with breakfast included.",
+    "luxuryHotelPerNight": "Luxury stay at The Dwarika's Hotel for NPR 15000 (₹24000)."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹1500",
+      "accommodation": "Dormitory beds for ₹800",
+      "food": "Eating at local stalls for about ₹300",
+      "transport": "Using public transport or walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5000",
+      "accommodation": "Mid-range hotels around ₹2000 to ₹3000",
+      "food": "Dining at mid-range restaurants for about ₹1000."
+    },
+    "luxury": {
+      "perDayINR": "₹15000+",
+      "note": "Luxury accommodations can be quite lavish but often cater to tourists, losing some local flavor."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites; shoulders and knees should be covered.",
+    "Always ask for permission before taking photographs of locals.",
+    "Remove your shoes before entering temples and some homes."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of taxi drivers who may not use the meter; always agree on a fare beforehand.",
+      "Some street vendors may try to overcharge tourists; negotiate prices."
+    ],
+    "emergencyContacts": {
+      "police": "100",
+      "ambulance": "102",
+      "indianEmbassy": "Embassy of India, Kathmandu, Ph: +977-1-442-8140"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Swayambhunath Stupa",
+        "what": "The Stupa with prayer flags against the backdrop of the city.",
+        "bestTime": "Sunrise",
+        "tip": "Arrive early to capture the soft morning light."
+      }
+    ],
+    "goldenHour": "Around 6 PM in the summer.",
+    "tip": "Include locals in your photos for a more authentic representation of the culture."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Visit Swayambhunath",
+        "Explore Thamel",
+        "Enjoy traditional dinner at Bhojan Griha"
+      ],
+      "emotionalArc": "This sequence allows you to appreciate the spiritual side of Kathmandu, followed by the lively atmosphere of Thamel, and concludes with a taste of local culinary delights.",
+      "bestFor": [
+        "cultural enthusiasts",
+        "food lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Bhaktapur",
+      "travelTime": "1 hour",
+      "how": "Local bus or taxi",
+      "whyCombine": "It offers a glimpse into medieval Kathmandu with its preserved architecture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Not very friendly, as most sites have uneven terrain and steeps.",
+    "majorChallenges": "Narrow streets and steps can make it difficult for those with mobility challenges.",
+    "seniorFriendlyScore": 5,
+    "note": "Plan visits to key attractions that are more accessible."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain, making it humid, but still good for indoor activities and exploring cafes.",
+    "currentAlerts": [],
+    "entryRequirements": "Aadhaar card for Indian citizens; no visa required."
+  }
+}

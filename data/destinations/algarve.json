@@ -1,0 +1,268 @@
+{
+  "destination": "Algarve",
+  "country": "Portugal",
+  "region": "Europe",
+  "aliases": [
+    "Algarve",
+    "algarve",
+    "portugal"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "adventure seekers",
+      "food enthusiasts",
+      "history buffs",
+      "nature explorers"
+    ],
+    "notFor": [
+      "party-goers",
+      "shopping addicts",
+      "those seeking extreme urban experiences"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "11h to Lisbon + 2.5h",
+    "flightFromMumbai": "12h to Lisbon + 2.5h, airlines include Emirates and Qatar Airways",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Euro (1 INR = 0.011 EUR)",
+    "timezone": "UTC+0",
+    "language": "Portuguese (English widely understood in tourist areas)",
+    "bestMonthToVisit": "September, when the weather is still warm but the summer crowds have lessened.",
+    "avoidMonth": "August, as it's peak tourist season with high prices and crowded attractions.",
+    "tipping": "10% is customary in restaurants; rounding up is common in cafes."
+  },
+  "whyPeopleFallInLove": "Imagine standing on top of the dramatic cliffs of Ponta da Piedade at sunset, the sky ablaze with oranges and pinks, while the sound of waves crashing against the rocks fills the air. The scent of saltwater mingles with the earthy aroma of coastal flora, creating an experience that feels deeply personal and alive.",
+  "honestTruth": "Many visitors are surprised to find that the Algarve is not just about beaches; the interior towns hold unique stories and local traditions that are often overlooked in favor of coastal attractions.",
+  "localTruths": [
+    "Most visitors think Algarve is solely about beach resorts. Locals think the true heart lies in its quaint villages like Silves and Monchique, rich with history and local crafts.",
+    "Most visitors rush to the beaches. The best version of Algarve is a more balanced itinerary that includes exploring the Algarve's scenic interior.",
+    "Most visitors miss the authentic local markets. The real Algarve starts at the morning market in Loulé, where you can taste fresh regional produce."
+  ],
+  "neighborhoodPersonalities": {
+    "Lagos": {
+      "tags": [
+        "historic",
+        "beach",
+        "lively"
+      ],
+      "bestFor": "history enthusiasts and those who love vibrant nightlife.",
+      "avoid": "It can get crowded during peak summer months."
+    },
+    "Albufeira": {
+      "tags": [
+        "touristy",
+        "family-friendly",
+        "entertainment"
+      ],
+      "bestFor": "families looking for entertainment and beach activities.",
+      "avoid": "The commercialization might turn off those seeking authenticity."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "11h to Lisbon + 2.5h",
+        "airlines": [
+          "Air India",
+          "Qatar Airways"
+        ],
+        "priceRange": "INR 45,000 - 70,000 return",
+        "note": "Book at least three months in advance for better fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "12h to Lisbon + 2.5h",
+        "airlines": [
+          "Emirates",
+          "Qatar Airways"
+        ],
+        "priceRange": "INR 50,000 - 75,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "Not available. Use an airport shuttle or taxi.",
+      "taxi": "Approximately €30 (INR 2,500) to Lagos, taking about 1 hour.",
+      "recommended": "For first-timers, a taxi is the quickest and most convenient option."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global locations in major cities like Delhi or Mumbai.",
+    "processingTime": "10-15 days typical.",
+    "tip": "Make sure to have your travel itinerary and accommodation bookings ready; it can help speed up the process."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Head to Pastelaria Gombá in Lagos for a traditional Pastel de Nata and a bica (espresso).",
+    "sunset": "Watch the sunset from the cliffs at Ponta da Piedade around 8 PM in June.",
+    "meal": "Dine at Restaurante O Camilo for their grilled sardines, a local favorite.",
+    "memory": "The moment you realize you're standing on the edge of the Algarve's cliffs, feeling the wind and hearing the waves below.",
+    "secret": "Local fishermen sell their catch directly at the ports in the early mornings; join them for an authentic experience."
+  },
+  "residentSunday": "A typical Sunday might include visiting the local market in Loulé at 9 AM, grabbing a brunch of chouriço with bread at a nearby café, followed by a leisurely hike in the Monchique mountains. By evening, enjoying a family dinner of Cataplana at Restaurante A Casa do Piri-Piri in Albufeira around 8 PM.",
+  "dayMemoryTargets": {
+    "arrival": "The first view of the Algarve's dramatic cliffs from the plane, signaling the start of a beach-centric adventure.",
+    "peak": "A day spent kayaking through the sea caves of Lagos, feeling the spray of the ocean and the power of nature.",
+    "departure": "Leaving with the scent of the ocean still lingering and a heartfelt goodbye from friendly locals."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Key highlights like Lagos’ beaches and a taste of local cuisine.",
+      "misses": "The deeper cultural experiences and hidden inland treasures."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced itinerary covering both the coast and inland towns, ideal for first-timers.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration including lesser-known villages and outdoor adventures.",
+      "whoFor": "Travelers eager to immerse themselves in both coastal and rural Algarve."
+    },
+    "recommended": "Four days is ideal for a comprehensive feel of the region without feeling rushed."
+  },
+  "antiPatterns": [
+    "Rushing from beach to beach fails to appreciate the Algarve’s diverse landscapes; spend a day in the hills instead.",
+    "Skipping local dining experiences for chain restaurants misses the essence of Portuguese cuisine.",
+    "Not planning your coastal visits around tide schedules can ruin access to many beaches and caves."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not trying the local seafood specialties like octopus salad.",
+    "Most visitors regret spending too much time in touristy areas and not exploring local villages.",
+    "Most visitors regret not renting a car, limiting their ability to explore the Algarve’s hidden spots."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "July, August",
+      "weather": "Highs around 30°C, sunny",
+      "crowds": "Very crowded, especially at beaches.",
+      "verdict": "Best for beach lovers but can feel overwhelming."
+    },
+    "shoulderSeason": {
+      "months": "May, June, September",
+      "why": "Pleasant weather and fewer tourists make for a more enjoyable experience."
+    },
+    "offSeason": {
+      "months": "November to March",
+      "reality": "Chilly and rainy, but ideal for those seeking solitude.",
+      "one reason some prefer it": "Lower prices and a more local feel."
+    },
+    "bestMonth": "September for perfect weather and less crowded attractions.",
+    "currentSeason": "June 2026 sees warm, sunny days with occasional breezy evenings, ideal for outdoor activities."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local fish market in Lagos at dawn to experience the freshest catch and local banter; early risers can find deals on seafood.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local dessert, Dom Rodrigo, at any bakery; it’s a traditional sweet that many tourists overlook.",
+      "category": "food"
+    },
+    {
+      "tip": "Take a sunset boat tour around the Lagos caves; it’s a different perspective and less crowded than during the day.",
+      "category": "experience"
+    },
+    {
+      "tip": "Join a local wine tasting session in the Alentejo region; it's a short drive and a great way to understand Portuguese wines.",
+      "category": "food"
+    },
+    {
+      "tip": "Explore the hiking trails of Costa Vicentina Natural Park early in the morning for stunning views without the crowds.",
+      "category": "timing"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Bifana sandwich at a local café for €4 (INR 350)",
+    "midRangeMeal": "Grilled fish at a mid-range restaurant for €15 (INR 1,300)",
+    "luxuryMeal": "Dinner at Vila Vita Parc for €80 (INR 7,000) with a wine pairing.",
+    "localTransportPerDay": "Bus fare around €5 (INR 440) for unlimited rides.",
+    "budgetHotelPerNight": "Hostel dormitory for €15 (INR 1,300), including breakfast.",
+    "midRangeHotelPerNight": "3-star hotel room for €70 (INR 6,000), with basic amenities.",
+    "luxuryHotelPerNight": "5-star resort for €200 (INR 17,500), fully equipped with luxury amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Hostels at €15 (INR 1,300)",
+      "food": "Street food and local cafes, around €10 (INR 880)",
+      "transport": "Buses and walking."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range hotels around €70 (INR 6,000)",
+      "food": "Mix of restaurants and cafes."
+    },
+    "luxury": {
+      "perDayINR": "₹20,000+",
+      "note": "Luxury comes with a price, but the experience is often worth it for comfort and exclusivity."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting religious sites, covering shoulders and knees.",
+    "Always greet with a friendly 'Olá' and thank with 'Obrigado' to show respect.",
+    "Tipping is appreciated but not obligatory; rounding up is common."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of 'fake' artists who may ask for donations; always ask for a price before buying artwork.",
+      "Pickpocketing can occur in crowded areas; keep an eye on your belongings."
+    ],
+    "emergencyContacts": {
+      "police": "112",
+      "ambulance": "112",
+      "indianEmbassy": "Lisbon, 101 Av. do Brasil, 1050-027, Lisbon"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Ponta da Piedade",
+        "what": "The iconic cliffs and sea caves during sunset",
+        "bestTime": "Around 8 PM",
+        "tip": "Arrive early to secure a good spot."
+      }
+    ],
+    "goldenHour": "Approximately 8 PM in summer for stunning sunset shots.",
+    "tip": "Bring a polarizing filter to enhance colors and reduce glare when photographing the ocean."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Kayaking in Lagos",
+        "Lunch at a local seafood restaurant",
+        "Hiking in Monchique"
+      ],
+      "emotionalArc": "This sequence takes you from an adventurous morning on the water to savoring local flavors and culminating in breathtaking views over the hills.",
+      "bestFor": [
+        "adventure seekers",
+        "food lovers",
+        "nature enthusiasts"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Silves",
+      "travelTime": "30 minutes",
+      "how": "By train or car",
+      "whyCombine": "Explore its historic castle and medieval architecture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Some beaches have accessible paths, but many cliff areas are challenging.",
+    "majorChallenges": "Steep cliffs and uneven paths can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Plan ahead for accessible accommodations and transport options."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with temperatures around 28°C, ideal for beach activities. Crowds are moderate, with various local festivals celebrated.",
+    "currentAlerts": [],
+    "entryRequirements": "Standard Schengen visa requirements apply as of 2026."
+  }
+}

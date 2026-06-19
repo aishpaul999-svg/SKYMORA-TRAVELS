@@ -1,0 +1,274 @@
+{
+  "destination": "Mirissa",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "aliases": [
+    "Mirissa",
+    "mirissa",
+    "sri lanka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "beach lovers",
+      "adventure seekers",
+      "wildlife enthusiasts",
+      "surfing fans",
+      "foodies"
+    ],
+    "notFor": [
+      "nightlife seekers",
+      "history buffs",
+      "city explorers"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "3h 30min to Colombo + 3h",
+    "flightFromMumbai": "3h 30min to Colombo + 3h by SriLankan Airlines and Indigo",
+    "visaForIndians": "e-Visa USD 20",
+    "currency": "Sri Lankan Rupee (LKR), 1 INR = 2.50 LKR",
+    "timezone": "+5:30",
+    "language": "English and Sinhala",
+    "bestMonthToVisit": "December - March due to calm seas and ideal weather for beach activities.",
+    "avoidMonth": "May - October due to heavy monsoon rains affecting outdoor activities.",
+    "tipping": "Tipping is appreciated; leave around 10% in restaurants."
+  },
+  "whyPeopleFallInLove": "As you sip fresh coconut water on the beach, the sound of waves crashing harmonizes with distant whale calls, creating a surreal moment of connection with nature that compels you to return.",
+  "honestTruth": "Despite its appeal, the beach can get crowded during peak season, which might detract from the serene experience many expect.",
+  "localTruths": [
+    "Most visitors think whale watching is a seasonal activity. Locals think it can be enjoyed year-round, especially during early morning trips.",
+    "Most visitors find beach bars ideal for sunset. The best version of Mirissa is enjoying the sunset from the hilltop viewpoint where you can escape the crowds.",
+    "Most visitors miss the charm of local markets. The real Mirissa starts at the fish market in the early morning when the catch of the day is brought in."
+  ],
+  "neighborhoodPersonalities": {
+    "Mirissa Beach": {
+      "tags": [
+        "surfing",
+        "whale watching",
+        "relaxation"
+      ],
+      "bestFor": "beach activities and surfing",
+      "avoid": "the overly touristy beach bars which can be overpriced"
+    },
+    "Weligama Bay": {
+      "tags": [
+        "surfing",
+        "family-friendly",
+        "local culture"
+      ],
+      "bestFor": "beginner surfers and families",
+      "avoid": "the crowded areas during peak surf season"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "3h 30min to Colombo + 3h",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹14,000 - ₹22,000 return",
+        "note": "Book in advance for better deals."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3h 30min to Colombo + 3h",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "₹14,000 - ₹22,000 return"
+      }
+    },
+    "airportToCity": {
+      "metro": "N/A",
+      "taxi": "Approx. LKR 3,000 (₹1,200) for a 2.5-hour ride to Mirissa.",
+      "recommended": "For first-timers, we recommend pre-booking a taxi through your hotel for a hassle-free journey."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 20",
+    "applyAt": "https://www.eta.gov.lk/",
+    "processingTime": "Typically 1-2 business days.",
+    "tip": "Apply for your e-Visa at least a week before your travel to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Cafe Mirissa - try the Sri Lankan breakfast with hoppers and coconut sambol.",
+    "sunset": "Mirissa Beach - around 6:10 PM, the view from the western side is less crowded and perfect.",
+    "meal": "The Shack - must try the seafood curry with rice.",
+    "memory": "The moment you see the first whale breach during your boat trip, your heart races with excitement.",
+    "secret": "Local fishermen often offer impromptu boat rides at sunset for a fraction of the price of organized tours."
+  },
+  "residentSunday": "A Mirissa resident typically starts their Sunday with a breakfast of string hoppers at a local eatery, followed by a stroll along the beach. In the afternoon, they might catch up with friends at a surf spot in Weligama, ending the day with a family dinner of grilled fish at a beachside restaurant before heading home.",
+  "dayMemoryTargets": {
+    "arrival": "The moment you step onto the beach and feel the warm sand between your toes as the salty breeze brushes your face.",
+    "peak": "The peak day memory target is the day of your whale watching trip when you spot a blue whale surfacing just a few feet from your boat.",
+    "departure": "Departure should feel like leaving a part of your heart behind as you promise to return."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "beach relaxation and whale watching",
+      "misses": "the deeper local experiences and other nearby attractions."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced mix of surfing, local cuisine, and relaxation",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "exploring nearby areas like Galle and Weligama, and more water activities",
+      "whoFor": "those wanting a comprehensive coastal experience."
+    },
+    "recommended": "Three to four days is ideal to soak in the best of Mirissa."
+  },
+  "antiPatterns": [
+    "Trying to fit in too many tourist spots in one day can lead to burnout without fully enjoying any of them.",
+    "Skipping whale watching due to high costs; local operators often offer competitive rates if booked directly.",
+    "Expecting nightlife similar to urban centers; Mirissa is more about relaxation and beach time."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not going on a whale-watching trip.",
+    "Most visitors regret not trying local dishes that are only available off the main tourist strip.",
+    "Most visitors regret not exploring the local markets."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December - March",
+      "weather": "Warm with average temperatures around 28°C, minimal rainfall.",
+      "crowds": "Busy, especially around Christmas and New Year.",
+      "verdict": "Best time for beach activities."
+    },
+    "shoulderSeason": {
+      "months": "April - May",
+      "why": "Fewer tourists and decent weather for exploration."
+    },
+    "offSeason": {
+      "months": "June - November",
+      "reality": "Heavy rains and rough seas limit activities; expect fewer crowds.",
+      "reason": "Some prefer this for a quieter experience away from the tourist rush."
+    },
+    "bestMonth": "February - pleasant weather and ideal for whale watching.",
+    "currentSeason": "June 2026 is characterized by occasional rains, cooler temperatures around 25°C, and fewer tourists, providing a quieter experience."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the local fish market at sunrise; the freshest catch can be bought directly from fishermen.",
+      "category": "experience"
+    },
+    {
+      "tip": "For the best surfing, head to Weligama Bay early in the morning to avoid crowds.",
+      "category": "timing"
+    },
+    {
+      "tip": "Check the local weather forecast for sea conditions before booking whale watching to ensure the best experience.",
+      "category": "timing"
+    },
+    {
+      "tip": "Try the street food at the local night market for an authentic taste of Sri Lankan cuisine.",
+      "category": "food"
+    },
+    {
+      "tip": "Rent a scooter for a day to explore nearby beaches like Polhena and Secret Beach at your own pace.",
+      "category": "transport"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Kottu Roti at a local eatery for LKR 500 (₹200)",
+    "midRangeMeal": "Seafood plate at The Shack for LKR 1,500 (₹600)",
+    "luxuryMeal": "Dining at the Cape Weligama for LKR 5,000 (₹2,000)",
+    "localTransportPerDay": "Typical daily local transport costs around LKR 1,000 (₹400) for a scooter rental.",
+    "budgetHotelPerNight": "Guesthouse stay for LKR 3,000 (₹1,200) with basic amenities.",
+    "midRangeHotelPerNight": "Comfortable hotel for LKR 8,000 (₹3,200) including breakfast.",
+    "luxuryHotelPerNight": "Luxury resort for LKR 15,000 (₹6,000) with full amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory beds for LKR 1,000 (₹400)",
+      "food": "Street food and local eateries",
+      "transport": "Public transport and occasional taxi."
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Mid-range guesthouses for LKR 3,000 (₹1,200)",
+      "food": "Mix of local and mid-range restaurants"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options are available, but prices can vary significantly depending on the season."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples or local markets; swimwear is only appropriate at the beach.",
+    "Always remove your shoes before entering homes or places of worship.",
+    "Respect local customs and ask for permission before photographing people."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of inflated prices at touristy restaurants; check menus before ordering.",
+      "Some local taxi drivers may overcharge; always agree on a fare beforehand."
+    ],
+    "emergencyContacts": {
+      "police": "119",
+      "ambulance": "1990",
+      "indianEmbassy": "Colombo: +94 11 4 36 77 43"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Mirissa Beach",
+        "what": "Sunset over the ocean",
+        "bestTime": "Around 6:10 PM",
+        "tip": "Capture the colors while facing west for the best results."
+      }
+    ],
+    "goldenHour": "Approximately 6:10 PM to 6:30 PM.",
+    "tip": "Use a polarizing filter to enhance the colors of the sea and sky, especially during midday."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Whale Watching",
+        "Lunch at The Shack",
+        "Sunset at Mirissa Beach"
+      ],
+      "emotionalArc": "This sequence creates a day filled with anticipation, satisfaction from great food, and a peaceful end to your day.",
+      "bestFor": [
+        "family travelers",
+        "couples",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Weligama",
+      "travelTime": "20 minutes",
+      "how": "By taxi or tuk-tuk",
+      "whyCombine": "Great for surfing lessons and local dining."
+    },
+    {
+      "city": "Galle",
+      "travelTime": "40 minutes",
+      "how": "By taxi or bus",
+      "whyCombine": "Historic fort and colonial architecture."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Limited accessibility at some beaches; most restaurants have steps.",
+    "majorChallenges": "Uneven terrain and sandy pathways can be difficult for wheelchairs.",
+    "seniorFriendlyScore": 7,
+    "note": "While some places are accessible, it's advisable to check specific venues beforehand."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is characterized by occasional rains, cooler temperatures around 25°C, and fewer tourists, providing a quieter experience.",
+    "currentAlerts": [],
+    "entryRequirements": "e-Visa is mandatory; ensure you have a printed copy upon arrival."
+  }
+}

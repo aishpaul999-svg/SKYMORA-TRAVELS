@@ -1,0 +1,259 @@
+{
+  "destination": "Zermatt",
+  "country": "Switzerland",
+  "region": "Europe",
+  "aliases": [
+    "Zermatt",
+    "zermatt",
+    "switzerland"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "skiers",
+      "hikers",
+      "foodies",
+      "photographers",
+      "nature lovers"
+    ],
+    "notFor": [
+      "budget travelers",
+      "nightlife seekers",
+      "those averse to altitude"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "9h to Geneva + 3.5h",
+    "flightFromMumbai": "9h to Geneva + 3.5h, airlines include Swiss International Air Lines and Lufthansa",
+    "visaForIndians": "Schengen EUR 80",
+    "currency": "Swiss Franc (CHF), 1 INR = 0.012 CHF",
+    "timezone": "UTC+1",
+    "language": "German (predominantly), English is widely understood",
+    "bestMonthToVisit": "March, for ideal skiing conditions and fewer crowds",
+    "avoidMonth": "November, as many cabins and restaurants close for the off-season",
+    "tipping": "Service is included, but rounding up the bill or leaving small change (5-10%) is appreciated."
+  },
+  "whyPeopleFallInLove": "The moment you step off the train and are greeted by the majestic Matterhorn, you inhale the crisp mountain air mixed with the scent of fresh pine, instantly igniting your passion for the Swiss Alps.",
+  "honestTruth": "Despite its postcard-perfect images, Zermatt can feel eerily quiet at night, with most activities winding down early, which might surprise those expecting a lively après-ski scene.",
+  "localTruths": [
+    "Most visitors think Zermatt is just about skiing. Locals think it’s also a paradise for hiking in summer with trails leading to stunning viewpoints.",
+    "Most visitors rush to the Matterhorn Glacier Paradise. The best version of Zermatt is enjoying the tranquility of the lower trails in the early morning.",
+    "Most visitors miss the local food delicacies. The real Zermatt starts at the small cheese shops where you can taste the local varieties."
+  ],
+  "neighborhoodPersonalities": {
+    "Zermatt Village": {
+      "tags": [
+        "car-free",
+        "historical",
+        "scenic"
+      ],
+      "bestFor": "exploring quaint shops and traditional Swiss architecture",
+      "avoid": "beware of high prices in touristy areas"
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "9h to Geneva + 3.5h",
+        "airlines": [
+          "Swiss International Air Lines",
+          "Lufthansa"
+        ],
+        "priceRange": "[INR 50,000 - 70,000 return economy]",
+        "note": "Book in advance to secure better rates."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "9h to Geneva + 3.5h",
+        "airlines": [
+          "Swiss International Air Lines",
+          "Lufthansa"
+        ],
+        "priceRange": "[INR 50,000 - 75,000 return economy]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro, train from Geneva Airport to Zermatt takes approximately 3.5 hours and costs around CHF 80 (INR 6,600).",
+      "taxi": "Taxi from Geneva Airport to Zermatt costs around CHF 400 (INR 33,000) and takes about 3.5 hours.",
+      "recommended": "For first-timers, the train journey is scenic and highly recommended."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "Schengen EUR 80",
+    "applyAt": "VFS Global in India for Schengen visa applications.",
+    "processingTime": "Typically 15 working days.",
+    "tip": "Apply at least a month in advance and ensure all documents are meticulously prepared."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café 3620, order the freshly baked croissants and a hot chocolate.",
+    "sunset": "Gornergrat, catch the sunset around 8:30 PM in June for panoramic views.",
+    "meal": "Restaurant Schäferstube, order the local dish Raclette for an authentic experience.",
+    "memory": "Sitting on the terrace of a mountain restaurant, watching the sun set behind the Matterhorn while savoring Swiss cheese.",
+    "secret": "Only locals know the best times to hike the 5-Seenweg trail to avoid the crowds and enjoy serenity."
+  },
+  "residentSunday": "A Zermatt resident spends Sunday hiking the trails around the Matterhorn, starting at 8 AM with a hearty breakfast at the Bakery Cafe, followed by a midday picnic atop Gornergrat, and concludes the day with fondue at Restaurant Whymper-Stube around 7 PM.",
+  "dayMemoryTargets": {
+    "arrival": "The first sight of the Matterhorn as you step out of the train station, feeling the excitement of adventure.",
+    "peak": "Reaching the summit of the Matterhorn Glacier Paradise and taking in the 360-degree views.",
+    "departure": "Leaving Zermatt with a heavy heart, yet filled with memories of the serene landscapes and fresh mountain air."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "skiing and local dining",
+      "misses": "the extensive hiking trails and cultural sites."
+    },
+    "three_to_four_days": {
+      "focus": "a balanced experience of skiing, hiking, and dining",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "in-depth exploration of ski areas, hiking trails, and local culture",
+      "whoFor": "adventurous travelers."
+    },
+    "recommended": "Four days is ideal for a mix of skiing and relaxation."
+  },
+  "antiPatterns": [
+    "Planning to ski without booking lessons in advance can result in missed opportunities, especially during peak season.",
+    "Underestimating the weather can lead to discomfort; always check conditions before heading out.",
+    "Skipping the local cuisine for fast food can diminish your cultural experience."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not taking the scenic train ride from Geneva to Zermatt.",
+    "Most visitors regret not trying the local dishes at the smaller restaurants.",
+    "Most visitors regret not hiking enough to appreciate the landscape."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "Temperatures range from -5°C to 5°C, with snow.",
+      "crowds": "High, especially during holidays.",
+      "verdict": "Great for skiing, but expect long lines."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer crowds and ideal hiking conditions."
+    },
+    "offSeason": {
+      "months": "Late October to early December",
+      "reality": "Cold and many attractions closed.",
+      "one reason some prefer it": "Peaceful atmosphere for reflection and solitude."
+    },
+    "bestMonth": "March, for excellent skiing conditions and fewer tourists.",
+    "currentSeason": "June 2026 is mild with temperatures around 15°C and the trails are opening up, perfect for hiking."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the cheese shop, Fromagerie, for the best local cheese tasting experiences around CHF 15 (INR 1,200).",
+      "category": "food"
+    },
+    {
+      "tip": "Take the early morning train to Gornergrat for fewer crowds and magical sunrise views.",
+      "category": "timing"
+    },
+    {
+      "tip": "Book ski lessons in advance, especially during the peak season, to secure your spot.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try to visit the old Zermatt church for a glimpse of its history and architecture, free entry.",
+      "category": "experience"
+    },
+    {
+      "tip": "Bring a reusable water bottle to refill at public fountains; the water is pure and delicious.",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Rösti at a small eatery for CHF 15 (INR 1,200).",
+    "midRangeMeal": "Three-course meal for CHF 60 (INR 5,000).",
+    "luxuryMeal": "Dinner at The Omnia for CHF 150 (INR 12,500).",
+    "localTransportPerDay": "Around CHF 10 (INR 850) for local bus transport.",
+    "budgetHotelPerNight": "CHF 80 (INR 6,600) for a basic hotel room with shared facilities.",
+    "midRangeHotelPerNight": "CHF 150 (INR 12,500) for a standard hotel with breakfast.",
+    "luxuryHotelPerNight": "CHF 300 (INR 25,000) for a luxury hotel."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹7,000",
+      "accommodation": "Hostel at around CHF 30 (INR 2,500)",
+      "food": "Self-catered meals or budget eateries.",
+      "transport": "Walking or local buses."
+    },
+    "comfortable": {
+      "perDayINR": "₹15,000",
+      "accommodation": "Mid-range hotel at around CHF 150 (INR 12,500)",
+      "food": "Dining at mid-range restaurants."
+    },
+    "luxury": {
+      "perDayINR": "₹50,000+",
+      "note": "Luxury comes with high costs, but the experience matches the price."
+    }
+  },
+  "culturalRules": [
+    "Dress appropriately for the weather and wear sturdy shoes while hiking.",
+    "Maintain silence in the mountains to respect nature and other hikers.",
+    "Respect local customs, especially in places of worship."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Be cautious of unlicensed taxis outside the airport; use official taxi ranks.",
+      "Avoid street performers asking for money without a clear performance."
+    ],
+    "emergencyContacts": {
+      "police": "117",
+      "ambulance": "144",
+      "indianEmbassy": "Swiss Indian Chamber of Commerce, Geneva"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "Gornergrat",
+        "what": "Panoramic views of the Matterhorn and surrounding peaks",
+        "bestTime": "Early morning for soft light",
+        "tip": "Use a polarizing filter to enhance the sky."
+      }
+    ],
+    "goldenHour": "Around sunset, approximately 8:30 PM in June.",
+    "tip": "Always have your camera ready; spontaneous moments often create the best shots."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Hiking to Gornergrat",
+        "Lunch at a mountain hut",
+        "Exploring Zermatt Village"
+      ],
+      "emotionalArc": "This sequence provides a satisfying blend of physical activity, local cuisine, and cultural exploration.",
+      "bestFor": [
+        "outdoor enthusiasts",
+        "food lovers",
+        "cultural explorers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Täsch",
+      "travelTime": "12 minutes",
+      "how": "Train",
+      "whyCombine": "Gateway to Zermatt, with less expensive accommodation options."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "Zermatt's infrastructure is mostly accessible, but some mountain trails can be challenging.",
+    "majorChallenges": "Steep terrains and cobbled streets can be difficult for those with mobility issues.",
+    "seniorFriendlyScore": 7,
+    "note": "Most facilities are accommodating, but plan ahead for specific needs."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is sunny with temperatures around 15°C, perfect for hiking and less crowded than winter.",
+    "currentAlerts": [],
+    "entryRequirements": "Schengen visa required; ensure travel insurance is in place."
+  }
+}

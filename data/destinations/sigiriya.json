@@ -1,0 +1,258 @@
+{
+  "destination": "Sigiriya",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "aliases": [
+    "Sigiriya",
+    "sigiriya",
+    "sri lanka"
+  ],
+  "lastUpdated": "2026-06",
+  "_schemaVersion": "3.0-intl",
+  "meta": {
+    "dataQualityScore": 9.2,
+    "bestFor": [
+      "history enthusiasts",
+      "adventure seekers",
+      "photographers",
+      "nature lovers",
+      "cultural explorers"
+    ],
+    "notFor": [
+      "luxury travelers",
+      "party seekers",
+      "shopping enthusiasts"
+    ]
+  },
+  "hardFacts": {
+    "flightFromDelhi": "3h 30min to Colombo + 4h",
+    "flightFromMumbai": "3h 45min to Colombo + 4h",
+    "visaForIndians": "e-Visa USD 20",
+    "currency": "Sri Lankan Rupee (LKR) - 1 INR = 2.38 LKR",
+    "timezone": "+5:30 UTC",
+    "language": "Sinhala and Tamil, but English is widely understood",
+    "bestMonthToVisit": "February - dry season with pleasant temperatures for climbing",
+    "avoidMonth": "May - high humidity and potential for heavy rains",
+    "tipping": "Common to give 10% at restaurants, but rounding up small amounts is also appreciated"
+  },
+  "whyPeopleFallInLove": "As you ascend the steep steps of Sigiriya Rock, the moment you reach the Lion's Paw entrance, you are met with a breeze carrying the scent of tropical flowers mixed with the earthiness of ancient stone. It's a fusion of history and nature that hooks you immediately, pulling you deeper into the allure of this ancient fortress.",
+  "honestTruth": "Despite its popularity, many visitors overlook the significance of the frescoes and the sheer ingenuity of the ancient water gardens, which are as fascinating as the rock itself.",
+  "localTruths": [
+    "Most visitors think Sigiriya is just about climbing the rock. Locals think the real treasure lies in the surrounding gardens and the intricate irrigation system that showcases ancient engineering.",
+    "Most visitors rush to the top of the rock. The best version of Sigiriya is experienced at dawn, where the soft light unveils the hidden beauty of the surrounding landscape.",
+    "Most visitors miss the lesser-known but equally impressive Pidurangala Rock, which offers an alternative view of Sigiriya without the crowds."
+  ],
+  "neighborhoodPersonalities": {
+    "Sigiriya": {
+      "tags": [
+        "historical",
+        "adventurous",
+        "serene"
+      ],
+      "bestFor": "explorers looking to dive into Sri Lanka's ancient past.",
+      "avoid": "Peak hours can lead to overcrowding, making it less enjoyable."
+    }
+  },
+  "gettingHere": {
+    "fromDelhi": {
+      "flight": {
+        "duration": "3h 30min to Colombo + 4h",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "[₹15,000 - ₹25,000 return]",
+        "note": "Book in advance to secure lower fares."
+      }
+    },
+    "fromMumbai": {
+      "flight": {
+        "duration": "3h 45min to Colombo + 4h",
+        "airlines": [
+          "SriLankan Airlines",
+          "IndiGo"
+        ],
+        "priceRange": "[₹15,000 - ₹25,000 return]"
+      }
+    },
+    "airportToCity": {
+      "metro": "No metro service available.",
+      "taxi": "Approx. LKR 3,000 (₹1,260) for a 4-hour taxi ride to Sigiriya.",
+      "recommended": "Pre-book a private taxi for a comfortable journey after your international flight."
+    }
+  },
+  "visaIntelligence": {
+    "indianPassport": "e-Visa USD 20",
+    "applyAt": "https://www.eta.gov.lk",
+    "processingTime": "Typically processed within 24 hours.",
+    "tip": "Apply a few days in advance to avoid any last-minute issues."
+  },
+  "ifYouOnlyHadOneChance": {
+    "breakfast": "Café Ceylon - order the egg hoppers with coconut sambol for a local flavor.",
+    "sunset": "The top of Sigiriya Rock - arrive by 5:30 PM for breathtaking views as the sun sets behind the horizon.",
+    "meal": "Rithu Restaurant - try the traditional Sri Lankan rice and curry, a full plate for LKR 1,200 (₹505).",
+    "memory": "The moment you stand on the summit of Sigiriya, looking out over the ancient kingdom, feeling like you've stepped back in time.",
+    "secret": "Locals often enjoy the evening at the nearby village, sharing stories under the stars, a simple yet profound experience."
+  },
+  "residentSunday": "A typical Sunday for a Sigiriya resident involves visiting the local market early in the morning for fresh produce, followed by a family picnic at the base of Sigiriya Rock, enjoying home-cooked rice and curry while watching the sunset over the historic site.",
+  "dayMemoryTargets": {
+    "arrival": "The sight of Sigiriya Rock towering against the skyline as you approach from a distance, the anticipation building with each step closer.",
+    "peak": "Reaching the summit just as the sun breaks over the horizon, illuminating the ancient ruins.",
+    "departure": "Feeling a sense of fulfillment as you leave, with memories of the unique history and stunning landscapes etched in your mind."
+  },
+  "tripLengthGuide": {
+    "two_days": {
+      "focus": "Climbing Sigiriya and exploring the nearby Dambulla Cave Temple.",
+      "misses": "The surrounding nature trails and local village experiences."
+    },
+    "three_to_four_days": {
+      "focus": "A balanced mix of history, culture, and relaxation.",
+      "sweetSpot": true
+    },
+    "five_to_seven_days": {
+      "focus": "In-depth exploration of the cultural triangle, including Anuradhapura and Polonnaruwa.",
+      "whoFor": "History buffs and nature lovers."
+    },
+    "recommended": "Four days is ideal to soak in both the historical significance and the natural beauty."
+  },
+  "antiPatterns": [
+    "Climbing Sigiriya in the middle of the day + it results in exhaustion and missing the cooler hours of the morning.",
+    "Rushing through the water gardens + leads to not appreciating the ingenuity of the ancient design.",
+    "Visiting during peak tourist season without advance planning that leads to long queues and diminished enjoyment."
+  ],
+  "commonRegrets": [
+    "Most visitors regret not starting their climb early to avoid the heat and crowds.",
+    "Most visitors regret skipping the nearby Pidurangala Rock for a different perspective of Sigiriya.",
+    "Most visitors regret not taking time to explore the ancient water gardens and their engineering marvel."
+  ],
+  "seasonalIntelligence": {
+    "peakSeason": {
+      "months": "December to March",
+      "weather": "Average temperatures around 26°C, minimal rain.",
+      "crowds": "Significantly high, especially during holidays.",
+      "verdict": "Ideal for pleasant weather but requires advance booking."
+    },
+    "shoulderSeason": {
+      "months": "April to June",
+      "why": "Fewer tourists and good weather before the monsoon hits."
+    },
+    "offSeason": {
+      "months": "July to November",
+      "reality": "Monsoon rains can be heavy, and some trails may be muddy, impacting accessibility.",
+      "note": "Some travelers enjoy the lush greenery and lower prices during this time."
+    },
+    "bestMonth": "February - optimal weather conditions for outdoor activities.",
+    "currentSeason": "June 2026 has seen milder temperatures with occasional afternoon rains, making mornings ideal for exploration."
+  },
+  "insiderIntelligence": [
+    {
+      "tip": "Visit the rock at dawn to catch the mystical fog lifting off the jungle, a sight that many miss.",
+      "category": "experience"
+    },
+    {
+      "tip": "Try the local street food near the entrance, particularly the kottu roti, for an authentic taste at LKR 300 (₹126).",
+      "category": "food"
+    },
+    {
+      "tip": "Bring plenty of water and wear sturdy shoes; the climb can be steep and slippery.",
+      "category": "experience"
+    },
+    {
+      "tip": "Check for local festivals which often occur in the summer, providing a glimpse into local traditions.",
+      "category": "experience"
+    },
+    {
+      "tip": "Engage a local guide who can share stories that bring the history of Sigiriya to life, often costing around LKR 2,000 (₹840).",
+      "category": "experience"
+    }
+  ],
+  "pricingBenchmarks": {
+    "budgetMeal": "Vegetable fried rice at a local eatery for LKR 500 (₹210).",
+    "midRangeMeal": "Sri Lankan rice and curry at Rithu Restaurant for LKR 1,200 (₹505).",
+    "luxuryMeal": "Dinner at the Sigiriya Village Hotel for LKR 4,500 (₹1,895).",
+    "localTransportPerDay": "Approx. LKR 1,500 (₹630) for a full day of tuk-tuk rides.",
+    "budgetHotelPerNight": "LKR 3,000 (₹1,260) for a basic guesthouse including breakfast.",
+    "midRangeHotelPerNight": "LKR 7,000 (₹2,950) for a comfortable hotel with amenities.",
+    "luxuryHotelPerNight": "LKR 15,000 (₹6,300) for a premium resort with all amenities."
+  },
+  "budgetReality": {
+    "backpacker": {
+      "perDayINR": "₹2,500",
+      "accommodation": "Dormitory bed at a guesthouse for LKR 2,000 (₹840)",
+      "food": "Street food or local restaurants for LKR 700 (₹295)",
+      "transport": "Local buses or tuk-tuks for LKR 1,000 (₹420)"
+    },
+    "comfortable": {
+      "perDayINR": "₹5,000",
+      "accommodation": "Budget hotel with private room for LKR 5,000 (₹2,100)",
+      "food": "Mix of restaurants for LKR 2,000 (₹840)"
+    },
+    "luxury": {
+      "perDayINR": "₹15,000+",
+      "note": "Luxury options are available, but they can be significantly pricier than local standards."
+    }
+  },
+  "culturalRules": [
+    "Dress modestly when visiting temples or sacred sites, covering shoulders and knees.",
+    "Remove shoes and hats before entering any sacred areas.",
+    "Be respectful when photographing locals; always ask for permission."
+  ],
+  "safetyIntelligence": {
+    "overallRating": "Generally Safe",
+    "scamsToKnow": [
+      "Beware of overly aggressive tuk-tuk drivers offering tours; negotiate rates beforehand.",
+      "Watch out for unofficial guides at the entrance; always rely on recognized services."
+    ],
+    "emergencyContacts": {
+      "police": "119",
+      "ambulance": "110",
+      "indianEmbassy": "Sri Lankan High Commission, New Delhi, phone +91 11 2301 1789"
+    }
+  },
+  "photographyIntelligence": {
+    "bestShotLocations": [
+      {
+        "name": "The summit of Sigiriya",
+        "what": "Panoramic views of the surrounding jungle and the ancient city",
+        "bestTime": "Sunrise",
+        "tip": "Arrive early to avoid crowds and capture the soft morning light."
+      }
+    ],
+    "goldenHour": "Approximately 6:00 AM and 6:00 PM.",
+    "tip": "Use a wide-angle lens to capture the vast landscape from the rock."
+  },
+  "combinationIntelligence": [
+    {
+      "sequence": [
+        "Climb Sigiriya Rock",
+        "Explore the Water Gardens",
+        "Visit Dambulla Cave Temple"
+      ],
+      "emotionalArc": "This sequence builds anticipation as you first conquer the rock, then relax amidst the gardens, and finally delve deeper into Sri Lankan history at Dambulla.",
+      "bestFor": [
+        "history enthusiasts",
+        "nature lovers"
+      ]
+    }
+  ],
+  "nearbyDestinations": [
+    {
+      "city": "Dambulla",
+      "travelTime": "30 minutes",
+      "how": "Taxi or tuk-tuk",
+      "whyCombine": "To experience the remarkable Dambulla Cave Temple with its impressive ancient frescoes."
+    }
+  ],
+  "accessibility": {
+    "wheelchairFriendly": "The climb to Sigiriya is not wheelchair accessible due to steep steps and uneven surfaces.",
+    "majorChallenges": "The stone steps can be quite steep and slippery, posing challenges for those with mobility issues.",
+    "seniorFriendlyScore": 5,
+    "note": "Consider visiting the base gardens instead if mobility is a concern."
+  },
+  "liveIntelligence": {
+    "lastChecked": "2026-06",
+    "seasonalNow": "June 2026 is warm with occasional rain, making mornings ideal for exploration, while afternoons may be humid with brief showers.",
+    "currentAlerts": [],
+    "entryRequirements": "e-Visa is currently required for Indian citizens, processed within 24 hours."
+  }
+}

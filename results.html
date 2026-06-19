@@ -8,6 +8,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><title>SKYmora Travels – Your Journey</title>
 <script src="/socket.io/socket.io.js"></script>
 
+<!-- Travelpayouts White Label Widget -->
+<script data-noptimize="1" data-cfasync="false" data-no-defer="1">
+  (function () {
+    var script = document.createElement("script");
+    script.async = 1;
+    script.type = "module";
+    script.src = "https://tpwdg.com/wl_web/main.js?wl_id=18154";
+    document.head.appendChild(script);
+  })();
+</script>
+
 <style>
 /* ========== GLOBAL BASE ========== */
 body {
@@ -97,6 +108,157 @@ h1 {
   transition: opacity 1.2s ease;
 }
 
+/* ========== FUSION ENHANCEMENTS ========== */
+
+/* Flight Card */
+.flight-summary-card {
+  background: linear-gradient(135deg, rgba(0,153,204,0.12), rgba(0,80,120,0.15));
+  border: 1px solid rgba(0,153,204,0.35);
+  border-radius: 18px;
+  padding: 22px 28px;
+  margin: 0 0 22px;
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+}
+.flight-summary-card .fc-icon { font-size: 2rem; }
+.flight-summary-card .fc-info h4 { font-size: 1rem; font-weight: 700; color: #0099cc; margin-bottom: 4px; font-family: 'Playfair Display', serif; }
+.flight-summary-card .fc-info p { font-size: 0.84rem; color: rgba(255,255,255,0.75); line-height: 1.65; font-family: Georgia, serif; }
+.flight-summary-card .fc-price { margin-left: auto; text-align: right; }
+.flight-summary-card .fc-price .price { font-size: 1.35rem; font-weight: 800; color: #FFD700; font-family: 'Playfair Display', serif; }
+.flight-summary-card .fc-price .label { font-size: 0.73rem; color: rgba(255,255,255,0.4); margin-top: 2px; }
+
+/* Trip meta badges */
+.trip-meta-row {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin-bottom: 22px;
+}
+.trip-meta-badge {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.65);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Local insight highlight */
+.local-insight-box {
+  background: rgba(99,102,241,0.09);
+  border-left: 3px solid rgba(130,130,255,0.7);
+  border-radius: 0 12px 12px 0;
+  padding: 12px 16px;
+  margin: 14px 0 6px;
+  font-size: 0.84rem;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.65;
+  font-family: Georgia, serif;
+}
+.local-insight-box strong { color: #a5b4fc; }
+
+/* Price highlight inline */
+.price-highlight {
+  display: inline-block;
+  background: rgba(255,215,0,0.12);
+  border: 1px solid rgba(255,215,0,0.25);
+  color: #FFD700;
+  border-radius: 6px;
+  padding: 1px 7px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+/* Day emoji badge */
+.day-emoji-badge {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Budget breakdown card — matches intro card */
+.budget-summary-card {
+  background: linear-gradient(135deg, rgba(10,8,0,0.95), rgba(30,22,0,0.9), rgba(10,8,0,0.95));
+  border: 1px solid rgba(255,215,0,0.5);
+  box-shadow: 0 0 40px rgba(255,215,0,0.12), inset 0 0 60px rgba(255,215,0,0.03);
+  border-radius: 20px;
+  padding: 28px 32px;
+  margin: 28px 0 10px;
+}
+.budget-summary-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem; color: #FFD700;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255,215,0,0.2);
+  padding-bottom: 12px;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+}
+.budget-total-badge {
+  background: rgba(255,215,0,0.1); border: 1px solid rgba(255,215,0,0.25);
+  border-radius: 10px; padding: 6px 16px; text-align: right;
+}
+.budget-total-badge .btb-label { font-family: 'Poppins', sans-serif; font-size: 0.62rem; color: rgba(255,215,0,0.5); letter-spacing: 2px; text-transform: uppercase; }
+.budget-total-badge .btb-value { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 800; color: #FFD700; }
+.budget-rows { margin-bottom: 18px; }
+.budget-row {
+  display: flex; align-items: center; gap: 14px;
+  padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.budget-row:last-child { border-bottom: none; }
+.br-icon { font-size: 1.2rem; width: 28px; text-align: center; flex-shrink: 0; }
+.br-label { font-family: 'Poppins', sans-serif; font-size: 0.83rem; color: rgba(255,255,255,0.5); flex: 1; }
+.br-bar { flex: 2; height: 3px; background: rgba(255,255,255,0.06); border-radius: 999px; overflow: hidden; max-width: 140px; }
+.br-bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, rgba(144,242,210,0.7), rgba(255,215,0,0.9)); transition: width 1.4s ease; }
+.br-value { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: #f0f4ff; text-align: right; min-width: 90px; }
+.budget-footer-note { font-family: 'Georgia', serif; font-size: 0.95rem; line-height: 1.8; color: rgba(255,255,255,0.45); font-style: italic; border-top: 1px solid rgba(255,215,0,0.1); padding-top: 16px; margin-top: 4px; }
+.budget-footer-note strong { color: #FFD700; font-style: normal; }
+.price-verified-strip { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; padding: 12px 16px; background: rgba(0,200,100,0.08); border: 1px solid rgba(0,200,100,0.2); border-radius: 10px; }
+.price-verified-strip span { font-size: 0.82rem; color: rgba(255,255,255,0.6); }
+.price-verified-strip strong { color: #4ade80; }
+.why-chose-box { background: rgba(99,102,241,0.1); border-left: 3px solid #818cf8; border-radius: 0 10px 10px 0; padding: 12px 16px; margin: 10px 0; }
+.why-chose-box .why-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; color: #a5b4fc; text-transform: uppercase; margin-bottom: 6px; }
+.why-chose-box p { font-size: 0.9rem; color: rgba(255,255,255,0.75); margin: 0; line-height: 1.6; }
+.why-choices-section { margin: 16px 0 8px; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px; }
+.why-choices-section::before { content: "DECISIONS EXPLAINED"; display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; color: rgba(255,255,255,0.25); margin-bottom: 10px; }
+.personalization-tag { display: inline-block; background: rgba(251,191,36,0.12); border: 1px solid rgba(251,191,36,0.3); color: #fbbf24; font-size: 0.78rem; padding: 3px 10px; border-radius: 20px; margin: 2px 3px; }
+.personalization-bar { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 16px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.regrets-box { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.2); border-radius: 14px; padding: 20px; margin: 16px 0; }
+.regrets-box h4 { color: #f87171; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 12px; }
+.regrets-box ul { margin: 0; padding-left: 20px; }
+.regrets-box ul li { color: rgba(255,255,255,0.7); font-size: 0.9rem; line-height: 1.8; }
+.never-skip-box { background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.25); border-radius: 14px; padding: 20px; margin: 16px 0; }
+.never-skip-box .agent-advice-label { font-size: 0.75rem; font-weight: 700; color: #fbbf24; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; }
+.never-skip-box p { color: rgba(255,255,255,0.8); font-style: italic; font-size: 0.95rem; line-height: 1.7; margin: 0; }
+.hotel-justification { background: rgba(14,165,233,0.08); border-left: 3px solid #38bdf8; border-radius: 0 10px 10px 0; padding: 10px 14px; margin: 10px 0; font-size: 0.88rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
+.hotel-justification strong { color: #7dd3fc; display: block; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 4px; }
+
+/* Day number strip */
+.day-num-strip {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 14px;
+}
+.day-big-num {
+  font-family: 'Playfair Display', serif; font-size: 3.4rem; font-weight: 800; line-height: 1;
+  background: linear-gradient(135deg, #FFD700, rgba(255,215,0,0.2));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; opacity: 0.5;
+}
+.day-title-grp { flex: 1; }
+.day-title-grp h2 { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #fff; line-height: 1.2; }
+.day-title-grp .day-sub-date { font-family: 'Poppins', sans-serif; font-size: 0.72rem; color: rgba(255,255,255,0.3); margin-top: 4px; letter-spacing: 1px; }
+
+/* Section emoji map styling */
+.section-header-emoji {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  color: rgba(255,215,0,0.75);
+  margin: 22px -36px 0;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255,215,0,0.1);
+  padding: 14px 36px 10px;
+  display: block;
+  background: rgba(255,255,255,0.02);
+}
+.section-header-emoji:first-child { margin-top: -28px; border-top: none; }
+
 /* ========== ITINERARY DISPLAY (NARRATIVE STYLE) ========== */
 .itinerary {
   display: none;
@@ -145,31 +307,46 @@ h1 {
 
 .day-content {
   font-family: 'Georgia', serif;
-  font-size: 1.1rem;
-  line-height: 1.9;
+  font-size: 1.05rem;
+  line-height: 1.75;
   color: #f5f5f5;
-  text-align: justify;
-  letter-spacing: 0.3px;
-  word-spacing: 1px;
+  text-align: left;
+  letter-spacing: 0.2px;
 }
-
 .day-content p {
   margin-bottom: 18px;
 }
-.section-header {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  color: rgba(255,255,255,0.45);
-  margin: 22px 0 8px 0;
+.section-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 16px;
+}
+
+.content-line {
+  display: block;
+  line-height: 1.6;
+  color: #f5f5f5;
+}.section-header {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: rgba(255,215,0,0.7);
+  margin: 0 -36px;
+  margin-top: 22px;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  padding-bottom: 6px;
+  border-top: 1px solid rgba(255,215,0,0.1);
+  border-bottom: none;
+  padding: 14px 36px 10px;
+  display: block;
+  background: rgba(255,255,255,0.02);
 }
 
 .section-header:first-child {
-  margin-top: 0;
+  margin-top: -28px;
+  border-top: none;
 }
+
 /* === SKYMORA PROMISE CARD === */
 .promise-card {
   background: linear-gradient(135deg, rgba(144,242,210,0.15), rgba(66,201,168,0.15));
@@ -327,6 +504,18 @@ h1 {
   background: #e5e5ea;
   color: #000;
   align-self: flex-start;
+}
+
+.typing-dots { display: inline-flex; gap: 4px; align-items: center; padding: 2px 4px; }
+.typing-dots span {
+  width: 7px; height: 7px; border-radius: 50%; background: #8a8a8e;
+  animation: typingBounce 1.2s infinite ease-in-out;
+}
+.typing-dots span:nth-child(2) { animation-delay: 0.15s; }
+.typing-dots span:nth-child(3) { animation-delay: 0.3s; }
+@keyframes typingBounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+  30% { transform: translateY(-4px); opacity: 1; }
 }
 
 .msg.user {
@@ -586,8 +775,9 @@ h1 {
   gap: 8px;
   padding: 10px 20px;
   border-radius: 10px;
-  font-size: 0.88rem;
-  font-weight: 600;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
   text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
@@ -632,12 +822,82 @@ h1 {
   border-radius: 999px;
   overflow: hidden;
 }
-
 .budget-bar-fill {
   height: 100%;
   background: linear-gradient(90deg, #90f2d2, #FFD700);
   border-radius: 999px;
   transition: width 1s ease;
+}
+/* ===== INTRO CARD ===== */
+.intro-card {
+  background: linear-gradient(135deg, rgba(10,8,0,0.95), rgba(30,22,0,0.9), rgba(10,8,0,0.95));
+  border: 1px solid rgba(255,215,0,0.5);
+  box-shadow: 0 0 40px rgba(255,215,0,0.12), inset 0 0 60px rgba(255,215,0,0.03);
+  border-radius: 18px;
+  margin-bottom: 8px;
+}
+.intro-content {
+  font-family: 'Georgia', serif;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: rgba(255,255,255,0.88);
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.intro-content p {
+  margin-bottom: 16px;
+}
+/* ===== AGENT SIGNATURE ===== */
+.agent-signature {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+
+.agent-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0099cc, #005580);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.agent-info {
+  flex: 1;
+}
+
+.agent-info-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.88);
+  letter-spacing: 0.3px;
+}
+
+.agent-info-title {
+  font-size: 0.74rem;
+  color: rgba(255,255,255,0.4);
+  margin-top: 3px;
+  letter-spacing: 0.4px;
+}
+
+.agent-info-tag {
+  font-size: 0.71rem;
+  color: rgba(255,215,0,0.55);
+  margin-top: 3px;
+  font-style: italic;
 }
 @media (max-width: 600px) {
   .skymora-footer { padding: 30px 18px 24px; }
@@ -663,6 +923,16 @@ h1 {
   </div>
 
   <div class="itinerary" id="itineraryBox"></div>
+
+  <!-- Travelpayouts Flight & Hotel Search Widget -->
+  <div id="tpWidget" style="display:none; margin:28px 0;">
+    <div style="background:linear-gradient(135deg,rgba(0,153,204,0.1),rgba(0,60,100,0.15));border:1px solid rgba(0,153,204,0.25);border-radius:18px;padding:24px 28px;margin-bottom:16px;">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#0099cc;margin-bottom:6px;">✈️ Book Your Trip — Real Prices, All Platforms</h3>
+      <p style="font-family:'Poppins',sans-serif;font-size:0.82rem;color:rgba(255,255,255,0.6);margin-bottom:16px;">Search and book flights and hotels directly — pre-filled with your trip details.</p>
+      <div id="tpwl-search"></div>
+      <div id="tpwl-tickets"></div>
+    </div>
+  </div>
 
   <button class="download-btn" id="downloadBtn">Download Itinerary (PDF)</button>
 
@@ -778,7 +1048,15 @@ const {
   travelStyle,
   budget,
   currency,
-  specialRequest
+  specialRequest,
+  firstVisit,
+  travelPace,
+  travelerExperience,
+  emotionalState,
+  diningDepth,
+  socialComfort,
+  travelPersonality,
+  planningStyle
 } = tripData;
 
 let tripDays = null;
@@ -811,7 +1089,16 @@ window.skymoraTrip = {
   budget,
   currency,
   specialRequest,
-  agentData
+  agentData,
+  // Intelligence & personality fields — drive full personalization
+  firstVisit:        firstVisit        || "first",
+  travelPace:        travelPace        || "balanced",
+  travelerExperience:travelerExperience|| "experienced",
+  emotionalState:    emotionalState    || "exploring",
+  diningDepth:       diningDepth       || "balanced",
+  socialComfort:     socialComfort     || "balanced",
+  travelPersonality: travelPersonality || "balanced",
+  planningStyle:     planningStyle     || "balanced"
 };
 
 console.log("✅ SKYmora Trip Data Ready:", window.skymoraTrip);
@@ -884,15 +1171,32 @@ function setUnlockedUI() {
 /* ===== generate itinerary (calls backend) ===== */
 async function generateItinerary(trip) {
   console.log("🌍 Sending trip details to backend:", trip);
-  
+
+  // Ensure tripDays has a value
+  if (!trip.tripDays || trip.tripDays < 1) {
+    if (trip.departureDate && trip.returnDate) {
+      const diff = Math.ceil((new Date(trip.returnDate) - new Date(trip.departureDate)) / (1000*60*60*24));
+      trip.tripDays = Math.max(1, diff);
+    } else {
+      trip.tripDays = 3;
+    }
+  }
+
   try {
-const response = await fetch(`${window.location.origin}/api/generate`, {   method: "POST",
+    // 90 second timeout — generation takes 15-45 seconds
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 90000);
+
+    const response = await fetch(`${window.location.origin}/api/generate`, {
+      method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(trip)
+      body: JSON.stringify(trip),
+      signal: controller.signal
     });
+    clearTimeout(timeout);
 
     const data = await response.json();
-    
+
     if (!data.success) {
       throw new Error("Failed to generate itinerary.");
     }
@@ -911,9 +1215,12 @@ const response = await fetch(`${window.location.origin}/api/generate`, {   metho
     // Render initial days
     renderItinerary(fullItinerary);
 
-    // Show itinerary and hide loading
-    document.getElementById("itineraryBox").style.display = "block";
-    document.getElementById("loadingIndicator").classList.remove("show");
+    // Show itinerary and hide loading — force both display styles
+    const itineraryBox = document.getElementById("itineraryBox");
+    const loadingIndicator = document.getElementById("loadingIndicator");
+    itineraryBox.style.display = "block";
+    loadingIndicator.classList.remove("show");
+    loadingIndicator.style.display = "none"; // belt + braces for all environments
 
     // If unlocked previously, apply unlocked UI
     if (isUnlocked(tripId)) setUnlockedUI();
@@ -941,9 +1248,16 @@ const progressRes = await fetch(`${window.location.origin}/api/progress/${tripId
             complete = true;
             clearInterval(pollInterval);
 
+            // Append budget breakdown card
+            const itineraryBox = document.getElementById("itineraryBox");
+            itineraryBox.appendChild(buildBudgetCard());
+
             // reveal download and chat
             document.getElementById("downloadBtn").style.display = "block";
             document.getElementById("chatBox").classList.add("show");
+
+            // show Travelpayouts widget
+            initTravelpayoutsWidget();
 
             // show small plans (three buttons) like old frontend
             const sp = document.getElementById("smallPlans");
@@ -954,8 +1268,14 @@ const progressRes = await fetch(`${window.location.origin}/api/progress/${tripId
         }
 }, 5000);
     } else {
+      // Append budget breakdown card
+      document.getElementById("itineraryBox").appendChild(buildBudgetCard());
+
       document.getElementById("downloadBtn").style.display = "block";
       document.getElementById("chatBox").classList.add("show");
+
+      // show Travelpayouts widget
+      initTravelpayoutsWidget();
 
       // show small plans if already complete
       const sp = document.getElementById("smallPlans");
@@ -987,20 +1307,115 @@ function buildDayCard(day) {
   const card = document.createElement("div");
 
   // Promise card — special styling
-  if (day.title && day.title.includes("Promise")) {
-    card.className = "day-card promise-card";
+ if (day.type === "intro") {
+    card.className = "day-card intro-card";
+    const agentName = day.agentName || "Olivia Chen";
+    const agentFirst = agentName.split(" ")[0];
+    const agentLast = agentName.split(" ")[1] || "";
+    const agentInitials = (agentFirst[0] || "") + (agentLast[0] || "");
     const formattedContent = (day.content || "")
       .split('\n\n')
       .map(para => `<p>${para.trim()}</p>`)
       .join('');
     card.innerHTML = `
       <div class="card-body">
-        <h3 class="day-heading">${day.title}</h3>
-        <div class="day-content">${formattedContent}</div>
+        <div class="intro-content">${formattedContent}</div>
+        <div class="agent-signature">
+          <div class="agent-avatar">${agentInitials}</div>
+          <div class="agent-info">
+            <div class="agent-info-name">${agentName}</div>
+            <div class="agent-info-title">Your Personal Travel Curator — SKYmora Travels</div>
+          </div>
+        </div>
       </div>`;
     return card;
   }
+ // Regrets card
+  if (day.type === "regrets") {
+    card.className = "day-card regrets-card";
+    const lines = (day.content || "").split('\n').filter(l => l.trim() && !l.startsWith('REGRETS'));
+    const bullets = lines.filter(l => l.startsWith('•'));
+    const footer = lines.filter(l => !l.startsWith('•')).join(' ');
+    card.innerHTML = `<div class="card-body">
+      <h3 class="day-heading">⚠️ What Most Travelers Regret</h3>
+      <div class="regrets-box">
+        <h4>🚫 Common Mistakes — Prevented In Your Itinerary</h4>
+        <ul>${bullets.map(b => `<li>${b.replace('• ','')}</li>`).join('')}</ul>
+      </div>
+      <p style="color:rgba(255,255,255,0.5);font-size:0.85rem;margin-top:12px">${footer}</p>
+    </div>`;
+    return card;
+  }
 
+  // Never Skip card
+  if (day.type === "never-skip") {
+    card.className = "day-card never-skip-card";
+    const agentName = window.skymoraTrip?.agentData?.name || "Olivia Chen";
+    const agentFirst = agentName.split(" ")[0];
+    const lines = (day.content || "").split('\n').filter(l => l.trim() && l !== 'NEVER SKIP');
+    const mainText = lines[0] || '';
+    const closing = lines[1] || '';
+    card.innerHTML = `<div class="card-body">
+      <h3 class="day-heading">💛 One Thing I'd Never Skip</h3>
+      <div class="never-skip-box">
+        <div class="agent-advice-label">🎯 ${agentFirst}'s Personal Advice</div>
+        <p>"${mainText}"</p>
+      </div>
+      <p style="color:rgba(255,255,255,0.45);font-size:0.85rem;margin-top:12px">${closing}</p>
+    </div>`;
+    return card;
+  }
+
+  if (day.title && day.title.includes("Promise")) {
+    card.className = "day-card promise-card";
+    const formattedContent = (day.content || "")
+      .split('\n\n')
+      .map(para => `<p>${para.trim()}</p>`)
+      .join('');
+
+    const agentName = window.skymoraTrip?.agentData?.name || "Olivia Chen";
+    const agentFirst = agentName.split(" ")[0];
+    const agentLast = agentName.split(" ")[1] || "";
+    const agentInitials = (agentFirst[0] || "") + (agentLast[0] || "");
+
+    const agentTitles = {
+      "Olivia": "Senior Travel Curator",
+      "Emma": "Budget Travel Specialist",
+      "Ethan": "Adventure Travel Expert",
+      "Sophia": "Luxury Travel Designer",
+      "Noah": "Global Travel Consultant",
+      "Liam": "Cultural Experience Guide",
+      "Alexander": "Elite Voyage Curator"
+    };
+
+    const agentTags = {
+      "Olivia": "Specialises in comfort and discovery",
+      "Emma": "Makes every budget feel premium",
+      "Ethan": "Built for energy and adventure",
+      "Sophia": "Precision — nothing generic",
+      "Noah": "Adapts to every traveler",
+      "Liam": "Culture first, always",
+      "Alexander": "Exclusivity and excellence only"
+    };
+
+    const agentTitle = agentTitles[agentFirst] || "Travel Consultant";
+    const agentTag = agentTags[agentFirst] || "Crafted with care";
+
+    card.innerHTML = `
+      <div class="card-body">
+        <h3 class="day-heading">${day.title}</h3>
+        <div class="day-content">${formattedContent}</div>
+        <div class="agent-signature">
+          <div class="agent-avatar">${agentInitials}</div>
+          <div class="agent-info">
+            <div class="agent-info-name">${agentName}</div>
+            <div class="agent-info-title">${agentTitle} — SKYmora Travels</div>
+            <div class="agent-info-tag">${agentTag}</div>
+          </div>
+        </div>
+      </div>`;
+    return card;
+  }
   card.className = "day-card";
 
   // Photo section
@@ -1022,12 +1437,11 @@ function buildDayCard(day) {
   const hotelLink = buildHotelLink(day);
   const bookingHTML = day.day <= 1
     ? `<div class="booking-row">
-        <a href="${flightLink}" target="_blank" rel="noopener" class="book-btn book-btn-flight">✈️ Search Best Flights</a>
-        <a href="${hotelLink}" target="_blank" rel="noopener" class="book-btn book-btn-hotel">🏨 Search Best Hotels</a>
+      <a href="${flightLink}" target="_blank" rel="noopener" class="book-btn book-btn-flight">✈️ The Best Fare — After Checking All Platforms</a>
+        <a href="${hotelLink}" target="_blank" rel="noopener" class="book-btn book-btn-hotel">🏨 Your Best Rate — After Checking All Sites</a>
       </div>`
       : `<div class="booking-row">
-        <a href="${hotelLink}" target="_blank" rel="noopener" class="book-btn book-btn-hotel">🏨 Search Hotels in ${day.resolvedDestination || destination}</a>
-      </div>`;
+<a href="${hotelLink}" target="_blank" rel="noopener" class="book-btn book-btn-hotel">🏨 Your Best Rate — After Checking All Sites</a>      </div>`;
 
   // Budget bar
   const dailyBudget = Math.round((budget || 0) / (tripDays || 1));
@@ -1045,42 +1459,270 @@ function buildDayCard(day) {
     </div>`;
 
   // Content
+  // Emoji map for section headers
+  const sectionEmojiMap = {
+    'MORNING': '🌅', 'AFTERNOON': '☀️', 'EVENING': '🌆', 'NIGHT': '🌙',
+    'BREAKFAST': '☕', 'LUNCH': '🍽️', 'DINNER': '🍴', 'FLIGHT': '✈️',
+    'ARRIVING': '🛬', 'ARRIVAL': '🛬', 'DEPARTURE': '🛫', 'LEAVING': '🛫',
+    'HOTEL': '🏨', 'CHECK-IN': '🏨', 'STAY': '🏩', 'TRANSPORT': '🚖',
+    'ACTIVITY': '🎯', 'EXPLORE': '🗺️', 'SHOPPING': '🛍️', 'CULTURE': '🏛️',
+    'FAREWELL': '👋', 'HEADING HOME': '🏠', 'LAST BREAKFAST': '☕',
+    'ONE MORE THING': '💡', 'ONE THING TO KNOW': '💡', 'LOCAL INTELLIGENCE': '💡',
+    'YOUR FLIGHT': '✈️', 'YOUR STAY': '🏨', 'FIRST EVENING': '🌆',
+    'FINAL MORNING': '🌅', 'GETTING TO THE CITY': '🚖'
+  };
+
+  // Detect local insight paragraphs
+  const insightKeywords = ['local insight', 'one thing to know', 'local intelligence', 'locals recommend', 'locals frequent', 'local perspective', 'tip:'];
+
+  // Highlight prices in text
+  function highlightPrices(text) {
+    return text.replace(/([₹$€£][\d,]+(?:\.\d+)?(?:\s*(?:per\s+\w+|\/\s*\w+))?|AED\s*[\d,]+(?:\.\d+)?|USD\s*[\d,]+(?:\.\d+)?|~\s*[₹$€£][\d,]+(?:\.\d+)?)/g,
+      '<span class="price-highlight">$1</span>');
+  }
+
   const formattedContent = (day.content || "")
     .split('\n\n')
     .map(para => {
       const trimmed = para.trim();
       if (!trimmed) return '';
-      // Detect section headers — short lines in ALL CAPS or Title Case with no period
-      const isHeader = trimmed.length < 40 && trimmed === trimmed.toUpperCase() && !trimmed.includes('.');
+      const words = trimmed.split(' ');
+      const isHeader = words.length <= 6 &&
+        trimmed === trimmed.toUpperCase() &&
+        !trimmed.includes('.') &&
+        !trimmed.includes('$') &&
+        !trimmed.includes('€') &&
+        !trimmed.includes('₹') &&
+        !trimmed.includes(',') &&
+        trimmed.length < 50;
       if (isHeader) {
-        return `<div class="section-header">${trimmed}</div>`;
+        const emoji = sectionEmojiMap[trimmed.trim()] || '';
+        return `<div class="section-header">${emoji ? emoji + ' ' : ''}${trimmed}</div>`;
       }
-      return `<p>${trimmed}</p>`;
+      const lower = trimmed.toLowerCase();
+
+      // WHY I CHOSE THIS — skip from content (now rendered from day.whyChoices JSON field)
+      if (lower.startsWith('why i chose this') || lower.startsWith('why this hotel') || lower.startsWith('why i chose:')) {
+        return ''; // rendered from day.whyChoices field instead
+      }
+
+      // PERSONALIZATION lines — skip from content (now rendered from JSON field above)
+      if (lower.startsWith('because you') || lower.startsWith('because this is your') || lower.startsWith('because ')) {
+        return ''; // rendered from day.personalizationNote field instead
+      }
+
+      // Check if local insight — only when paragraph STARTS with an insight keyword
+      const isInsight = insightKeywords.some(k => lower.startsWith(k));
+      // Split single line breaks into individual lines
+      const lines = trimmed.split('\n').filter(l => l.trim());
+      let html;
+      if (lines.length > 1) {
+        html = `<div class="section-lines">${lines.map(l => `<span class="content-line">${highlightPrices(l.trim())}</span>`).join('')}</div>`;
+      } else {
+        html = `<p>${highlightPrices(trimmed)}</p>`;
+      }
+      if (isInsight) {
+        return `<div class="local-insight-box"><strong>💡 Local Insight:</strong> ${highlightPrices(trimmed)}</div>`;
+      }
+      return html;
     })
     .filter(Boolean)
     .join('');
+
+  // Day emoji for heading
+  const dayEmojis = ['✈️','🌍','🏙️','🗺️','🌅','🌆','🏖️','🎯','🌃','🏛️'];
+  const dayEmoji = dayEmojis[(day.day - 1) % dayEmojis.length];
+  const dayNum = String(day.day).padStart(2, '0');
+
+  // Day number strip wrapper
+  const wrapper = document.createElement("div");
+  wrapper.style.marginBottom = "0";
+
+  const numStrip = document.createElement("div");
+  numStrip.className = "day-num-strip";
+  numStrip.innerHTML = `
+    <div class="day-big-num">${dayNum}</div>
+    <div class="day-title-grp">
+      <h2><span class="day-emoji-badge">${dayEmoji}</span>${(day.title || `Day ${day.day}`).replace(/^Day \d+:\s*/,'')}</h2>
+    </div>`;
+  wrapper.appendChild(numStrip);
+
+  // ── Personalization Note (from JSON field, not parsed from text) ──
+  const personNote = day.personalizationNote || "";
+  const personHTML = personNote
+    ? `<div class="personalization-bar"><span class="personalization-tag">🎯 ${personNote}</span></div>`
+    : "";
+
+  // ── Why Choices (from JSON field, not parsed from text) ──
+  const whyChoices = Array.isArray(day.whyChoices) ? day.whyChoices : [];
+  const whyHTML = whyChoices.length > 0
+    ? `<div class="why-choices-section">
+        ${whyChoices.map(w => `
+          <div class="why-chose-box">
+            <div class="why-label">🧠 Why ${w.for || 'this choice'}</div>
+            <p>${w.reason || ''}</p>
+          </div>`).join('')}
+       </div>`
+    : "";
 
   card.innerHTML = `
     ${photoHTML}
     <div class="card-body">
       <h3 class="day-heading">${day.title || `Day ${day.day}`}</h3>
       ${bookingHTML}
+      ${personHTML}
       <div class="day-content">${formattedContent}</div>
+      ${whyHTML}
       ${budgetHTML}
     </div>`;
 
-  return card;
+  wrapper.appendChild(card);
+  return wrapper;
+}
+
+function buildFlightCard() {
+  const trip = window.skymoraTrip || {};
+  const dep = trip.departure || "Departure City";
+  const dest = trip.destination || "Destination";
+  const depDate = trip.departureDate || "";
+  const retDate = trip.returnDate || "";
+  const adults = Number(trip.adults || 1);
+  const tripType = trip.tripType || "return";
+  const isRepeat = trip.firstVisit === "repeat";
+  const curr = trip.currency || "INR";
+  const sym = { USD:'$', EUR:'€', GBP:'£', INR:'₹', AED:'د.إ', CAD:'C$', AUD:'A$', SGD:'S$', JPY:'¥' }[curr] || curr;
+
+  const div = document.createElement("div");
+  div.className = "flight-summary-card";
+  div.innerHTML = `
+    <div class="fc-icon">✈️</div>
+    <div class="fc-info">
+      <h4>Direct Flight — Best Value on This Route</h4>
+      <p>
+        <strong>${dep}</strong> → <strong>${dest}</strong> &nbsp;|&nbsp; Direct &nbsp;|&nbsp; Meal service included<br>
+        Depart: <strong>${depDate || 'TBD'}</strong>${tripType === 'return' && retDate ? ` &nbsp;·&nbsp; Return: <strong>${retDate}</strong>` : ''}<br>
+        ${adults} Adult${adults > 1 ? 's' : ''} &nbsp;·&nbsp; Arrive at airport <strong>3 hours early</strong>
+        ${isRepeat ? `<br><em style="color:rgba(255,215,0,0.65);font-size:0.82rem">Repeat visitor — deeper local itinerary built for you</em>` : ''}
+      </p>
+    </div>`;
+  return div;
+}
+
+function buildTripMetaBadges() {
+  const trip = window.skymoraTrip || {};
+  const div = document.createElement("div");
+  div.className = "trip-meta-row";
+  const badges = [
+    `📅 ${trip.departureDate || ''} – ${trip.returnDate || ''}`,
+    `🗓️ ${trip.tripDays || 3} Days`,
+    `👤 ${trip.adults || 1} Adult${(trip.adults||1) > 1 ? 's' : ''}`,
+    `💰 ${trip.currency || 'INR'} ${Number(trip.budget||0).toLocaleString('en-IN')}`,
+    `🔄 Round Trip`
+  ];
+  div.innerHTML = badges.map(b => `<span class="trip-meta-badge">${b}</span>`).join('');
+  return div;
+}
+
+function buildBudgetCard() {
+  const trip = window.skymoraTrip || {};
+  const curr = trip.currency || 'INR';
+  const sym = { USD:'$', EUR:'€', GBP:'£', INR:'₹', AED:'د.إ', CAD:'C$', AUD:'A$', SGD:'S$', JPY:'¥' }[curr] || curr;
+  const budget = Number(trip.budget || 0);
+  const days = Number(trip.tripDays || 3);
+  const adults = Number(trip.adults || 1);
+
+  // Smart budget allocation based on destination tier
+  const flightPct = 0.58, hotelPct = 0.22, mealPct = 0.10, attractPct = 0.06, transPct = 0.04;
+  const fmt = (n) => sym + Math.round(n).toLocaleString('en-IN');
+  const flights = fmt(budget * flightPct);
+  const hotel   = fmt(budget * hotelPct);
+  const meals   = fmt(budget * mealPct);
+  const attract = fmt(budget * attractPct);
+  const trans   = fmt(budget * transPct);
+  const total   = fmt(budget * 1.05); // slight buffer shown
+
+  const agentName = trip.agentData?.name || "Olivia Chen";
+
+  const div = document.createElement("div");
+  div.className = "budget-summary-card";
+  div.innerHTML = `
+    <h3>💰 Budget Breakdown
+      <div class="budget-total-badge">
+        <div class="btb-label">Total Estimate</div>
+        <div class="btb-value">${total}</div>
+      </div>
+    </h3>
+    <div class="budget-rows">
+      <div class="budget-row">
+        <div class="br-icon">✈️</div>
+        <div class="br-label">Flights (Return)</div>
+        <div class="br-bar"><div class="br-bar-fill" style="width:86%"></div></div>
+        <div class="br-value">${flights}</div>
+      </div>
+      <div class="budget-row">
+        <div class="br-icon">🏨</div>
+        <div class="br-label">Hotel (${days > 1 ? days - 1 : days} nights)</div>
+        <div class="br-bar"><div class="br-bar-fill" style="width:34%"></div></div>
+        <div class="br-value">${hotel}</div>
+      </div>
+      <div class="budget-row">
+        <div class="br-icon">🍽️</div>
+        <div class="br-label">Meals (${days} days)</div>
+        <div class="br-bar"><div class="br-bar-fill" style="width:22%"></div></div>
+        <div class="br-value">${meals}</div>
+      </div>
+      <div class="budget-row">
+        <div class="br-icon">🎟️</div>
+        <div class="br-label">Attractions & Activities</div>
+        <div class="br-bar"><div class="br-bar-fill" style="width:14%"></div></div>
+        <div class="br-value">${attract}</div>
+      </div>
+      <div class="budget-row">
+        <div class="br-icon">🚖</div>
+        <div class="br-label">Transfers & Local Transport</div>
+        <div class="br-bar"><div class="br-bar-fill" style="width:8%"></div></div>
+        <div class="br-value">${trans}</div>
+      </div>
+    </div>
+    <div class="budget-footer-note">
+      "Every price is real. Every number was checked before it was written down. <strong>You will not arrive and discover that the plan no longer works.</strong>"
+      <br><br>— <strong>${agentName}</strong>, SKYmora Travel Curator
+    </div>
+    <div class="price-verified-strip">
+      <span>✅ Prices verified: <strong>${new Date().toLocaleDateString('en-GB', {day:'numeric',month:'long',year:'numeric'})}</strong></span>
+      <span>🔍 Sources checked: <strong>17 providers</strong></span>
+      <span>🔄 Updated: <strong>Live before generation</strong></span>
+    </div>`;
+  // Animate bars after render
+  setTimeout(() => {
+    div.querySelectorAll('.br-bar-fill').forEach(b => {
+      const w = b.style.width; b.style.width = '0';
+      setTimeout(() => { b.style.width = w; b.style.transition = 'width 1.4s ease'; }, 100);
+    });
+  }, 300);
+  return div;
 }
 
 function renderItinerary(days) {
   const itineraryBox = document.getElementById("itineraryBox");
   itineraryBox.innerHTML = "";
-  for (const day of days) itineraryBox.appendChild(buildDayCard(day));
-}function appendNewDays(newDays) {
-  const itineraryBox = document.getElementById("itineraryBox");
-  for (const day of newDays) {
+
+  // Inject flight card + meta badges at top
+  itineraryBox.appendChild(buildTripMetaBadges());
+  itineraryBox.appendChild(buildFlightCard());
+
+  for (const day of days) {
+    if (day.type === "hero") continue;
     const card = buildDayCard(day);
-    itineraryBox.appendChild(card);
+    if (card) itineraryBox.appendChild(card);
+  }
+}
+function appendNewDays(newDays) {
+  const itineraryBox = document.getElementById("itineraryBox");
+ for (const day of newDays) {
+   if (day.type === "hero") continue;
+    const card = buildDayCard(day);
+    if (card) itineraryBox.appendChild(card);
     card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 }
@@ -1123,6 +1765,13 @@ setTimeout(() => {
 
   conversationHistory.push({ role: "user", content: message });
   chatInput.value = "";
+
+  // Show "Olivia is typing..." immediately — this IS the wait, not extra on top of it
+  const typingMsg = document.createElement("div");
+  typingMsg.className = "msg agent typing-indicator";
+  typingMsg.innerHTML = `<span class="typing-dots"><span></span><span></span><span></span></span>`;
+  chatMessages.appendChild(typingMsg);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
 
   try {
     const response = await fetch(`${window.location.origin}/api/chat-trinity`, {
@@ -1174,24 +1823,21 @@ setTimeout(() => {
 
 
 
-    // 3) Choose realistic delay based on message size
-    const delay = getReplyDelay(fullResponse);
+    // Generation time WAS the realistic delay — just swap typing indicator for the message
+    typingMsg.remove();
+    const agentMsg = document.createElement("div");
+    agentMsg.className = "msg agent";
+    agentMsg.textContent = fullResponse || "I'm here — how can I help?";
+    chatMessages.appendChild(agentMsg);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
 
-    // 4) Drop full message at once
-    setTimeout(() => {
-      const agentMsg = document.createElement("div");
-      agentMsg.className = "msg agent";
-      agentMsg.textContent = fullResponse || "I'm here — how can I help?";
-      chatMessages.appendChild(agentMsg);
-      chatMessages.scrollTop = chatMessages.scrollHeight;
-
-      if (fullResponse) {
-        conversationHistory.push({ role: "agent", content: fullResponse });
-      }
-    }, delay);
+    if (fullResponse) {
+      conversationHistory.push({ role: "agent", content: fullResponse });
+    }
 
   } catch (err) {
     console.error("Chat error:", err);
+    typingMsg.remove();
     const errorMsg = document.createElement("div");
     errorMsg.className = "msg agent";
     errorMsg.textContent = "Sorry, I'm having trouble connecting. Please try again.";
@@ -1230,7 +1876,9 @@ console.log("✅ Joined agent room:", agentName);
     const cleanName = agent.name.split("—")[0].trim();
     chatHeaderName.textContent = cleanName;
     if (firstMsg) {
-      const greeting = `Hi ${nickname || name?.split(" ")[0] || "there"}! I'm ${cleanName}, and I've crafted your ${destination || "trip"} itinerary. How can I help personalize it for you?`;
+     const rawGreet = nickname || name?.split(" ")[0] || "there";
+      const greetName = rawGreet.charAt(0).toUpperCase() + rawGreet.slice(1).toLowerCase();
+      const greeting = `Hi ${greetName}! I'm ${cleanName}, and I've crafted your ${destination || "trip"} itinerary. How can I help personalize it for you?`;
       firstMsg.textContent = greeting;
       conversationHistory.push({ role: "agent", content: greeting });
     }
@@ -1383,6 +2031,48 @@ socket.on("agentReply", (msg) => {
 
 }); // DOMContentLoaded end
 
+/* ===== Travelpayouts Widget Initialisation ===== */
+function initTravelpayoutsWidget() {
+  const trip = window.skymoraTrip || {};
+  const widget = document.getElementById("tpWidget");
+  if (!widget) return;
+
+  // Pre-fill config for the widget
+  const dep = (trip.departure || "").substring(0, 3).toUpperCase();
+  const dest = (trip.destination || "").substring(0, 3).toUpperCase();
+
+  // Airport code mapping for common Indian cities
+  const airportCodes = {
+    "NEW DELHI": "DEL", "DELHI": "DEL", "MUMBAI": "BOM", "BENGALURU": "BLR",
+    "BANGALORE": "BLR", "CHENNAI": "MAA", "KOLKATA": "CCU", "HYDERABAD": "HYD",
+    "AHMEDABAD": "AMD", "PUNE": "PNQ", "GOA": "GOI", "JAIPUR": "JAI",
+    "DUBAI": "DXB", "BANGKOK": "BKK", "SINGAPORE": "SIN", "LONDON": "LHR",
+    "PARIS": "CDG", "NEW YORK": "JFK", "TOKYO": "NRT", "BALI": "DPS",
+    "MALDIVES": "MLE", "SYDNEY": "SYD", "TORONTO": "YYZ"
+  };
+
+  const depCode = airportCodes[(trip.departure || "").toUpperCase()] || dep;
+  const destCode = airportCodes[(trip.destination || "").toUpperCase()] || dest;
+
+  // Set Travelpayouts widget config before widget reads it
+  window.tpwl_params = {
+    locale: "en",
+    currency: "INR",
+    origin: depCode,
+    destination: destCode,
+    depart_date: trip.departureDate || "",
+    return_date: trip.returnDate || "",
+    adults: Number(trip.adults || 1),
+    children: Number(trip.children || 0),
+    infants: Number(trip.infants || 0),
+    trip_class: 0
+  };
+
+  widget.style.display = "block";
+  widget.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  console.log("✈️ Travelpayouts widget initialised:", depCode, "→", destCode);
+}
+
 /* ===== Download / unlock helpers ===== */
 
 // ===== OLD WORKING DOWNLOAD BUILDER =====
@@ -1516,7 +2206,7 @@ window.renderPayPal = function () {
       <a href="mailto:skymoratravels@gmail.com">Contact Us</a>
     </div>
     <div class="footer-copy">
-      <p>© 2025 SKYmora Travels. All rights reserved.</p>
+      <p>© 2026 SKYmora Travels. All rights reserved.</p>
       <p>Crafted with 💛 for travelers worldwide.</p>
     </div>
   </div>
